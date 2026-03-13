@@ -1,0 +1,88 @@
+:root {
+  --bg: #f7f6f2;
+  --text: #161616;
+  --muted: #555;
+  --line: #d9d5cc;
+  --accent: #1e4a36;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1.25rem;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top right, #ece8dc 0%, var(--bg) 50%);
+}
+
+header h1 {
+  margin: 0 0 0.3rem 0;
+}
+
+header p {
+  margin: 0 0 1rem 0;
+  color: var(--muted);
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.controls label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.35rem;
+}
+
+button {
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+th,
+td {
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line);
+  vertical-align: top;
+  font-size: 0.93rem;
+}
+
+th {
+  text-align: left;
+  background: #f1eee7;
+}
+
+td.title {
+  min-width: 26rem;
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 0.75rem;
+  }
+  td.title {
+    min-width: 14rem;
+  }
+}
