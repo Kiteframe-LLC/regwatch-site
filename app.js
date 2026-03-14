@@ -40,6 +40,13 @@ function relativeCommentEnd(raw) {
   return `${days} days`;
 }
 
+function isCommentOpen(raw) {
+  if (!raw) return true;
+  const end = new Date(raw);
+  if (Number.isNaN(end.getTime())) return true;
+  return end.getTime() > Date.now();
+}
+
 function structuralBandLabel(raw) {
   const map = {
     likely_routine_rule: "Routine Lexicon",
@@ -107,6 +114,7 @@ function applyFilters(records) {
   const agency = document.getElementById("agencyFilter").value.trim().toLowerCase();
   const minScore = Number(document.getElementById("minScore").value || 0);
   return records.filter((r) => {
+    if (!isCommentOpen(r.comment_end_date)) return false;
     const agencyOk =
       !agency ||
       (r.agency_id || "").toLowerCase().includes(agency) ||
