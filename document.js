@@ -79,7 +79,11 @@ function attachmentRow(doc) {
 
 function detailHtml(d) {
   const docId = d.document_id || "";
-  const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(docId)}`;
+  const subjectId = d.subject_document_id || d.summary_source_document_id || docId;
+  const scoreSourceId = d.score_source_document_id || docId;
+  const commentId = d.comment_document_id || docId;
+  const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(commentId)}`;
+  const docUrl = `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`;
   const summaryUrl = d.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
   const analysisUrl = d.raw_summary_available ? `/document/${encodeURIComponent(docId)}/analysis/` : "";
   const override = (window.__overrides && window.__overrides[docId]) || null;
@@ -99,6 +103,21 @@ function detailHtml(d) {
         ${analysisUrl ? `<a class="action-btn" href="${analysisUrl}">Full Analysis</a>` : ""}
       </p>
       <p><strong>Document ID:</strong> ${esc(d.document_id)} | <strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
+      ${
+        subjectId !== docId
+          ? `<p><strong>Substantive Rule ID:</strong> ${esc(subjectId)}</p>`
+          : ""
+      }
+      ${
+        commentId !== docId
+          ? `<p><strong>Comment Notice ID:</strong> ${esc(commentId)}</p>`
+          : ""
+      }
+      ${
+        scoreSourceId !== docId
+          ? `<p><strong>Score Source ID:</strong> ${esc(scoreSourceId)}</p>`
+          : ""
+      }
       <p><strong>Agency:</strong> ${esc(d.agency_name || "")} (${esc(d.agency_id || "")})</p>
       <p><strong>Type:</strong> ${esc(d.document_type || "")} | <strong>Comment End:</strong> ${esc(d.comment_end_date || "")}</p>
       <p><strong>Scores:</strong> pass_1=${esc(d.pass_1_score)} (scaled ${pct5(d.pass_1_scaled)}),
@@ -113,7 +132,7 @@ function detailHtml(d) {
       }
       <p><strong>Structural Risk:</strong> ${esc(structuralBandLabel(d.pass_2_risk_band || ""))}</p>
       <p><strong>Pass 2 Type:</strong> ${esc(d.pass_2_rule_type || "")}</p>
-      <p><a href="https://www.regulations.gov/document/${encodeURIComponent(d.document_id || "")}" target="_blank" rel="noopener noreferrer">Open on Regulations.gov</a></p>
+      <p><a href="${docUrl}" target="_blank" rel="noopener noreferrer">Open Substantive Document on Regulations.gov</a></p>
       <h3>Structural Flags</h3>
       ${flags ? `<ul>${flags}</ul>` : "<p>None</p>"}
       <h3>Rule Text Sources</h3>

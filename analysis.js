@@ -9,8 +9,8 @@ function esc(value) {
 function topLinks(docId) {
   const detail = `/document/${encodeURIComponent(docId)}/`;
   const summary = `/document/${encodeURIComponent(docId)}/summary/`;
-  const docUrl = `https://www.regulations.gov/document/${encodeURIComponent(docId)}`;
-  const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(docId)}`;
+  const docUrl = `https://www.regulations.gov/document/${encodeURIComponent(window.__subjectId || docId)}`;
+  const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(window.__commentId || docId)}`;
   return `
     <p class="inline-actions">
       <a class="action-btn" href="${detail}">Detail</a>
@@ -24,7 +24,12 @@ function topLinks(docId) {
 function renderAnalysis(detail, markdown) {
   const root = document.getElementById("analysisRoot");
   const docId = detail.document_id || "";
-  const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(docId)}`;
+  const subjectId = detail.subject_document_id || detail.summary_source_document_id || docId;
+  const scoreSourceId = detail.score_source_document_id || docId;
+  const commentId = detail.comment_document_id || docId;
+  window.__subjectId = subjectId;
+  window.__commentId = commentId;
+  const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(commentId)}`;
   const htmlBody =
     typeof marked !== "undefined"
       ? marked.parse(markdown || "")
@@ -35,6 +40,21 @@ function renderAnalysis(detail, markdown) {
       <h2>${esc(detail.title || "(untitled)")}</h2>
       ${topLinks(docId)}
       <p><strong>Document ID:</strong> ${esc(detail.document_id || "")}</p>
+      ${
+        subjectId !== docId
+          ? `<p><strong>Substantive Rule ID:</strong> ${esc(subjectId)}</p>`
+          : ""
+      }
+      ${
+        commentId !== docId
+          ? `<p><strong>Comment Notice ID:</strong> ${esc(commentId)}</p>`
+          : ""
+      }
+      ${
+        scoreSourceId !== docId
+          ? `<p><strong>Score Source ID:</strong> ${esc(scoreSourceId)}</p>`
+          : ""
+      }
       <p><strong>Docket ID:</strong> ${esc(detail.docket_id || "")}</p>
       <p><strong>Agency:</strong> ${esc(detail.agency_name || "")} (${esc(detail.agency_id || "")})</p>
     </section>

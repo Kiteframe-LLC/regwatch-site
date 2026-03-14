@@ -67,10 +67,15 @@ function structuralBandLabel(raw) {
 }
 
 function rowHtml(r, override = null) {
-  const docket = r.docket_id ? ` (docket ${r.docket_id})` : "";
   const docId = r.document_id || "";
-  const docUrl = docId ? `https://www.regulations.gov/document/${encodeURIComponent(docId)}` : "";
-  const commentUrl = docId ? `https://www.regulations.gov/commenton/${encodeURIComponent(docId)}` : "";
+  const subjectId = r.subject_document_id || docId;
+  const commentId = r.comment_document_id || docId;
+  const docUrl = subjectId
+    ? `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`
+    : "";
+  const commentUrl = commentId
+    ? `https://www.regulations.gov/commenton/${encodeURIComponent(commentId)}`
+    : "";
   const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/` : "";
   const summaryUrl = r.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
   const analysisUrl = r.raw_summary_available ? `/document/${encodeURIComponent(docId)}/analysis/` : "";
@@ -104,7 +109,7 @@ function rowHtml(r, override = null) {
   return `<tr>
     <td>${pct5(r.combined_score)}</td>
     <td>${r.agency_id || ""}</td>
-    <td>${docId}${docket}</td>
+    <td>${docId}</td>
     <td class="title">${r.title || ""}</td>
     <td>${r.pass_1_score ?? ""}</td>
     <td>${r.pass_2_score ?? ""}</td>
