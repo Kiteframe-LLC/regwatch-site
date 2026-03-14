@@ -26,6 +26,8 @@ git-status:
 
 clean:
 	rm -f data/rules.json
+	rm -f data/overrides.json
 	rm -rf data/documents
+	rm -rf data/summaries
 	rm -rf document
 	mkdir -p data

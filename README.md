@@ -40,3 +40,19 @@ Recommended:
 - folder: `/ (root)`
 
 If using custom domain, add a `CNAME` file at repo root.
+
+## Publish Update
+
+Typical flow from parent repo:
+
+```bash
+make export-site-data
+```
+
+Then in this repo (`regwatch-site`):
+
+```bash
+git add .
+git commit -m "Update site data"
+git push
+```
