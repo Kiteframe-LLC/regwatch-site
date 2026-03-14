@@ -21,6 +21,13 @@ function fmt(value, digits = 3) {
   return Number(value).toFixed(digits);
 }
 
+function pct5(value) {
+  if (value === null || value === undefined) return "";
+  const v = Number(value);
+  if (Number.isNaN(v)) return "";
+  return `${Math.round(v * 20) * 5}%`;
+}
+
 function relativeCommentEnd(raw) {
   if (!raw) return "";
   let end;
@@ -91,7 +98,7 @@ function rowHtml(r, override = null) {
       : `<span class="action-btn disabled">Summary</span>`,
   ].join(" ");
   return `<tr>
-    <td>${fmt(r.combined_score, 6)}</td>
+    <td>${pct5(r.combined_score)}</td>
     <td>${r.agency_id || ""}</td>
     <td>${docId}${docket}</td>
     <td class="title">${r.title || ""}</td>

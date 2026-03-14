@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regulations Observer Methodology</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Methodology (High-Level)</h1>
+      <p class="top-nav"><a href="/">Back to index</a></p>
+    </header>
+
+    <main class="summary-page">
+      <section class="card">
+        <h2>Purpose</h2>
+        <p>
+          This site is a triage tool. It helps identify NPRMs that may merit
+          closer review before comment deadlines.
+        </p>
+      </section>
+
+      <section class="markdown-body">
+        <h2>Scoring Structure</h2>
+        <h3>Pass 1: Metadata/Title Signals</h3>
+        <ul>
+          <li>Agency weighting</li>
+          <li>Title lexicon matches (topic and governance signals)</li>
+          <li>Broad-scope cues (national reach, scale, health, finance)</li>
+        </ul>
+
+        <h3>Pass 2: Full-Text Structural Analysis</h3>
+        <ul>
+          <li>Section and heading detection</li>
+          <li>Rule-type classification (technical/economic/legal/hybrid)</li>
+          <li>Quantification, citation, alternatives, and threshold-language signals</li>
+          <li>Heuristic risk-band assignment</li>
+        </ul>
+
+        <h3>Supporting Record Context</h3>
+        <ul>
+          <li>Docket supporting-material metadata is collected and listed</li>
+          <li>Attachment files are not downloaded for scoring</li>
+        </ul>
+
+        <h2>Display Conventions</h2>
+        <ul>
+          <li>Presentation percentages are rounded to nearest 5%</li>
+          <li>Reviewed overrides may adjust public-facing labels on specific dockets</li>
+          <li>Closed-comment documents are hidden from the index</li>
+        </ul>
+
+        <h2>Limits</h2>
+        <ul>
+          <li>Scores are triage indicators, not legal conclusions</li>
+          <li>A low structural-risk signal does not imply low public significance</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="site-footer">
+      © <span class="current-year"></span>, Kiteframe, L.L.C. -- regs@kiteframe.app
+    </footer>
+    <script src="/footer.js"></script>
+  </body>
+</html>

@@ -28,6 +28,13 @@ function structuralBandLabel(raw) {
   return map[raw] || raw || "";
 }
 
+function pct5(value) {
+  if (value === null || value === undefined) return "";
+  const v = Number(value);
+  if (Number.isNaN(v)) return "";
+  return `${Math.round(v * 20) * 5}%`;
+}
+
 function flagLabel(flag) {
   const map = {
     low_quantification: "Low quantification signal",
@@ -92,9 +99,9 @@ function detailHtml(d) {
       <p><strong>Document ID:</strong> ${esc(d.document_id)} | <strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
       <p><strong>Agency:</strong> ${esc(d.agency_name || "")} (${esc(d.agency_id || "")})</p>
       <p><strong>Type:</strong> ${esc(d.document_type || "")} | <strong>Comment End:</strong> ${esc(d.comment_end_date || "")}</p>
-      <p><strong>Scores:</strong> pass_1=${esc(d.pass_1_score)} (scaled ${Number(d.pass_1_scaled || 0).toFixed(6)}),
-         pass_2=${esc(d.pass_2_score)} (scaled ${Number(d.pass_2_scaled || 0).toFixed(6)}),
-         combined=${Number(d.combined_score || 0).toFixed(6)}</p>
+      <p><strong>Scores:</strong> pass_1=${esc(d.pass_1_score)} (scaled ${pct5(d.pass_1_scaled)}),
+         pass_2=${esc(d.pass_2_score)} (scaled ${pct5(d.pass_2_scaled)}),
+         combined=${pct5(d.combined_score)}</p>
       ${
         override
           ? `<p><strong>Reviewed Significance:</strong> ${esc(override.display_band || "")}

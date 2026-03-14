@@ -27,6 +27,10 @@ header p {
   color: var(--muted);
 }
 
+.top-nav {
+  margin: 0.2rem 0 0.5rem 0;
+}
+
 .controls {
   display: flex;
   gap: 1rem;
@@ -88,6 +92,22 @@ td.title {
   border-left: 6px solid var(--accent);
   padding: 0.9rem 1rem;
   margin-bottom: 1rem;
+}
+
+.orientation {
+  border-left-color: #315f9e;
+}
+
+.orientation .tip {
+  margin-top: 0.6rem;
+}
+
+.site-footer {
+  margin-top: 1.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.88rem;
 }
 
 a {
