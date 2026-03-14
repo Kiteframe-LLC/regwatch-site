@@ -1,6 +1,6 @@
 # regwatch-site
 
-Static public site for publishing selected RegWatch outputs via GitHub Pages.
+Static public site for publishing selected Regulations Observer outputs via GitHub Pages.
 
 ## Local preview
 
