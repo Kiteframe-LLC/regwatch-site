@@ -22,6 +22,11 @@ From parent repo root:
 python export_site_data.py --input data/step1_candidates.json --output regwatch-site/data/rules.json
 ```
 
+This export also generates:
+
+- per-document route stubs at `/document/<document-id>/`
+- per-document metadata payloads at `/data/documents/<document-id>.json`
+
 ## GitHub Pages
 
 Recommended:

@@ -78,6 +78,32 @@ td.title {
   min-width: 26rem;
 }
 
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--accent);
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #134f8a;
+}
+
+.comment-btn {
+  display: inline-block;
+  background: #165ec9;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.35rem;
+  font-weight: 600;
+}
+
+.comment-btn:hover {
+  background: #0f4fae;
+}
+
 @media (max-width: 900px) {
   body {
     padding: 0.75rem;

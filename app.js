@@ -13,11 +13,21 @@ function fmt(value, digits = 3) {
 
 function rowHtml(r) {
   const docket = r.docket_id ? ` (docket ${r.docket_id})` : "";
+  const docId = r.document_id || "";
+  const docUrl = docId ? `https://www.regulations.gov/document/${encodeURIComponent(docId)}` : "";
+  const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/` : "";
+  const docLink = docUrl
+    ? `<a href="${docUrl}" target="_blank" rel="noopener noreferrer">${docId}</a>`
+    : "";
+  const title = r.title || "";
+  const titleCell = detailUrl
+    ? `<a href="${detailUrl}">${title}</a>`
+    : title;
   return `<tr>
     <td>${fmt(r.combined_score, 6)}</td>
     <td>${r.agency_id || ""}</td>
-    <td>${r.document_id || ""}${docket}</td>
-    <td class="title">${r.title || ""}</td>
+    <td>${docLink}${docket}</td>
+    <td class="title">${titleCell}</td>
     <td>${r.pass_1_score ?? ""}</td>
     <td>${r.pass_2_score ?? ""}</td>
     <td>${r.pass_2_risk_band || ""}</td>
