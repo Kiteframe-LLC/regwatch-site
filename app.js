@@ -73,6 +73,7 @@ function rowHtml(r, override = null) {
   const commentUrl = docId ? `https://www.regulations.gov/commenton/${encodeURIComponent(docId)}` : "";
   const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/` : "";
   const summaryUrl = r.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
+  const analysisUrl = r.raw_summary_available ? `/document/${encodeURIComponent(docId)}/analysis/` : "";
   const displayBand = override?.display_band || "";
   const reviewStatus = override?.review_status || "";
   const note = override?.note || "";
@@ -96,6 +97,9 @@ function rowHtml(r, override = null) {
     summaryUrl
       ? `<a class="action-btn" href="${summaryUrl}" target="_blank" rel="noopener noreferrer">Summary</a>`
       : `<span class="action-btn disabled">Summary</span>`,
+    analysisUrl
+      ? `<a class="action-btn" href="${analysisUrl}" target="_blank" rel="noopener noreferrer">Analysis</a>`
+      : `<span class="action-btn disabled">Analysis</span>`,
   ].join(" ");
   return `<tr>
     <td>${pct5(r.combined_score)}</td>

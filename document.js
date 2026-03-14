@@ -81,6 +81,7 @@ function detailHtml(d) {
   const docId = d.document_id || "";
   const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(docId)}`;
   const summaryUrl = d.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
+  const analysisUrl = d.raw_summary_available ? `/document/${encodeURIComponent(docId)}/analysis/` : "";
   const override = (window.__overrides && window.__overrides[docId]) || null;
   const flags = (d.pass_2_flags || []).map((f) => `<li>${esc(flagLabel(f))}</li>`).join("");
   const sources = (d.rule_text_sources || [])
@@ -95,6 +96,7 @@ function detailHtml(d) {
       <p class="inline-actions">
         <a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">Comment on this NPRM</a>
         ${summaryUrl ? `<a class="action-btn" href="${summaryUrl}">Summary</a>` : ""}
+        ${analysisUrl ? `<a class="action-btn" href="${analysisUrl}">Full Analysis</a>` : ""}
       </p>
       <p><strong>Document ID:</strong> ${esc(d.document_id)} | <strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
       <p><strong>Agency:</strong> ${esc(d.agency_name || "")} (${esc(d.agency_id || "")})</p>
