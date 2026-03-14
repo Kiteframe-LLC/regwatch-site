@@ -1,8 +1,8 @@
-PYTHON ?= python
+PYTHON ?= poetry run python
 PORT ?= 8000
 DATA_FILE ?= data/rules.json
 
-.PHONY: help serve check-data check git-status
+.PHONY: help serve check-data check git-status clean
 
 help:
 	@echo "regwatch-site Makefile targets"
@@ -10,6 +10,7 @@ help:
 	@echo "  make check-data       - Validate data/rules.json shape"
 	@echo "  make check            - Run data check"
 	@echo "  make git-status       - Show site repo status"
+	@echo "  make clean            - Remove generated site data/routes"
 
 serve:
 	$(PYTHON) -m http.server "$(PORT)"
@@ -22,3 +23,9 @@ check: check-data
 
 git-status:
 	git status -sb
+
+clean:
+	rm -f data/rules.json
+	rm -rf data/documents
+	rm -rf document
+	mkdir -p data

@@ -78,6 +78,10 @@ td.title {
   min-width: 26rem;
 }
 
+.actions {
+  min-width: 15rem;
+}
+
 .card {
   background: #fff;
   border: 1px solid var(--line);
@@ -104,11 +108,113 @@ a {
   background: #0f4fae;
 }
 
+.action-btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid #8aa9d2;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-size: 0.82rem;
+  color: #113f78;
+  background: #edf3fc;
+}
+
+.action-btn:hover {
+  background: #dfeafb;
+}
+
+.action-btn.disabled {
+  color: #888;
+  border-color: #ccc;
+  background: #f3f3f3;
+  pointer-events: none;
+}
+
+td.actions {
+  min-width: 16rem;
+}
+
+td.actions .action-btn {
+  width: 100%;
+  text-align: center;
+}
+
+td.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem;
+}
+
+.inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.band-primary {
+  font-weight: 700;
+}
+
+.band-secondary {
+  font-size: 0.82rem;
+  color: #555;
+}
+
+.band-note {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.review-pill {
+  display: inline-block;
+  margin-top: 0.2rem;
+  padding: 0.08rem 0.35rem;
+  border-radius: 999px;
+  border: 1px solid #8aa9d2;
+  background: #edf3fc;
+  font-size: 0.72rem;
+  color: #194f86;
+}
+
+.markdown-body {
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 1rem;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+  margin-top: 1rem;
+}
+
+/* Summary pages: narrower reading column on desktop. */
+.summary-page #summaryRoot {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
 @media (max-width: 900px) {
   body {
     padding: 0.75rem;
   }
   td.title {
     min-width: 14rem;
+  }
+  /* Mobile index table: hide score columns + document ID */
+  #rulesTable th:nth-child(1),
+  #rulesTable td:nth-child(1),
+  #rulesTable th:nth-child(3),
+  #rulesTable td:nth-child(3),
+  #rulesTable th:nth-child(5),
+  #rulesTable td:nth-child(5),
+  #rulesTable th:nth-child(6),
+  #rulesTable td:nth-child(6) {
+    display: none;
+  }
+  td.actions {
+    min-width: 10rem;
   }
 }

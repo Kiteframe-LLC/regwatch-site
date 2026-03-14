@@ -6,6 +6,28 @@ function esc(value) {
     .replaceAll(">", "&gt;");
 }
 
+async function loadOverrides() {
+  const res = await fetch("/data/overrides.json", { cache: "no-store" });
+  if (!res.ok) return {};
+  try {
+    return await res.json();
+  } catch {
+    return {};
+  }
+}
+
+function structuralBandLabel(raw) {
+  const map = {
+    likely_routine_rule: "Likely Routine (Structural)",
+    moderate_analytical_concern: "Moderate Concern (Structural)",
+    high_comment_leverage_probability: "High Leverage (Structural)",
+    not_run_fetch_error: "Not Scored (Fetch Error)",
+    skipped_closed_comment_period: "Skipped (Closed Comments)",
+    disabled: "Disabled",
+  };
+  return map[raw] || raw || "";
+}
+
 function flagLabel(flag) {
   const map = {
     low_quantification: "Low quantification signal",
@@ -51,6 +73,8 @@ function attachmentRow(doc) {
 function detailHtml(d) {
   const docId = d.document_id || "";
   const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(docId)}`;
+  const summaryUrl = d.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
+  const override = (window.__overrides && window.__overrides[docId]) || null;
   const flags = (d.pass_2_flags || []).map((f) => `<li>${esc(flagLabel(f))}</li>`).join("");
   const sources = (d.rule_text_sources || [])
     .map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener noreferrer">${esc(s)}</a></li>`)
@@ -61,14 +85,25 @@ function detailHtml(d) {
   return `
     <section class="card">
       <h2>${esc(d.title || "(untitled)")}</h2>
-      <p><a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">Comment on this NPRM</a></p>
+      <p class="inline-actions">
+        <a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">Comment on this NPRM</a>
+        ${summaryUrl ? `<a class="action-btn" href="${summaryUrl}">Summary</a>` : ""}
+      </p>
       <p><strong>Document ID:</strong> ${esc(d.document_id)} | <strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
       <p><strong>Agency:</strong> ${esc(d.agency_name || "")} (${esc(d.agency_id || "")})</p>
       <p><strong>Type:</strong> ${esc(d.document_type || "")} | <strong>Comment End:</strong> ${esc(d.comment_end_date || "")}</p>
       <p><strong>Scores:</strong> pass_1=${esc(d.pass_1_score)} (scaled ${Number(d.pass_1_scaled || 0).toFixed(6)}),
          pass_2=${esc(d.pass_2_score)} (scaled ${Number(d.pass_2_scaled || 0).toFixed(6)}),
          combined=${Number(d.combined_score || 0).toFixed(6)}</p>
-      <p><strong>Pass 2:</strong> ${esc(d.pass_2_rule_type || "")} / ${esc(d.pass_2_risk_band || "")}</p>
+      ${
+        override
+          ? `<p><strong>Reviewed Significance:</strong> ${esc(override.display_band || "")}
+               ${override.review_status ? `<span class="review-pill">${esc(override.review_status)}</span>` : ""}</p>
+             ${override.note ? `<p class="band-note">${esc(override.note)}</p>` : ""}`
+          : ""
+      }
+      <p><strong>Structural Risk:</strong> ${esc(structuralBandLabel(d.pass_2_risk_band || ""))}</p>
+      <p><strong>Pass 2 Type:</strong> ${esc(d.pass_2_rule_type || "")}</p>
       <p><a href="https://www.regulations.gov/document/${encodeURIComponent(d.document_id || "")}" target="_blank" rel="noopener noreferrer">Open on Regulations.gov</a></p>
       <h3>Structural Flags</h3>
       ${flags ? `<ul>${flags}</ul>` : "<p>None</p>"}
@@ -107,7 +142,11 @@ async function main() {
     root.innerHTML = "<p>Missing document id in URL.</p>";
     return;
   }
-  const res = await fetch(`/data/documents/${encodeURIComponent(docId)}.json`, { cache: "no-store" });
+  const [res, overrides] = await Promise.all([
+    fetch(`/data/documents/${encodeURIComponent(docId)}.json`, { cache: "no-store" }),
+    loadOverrides(),
+  ]);
+  window.__overrides = overrides || {};
   if (!res.ok) {
     root.innerHTML = `<p>Could not load detail data for ${esc(docId)}.</p>`;
     return;
