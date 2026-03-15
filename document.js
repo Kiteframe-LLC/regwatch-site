@@ -56,6 +56,11 @@ function flagLabel(flag) {
     epa_missing_cost_per_unit_signal: "EPA-specific cost-per-unit signal missing",
     doe_missing_modeling_signal: "DOE-specific modeling signal missing",
     cms_missing_behavioral_assumptions: "CMS-specific behavioral assumptions missing",
+    deregulatory_carveout_with_thin_support: "Deregulatory carve-out with thin supporting analysis",
+    deregulatory_carveout_signal: "Deregulatory carve-out signal",
+    savings_claim_without_method_support: "Savings claim without method support",
+    unsupported_equivalence_claims: "Equivalence claims appear unsupported",
+    thin_record_cut_corners_cluster: "Clustered thin-record/cut-corners indicators",
   };
   return map[flag] || flag;
 }
@@ -77,15 +82,19 @@ function attachmentRow(doc) {
   </tr>`;
 }
 
-function detailHtml(d) {
+function renderMarkdown(md) {
+  if (!md) return "<p>Not available for this document.</p>";
+  if (typeof marked !== "undefined") return marked.parse(md);
+  return `<pre>${esc(md)}</pre>`;
+}
+
+function detailHtml(d, summaryMd, analysisMd) {
   const docId = d.document_id || "";
   const subjectId = d.subject_document_id || d.summary_source_document_id || docId;
   const scoreSourceId = d.score_source_document_id || docId;
   const commentId = d.comment_document_id || docId;
   const commentUrl = `https://www.regulations.gov/commenton/${encodeURIComponent(commentId)}`;
   const docUrl = `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`;
-  const summaryUrl = d.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
-  const analysisUrl = d.raw_summary_available ? `/document/${encodeURIComponent(docId)}/analysis/` : "";
   const override = (window.__overrides && window.__overrides[docId]) || null;
   const flags = (d.pass_2_flags || []).map((f) => `<li>${esc(flagLabel(f))}</li>`).join("");
   const sources = (d.rule_text_sources || [])
@@ -93,73 +102,113 @@ function detailHtml(d) {
     .join("");
   const attachments = d.supporting_related_material || [];
   const attachmentRows = attachments.map(attachmentRow).join("");
+  const hasSummary = Boolean(d.summary_available && summaryMd);
+  const hasAnalysis = Boolean(d.raw_summary_available && analysisMd);
+  const summaryBody = renderMarkdown(summaryMd);
+  const analysisBody = renderMarkdown(analysisMd);
 
   return `
     <section class="card">
       <h2>${esc(d.title || "(untitled)")}</h2>
       <p class="inline-actions">
         <a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">Comment on this NPRM</a>
-        ${summaryUrl ? `<a class="action-btn" href="${summaryUrl}">Summary</a>` : ""}
-        ${analysisUrl ? `<a class="action-btn" href="${analysisUrl}">Full Analysis</a>` : ""}
       </p>
-      <p><strong>Document ID:</strong> ${esc(d.document_id)} | <strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
-      ${
-        subjectId !== docId
-          ? `<p><strong>Substantive Rule ID:</strong> ${esc(subjectId)}</p>`
-          : ""
-      }
-      ${
-        commentId !== docId
-          ? `<p><strong>Comment Notice ID:</strong> ${esc(commentId)}</p>`
-          : ""
-      }
-      ${
-        scoreSourceId !== docId
-          ? `<p><strong>Score Source ID:</strong> ${esc(scoreSourceId)}</p>`
-          : ""
-      }
-      <p><strong>Agency:</strong> ${esc(d.agency_name || "")} (${esc(d.agency_id || "")})</p>
-      <p><strong>Type:</strong> ${esc(d.document_type || "")} | <strong>Comment End:</strong> ${esc(d.comment_end_date || "")}</p>
-      <p><strong>Scores:</strong> pass_1=${esc(d.pass_1_score)} (scaled ${pct5(d.pass_1_scaled)}),
-         pass_2=${esc(d.pass_2_score)} (scaled ${pct5(d.pass_2_scaled)}),
-         combined=${pct5(d.combined_score)}</p>
-      ${
-        override
-          ? `<p><strong>Reviewed Significance:</strong> ${esc(override.display_band || "")}
-               ${override.review_status ? `<span class="review-pill">${esc(override.review_status)}</span>` : ""}</p>
-             ${override.note ? `<p class="band-note">${esc(override.note)}</p>` : ""}`
-          : ""
-      }
-      <p><strong>Structural Risk:</strong> ${esc(structuralBandLabel(d.pass_2_risk_band || ""))}</p>
-      <p><strong>Pass 2 Type:</strong> ${esc(d.pass_2_rule_type || "")}</p>
       <p><a href="${docUrl}" target="_blank" rel="noopener noreferrer">Open Substantive Document on Regulations.gov</a></p>
-      <h3>Structural Flags</h3>
-      ${flags ? `<ul>${flags}</ul>` : "<p>None</p>"}
-      <h3>Rule Text Sources</h3>
-      ${sources ? `<ul>${sources}</ul>` : "<p>None</p>"}
     </section>
+    <section class="tabs">
+      <div class="tab-list" role="tablist" aria-label="Document sections">
+        <button type="button" class="tab-btn is-active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
+        <button type="button" class="tab-btn ${hasSummary ? "" : "is-disabled"}" data-tab="summary" role="tab" aria-selected="false" ${hasSummary ? "" : "disabled"}>Summary</button>
+        <button type="button" class="tab-btn ${hasAnalysis ? "" : "is-disabled"}" data-tab="analysis" role="tab" aria-selected="false" ${hasAnalysis ? "" : "disabled"}>Full Analysis</button>
+        <button type="button" class="tab-btn" data-tab="attachments" role="tab" aria-selected="false">Attachments</button>
+      </div>
 
-    <section>
-      <h3>Attachments / Supporting Materials</h3>
-      ${
-        attachments.length
-          ? `<table>
-              <thead>
-                <tr>
-                  <th>Document ID</th>
-                  <th>Title</th>
-                  <th>Subtype</th>
-                  <th>Date</th>
-                  <th>Authors</th>
-                  <th>Pages</th>
-                </tr>
-              </thead>
-              <tbody>${attachmentRows}</tbody>
-            </table>`
-          : "<p>No supporting attachment metadata available in current site export.</p>"
-      }
+      <div class="tab-panel is-active" data-panel="overview" role="tabpanel">
+        <p><strong>Document ID:</strong> ${esc(d.document_id)} | <strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
+        ${
+          subjectId !== docId
+            ? `<p><strong>Substantive Rule ID:</strong> ${esc(subjectId)}</p>`
+            : ""
+        }
+        ${
+          commentId !== docId
+            ? `<p><strong>Comment Notice ID:</strong> ${esc(commentId)}</p>`
+            : ""
+        }
+        ${
+          scoreSourceId !== docId
+            ? `<p><strong>Score Source ID:</strong> ${esc(scoreSourceId)}</p>`
+            : ""
+        }
+        <p><strong>Agency:</strong> ${esc(d.agency_name || "")} (${esc(d.agency_id || "")})</p>
+        <p><strong>Type:</strong> ${esc(d.document_type || "")} | <strong>Comment End:</strong> ${esc(d.comment_end_date || "")}</p>
+        <p><strong>Scores:</strong> pass_1=${esc(d.pass_1_score)} (scaled ${pct5(d.pass_1_scaled)}),
+           pass_2=${esc(d.pass_2_score)} (scaled ${pct5(d.pass_2_scaled)}),
+           combined=${pct5(d.combined_score)}</p>
+        ${
+          override
+            ? `<p><strong>Reviewed Significance:</strong> ${esc(override.display_band || "")}
+                 ${override.review_status ? `<span class="review-pill">${esc(override.review_status)}</span>` : ""}</p>
+               ${override.note ? `<p class="band-note">${esc(override.note)}</p>` : ""}`
+            : ""
+        }
+        <p><strong>Structural Risk:</strong> ${esc(structuralBandLabel(d.pass_2_risk_band || ""))}</p>
+        <p><strong>Pass 2 Type:</strong> ${esc(d.pass_2_rule_type || "")}</p>
+        <h3>Structural Flags</h3>
+        ${flags ? `<ul>${flags}</ul>` : "<p>None</p>"}
+        <h3>Rule Text Sources</h3>
+        ${sources ? `<ul>${sources}</ul>` : "<p>None</p>"}
+      </div>
+
+      <div class="tab-panel markdown-body" data-panel="summary" role="tabpanel">
+        ${summaryBody}
+      </div>
+
+      <div class="tab-panel markdown-body" data-panel="analysis" role="tabpanel">
+        ${analysisBody}
+      </div>
+
+      <div class="tab-panel" data-panel="attachments" role="tabpanel">
+        ${
+          attachments.length
+            ? `<table>
+                <thead>
+                  <tr>
+                    <th>Document ID</th>
+                    <th>Title</th>
+                    <th>Subtype</th>
+                    <th>Date</th>
+                    <th>Authors</th>
+                    <th>Pages</th>
+                  </tr>
+                </thead>
+                <tbody>${attachmentRows}</tbody>
+              </table>`
+            : "<p>No supporting attachment metadata available in current site export.</p>"
+        }
+      </div>
     </section>
   `;
+}
+
+function initTabs() {
+  const buttons = Array.from(document.querySelectorAll(".tab-btn"));
+  const panels = Array.from(document.querySelectorAll(".tab-panel"));
+  if (!buttons.length || !panels.length) return;
+  for (const btn of buttons) {
+    btn.addEventListener("click", () => {
+      if (btn.disabled) return;
+      const tab = btn.dataset.tab;
+      for (const b of buttons) {
+        const active = b === btn;
+        b.classList.toggle("is-active", active);
+        b.setAttribute("aria-selected", active ? "true" : "false");
+      }
+      for (const p of panels) {
+        p.classList.toggle("is-active", p.dataset.panel === tab);
+      }
+    });
+  }
 }
 
 async function main() {
@@ -180,7 +229,18 @@ async function main() {
     return;
   }
   const data = await res.json();
-  root.innerHTML = detailHtml(data);
+  const [summaryRes, analysisRes] = await Promise.all([
+    data.summary_available
+      ? fetch(`/data/summaries/${encodeURIComponent(docId)}.md`, { cache: "no-store" })
+      : Promise.resolve(null),
+    data.raw_summary_available
+      ? fetch(`/data/summaries_raw/${encodeURIComponent(docId)}.md`, { cache: "no-store" })
+      : Promise.resolve(null),
+  ]);
+  const summaryMd = summaryRes && summaryRes.ok ? await summaryRes.text() : "";
+  const analysisMd = analysisRes && analysisRes.ok ? await analysisRes.text() : "";
+  root.innerHTML = detailHtml(data, summaryMd, analysisMd);
+  initTabs();
 }
 
 main().catch((err) => {

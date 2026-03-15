@@ -1,5 +1,6 @@
 :root {
   --bg: #f7f6f2;
+  --surface: #fff;
   --text: #161616;
   --muted: #555;
   --line: #d9d5cc;
@@ -15,7 +16,7 @@ body {
   padding: 1.25rem;
   font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
   color: var(--text);
-  background: radial-gradient(circle at top right, #ece8dc 0%, var(--bg) 50%);
+  background: var(--bg);
 }
 
 header h1 {
@@ -62,7 +63,7 @@ button {
 table {
   border-collapse: collapse;
   width: 100%;
-  background: #fff;
+  background: var(--surface);
 }
 
 th,
@@ -87,7 +88,7 @@ td.title {
 }
 
 .card {
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-left: 6px solid var(--accent);
   padding: 0.9rem 1rem;
@@ -199,8 +200,8 @@ td.actions {
 }
 
 .markdown-body {
-  background: #fff;
-  border: 1px solid var(--line);
+  background: var(--surface);
+  border: 0;
   padding: 1rem;
 }
 
@@ -210,8 +211,54 @@ td.actions {
   margin-top: 1rem;
 }
 
-/* Summary pages: narrower reading column on desktop. */
-.summary-page #summaryRoot {
+.tabs {
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.55rem 0.6rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.tab-btn {
+  border: 1px solid #c6c0b1;
+  background: var(--surface);
+  color: #2a2a2a;
+  padding: 0.34rem 0.58rem;
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+
+.tab-btn.is-active {
+  background: #194f86;
+  color: #fff;
+  border-color: #194f86;
+}
+
+.tab-btn.is-disabled,
+.tab-btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.tab-panel {
+  display: none;
+  padding: 0.9rem 1rem;
+}
+
+.tab-panel.is-active {
+  display: block;
+}
+
+/* Document pages: consistent reading column on desktop. */
+#detailRoot,
+.summary-page #summaryRoot,
+.summary-page #analysisRoot {
   max-width: 920px;
   margin: 0 auto;
 }
