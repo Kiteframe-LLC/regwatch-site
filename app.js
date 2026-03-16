@@ -69,6 +69,8 @@ function structuralBandLabel(raw) {
     not_run_fetch_error: "Not Scored",
     skipped_closed_comment_period: "Skipped",
     disabled: "Disabled",
+    not_applicable_rfi: "RFI inquiry (NPRM structural pass skipped)",
+    not_applicable_anprm: "ANPRM inquiry (NPRM structural pass skipped)",
   };
   return map[raw] || raw || "";
 }
@@ -167,7 +169,7 @@ async function main() {
   document.getElementById("minScore").addEventListener("input", rerender);
   document.getElementById("resetBtn").addEventListener("click", () => {
     document.getElementById("agencyFilter").value = "";
-    document.getElementById("minScore").value = "0.75";
+    document.getElementById("minScore").value = "0.5";
     rerender();
   });
   rerender();

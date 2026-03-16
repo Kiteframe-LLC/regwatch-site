@@ -14,6 +14,8 @@ function structuralBandLabel(raw) {
     not_run_fetch_error: "Not Scored",
     skipped_closed_comment_period: "Skipped",
     disabled: "Disabled",
+    not_applicable_rfi: "RFI inquiry (NPRM structural pass skipped)",
+    not_applicable_anprm: "ANPRM inquiry (NPRM structural pass skipped)",
   };
   return map[raw] || raw || "";
 }
@@ -112,6 +114,10 @@ function renderMarkdown(md) {
   return `<pre>${esc(md)}</pre>`;
 }
 
+function aiDisclaimerHtml() {
+  return `<div class="ai-disclaimer"><strong>AI-generated summary:</strong> This material is produced by automated analysis and may be incomplete or wrong. It is informational only, not legal advice. Verify key claims against the source record and use independent judgment before commenting.</div>`;
+}
+
 function pageTabFromPath(pathname) {
   const parts = pathname.split("/").filter(Boolean);
   if (parts.length >= 3 && parts[2] === "summary") return "summary";
@@ -145,8 +151,8 @@ function detailHtml(d, summaryMd, analysisMd) {
   const zipPrefixDisplay = zipPrefixSpan > 0 ? String(zipPrefixSpan) : "n/a";
   const hasSummary = Boolean(d.summary_available && summaryMd);
   const hasAnalysis = Boolean(d.raw_summary_available && analysisMd);
-  const summaryBody = renderMarkdown(summaryMd);
-  const analysisBody = renderMarkdown(analysisMd);
+  const summaryBody = `${renderMarkdown(summaryMd)}${aiDisclaimerHtml()}`;
+  const analysisBody = `${renderMarkdown(analysisMd)}${aiDisclaimerHtml()}`;
   const tabActive = (name) => (activeTab === name ? "is-active" : "");
 
   return `

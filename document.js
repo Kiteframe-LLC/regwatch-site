@@ -24,6 +24,8 @@ function structuralBandLabel(raw) {
     not_run_fetch_error: "Not Scored (Fetch Error)",
     skipped_closed_comment_period: "Skipped (Closed Comments)",
     disabled: "Disabled",
+    not_applicable_rfi: "RFI inquiry (NPRM structural pass skipped)",
+    not_applicable_anprm: "ANPRM inquiry (NPRM structural pass skipped)",
   };
   return map[raw] || raw || "";
 }
@@ -122,6 +124,10 @@ function renderMarkdown(md) {
   return `<pre>${esc(md)}</pre>`;
 }
 
+function aiDisclaimerHtml() {
+  return `<div class="ai-disclaimer"><strong>AI-generated summary:</strong> This material is produced by automated analysis and may be incomplete or wrong. It is informational only, not legal advice. Verify key claims against the source record and use independent judgment before commenting.</div>`;
+}
+
 function detailHtml(d, summaryMd, analysisMd) {
   const docId = d.document_id || "";
   const subjectId = d.subject_document_id || d.summary_source_document_id || docId;
@@ -146,8 +152,8 @@ function detailHtml(d, summaryMd, analysisMd) {
   const zipPrefixDisplay = zipPrefixSpan > 0 ? String(zipPrefixSpan) : "n/a";
   const hasSummary = Boolean(d.summary_available && summaryMd);
   const hasAnalysis = Boolean(d.raw_summary_available && analysisMd);
-  const summaryBody = renderMarkdown(summaryMd);
-  const analysisBody = renderMarkdown(analysisMd);
+  const summaryBody = `${renderMarkdown(summaryMd)}${aiDisclaimerHtml()}`;
+  const analysisBody = `${renderMarkdown(analysisMd)}${aiDisclaimerHtml()}`;
 
   return `
     <section class="card">
