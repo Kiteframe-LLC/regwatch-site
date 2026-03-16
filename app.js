@@ -69,13 +69,21 @@ function structuralBandLabel(raw) {
 function rowHtml(r, override = null) {
   const docId = r.document_id || "";
   const subjectId = r.subject_document_id || docId;
-  const commentId = r.comment_document_id || docId;
-  const docUrl = subjectId
+  const defaultDocUrl = subjectId
     ? `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`
     : "";
-  const commentUrl = commentId
-    ? `https://www.regulations.gov/commenton/${encodeURIComponent(commentId)}`
-    : "";
+  let docUrl = r.document_action_url || defaultDocUrl;
+  let docLabel = r.document_action_label || "Regulations.gov";
+  const commentUrl = r.comment_action_url || "";
+  const commentLabel = "Comment";
+  const commentReadUrl = r.comment_read_url || "";
+  const channelType = r.comment_channel_type || "regulations_gov";
+  if (!r.document_action_url && channelType === "email" && commentReadUrl) {
+    docUrl = commentReadUrl;
+    docLabel = "Federal Register";
+  } else if (!r.document_action_label && docUrl.includes("federalregister.gov")) {
+    docLabel = "Federal Register";
+  }
   const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/` : "";
   const summaryUrl = r.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
   const analysisUrl = r.raw_summary_available ? `/document/${encodeURIComponent(docId)}/analysis/` : "";
@@ -94,11 +102,11 @@ function rowHtml(r, override = null) {
       ? `<a class="action-btn" href="${detailUrl}">Detail</a>`
       : `<span class="action-btn disabled">Detail</span>`,
     docUrl
-      ? `<a class="action-btn" href="${docUrl}" target="_blank" rel="noopener noreferrer">Regulations.gov</a>`
-      : `<span class="action-btn disabled">Regulations.gov</span>`,
+      ? `<a class="action-btn" href="${docUrl}" target="_blank" rel="noopener noreferrer">${docLabel}</a>`
+      : `<span class="action-btn disabled">${docLabel}</span>`,
     commentUrl
-      ? `<a class="action-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">Comment</a>`
-      : `<span class="action-btn disabled">Comment</span>`,
+      ? `<a class="action-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">${commentLabel}</a>`
+      : `<span class="action-btn disabled">${commentLabel}</span>`,
     summaryUrl
       ? `<a class="action-btn" href="${summaryUrl}" target="_blank" rel="noopener noreferrer">Summary</a>`
       : `<span class="action-btn disabled">Summary</span>`,
