@@ -28,6 +28,13 @@ function pct5(value) {
   return `${Math.round(v * 20) * 5}%`;
 }
 
+function velocityLabel(value) {
+  if (value === null || value === undefined) return "";
+  const v = Number(value);
+  if (Number.isNaN(v)) return "";
+  return `${v.toFixed(1)}/day`;
+}
+
 function relativeCommentEnd(raw) {
   if (!raw) return "";
   let end;
@@ -116,11 +123,10 @@ function rowHtml(r, override = null) {
   ].join(" ");
   return `<tr>
     <td>${pct5(r.combined_score)}</td>
-    <td>${r.agency_id || ""}</td>
+    <td>${r.rule_kind || "NPRM"}</td>
     <td>${docId}</td>
     <td class="title">${r.title || ""}</td>
-    <td>${r.pass_1_score ?? ""}</td>
-    <td>${r.pass_2_score ?? ""}</td>
+    <td>${velocityLabel(r.pass_3_score)}</td>
     <td>${bandCell}</td>
     <td title="${r.comment_end_date || ""}">${relativeCommentEnd(r.comment_end_date)}</td>
     <td class="actions">${actions}</td>
@@ -142,7 +148,8 @@ function applyFilters(records) {
     const agencyOk =
       !agency ||
       (r.agency_id || "").toLowerCase().includes(agency) ||
-      (r.agency_name || "").toLowerCase().includes(agency);
+      (r.agency_name || "").toLowerCase().includes(agency) ||
+      (r.rule_kind || "").toLowerCase().includes(agency);
     const scoreOk = (r.combined_score || 0) >= minScore;
     return agencyOk && scoreOk;
   });

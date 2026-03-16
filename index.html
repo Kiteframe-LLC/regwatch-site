@@ -21,11 +21,11 @@
       </section>
       <section class="controls">
         <label>
-          Filter agency:
+          Filter agency or type:
           <input id="agencyFilter" type="text" placeholder="EPA, DOJ, CMS…" />
         </label>
         <label>
-          Min combined score:
+          Min relevance:
           <input id="minScore" type="number" step="0.01" value="0.75" />
         </label>
         <button id="resetBtn" type="button">Reset</button>
@@ -35,12 +35,11 @@
         <table id="rulesTable">
           <thead>
             <tr>
-              <th>Combined</th>
-              <th>Agency</th>
+              <th>Relevance</th>
+              <th>Type</th>
               <th>Document ID</th>
               <th>Title</th>
-              <th>Pass 1</th>
-              <th>Pass 2</th>
+              <th>Comment Velocity</th>
               <th>Structural Risk</th>
               <th>Comment Ends</th>
               <th>Actions</th>
