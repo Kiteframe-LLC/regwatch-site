@@ -6,6 +6,13 @@ function esc(value) {
     .replaceAll(">", "&gt;");
 }
 
+const TAB_NAMES = new Set(["overview", "summary", "analysis", "comments", "attachments"]);
+
+function tabFromHash() {
+  const raw = (window.location.hash || "").replace(/^#/, "").trim().toLowerCase();
+  return TAB_NAMES.has(raw) ? raw : "";
+}
+
 async function loadOverrides() {
   const res = await fetch("/data/overrides.json", { cache: "no-store" });
   if (!res.ok) return {};
@@ -388,20 +395,36 @@ function initTabs() {
   const buttons = Array.from(document.querySelectorAll(".tab-list .tab-btn[data-tab]"));
   const panels = Array.from(document.querySelectorAll(".tab-panel"));
   if (!buttons.length || !panels.length) return;
+  const applyTab = (tab) => {
+    for (const b of buttons) {
+      const active = b.dataset.tab === tab;
+      b.classList.toggle("is-active", active);
+      b.setAttribute("aria-selected", active ? "true" : "false");
+    }
+    for (const p of panels) {
+      p.classList.toggle("is-active", p.dataset.panel === tab);
+    }
+  };
+  const activateFromHash = () => {
+    const tab = tabFromHash();
+    if (!tab) return;
+    const btn = buttons.find((b) => b.dataset.tab === tab);
+    if (!btn || btn.disabled) return;
+    applyTab(tab);
+  };
   for (const btn of buttons) {
     btn.addEventListener("click", () => {
       if (btn.disabled) return;
       const tab = btn.dataset.tab;
-      for (const b of buttons) {
-        const active = b === btn;
-        b.classList.toggle("is-active", active);
-        b.setAttribute("aria-selected", active ? "true" : "false");
-      }
-      for (const p of panels) {
-        p.classList.toggle("is-active", p.dataset.panel === tab);
+      if (!tab) return;
+      applyTab(tab);
+      if (tabFromHash() !== tab) {
+        window.location.hash = tab;
       }
     });
   }
+  window.addEventListener("hashchange", activateFromHash);
+  activateFromHash();
 }
 
 async function main() {

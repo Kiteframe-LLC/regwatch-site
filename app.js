@@ -94,8 +94,8 @@ function rowHtml(r, override = null) {
     docLabel = "Federal Register";
   }
   const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/` : "";
-  const summaryUrl = r.summary_available ? `/document/${encodeURIComponent(docId)}/summary/` : "";
-  const analysisUrl = r.raw_summary_available ? `/document/${encodeURIComponent(docId)}/analysis/` : "";
+  const summaryUrl = r.summary_available ? `/document/${encodeURIComponent(docId)}/#summary` : "";
+  const analysisUrl = r.raw_summary_available ? `/document/${encodeURIComponent(docId)}/#analysis` : "";
   const displayBand = override?.display_band || "";
   const reviewStatus = override?.review_status || "";
   const note = override?.note || "";

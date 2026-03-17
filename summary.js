@@ -189,17 +189,16 @@ function aiDisclaimerHtml() {
   return `<div class="ai-disclaimer"><strong>AI-generated summary:</strong> This material is produced by automated analysis and may be incomplete or wrong. It is informational only, not legal advice. Verify key claims against the source record and use independent judgment before commenting.</div>`;
 }
 
-function pageTabFromPath(pathname) {
-  const parts = pathname.split("/").filter(Boolean);
-  if (parts.length >= 3 && parts[2] === "summary") return "summary";
-  if (parts.length >= 3 && parts[2] === "analysis") return "analysis";
-  if (parts.length >= 3 && parts[2] === "comments") return "comments";
-  if (parts.length >= 3 && parts[2] === "attachments") return "attachments";
-  return "overview";
+const TAB_NAMES = new Set(["overview", "summary", "analysis", "comments", "attachments"]);
+
+function tabFromHash(hash) {
+  const hashTab = String(hash || "").replace(/^#/, "").trim().toLowerCase();
+  if (TAB_NAMES.has(hashTab)) return hashTab;
+  return "";
 }
 
 function detailHtml(d, summaryMd, analysisMd) {
-  const activeTab = pageTabFromPath(window.location.pathname);
+  const activeTab = tabFromHash(window.location.hash) || "overview";
   const docId = d.document_id || "";
   const subjectId = d.subject_document_id || d.summary_source_document_id || docId;
   const scoreSourceId = d.score_source_document_id || docId;
@@ -223,6 +222,7 @@ function detailHtml(d, summaryMd, analysisMd) {
   const summaryBody = `${renderMarkdown(summaryMd)}${aiDisclaimerHtml()}`;
   const analysisBody = `${renderMarkdown(analysisMd)}${aiDisclaimerHtml()}`;
   const tabActive = (name) => (activeTab === name ? "is-active" : "");
+  const docBase = `/document/${encodeURIComponent(docId)}/`;
 
   return `
     <section class="card">
@@ -235,11 +235,11 @@ function detailHtml(d, summaryMd, analysisMd) {
     </section>
     <section class="tabs">
       <div class="tab-list" role="tablist" aria-label="Document sections">
-        <a class="tab-btn ${tabActive("overview")}" href="/document/${encodeURIComponent(docId)}/" role="tab" aria-selected="${activeTab === "overview"}">Overview</a>
-        <a class="tab-btn ${hasSummary ? tabActive("summary") : "is-disabled"}" href="${hasSummary ? `/document/${encodeURIComponent(docId)}/summary/` : "#"}" role="tab" aria-selected="${activeTab === "summary"}" ${hasSummary ? "" : 'aria-disabled="true"'}>Summary</a>
-        <a class="tab-btn ${hasAnalysis ? tabActive("analysis") : "is-disabled"}" href="${hasAnalysis ? `/document/${encodeURIComponent(docId)}/analysis/` : "#"}" role="tab" aria-selected="${activeTab === "analysis"}" ${hasAnalysis ? "" : 'aria-disabled="true"'}>Full Analysis</a>
-        <a class="tab-btn ${tabActive("comments")}" href="/document/${encodeURIComponent(docId)}/comments/" role="tab" aria-selected="${activeTab === "comments"}">Comments</a>
-        <a class="tab-btn ${tabActive("attachments")}" href="/document/${encodeURIComponent(docId)}/attachments/" role="tab" aria-selected="${activeTab === "attachments"}">Attachments</a>
+        <a class="tab-btn ${tabActive("overview")}" href="${docBase}#overview" role="tab" aria-selected="${activeTab === "overview"}">Overview</a>
+        <a class="tab-btn ${hasSummary ? tabActive("summary") : "is-disabled"}" href="${hasSummary ? `${docBase}#summary` : "#"}" role="tab" aria-selected="${activeTab === "summary"}" ${hasSummary ? "" : 'aria-disabled="true"'}>Summary</a>
+        <a class="tab-btn ${hasAnalysis ? tabActive("analysis") : "is-disabled"}" href="${hasAnalysis ? `${docBase}#analysis` : "#"}" role="tab" aria-selected="${activeTab === "analysis"}" ${hasAnalysis ? "" : 'aria-disabled="true"'}>Full Analysis</a>
+        <a class="tab-btn ${tabActive("comments")}" href="${docBase}#comments" role="tab" aria-selected="${activeTab === "comments"}">Comments</a>
+        <a class="tab-btn ${tabActive("attachments")}" href="${docBase}#attachments" role="tab" aria-selected="${activeTab === "attachments"}">Attachments</a>
       </div>
 
       <div class="tab-panel ${tabActive("overview")}" data-panel="overview" role="tabpanel">
