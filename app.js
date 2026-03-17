@@ -28,11 +28,51 @@ function pct5(value) {
   return `${Math.round(v * 20) * 5}%`;
 }
 
-function velocityLabel(value) {
+function velocityLabel(value, commentsTotal = 0) {
   if (value === null || value === undefined) return "";
   const v = Number(value);
   if (Number.isNaN(v)) return "";
-  return `${v.toFixed(1)}/day`;
+  const total = Number(commentsTotal || 0);
+  if (total <= 0) return "none";
+  if (v < 1) return "+0/day";
+  return `${Math.round(v)}/day`;
+}
+
+function pct0(value) {
+  const v = Number(value || 0);
+  if (!Number.isFinite(v) || v <= 0) return "0%";
+  try {
+    return new Intl.NumberFormat("en-US", {
+      style: "percent",
+      maximumFractionDigits: 0,
+    }).format(v);
+  } catch {
+    return `${Math.round(v * 100)}%`;
+  }
+}
+
+function sentimentCell(r) {
+  const pos = Number(r.comments_sentiment_positive_pct || 0);
+  const neg = Number(r.comments_sentiment_negative_pct || 0);
+  const net = Number(r.comments_sentiment_net || 0);
+  const sample = Number(r.comments_sentiment_sample_size || 0);
+  const velocity = velocityLabel(r.pass_3_score, r.comments_total);
+  const plusMinus = `${pct0(pos)} / ${pct0(neg)}`;
+  let chipClass = "sentiment-neutral";
+  let chipLabel = "Net n/a";
+  if (sample > 0) {
+    if (Math.abs(net) < 0.03) {
+      chipClass = "sentiment-neutral";
+      chipLabel = "Net ±0%";
+    } else if (net > 0) {
+      chipClass = "sentiment-positive";
+      chipLabel = `Net +${pct0(Math.abs(net))}`;
+    } else {
+      chipClass = "sentiment-negative";
+      chipLabel = `Net -${pct0(Math.abs(net))}`;
+    }
+  }
+  return `<div>${velocity}</div><div class="velocity-sub">${plusMinus}</div><div class="review-pill ${chipClass}" title="sample ${sample}">${chipLabel}</div>`;
 }
 
 function relativeCommentEnd(raw) {
@@ -77,6 +117,7 @@ function structuralBandLabel(raw) {
 
 function rowHtml(r, override = null) {
   const docId = r.document_id || "";
+  const docketId = (r.docket_id || "").trim();
   const subjectId = r.subject_document_id || docId;
   const defaultDocUrl = subjectId
     ? `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`
@@ -126,9 +167,9 @@ function rowHtml(r, override = null) {
   return `<tr>
     <td>${pct5(r.combined_score)}</td>
     <td>${r.rule_kind || "NPRM"}</td>
-    <td>${docId}</td>
+    <td>${docketId || "MISSING"}</td>
     <td class="title">${r.title || ""}</td>
-    <td>${velocityLabel(r.pass_3_score)}</td>
+    <td>${sentimentCell(r)}</td>
     <td>${bandCell}</td>
     <td title="${r.comment_end_date || ""}">${relativeCommentEnd(r.comment_end_date)}</td>
     <td class="actions">${actions}</td>
@@ -147,11 +188,15 @@ function applyFilters(records) {
   const minScore = Number(document.getElementById("minScore").value || 0);
   return records.filter((r) => {
     if (!isCommentOpen(r.comment_end_date)) return false;
+    const docId = (r.document_id || "").toLowerCase();
+    const docPrefix = docId.split("-")[0] || "";
     const agencyOk =
       !agency ||
       (r.agency_id || "").toLowerCase().includes(agency) ||
       (r.agency_name || "").toLowerCase().includes(agency) ||
-      (r.rule_kind || "").toLowerCase().includes(agency);
+      (r.rule_kind || "").toLowerCase().includes(agency) ||
+      docPrefix.includes(agency) ||
+      docId.includes(agency);
     const scoreOk = (r.combined_score || 0) >= minScore;
     return agencyOk && scoreOk;
   });

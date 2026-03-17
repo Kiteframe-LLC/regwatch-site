@@ -17,7 +17,7 @@
   "agency_id": "OPM",
   "agency_name": "Office of Personnel Management",
   "title": "Managing Senior Professional Performance",
-  "document_type": "Proposed Rule",
+  "document_type": "",
   "rule_kind": "NPRM",
   "posted_date": "2026-02-24T05:00:00Z",
   "comment_end_date": "2026-03-27T03:59:59Z",
@@ -66,10 +66,17 @@
     "2026-03-16": 1
   },
   "comments_novel_comment_rate": 1.0,
+  "comments_sentiment_positive_pct": 0.0,
+  "comments_sentiment_negative_pct": 0.0,
+  "comments_sentiment_neutral_pct": 0.0,
+  "comments_sentiment_net": 0.0,
+  "comments_sentiment_sample_size": 0,
+  "comments_sentiment_method": null,
+  "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-16T18:59:30.698082+00:00",
   "comments_checked_at": "2026-03-16T18:59:30.698627+00:00",
-  "comments_error": null,
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -80,6 +87,11 @@
       "representative_length": 4523,
       "representative_excerpt": "This rule purports to enhance accountability for federal employees through forced distribution of ratings (\"stack ranking\") and reduced procedural protections. It fails on legal and policy grounds and should be withdrawn.<br/><br/>1. VIOLATES STATUTORY MANDATE FOR ACCURATE EVALUATION<br/>The central flaw is the forced distribution requirement. 5 U.S.C. \u00a7 430...",
       "representative_signal_score": 3,
+      "representative_stance": "",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
       "submissions": {
         "OPM-2025-0011-0003": {
           "organization": "",
@@ -95,6 +107,7 @@
       }
     }
   ],
+  "comments_clusters_path": "data/comments/OPM-2025-0011.csv",
   "summary_available": false,
   "raw_summary_available": false
 }
