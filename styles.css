@@ -265,6 +265,79 @@ td.actions {
   display: block;
 }
 
+.comment-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.45rem;
+  margin-bottom: 0.7rem;
+}
+
+.metric-card {
+  border: 1px solid var(--line);
+  background: #fbfaf7;
+  border-radius: 0.35rem;
+  padding: 0.45rem 0.55rem;
+}
+
+.metric-label {
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
+.metric-value {
+  font-size: 0.97rem;
+  font-weight: 600;
+  margin-top: 0.12rem;
+}
+
+.comment-heatmaps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.45rem;
+  margin: 0.6rem 0 0.75rem 0;
+}
+
+.mini-heatmap {
+  border: 1px solid var(--line);
+  border-radius: 0.35rem;
+  background: #fbfaf7;
+  padding: 0.45rem 0.55rem;
+}
+
+.mini-heatmap-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.mini-heatmap-cells {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.24rem;
+}
+
+.mini-heat-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.14rem 0.32rem;
+  border-radius: 0.25rem;
+  color: #123a67;
+  background: #cfe2fb;
+  font-size: 0.74rem;
+  line-height: 1.1;
+}
+
+.mini-heat-cell em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.mini-heatmap-empty {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 /* Document pages: consistent reading column on desktop. */
 #detailRoot,
 .summary-page #summaryRoot,

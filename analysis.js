@@ -102,6 +102,77 @@ function formatDateOnly(raw) {
   }
 }
 
+function formatPct(value) {
+  const v = Number(value || 0);
+  if (!Number.isFinite(v) || v <= 0) return "0%";
+  try {
+    return new Intl.NumberFormat("en-US", {
+      style: "percent",
+      maximumFractionDigits: 0,
+    }).format(v);
+  } catch {
+    return `${Math.round(v * 100)}%`;
+  }
+}
+
+function formatMetricNumber(value) {
+  const v = Number(value || 0);
+  if (!Number.isFinite(v)) return "0";
+  try {
+    return new Intl.NumberFormat("en-US", {
+      notation: "compact",
+      maximumFractionDigits: 1,
+    }).format(v);
+  } catch {
+    return String(Math.round(v));
+  }
+}
+
+function formatEasternDateTime(raw) {
+  if (!raw) return "n/a";
+  try {
+    const d = new Date(raw);
+    if (Number.isNaN(d.getTime())) return esc(raw);
+    return `${d.toLocaleString("en-US", {
+      timeZone: "America/New_York",
+      year: "numeric",
+      month: "short",
+      day: "2-digit",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    })} ET`;
+  } catch {
+    return esc(raw);
+  }
+}
+
+function commenterTypesText(types) {
+  const entries = Object.entries(types || {}).filter(([, v]) => Number(v || 0) > 0);
+  if (!entries.length) return "n/a";
+  entries.sort((a, b) => Number(b[1] || 0) - Number(a[1] || 0));
+  return entries.map(([k, v]) => `${k}: ${formatMetricNumber(v)}`).join(" | ");
+}
+
+function renderDayHeatmap(label, byDay) {
+  const entries = Object.entries(byDay || {})
+    .filter(([, v]) => Number(v || 0) > 0)
+    .sort(([a], [b]) => a.localeCompare(b));
+  if (!entries.length) {
+    return `<div class="mini-heatmap"><div class="mini-heatmap-label">${esc(label)}</div><div class="mini-heatmap-empty">no data</div></div>`;
+  }
+  const max = Math.max(...entries.map(([, v]) => Number(v || 0)), 1);
+  const cells = entries
+    .map(([day, value]) => {
+      const n = Number(value || 0);
+      const intensity = Math.max(0.18, Math.min(1, n / max));
+      const dayShort = day.length >= 10 ? day.slice(5) : day;
+      return `<span class="mini-heat-cell" style="opacity:${intensity.toFixed(3)}" title="${esc(day)}: ${n}">${esc(dayShort)}<em>${n}</em></span>`;
+    })
+    .join("");
+  return `<div class="mini-heatmap"><div class="mini-heatmap-label">${esc(label)}</div><div class="mini-heatmap-cells">${cells}</div></div>`;
+}
+
 function commentRowsHtml(comments, page, perPage) {
   const start = Math.max(0, (page - 1) * perPage);
   const end = start + perPage;
@@ -147,8 +218,6 @@ function detailHtml(d, summaryMd, analysisMd) {
   const rowsPerPage = 25;
   const totalCommentPages = Math.max(1, Math.ceil(comments.length / rowsPerPage));
   const commentRows = commentRowsHtml(comments, 1, rowsPerPage);
-  const zipPrefixSpan = Number(d.comments_zip_prefix_span || 0);
-  const zipPrefixDisplay = zipPrefixSpan > 0 ? String(zipPrefixSpan) : "n/a";
   const hasSummary = Boolean(d.summary_available && summaryMd);
   const hasAnalysis = Boolean(d.raw_summary_available && analysisMd);
   const summaryBody = `${renderMarkdown(summaryMd)}${aiDisclaimerHtml()}`;
@@ -212,21 +281,23 @@ function detailHtml(d, summaryMd, analysisMd) {
       </div>
 
       <div class="tab-panel ${tabActive("comments")}" data-panel="comments" role="tabpanel">
-        <p><strong>Total comments:</strong> ${esc(d.comments_total || 0)} |
-           <strong>Fetched:</strong> ${esc(d.comments_fetched || 0)} |
-           <strong>Hydrated text:</strong> ${esc(d.comments_text_hydrated || 0)} |
-           <strong>Unique clusters:</strong> ${esc(d.comments_unique_clusters || 0)} |
-           <strong>Clustered duplicates:</strong> ${esc(d.comments_clustered_duplicates || 0)}</p>
-        <p><strong>Source:</strong> ${esc(d.comments_source || "unknown")} |
-           <strong>Citizen count:</strong> ${esc(d.comments_citizen_count || 0)} |
-           <strong>ZIP prefix span:</strong> ${zipPrefixDisplay} |
-           <strong>Novel rate:</strong> ${esc(((Number(d.comments_novel_comment_rate || 0)).toFixed(3)))}</p>
+        <div class="comment-metrics-grid">
+          <div class="metric-card"><div class="metric-label">Total comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_total || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Fetched sample</div><div class="metric-value">${esc(formatMetricNumber(d.comments_fetched || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Hydrated text</div><div class="metric-value">${esc(formatMetricNumber(d.comments_text_hydrated || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Unique clusters</div><div class="metric-value">${esc(formatMetricNumber(d.comments_unique_clusters || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Clustered duplicates</div><div class="metric-value">${esc(formatMetricNumber(d.comments_clustered_duplicates || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Source</div><div class="metric-value">${esc(d.comments_source || "unknown")}</div></div>
+          <div class="metric-card"><div class="metric-label">Citizen comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_citizen_count || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Novel cluster share</div><div class="metric-value">${esc(formatPct(d.comments_novel_comment_rate || 0))}</div></div>
+        </div>
+        <p><strong>Commenter types:</strong> ${esc(commenterTypesText(d.comments_commenter_type_counts || {}))}</p>
+        <div class="comment-heatmaps">
+          ${renderDayHeatmap("New clusters/day", d.comments_new_cluster_count_by_day || {})}
+          ${renderDayHeatmap("High-signal/day", d.comments_high_signal_cluster_count_by_day || {})}
+        </div>
+        <p><strong>Freshness (ET):</strong> bulk snapshot ${esc(formatEasternDateTime(d.comments_bulk_last_posted_date))} | API last seen ${esc(formatEasternDateTime(d.comments_api_last_seen_at))}</p>
         ${d.comment_count_supported === false ? `<p><em>${esc(d.comment_count_note || "Comment counts are not available for this comment channel.")}</em></p>` : ""}
-        <p><strong>Commenter types:</strong> ${esc(JSON.stringify(d.comments_commenter_type_counts || {}))}</p>
-        <p><strong>New clusters/day:</strong> ${esc(JSON.stringify(d.comments_new_cluster_count_by_day || {}))} |
-           <strong>High-signal/day:</strong> ${esc(JSON.stringify(d.comments_high_signal_cluster_count_by_day || {}))}</p>
-        <p><strong>Freshness:</strong> bulk_last=${esc(d.comments_bulk_last_posted_date || "")}
-           api_seen=${esc(d.comments_api_last_seen_at || "")}</p>
         ${d.comments_truncated ? "<p><em>Comment sample is truncated for performance.</em></p>" : ""}
         ${d.comments_error ? `<p><em>Comments warning: ${esc(d.comments_error)}</em></p>` : ""}
         ${
