@@ -2,7 +2,7 @@ PYTHON ?= poetry run python
 PORT ?= 8000
 DATA_FILE ?= data/rules.json
 
-.PHONY: help serve check-data check git-status clean
+.PHONY: help serve check-data check git-status publish clean
 
 help:
 	@echo "regwatch-site Makefile targets"
@@ -10,6 +10,7 @@ help:
 	@echo "  make check-data       - Validate data/rules.json shape"
 	@echo "  make check            - Run data check"
 	@echo "  make git-status       - Show site repo status"
+	@echo "  make publish          - git add/commit/push site repo changes"
 	@echo "  make clean            - Remove generated site data/routes"
 
 serve:
@@ -23,6 +24,15 @@ check: check-data
 
 git-status:
 	git status -sb
+
+publish:
+	git add .
+	@if git diff --cached --quiet; then \
+		echo "No changes to publish."; \
+		exit 0; \
+	fi
+	git commit -m "Automatic publish"
+	git push
 
 clean:
 	rm -f data/rules.json
