@@ -93,7 +93,7 @@ function rowHtml(r, override = null) {
   } else if (!r.document_action_label && docUrl.includes("federalregister.gov")) {
     docLabel = "Federal Register";
   }
-  const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/` : "";
+  const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/#overview` : "";
   const summaryUrl = r.summary_available ? `/document/${encodeURIComponent(docId)}/#summary` : "";
   const analysisUrl = r.raw_summary_available ? `/document/${encodeURIComponent(docId)}/#analysis` : "";
   const displayBand = override?.display_band || "";
