@@ -23,12 +23,12 @@
   "comment_end_date": "2026-05-09T03:59:59Z",
   "pass_1_score": 6,
   "pass_2_score": 1,
-  "pass_3_score": 0.0,
+  "pass_3_score": 0.125,
   "pass_1_scaled": 0.5582529707610229,
   "pass_2_scaled": 0.32929841307547836,
-  "pass_3_scaled": 0.5,
+  "pass_3_scaled": 0.02061781866875978,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.48333557384340253,
+  "combined_score": 0.24364448317778242,
   "score_total": 7,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -88,25 +88,53 @@
       ]
     }
   ],
-  "comments_total": 0,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 0,
-  "comments_unique_clusters": 0,
+  "comments_total": 1,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 1,
+  "comments_unique_clusters": 1,
   "comments_clustered_duplicates": 0,
   "comments_truncated": false,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 0,
-  "comments_commenter_type_counts": {},
-  "comments_new_cluster_count_by_day": {},
+  "comments_citizen_count": 1,
+  "comments_commenter_type_counts": {
+    "citizen": 1
+  },
+  "comments_new_cluster_count_by_day": {
+    "2026-03-16": 1
+  },
   "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.0,
+  "comments_novel_comment_rate": 1.0,
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": null,
-  "comments_checked_at": null,
+  "comments_api_last_seen_at": "2026-03-16T22:56:26.412235+00:00",
+  "comments_checked_at": "2026-03-16T22:56:26.412947+00:00",
   "comments_error": null,
-  "comments_clusters": [],
+  "comments_clusters": [
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 1,
+      "representative_comment_id": "BOEM-2025-0042-0004",
+      "representative_posted_date": "2026-03-16T04:00:00Z",
+      "representative_length": 1274,
+      "representative_excerpt": "The Gulf has approximately $41 BILLION in estimated clean-up costs for aging O&G infrastructure. Large companies are selling off less-profitable infrastructure to smaller operators who are increasingly unable to meet their obligations, declare bankruptcy, and will leave all of us, as taxpayers, with costs to clean up after them. In 2024 BOEM finalized a rule...",
+      "representative_signal_score": 2,
+      "submissions": {
+        "BOEM-2025-0042-0004": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Davis, Brian",
+          "withdrawn": false
+        }
+      }
+    }
+  ],
   "summary_available": false,
   "raw_summary_available": false
 }

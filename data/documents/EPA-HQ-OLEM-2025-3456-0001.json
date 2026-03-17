@@ -23,12 +23,12 @@
   "comment_end_date": "2026-05-05T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 5,
-  "pass_3_score": 0.6666666666666666,
+  "pass_3_score": 1.0,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.6051606831856302,
+  "pass_3_scaled": 0.15351827510938587,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6873552720215576,
+  "combined_score": 0.4615340679834354,
   "score_total": 14,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -102,35 +102,46 @@
       ]
     }
   ],
-  "comments_total": 8,
-  "comments_fetched": 8,
-  "comments_text_hydrated": 8,
-  "comments_cached_records": 8,
-  "comments_unique_clusters": 8,
+  "comments_total": 12,
+  "comments_fetched": 10,
+  "comments_text_hydrated": 4,
+  "comments_cached_records": 12,
+  "comments_unique_clusters": 12,
   "comments_clustered_duplicates": 0,
-  "comments_truncated": false,
+  "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 8,
+  "comments_citizen_count": 12,
   "comments_commenter_type_counts": {
-    "citizen": 8
+    "citizen": 12
   },
-  "comments_new_cluster_count_by_day": {},
-  "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.0,
+  "comments_new_cluster_count_by_day": {
+    "2026-03-09": 4,
+    "2026-03-13": 1,
+    "2026-03-10": 1,
+    "2026-03-11": 2,
+    "2026-03-16": 4
+  },
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-03-09": 2,
+    "2026-03-13": 1,
+    "2026-03-10": 1
+  },
+  "comments_novel_comment_rate": 1.0,
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": null,
-  "comments_checked_at": null,
+  "comments_api_last_seen_at": "2026-03-16T22:55:53.819618+00:00",
+  "comments_checked_at": "2026-03-16T22:55:54.699123+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 8,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0004",
       "representative_posted_date": "2026-03-09T04:00:00Z",
       "representative_length": 4528,
       "representative_excerpt": "I am writing to strongly oppose the proposed Paper Manifest Sunset Rule, which would eliminate paper manifests in favor of mandatory electronic manifesting (e-Manifest) after a 24-month phase-in period. While I support the goals of improved tracking, data quality, and environmental protection, this rule as proposed is impractical and burdensome for businesse...",
+      "representative_signal_score": 3,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0004": {
           "organization": "",
@@ -146,13 +157,14 @@
       }
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0011",
       "representative_posted_date": "2026-03-13T04:00:00Z",
       "representative_length": 4474,
       "representative_excerpt": "The proposed rule allows electronic signatures on hazardous waste manifests without addressing whether the certifying generator representative must be physically present at the site when the waste shipment is prepared and transferred to the transporter.<br/><br/>The generator certification statement required under 40 CFR 262.23(a) declares that the shipment ...",
+      "representative_signal_score": 4,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0011": {
           "organization": "",
@@ -168,13 +180,14 @@
       }
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0005",
       "representative_posted_date": "2026-03-09T04:00:00Z",
       "representative_length": 3584,
       "representative_excerpt": "Unnecessary Burden on Generator, Transporter, and Disposal Departments<br/>Requiring full transition to electronic manifests would force a complete overhaul of internal processes across entire departments at generators (utilities/industrials), transporters, and disposal facilities. This includes:<br/>New hardware/software procurement and integration.<br/>Ret...",
+      "representative_signal_score": 4,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0005": {
           "organization": "",
@@ -190,13 +203,14 @@
       }
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0008",
       "representative_posted_date": "2026-03-10T04:00:00Z",
       "representative_length": 1984,
       "representative_excerpt": "Summary - Only TSDF's should be required to submit e-manifests and the process should stay the same.<br/>In order for paper manifests to be accepted by the industry the API is going to have to have some way a generator can share a manifest with several Hazardous Waste Transporters and TSDFs BEFORE assigning a transporter or designated facility to the manifes...",
+      "representative_signal_score": 3,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0008": {
           "organization": "",
@@ -212,13 +226,14 @@
       }
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0007",
       "representative_posted_date": "2026-03-09T04:00:00Z",
       "representative_length": 1915,
       "representative_excerpt": "Please forgive my bluntness, I saw this email come thru and although I have better things to do felt the need to add my proverbial 2 cents.<br/>I understand and would agree that hazardous waste should be tracked to ensure proper management and agree that a central system was needed. <br/>The uniform manifest alleviated the need to use a different manifest fo...",
+      "representative_signal_score": 2,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0007": {
           "organization": "",
@@ -234,13 +249,14 @@
       }
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0009",
       "representative_posted_date": "2026-03-11T04:00:00Z",
       "representative_length": 1076,
       "representative_excerpt": "As a state regulator, the most common incorrect form of the manifest we see is the electronic copy. Receiving facilities are not accurate when inputting the information into e-manifest. On top of bad data quality, important information is often not entered at all from box 14 of the manifest into e-manifest. Federal and state waste codes are not entered causi...",
+      "representative_signal_score": 1,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0009": {
           "organization": "",
@@ -256,13 +272,60 @@
       }
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 1,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0012",
+      "representative_posted_date": "2026-03-16T04:00:00Z",
+      "representative_length": 1054,
+      "representative_excerpt": "Many smaller businesses that presently identify as PCB Generators exempt from having to obtain a TSCA EPA ID via the submission of a form 7710-53 rely on their service provider (i.e. PCB Commercial Storage/Disposal facility) to produce/generate the manifest in E-Manifest. The proposed rule is not crystal clear on whether or not the Generator does/will have t...",
+      "representative_signal_score": 1,
+      "submissions": {
+        "EPA-HQ-OLEM-2025-3456-0012": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by J.  P. (no full name provided)",
+          "withdrawn": false
+        }
+      }
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 1,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0014",
+      "representative_posted_date": "2026-03-16T04:00:00Z",
+      "representative_length": 1042,
+      "representative_excerpt": "I understand Hazardous Waste Electronic Manifest (e-Manifest) system now. E-manifest offers a faster, more accurate alternative to traditional paper forms, with lower fees, instantaneous tracking, and digital signatures. Electronic manifests reduce administrative burdens and costs compared to mailing paper documents, although paper remains, for now, an optio...",
+      "representative_signal_score": 1,
+      "submissions": {
+        "EPA-HQ-OLEM-2025-3456-0014": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Cathrine Gros Moye",
+          "withdrawn": false
+        }
+      }
+    },
+    {
+      "cluster_id": 10,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0006",
       "representative_posted_date": "2026-03-09T04:00:00Z",
       "representative_length": 429,
       "representative_excerpt": "The Department of transportation requires a paper manifest to leave each facility with each shipment. Historically this paper manifest was later scanned into the e-manifest system usually at the disposers on behalf of the original generator. With this proposal it sounds as if you are going to make the generator be the one to create the manifest in the system...",
+      "representative_signal_score": 0,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0006": {
           "organization": "",
@@ -278,13 +341,37 @@
       }
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 1,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0013",
+      "representative_posted_date": "2026-03-16T04:00:00Z",
+      "representative_length": 406,
+      "representative_excerpt": "With regard to the new requirements and wording proposed for \u00a7 761.205 Notification of PCB waste activity (EPA Form 7710-53) (a)(2).....How will presently \"exempt\" PCB Generators be required to indicate their activities on the current version of the 7710-53 which only list \"PCB Generator w/ on site storage facility\" as this would inaccurately describe a pres...",
+      "representative_signal_score": 1,
+      "submissions": {
+        "EPA-HQ-OLEM-2025-3456-0013": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by J. P. (no full name provided)",
+          "withdrawn": false
+        }
+      }
+    },
+    {
+      "cluster_id": 6,
       "count": 1,
       "page_count": 1,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0010",
       "representative_posted_date": "2026-03-11T04:00:00Z",
       "representative_length": 306,
       "representative_excerpt": "This would be a very good regulation to pass and is surprising to me that it was not already passed a decade ago. I do wonder how how the rules for ensuring that all passed information is properly archived will go and how long that will take or if all previous records will simply be saved as paper copies.",
+      "representative_signal_score": 0,
       "submissions": {
         "EPA-HQ-OLEM-2025-3456-0010": {
           "organization": "",
@@ -295,6 +382,29 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Anonymous public comment",
+          "withdrawn": false
+        }
+      }
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 1,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0015",
+      "representative_posted_date": "2026-03-16T04:00:00Z",
+      "representative_length": 20,
+      "representative_excerpt": "See attached file(s)",
+      "representative_signal_score": -1,
+      "submissions": {
+        "EPA-HQ-OLEM-2025-3456-0015": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Environmental Technology Council (ETC)",
           "withdrawn": false
         }
       }
