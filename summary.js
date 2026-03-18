@@ -154,6 +154,13 @@ function commenterTypesText(types) {
   return entries.map(([k, v]) => `${k}: ${formatMetricNumber(v)}`).join(" | ");
 }
 
+function stanceMixText(map) {
+  const entries = Object.entries(map || {}).filter(([, v]) => Number(v || 0) > 0);
+  if (!entries.length) return "n/a";
+  entries.sort((a, b) => Number(b[1] || 0) - Number(a[1] || 0));
+  return entries.map(([k, v]) => `${k}: ${v}`).join(" | ");
+}
+
 function parseIsoDay(day) {
   if (!day) return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(day));
@@ -272,6 +279,8 @@ function detailHtml(d, summaryMd, analysisMd) {
   const commentId = d.comment_document_id || docId;
   const commentUrl = d.comment_action_url || `https://www.regulations.gov/commenton/${encodeURIComponent(commentId)}`;
   const commentLabel = d.comment_action_label || "Comment on this NPRM";
+  const commentSupported = d.comment_action_supported !== false;
+  const commentIssue = d.comment_action_error || "";
   const commentReadUrl = d.comment_read_url || "";
   const docUrl = `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`;
   const flags = (d.pass_2_flags || []).map((f) => `<li>${esc(flagLabel(f))}</li>`).join("");
@@ -295,8 +304,13 @@ function detailHtml(d, summaryMd, analysisMd) {
     <section class="card">
       <h2>${esc(d.title || "(untitled)")}</h2>
       <p class="inline-actions">
-        <a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">${esc(commentLabel)}</a>
+        ${
+          commentUrl && commentSupported
+            ? `<a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">${esc(commentLabel)}</a>`
+            : `<span class="comment-btn disabled" title="${esc(commentIssue || "comment link unavailable")}">${esc(commentLabel)}</span>`
+        }
       </p>
+      ${!commentSupported ? `<p><em>Comment link check failed (${esc(commentIssue || "unavailable")}). Button disabled pending override.</em></p>` : ""}
       <p><a href="${docUrl}" target="_blank" rel="noopener noreferrer">Open Substantive Document on Regulations.gov</a></p>
       ${commentReadUrl ? `<p><a href="${commentReadUrl}" target="_blank" rel="noopener noreferrer">Read submitted comments</a></p>` : ""}
     </section>
@@ -359,6 +373,7 @@ function detailHtml(d, summaryMd, analysisMd) {
           <div class="metric-card"><div class="metric-label">Novel cluster share</div><div class="metric-value">${esc(formatPct(d.comments_novel_comment_rate || 0))}</div></div>
         </div>
         <p><strong>Commenter types:</strong> ${esc(commenterTypesText(d.comments_commenter_type_counts || {}))}</p>
+        <p><strong>Selection:</strong> ${esc(d.comments_display_strategy || "default")} | first-page coverage ${esc(formatPct(d.comments_first_page_coverage_share || 0))} | stance mix ${esc(stanceMixText(d.comments_first_page_stance_counts || {}))} | days represented ${esc(d.comments_first_page_unique_days || 0)}</p>
         <div class="comment-heatmaps">
           ${renderDayHeatmap("New clusters/day", d.comments_new_cluster_count_by_day || {})}
           ${renderDayHeatmap("High-signal/day", d.comments_high_signal_cluster_count_by_day || {})}
@@ -369,7 +384,13 @@ function detailHtml(d, summaryMd, analysisMd) {
         ${d.comments_error ? `<p><em>Comments warning: ${esc(d.comments_error)}</em></p>` : ""}
         ${
           comments.length
-            ? `<table>
+            ? `<div class="comment-metrics-grid">
+                <div class="metric-card"><div class="metric-label">Displayed / analyzed clusters</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_count || 0))}/${esc(formatMetricNumber(d.comments_clusters_total_available || 0))}</div></div>
+                <div class="metric-card"><div class="metric-label">High-signal on page 1</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_high_signal_clusters || 0))}</div></div>
+                <div class="metric-card"><div class="metric-label">Novelty on page 1</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_novelty_clusters || 0))}</div></div>
+                <div class="metric-card"><div class="metric-label">Represented comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_coverage_count || 0))}/${esc(formatMetricNumber(d.comments_total || 0))}</div></div>
+              </div>
+              <table>
                 <thead>
                   <tr>
                     <th>Count</th>

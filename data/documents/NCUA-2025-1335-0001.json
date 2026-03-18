@@ -8,6 +8,10 @@
   "comment_channel_type": "regulations_gov",
   "comment_action_url": "https://www.regulations.gov/commenton/NCUA-2025-1335-0001",
   "comment_action_label": "Comment",
+  "comment_action_supported": true,
+  "comment_action_status_code": null,
+  "comment_action_error": "check_failed:ConnectionError",
+  "comment_action_checked_at": "2026-03-18T02:53:13.692048+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -75,37 +79,18 @@
   "comments_api_last_seen_at": "2026-03-16T22:48:22.462746+00:00",
   "comments_checked_at": "2026-03-16T22:48:22.462796+00:00",
   "comments_error": null,
-  "comments_clusters": [
-    {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NCUA-2025-1335-0002",
-      "representative_posted_date": "2026-03-06T05:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
-      "representative_signal_score": -1,
-      "representative_stance": "",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NCUA-2025-1335-0002": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Michael, Ravnitzky",
-          "withdrawn": false
-        }
-      }
-    }
-  ],
+  "comments_clusters": [],
   "comments_clusters_path": "data/comments/NCUA-2025-1335.csv",
+  "comments_display_strategy": "balanced_v1",
+  "comments_first_page_count": 0,
+  "comments_first_page_coverage_share": 0.0,
+  "comments_first_page_coverage_count": null,
+  "comments_clusters_total_available": null,
+  "comments_clusters_displayed": null,
+  "comments_first_page_high_signal_clusters": null,
+  "comments_first_page_novelty_clusters": null,
+  "comments_first_page_stance_counts": {},
+  "comments_first_page_unique_days": 0,
   "summary_available": false,
   "raw_summary_available": false
 }

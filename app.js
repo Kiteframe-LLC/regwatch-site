@@ -126,6 +126,8 @@ function rowHtml(r, override = null) {
   let docLabel = r.document_action_label || "Regulations.gov";
   const commentUrl = r.comment_action_url || "";
   const commentLabel = "Comment";
+  const commentSupported = r.comment_action_supported !== false;
+  const commentIssue = r.comment_action_error || "";
   const commentReadUrl = r.comment_read_url || "";
   const channelType = r.comment_channel_type || "regulations_gov";
   if (!r.document_action_url && channelType === "email" && commentReadUrl) {
@@ -154,9 +156,9 @@ function rowHtml(r, override = null) {
     docUrl
       ? `<a class="action-btn" href="${docUrl}" target="_blank" rel="noopener noreferrer">${docLabel}</a>`
       : `<span class="action-btn disabled">${docLabel}</span>`,
-    commentUrl
+    (commentUrl && commentSupported)
       ? `<a class="action-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">${commentLabel}</a>`
-      : `<span class="action-btn disabled">${commentLabel}</span>`,
+      : `<span class="action-btn disabled" title="${commentIssue || "comment link unavailable"}">${commentLabel}</span>`,
     summaryUrl
       ? `<a class="action-btn" href="${summaryUrl}" target="_blank" rel="noopener noreferrer">Summary</a>`
       : `<span class="action-btn disabled">Summary</span>`,
