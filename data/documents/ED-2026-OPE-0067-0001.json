@@ -84,16 +84,16 @@
   },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.25,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.75,
-  "comments_sentiment_net": 0.25,
+  "comments_sentiment_negative_pct": 0.08333333333333334,
+  "comments_sentiment_neutral_pct": 0.6666666666666667,
+  "comments_sentiment_net": 0.16666666666666666,
   "comments_sentiment_sample_size": 12,
   "comments_sentiment_method": null,
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-17T19:00:48.194205+00:00",
-  "comments_checked_at": "2026-03-18T03:02:59.755993+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-18T13:51:20.943518+00:00",
+  "comments_error": "offline_reclustered_from_cached_records; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -104,7 +104,7 @@
       "representative_length": 1938,
       "representative_excerpt": "Obelisk Tech Systems Inc. | CAGE: 9S0L8 | UEI: U34MSJ6A6413 | Thomasville, Georgia 31792 | Executive Chairman & CEO: James Hunter Poole<br/>Docket: ED-2026-OPE-0067-0001 | FR Doc. 2026-03074 | 34 CFR Part 602 | Deadline: March 19, 2026<br/>Obelisk Tech Systems Inc. files 20 consolidated regulatory comments on the Department of Education's proposed interpreti...",
       "representative_signal_score": 4,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -478,8 +478,9 @@
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 6,
   "comments_first_page_stance_counts": {
-    "neutral": 9,
-    "positive": 3
+    "negative": 1,
+    "positive": 3,
+    "neutral": 8
   },
   "comments_first_page_unique_days": 8,
   "summary_available": false,

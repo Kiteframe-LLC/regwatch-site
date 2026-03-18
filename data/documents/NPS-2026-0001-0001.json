@@ -94,16 +94,16 @@
   },
   "comments_novel_comment_rate": 0.9829059829059829,
   "comments_sentiment_positive_pct": 0.3285697653757492,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.6714302346242508,
-  "comments_sentiment_net": 0.3285697653757492,
+  "comments_sentiment_negative_pct": 0.008608079931080136,
+  "comments_sentiment_neutral_pct": 0.6628221546931706,
+  "comments_sentiment_net": 0.3199616854446691,
   "comments_sentiment_sample_size": 117,
   "comments_sentiment_method": null,
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_bulk_last_posted_date": "2026-03-12T04:00Z",
   "comments_api_last_seen_at": "2026-03-18T04:32:02.785008+00:00",
-  "comments_checked_at": "2026-03-18T04:32:12.121735+00:00",
-  "comments_error": "used_bulk_csv",
+  "comments_checked_at": "2026-03-18T13:27:13.359994+00:00",
+  "comments_error": "offline_reclustered_from_cached_records; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 12,
@@ -601,7 +601,7 @@
       "representative_length": 3409,
       "representative_excerpt": "I am writing to express my strong and unequivocal opposition to the proposed rule change that would expand bicycle use to approximately 37 miles of multi-use trails within Mammoth Cave National Park and allow equestrian use along the Houchin Ferry North/Ollie Road corridor. Mammoth Cave National Park is not merely a recreational landscape; it is one of the m...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3704,7 +3704,8 @@
   "comments_first_page_novelty_clusters": 7,
   "comments_first_page_stance_counts": {
     "positive": 13,
-    "neutral": 12
+    "neutral": 11,
+    "negative": 1
   },
   "comments_first_page_unique_days": 12,
   "summary_available": true,

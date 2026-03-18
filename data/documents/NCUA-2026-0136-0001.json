@@ -74,16 +74,16 @@
   },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.5,
-  "comments_sentiment_neutral_pct": 0.5,
-  "comments_sentiment_net": -0.5,
+  "comments_sentiment_negative_pct": 1.0,
+  "comments_sentiment_neutral_pct": 0.0,
+  "comments_sentiment_net": -1.0,
   "comments_sentiment_sample_size": 2,
   "comments_sentiment_method": null,
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-17T19:37:12.324813+00:00",
-  "comments_checked_at": "2026-03-18T03:35:29.319017+00:00",
-  "comments_error": "reclustered_from_cached_records",
+  "comments_checked_at": "2026-03-18T13:51:30.079746+00:00",
+  "comments_error": "offline_reclustered_from_cached_records; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 2,
@@ -94,7 +94,7 @@
       "representative_length": 4546,
       "representative_excerpt": "To: National Credit Union Administration<br/>Re: Public Comment on Proposed Deregulatory Actions Affecting Credit Union Oversight and Consumer Protections<br/>Date: March 4, 2026<br/><br/>I submit this comment to express opposition to the current suite of proposed deregulatory actions under consideration by the National Credit Union Administration (NCUA). Wh...",
       "representative_signal_score": 3,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -158,8 +158,7 @@
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 1,
-    "negative": 1
+    "negative": 2
   },
   "comments_first_page_unique_days": 1,
   "summary_available": false,
