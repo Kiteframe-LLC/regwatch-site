@@ -154,23 +154,90 @@ function commenterTypesText(types) {
   return entries.map(([k, v]) => `${k}: ${formatMetricNumber(v)}`).join(" | ");
 }
 
-function renderDayHeatmap(label, byDay) {
+function parseIsoDay(day) {
+  if (!day) return null;
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(day));
+  if (!m) return null;
+  const y = Number(m[1]);
+  const mo = Number(m[2]);
+  const d = Number(m[3]);
+  return new Date(Date.UTC(y, mo - 1, d));
+}
+
+function dayToIso(d) {
+  return d.toISOString().slice(0, 10);
+}
+
+function mondayOnOrBefore(d) {
+  const copy = new Date(d.getTime());
+  const dow = copy.getUTCDay(); // 0=Sun..6=Sat
+  const back = dow === 0 ? 6 : dow - 1; // Mon->0 ... Sun->6
+  copy.setUTCDate(copy.getUTCDate() - back);
+  return copy;
+}
+
+function renderWeeklyHeatmap(label, byDay) {
   const entries = Object.entries(byDay || {})
-    .filter(([, v]) => Number(v || 0) > 0)
+    .map(([day, value]) => [String(day), Number(value || 0)])
+    .filter(([day, value]) => value > 0 && parseIsoDay(day))
     .sort(([a], [b]) => a.localeCompare(b));
   if (!entries.length) {
     return `<div class="mini-heatmap"><div class="mini-heatmap-label">${esc(label)}</div><div class="mini-heatmap-empty">no data</div></div>`;
   }
+
+  const firstDate = parseIsoDay(entries[0][0]);
+  if (!firstDate) {
+    return `<div class="mini-heatmap"><div class="mini-heatmap-label">${esc(label)}</div><div class="mini-heatmap-empty">no data</div></div>`;
+  }
+  const firstMonday = mondayOnOrBefore(firstDate);
   const max = Math.max(...entries.map(([, v]) => Number(v || 0)), 1);
-  const cells = entries
-    .map(([day, value]) => {
-      const n = Number(value || 0);
-      const intensity = Math.max(0.18, Math.min(1, n / max));
-      const dayShort = day.length >= 10 ? day.slice(5) : day;
-      return `<span class="mini-heat-cell" style="opacity:${intensity.toFixed(3)}" title="${esc(day)}: ${n}">${esc(dayShort)}<em>${n}</em></span>`;
+
+  const weeks = new Map();
+  for (const [day, value] of entries) {
+    const date = parseIsoDay(day);
+    if (!date) continue;
+    const dow = date.getUTCDay(); // 0=Sun,1=Mon...6=Sat
+    if (dow === 0 || dow === 6) continue; // render only Mo..Fr columns
+    const weekStart = mondayOnOrBefore(date);
+    const weekIndex = Math.floor((weekStart.getTime() - firstMonday.getTime()) / (7 * 24 * 60 * 60 * 1000)) + 1;
+    if (!weeks.has(weekIndex)) {
+      weeks.set(weekIndex, { weekStart, days: new Map() });
+    }
+    weeks.get(weekIndex).days.set(dayToIso(date), value);
+  }
+
+  const weekNumbers = Array.from(weeks.keys()).sort((a, b) => a - b);
+  if (!weekNumbers.length) {
+    return `<div class="mini-heatmap"><div class="mini-heatmap-label">${esc(label)}</div><div class="mini-heatmap-empty">no weekday data</div></div>`;
+  }
+
+  const headers = ["Wk", "Mo", "Tu", "We", "Th", "Fr"]
+    .map((h) => `<th>${h}</th>`)
+    .join("");
+  const rows = weekNumbers
+    .map((weekNumber) => {
+      const row = weeks.get(weekNumber);
+      const monday = row.weekStart;
+      const cells = [];
+      for (let i = 0; i < 5; i += 1) {
+        const day = new Date(monday.getTime());
+        day.setUTCDate(monday.getUTCDate() + i);
+        const iso = dayToIso(day);
+        const n = Number(row.days.get(iso) || 0);
+        const intensity = n > 0 ? Math.max(0.18, Math.min(1, n / max)) : 0;
+        cells.push(
+          `<td class="mini-heat-grid-cell ${n > 0 ? "has-value" : ""}" style="${n > 0 ? `opacity:${intensity.toFixed(3)}` : ""}" title="${esc(iso)}: ${n}">${n > 0 ? n : ""}</td>`
+        );
+      }
+      return `<tr><th>${weekNumber}</th>${cells.join("")}</tr>`;
     })
     .join("");
-  return `<div class="mini-heatmap"><div class="mini-heatmap-label">${esc(label)}</div><div class="mini-heatmap-cells">${cells}</div></div>`;
+
+  return `<div class="mini-heatmap"><div class="mini-heatmap-label">${esc(label)}</div><table class="mini-heat-grid"><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function renderDayHeatmap(label, byDay) {
+  return renderWeeklyHeatmap(label, byDay);
 }
 
 function commentRowsHtml(comments, page, perPage) {

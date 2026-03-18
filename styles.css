@@ -104,11 +104,17 @@ td.title {
 }
 
 .site-footer {
-  margin-top: 1.5rem;
-  padding-top: 0.8rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 0.88rem;
+  margin-top: 2rem;
+  padding: 0.8rem 1rem 0.9rem;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--accent);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  color: #4a4a4a;
+  font-size: 0.86rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
 a {
@@ -316,7 +322,7 @@ td.actions {
 
 .comment-heatmaps {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.45rem;
   margin: 0.6rem 0 0.75rem 0;
 }
@@ -338,6 +344,41 @@ td.actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.24rem;
+}
+
+.mini-heat-grid {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.mini-heat-grid th,
+.mini-heat-grid td {
+  border: 1px solid var(--line);
+  text-align: center;
+  padding: 0.16rem 0.18rem;
+  font-size: 0.74rem;
+}
+
+.mini-heat-grid thead th {
+  background: #f1eee7;
+  font-weight: 600;
+}
+
+.mini-heat-grid tbody th {
+  background: #f8f5ee;
+  font-weight: 600;
+}
+
+.mini-heat-grid-cell {
+  background: #edf3fc;
+  color: #123a67;
+  font-weight: 700;
+}
+
+.mini-heat-grid-cell:not(.has-value) {
+  background: #fbfaf7;
+  color: transparent;
 }
 
 .mini-heat-cell {
@@ -388,5 +429,8 @@ td.actions {
   }
   td.actions {
     min-width: 10rem;
+  }
+  .comment-heatmaps {
+    grid-template-columns: 1fr;
   }
 }
