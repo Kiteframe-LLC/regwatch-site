@@ -75,20 +75,15 @@ function attachmentRow(doc) {
 }
 
 function commentClusterRow(cluster) {
+  if (window.RegwatchComments && typeof window.RegwatchComments.commentClusterRow === "function") {
+    return window.RegwatchComments.commentClusterRow(cluster, esc, formatDateOnly);
+  }
   const count = Number(cluster.count || 0);
-  const pageCount = Number(cluster.page_count || 0);
   const cid = esc(cluster.representative_comment_id || "");
   const posted = esc(formatDateOnly(cluster.representative_posted_date || ""));
   const chars = Number(cluster.representative_length || 0);
   const excerpt = esc(cluster.representative_excerpt || "");
-  return `<tr>
-    <td>${count}</td>
-    <td>${pageCount || ""}</td>
-    <td>${cid ? `<a href="https://www.regulations.gov/comment/${encodeURIComponent(cluster.representative_comment_id || "")}" target="_blank" rel="noopener noreferrer">${cid}</a>` : ""}</td>
-    <td>${posted}</td>
-    <td>${chars}</td>
-    <td>${excerpt}</td>
-  </tr>`;
+  return `<tr><td>${count}</td><td><span class="review-pill sentiment-neutral">neutral</span></td><td>${cid ? `<a href="https://www.regulations.gov/comment/${encodeURIComponent(cluster.representative_comment_id || "")}" target="_blank" rel="noopener noreferrer">${cid}</a>` : ""}</td><td>${posted}</td><td>${chars}</td><td>${excerpt}</td></tr>`;
 }
 
 function formatDateOnly(raw) {
@@ -394,7 +389,7 @@ function detailHtml(d, summaryMd, analysisMd) {
                 <thead>
                   <tr>
                     <th>Count</th>
-                    <th>Pages</th>
+                    <th>Sentiment</th>
                     <th>Representative Comment ID</th>
                     <th>Date</th>
                     <th>Chars</th>
