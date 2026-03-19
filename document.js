@@ -173,6 +173,16 @@ function stanceMixText(map) {
   return entries.map(([k, v]) => `${k}: ${v}`).join(" | ");
 }
 
+function sentimentNetMeta(net, sample) {
+  if (!Number.isFinite(net) || sample <= 0 || Math.abs(net) < 0.03) {
+    return { label: "Net: neutral", cls: "sentiment-neutral" };
+  }
+  if (net > 0) {
+    return { label: `Net: +${formatPct(net)}`, cls: "sentiment-positive" };
+  }
+  return { label: `Net: -${formatPct(Math.abs(net))}`, cls: "sentiment-negative" };
+}
+
 function parseIsoDay(day) {
   if (!day) return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(day));
@@ -294,6 +304,12 @@ function detailHtml(d, summaryMd, analysisMd) {
   const attachments = d.supporting_related_material || [];
   const attachmentRows = attachments.map(attachmentRow).join("");
   const comments = d.comments_clusters || [];
+  const sentimentPos = Number(d.comments_sentiment_positive_pct || 0);
+  const sentimentNeg = Number(d.comments_sentiment_negative_pct || 0);
+  const sentimentNeu = Number(d.comments_sentiment_neutral_pct || 0);
+  const sentimentNet = Number(d.comments_sentiment_net || 0);
+  const sentimentSample = Number(d.comments_sentiment_sample_size || 0);
+  const sentimentNetView = sentimentNetMeta(sentimentNet, sentimentSample);
   const rowsPerPage = 25;
   const totalCommentPages = Math.max(1, Math.ceil(comments.length / rowsPerPage));
   const commentRows = commentRowsHtml(comments, 1, rowsPerPage);
@@ -380,6 +396,11 @@ function detailHtml(d, summaryMd, analysisMd) {
           <div class="metric-card"><div class="metric-label">Source</div><div class="metric-value">${esc(d.comments_source || "unknown")}</div></div>
           <div class="metric-card"><div class="metric-label">Citizen comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_citizen_count || 0))}</div></div>
           <div class="metric-card"><div class="metric-label">Novel cluster share</div><div class="metric-value">${esc(formatPct(d.comments_novel_comment_rate || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Positive</div><div class="metric-value">${esc(formatPct(sentimentPos))}</div></div>
+          <div class="metric-card"><div class="metric-label">Negative</div><div class="metric-value">${esc(formatPct(sentimentNeg))}</div></div>
+          <div class="metric-card"><div class="metric-label">Neutral</div><div class="metric-value">${esc(formatPct(sentimentNeu))}</div></div>
+          <div class="metric-card"><div class="metric-label">Net sentiment</div><div class="metric-value"><span class="review-pill ${esc(sentimentNetView.cls)}">${esc(sentimentNetView.label)}</span></div></div>
+          <div class="metric-card"><div class="metric-label">Sentiment sample</div><div class="metric-value">${esc(formatMetricNumber(sentimentSample))}</div></div>
         </div>
         <p><strong>Commenter types:</strong> ${esc(commenterTypesText(d.comments_commenter_type_counts || {}))}</p>
         <p><strong>Selection:</strong> ${esc(d.comments_display_strategy || "default")} | first-page coverage ${esc(formatPct(d.comments_first_page_coverage_share || 0))} | stance mix ${esc(stanceMixText(d.comments_first_page_stance_counts || {}))} | days represented ${esc(d.comments_first_page_unique_days || 0)}</p>
