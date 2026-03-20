@@ -2,6 +2,8 @@
 
 Static public site for publishing selected Regulations Observer outputs via GitHub Pages.
 
+See it live: [Regulations.observer](https://regulatios.observer)
+
 ## Local preview
 
 From this directory:

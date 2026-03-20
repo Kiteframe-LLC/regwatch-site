@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-20T04:31:24.613709+00:00",
+  "comment_action_checked_at": "2026-03-20T21:13:38.092426+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-11T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 6,
-  "pass_3_score": 4.843032786885246,
+  "pass_3_score": 4.8180327868852455,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.9089717898486955,
-  "pass_3_scaled": 0.5538821531000753,
+  "pass_3_scaled": 0.5520194508030879,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6430823646199368,
+  "combined_score": 0.6421510134714431,
   "score_total": 13,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -51,15 +51,21 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/02/09/2026-02510.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "offline_cache_miss_supporting_docs",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
+  "referenced_documents": [],
+  "referenced_documents_count": 0,
+  "referenced_documents_mentions": 0,
+  "referenced_comments": [],
+  "referenced_comments_count": 0,
+  "referenced_comments_mentions": 0,
   "comments_total": 117,
-  "comments_velocity_total": 0,
-  "comments_public_total_estimate": 0,
+  "comments_velocity_total": 116,
+  "comments_public_total_estimate": 116,
   "comments_fetched": 117,
   "comments_text_hydrated": 113,
   "comments_cached_records": 117,
-  "comments_unique_clusters": 111,
+  "comments_unique_clusters": 113,
   "comments_clustered_duplicates": 2,
   "comments_truncated": false,
   "comments_source": "bulk_csv+api_topoff",
@@ -70,16 +76,17 @@
     "organization_other": 2
   },
   "comments_submission_role_counts": {
-    "individual": 115,
-    "organization": 2
+    "individual": 116,
+    "organization": 1
   },
   "comments_submission_channel_counts": {
-    "unknown": 117
+    "public_portal": 116,
+    "other_channel_recorded": 1
   },
-  "comments_public_count": 0,
-  "comments_recorded_count": 0,
+  "comments_public_count": 116,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
-  "comments_unknown_channel_count": 117,
+  "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
     "2026-03-17": 2,
     "2026-03-16": 2,
@@ -104,40 +111,40 @@
     "2026-02-12": 1
   },
   "comments_novel_comment_rate": 0.9829059829059829,
-  "comments_sentiment_positive_pct": 0.11320474040580555,
-  "comments_sentiment_negative_pct": 0.098947624547352,
-  "comments_sentiment_neutral_pct": 0.7878476350468424,
-  "comments_sentiment_net": 0.014257115858453559,
-  "comments_sentiment_sample_size": 112,
+  "comments_sentiment_positive_pct": 0.11120412512918744,
+  "comments_sentiment_negative_pct": 0.09719896871770307,
+  "comments_sentiment_neutral_pct": 0.7915969061531094,
+  "comments_sentiment_net": 0.014005156411484365,
+  "comments_sentiment_sample_size": 114,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 113,
+  "comments_analysis_sample_size": 115,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 113,
-  "comments_representative_prior_selected": 113,
+  "comments_representative_selected": 115,
+  "comments_representative_prior_selected": 115,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 10,
-  "comments_representative_run_budget": 3,
+  "comments_representative_must_keep": 14,
+  "comments_representative_run_budget": 2,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 10,
+    "must_keep": 14,
     "salience_rank": 2,
-    "weighted_fill": 101
+    "weighted_fill": 99
   },
-  "comments_representative_selected_by_counts_total": 113,
+  "comments_representative_selected_by_counts_total": 115,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-12T04:00Z",
-  "comments_api_last_seen_at": "2026-03-19T18:27:52.446121+00:00",
-  "comments_checked_at": "2026-03-20T00:35:53.435629+00:00",
+  "comments_api_last_seen_at": "2026-03-20T17:31:33.660623+00:00",
+  "comments_checked_at": "2026-03-20T17:31:35.137822+00:00",
   "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0107",
@@ -159,7 +166,7 @@
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
-          "attachmentCount": 0,
+          "attachmentCount": 1,
           "title": "Comment from Adams Saenz",
           "withdrawn": false,
           "submissionRole": "individual",
@@ -188,7 +195,7 @@
       "presentation_score": 0.8118735321469055
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 98,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0018",
@@ -239,7 +246,7 @@
       "presentation_score": 0.4275598066567094
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0063",
@@ -275,7 +282,7 @@
       "presentation_score": 0.8443625327078979
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0079",
@@ -311,7 +318,7 @@
       "presentation_score": 0.797303709178486
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0089",
@@ -347,7 +354,7 @@
       "presentation_score": 0.809068415060839
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0097",
@@ -383,7 +390,7 @@
       "presentation_score": 0.809068415060839
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0110",
@@ -405,7 +412,7 @@
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
-          "attachmentCount": 0,
+          "attachmentCount": 1,
           "title": "Comment from Emma Thompson",
           "withdrawn": false,
           "submissionRole": "individual",
@@ -414,12 +421,12 @@
           "submissionChannelConfidence": "medium"
         }
       },
-      "representative_has_attachment": false,
+      "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.870833120943192
+      "presentation_score": 0.920833120943192
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0044",
@@ -563,7 +570,7 @@
       "presentation_score": 0.7374997876098585
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0106",
@@ -599,7 +606,7 @@
       "presentation_score": 0.7227939052569172
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0104",
@@ -635,7 +642,7 @@
       "presentation_score": 0.7051468464333879
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0103",
@@ -671,7 +678,7 @@
       "presentation_score": 0.6963233170216231
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0084",
@@ -707,7 +714,7 @@
       "presentation_score": 0.6757350817275055
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0055",
@@ -779,7 +786,7 @@
       "presentation_score": 0.6071076307471134
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0108",
@@ -815,7 +822,7 @@
       "presentation_score": 0.5924017483941721
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0045",
@@ -851,7 +858,43 @@
       "presentation_score": 0.5747546895706428
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0001-0109",
+      "representative_posted_date": "2026-03-10T04:00:00Z",
+      "representative_length": 30,
+      "representative_excerpt": "Comment on FR Doc # 2026-02510",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0001-0109": {
+          "organization": "",
+          "postedDate": "2026-03-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment on FR Doc # 2026-02510",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5208331209431919
+    },
+    {
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0062",
@@ -876,8 +919,8 @@
           "attachmentCount": 0,
           "title": "Comment from SUNY Delhi Public Policy Class.",
           "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
@@ -887,7 +930,7 @@
       "presentation_score": 0.4443625327078977
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0031",
@@ -923,7 +966,7 @@
       "presentation_score": 0.4414213562373095
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0083",
@@ -959,7 +1002,43 @@
       "presentation_score": 0.5424017483941722
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0001-0111",
+      "representative_posted_date": "2026-03-10T04:00:00Z",
+      "representative_length": 26,
+      "representative_excerpt": "Comment from Richard Embry",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0001-0111": {
+          "organization": "",
+          "postedDate": "2026-03-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment from Richard Embry",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3874997876098585
+    },
+    {
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0060",
@@ -995,7 +1074,7 @@
       "presentation_score": 0.527695866041231
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0066",
@@ -1031,7 +1110,7 @@
       "presentation_score": 0.527695866041231
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0030",
@@ -1103,7 +1182,7 @@
       "presentation_score": 0.4767154738843683
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0105",
@@ -1139,7 +1218,7 @@
       "presentation_score": 0.447303709178486
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0101",
@@ -1175,7 +1254,7 @@
       "presentation_score": 0.4296566503549566
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0098",
@@ -1211,7 +1290,7 @@
       "presentation_score": 0.4149507680020154
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0099",
@@ -1247,7 +1326,7 @@
       "presentation_score": 0.4149507680020154
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0100",
@@ -1283,7 +1362,7 @@
       "presentation_score": 0.4149507680020154
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0085",
@@ -1319,7 +1398,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0086",
@@ -1355,7 +1434,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0087",
@@ -1391,7 +1470,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0090",
@@ -1427,7 +1506,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0092",
@@ -1463,7 +1542,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0094",
@@ -1499,7 +1578,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0095",
@@ -1535,7 +1614,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0096",
@@ -1571,7 +1650,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0077",
@@ -1607,7 +1686,7 @@
       "presentation_score": 0.39730370917848595
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0065",
@@ -1643,7 +1722,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0067",
@@ -1679,7 +1758,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0068",
@@ -1715,7 +1794,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0069",
@@ -1751,7 +1830,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0071",
@@ -1787,7 +1866,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0074",
@@ -1823,7 +1902,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0003",
@@ -1859,7 +1938,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0004",
@@ -1895,7 +1974,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0005",
@@ -1931,7 +2010,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0006",
@@ -1967,7 +2046,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0007",
@@ -2003,7 +2082,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0010",
@@ -2039,7 +2118,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0011",
@@ -2075,7 +2154,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0012",
@@ -2111,7 +2190,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0013",
@@ -2147,7 +2226,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0016",
@@ -2183,7 +2262,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0021",
@@ -2219,7 +2298,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0022",
@@ -2255,7 +2334,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0025",
@@ -2291,7 +2370,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0026",
@@ -2327,7 +2406,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0027",
@@ -2363,7 +2442,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0029",
@@ -2399,7 +2478,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0032",
@@ -2435,7 +2514,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0033",
@@ -2471,7 +2550,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0034",
@@ -2507,7 +2586,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0035",
@@ -2543,7 +2622,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0036",
@@ -2579,7 +2658,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0037",
@@ -2615,7 +2694,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0038",
@@ -2651,7 +2730,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0039",
@@ -2687,7 +2766,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0041",
@@ -2723,7 +2802,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0046",
@@ -2759,7 +2838,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0048",
@@ -2795,7 +2874,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0049",
@@ -2831,7 +2910,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0050",
@@ -2867,7 +2946,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0051",
@@ -2903,7 +2982,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0053",
@@ -2939,7 +3018,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0054",
@@ -2975,7 +3054,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0056",
@@ -3011,7 +3090,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0057",
@@ -3047,7 +3126,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0058",
@@ -3083,7 +3162,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0059",
@@ -3119,13 +3198,13 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0075",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 25,
+      "representative_excerpt": "Comment from Caleb Rector",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3155,13 +3234,13 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0076",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 26,
+      "representative_excerpt": "Comment from Mary Nachmann",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3191,13 +3270,13 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0078",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 22,
+      "representative_excerpt": "Comment from Susan Lee",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3227,13 +3306,13 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0080",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 24,
+      "representative_excerpt": "Comment from Joe McGrory",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3263,13 +3342,13 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0081",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 26,
+      "representative_excerpt": "Comment from Harper Martin",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3299,7 +3378,7 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0102",
@@ -3335,7 +3414,7 @@
       "presentation_score": 0.2963233170216232
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0088",
@@ -3371,13 +3450,13 @@
       "presentation_score": 0.27573508172750555
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0091",
       "representative_posted_date": "2026-02-17T05:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 23,
+      "representative_excerpt": "Comment from Kerri Nash",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3407,7 +3486,7 @@
       "presentation_score": 0.27573508172750555
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0093",
@@ -3443,13 +3522,13 @@
       "presentation_score": 0.27573508172750555
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0061",
       "representative_posted_date": "2026-02-12T05:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 25,
+      "representative_excerpt": "Comment from Joe Shumaker",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3479,7 +3558,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0064",
@@ -3515,7 +3594,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0070",
@@ -3551,7 +3630,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0072",
@@ -3587,7 +3666,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0073",
@@ -3623,7 +3702,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 111,
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0002",
@@ -3659,7 +3738,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0008",
@@ -3695,7 +3774,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0009",
@@ -3731,7 +3810,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0014",
@@ -3767,7 +3846,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0015",
@@ -3803,7 +3882,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0019",
@@ -3839,7 +3918,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0020",
@@ -3875,7 +3954,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0023",
@@ -3911,7 +3990,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0024",
@@ -3947,7 +4026,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0028",
@@ -3983,7 +4062,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0040",
@@ -4019,7 +4098,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0042",
@@ -4055,7 +4134,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0043",
@@ -4091,7 +4170,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0047",
@@ -4127,7 +4206,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0052",
@@ -4164,17 +4243,19 @@
     }
   ],
   "comments_clusters_path": "data/comments/NPS-2026-0001.csv",
+  "government_submissions_count": 0,
+  "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.23893805309734514,
+  "comments_first_page_coverage_share": 0.23478260869565218,
   "comments_first_page_coverage_count": 27,
-  "comments_clusters_total_available": 111,
-  "comments_clusters_displayed": 111,
+  "comments_clusters_total_available": 113,
+  "comments_clusters_displayed": 113,
   "comments_first_page_high_signal_clusters": 5,
-  "comments_first_page_novelty_clusters": 5,
+  "comments_first_page_novelty_clusters": 8,
   "comments_first_page_stance_counts": {
-    "neutral": 11,
-    "positive": 7,
+    "neutral": 12,
+    "positive": 6,
     "negative": 7
   },
   "comments_first_page_unique_days": 12,

@@ -76,18 +76,50 @@ function flagLabel(flag) {
 
 function attachmentRow(doc) {
   const id = esc(doc.document_id);
+  const rawId = String(doc.document_id || "");
+  const href = rawId
+    ? `https://www.regulations.gov/document/${encodeURIComponent(rawId)}`
+    : "";
   const title = esc(doc.title);
   const subtype = esc(doc.document_subtype || "");
   const rcv = esc(doc.received_date || doc.posted_date || "");
   const authors = Array.isArray(doc.authors) ? esc(doc.authors.join("; ")) : esc(doc.authors || "");
   const pages = doc.page_count ?? "";
   return `<tr>
-    <td>${id}</td>
+    <td>${href ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${id}</a>` : id}</td>
     <td>${title}</td>
     <td>${subtype}</td>
     <td>${rcv}</td>
     <td>${authors}</td>
     <td>${pages}</td>
+  </tr>`;
+}
+
+function govSubmissionRoleLabel(raw) {
+  const key = String(raw || "").toLowerCase();
+  if (key === "federal_agency") return "Federal agency";
+  if (key === "state_government") return "State government";
+  if (key === "tribal_government") return "Tribal government";
+  return key ? key.replace(/_/g, " ") : "Government";
+}
+
+function govSubmissionRow(sub) {
+  const cid = esc(sub.comment_id || "");
+  const posted = esc(formatDateOnly(sub.posted_date || ""));
+  const org = esc(sub.organization || "");
+  const role = esc(govSubmissionRoleLabel(sub.submission_role || ""));
+  const title = esc(sub.title || "");
+  const attachmentCount = Number(sub.attachment_count || 0);
+  const withdrawn = Boolean(sub.withdrawn);
+  const excerpt = esc(sub.representative_excerpt || "");
+  return `<tr>
+    <td>${cid ? `<a href="https://www.regulations.gov/comment/${encodeURIComponent(sub.comment_id || "")}" target="_blank" rel="noopener noreferrer">${cid}</a>` : ""}</td>
+    <td>${org}</td>
+    <td>${role}</td>
+    <td>${posted}</td>
+    <td>${attachmentCount}</td>
+    <td>${withdrawn ? "Yes" : "No"}</td>
+    <td>${title || excerpt}</td>
   </tr>`;
 }
 
@@ -178,6 +210,41 @@ function submissionRolesText(roles) {
   if (!entries.length) return "n/a";
   entries.sort((a, b) => Number(b[1] || 0) - Number(a[1] || 0));
   return entries.map(([k, v]) => `${k}: ${formatMetricNumber(v)}`).join(" | ");
+}
+
+function referencedDocumentRow(ref) {
+  const refId = String(ref && ref.id ? ref.id : "");
+  const refKind = String(ref && ref.kind ? ref.kind : "reference").toLowerCase();
+  const count = Number((ref && ref.count) || 0);
+  const commentMentions = Number((ref && ref.comment_mentions) || 0);
+  const ruleMentions = Number((ref && ref.rule_text_mentions) || 0);
+  const kindLabel = refKind.replaceAll("_", " ");
+  const href = String((ref && ref.resolved_url) || "");
+  const linkMode = String((ref && ref.link_mode) || "");
+  const linkError = String((ref && ref.link_error) || "");
+  const linkStatusCode = (ref && ref.link_status_code) != null
+    ? Number(ref.link_status_code)
+    : null;
+  let statusPill = "";
+  if (linkMode === "search_fallback_broken_direct") {
+    const statusText = Number.isFinite(linkStatusCode) ? `HTTP ${linkStatusCode}` : "broken";
+    statusPill = `<span class="review-pill sentiment-negative" title="${esc(linkError || "direct link failed")}">fallback search (${esc(statusText)})</span>`;
+  } else if (linkMode === "search_fallback_unverified_direct") {
+    const statusText = Number.isFinite(linkStatusCode) ? `HTTP ${linkStatusCode}` : "unverified";
+    statusPill = `<span class="review-pill sentiment-neutral" title="${esc(linkError || "direct link could not be verified")}">fallback search (${esc(statusText)})</span>`;
+  } else if (linkMode === "search_fallback_unknown_kind") {
+    statusPill = `<span class="review-pill sentiment-neutral">fallback search (unknown type)</span>`;
+  } else if (linkMode.startsWith("direct_retyped_")) {
+    const resolvedType = linkMode.replace("direct_retyped_", "");
+    statusPill = `<span class="review-pill sentiment-neutral">retyped as ${esc(resolvedType)}</span>`;
+  }
+  return `<tr>
+    <td>${esc(kindLabel)}</td>
+    <td>${href ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${esc(refId)}</a>` : esc(refId)} ${statusPill}</td>
+    <td>${esc(String(count))}</td>
+    <td>${esc(String(commentMentions))}</td>
+    <td>${esc(String(ruleMentions))}</td>
+  </tr>`;
 }
 
 function stanceMixText(map) {
@@ -317,6 +384,8 @@ function detailHtml(d, summaryMd, analysisMd) {
     .join("");
   const attachments = d.supporting_related_material || [];
   const attachmentRows = attachments.map(attachmentRow).join("");
+  const governmentSubmissions = d.government_submissions || [];
+  const governmentSubmissionRows = governmentSubmissions.map(govSubmissionRow).join("");
   const comments = d.comments_clusters || [];
   const sentimentPos = Number(d.comments_sentiment_positive_pct || 0);
   const sentimentNeg = Number(d.comments_sentiment_negative_pct || 0);
@@ -324,6 +393,10 @@ function detailHtml(d, summaryMd, analysisMd) {
   const sentimentNet = Number(d.comments_sentiment_net || 0);
   const sentimentSample = Number(d.comments_sentiment_sample_size || 0);
   const sentimentNetView = sentimentNetMeta(sentimentNet, sentimentSample);
+  const referencedDocuments = Array.isArray(d.referenced_documents)
+    ? d.referenced_documents
+    : [];
+  const referencedDocumentRows = referencedDocuments.map(referencedDocumentRow).join("");
   const rowsPerPage = 25;
   const totalCommentPages = Math.max(1, Math.ceil(comments.length / rowsPerPage));
   const commentRows = commentRowsHtml(comments, 1, rowsPerPage);
@@ -390,6 +463,26 @@ function detailHtml(d, summaryMd, analysisMd) {
         ${flags ? `<ul>${flags}</ul>` : "<p>None</p>"}
         <h3>Rule Text Sources</h3>
         ${sources ? `<ul>${sources}</ul>` : "<p>None</p>"}
+        <h3>Referenced Documents</h3>
+        ${
+          referencedDocuments.length
+            ? `<p><strong>Detected:</strong> ${esc(String(d.referenced_documents_count || referencedDocuments.length))} unique references, ${esc(String(d.referenced_documents_mentions || 0))} total mentions.</p>
+               <div class="table-wrap">
+                 <table>
+                   <thead>
+                     <tr>
+                       <th>Type</th>
+                       <th>ID</th>
+                       <th>Mentions</th>
+                       <th>From comments</th>
+                       <th>From rule text</th>
+                     </tr>
+                   </thead>
+                   <tbody>${referencedDocumentRows}</tbody>
+                 </table>
+               </div>`
+            : "<p>None detected in cached rule/comment text.</p>"
+        }
       </div>
 
       <div class="tab-panel markdown-body" data-panel="summary" role="tabpanel">
@@ -422,6 +515,11 @@ function detailHtml(d, summaryMd, analysisMd) {
         <p><strong>Commenter types:</strong> ${esc(commenterTypesText(d.comments_commenter_type_counts || {}))}</p>
         <p><strong>Submission roles:</strong> ${esc(submissionRolesText(d.comments_submission_role_counts || {}))}</p>
         <p><strong>Submission channels:</strong> ${esc(commenterTypesText(d.comments_submission_channel_counts || {}))}</p>
+        ${
+          Number(d.government_submissions_count || 0) > 0
+            ? `<p><strong>Government submissions detected:</strong> <span class="review-pill sentiment-negative">${esc(formatMetricNumber(d.government_submissions_count || 0))}</span></p>`
+            : ""
+        }
         <p><strong>Selection:</strong> ${esc(d.comments_display_strategy || "default")} | first-page coverage ${esc(formatPct(d.comments_first_page_coverage_share || 0))} | stance mix ${esc(stanceMixText(d.comments_first_page_stance_counts || {}))} | days represented ${esc(d.comments_first_page_unique_days || 0)}</p>
         <div class="comment-heatmaps">
           ${renderDayHeatmap("New clusters/day", d.comments_new_cluster_count_by_day || {})}
@@ -464,6 +562,26 @@ function detailHtml(d, summaryMd, analysisMd) {
       </div>
 
       <div class="tab-panel" data-panel="attachments" role="tabpanel">
+        ${
+          governmentSubmissions.length
+            ? `<h3>Government Submissions (From Docket Comments)</h3>
+               <table>
+                 <thead>
+                   <tr>
+                     <th>Comment ID</th>
+                     <th>Organization</th>
+                     <th>Role</th>
+                     <th>Date</th>
+                     <th>Attachments</th>
+                     <th>Withdrawn</th>
+                     <th>Title / Excerpt</th>
+                   </tr>
+                 </thead>
+                 <tbody>${governmentSubmissionRows}</tbody>
+               </table>`
+            : ""
+        }
+        ${governmentSubmissions.length && attachments.length ? "<h3>Supporting & Related Material</h3>" : ""}
         ${
           attachments.length
             ? `<table>

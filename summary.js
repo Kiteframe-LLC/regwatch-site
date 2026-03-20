@@ -59,18 +59,50 @@ function flagLabel(flag) {
 
 function attachmentRow(doc) {
   const id = esc(doc.document_id);
+  const rawId = String(doc.document_id || "");
+  const href = rawId
+    ? `https://www.regulations.gov/document/${encodeURIComponent(rawId)}`
+    : "";
   const title = esc(doc.title);
   const subtype = esc(doc.document_subtype || "");
   const rcv = esc(doc.received_date || doc.posted_date || "");
   const authors = Array.isArray(doc.authors) ? esc(doc.authors.join("; ")) : esc(doc.authors || "");
   const pages = doc.page_count ?? "";
   return `<tr>
-    <td>${id}</td>
+    <td>${href ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${id}</a>` : id}</td>
     <td>${title}</td>
     <td>${subtype}</td>
     <td>${rcv}</td>
     <td>${authors}</td>
     <td>${pages}</td>
+  </tr>`;
+}
+
+function govSubmissionRoleLabel(raw) {
+  const key = String(raw || "").toLowerCase();
+  if (key === "federal_agency") return "Federal agency";
+  if (key === "state_government") return "State government";
+  if (key === "tribal_government") return "Tribal government";
+  return key ? key.replace(/_/g, " ") : "Government";
+}
+
+function govSubmissionRow(sub) {
+  const cid = esc(sub.comment_id || "");
+  const posted = esc(formatDateOnly(sub.posted_date || ""));
+  const org = esc(sub.organization || "");
+  const role = esc(govSubmissionRoleLabel(sub.submission_role || ""));
+  const title = esc(sub.title || "");
+  const attachmentCount = Number(sub.attachment_count || 0);
+  const withdrawn = Boolean(sub.withdrawn);
+  const excerpt = esc(sub.representative_excerpt || "");
+  return `<tr>
+    <td>${cid ? `<a href="https://www.regulations.gov/comment/${encodeURIComponent(sub.comment_id || "")}" target="_blank" rel="noopener noreferrer">${cid}</a>` : ""}</td>
+    <td>${org}</td>
+    <td>${role}</td>
+    <td>${posted}</td>
+    <td>${attachmentCount}</td>
+    <td>${withdrawn ? "Yes" : "No"}</td>
+    <td>${title || excerpt}</td>
   </tr>`;
 }
 
@@ -308,6 +340,8 @@ function detailHtml(d, summaryMd, analysisMd) {
     .join("");
   const attachments = d.supporting_related_material || [];
   const attachmentRows = attachments.map(attachmentRow).join("");
+  const governmentSubmissions = d.government_submissions || [];
+  const governmentSubmissionRows = governmentSubmissions.map(govSubmissionRow).join("");
   const comments = d.comments_clusters || [];
   const sentimentPos = Number(d.comments_sentiment_positive_pct || 0);
   const sentimentNeg = Number(d.comments_sentiment_negative_pct || 0);
@@ -408,6 +442,11 @@ function detailHtml(d, summaryMd, analysisMd) {
         <p><strong>Commenter types:</strong> ${esc(commenterTypesText(d.comments_commenter_type_counts || {}))}</p>
         <p><strong>Submission roles:</strong> ${esc(submissionRolesText(d.comments_submission_role_counts || {}))}</p>
         <p><strong>Submission channels:</strong> ${esc(commenterTypesText(d.comments_submission_channel_counts || {}))}</p>
+        ${
+          Number(d.government_submissions_count || 0) > 0
+            ? `<p><strong>Government submissions detected:</strong> <span class="review-pill sentiment-negative">${esc(formatMetricNumber(d.government_submissions_count || 0))}</span></p>`
+            : ""
+        }
         <p><strong>Selection:</strong> ${esc(d.comments_display_strategy || "default")} | first-page coverage ${esc(formatPct(d.comments_first_page_coverage_share || 0))} | stance mix ${esc(stanceMixText(d.comments_first_page_stance_counts || {}))} | days represented ${esc(d.comments_first_page_unique_days || 0)}</p>
         <div class="comment-heatmaps">
           ${renderDayHeatmap("New clusters/day", d.comments_new_cluster_count_by_day || {})}
@@ -450,6 +489,26 @@ function detailHtml(d, summaryMd, analysisMd) {
       </div>
 
       <div class="tab-panel ${tabActive("attachments")}" data-panel="attachments" role="tabpanel">
+        ${
+          governmentSubmissions.length
+            ? `<h3>Government Submissions (From Docket Comments)</h3>
+               <table>
+                 <thead>
+                   <tr>
+                     <th>Comment ID</th>
+                     <th>Organization</th>
+                     <th>Role</th>
+                     <th>Date</th>
+                     <th>Attachments</th>
+                     <th>Withdrawn</th>
+                     <th>Title / Excerpt</th>
+                   </tr>
+                 </thead>
+                 <tbody>${governmentSubmissionRows}</tbody>
+               </table>`
+            : ""
+        }
+        ${governmentSubmissions.length && attachments.length ? "<h3>Supporting & Related Material</h3>" : ""}
         ${
           attachments.length
             ? `<table>

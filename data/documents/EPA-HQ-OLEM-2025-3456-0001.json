@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-20T04:31:24.416062+00:00",
+  "comment_action_checked_at": "2026-03-20T21:13:38.159236+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-05T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 5,
-  "pass_3_score": 4.487704918032787,
+  "pass_3_score": 4.112704918032787,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.5266644905671347,
+  "pass_3_scaled": 0.49613697299965276,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6481071757123098,
+  "combined_score": 0.6328434169285688,
   "score_total": 14,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -106,35 +106,90 @@
       ]
     }
   ],
-  "comments_total": 12,
-  "comments_velocity_total": 0,
-  "comments_public_total_estimate": 0,
-  "comments_fetched": 10,
+  "referenced_documents": [
+    {
+      "id": "EPA-HQ-OLEM-2024-0307",
+      "kind": "docket",
+      "docket_id": "EPA-HQ-OLEM-2024",
+      "count": 1,
+      "rule_text_mentions": 1,
+      "comment_mentions": 0,
+      "sources": [
+        "EPA-HQ-OLEM-2025-3456-0001"
+      ],
+      "contexts": [
+        "mber 17-18, 2024, e-Manifest Advisory Board Meeting, available in the public docket, Docket No. EPA-HQ-OLEM-2024-0307, the Agency implemented a deliberate discount for data plus image manifests for the FY2026/2027"
+      ],
+      "resolved_kind": "docket",
+      "direct_url": "https://www.regulations.gov/docket/EPA-HQ-OLEM-2024-0307",
+      "search_url": "https://www.regulations.gov/search?filter=EPA-HQ-OLEM-2024-0307",
+      "resolved_url": "https://www.regulations.gov/docket/EPA-HQ-OLEM-2024-0307",
+      "link_supported": true,
+      "link_status_code": 200,
+      "link_error": null,
+      "link_checked_at": "2026-03-20T20:10:34.744020+00:00",
+      "link_mode": "direct"
+    },
+    {
+      "id": "EPA-HQ-OLEM-2025-0391",
+      "kind": "docket",
+      "docket_id": "EPA-HQ-OLEM-2025",
+      "count": 1,
+      "rule_text_mentions": 1,
+      "comment_mentions": 0,
+      "sources": [
+        "EPA-HQ-OLEM-2025-3456-0001"
+      ],
+      "contexts": [
+        "fest FACA Meeting Report: September 2025 Meeting, available in the public docket (Docket ID No. EPA-HQ-OLEM-2025-0391), the Board emphasized the importance of sunsetting paper manifests on a timeline that supports"
+      ],
+      "resolved_kind": "docket",
+      "direct_url": "https://www.regulations.gov/docket/EPA-HQ-OLEM-2025-0391",
+      "search_url": "https://www.regulations.gov/search?filter=EPA-HQ-OLEM-2025-0391",
+      "resolved_url": "https://www.regulations.gov/docket/EPA-HQ-OLEM-2025-0391",
+      "link_supported": true,
+      "link_status_code": 200,
+      "link_error": null,
+      "link_checked_at": "2026-03-20T20:10:35.233106+00:00",
+      "link_mode": "direct"
+    }
+  ],
+  "referenced_documents_count": 2,
+  "referenced_documents_mentions": 2,
+  "referenced_comments": [],
+  "referenced_comments_count": 0,
+  "referenced_comments_mentions": 0,
+  "comments_total": 13,
+  "comments_velocity_total": 6,
+  "comments_public_total_estimate": 6,
+  "comments_fetched": 1,
   "comments_text_hydrated": 1,
-  "comments_cached_records": 12,
-  "comments_unique_clusters": 12,
+  "comments_cached_records": 13,
+  "comments_unique_clusters": 13,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 12,
+  "comments_citizen_count": 13,
   "comments_commenter_type_counts": {
-    "citizen": 12
+    "citizen": 13
   },
   "comments_submission_role_counts": {
+    "individual": 9,
     "organization": 1,
-    "individual": 8,
     "government_affiliated_or_unclear": 2,
     "government_unknown": 1
   },
   "comments_submission_channel_counts": {
-    "unknown": 12
+    "other_channel_recorded": 7,
+    "public_portal": 6
   },
-  "comments_public_count": 0,
-  "comments_recorded_count": 0,
+  "comments_public_count": 6,
+  "comments_recorded_count": 7,
   "comments_agency_material_count": 0,
-  "comments_unknown_channel_count": 12,
+  "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-03-20": 1,
     "2026-03-16": 4,
     "2026-03-13": 1,
     "2026-03-11": 2,
@@ -142,23 +197,24 @@
     "2026-03-09": 4
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-03-20": 1,
     "2026-03-13": 1,
     "2026-03-10": 1,
     "2026-03-09": 2
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.3,
+  "comments_sentiment_positive_pct": 0.5,
   "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.7000000000000001,
-  "comments_sentiment_net": 0.3,
-  "comments_sentiment_sample_size": 10,
+  "comments_sentiment_neutral_pct": 0.5,
+  "comments_sentiment_net": 0.5,
+  "comments_sentiment_sample_size": 6,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 12,
+  "comments_analysis_sample_size": 13,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 12,
-  "comments_representative_prior_selected": 12,
+  "comments_representative_selected": 13,
+  "comments_representative_prior_selected": 13,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 4,
   "comments_representative_run_budget": 0,
@@ -168,19 +224,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 4,
     "salience_rank": 1,
-    "weighted_fill": 7
+    "weighted_fill": 8
   },
-  "comments_representative_selected_by_counts_total": 12,
+  "comments_representative_selected_by_counts_total": 13,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-19T21:07:19.652938+00:00",
-  "comments_checked_at": "2026-03-20T00:35:47.176318+00:00",
+  "comments_api_last_seen_at": "2026-03-20T17:31:59.091166+00:00",
+  "comments_checked_at": "2026-03-20T17:32:00.782810+00:00",
   "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0005",
@@ -216,7 +272,7 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0011",
@@ -249,10 +305,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9071428571428573
+      "presentation_score": 0.8863636363636365
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0004",
@@ -288,7 +344,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0008",
@@ -321,10 +377,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7642857142857142
+      "presentation_score": 0.759090909090909
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0016",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 4564,
+      "representative_excerpt": "Comment on EPA-HQ-OLEM-2025-3456 Paper Manifest Sunset Rule: Modification of the Hazardous Waste Manifest Regulations The proposed rule would eliminate paper hazardous waste manifests and require exclusive use of electronic manifests after a 24-month transition period. This is a consequential system transition that replaces a long-standing compliance pathway...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-3456-0016": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by James Scarborough",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.85
+    },
+    {
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0007",
@@ -333,7 +425,7 @@
       "representative_excerpt": "Please forgive my bluntness, I saw this email come thru and although I have better things to do felt the need to add my proverbial 2 cents. I understand and would agree that hazardous waste should be tracked to ensure proper management and agree that a central system was needed. The uniform manifest alleviated the need to use a different manifest for differe...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -351,8 +443,8 @@
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
@@ -360,7 +452,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0009",
@@ -369,7 +461,7 @@
       "representative_excerpt": "As a state regulator, the most common incorrect form of the manifest we see is the electronic copy. Receiving facilities are not accurate when inputting the information into e-manifest. On top of bad data quality, important information is often not entered at all from box 14 of the manifest into e-manifest. Federal and state waste codes are not entered causi...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -385,18 +477,18 @@
           "attachmentCount": 0,
           "title": "Comment submitted by Maine Department of Environmental Protection (DEP)",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5785714285714286
+      "presentation_score": 0.5681818181818182
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0012",
@@ -421,18 +513,18 @@
           "attachmentCount": 0,
           "title": "Comment submitted by J.  P. (no full name provided)",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.6136363636363636
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0013",
@@ -441,7 +533,7 @@
       "representative_excerpt": "With regard to the new requirements and wording proposed for \u00a7 761.205 Notification of PCB waste activity (EPA Form 7710-53) (a)(2).....How will presently \"exempt\" PCB Generators be required to indicate their activities on the current version of the 7710-53 which only list \"PCB Generator w/ on site storage facility\" as this would inaccurately describe a pres...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -459,16 +551,16 @@
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.6136363636363636
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0014",
@@ -477,7 +569,7 @@
       "representative_excerpt": "I understand Hazardous Waste Electronic Manifest (e-Manifest) system now. E-manifest offers a faster, more accurate alternative to traditional paper forms, with lower fees, instantaneous tracking, and digital signatures. Electronic manifests reduce administrative burdens and costs compared to mailing paper documents, although paper remains, for now, an optio...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -495,16 +587,16 @@
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.6136363636363636
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0010",
@@ -537,10 +629,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4785714285714286
+      "presentation_score": 0.4681818181818182
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0006",
@@ -565,8 +657,8 @@
           "attachmentCount": 0,
           "title": "Comment submitted by Bernhardt Furniture Company",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         }
@@ -576,13 +668,13 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-3456-0015",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 0,
-      "representative_excerpt": "",
+      "representative_length": 59,
+      "representative_excerpt": "Comment submitted by Environmental Technology Council (ETC)",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -601,31 +693,33 @@
           "attachmentCount": 0,
           "title": "Comment submitted by Environmental Technology Council (ETC)",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44999999999999996
+      "presentation_score": 0.41363636363636364
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2025-3456.csv",
+  "government_submissions_count": 0,
+  "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 12,
-  "comments_clusters_total_available": 12,
-  "comments_clusters_displayed": 12,
-  "comments_first_page_high_signal_clusters": 4,
+  "comments_first_page_coverage_count": 13,
+  "comments_clusters_total_available": 13,
+  "comments_clusters_displayed": 13,
+  "comments_first_page_high_signal_clusters": 5,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
     "positive": 3,
-    "neutral": 9
+    "neutral": 10
   },
-  "comments_first_page_unique_days": 5,
+  "comments_first_page_unique_days": 6,
   "summary_available": true,
   "raw_summary_available": true
 }
