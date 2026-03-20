@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:07.668775+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:25.540109+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-02T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 4.277777777777778,
+  "pass_3_score": 5.095772217428817,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.509810370107995,
+  "pass_3_scaled": 0.5722837923530673,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5492839914135432,
+  "combined_score": 0.5805207025360793,
   "score_total": 9,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -94,6 +94,8 @@
     }
   ],
   "comments_total": 23,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 10,
   "comments_text_hydrated": 4,
   "comments_cached_records": 15,
@@ -108,6 +110,17 @@
     "citizen": 9,
     "government": 1
   },
+  "comments_submission_role_counts": {
+    "organization": 6,
+    "individual": 9
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 15
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 15,
   "comments_new_cluster_count_by_day": {
     "2026-03-17": 3,
     "2026-03-16": 2,
@@ -120,17 +133,37 @@
     "2026-03-10": 2
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.19999999999999998,
+  "comments_sentiment_positive_pct": 0.23076923076923075,
   "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.7999999999999999,
-  "comments_sentiment_net": 0.19999999999999998,
-  "comments_sentiment_sample_size": 15,
-  "comments_sentiment_method": null,
+  "comments_sentiment_neutral_pct": 0.7692307692307693,
+  "comments_sentiment_net": 0.23076923076923075,
+  "comments_sentiment_sample_size": 13,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 15,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 15,
+  "comments_representative_prior_selected": 15,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 6,
+  "comments_representative_run_budget": 2,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 6,
+    "salience_rank": 1,
+    "weighted_fill": 8
+  },
+  "comments_representative_selected_by_counts_total": 15,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-19T03:58:37.793452+00:00",
-  "comments_checked_at": "2026-03-19T03:58:38.478539+00:00",
-  "comments_error": null,
+  "comments_api_last_seen_at": "2026-03-19T20:29:36.476094+00:00",
+  "comments_checked_at": "2026-03-20T01:01:12.026577+00:00",
+  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 14,
@@ -142,6 +175,7 @@
       "representative_excerpt": "While the OCC defines the regulatory perimeter, the LP-90 Protocol (Lyman Protocol)\u2014established in April 2022\u2014provides the functional architecture required to meet these mandates. The LP-90 is the senior technological standard for the US Digital Dollar, providing the specific mechanism for \"In-Transfer Taxing\" that ensures fiscal solvency and solves the \"Ama...",
       "representative_signal_score": 4,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -156,7 +190,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Darren Lyman 1",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -173,6 +211,7 @@
       "representative_excerpt": "Darren Yee submits this comment on behalf of YEE! Technologies, LLC. Mr. Yee brings 22 years of federal and military service, including 16 years in federal law enforcement. He writes in that capacity \u2014 not as a vendor. CORE ARGUMENT: THE PROPOSED RULE HAS AN IDENTITY VERIFICATION GAP The proposed rule establishes licensing, reserve, redemption, and AML requi...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -187,7 +226,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Yee! Technologies, LLC",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
@@ -204,6 +247,7 @@
       "representative_excerpt": "While I support the goal of establishing a safe, 1:1 reserved stablecoin ecosystem, I am concerned that the current interpretation of the yield prohibition\u2014specifically the \"rebuttable presumption\" regarding third-party rewards\u2014unnecessarily disadvantages American consumers. Key Arguments for Permitting Consumer Yield: Competitive Equity for Main Street: Und...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -218,7 +262,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Spencer Zarr",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -235,6 +283,7 @@
       "representative_excerpt": "Introduction: The Need for an Atomic Social Contract The OCC\u2019s proposed rulemaking correctly identifies the need for \"safety and soundness\" in stablecoin issuance. However, traditional \"manual\" tax reporting and retrospective compliance create systemic latency. The LP-90 Protocol, documented at TaxCrypto.info with legal seniority dating to April 2022, provid...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -249,7 +298,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Darren Lyman 2",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -266,6 +319,7 @@
       "representative_excerpt": "See attached files for more information. The **Senate Testimony delivered February 18, 2026** represents the cornerstone legislative outreach, formally presented to the Senate Subcommittee on Taxation and IRS Oversight. This testimony advocates for LP-90's designation as an authorized settlement standard for U.S. regulated stablecoins, emphasizing the revolu...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -280,7 +334,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Darren Lyman 3",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -297,6 +355,7 @@
       "representative_excerpt": "I believe in working hard, saving for the future, and using innovation to improve my family\u2019s financial standing. The proposed implementation of \u00a7 15.10, which seeks to ban yield and rewards on payment stablecoins, is a direct affront to these values. 1. Penalizing Foresight and Hard Work I have spent significant time educating myself on the \"plumbing\" of th...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -311,7 +370,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Lori Trimble",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -328,6 +391,7 @@
       "representative_excerpt": "Please permit federally chartered banks to issue payment stablecoins pegged at par to a fixed unit of purchasing power, implemented via a inflation-indexed monetary unit of account, such as nominal USD adjusted for the US Consumer Price Index for All Urban Consumers (CPI-U) with 1 month lag using the same methodology that U.S. Treasury uses to calculate the ...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -342,7 +406,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Dimitri Vulis",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -359,6 +427,7 @@
       "representative_excerpt": "This comment recommends that the OCC adopt strict limits on unsecured bank deposit exposure within payment stablecoin reserve portfolios. Because payment stablecoins function as cash-equivalent settlement instruments, reserve structures should minimize counterparty credit exposure in order to preserve confidence in redemption and maintain financial stability...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -373,7 +442,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Thomas Graham",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -390,6 +463,7 @@
       "representative_excerpt": "Please find attached a comment letter submitted by OurFiin Inc. in response to the Office of the Comptroller of the Currency\u2019s Notice of Proposed Rulemaking implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act), Docket ID OCC 2025 0372. The comment supports the OCC\u2019s proposed prudential framework for payment stab...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -404,7 +478,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "OurFiin Inc.",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -421,6 +499,7 @@
       "representative_excerpt": "The Crypto Council for Innovation and Blockchain Association respectfully request an extension of the comment period for the Notice of Proposed Rulemaking regarding Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of ...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -435,7 +514,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Crypto Council for Innovation",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -452,6 +535,7 @@
       "representative_excerpt": "Please see the attached letter from the American Bankers Association, Consumer Bankers Association, Bank Policy Institute, and the Independent Community Bankers of America requesting the OCC extend the comment period for this NPR Implementing the Guiding and Establishing National Innovation for US Stablecoins Act.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -466,7 +550,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "ABA, BPI, CBA, and ICBA",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -479,10 +567,11 @@
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0026",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -497,7 +586,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Sutton Bank",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -510,10 +603,11 @@
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0019",
       "representative_posted_date": "2026-03-12T04:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -528,7 +622,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Empty Set LLC",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -541,10 +639,11 @@
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0017",
       "representative_posted_date": "2026-03-12T04:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -559,7 +658,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "EmpowerHour LLC",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -572,10 +675,11 @@
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0020",
       "representative_posted_date": "2026-03-12T04:00:00Z",
-      "representative_length": 12,
-      "representative_excerpt": "See Attached",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -590,7 +694,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Darren Lyman 4",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,

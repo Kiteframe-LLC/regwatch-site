@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:08.563031+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:25.890489+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-22T03:59:59Z",
   "pass_1_score": 6,
   "pass_2_score": 2,
-  "pass_3_score": 3.037037037037037,
+  "pass_3_score": 4.411531938948558,
   "pass_1_scaled": 0.5582529707610229,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.39720182483943745,
+  "pass_3_scaled": 0.5206169542450843,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.47610867990741124,
+  "combined_score": 0.5378162446102346,
   "score_total": 8,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -78,6 +78,8 @@
     }
   ],
   "comments_total": 1,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 1,
   "comments_text_hydrated": 0,
   "comments_cached_records": 1,
@@ -90,6 +92,16 @@
   "comments_commenter_type_counts": {
     "citizen": 1
   },
+  "comments_submission_role_counts": {
+    "unknown": 1
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 1
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 1,
   "comments_new_cluster_count_by_day": {
     "2026-03-09": 1
   },
@@ -100,12 +112,30 @@
   "comments_sentiment_neutral_pct": 0.0,
   "comments_sentiment_net": 1.0,
   "comments_sentiment_sample_size": 1,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 1,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 1,
+  "comments_representative_prior_selected": 1,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 0,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "salience_rank": 1
+  },
+  "comments_representative_selected_by_counts_total": 1,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-18T05:51:17.750963+00:00",
-  "comments_checked_at": "2026-03-18T21:36:32.131102+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T01:08:49.156725+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -117,6 +147,7 @@
       "representative_excerpt": "The Proposed rule by the Department of Veterans Affairs is move that I believe will help a community that has been neglected for way too long. The Proposed Rule intends to streamline the definitions of services provided, provide a understanding of for VA reimbursement, also to give Veterans a option to be medically seen outside of the nursing home in a Adult...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -131,7 +162,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on VA-2026-VHA-0100-0001  (Anonymous)",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,

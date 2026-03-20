@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:07.438705+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:24.613709+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-11T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 6,
-  "pass_3_score": 2.8974358974358974,
+  "pass_3_score": 4.843032786885246,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.9089717898486955,
-  "pass_3_scaled": 0.3830121719505737,
+  "pass_3_scaled": 0.5538821531000753,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5576473740451859,
+  "combined_score": 0.6430823646199368,
   "score_total": 13,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -51,22 +51,35 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/02/09/2026-02510.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "offline_cache_miss_supporting_docs",
   "supporting_related_material": [],
-  "comments_total": 113,
-  "comments_fetched": 113,
+  "comments_total": 117,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
+  "comments_fetched": 117,
   "comments_text_hydrated": 113,
   "comments_cached_records": 117,
-  "comments_unique_clusters": 115,
+  "comments_unique_clusters": 111,
   "comments_clustered_duplicates": 2,
   "comments_truncated": false,
-  "comments_source": "bulk_csv",
+  "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 115,
   "comments_commenter_type_counts": {
     "citizen": 115,
     "organization_other": 2
   },
+  "comments_submission_role_counts": {
+    "individual": 115,
+    "organization": 2
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 117
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 117,
   "comments_new_cluster_count_by_day": {
     "2026-03-17": 2,
     "2026-03-16": 2,
@@ -91,20 +104,40 @@
     "2026-02-12": 1
   },
   "comments_novel_comment_rate": 0.9829059829059829,
-  "comments_sentiment_positive_pct": 0.11694044306693392,
-  "comments_sentiment_negative_pct": 0.09468887924188144,
-  "comments_sentiment_neutral_pct": 0.7883706776911846,
-  "comments_sentiment_net": 0.022251563825052487,
-  "comments_sentiment_sample_size": 117,
-  "comments_sentiment_method": null,
+  "comments_sentiment_positive_pct": 0.11320474040580555,
+  "comments_sentiment_negative_pct": 0.098947624547352,
+  "comments_sentiment_neutral_pct": 0.7878476350468424,
+  "comments_sentiment_net": 0.014257115858453559,
+  "comments_sentiment_sample_size": 112,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 113,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 113,
+  "comments_representative_prior_selected": 113,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 10,
+  "comments_representative_run_budget": 3,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 10,
+    "salience_rank": 2,
+    "weighted_fill": 101
+  },
+  "comments_representative_selected_by_counts_total": 113,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-12T04:00Z",
-  "comments_api_last_seen_at": null,
-  "comments_checked_at": "2026-03-19T03:48:48.716163+00:00",
-  "comments_error": "used_bulk_csv",
+  "comments_api_last_seen_at": "2026-03-19T18:27:52.446121+00:00",
+  "comments_checked_at": "2026-03-20T00:35:53.435629+00:00",
+  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
-      "cluster_id": 12,
+      "cluster_id": 8,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0107",
@@ -113,6 +146,7 @@
       "representative_excerpt": "Mammoth Cave National Park, located in central Kentucky, spans 52,830 acres and contains the world's largest known cave system. The area was authorized for establishment of Mammoth Cave National Park by Congress in 1926, under the Act of May 25, 1926 (P.L. 69-283, 44 Stat. 635). The Act of May 25, 1926 authorized acquisition of the land which makes up the na...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -127,7 +161,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Adams Saenz",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         },
         "NPS-2026-0001-0082": {
           "organization": "",
@@ -138,7 +176,11 @@
           "country": "",
           "attachmentCount": 1,
           "title": "Comment from Adams Saenz",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -146,7 +188,7 @@
       "presentation_score": 0.8118735321469055
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 96,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0018",
@@ -155,6 +197,7 @@
       "representative_excerpt": "I support this proposal because it allows more people to enjoy Mammoth Cave National Park while still protecting natural resources.",
       "representative_signal_score": 0,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -169,7 +212,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Isaac Da Silva",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         },
         "NPS-2026-0001-0017": {
           "organization": "",
@@ -180,7 +227,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Isaac Da Silva",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -188,7 +239,7 @@
       "presentation_score": 0.4275598066567094
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0063",
@@ -197,6 +248,7 @@
       "representative_excerpt": "Mammoth Cave National Park\u2019s foundation document clearly states that its mission includes recreation on the lands above the cave system, as well as within the cave system. Expanding and redesignating the use of some of the trails in the park directly supports this mission, while also helping environmental conservation and sustainability efforts. The proposed...",
       "representative_signal_score": 3,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -211,7 +263,11 @@
           "country": "",
           "attachmentCount": 1,
           "title": "Comment from Samantha Libor",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -219,7 +275,7 @@
       "presentation_score": 0.8443625327078979
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0079",
@@ -228,6 +284,7 @@
       "representative_excerpt": "Throughout the United States, a large number of towns have been working to adapt a culture focused on mountain biking. Some examples of these towns include Bend, Asheville, Duluth, and Chattanooga, TN. These mountain bike towns see a large influx of riders that help to contribute to economic growth and trail usage. For example, in Chattanooga, TN, there were...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -242,7 +299,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Joseph McGrory",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -250,7 +311,7 @@
       "presentation_score": 0.797303709178486
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0089",
@@ -259,6 +320,7 @@
       "representative_excerpt": "I believe that this rule will be very beneficial to Mammoth Cave National Park. As an outdoor professional working at my university\u2019s outdoor program guiding adventure trips, as well as an avid recreationist myself, I place a high value on access to the outdoors for all. Outdoor recreation can have important health benefits for those who participate (Twohig-...",
       "representative_signal_score": 3,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -273,7 +335,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from William Browning",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -281,7 +347,7 @@
       "presentation_score": 0.809068415060839
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0097",
@@ -290,6 +356,7 @@
       "representative_excerpt": "I wish to voice my dissent for the proposed regulatory action to allow bicycle use on 36 miles of existing multi-use trails, to allow horse and equestrian use on the Houchin Ferry North/Ollie Road trail, and the creation / construction of future new trails for equestrian and bicycle use. As a lover of our National Parks, and specifically as a 13-year volunte...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -304,7 +371,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Gary Gibula",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -312,7 +383,7 @@
       "presentation_score": 0.809068415060839
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0110",
@@ -321,6 +392,7 @@
       "representative_excerpt": "In regard to allowing bikes to have access to the more of the multi-use trails and permitting horses on one of the roads, I feel as if that could potentially cause some issues. With the passing of this rule, there is a potential for an increase in park degradation and safety concerns. As someone who has experience with park systems that have an ample amount ...",
       "representative_signal_score": 3,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -335,7 +407,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Emma Thompson",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -343,7 +419,7 @@
       "presentation_score": 0.870833120943192
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0044",
@@ -352,6 +428,7 @@
       "representative_excerpt": "I support the National Park Service\u2019s proposed rule to amend the special regulations for Mammoth Cave National Park to expand authorized bicycle and horse use. Personal use and regional context I am an active cyclist who commonly travels to Tennessee, Indiana, North Carolina, and Ohio specifically to ride on trail systems these states have intentionally plan...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -366,7 +443,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jason Heck",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -383,6 +464,7 @@
       "representative_excerpt": "I support the National Park Service\u2019s proposal to expand multi use trail access and authorize bicycling and horseback riding on designated routes within Mammoth Cave National Park. This rule advances the park\u2019s mission by expanding low impact recreation while maintaining strong environmental safeguards. The proposal is backed by extensive review. As the NPS ...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -397,7 +479,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from RaeAnna Morales",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -405,7 +491,7 @@
       "presentation_score": 0.758088022903976
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0115",
@@ -414,6 +500,7 @@
       "representative_excerpt": "36 and implement part of the selected alternative identified in the Finding of No Significant Impact (FONSI). Expanding multi-use trails to about 37 miles could give visitors more opportunities to explore the park by bike while still using existing trail infrastructure. At the same time, it\u2019s important that these changes continue to be managed carefully unde...",
       "representative_signal_score": 2,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -428,7 +515,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -436,7 +527,7 @@
       "presentation_score": 0.7551468464333878
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0112",
@@ -445,6 +536,7 @@
       "representative_excerpt": "I support the proposed expansion of traditional bicycle use within Mammoth Cave National Park, but oppose the proposal to allow e-bicycle use and horseback riding within the Park. 1. The proposed expansion of bicycle access is consistent with the NPS\u2019s statutory mandate. The NPS Organic Act requires the agency to regulate park use in a manner that both conse...",
       "representative_signal_score": 2,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -459,7 +551,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Rachael Y",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -467,7 +563,7 @@
       "presentation_score": 0.7374997876098585
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0106",
@@ -476,6 +572,7 @@
       "representative_excerpt": "I believe that this is a great idea, I have a few issues. 1) I am interested in this because I am from a place with a lot of public parks and I love spending time at them. 2) I am commenting on the part that involves allowing bikes to me on some trails. 3) I am an avid bike and outside fan. I love biking but I am a little concerned about the environmental im...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -490,7 +587,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -498,7 +599,7 @@
       "presentation_score": 0.7227939052569172
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0104",
@@ -507,6 +608,7 @@
       "representative_excerpt": "Regarding the bike and horse trails. More and longer would always be great. But if they can't keep Horse trails up now I don't think they should be building more until they are fixed like most parks do. Last time someone had Number 2's rocks for horses to walk across which one of my horses got a sore hoof. As for Bikes riding on Horse trails that is a very s...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -521,7 +623,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Rausa Moutardier",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -529,7 +635,7 @@
       "presentation_score": 0.7051468464333879
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0103",
@@ -538,6 +644,7 @@
       "representative_excerpt": "36, which would open additional trails to bicycling and equestrian use. I fully support this proposed rule, as it seems to be a wholly reasonable expansion of access that does not conflict with existing legislation such as the Organic Act. The NPS issued an environmental assessment (EA) in 2024 pertaining to their development plans for Mammoth Park, the trai...",
       "representative_signal_score": 2,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -552,7 +659,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -560,7 +671,7 @@
       "presentation_score": 0.6963233170216231
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0084",
@@ -569,6 +680,7 @@
       "representative_excerpt": "Please provide more bike trails. This is great for all ages, especially your riders and teams. Cyclists are generally well behaved, polite, and good stewards of the land. Local clubs and teams are very willing to assist with trail maintenance and building as well. Personally, I am involved with a youth team for the state of Kentucky, located in Louisville. A...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -583,7 +695,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Wes Pool",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -591,7 +707,7 @@
       "presentation_score": 0.6757350817275055
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0055",
@@ -600,6 +716,7 @@
       "representative_excerpt": "Mammoth Cave National Park is not merely a recreational landscape; it is one of the most ecologically sensitive and biologically significant protected areas in the National Park System. The park safeguards fragile karst terrain, rare plant communities, critical bat habitats, and an internationally recognized cave system whose integrity depends on the health ...",
       "representative_signal_score": 2,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -614,7 +731,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Kevin Mays",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -622,7 +743,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0113",
@@ -631,6 +752,7 @@
       "representative_excerpt": "I am in favor of opening up bike trails at Mammoth Cave National Park! I have been hiking and biking there for over 40 years. From 1985 forward, I have seen the amount of trails open to bikers dwindle. More importantly, I have seen trails to horses open up. Hikers and Bikers have a problem with this. 1. Many people who ride horses leave a lot of trash on the...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -645,7 +767,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Kim Harlan",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -653,7 +779,7 @@
       "presentation_score": 0.6071076307471134
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0108",
@@ -662,6 +788,7 @@
       "representative_excerpt": "I support this rule because I believe allowing for the careful construction of new trails will expand the park and what it has to offer for visitors. Providing additional trail access can improve recreational opportunities while helping distribute visitor use across the park. However, I do have several questions regarding the specifics of the proposal. Altho...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -676,7 +803,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -684,7 +815,7 @@
       "presentation_score": 0.5924017483941721
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0045",
@@ -693,6 +824,7 @@
       "representative_excerpt": "I support having more mountain bike trails at Mammoth Cave National Park. Adding more miles of trail increases tourism opportunities!!! Economic Growth and Tourism: Mountain biking trails act as economic drivers, with riders spending an average of \\(\\$416\\) per visit on local services like lodging, restaurants, and retail.Job Creation: Trail development and ...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -707,7 +839,11 @@
           "country": "",
           "attachmentCount": 1,
           "title": "Comment from Hoosier Mountain Bike Association",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -715,7 +851,7 @@
       "presentation_score": 0.5747546895706428
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0062",
@@ -724,6 +860,7 @@
       "representative_excerpt": "we are of a mixed opinion. Many of us support increased bicycling for increased recreation use, positive mental health benefits, and enabling access to historic areas that would be too far if done by walking. Several of us, are concerned that bicycling may have negative impact on the areas around the park increasing soil erosion, and compaction. Before any b...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -738,7 +875,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from SUNY Delhi Public Policy Class.",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -746,7 +887,7 @@
       "presentation_score": 0.4443625327078977
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0031",
@@ -755,6 +896,7 @@
       "representative_excerpt": "I and my family are in full support of expanding trails for bicycle use at Mammoth Cave National Park. The Sugar Sink Trail and Sugar Sink Connector Trail are my most favorite proposed trails by far and I am hoping the Park will move forward with them first. I come to Mammoth Cave National Park from Bowling Green Ky twice a week for the Big Hollow Trail and ...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -769,7 +911,11 @@
           "country": "",
           "attachmentCount": 4,
           "title": "Comment from Charles Winger",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -777,7 +923,7 @@
       "presentation_score": 0.4414213562373095
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0083",
@@ -786,6 +932,7 @@
       "representative_excerpt": "I have been involved with hiking, mountain biking, construction of trails and maintenance of trails in that area for 20 years. Mammoth Cave national Park is a national treasure! If there were more mountain bike trails people like me would travel to ride them or hike them. I regularly travel distances of 2 to 6 hours if there are 30 miles of trails or more. T...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -800,7 +947,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Fritz Games",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -808,38 +959,7 @@
       "presentation_score": 0.5424017483941722
     },
     {
-      "cluster_id": 28,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0091",
-      "representative_posted_date": "2026-02-17T05:00Z",
-      "representative_length": 122,
-      "representative_excerpt": "Would love to see more mountain bike trails added. I ride Big Hollow 1-2 times weekly and would love to see added mileage.",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0091": {
-          "organization": "",
-          "postedDate": "2026-02-17T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kerri Nash",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5424017483941722
-    },
-    {
-      "cluster_id": 58,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0060",
@@ -848,6 +968,7 @@
       "representative_excerpt": "My husband and I used to be avid hikers and winter campers on the north side of the river at the Park in the mid 1990s-mid 2000s. We stopped because the trails in that area of the park got overrun with horse manure. I know at the time some of the trails were \u201cno horses allowed\u201d, and riders were supposed to clean up after their animals, but those rules were w...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -862,7 +983,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Amy Sims",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -870,7 +995,7 @@
       "presentation_score": 0.527695866041231
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0066",
@@ -879,6 +1004,7 @@
       "representative_excerpt": "I believe that allowing horses on a certain could affect species in the area and could change the ecosystem. When I\u2019ve been to trails that allow horses, the excrement is not picked up. Is there data on how it will or will not affected the environment in this area?",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -893,7 +1019,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Monica Mena",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -901,7 +1031,7 @@
       "presentation_score": 0.527695866041231
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0030",
@@ -910,6 +1040,7 @@
       "representative_excerpt": "As an active member of the local horseback riding community, I would like to applaud the careful consideration of equestrian use within Mammoth Cave National Park. Our Kentucky cultural heritage, horseback riding in the back country, is being preserved. Fourteen years ago I moved here specifically to be closer to the equestrian use trails and camps within an...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -924,7 +1055,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Shari Claus",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -932,7 +1067,7 @@
       "presentation_score": 0.5247546895706428
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0114",
@@ -941,6 +1076,7 @@
       "representative_excerpt": "I am the team captain of the Heartland Cycling Developemnt Stampede mountain bike team, which is from Elizabethtown kentucky. Now, our city has destroyed several miles of trails, making it increasingly hard to find trails that can fit our ever growing team. This allowence of bycicles to have access to the trails is a wonderful idea because it means that we c...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -955,7 +1091,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Noah Henderson",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
@@ -963,7 +1103,7 @@
       "presentation_score": 0.4767154738843683
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0105",
@@ -972,6 +1112,7 @@
       "representative_excerpt": "The proposal deserves support because it shows that public access and conservation do not have to be in conflict. When people are able to spend time on public lands in a careful and informed way, they gain a stronger sense of connection to the places they visit. That connection often leads to lasting support for conservation efforts, which benefits both the ...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -986,7 +1127,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Elias Voit",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -994,7 +1139,7 @@
       "presentation_score": 0.447303709178486
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0101",
@@ -1003,6 +1148,7 @@
       "representative_excerpt": "I ride the trails at MCNP three or four times a week. More trails would be wonderful and could bring more visitors to our little part of the world.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1017,7 +1163,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Bhrett Puckett",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1025,7 +1175,7 @@
       "presentation_score": 0.4296566503549566
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0098",
@@ -1034,6 +1184,7 @@
       "representative_excerpt": "Guys.. this is a no brainer. For anyone involved in Mountain Biking, or Cycling.. it's a win win for recreational cyclist and driving revenue to the park. There's so many examples of other parks where a great amount of revenue not only to the park but the local community benefits as well. Please open the trails for mountain biking!",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1048,7 +1199,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from anon anon",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1056,7 +1211,7 @@
       "presentation_score": 0.4149507680020154
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0099",
@@ -1065,6 +1220,7 @@
       "representative_excerpt": "Mountain bike trails at Mammoth Cave would be very well supported by the state\u2019s growing population of mountain bikers. State chapter of national association of middle/school racing started here four years ago and has really helped to get families into mountain biking. Even though we have a good amount of trail systems that are well utilized, we could certai...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1079,7 +1235,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Drew Carnahan",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1087,7 +1247,7 @@
       "presentation_score": 0.4149507680020154
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0100",
@@ -1096,6 +1256,7 @@
       "representative_excerpt": "Open up to horses and bikes is a safety concern due to hikers and runners.The electric bikes is faster and comes up on you quick and horses get spooked and can and will hurt a person on the ground.Horse poop on the trail is a safety concern to.They open up to bikes in Warren county parks and it was a real safety concern to runners and walkers.Im a runner and...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1110,7 +1271,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jerry  Miller",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1118,7 +1283,7 @@
       "presentation_score": 0.4149507680020154
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0085",
@@ -1127,6 +1292,7 @@
       "representative_excerpt": "Excited to ride mountain bike on the trails in the park, my only concern is horses causing severe damage when trails are wet. Generally mountain bikers are responsible enough to stay off trails when wet, but horseback riders are not.",
       "representative_signal_score": 0,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1141,7 +1307,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from John coffman",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1149,7 +1319,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0086",
@@ -1158,6 +1328,7 @@
       "representative_excerpt": "I would love to see more mountain bike trails being built at Mammoth Cave national park. Mulri- use trails often create less than ideal tread for mountain bike recreation. Big Hollow is an excellent ride!!! The terrain, mixed with the soil composition there makes for excellent mountain biking opportunities. This creates a huge opportunity for adventure touri...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1172,7 +1343,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Steve Bland",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1180,7 +1355,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0087",
@@ -1189,6 +1364,7 @@
       "representative_excerpt": "My husband and I would love to see Mammoth Cave have multipurpose trails that would allow mountain biking. We travel a lot for great trails and it would be nice to have more closer to the Louisville area. Kassi Cawood",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1203,7 +1379,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Kassi Cawood",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1211,7 +1391,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0090",
@@ -1220,6 +1400,7 @@
       "representative_excerpt": "Having more trails open to mountain bikes would bring a lot more people to the area to spend money that will support the local economy.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1234,7 +1415,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jay McCarty",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1242,7 +1427,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0092",
@@ -1251,6 +1436,7 @@
       "representative_excerpt": "I like the idea of including access for MTB and horses. It will add value to our park and give many of us more reasons to come visit and enjoy the caves while we are there!",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1265,7 +1451,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Glenn Francisco",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1273,7 +1463,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0094",
@@ -1282,6 +1472,7 @@
       "representative_excerpt": "Very much in favor of more MTB trail access. Also, it\u2019s best to have horse trails and bike trails be separated, as sometimes bicycles can scare horses. If these trails need to be shared at certain points it\u2019s a good idea to have posted signage stating that cyclists should stop and walk their bikes around horses. This will keep all parties protected.",
       "representative_signal_score": 0,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1296,7 +1487,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1304,7 +1499,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0095",
@@ -1313,6 +1508,7 @@
       "representative_excerpt": "We need more venues for people to ride their Mountain Bikes. Opening up more trails on the property will allow people to enjoy the park both above and below ground. Creating multiple options for visitors will bring more people to the park and generate sales, creating more revenue for the park and for the state.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1327,7 +1523,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Michael Dismuke",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1335,7 +1535,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0096",
@@ -1344,6 +1544,7 @@
       "representative_excerpt": "My wife and I live close to the park and are active mountain bikers. We would love nothing more than to see more bike trails come to the area. I believe it would also be a big economic driver for the area, as mountain bikers will visit and support the local businesses while they are here. It would also be great to see more of a local bike culture because it ...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1358,7 +1559,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Logan Adwell",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1366,7 +1571,7 @@
       "presentation_score": 0.4090684150608389
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0077",
@@ -1375,6 +1580,7 @@
       "representative_excerpt": "I would love for the park to open this up to bicycles, and horses. With rules!! Maybe designate part of the trail specifically for horses sp the people walking and bicycling dont end up with horse dung everywhere and all over the trail. As for the bikes there needs to be speed limits, and maybe bikes must stay on the left side to avoid the hikers and not get...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1389,7 +1595,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jason Decker",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1397,38 +1607,7 @@
       "presentation_score": 0.39730370917848595
     },
     {
-      "cluster_id": 57,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0061",
-      "representative_posted_date": "2026-02-12T05:00Z",
-      "representative_length": 106,
-      "representative_excerpt": "I would like to see more bike access in the park. Been there many times and think it would be a good idea.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0061": {
-          "organization": "",
-          "postedDate": "2026-02-12T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Joe Shumaker",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.39436253270789773
-    },
-    {
-      "cluster_id": 53,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0065",
@@ -1437,6 +1616,7 @@
       "representative_excerpt": "I think this good be good for people who want to enjoy the park on bikes. However if this messes with the ecosystem or other peoples enjoyment of the public space then it make not be a good idea.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1451,7 +1631,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from LUKE MCINTIRE",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1459,7 +1643,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0067",
@@ -1468,6 +1652,7 @@
       "representative_excerpt": "I think this would be a good idea. As long as nature is being respected and stays undisturbed. Rules should also be implemented and followed by visitors.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1482,7 +1667,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Consuelo Sanchez",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1490,7 +1679,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0068",
@@ -1499,6 +1688,7 @@
       "representative_excerpt": "I am a long-time avid cyclist(primarily road, but some trail) who would love to have some options to ride in the area with less traffic. It has become more dangerous to ride the roads of Barren and surrounding counties over the last several years with an increase in traffic and distracted driving. I cannot overestimate the value of being in the great outdoor...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1513,7 +1703,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Leigh Lessenberry",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1521,7 +1715,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0069",
@@ -1530,6 +1724,7 @@
       "representative_excerpt": "Yes share the fun with horses n bicycle. Mammoth park has lots of room to share the fun! Please n",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1544,7 +1739,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Louise  Timbers",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1552,7 +1751,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0071",
@@ -1561,6 +1760,7 @@
       "representative_excerpt": "This would greatly benefit the athletic community and help encourage healthy recreation. We use the mountain bike trails weekly, weather permitting.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1575,7 +1775,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Pete Noroian",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1583,7 +1787,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0074",
@@ -1592,6 +1796,7 @@
       "representative_excerpt": "please do not go through with this idea, we should keep natural areas natural wiht only hiking",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1606,7 +1811,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1614,7 +1823,7 @@
       "presentation_score": 0.39436253270789773
     },
     {
-      "cluster_id": 114,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0003",
@@ -1623,6 +1832,7 @@
       "representative_excerpt": "I\u2019m an avid user of the horse trails in Mammoth Cave National Park. I would support any expansion of the trail system for horseback riding, bike riding or hiking.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1637,7 +1847,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1645,7 +1859,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0004",
@@ -1654,6 +1868,7 @@
       "representative_excerpt": "I believe more bicycle access is a wonderful addition to the park. More citizens own bicycles than horses and with more trail development; Mammoth Cave NP will become an even more sought after destination for enthusiasts. It is well documented that off-road cycling has a low impact while granting public access to more areas. I believe these additional trails...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1668,7 +1883,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Hank Campbell",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1676,7 +1895,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 112,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0005",
@@ -1684,7 +1903,8 @@
       "representative_length": 687,
       "representative_excerpt": "I am a founding member of the Mammoth Cave Backcountry Horsemen. The Backcountry Horsemen of America is a volunteer organization committed to working to preserve,protect and maintain equestrian trails on public lands. Since 2014 our group has worked with the park providing hundreds of volunteer hours of trail work. As such, I am in favor of opening Houchen F...",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1699,7 +1919,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Brenda Cecil",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1707,7 +1931,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 111,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0006",
@@ -1716,6 +1940,7 @@
       "representative_excerpt": "I think it is a fantastic idea to open existing and possibly new trails for bike use. With the popularity of electric bikes and their ability to assist older individuals and people with physical limitations, opening the trails to bicycles would allow more individuals to utilize the trails more than ever before. Not all people have the ability to walk the tra...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1730,7 +1955,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from D Jenkins",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1738,7 +1967,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0007",
@@ -1747,6 +1976,7 @@
       "representative_excerpt": "I think this is a good idea, this could bring more attraction and publicity for the park.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1761,7 +1991,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1769,7 +2003,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0010",
@@ -1778,6 +2012,7 @@
       "representative_excerpt": "As a nice of an idea it sounds, I don\u2019t think this is a good idea. Repeated cycling over those trails along with horse riding can cause erosion of the soil and degradation.",
       "representative_signal_score": 0,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1792,7 +2027,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1800,7 +2039,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0011",
@@ -1809,6 +2048,7 @@
       "representative_excerpt": "When you close special purpose trails and integrate into multi use trails, it always leads to that one group being removed. Equestrian use on the trails leads to trail damage and in-usable trail conditions. We have seen this on multiple trails in Kentucky. Please stop holding cyclists accountable for poor trail stewardship by other user groups.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1823,7 +2063,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Steve Collier",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1831,7 +2075,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0012",
@@ -1840,6 +2084,7 @@
       "representative_excerpt": "I think this is a great idea to allow more MTB access to the beautiful scenery of Mammoth Cave. The MTB club has done a wonderful job of maintaining the existing trails in showing appreciation for their use. I don't recall the equestrians putting in so much time in trail maintenance. Mountain biking has a good following this will add to the draw to Mammoth C...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1854,7 +2099,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Richard Seaton",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1862,7 +2111,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0013",
@@ -1871,6 +2120,7 @@
       "representative_excerpt": "I agree, both should be added. It expands the use and the enjoyment of the park.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1885,7 +2135,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Michael  Watts",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1893,7 +2147,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0016",
@@ -1902,6 +2156,7 @@
       "representative_excerpt": "I am in full support of more bicycle trails within the park. Will a parking lot be created at the trailhead for Big Hollow on the road north of the Ferry, or am I misunderstanding something?",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1916,7 +2171,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jeff Bruce",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1924,7 +2183,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0021",
@@ -1933,6 +2192,7 @@
       "representative_excerpt": "I'm definitely in favor of expanding bicycle opportunities. I can't speak for horse traffic as I don't rode horses.",
       "representative_signal_score": 0,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1947,7 +2207,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Bob  Evans",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1955,7 +2219,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0022",
@@ -1964,6 +2228,7 @@
       "representative_excerpt": "Mountian biking at Mammoth Cave has been a great experience. Expanding the trails there would benefit a lot of people and drive more park usage in general making it a destination trip for many people outside of the South Central KY region. Please consider this expansion to the already great north and south loops we have now! My family loves the trail system ...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -1978,7 +2243,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Darren  Waldo",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -1986,7 +2255,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0025",
@@ -1995,6 +2264,7 @@
       "representative_excerpt": "I support the initiative to expand cycling access at Mammoth Cave National Park. This will attract new visitors from the cycling community that will contribute to the local economy.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2009,7 +2279,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Ray Ouellette",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2017,7 +2291,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0026",
@@ -2026,6 +2300,7 @@
       "representative_excerpt": "Mountain biking is incredibly important for a healthy lifestyle and has a positive impact on communities. See Bentonville, Arkansas for reference.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2040,7 +2315,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jim Wells",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2048,7 +2327,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0027",
@@ -2057,6 +2336,7 @@
       "representative_excerpt": "I have really enjoyed the bicycle trail at mammoth cave. I have taken many area visitors riding on the trail from all over the world. China, Italy and Sweden. They were all impressed.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2071,7 +2351,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Gordon Buckman",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2079,7 +2363,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0029",
@@ -2088,6 +2372,7 @@
       "representative_excerpt": "Awesome idea it definitely would draw more people and families in But:horses and bicycles do not mix or ours do not!! Hopefully 2 separate areas",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2102,7 +2387,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Brenda  Coles",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2110,7 +2399,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0032",
@@ -2119,6 +2408,7 @@
       "representative_excerpt": "I am in favor of adding 37 miles of bicycling trails in Mammoth Cave National Park. This proposal would provide more opportunities for recreational enjoyment of the park for hikers and cyclists. These trails may result in increased visitation to the park and boost tourism in the area. In addition it provides a means to explore the park in a way that will hav...",
       "representative_signal_score": 0,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2133,7 +2423,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2141,7 +2435,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0033",
@@ -2150,6 +2444,7 @@
       "representative_excerpt": "As an avid mountain biker and supporter of the KY IMBA organization, I support the bicycling change. I would caution on the horse additions as, in my experience, horse use severely damages the trails.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2164,7 +2459,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Mike Rose",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2172,7 +2471,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0034",
@@ -2181,6 +2480,7 @@
       "representative_excerpt": "We haven\u2019t ridden at Mammoth Cave in several years due to bicycles intentionally riding on what was supposed to be only horse and walking trails. My wife suffered a bad fall because of this. Rangers said they are too short handed to do anything. If they are too busy to be concerned with the safety of trail users, I\u2019ll stay away and make their job easier.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2195,7 +2495,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Tommy Williams",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2203,7 +2507,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0035",
@@ -2212,6 +2516,7 @@
       "representative_excerpt": "I support increasing the availability of cycling trails at Mammoth Cave National Park and other parks. As a cyclist, I\u2019m often frustrated by the unproportional mileage of cycling trails as compared to horse trails when you consider the number of participants in each activity. I would also support signage educating everyone of proper etiquette, particularly o...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2226,7 +2531,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Howard Rosewell Jr",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2234,7 +2543,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0036",
@@ -2243,6 +2552,7 @@
       "representative_excerpt": "I wholly support increased cycling opportunities in Mammoth Cave National Park. As a coach on our local 5th-12th grade NICA team, these trails make our mission of stronger minds, bodies and community through cross country mountain biking possible. Our team trains and has rides in Mammoth Cave frequently and we've introduced many others to biking on the rail ...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2257,7 +2567,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Adrian Duvall",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2265,7 +2579,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0037",
@@ -2274,6 +2588,7 @@
       "representative_excerpt": "I support the new trail expansion and love the current trails. Our local youth mountain bike teams trains there and it is very valuable to the community.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2288,7 +2603,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2296,7 +2615,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0038",
@@ -2305,6 +2624,7 @@
       "representative_excerpt": "I think it\u2019s an excellent idea. That is if there\u2019s any way that you could make one for four wheelers I\u2019m sure people will really appreciate that too.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2319,7 +2639,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Gayla  Stahl",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2327,7 +2651,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0039",
@@ -2336,6 +2660,7 @@
       "representative_excerpt": "Please give us more miles for mountain bike trails. I frequent the area several times a month and it's some of the most beautiful trails in Kentucky. I have heard of a new trail named Sink that was submitted by the local KYMBA bike organization and I pray we don't lose access to trails or lose mileage. Growing the trail system would be amazing. I love bringi...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2350,7 +2675,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Christopher Scott Renfro",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2358,7 +2687,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0041",
@@ -2367,6 +2696,7 @@
       "representative_excerpt": "I would love to see the expansion of bike trails. My family and I camp at Mammoth Cave two to three times a year, and the bike trails are always a highlight of our visits. While we all enjoy the cave tours and kayaking, the bike trails are what truly bring us back. Our family is getting larger with kids and grandkids amd more on the way (Twins). Biking is so...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2381,7 +2711,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Bob Walker",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2389,7 +2723,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0046",
@@ -2398,6 +2732,7 @@
       "representative_excerpt": "Absolutely not. There are very few hike only trails as it is and the horse trails there already are are in terrible shape.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2412,7 +2747,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Missy meier",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2420,7 +2759,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0048",
@@ -2429,6 +2768,7 @@
       "representative_excerpt": "I think this plan would benefit the horse folks and the hikers and mountain bikers. The sooner this happens the better.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2443,7 +2783,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from John Johnson",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2451,7 +2795,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0049",
@@ -2460,6 +2804,7 @@
       "representative_excerpt": "As a backcountry hiker at Mammoth Cave National Park. I strongly advise against more horse traffic. The trails in the backcountry are nearly unusable during the warmer months and rainy season due to them doubling as horse trails. Having to wade through horse feces and deep rutted trails is never something I enjoy doing as a backcountry hiker. I would instead...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2474,7 +2819,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jacob Pierce",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2482,7 +2831,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0050",
@@ -2491,6 +2840,7 @@
       "representative_excerpt": "It would be an awesome idea to open more horse trail through the park on the other side of Green River. For some it would be really easy to stay to one side of the river depending on location and not having to worry with the ferry. It would be neat to have horse trails right in our back yard as well.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2505,7 +2855,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Mcken Vincent",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2513,7 +2867,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0051",
@@ -2522,6 +2876,7 @@
       "representative_excerpt": "Yes would like to have use of road for horses it will help some riders that can't ride long enough to make full round",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2536,7 +2891,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Emmett Karr",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2544,7 +2903,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0053",
@@ -2553,6 +2912,7 @@
       "representative_excerpt": "As an avid mountain biker, I would strongly support increased trail access for mountain bikes in the park. It could generate increase use of the non-cave tour portion of the park with limited environmental impact. Horse v. Bike conflicts would need to be managed ie horses are detrimental to trail health and bikes spook horses. These issues have been successf...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2567,7 +2927,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Robert Lindner",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2575,7 +2939,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0054",
@@ -2584,6 +2948,7 @@
       "representative_excerpt": "I dont know how th8s works but I'm for biking and horseback riding. I also recommend allowing electrical bicycle its the publics land let us use it",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2598,7 +2963,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Steve Brown",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2606,7 +2975,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0056",
@@ -2615,6 +2984,7 @@
       "representative_excerpt": "As a trail runner and mountain biker , this would be great to have more trails, please do this!",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2629,7 +2999,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from kevin  romans",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2637,7 +3011,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0057",
@@ -2646,6 +3020,7 @@
       "representative_excerpt": "My family and I absolutely love Mammoth Cave National Park. That said, like many of the parks we so thoroughly enjoy, we would spend a lot more time there if there were purpose-built mountain bike trails. The mountain bike community loves to travel, camp, and spend time and money in the areas that support this sport. I strongly encourage you to open up areas...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2660,7 +3035,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jimmy Flaherty",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2668,7 +3047,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0058",
@@ -2677,6 +3056,7 @@
       "representative_excerpt": "Opening up trails and roads to bicycling is the 100% right thing to do. Please fund the designation of bicycle right of way indicators on paved roads. Share the road signs that also state Ky's Three Foot Law should be deployed throughout roadways",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2691,7 +3071,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Greg Corwin",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2699,7 +3083,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0059",
@@ -2708,6 +3092,7 @@
       "representative_excerpt": "Horse riders should respect our trails and not discourage hikers from using them.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2722,7 +3107,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Caitlyn Carlisi",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -2730,139 +3119,16 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0117",
-      "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 17,
-      "representative_excerpt": "See attached file",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0117": {
-          "organization": "",
-          "postedDate": "2026-03-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Lilianna Borecki",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3580880229039761
-    },
-    {
-      "cluster_id": 3,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0116",
-      "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0116": {
-          "organization": "",
-          "postedDate": "2026-03-16T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3551468464333879
-    },
-    {
-      "cluster_id": 10,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0109",
-      "representative_posted_date": "2026-03-10T04:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0109": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3374997876098585
-    },
-    {
-      "cluster_id": 8,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0111",
-      "representative_posted_date": "2026-03-10T04:00:00Z",
-      "representative_length": 12,
-      "representative_excerpt": "See Attached",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0111": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Richard Embry",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3374997876098585
-    },
-    {
-      "cluster_id": 43,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0075",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2877,7 +3143,11 @@
           "country": "",
           "attachmentCount": 2,
           "title": "Comment from Caleb Rector",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -2885,15 +3155,16 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0076",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2908,7 +3179,11 @@
           "country": "",
           "attachmentCount": 1,
           "title": "Comment from Mary Nachmann",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -2916,15 +3191,16 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0078",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2939,7 +3215,11 @@
           "country": "",
           "attachmentCount": 1,
           "title": "Comment from Susan Lee",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -2947,15 +3227,16 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0080",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -2970,7 +3251,11 @@
           "country": "",
           "attachmentCount": 1,
           "title": "Comment from Joe McGrory",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -2978,15 +3263,16 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0081",
       "representative_posted_date": "2026-02-13T05:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3001,7 +3287,11 @@
           "country": "",
           "attachmentCount": 1,
           "title": "Comment from Harper Martin",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
@@ -3009,7 +3299,7 @@
       "presentation_score": 0.3139703758451526
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0102",
@@ -3018,6 +3308,7 @@
       "representative_excerpt": "I think that riding horses there would be great!",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3032,7 +3323,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3040,7 +3335,7 @@
       "presentation_score": 0.2963233170216232
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0088",
@@ -3049,6 +3344,7 @@
       "representative_excerpt": "I support expanded horse and bicycle access to trails.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3063,7 +3359,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Rachel Couch",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3071,7 +3371,43 @@
       "presentation_score": 0.27573508172750555
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0001-0091",
+      "representative_posted_date": "2026-02-17T05:00Z",
+      "representative_length": 0,
+      "representative_excerpt": "",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0001-0091": {
+          "organization": "",
+          "postedDate": "2026-02-17T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kerri Nash",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.27573508172750555
+    },
+    {
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0093",
@@ -3080,6 +3416,7 @@
       "representative_excerpt": "More mountain bike trails please.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3094,7 +3431,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3102,7 +3443,43 @@
       "presentation_score": 0.27573508172750555
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 53,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0001-0061",
+      "representative_posted_date": "2026-02-12T05:00Z",
+      "representative_length": 0,
+      "representative_excerpt": "",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0001-0061": {
+          "organization": "",
+          "postedDate": "2026-02-12T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Joe Shumaker",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.26102919937456437
+    },
+    {
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0064",
@@ -3111,6 +3488,7 @@
       "representative_excerpt": "This seems pretty good.Can't wait",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3125,7 +3503,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Tom Schwartz",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3133,7 +3515,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0070",
@@ -3142,6 +3524,7 @@
       "representative_excerpt": "This would be amazing!!",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3156,7 +3539,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Shannon  Noroian",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3164,7 +3551,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0072",
@@ -3173,6 +3560,7 @@
       "representative_excerpt": "Mountain biking yes, yes, and yes please!",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3187,7 +3575,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from John Furse",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3195,7 +3587,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0073",
@@ -3204,6 +3596,7 @@
       "representative_excerpt": "I think this would be a great benefit to the park.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3218,7 +3611,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Alexander Hagerman",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3226,7 +3623,7 @@
       "presentation_score": 0.26102919937456437
     },
     {
-      "cluster_id": 115,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0002",
@@ -3235,6 +3632,7 @@
       "representative_excerpt": "Sounds good to me",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3249,7 +3647,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3257,7 +3659,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0008",
@@ -3266,6 +3668,7 @@
       "representative_excerpt": "I don\u2019t think this is a good idea.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3280,7 +3683,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Brian Dela",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3288,7 +3695,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0009",
@@ -3297,6 +3704,7 @@
       "representative_excerpt": "I don\u2019t think that this is a good idea.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3311,7 +3719,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Brian D",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3319,7 +3731,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0014",
@@ -3328,6 +3740,7 @@
       "representative_excerpt": "Yes I am all for more bike trails to be added to the park.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3342,7 +3755,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jeff Mitchell",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3350,7 +3767,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0015",
@@ -3359,6 +3776,7 @@
       "representative_excerpt": "I full support and in favor of adding additional mountain bike trails to MCNP.",
       "representative_signal_score": -1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3373,7 +3791,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Richard Dixon",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3381,7 +3803,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0019",
@@ -3390,6 +3812,7 @@
       "representative_excerpt": "Please allow more bicycles on the trails at Mammoth Cave!",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3404,7 +3827,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Amy Shartzer",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3412,7 +3839,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0020",
@@ -3421,6 +3848,7 @@
       "representative_excerpt": "I would love this",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3435,7 +3863,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from William Matthews",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3443,7 +3875,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0023",
@@ -3452,6 +3884,7 @@
       "representative_excerpt": "this makes sense",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3466,7 +3899,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3474,7 +3911,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0024",
@@ -3483,6 +3920,7 @@
       "representative_excerpt": "this makes sense",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3497,7 +3935,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3505,7 +3947,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0028",
@@ -3514,6 +3956,7 @@
       "representative_excerpt": "I am in favor of the additional bicycling paths.",
       "representative_signal_score": -1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3528,7 +3971,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Michael  Martin",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3536,7 +3983,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0040",
@@ -3545,6 +3992,7 @@
       "representative_excerpt": "This really is interesting",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3559,7 +4007,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-02510",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3567,7 +4019,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0042",
@@ -3576,6 +4028,7 @@
       "representative_excerpt": "Yes expanding the trails is a great idea!",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3590,7 +4043,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from bekah sydnor",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3598,7 +4055,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0043",
@@ -3607,6 +4064,7 @@
       "representative_excerpt": "Bike trails in the park would be wonderful.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3621,7 +4079,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Jason Yaeger",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3629,7 +4091,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0047",
@@ -3638,6 +4100,7 @@
       "representative_excerpt": "Yes, please definitely more mountain bike trails",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3652,7 +4115,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Steve Knapp",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3660,7 +4127,7 @@
       "presentation_score": 0.25808802290397614
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0052",
@@ -3669,6 +4136,7 @@
       "representative_excerpt": "I think it would be great to allow more bike access at Mammoth cave park",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -3683,7 +4151,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Curt Ramsey",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -3694,15 +4166,15 @@
   "comments_clusters_path": "data/comments/NPS-2026-0001.csv",
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.23076923076923078,
+  "comments_first_page_coverage_share": 0.23893805309734514,
   "comments_first_page_coverage_count": 27,
-  "comments_clusters_total_available": 115,
-  "comments_clusters_displayed": 115,
+  "comments_clusters_total_available": 111,
+  "comments_clusters_displayed": 111,
   "comments_first_page_high_signal_clusters": 5,
   "comments_first_page_novelty_clusters": 5,
   "comments_first_page_stance_counts": {
-    "neutral": 12,
-    "positive": 6,
+    "neutral": 11,
+    "positive": 7,
     "negative": 7
   },
   "comments_first_page_unique_days": 12,

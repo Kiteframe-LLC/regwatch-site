@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:11.064131+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:41.115403+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-09T03:59:59Z",
   "pass_1_score": 6,
   "pass_2_score": 1,
-  "pass_3_score": 0.1,
+  "pass_3_score": 0.6243169398907105,
   "pass_1_scaled": 0.5582529707610229,
   "pass_2_scaled": 0.32929841307547836,
-  "pass_3_scaled": 0.01652854617838251,
+  "pass_3_scaled": 0.09882230702935002,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.2415998469325938,
+  "combined_score": 0.28274672735807754,
   "score_total": 7,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -93,6 +93,8 @@
     }
   ],
   "comments_total": 1,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 1,
   "comments_text_hydrated": 0,
   "comments_cached_records": 1,
@@ -105,6 +107,16 @@
   "comments_commenter_type_counts": {
     "citizen": 1
   },
+  "comments_submission_role_counts": {
+    "unknown": 1
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 1
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 1,
   "comments_new_cluster_count_by_day": {
     "2026-03-16": 1
   },
@@ -115,23 +127,42 @@
   "comments_sentiment_neutral_pct": 1.0,
   "comments_sentiment_net": 0.0,
   "comments_sentiment_sample_size": 1,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 1,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 1,
+  "comments_representative_prior_selected": 1,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 0,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "salience_rank": 1
+  },
+  "comments_representative_selected_by_counts_total": 1,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-18T05:53:27.204744+00:00",
-  "comments_checked_at": "2026-03-18T21:36:38.020105+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T03:20:16.142293+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 1,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "BOEM-2025-0042-0004",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 1274,
+      "representative_length": 1255,
       "representative_excerpt": "The Gulf has approximately $41 BILLION in estimated clean-up costs for aging O&G infrastructure. Large companies are selling off less-profitable infrastructure to smaller operators who are increasingly unable to meet their obligations, declare bankruptcy, and will leave all of us, as taxpayers, with costs to clean up after them. In 2024 BOEM finalized a rule...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -146,7 +177,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Davis, Brian",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,

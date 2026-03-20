@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:10.564317+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:27.202603+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-03-27T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 0.043478260869565216,
+  "pass_3_score": 2.36258064516129,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.007220185126271761,
+  "pass_3_scaled": 0.32548640027411024,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.2979888989226816,
+  "combined_score": 0.45712200649660084,
   "score_total": 9,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -48,7 +48,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/02/24/2026-03610.html"
   ],
   "supporting_related_material_count": 1,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "offline_used_stale_cache",
   "supporting_related_material": [
     {
       "document_id": "OPM-2025-0011-0001",
@@ -78,6 +78,8 @@
     }
   ],
   "comments_total": 1,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 1,
   "comments_text_hydrated": 1,
   "comments_cached_records": 1,
@@ -90,6 +92,16 @@
   "comments_commenter_type_counts": {
     "citizen": 1
   },
+  "comments_submission_role_counts": {
+    "unknown": 1
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 1
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 1,
   "comments_new_cluster_count_by_day": {
     "2026-03-16": 1
   },
@@ -102,12 +114,30 @@
   "comments_sentiment_neutral_pct": 1.0,
   "comments_sentiment_net": 0.0,
   "comments_sentiment_sample_size": 1,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 1,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 1,
+  "comments_representative_prior_selected": 1,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 0,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "salience_rank": 1
+  },
+  "comments_representative_selected_by_counts_total": 1,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-17T19:31:05.525987+00:00",
-  "comments_checked_at": "2026-03-18T21:36:35.963127+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T01:58:42.606222+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -115,10 +145,11 @@
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0011-0003",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 4523,
+      "representative_length": 4440,
       "representative_excerpt": "This rule purports to enhance accountability for federal employees through forced distribution of ratings (\"stack ranking\") and reduced procedural protections. It fails on legal and policy grounds and should be withdrawn. 1. VIOLATES STATUTORY MANDATE FOR ACCURATE EVALUATION The central flaw is the forced distribution requirement. 5 U.S.C. \u00a7 4302(c)(1) manda...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -133,7 +164,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Doran Chan",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,

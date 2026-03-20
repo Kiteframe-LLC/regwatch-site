@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:05:54.539143+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:25.654745+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-07T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 5,
-  "pass_3_score": 3.7272727272727275,
+  "pass_3_score": 2.8845878136200716,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.4627072212445388,
+  "pass_3_scaled": 0.38168957116078717,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6161285410510118,
+  "combined_score": 0.5756197160091361,
   "score_total": 14,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -52,43 +52,78 @@
   "supporting_related_material_count": 0,
   "supporting_docs_error": null,
   "supporting_related_material": [],
-  "comments_total": 32,
+  "comments_total": 34,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 10,
-  "comments_text_hydrated": 4,
-  "comments_cached_records": 10,
-  "comments_unique_clusters": 10,
+  "comments_text_hydrated": 6,
+  "comments_cached_records": 12,
+  "comments_unique_clusters": 12,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 8,
+  "comments_citizen_count": 9,
   "comments_commenter_type_counts": {
-    "citizen": 8,
-    "organization_other": 2
+    "organization_other": 3,
+    "citizen": 9
   },
+  "comments_submission_role_counts": {
+    "organization": 3,
+    "individual": 9
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 12
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 12,
   "comments_new_cluster_count_by_day": {
+    "2026-03-19": 2,
     "2026-03-13": 3,
     "2026-03-11": 3,
     "2026-03-10": 4
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-03-19": 1,
     "2026-03-10": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.09999999999999999,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.9,
-  "comments_sentiment_net": 0.09999999999999999,
-  "comments_sentiment_sample_size": 10,
-  "comments_sentiment_method": null,
+  "comments_sentiment_positive_pct": 0.08333333333333334,
+  "comments_sentiment_negative_pct": 0.08333333333333334,
+  "comments_sentiment_neutral_pct": 0.8333333333333334,
+  "comments_sentiment_net": 0.0,
+  "comments_sentiment_sample_size": 12,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 12,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 12,
+  "comments_representative_prior_selected": 12,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 3,
+  "comments_representative_run_budget": 2,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 3,
+    "salience_rank": 1,
+    "weighted_fill": 8
+  },
+  "comments_representative_selected_by_counts_total": 12,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-19T03:04:28.979793+00:00",
-  "comments_checked_at": "2026-03-19T03:04:28.994336+00:00",
-  "comments_error": null,
+  "comments_api_last_seen_at": "2026-03-19T17:30:34.435011+00:00",
+  "comments_checked_at": "2026-03-20T01:01:13.783711+00:00",
+  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0024",
@@ -97,6 +132,7 @@
       "representative_excerpt": "While 2025's One Big Beautiful Bill says that the emission rate for fuel cannot be less than zero, except for animal manure. Under what physical law is a captured emission treated as a negative integer rather than a reduced positive flux? The current 45ZCF-GREET model relies on a \"Baseload Methane Avoidance\" logic that is mathematically fraudulent. The Foren...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -111,7 +147,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Couture, Evan",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -119,7 +159,43 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-0133-0034",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 4049,
+      "representative_excerpt": "Technical Comment on Feedstock Carbon Intensity (CI) Bias and Economic Disparate Impact Attn: Commissioner of the Internal Revenue Service CC: Office of Associate Chief Counsel (Passthroughs & Special Industries) Please see a detailed breakdown of our thoughts on the proposed REG-121244-23 45Z Clean Fuel Credit rules. As small producers, we have found some l...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-0133-0034": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0025",
@@ -128,6 +204,7 @@
       "representative_excerpt": "== MMC=IPCC -- Multiple More Coal = Initiative Prevention CO2 Catastrophe -- (UN-ICJ) == To the Honorable Commissionar and the Hon. CEO of the IRS and all those mentioned in Sec.5 sub (d) of the U.S. presidential executive order 14154 and everyone else who deal with the matter, == by MMC=IPCC, testimony to IRS-2026-0133-0001, the proposed rule \u201cSection 45Z C...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -142,7 +219,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from MMC=IPCC -- Multiple More Coal = Initiative Prevention CO2 Catastrophe",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -150,7 +231,7 @@
       "presentation_score": 0.7666666666666666
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0031",
@@ -159,6 +240,7 @@
       "representative_excerpt": "Please see the attached supplemental technical analysis regarding Proposed Rule \u00a7 1.45Z-1(f)(6). This analysis addresses the PWA multiplier and labor continuity requirements for high-pathogen, high-hazard, sustainable feedstock operations.",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -173,15 +255,55 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8166666666666665
+      "presentation_score": 0.7499999999999999
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-0133-0035",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 2976,
+      "representative_excerpt": "This comment is being submitted by Chuck Hassebrook, Director of the Biochar Policy Project of the National Center for Appropriate Technology, Dr. David Laird, Co-founder and President of N-Sense, and Professor-Emeritus of Agronomy at Iowa State University. We request that our names be removed from the document before it is posted to the public. We include o...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-0133-0035": {
+          "organization": "Biochar Policy Project of the National Center for Appropriate Technology",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Biochar Policy Project of the National Center for Appropriate Technology",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8666666666666666
+    },
+    {
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0022",
@@ -190,6 +312,7 @@
       "representative_excerpt": "Please see attached letter from Nopetro Energy commenting on the proposed rulemaking published on on February 4, 2026 for Section 45Z clean fuel production credit.",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -204,7 +327,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Nopetro Energy",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -212,7 +339,7 @@
       "presentation_score": 0.6333333333333333
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0028",
@@ -221,6 +348,7 @@
       "representative_excerpt": "While the negative integer for horse manure RNG is a welcome start, we request that horse meat farm pipeline-grade gas be fully eligible for the credit without the burden of high-grade ASTM refining. Furthermore, the 'Baseload Methane Avoidance' math proves that the more horses we confine in high-density lagoons, the more carbon we 'save.' To maximize this, ...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -235,15 +363,19 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6166666666666666
+      "presentation_score": 0.5944444444444443
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0027",
@@ -252,6 +384,7 @@
       "representative_excerpt": "I fully support making the rules more clear and giving taxpayers a better understanding of the procedural rules around this tax credit.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -266,7 +399,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -274,77 +411,16 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "IRS-2026-0133-0029",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 12,
-      "representative_excerpt": "See Attached",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "IRS-2026-0133-0029": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "IMAREAN (Aurea Rivera - Request to Testify)",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35
-    },
-    {
       "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "IRS-2026-0133-0030",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 12,
-      "representative_excerpt": "See Attached",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "IRS-2026-0133-0030": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "IMAREAN (Aurea Rivera - Outline to Testify)",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35
-    },
-    {
-      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0032",
       "representative_posted_date": "2026-03-13T04:00:00Z",
-      "representative_length": 12,
-      "representative_excerpt": "See Attached",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -359,23 +435,28 @@
           "country": "",
           "attachmentCount": 0,
           "title": "RR (Ben Kruger - Request Outline to Testify)",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.35
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-0133-0033",
       "representative_posted_date": "2026-03-13T04:00:00Z",
-      "representative_length": 12,
-      "representative_excerpt": "See Attached",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -390,28 +471,105 @@
           "country": "",
           "attachmentCount": 0,
           "title": "RR (Rudi Roeslein - Request Outline to Testify)",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.35
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-0133-0029",
+      "representative_posted_date": "2026-03-11T04:00:00Z",
+      "representative_length": 0,
+      "representative_excerpt": "",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-0133-0029": {
+          "organization": "",
+          "postedDate": "2026-03-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "IMAREAN (Aurea Rivera - Request to Testify)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3277777777777778
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-0133-0030",
+      "representative_posted_date": "2026-03-11T04:00:00Z",
+      "representative_length": 0,
+      "representative_excerpt": "",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-0133-0030": {
+          "organization": "",
+          "postedDate": "2026-03-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "IMAREAN (Aurea Rivera - Outline to Testify)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3277777777777778
     }
   ],
   "comments_clusters_path": "data/comments/IRS-2026-0133.csv",
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 10,
-  "comments_clusters_total_available": 10,
-  "comments_clusters_displayed": 10,
-  "comments_first_page_high_signal_clusters": 1,
-  "comments_first_page_novelty_clusters": 2,
+  "comments_first_page_coverage_count": 12,
+  "comments_clusters_total_available": 12,
+  "comments_clusters_displayed": 12,
+  "comments_first_page_high_signal_clusters": 2,
+  "comments_first_page_novelty_clusters": 3,
   "comments_first_page_stance_counts": {
-    "neutral": 9,
+    "neutral": 10,
+    "negative": 1,
     "positive": 1
   },
-  "comments_first_page_unique_days": 3,
+  "comments_first_page_unique_days": 4,
   "summary_available": true,
   "raw_summary_available": true
 }

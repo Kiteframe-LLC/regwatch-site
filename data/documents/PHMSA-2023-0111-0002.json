@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:07.607606+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:24.683725+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-14T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 3.2162162162162162,
+  "pass_3_score": 5.014652014652015,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.41493717013339815,
+  "pass_3_scaled": 0.5664617865973068,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5513441987198267,
+  "combined_score": 0.6271065069517809,
   "score_total": 11,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -69,6 +69,8 @@
     }
   ],
   "comments_total": 8,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 8,
   "comments_text_hydrated": 0,
   "comments_cached_records": 8,
@@ -82,6 +84,16 @@
     "citizen": 7,
     "organization_other": 1
   },
+  "comments_submission_role_counts": {
+    "unknown": 8
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 8
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 8,
   "comments_new_cluster_count_by_day": {
     "2026-02-17": 1,
     "2026-02-12": 1,
@@ -91,17 +103,37 @@
     "2026-02-12": 1
   },
   "comments_novel_comment_rate": 0.875,
-  "comments_sentiment_positive_pct": 0.47264076788518183,
+  "comments_sentiment_positive_pct": 0.13183980802870454,
   "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.5273592321148182,
-  "comments_sentiment_net": 0.47264076788518183,
+  "comments_sentiment_neutral_pct": 0.8681601919712955,
+  "comments_sentiment_net": 0.13183980802870454,
   "comments_sentiment_sample_size": 8,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 8,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 8,
+  "comments_representative_prior_selected": 8,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 1,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 1,
+    "salience_rank": 1,
+    "weighted_fill": 6
+  },
+  "comments_representative_selected_by_counts_total": 8,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-18T05:42:48.363901+00:00",
-  "comments_checked_at": "2026-03-18T21:36:27.198593+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T00:41:26.289663+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -109,10 +141,11 @@
       "page_count": 0,
       "representative_comment_id": "PHMSA-2023-0111-0010",
       "representative_posted_date": "2026-02-17T05:00:00Z",
-      "representative_length": 1028,
+      "representative_length": 1014,
       "representative_excerpt": "I am in general support of Docket No. PHMSA-2023-0111-0002, particularly its stated goal of reducing regulatory costs for entities and individuals within the United States while maintaining strong safety standards. The Pipeline and Hazardous Materials Safety Administration plays an essential role in ensuring pipeline and hazardous materials safety. Clearer, ...",
       "representative_signal_score": 1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -127,7 +160,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Greg M",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         },
         "PHMSA-2023-0111-0009": {
           "organization": "",
@@ -138,7 +175,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -151,10 +192,11 @@
       "page_count": 0,
       "representative_comment_id": "PHMSA-2023-0111-0008",
       "representative_posted_date": "2026-02-12T05:00:00Z",
-      "representative_length": 1415,
+      "representative_length": 1287,
       "representative_excerpt": "PHMSA\u20132023\u20130111 (HM\u2013215R) introduces Sodium Ion Batteries to the HMR. Under the proposed regulation 49 CFR 173.185 (c) describes exceptions for small cells and batteries. Proposed 49 CFR 173.185 (c)(1)(i), size limits, indicates \"The Watt-hour (Wh) rating may not exceed 20 Wh for a lithium ion or sodium ion cell or 100 Wh for a lithium ion or sodium ion batt...",
       "representative_signal_score": 4,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -169,7 +211,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from HAZMATEAM, INC",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -186,6 +232,7 @@
       "representative_excerpt": "This sounds like a good regulation. It seems like this will improve how hazardous materials are handled.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -200,7 +247,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -213,10 +264,11 @@
       "page_count": 0,
       "representative_comment_id": "PHMSA-2023-0111-0004",
       "representative_posted_date": "2026-02-11T05:00:00Z",
-      "representative_length": 424,
-      "representative_excerpt": "Hello, my name is Faith Santos and I am a resident of California, a frequent consumer of international commodities. I am in favor with the harmonization of the United States complying with international standards. Through an environmental impact lens, my main focal point that led me to support to decision is the transition to sodium-ion batteries from lithiu...",
+      "representative_length": 308,
+      "representative_excerpt": "I am in favor with the harmonization of the United States complying with international standards. Through an environmental impact lens, my main focal point that led me to support to decision is the transition to sodium-ion batteries from lithium-ion batteries as sodium-ion are low cost and more sustainable.",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -231,7 +283,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Faith Noelle Santos",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -248,6 +304,7 @@
       "representative_excerpt": "I think this is great that we have proper regulations in place to be able to make sure everything is safe.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -262,7 +319,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Hayden Peregrino",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -279,6 +340,7 @@
       "representative_excerpt": "I think the PHMSA should adopt the international regulation.",
       "representative_signal_score": -1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -293,7 +355,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Venice Padernal-Avins",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -310,6 +376,7 @@
       "representative_excerpt": "Hello, I think having regulations for hazardous material would be great.",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -324,7 +391,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -342,8 +413,8 @@
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "positive": 3,
-    "neutral": 4
+    "neutral": 6,
+    "positive": 1
   },
   "comments_first_page_unique_days": 3,
   "summary_available": false,

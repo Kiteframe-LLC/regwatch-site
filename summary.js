@@ -83,7 +83,14 @@ function commentClusterRow(cluster) {
   const posted = esc(formatDateOnly(cluster.representative_posted_date || ""));
   const chars = Number(cluster.representative_length || 0);
   const excerpt = esc(cluster.representative_excerpt || "");
-  return `<tr><td>${count}</td><td><span class="review-pill sentiment-neutral">neutral</span></td><td>${cid ? `<a href="https://www.regulations.gov/comment/${encodeURIComponent(cluster.representative_comment_id || "")}" target="_blank" rel="noopener noreferrer">${cid}</a>` : ""}</td><td>${posted}</td><td>${chars}</td><td>${excerpt}</td></tr>`;
+  return `<tr><td>${count}</td><td><span class="review-pill sentiment-neutral">neutral</span></td><td><span class="review-pill">Unknown</span></td><td>${cid ? `<a href="https://www.regulations.gov/comment/${encodeURIComponent(cluster.representative_comment_id || "")}" target="_blank" rel="noopener noreferrer">${cid}</a>` : ""}</td><td>${posted}</td><td>${chars}</td><td>${excerpt}</td></tr>`;
+}
+
+function samplingBackfillHtml(detail) {
+  if (window.RegwatchComments && typeof window.RegwatchComments.samplingBackfillHtml === "function") {
+    return window.RegwatchComments.samplingBackfillHtml(detail, esc, formatMetricNumber);
+  }
+  return "";
 }
 
 function formatDateOnly(raw) {
@@ -144,6 +151,13 @@ function formatEasternDateTime(raw) {
 
 function commenterTypesText(types) {
   const entries = Object.entries(types || {}).filter(([, v]) => Number(v || 0) > 0);
+  if (!entries.length) return "n/a";
+  entries.sort((a, b) => Number(b[1] || 0) - Number(a[1] || 0));
+  return entries.map(([k, v]) => `${k}: ${formatMetricNumber(v)}`).join(" | ");
+}
+
+function submissionRolesText(roles) {
+  const entries = Object.entries(roles || {}).filter(([, v]) => Number(v || 0) > 0);
   if (!entries.length) return "n/a";
   entries.sort((a, b) => Number(b[1] || 0) - Number(a[1] || 0));
   return entries.map(([k, v]) => `${k}: ${formatMetricNumber(v)}`).join(" | ");
@@ -382,6 +396,9 @@ function detailHtml(d, summaryMd, analysisMd) {
           <div class="metric-card"><div class="metric-label">Source</div><div class="metric-value">${esc(d.comments_source || "unknown")}</div></div>
           <div class="metric-card"><div class="metric-label">Citizen comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_citizen_count || 0))}</div></div>
           <div class="metric-card"><div class="metric-label">Novel cluster share</div><div class="metric-value">${esc(formatPct(d.comments_novel_comment_rate || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Public channel</div><div class="metric-value">${esc(formatMetricNumber(d.comments_public_count || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Recorded channel</div><div class="metric-value">${esc(formatMetricNumber(d.comments_recorded_count || 0))}</div></div>
+          <div class="metric-card"><div class="metric-label">Agency material</div><div class="metric-value">${esc(formatMetricNumber(d.comments_agency_material_count || 0))}</div></div>
           <div class="metric-card"><div class="metric-label">Positive</div><div class="metric-value">${esc(formatPct(sentimentPos))}</div></div>
           <div class="metric-card"><div class="metric-label">Negative</div><div class="metric-value">${esc(formatPct(sentimentNeg))}</div></div>
           <div class="metric-card"><div class="metric-label">Neutral</div><div class="metric-value">${esc(formatPct(sentimentNeu))}</div></div>
@@ -389,12 +406,15 @@ function detailHtml(d, summaryMd, analysisMd) {
           <div class="metric-card"><div class="metric-label">Sentiment sample</div><div class="metric-value">${esc(formatMetricNumber(sentimentSample))}</div></div>
         </div>
         <p><strong>Commenter types:</strong> ${esc(commenterTypesText(d.comments_commenter_type_counts || {}))}</p>
+        <p><strong>Submission roles:</strong> ${esc(submissionRolesText(d.comments_submission_role_counts || {}))}</p>
+        <p><strong>Submission channels:</strong> ${esc(commenterTypesText(d.comments_submission_channel_counts || {}))}</p>
         <p><strong>Selection:</strong> ${esc(d.comments_display_strategy || "default")} | first-page coverage ${esc(formatPct(d.comments_first_page_coverage_share || 0))} | stance mix ${esc(stanceMixText(d.comments_first_page_stance_counts || {}))} | days represented ${esc(d.comments_first_page_unique_days || 0)}</p>
         <div class="comment-heatmaps">
           ${renderDayHeatmap("New clusters/day", d.comments_new_cluster_count_by_day || {})}
           ${renderDayHeatmap("High-signal/day", d.comments_high_signal_cluster_count_by_day || {})}
         </div>
         <p><strong>Freshness (ET):</strong> bulk snapshot ${esc(formatEasternDateTime(d.comments_bulk_last_posted_date))} | API last seen ${esc(formatEasternDateTime(d.comments_api_last_seen_at))}</p>
+        ${samplingBackfillHtml(d)}
         ${d.comment_count_supported === false ? `<p><em>${esc(d.comment_count_note || "Comment counts are not available for this comment channel.")}</em></p>` : ""}
         ${d.comments_truncated ? "<p><em>Comment sample is truncated for performance.</em></p>" : ""}
         ${d.comments_error ? `<p><em>Comments warning: ${esc(d.comments_error)}</em></p>` : ""}
@@ -411,6 +431,7 @@ function detailHtml(d, summaryMd, analysisMd) {
                   <tr>
                     <th>Count</th>
                     <th>Sentiment</th>
+                    <th>Channel</th>
                     <th>Representative Comment ID</th>
                     <th>Date</th>
                     <th>Chars</th>

@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:10.029590+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:27.301641+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-09T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 3,
-  "pass_3_score": 0.2,
+  "pass_3_score": 1.2311827956989247,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.0327838995179941,
+  "pass_3_scaled": 0.18551326131751011,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3679692929882369,
+  "combined_score": 0.4443339738879949,
   "score_total": 12,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -48,9 +48,11 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/09/2026-04534.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "offline_cache_miss_supporting_docs",
   "supporting_related_material": [],
   "comments_total": 2,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 2,
   "comments_text_hydrated": 0,
   "comments_cached_records": 2,
@@ -63,6 +65,16 @@
   "comments_commenter_type_counts": {
     "citizen": 2
   },
+  "comments_submission_role_counts": {
+    "unknown": 2
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 2
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 2,
   "comments_new_cluster_count_by_day": {
     "2026-03-10": 2
   },
@@ -73,12 +85,31 @@
   "comments_sentiment_neutral_pct": 1.0,
   "comments_sentiment_net": 0.0,
   "comments_sentiment_sample_size": 2,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 2,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 2,
+  "comments_representative_prior_selected": 2,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 0,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "salience_rank": 1,
+    "weighted_fill": 1
+  },
+  "comments_representative_selected_by_counts_total": 2,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-17T20:09:02.200288+00:00",
-  "comments_checked_at": "2026-03-18T21:36:35.169637+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T02:15:10.543387+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 2,
@@ -90,6 +121,7 @@
       "representative_excerpt": "Several basic concerns arise from the structure of the program: (1) the regulatory framework is complex and difficult for individuals without an economics or finance background to understand; (2) account growth is tied to stock market performance, which may produce uneven outcomes depending on economic conditions; (3) the opt-in election requirement may redu...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -104,7 +136,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -121,6 +157,7 @@
       "representative_excerpt": "Please make the regulations clear that, upon the child-beneficiary reaching age 18, the accounts can be converted from a traditional IRA to a Roth IRA.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -135,7 +172,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,

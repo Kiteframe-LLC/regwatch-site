@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:05:54.610731+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:24.757764+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-14T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 4,
-  "pass_3_score": 3.8333333333333335,
+  "pass_3_score": 4.28125,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.4721213698760568,
+  "pass_3_scaled": 0.5100939625964045,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6075084750856876,
+  "combined_score": 0.6264947714458614,
   "score_total": 13,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -52,6 +52,8 @@
   "supporting_docs_error": null,
   "supporting_related_material": [],
   "comments_total": 5,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 5,
   "comments_text_hydrated": 3,
   "comments_cached_records": 5,
@@ -64,6 +66,16 @@
   "comments_commenter_type_counts": {
     "citizen": 5
   },
+  "comments_submission_role_counts": {
+    "unknown": 5
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 5
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 5,
   "comments_new_cluster_count_by_day": {
     "2026-03-17": 3,
     "2026-03-16": 2
@@ -72,17 +84,36 @@
     "2026-03-16": 2
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.4,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.6,
-  "comments_sentiment_net": 0.4,
+  "comments_sentiment_positive_pct": 0.0,
+  "comments_sentiment_negative_pct": 0.19999999999999998,
+  "comments_sentiment_neutral_pct": 0.7999999999999999,
+  "comments_sentiment_net": -0.19999999999999998,
   "comments_sentiment_sample_size": 5,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 5,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 5,
+  "comments_representative_prior_selected": 5,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 0,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "salience_rank": 1,
+    "weighted_fill": 4
+  },
+  "comments_representative_selected_by_counts_total": 5,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-18T05:44:27.942229+00:00",
-  "comments_checked_at": "2026-03-18T21:36:22.375628+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T00:41:25.995133+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 5,
@@ -90,10 +121,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0265-0002",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 3174,
+      "representative_length": 2845,
       "representative_excerpt": "For too long, businesses have utilized \"negative option\" marketing\u2014where a consumer\u2019s silence or failure to take an affirmative action is interpreted as acceptance of a charge\u2014to unfairly pad their bottom lines at the expense of the American consumer. The current landscape of digital subscriptions and automated renewals has created a \"subscription trap\" that...",
       "representative_signal_score": 3,
-      "representative_stance": "positive",
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -108,7 +140,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Huntiongton, Chris",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -121,10 +157,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0265-0003",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 1555,
+      "representative_length": 1545,
       "representative_excerpt": "As a regular consumer who subscribes to various different streaming services, such as a gym membership and online software platforms, I strongly support the FTC's effort to update this rule. My personal experience has shown that companies make it very easy for people to sign up online but often require hoops and hurdles when canceling the same service. Such ...",
       "representative_signal_score": 3,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -139,7 +176,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from H, Colton",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -152,10 +193,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0265-0004",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 598,
-      "representative_excerpt": "I appreciate the chance to comment. Negative options used to be good when it streamlined signing up for wanted reoccurring services; however, there are too many companies now taking advantage of people's scrolling or clicking through options without truly understanding that they are opting in. There have been many times where I've gotten an offer and had a d...",
+      "representative_length": 166,
+      "representative_excerpt": "I appreciate the chance to comment. It should not be difficult to learn about the terms in plain language, not missing, hidden in small print, or several clicks away.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -170,7 +212,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -183,10 +229,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0265-0005",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 249,
+      "representative_length": 244,
       "representative_excerpt": "The FTC should require customers to opt in to any subscription or program, not having opt in as the default. It would also be desirable to have companies tell you when a subscription is about to renew, or when a \u201cfree trial\u201d is going to expire.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -201,7 +248,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from bosko, jan",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -218,6 +269,7 @@
       "representative_excerpt": "Please include internet subscriptions in this. It's onerous to cancel my internet subscription where they make me wait on hold for hours and try to upsell me. I want to click to cancel. I can't sit on hold during business hours while I'm working to cancel my internet so that I can change to a more affordable plan. Also, pet insurance needs to be help account...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -232,7 +284,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -250,8 +306,8 @@
   "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "positive": 2,
-    "neutral": 3
+    "negative": 1,
+    "neutral": 4
   },
   "comments_first_page_unique_days": 2,
   "summary_available": true,

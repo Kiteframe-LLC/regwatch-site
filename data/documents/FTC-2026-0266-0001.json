@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:08.502893+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:28.289759+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-14T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 0,
-  "pass_3_score": 5.333333333333334,
+  "pass_3_score": 2.40625,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.0,
-  "pass_3_scaled": 0.5888877094928125,
+  "pass_3_scaled": 0.33037784046665664,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5063629613410978,
+  "combined_score": 0.3771080268280199,
   "score_total": 9,
   "pass_2_rule_type": "anprm",
   "pass_2_rule_class": "ANPRM_INQUIRY",
@@ -46,6 +46,8 @@
   "supporting_docs_error": null,
   "supporting_related_material": [],
   "comments_total": 14,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 10,
   "comments_text_hydrated": 2,
   "comments_cached_records": 14,
@@ -59,6 +61,16 @@
     "organization_other": 1,
     "citizen": 13
   },
+  "comments_submission_role_counts": {
+    "unknown": 14
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 14
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 14,
   "comments_new_cluster_count_by_day": {
     "2026-03-17": 2,
     "2026-03-16": 6,
@@ -66,17 +78,37 @@
   },
   "comments_high_signal_cluster_count_by_day": {},
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.35714285714285715,
+  "comments_sentiment_positive_pct": 0.07142857142857142,
   "comments_sentiment_negative_pct": 0.07142857142857142,
-  "comments_sentiment_neutral_pct": 0.5714285714285714,
-  "comments_sentiment_net": 0.2857142857142857,
+  "comments_sentiment_neutral_pct": 0.8571428571428571,
+  "comments_sentiment_net": 0.0,
   "comments_sentiment_sample_size": 14,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 14,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 14,
+  "comments_representative_prior_selected": 14,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 1,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 1,
+    "salience_rank": 1,
+    "weighted_fill": 12
+  },
+  "comments_representative_selected_by_counts_total": 14,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-18T05:44:46.746157+00:00",
-  "comments_checked_at": "2026-03-18T21:36:32.047723+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T01:16:38.701252+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 14,
@@ -84,10 +116,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0002",
       "representative_posted_date": "2026-03-13T04:00:00Z",
-      "representative_length": 1597,
+      "representative_length": 1448,
       "representative_excerpt": "They are also charging me $9.99 EACH MONTH for a filter that is ONLY $8. I only recieve filters quarterly. Thats $30 for an $8 filter that an HVAC company stated was useless. They are also charging me $9.99 to bill me for water monthly. I recently had a leak that had been going on with their irrigation system for a year! They never informed me that there was...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -102,7 +135,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Grove, Tamera",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -119,6 +156,7 @@
       "representative_excerpt": "We rented with Invitation Homes in two states, starting first in GA and then in CO. They rented us a house in GA that they had never seen or been in. The house had bugs and pests and to top it off no a/c for a 2500sq ft house. They offered us window units which were against our HOA rules, so there were fines for that. And also they kept giving us conflicting...",
       "representative_signal_score": 2,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -133,7 +171,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -150,6 +192,7 @@
       "representative_excerpt": "I\u2019m a tenant with invitation homes. I didn\u2019t find out until AFTER I paid my $4k deposit that I would in fact not be paying $1695 a month but $2000 because of all the additional fees. A $40 a month smart home fee for a first generation ring camera that I already had and you don\u2019t even get a subscription. $10 a month for $8 filters that you only get every thre...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -164,7 +207,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -177,10 +224,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0008",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 3763,
-      "representative_excerpt": "Re: Public Comment Supporting the Proposed Rule on Unfair or Deceptive Rental Housing Fee Practices To Whom It May Concern, I am writing to express my strong support for the proposed federal rule addressing unfair and deceptive rental housing practices. As the cost of living and housing continues to rise, the proliferation of mandatory \"junk fees\" and predat...",
+      "representative_length": 3528,
+      "representative_excerpt": "the Proposed Rule on Unfair or Deceptive Rental Housing Fee Practices To Whom It May Concern, my strong support for the proposed federal rule addressing unfair and deceptive rental housing practices. As the cost of living and housing continues to rise, the proliferation of mandatory \"junk fees\" and predatory lease clauses has made it increasingly difficult f...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -195,7 +243,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Huntington, Chris",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -212,6 +264,7 @@
       "representative_excerpt": "I reside in a Greystar Property. When I moved in my apartment two years ago (2024) I was aware there were fixed fees outside of the monthly rent. However; when I paid my first month rent that\u2019s when I learned that I had to pay the additional fixed fees at the same time as the rent. During the leasing process the Leasing Staff failed to inform us that the fee...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -226,7 +279,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -239,10 +296,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0011",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 1617,
+      "representative_length": 1590,
       "representative_excerpt": "I appreciate the thoroughness of this proposal and the points made in the supplementary information. Landlords taking advantage of renters is a huge issue, especially with larger property management companies. As someone who's been renting since college, about 8 years now, every new apartment lease has been filled with more hidden and unexpected fees and ter...",
       "representative_signal_score": 2,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -257,7 +315,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -270,10 +332,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0014",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 3746,
+      "representative_length": 3280,
       "representative_excerpt": "My experience with Invitation Homes highlights serious concerns related not only to hidden and misleading fees, but also to broader failures in property management, habitability, and accountability that have caused significant financial and health harm. 1. Failure to Provide Safe and Habitable Housing During my tenancy, I experienced ongoing and unresolved m...",
       "representative_signal_score": 2,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -288,7 +351,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Swinson, Javacia",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -301,10 +368,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0015",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 4254,
+      "representative_length": 4096,
       "representative_excerpt": "I support the Commission\u2019s rulemaking to address unfair or deceptive acts or practices in advertised rent and rental housing fees. The proposed rule correctly targets hidden fees, lack of informed consent, and misleading total-cost disclosures. However, the rulemaking must explicitly account for systemic issues in the CNMI, where the \u201cblock grant designation...",
       "representative_signal_score": 2,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -319,7 +387,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from CNMIGA.ORG",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -332,10 +404,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0012",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 684,
+      "representative_length": 680,
       "representative_excerpt": "Total Rent: I was not informed prior to signing a lease that there were additional fees for the house being a \"Smart Home\", mandatory purchase of air filters through the payment portal, service fees for Conservice for water, sewer, etc.; they charged a $35 per incident fee for an HOA complaint, even when the complaint was resolved with the HOA. Security Depo...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -350,7 +423,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Floor, Juanita",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -367,6 +444,7 @@
       "representative_excerpt": "Regulations and laws, which are crucial for protecting homeowners, are often overlooked and not implemented effectively. This allows even investors with inaccurate information or deceptive advertising to easily obtain personal data. Consequently, there is a need for significant changes, including adjustments to interest rates and the labor market for develop...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -381,7 +459,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Alonso Mejia, Luis",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -394,10 +476,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0004",
       "representative_posted_date": "2026-03-13T04:00:00Z",
-      "representative_length": 2039,
-      "representative_excerpt": "In my experience as a tenant, many of the fees and services associated with renting a home are not transparent and appear designed to increase the cost of housing without clearly delivering the value that is being charged. One example is the mandatory air filter delivery program. Tenants are charged for this service every month, implying that filters will be...",
+      "representative_length": 1654,
+      "representative_excerpt": "One example is the mandatory air filter delivery program. Tenants are charged for this service every month, implying that filters will be delivered regularly. However, in reality we only received a filter approximately once every few months while still being charged monthly. Charging tenants for a service on a monthly basis when the product is not actually d...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -412,7 +495,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Mihajlovic, Andrijana",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -429,6 +516,7 @@
       "representative_excerpt": "They made us live in horrible conditions, being they were my housing they forced me to sign a paper that said I won\u2019t tell anyone and they moved me into another house. They charge us $10 fee for water and $10 fee for internet, $35 if the hoa sends me a letter. Even if it has no violation!! I\u2019ve paid over $105 because I received a letter asking me to remove a...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -443,7 +531,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Hanson, Laura",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -456,10 +548,11 @@
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0006",
       "representative_posted_date": "2026-03-13T04:00:00Z",
-      "representative_length": 1192,
+      "representative_length": 1172,
       "representative_excerpt": "In addition to the unfair practices that have already been mentioned is the use of the 'Landlords and Property Managers' portal provided by the Eversource electric company whereby the property managers, owners and landlords can access the tenant's account and manipulate the usage. For example, energy usage from a common space like a hallway can be moved to a...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -474,7 +567,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from James, Cynthia",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -490,7 +587,8 @@
       "representative_length": 928,
       "representative_excerpt": "Invitation Homes kept my deposit and charged me 5K in fees with no proof of a reason. Because they know small people can\u2019t afford legal representation. Now it\u2019s on my credit. I had a great credit score with the intention of some day purchasing a home for my family. We lived in the home for over seven years, while it deteriorated. They never wanted to fix any...",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -505,7 +603,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -523,9 +625,9 @@
   "comments_first_page_high_signal_clusters": 0,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "positive": 5,
+    "positive": 1,
     "negative": 1,
-    "neutral": 8
+    "neutral": 12
   },
   "comments_first_page_unique_days": 3,
   "summary_available": true,

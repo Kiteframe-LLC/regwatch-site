@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:05:55.054495+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:24.903278+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-21T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 4.896551724137931,
+  "pass_3_score": 6.225806451612904,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.5578437506354126,
+  "pass_3_scaled": 0.645708198935549,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.573300681677252,
+  "combined_score": 0.6172329058273203,
   "score_total": 9,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -51,6 +51,8 @@
   "supporting_docs_error": null,
   "supporting_related_material": [],
   "comments_total": 55,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 10,
   "comments_text_hydrated": 10,
   "comments_cached_records": 22,
@@ -65,6 +67,16 @@
     "organization_other": 2,
     "other": 2
   },
+  "comments_submission_role_counts": {
+    "unknown": 22
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 22
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 22,
   "comments_new_cluster_count_by_day": {
     "2026-03-17": 10,
     "2026-03-16": 2,
@@ -72,17 +84,37 @@
   },
   "comments_high_signal_cluster_count_by_day": {},
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.36363636363636365,
+  "comments_sentiment_positive_pct": 0.14285714285714285,
   "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.6363636363636364,
-  "comments_sentiment_net": 0.36363636363636365,
-  "comments_sentiment_sample_size": 22,
-  "comments_sentiment_method": null,
+  "comments_sentiment_neutral_pct": 0.8571428571428571,
+  "comments_sentiment_net": 0.14285714285714285,
+  "comments_sentiment_sample_size": 21,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 22,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 22,
+  "comments_representative_prior_selected": 22,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 2,
+  "comments_representative_run_budget": 2,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 2,
+    "salience_rank": 1,
+    "weighted_fill": 19
+  },
+  "comments_representative_selected_by_counts_total": 22,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-18T05:46:54.609821+00:00",
-  "comments_checked_at": "2026-03-18T21:36:23.319514+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T00:41:27.360372+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 12,
@@ -90,10 +122,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0041",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 1894,
+      "representative_length": 1877,
       "representative_excerpt": "I am in favor of utilizing the existing the existing standards in the 2024 IBC, Section 1110.4 - 1110.4.4, and ANSI 117.1-2017 section 613 Adult Changing Stations as a starting point for the standard required for airport restrooms. I believe the following additions to these standards should be made: 1. Require a wheelchair turning radius 67\u2019\u2019 minimum outside...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -108,7 +141,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Carlson, Courtney",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -121,10 +158,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0045",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 1648,
+      "representative_length": 1623,
       "representative_excerpt": "I am the mom of a wheelchair-bound 100lb son with special needs. He is 18, and wears diapers. I cannot change my son on a baby changing table as he is too heavy for those, and they are out in the open which is not appropriate for an 18 year old young man. Right now, I either use a family changing room, when one is available, or have to try to change him in a...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -139,7 +177,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Kapalla, Lara",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -152,10 +194,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0004",
       "representative_posted_date": "2026-03-12T04:00:00Z",
-      "representative_length": 990,
+      "representative_length": 930,
       "representative_excerpt": "Access to Universal Changing Tables is limited and needs to be addressed. 1. Universal changing tables could easily take the place of baby changing tables. You could incorporate into the design adjustments to allow for babies and toddlers to be securely fastened into these tables. 2. Universal changing tables need to be low to the ground to allow for ease of...",
       "representative_signal_score": 1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -170,7 +213,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Williams, Jennifer",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -183,10 +230,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0032",
       "representative_posted_date": "2026-03-12T04:00:00Z",
-      "representative_length": 1119,
+      "representative_length": 1074,
       "representative_excerpt": "In response to Question 5 under Section A, I strongly support requiring universal changing tables to have non\u2011porous surfaces. This requirement is essential for maintaining the safe and sanitary environments that the FAA and Access Board intends to create through this initiative. Cleanliness is one of the most critical factors in protecting both individuals ...",
       "representative_signal_score": 1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -201,7 +249,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -218,6 +270,7 @@
       "representative_excerpt": "I am commenting on the request seeking public comment on our approach to developing technical standards for universal changing stations required to be provided by sponsors of medium and large hub airports seeking airport development project grants. The IBC Code ICC 1110.4 spells this out nicely. More detail is at NH RSA 155:80 Universal Changing Station Requ...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -232,7 +285,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Kelly, Amanda",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -245,10 +302,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0042",
       "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 3701,
+      "representative_length": 3680,
       "representative_excerpt": "The Access Board\u2019s effort to develop accessibility standards for universal changing stations is an important step toward improving access and dignity for individuals with disabilities who require caregiver assistance. The proposed rulemaking appropriately recognizes that many individuals with disabilities cannot safely use standard restroom facilities when t...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -263,7 +321,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Reppond, Owen",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -276,10 +338,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0043",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 559,
-      "representative_excerpt": "Hello, Please find attached a public comment submitted by Iris Mehler, MS, CRC, Co-Executive Director and Co-Founder of 1in6 Support, regarding Docket No. ATBCB-2026-0001: Universal Changing Tables - Technical Accessibility Standards. Thank you for the opportunity to provide comments on this important rulemaking. Respectfully, Iris Mehler, MS, CRC Co-Executi...",
+      "representative_length": 314,
+      "representative_excerpt": "Hello, Please find attached a public comment submitted by Iris Mehler, MS, CRC, Co-Executive Director and Co-Founder of 1in6 Support, regarding Docket No. ATBCB-2026-0001: Universal Changing Tables - Technical Accessibility Standards.",
       "representative_signal_score": 1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -294,7 +357,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from 1in6 Support",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
@@ -311,6 +378,7 @@
       "representative_excerpt": "I am emailing regarding ATBCB-2026-0001 and my support of increasing requirements for accessible changing tables and bathrooms in airports and all other public spaces as applicable. I have a child with disabilities and we have profound difficulties traveling due to the lack of accessibility with restrooms. It\u2019s not appropriate, nor safe, to have people chang...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -325,7 +393,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Hougland, Alana",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -338,10 +410,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0048",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 1033,
+      "representative_length": 1018,
       "representative_excerpt": "Good Morning I wanted to reach out to submit public comment regarding the Adult Changing tables. I am a mother to 4 boys. Three are triplets with disabilities. Two of them are in wheelchairs and would benefit so much from having changing tables at the airports long with other public locations. We have had to resort in changing our 19-year-old sons on floors ...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -356,7 +429,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Southwest Louisiana Independence Center",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -369,10 +446,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0055",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 511,
+      "representative_length": 500,
       "representative_excerpt": "Universal changing tables are a necessity for adults and children with disabilities. My adult daughter is disabled with multiple chronic illnesses. Lack of changing tables keeps us at home. Is difficult to even take a day trip. Adjustable height tables are the best but are can have mechanical problems .Can do stationary tables but perhaps no higher than 4 ft...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -387,7 +465,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Patrick, Lisa",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -400,10 +482,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0047",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 354,
-      "representative_excerpt": "My comment on Universal Changing Tables is they are going to cost a lot of money that we don\u2019t have. Thank you for considering options to keep costs down or number of stations limited. My local airport has one installed at great expense, and it appears to never be used. Thank you for your thoughtful consideration of the National Deficit.",
+      "representative_length": 255,
+      "representative_excerpt": "My comment on Universal Changing Tables is they are going to cost a lot of money that we don\u2019t have. My local airport has one installed at great expense, and it appears to never be used. Thank you for your thoughtful consideration of the National Deficit.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -418,7 +501,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Houlihan, Patrick",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -435,6 +522,7 @@
       "representative_excerpt": "I am the parent of a 17 year old boy who has cerebral palsy amd Down syndrome. He is non-ambulatory and not toilet trained. I have had trouble for the last several years changing his diaper in public places. He outgrew baby changing tables serval years ago. The only way to change him now is by laying him down on the dirty floor. I have to bring towels or a b...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -449,7 +537,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Heim, Susan",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -466,6 +558,7 @@
       "representative_excerpt": "Absolutely this should be a requirement. As a mom to a medically fragile wheelchair bound girl I can\u2019t express how much it means when a place has a space available to humanity change my daughter. As a nurse practitioner and nurse I think it is our responsibility to care for each individuals basic needs with dignity such as toileting.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -480,7 +573,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Tallman , Jesi",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -493,10 +590,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0053",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 478,
+      "representative_length": 459,
       "representative_excerpt": "The UK has an already come up with a brilliant standard, Changing Places Toilets. It is an excellent starting point, with all the regular equipment of a restroom, plus space for two carers, a ceiling lift, an adult sized changing table, and a privacy screen to enable privacy for the disabled person and for carers who need to use the facility whilst keeping t...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -511,7 +609,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -524,10 +626,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0056",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 781,
+      "representative_length": 741,
       "representative_excerpt": "I think adult changing stations should be put into any and every public establishment. From medical offices/buildings to public event spaces, motels, airports, etc. I would place them in men's and women's restrooms. They don't necessarily have to be in a stall they could be on the wall near the regular changing station... .or if you could make a standard tha...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -542,7 +645,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Welch, Nancy",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -555,10 +662,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0002",
       "representative_posted_date": "2026-03-12T04:00:00Z",
-      "representative_length": 632,
+      "representative_length": 623,
       "representative_excerpt": "Hello, my comment around universal changing tables is to consider its location. Often times, options for changing individuals are in a single use stall meant for families. While these locations are clearly marked and there is a specific use, often times, these locations are used by other individuals who do not need the services. I've unfortunately found empl...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -573,7 +681,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Logan, Justin",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -590,6 +702,7 @@
       "representative_excerpt": "This update is long overdue. Current standards only accommodate infants and very small children, eliminating the use of public and private spaces by those with disabled and their families.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -604,7 +717,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Smitherman, K",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -621,6 +738,7 @@
       "representative_excerpt": "Having a child with special needs that is 7 years old and in diapers this would be amazing and so helpful",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -635,7 +753,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Rosen, Sarah",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -652,6 +774,7 @@
       "representative_excerpt": "Older children and adults with disabilities need safe places to have their needs met when out and about! The time to care is now, before it\u2019s you or your loved one with no place to be cared for in public other than a dirty bathroom floor",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -666,7 +789,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Gallagher, Erin",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -679,10 +806,11 @@
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0017",
       "representative_posted_date": "2026-03-12T04:00:00Z",
-      "representative_length": 865,
+      "representative_length": 845,
       "representative_excerpt": "I support this effort enthusiastically. My daughter is 22 and requires such spaces to be changed safely, hygienically, and in dignity. As her caregiver, I require this kind of space to help her without a second person\u2014 to lift her or place her on the floor alone is nearly impossible, besides awful. The lack of public places to change essentially makes public...",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -697,7 +825,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Storey, Margaret",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -714,6 +846,7 @@
       "representative_excerpt": "Accessible changing tables for all public spaces that follow ADA provisions is necessary for many to access these spaces. It ensures basic human biologoical needs ( toileting) are met for all. I am optimistic that this will be done.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -728,7 +861,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from Baez, Kay",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -744,7 +881,8 @@
       "representative_length": 274,
       "representative_excerpt": "This is critical for so many individuals and their families to have a safe and reasonably clean space to change as individuals with a variety of needs require this type of toileting support. We have these everywhere for babies to toddlers - lets meet he full population now.",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -759,7 +897,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from T, L",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -777,8 +919,8 @@
   "comments_first_page_high_signal_clusters": 0,
   "comments_first_page_novelty_clusters": 2,
   "comments_first_page_stance_counts": {
-    "positive": 8,
-    "neutral": 14
+    "positive": 3,
+    "neutral": 19
   },
   "comments_first_page_unique_days": 3,
   "summary_available": true,

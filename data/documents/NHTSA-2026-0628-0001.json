@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:05:54.993636+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:25.473612+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-16T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 5,
-  "pass_3_score": 3.5,
+  "pass_3_score": 3.7870967741935484,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.4419648542299529,
+  "pass_3_scaled": 0.46803777388198275,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5781851810491874,
+  "combined_score": 0.5912216408752022,
   "score_total": 12,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -50,9 +50,11 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/16/2026-05024.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "500 Server Error: Internal Server Error for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=NHTSA-2026-0628&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "comments_total": 2,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 2,
   "comments_text_hydrated": 2,
   "comments_cached_records": 2,
@@ -65,6 +67,16 @@
   "comments_commenter_type_counts": {
     "citizen": 2
   },
+  "comments_submission_role_counts": {
+    "unknown": 2
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 2
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 2,
   "comments_new_cluster_count_by_day": {
     "2026-03-18": 2
   },
@@ -77,12 +89,31 @@
   "comments_sentiment_neutral_pct": 0.5,
   "comments_sentiment_net": -0.5,
   "comments_sentiment_sample_size": 2,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 2,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 2,
+  "comments_representative_prior_selected": 2,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 0,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "salience_rank": 1,
+    "weighted_fill": 1
+  },
+  "comments_representative_selected_by_counts_total": 2,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-19T03:54:02.875584+00:00",
-  "comments_checked_at": "2026-03-19T03:54:02.886305+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T00:54:04.117768+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 2,
@@ -94,6 +125,7 @@
       "representative_excerpt": "102. Modernizing the requirements for transmission shift position indicators is a vital step toward realizing the full spectrum of benefits that Automated Driving Systems (ADS) offer to our society. The current standards were written for a different era of transportation. In a vehicle designed from the ground up without a steering wheel or pedals\u2014such as the...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -108,7 +140,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Eric River",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -125,6 +161,7 @@
       "representative_excerpt": "102 for ADS-Equipped Vehicles This comment supports the agency\u2019s goal of modernizing FMVSS No. 102 for vehicles without traditional driver controls. However, the proposal would benefit from additional analysis and clarification to ensure the administrative record adequately supports the conclusion that removal of transmission shift position displays has \u201cno ...",
       "representative_signal_score": 3,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -139,7 +176,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from James Scarborough",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,

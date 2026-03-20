@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:08.356737+00:00",
+  "comment_action_checked_at": "2026-03-20T04:31:26.734761+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-03-31T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 3.04,
+  "pass_3_score": 2.5062034739454093,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.39749942946195704,
+  "pass_3_scaled": 0.34144061457738495,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5227548814656868,
+  "combined_score": 0.4947254740234007,
   "score_total": 10,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -49,9 +49,11 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/01/28/2026-01699.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "offline_cache_miss_supporting_docs",
   "supporting_related_material": [],
   "comments_total": 2,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 2,
   "comments_text_hydrated": 0,
   "comments_cached_records": 2,
@@ -65,25 +67,52 @@
     "citizen": 1,
     "industry": 1
   },
+  "comments_submission_role_counts": {
+    "unknown": 2
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 2
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 2,
   "comments_new_cluster_count_by_day": {
     "2026-03-06": 1,
     "2026-02-03": 1
   },
-  "comments_high_signal_cluster_count_by_day": {
-    "2026-03-06": 1
-  },
+  "comments_high_signal_cluster_count_by_day": {},
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.5,
-  "comments_sentiment_neutral_pct": 0.5,
-  "comments_sentiment_net": -0.5,
+  "comments_sentiment_negative_pct": 0.0,
+  "comments_sentiment_neutral_pct": 1.0,
+  "comments_sentiment_net": 0.0,
   "comments_sentiment_sample_size": 2,
-  "comments_sentiment_method": null,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 2,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 2,
+  "comments_representative_prior_selected": 2,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 1,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 1,
+    "salience_rank": 1
+  },
+  "comments_representative_selected_by_counts_total": 2,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-03-17T19:35:36.589969+00:00",
-  "comments_checked_at": "2026-03-18T21:36:29.672531+00:00",
-  "comments_error": null,
+  "comments_checked_at": "2026-03-20T00:41:27.143757+00:00",
+  "comments_error": "offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -91,10 +120,11 @@
       "page_count": 0,
       "representative_comment_id": "NCUA-2026-0134-0003",
       "representative_posted_date": "2026-03-06T05:00:00Z",
-      "representative_length": 4546,
-      "representative_excerpt": "To: National Credit Union Administration Re: Public Comment on Proposed Deregulatory Actions Affecting Credit Union Oversight and Consumer Protections Date: March 4, 2026 I submit this comment to express opposition to the current suite of proposed deregulatory actions under consideration by the National Credit Union Administration (NCUA). While regulatory mo...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
+      "representative_length": 3733,
+      "representative_excerpt": "as a member of the public but also as a credit union member for more than forty years. Over that time, credit unions have built a reputation for stability, transparency, and member-focused service. Those strengths are not accidental. They are the result of a regulatory framework that emphasizes prudent oversight, clear expectations, and accountability for th...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -109,7 +139,11 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Anonymous Comment",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -122,10 +156,11 @@
       "page_count": 0,
       "representative_comment_id": "NCUA-2026-0134-0002",
       "representative_posted_date": "2026-02-03T05:00:00Z",
-      "representative_length": 612,
+      "representative_length": 608,
       "representative_excerpt": "As Doug Wadsworth, President of Tri-Cities Community Federal Credit Union in Tri-Cities, Washington, and President of the Endangered Small Credit Union Defense (ESCUD), which represents 25 small credit unions under $100 million in assets, I back the NCUA's proposal to remove \u00a7741.10 as redundant to existing share insurance disclosures. This eliminates unnece...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -140,12 +175,16 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment from The Endangered Small CU Defense",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6333333333333333
+      "presentation_score": 0.7000000000000001
     }
   ],
   "comments_clusters_path": "data/comments/NCUA-2026-0134.csv",
@@ -155,11 +194,10 @@
   "comments_first_page_coverage_count": 2,
   "comments_clusters_total_available": 2,
   "comments_clusters_displayed": 2,
-  "comments_first_page_high_signal_clusters": 1,
+  "comments_first_page_high_signal_clusters": 0,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "negative": 1,
-    "neutral": 1
+    "neutral": 2
   },
   "comments_first_page_unique_days": 2,
   "summary_available": false,

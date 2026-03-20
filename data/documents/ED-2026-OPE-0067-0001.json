@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ED-2026-OPE-0067-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-19T14:06:09.218829+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": null,
+  "comment_action_checked_at": null,
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-03-20T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 5,
-  "pass_3_score": 0.3870967741935484,
+  "pass_3_score": 6.4375,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.062479007166233,
+  "pass_3_scaled": 0.6579904665306469,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.38844225751732736,
+  "combined_score": 0.6861979871995343,
   "score_total": 12,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -51,25 +51,41 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/02/17/2026-03074.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "offline_cache_miss_supporting_docs",
   "supporting_related_material": [],
-  "comments_total": 12,
+  "comments_total": 14,
+  "comments_velocity_total": 0,
+  "comments_public_total_estimate": 0,
   "comments_fetched": 10,
-  "comments_text_hydrated": 3,
-  "comments_cached_records": 12,
-  "comments_unique_clusters": 12,
+  "comments_text_hydrated": 4,
+  "comments_cached_records": 14,
+  "comments_unique_clusters": 14,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 1,
   "comments_commenter_type_counts": {
-    "organization_other": 5,
+    "organization_other": 7,
     "industry": 1,
     "other": 5,
     "citizen": 1
   },
+  "comments_submission_role_counts": {
+    "organization": 6,
+    "government_affiliated_or_unclear": 2,
+    "unknown": 5,
+    "individual": 1
+  },
+  "comments_submission_channel_counts": {
+    "unknown": 14
+  },
+  "comments_public_count": 0,
+  "comments_recorded_count": 0,
+  "comments_agency_material_count": 0,
+  "comments_unknown_channel_count": 14,
   "comments_new_cluster_count_by_day": {
+    "2026-03-19": 2,
     "2026-03-17": 3,
     "2026-03-16": 2,
     "2026-03-11": 2,
@@ -83,20 +99,40 @@
     "2026-03-17": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.16666666666666669,
-  "comments_sentiment_negative_pct": 0.16666666666666669,
+  "comments_sentiment_positive_pct": 0.22222222222222224,
+  "comments_sentiment_negative_pct": 0.11111111111111112,
   "comments_sentiment_neutral_pct": 0.6666666666666667,
-  "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 12,
-  "comments_sentiment_method": null,
+  "comments_sentiment_net": 0.11111111111111112,
+  "comments_sentiment_sample_size": 9,
+  "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
+  "comments_metrics_basis": "representative_sample",
+  "comments_analysis_sample_size": 14,
+  "comments_analysis_cap_per_period": 5000,
+  "comments_representative_selected": 14,
+  "comments_representative_prior_selected": 14,
+  "comments_representative_newly_selected": 0,
+  "comments_representative_must_keep": 8,
+  "comments_representative_run_budget": 0,
+  "comments_representative_overflow": false,
+  "comments_representative_missing_from_archive": 0,
+  "comments_representative_prior_missing": 0,
+  "comments_representative_selected_by_counts": {
+    "must_keep": 8,
+    "salience_rank": 4,
+    "weighted_fill": 2
+  },
+  "comments_representative_selected_by_counts_total": 14,
+  "comments_api_backfill_next_page": 1,
+  "comments_api_backfill_complete": false,
+  "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-19T02:23:59.597862+00:00",
-  "comments_checked_at": "2026-03-19T02:23:59.641577+00:00",
-  "comments_error": null,
+  "comments_api_last_seen_at": "2026-03-19T17:14:51.149352+00:00",
+  "comments_checked_at": "2026-03-20T00:30:53.290846+00:00",
+  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
   "comments_clusters": [
     {
-      "cluster_id": 1,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0013",
@@ -105,6 +141,7 @@
       "representative_excerpt": "Obelisk Tech Systems Inc. 2026-03074 | 34 CFR Part 602 | Deadline: March 19, 2026 Obelisk Tech Systems Inc. files 20 consolidated regulatory comments on the Department of Education's proposed interpretive rule on accreditor nomenclature. Each attached document addresses three statutory frameworks per comment, covering 60 statutory arguments in total. This fi...",
       "representative_signal_score": 4,
       "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -119,15 +156,55 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 1.0
+      "presentation_score": 0.9913043478260871
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2026-OPE-0067-0014",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 1793,
+      "representative_excerpt": "S. Department of Education recognized accrediting agency since 1952, I strongly support the Department's proposed rule to revise and clarify the appropriate use of the terms \"national\" and \"regional\" by Recognized Accrediting Agencies. The inappropriate use of these terms by (1) recognized accreditors, (2) in both legislation and regulations at the state lev...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2026-OPE-0067-0014": {
+          "organization": "Association for Biblical Higher Education Commission on Accreditation",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-03074",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0005",
@@ -136,6 +213,7 @@
       "representative_excerpt": "The Department correctly observes that the words that entities use to describe themselves can be misleading in some contexts. I support the Department\u2019s well-intended efforts to ensure that accrediting agencies appropriately represent themselves with respect to the geographic scope of the Department\u2019s recognition. The Department reasonably states that \u201cto th...",
       "representative_signal_score": 1,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -150,15 +228,19 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5928571428571429
+      "presentation_score": 0.5891304347826087
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0009",
@@ -167,6 +249,7 @@
       "representative_excerpt": "The Department of Education should not initially recognize a nationally recognized accrediting agency using generic business names for Higher, Postsecondary, Vocational, or Occupational Education (HE, PE, VE, or OE) accreditation, or accreditation in general. It should not initially recognize or approve an agency name change for an agency if the agency name ...",
       "representative_signal_score": 1,
       "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -181,15 +264,19 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6452380952380953
+      "presentation_score": 0.6369565217391304
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0012",
@@ -198,6 +285,7 @@
       "representative_excerpt": "SUBMITTED INTO THE RECORD ON MARCH 12, 2026 BY OBELISK TECH SYSTEMS INC TO OMB OIRA OIG AND CONGRESS",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -212,7 +300,47 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6913043478260871
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2026-OPE-0067-0015",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 3436,
+      "representative_excerpt": "Please resegregate the schools. One potential advantage of segregation is the ability to direct resources toward specific groups with unique needs. For example, separating students by learning abilities can allow teachers to focus on tailored instructional strategies. Similarly, providing separate facilities or resources based on age, gender, or other catego...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2026-OPE-0067-0015": {
+          "organization": "WhoPoo App",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-03074",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -220,7 +348,7 @@
       "presentation_score": 0.7000000000000001
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0003",
@@ -229,6 +357,7 @@
       "representative_excerpt": "As an administrator in higher education, I support this clarification. This rule change will protect students from predatory, unaccredited programs, as well as streamline the language used in accreditation discussions.",
       "representative_signal_score": 0,
       "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -243,15 +372,19 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45476190476190476
+      "presentation_score": 0.4543478260869565
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0006",
@@ -260,6 +393,7 @@
       "representative_excerpt": "On behalf of the Middle States Commission on Higher Education (MSCHE), the attached comment is being submitted in response to the United States Department of Education\u2019s notice regarding revision and clarification of its prior interpretation on the use of descriptive terms by Department-recognized accrediting agencies, specifically, the use of \u201cregional\u201d and...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -274,15 +408,19 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5619047619047619
+      "presentation_score": 0.5565217391304349
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0007",
@@ -291,6 +429,7 @@
       "representative_excerpt": "Athletics is also affected by the regional accreditation stigma. The NCAA and NAIA ban competition from institutions that are not regionally accredited. That is monopolistic and blocks other institutions, that are accredited and have students that are receiving federal aid, from participation. I have attached the NCAA and NAIA rule below.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -305,46 +444,19 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5714285714285715
+      "presentation_score": 0.5652173913043479
     },
     {
       "cluster_id": 6,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ED-2026-OPE-0067-0008",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 103,
-      "representative_excerpt": "Please see the attached comment on behalf of the Council of Recognized Accrediting Commissions (C-RAC).",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ED-2026-OPE-0067-0008": {
-          "organization": "Council of Recognized Accrediting Commissions (C-RAC)",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5714285714285715
-    },
-    {
-      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0010",
@@ -353,6 +465,7 @@
       "representative_excerpt": "I have worked in higher education for fifteen years and have witnessed how the artificial \u201cregional\u201d label has caused harm to students. Rather than a meaningful difference, the regional-national construct costs students time and money. I strongly support the U.S. Department of Education\u2019s proposed clarification that accrediting bodies should stop using the a...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -367,23 +480,28 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5452380952380953
+      "presentation_score": 0.5369565217391304
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0011",
       "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "See attached file(s)",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -398,23 +516,64 @@
           "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.49999999999999994
+      "presentation_score": 0.49130434782608695
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2026-OPE-0067-0008",
+      "representative_posted_date": "2026-03-11T04:00:00Z",
+      "representative_length": 0,
+      "representative_excerpt": "",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2026-OPE-0067-0008": {
+          "organization": "Council of Recognized Accrediting Commissions (C-RAC)",
+          "postedDate": "2026-03-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-03074",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4652173913043478
+    },
+    {
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0004",
       "representative_posted_date": "2026-03-02T05:00:00Z",
-      "representative_length": 22,
-      "representative_excerpt": "See attachement below.",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -429,23 +588,28 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37857142857142856
+      "presentation_score": 0.3760869565217391
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2026-OPE-0067-0002",
       "representative_posted_date": "2026-02-24T05:00:00Z",
-      "representative_length": 24,
-      "representative_excerpt": "Please see attached file",
+      "representative_length": 0,
+      "representative_excerpt": "",
       "representative_signal_score": -1,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -460,7 +624,11 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-03074",
-          "withdrawn": false
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -472,17 +640,17 @@
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 12,
-  "comments_clusters_total_available": 12,
-  "comments_clusters_displayed": 12,
+  "comments_first_page_coverage_count": 14,
+  "comments_clusters_total_available": 14,
+  "comments_clusters_displayed": 14,
   "comments_first_page_high_signal_clusters": 1,
-  "comments_first_page_novelty_clusters": 6,
+  "comments_first_page_novelty_clusters": 8,
   "comments_first_page_stance_counts": {
     "negative": 2,
-    "positive": 2,
-    "neutral": 8
+    "positive": 3,
+    "neutral": 9
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true
 }
