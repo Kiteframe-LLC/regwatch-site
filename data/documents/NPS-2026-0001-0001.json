@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-21T15:25:37.567651+00:00",
+  "comment_action_checked_at": "2026-03-21T22:07:52.315249+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-11T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 6,
-  "pass_3_score": 7.767213114754098,
+  "pass_3_score": 4.867213114754098,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.9089717898486955,
-  "pass_3_scaled": 0.7259748857987786,
+  "pass_3_scaled": 0.5556764144869548,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7291287309692884,
+  "combined_score": 0.6439794953133766,
   "score_total": 13,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -59,16 +59,16 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 113,
-  "comments_velocity_total": 112,
-  "comments_public_total_estimate": 112,
-  "comments_fetched": 113,
+  "comments_total": 117,
+  "comments_velocity_total": 116,
+  "comments_public_total_estimate": 116,
+  "comments_fetched": 117,
   "comments_text_hydrated": 113,
   "comments_cached_records": 117,
-  "comments_unique_clusters": 113,
-  "comments_clustered_duplicates": 2,
+  "comments_unique_clusters": 112,
+  "comments_clustered_duplicates": 3,
   "comments_truncated": false,
-  "comments_source": "bulk_csv",
+  "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 115,
   "comments_commenter_type_counts": {
@@ -101,20 +101,19 @@
     "2026-02-19": 3,
     "2026-02-17": 15,
     "2026-02-13": 7,
-    "2026-02-12": 15,
+    "2026-02-12": 14,
     "2026-02-11": 57
   },
   "comments_high_signal_cluster_count_by_day": {
     "2026-03-10": 1,
     "2026-02-17": 2,
-    "2026-02-13": 1,
-    "2026-02-12": 1
+    "2026-02-13": 1
   },
-  "comments_novel_comment_rate": 0.9829059829059829,
-  "comments_sentiment_positive_pct": 0.120040395012615,
-  "comments_sentiment_negative_pct": 0.08836269883427551,
-  "comments_sentiment_neutral_pct": 0.7915969061531094,
-  "comments_sentiment_net": 0.03167769617833949,
+  "comments_novel_comment_rate": 0.9743589743589743,
+  "comments_sentiment_positive_pct": 0.07625318968033729,
+  "comments_sentiment_negative_pct": 0.09770398955304119,
+  "comments_sentiment_neutral_pct": 0.8260428207666215,
+  "comments_sentiment_net": -0.021450799872703902,
   "comments_sentiment_sample_size": 114,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
@@ -125,7 +124,7 @@
   "comments_representative_prior_selected": 115,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 14,
-  "comments_representative_run_budget": 0,
+  "comments_representative_run_budget": 2,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
@@ -139,20 +138,20 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-12T04:00Z",
-  "comments_api_last_seen_at": "2026-03-21T03:59:38.008025+00:00",
-  "comments_checked_at": "2026-03-21T14:27:31.264020+00:00",
-  "comments_error": "offline_used_bulk_csv; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-03-21T22:02:18.149258+00:00",
+  "comments_checked_at": "2026-03-21T22:02:19.124043+00:00",
+  "comments_error": "used_bulk_csv",
   "comments_clusters": [
     {
       "cluster_id": 10,
-      "count": 2,
+      "count": 3,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0107",
       "representative_posted_date": "2026-03-06T05:00:00Z",
-      "representative_length": 4498,
-      "representative_excerpt": "Mammoth Cave National Park, located in central Kentucky, spans 52,830 acres and contains the world's largest known cave system. The area was authorized for establishment of Mammoth Cave National Park by Congress in 1926, under the Act of May 25, 1926 (P.L. 69-283, 44 Stat. 635). The Act of May 25, 1926 authorized acquisition of the land which makes up the na...",
+      "representative_length": 4732,
+      "representative_excerpt": "I am writing this comment in support of the National Park Services (NPS) proposal to expand bicycling access from 19 to 37 miles of multi-use trails and expanding access to horse riders by 5.4 miles on Houchin Ferry North/Ollie Road. Mammoth Cave National Park, located in central Kentucky, spans 52,830 acres and contains the world's largest known cave system...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -188,14 +187,29 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0001-0063": {
+          "organization": "",
+          "postedDate": "2026-02-12T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment from Samantha Libor",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8118735321469055
+      "presentation_score": 0.7646506056013165
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 97,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0018",
@@ -243,43 +257,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4275598066567094
-    },
-    {
-      "cluster_id": 53,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0063",
-      "representative_posted_date": "2026-02-12T05:00Z",
-      "representative_length": 4591,
-      "representative_excerpt": "Mammoth Cave National Park\u2019s foundation document clearly states that its mission includes recreation on the lands above the cave system, as well as within the cave system. Expanding and redesignating the use of some of the trails in the park directly supports this mission, while also helping environmental conservation and sustainability efforts. The proposed...",
-      "representative_signal_score": 3,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0063": {
-          "organization": "",
-          "postedDate": "2026-02-12T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment from Samantha Libor",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.8443625327078979
+      "presentation_score": 0.39085912284225466
     },
     {
       "cluster_id": 37,
@@ -315,7 +293,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.797303709178486
+      "presentation_score": 0.7713524067791017
     },
     {
       "cluster_id": 28,
@@ -351,7 +329,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.809068415060839
+      "presentation_score": 0.7831171126614547
     },
     {
       "cluster_id": 20,
@@ -387,7 +365,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.809068415060839
+      "presentation_score": 0.7831171126614547
     },
     {
       "cluster_id": 7,
@@ -423,10 +401,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.920833120943192
+      "presentation_score": 0.8948818185438077
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0044",
@@ -459,7 +437,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.658088022903976
+      "presentation_score": 0.6321367205045918
+    },
+    {
+      "cluster_id": 60,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0001-0055",
+      "representative_posted_date": "2026-02-11T05:00Z",
+      "representative_length": 3134,
+      "representative_excerpt": "Mammoth Cave National Park is not merely a recreational landscape; it is one of the most ecologically sensitive and biologically significant protected areas in the National Park System. The park safeguards fragile karst terrain, rare plant communities, critical bat habitats, and an internationally recognized cave system whose integrity depends on the health ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0001-0055": {
+          "organization": "",
+          "postedDate": "2026-02-11T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kevin Mays",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6321367205045918
     },
     {
       "cluster_id": 1,
@@ -495,7 +509,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
+      "presentation_score": 0.7321367205045918
     },
     {
       "cluster_id": 2,
@@ -531,7 +545,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7551468464333878
+      "presentation_score": 0.7291955440340036
     },
     {
       "cluster_id": 5,
@@ -567,7 +581,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7374997876098585
+      "presentation_score": 0.7115484852104742
     },
     {
       "cluster_id": 11,
@@ -603,7 +617,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7227939052569172
+      "presentation_score": 0.696842602857533
     },
     {
       "cluster_id": 13,
@@ -639,7 +653,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7051468464333879
+      "presentation_score": 0.6791955440340036
     },
     {
       "cluster_id": 14,
@@ -675,7 +689,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6963233170216231
+      "presentation_score": 0.6703720146222388
     },
     {
       "cluster_id": 33,
@@ -711,43 +725,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6757350817275055
-    },
-    {
-      "cluster_id": 61,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0001-0055",
-      "representative_posted_date": "2026-02-11T05:00Z",
-      "representative_length": 3134,
-      "representative_excerpt": "Mammoth Cave National Park is not merely a recreational landscape; it is one of the most ecologically sensitive and biologically significant protected areas in the National Park System. The park safeguards fragile karst terrain, rare plant communities, critical bat habitats, and an internationally recognized cave system whose integrity depends on the health ...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0001-0055": {
-          "organization": "",
-          "postedDate": "2026-02-11T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kevin Mays",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.658088022903976
+      "presentation_score": 0.6497837793281213
     },
     {
       "cluster_id": 4,
@@ -758,7 +736,7 @@
       "representative_length": 960,
       "representative_excerpt": "I am in favor of opening up bike trails at Mammoth Cave National Park! I have been hiking and biking there for over 40 years. From 1985 forward, I have seen the amount of trails open to bikers dwindle. More importantly, I have seen trails to horses open up. Hikers and Bikers have a problem with this. 1. Many people who ride horses leave a lot of trash on the...",
       "representative_signal_score": 1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -783,7 +761,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6071076307471134
+      "presentation_score": 0.5811563283477291
     },
     {
       "cluster_id": 9,
@@ -819,10 +797,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5924017483941721
+      "presentation_score": 0.5664504459947879
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0045",
@@ -855,7 +833,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5747546895706428
+      "presentation_score": 0.5488033871712585
     },
     {
       "cluster_id": 8,
@@ -891,10 +869,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5208331209431919
+      "presentation_score": 0.49488181854380753
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0062",
@@ -927,10 +905,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4443625327078977
+      "presentation_score": 0.4184112303085134
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0031",
@@ -963,7 +941,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414213562373095
+      "presentation_score": 0.4154700538379252
     },
     {
       "cluster_id": 34,
@@ -999,7 +977,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5424017483941722
+      "presentation_score": 0.516450445994788
     },
     {
       "cluster_id": 6,
@@ -1035,10 +1013,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3874997876098585
+      "presentation_score": 0.36154848521047417
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0060",
@@ -1071,7 +1049,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.527695866041231
+      "presentation_score": 0.5017445636418467
     },
     {
       "cluster_id": 50,
@@ -1107,10 +1085,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.527695866041231
+      "presentation_score": 0.5017445636418467
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0030",
@@ -1143,7 +1121,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5247546895706428
+      "presentation_score": 0.4988033871712585
     },
     {
       "cluster_id": 3,
@@ -1179,7 +1157,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4767154738843683
+      "presentation_score": 0.45076417148498404
     },
     {
       "cluster_id": 12,
@@ -1215,7 +1193,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.447303709178486
+      "presentation_score": 0.4213524067791017
     },
     {
       "cluster_id": 16,
@@ -1251,7 +1229,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4296566503549566
+      "presentation_score": 0.4037053479555722
     },
     {
       "cluster_id": 19,
@@ -1287,7 +1265,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4149507680020154
+      "presentation_score": 0.3889994656026311
     },
     {
       "cluster_id": 18,
@@ -1323,7 +1301,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4149507680020154
+      "presentation_score": 0.3889994656026311
     },
     {
       "cluster_id": 17,
@@ -1359,7 +1337,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4149507680020154
+      "presentation_score": 0.3889994656026311
     },
     {
       "cluster_id": 32,
@@ -1395,7 +1373,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 31,
@@ -1431,7 +1409,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 30,
@@ -1467,7 +1445,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 27,
@@ -1503,7 +1481,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 25,
@@ -1539,7 +1517,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 23,
@@ -1550,7 +1528,7 @@
       "representative_length": 351,
       "representative_excerpt": "Very much in favor of more MTB trail access. Also, it\u2019s best to have horse trails and bike trails be separated, as sometimes bicycles can scare horses. If these trails need to be shared at certain points it\u2019s a good idea to have posted signage stating that cyclists should stop and walk their bikes around horses. This will keep all parties protected.",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -1575,7 +1553,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 22,
@@ -1611,7 +1589,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 21,
@@ -1647,7 +1625,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4090684150608389
+      "presentation_score": 0.3831171126614546
     },
     {
       "cluster_id": 39,
@@ -1683,7 +1661,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39730370917848595
+      "presentation_score": 0.37135240677910164
     },
     {
       "cluster_id": 51,
@@ -1719,7 +1697,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39436253270789773
+      "presentation_score": 0.3684112303085134
     },
     {
       "cluster_id": 49,
@@ -1755,7 +1733,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39436253270789773
+      "presentation_score": 0.3684112303085134
     },
     {
       "cluster_id": 48,
@@ -1791,7 +1769,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39436253270789773
+      "presentation_score": 0.3684112303085134
     },
     {
       "cluster_id": 47,
@@ -1827,7 +1805,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39436253270789773
+      "presentation_score": 0.3684112303085134
     },
     {
       "cluster_id": 45,
@@ -1863,7 +1841,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39436253270789773
+      "presentation_score": 0.3684112303085134
     },
     {
       "cluster_id": 42,
@@ -1899,10 +1877,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39436253270789773
+      "presentation_score": 0.3684112303085134
     },
     {
-      "cluster_id": 112,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0003",
@@ -1935,10 +1913,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 111,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0004",
@@ -1971,10 +1949,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0005",
@@ -1982,7 +1960,7 @@
       "representative_length": 687,
       "representative_excerpt": "I am a founding member of the Mammoth Cave Backcountry Horsemen. The Backcountry Horsemen of America is a volunteer organization committed to working to preserve,protect and maintain equestrian trails on public lands. Since 2014 our group has worked with the park providing hundreds of volunteer hours of trail work. As such, I am in favor of opening Houchen F...",
       "representative_signal_score": 0,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -2007,10 +1985,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0006",
@@ -2043,10 +2021,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0007",
@@ -2079,10 +2057,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0010",
@@ -2115,10 +2093,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0011",
@@ -2151,10 +2129,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0012",
@@ -2187,10 +2165,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0013",
@@ -2223,10 +2201,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0016",
@@ -2259,10 +2237,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0021",
@@ -2270,7 +2248,7 @@
       "representative_length": 115,
       "representative_excerpt": "I'm definitely in favor of expanding bicycle opportunities. I can't speak for horse traffic as I don't rode horses.",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -2295,10 +2273,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0022",
@@ -2331,10 +2309,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0025",
@@ -2367,10 +2345,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0026",
@@ -2403,10 +2381,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0027",
@@ -2439,10 +2417,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0029",
@@ -2475,10 +2453,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0032",
@@ -2486,7 +2464,7 @@
       "representative_length": 389,
       "representative_excerpt": "I am in favor of adding 37 miles of bicycling trails in Mammoth Cave National Park. This proposal would provide more opportunities for recreational enjoyment of the park for hikers and cyclists. These trails may result in increased visitation to the park and boost tourism in the area. In addition it provides a means to explore the park in a way that will hav...",
       "representative_signal_score": 0,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -2511,10 +2489,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0033",
@@ -2547,10 +2525,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0034",
@@ -2583,10 +2561,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0035",
@@ -2619,10 +2597,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0036",
@@ -2655,10 +2633,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0037",
@@ -2691,10 +2669,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0038",
@@ -2727,10 +2705,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0039",
@@ -2763,10 +2741,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0041",
@@ -2799,10 +2777,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0046",
@@ -2835,10 +2813,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0048",
@@ -2871,10 +2849,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0049",
@@ -2907,10 +2885,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0050",
@@ -2943,10 +2921,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0051",
@@ -2979,10 +2957,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0053",
@@ -3015,10 +2993,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0054",
@@ -3051,10 +3029,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0056",
@@ -3087,10 +3065,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0057",
@@ -3123,10 +3101,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0058",
@@ -3159,10 +3137,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0059",
@@ -3195,7 +3173,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
       "cluster_id": 41,
@@ -3231,7 +3209,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3139703758451526
+      "presentation_score": 0.2880190734457683
     },
     {
       "cluster_id": 40,
@@ -3267,7 +3245,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3139703758451526
+      "presentation_score": 0.2880190734457683
     },
     {
       "cluster_id": 38,
@@ -3303,7 +3281,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3139703758451526
+      "presentation_score": 0.2880190734457683
     },
     {
       "cluster_id": 36,
@@ -3339,7 +3317,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3139703758451526
+      "presentation_score": 0.2880190734457683
     },
     {
       "cluster_id": 35,
@@ -3375,7 +3353,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3139703758451526
+      "presentation_score": 0.2880190734457683
     },
     {
       "cluster_id": 15,
@@ -3411,7 +3389,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2963233170216232
+      "presentation_score": 0.2703720146222389
     },
     {
       "cluster_id": 29,
@@ -3447,7 +3425,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27573508172750555
+      "presentation_score": 0.24978377932812124
     },
     {
       "cluster_id": 26,
@@ -3483,7 +3461,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27573508172750555
+      "presentation_score": 0.24978377932812124
     },
     {
       "cluster_id": 24,
@@ -3519,10 +3497,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27573508172750555
+      "presentation_score": 0.24978377932812124
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0061",
@@ -3555,7 +3533,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.26102919937456437
+      "presentation_score": 0.23507789697518006
     },
     {
       "cluster_id": 52,
@@ -3591,7 +3569,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.26102919937456437
+      "presentation_score": 0.23507789697518006
     },
     {
       "cluster_id": 46,
@@ -3627,7 +3605,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.26102919937456437
+      "presentation_score": 0.23507789697518006
     },
     {
       "cluster_id": 44,
@@ -3663,7 +3641,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.26102919937456437
+      "presentation_score": 0.23507789697518006
     },
     {
       "cluster_id": 43,
@@ -3699,10 +3677,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.26102919937456437
+      "presentation_score": 0.23507789697518006
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0002",
@@ -3735,10 +3713,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0008",
@@ -3771,10 +3749,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0009",
@@ -3807,10 +3785,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0014",
@@ -3843,10 +3821,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0015",
@@ -3854,7 +3832,7 @@
       "representative_length": 78,
       "representative_excerpt": "I full support and in favor of adding additional mountain bike trails to MCNP.",
       "representative_signal_score": -1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -3879,10 +3857,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0019",
@@ -3915,10 +3893,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0020",
@@ -3951,10 +3929,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0023",
@@ -3987,10 +3965,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0024",
@@ -4023,10 +4001,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0028",
@@ -4034,7 +4012,7 @@
       "representative_length": 48,
       "representative_excerpt": "I am in favor of the additional bicycling paths.",
       "representative_signal_score": -1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -4059,10 +4037,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0040",
@@ -4095,10 +4073,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0042",
@@ -4131,10 +4109,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0043",
@@ -4167,10 +4145,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0047",
@@ -4203,10 +4181,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0001-0052",
@@ -4239,7 +4217,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.23213672050459183
     }
   ],
   "comments_clusters_path": "data/comments/NPS-2026-0001.csv",
@@ -4247,15 +4225,15 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.23478260869565218,
-  "comments_first_page_coverage_count": 27,
-  "comments_clusters_total_available": 113,
-  "comments_clusters_displayed": 113,
-  "comments_first_page_high_signal_clusters": 5,
-  "comments_first_page_novelty_clusters": 8,
+  "comments_first_page_coverage_share": 0.24347826086956523,
+  "comments_first_page_coverage_count": 28,
+  "comments_clusters_total_available": 112,
+  "comments_clusters_displayed": 112,
+  "comments_first_page_high_signal_clusters": 4,
+  "comments_first_page_novelty_clusters": 7,
   "comments_first_page_stance_counts": {
-    "neutral": 12,
-    "positive": 7,
+    "positive": 6,
+    "neutral": 13,
     "negative": 6
   },
   "comments_first_page_unique_days": 12,

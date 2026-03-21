@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-21T15:25:37.722048+00:00",
+  "comment_action_checked_at": "2026-03-21T22:07:51.653103+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -2934,32 +2934,33 @@
   "comments_total": 41,
   "comments_velocity_total": 40,
   "comments_public_total_estimate": 40,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 35,
-  "comments_unique_clusters": 29,
+  "comments_fetched": 6,
+  "comments_text_hydrated": 6,
+  "comments_cached_records": 41,
+  "comments_unique_clusters": 35,
   "comments_clustered_duplicates": 4,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 35,
+  "comments_citizen_count": 41,
   "comments_commenter_type_counts": {
-    "citizen": 35
+    "citizen": 41
   },
   "comments_submission_role_counts": {
-    "individual": 32,
+    "individual": 38,
     "organization": 2,
     "government_unknown": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 34,
+    "public_portal": 40,
     "agency_material": 1
   },
-  "comments_public_count": 34,
+  "comments_public_count": 40,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-03-20": 6,
     "2026-03-17": 7,
     "2026-03-16": 7,
     "2026-03-13": 5,
@@ -2975,19 +2976,19 @@
     "2026-03-17": 1,
     "2026-03-11": 1
   },
-  "comments_novel_comment_rate": 0.8857142857142857,
-  "comments_sentiment_positive_pct": 0.03380095546768478,
-  "comments_sentiment_negative_pct": 0.39158280158167397,
-  "comments_sentiment_neutral_pct": 0.5746162429506413,
-  "comments_sentiment_net": -0.35778184611398917,
-  "comments_sentiment_sample_size": 32,
+  "comments_novel_comment_rate": 0.9024390243902439,
+  "comments_sentiment_positive_pct": 0.028101757869766878,
+  "comments_sentiment_negative_pct": 0.4098630847348956,
+  "comments_sentiment_neutral_pct": 0.5620351573953376,
+  "comments_sentiment_net": -0.3817613268651287,
+  "comments_sentiment_sample_size": 38,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 33,
+  "comments_analysis_sample_size": 39,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 33,
-  "comments_representative_prior_selected": 33,
+  "comments_representative_selected": 39,
+  "comments_representative_prior_selected": 39,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 4,
   "comments_representative_run_budget": 2,
@@ -2997,19 +2998,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 4,
     "salience_rank": 2,
-    "weighted_fill": 27
+    "weighted_fill": 33
   },
-  "comments_representative_selected_by_counts_total": 33,
+  "comments_representative_selected_by_counts_total": 39,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-21T04:05:07.264045+00:00",
-  "comments_checked_at": "2026-03-21T04:05:07.438294+00:00",
-  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-03-21T22:02:40.229362+00:00",
+  "comments_checked_at": "2026-03-21T22:02:41.395807+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 3,
+      "cluster_id": 9,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0110",
@@ -3102,10 +3103,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8395276566378117
+      "presentation_score": 0.8258912930014481
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0090",
@@ -3138,10 +3139,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8078637717315705
+      "presentation_score": 0.7985336281909007
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0078",
@@ -3174,10 +3175,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.611372543661395
+      "presentation_score": 0.6106548403121127
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0091",
@@ -3210,10 +3211,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6850567541877108
+      "presentation_score": 0.6742912039484764
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0104",
@@ -3246,10 +3247,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7008462278719214
+      "presentation_score": 0.68792756758484
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0081",
@@ -3282,10 +3283,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4990918419070091
+      "presentation_score": 0.4955033251605976
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0082",
@@ -3318,10 +3319,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5096181576964828
+      "presentation_score": 0.5045942342515067
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0093",
@@ -3354,10 +3355,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5517234208543775
+      "presentation_score": 0.5409578706151431
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0113",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 271,
+      "representative_excerpt": "I urge the EPA to not rescind major parts of the 2024 \"Safer Communities by Chemical Accident Prevention\" rule. The new proposal would put American communities at risk by removing requirements for facilities to evaluate natural hazards and limit public data transparency.",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-0313-0113": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Holly Swiglo",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5727760524333249
     },
     {
       "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0114",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 1504,
+      "representative_excerpt": "The \u201cCommon Sense Approach to Chemical Accident Prevention\u201d would roll back nearly all of the protections created by the 2024 Safer Communities Rule. I live in southwestern Pennsylvania, an area rife with chemical plants and fossil fuel infrastructure. I also live about a quarter mile from a railroad where both chemicals and fossil fuels are routinely transp...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-0313-0114": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Stephanie Ulmer",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5727760524333249
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0115",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 1073,
+      "representative_excerpt": "please do not proceed with this ruling. It is a massive rollback of current requirements. Given that 1/3 of Americans are in a potential \"worst-case-area\" this would expose the public to unacceptable risk. As a daughter of a chemist I know from my father how easily significant accidents can be triggered. All aspects of threats from timely alerts of the publi...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-0313-0115": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Dorothea Leicher",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5727760524333249
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0117",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 1646,
+      "representative_excerpt": "This proposed rule would diminish EPA\u2019s ability to enforce safety standards, eliminating vital avenues for transparency and public participation in preventing and responding to chemical disasters. If this proposed rule were to be finalized, a variety of regulations would be stripped back. The requirement for backup power for chemical release monitoring equip...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-0313-0117": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Timothy Duncan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5727760524333249
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0108",
@@ -3390,10 +3535,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5727760524333249
+      "presentation_score": 0.5591396887969613
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0105",
@@ -3426,10 +3571,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5675128945385881
+      "presentation_score": 0.5545942342515067
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0116",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 138,
+      "representative_excerpt": "Removing the requirement for facilities to be able to identify and properly respond to a release puts both workers and the public at risk.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-0313-0116": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Thaddeus Bahl",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43944271909999155
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0118",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 412,
+      "representative_excerpt": "We need strong regulations and protections from disasters that have caused harm, illness and undue hardship. The dangers caused from CHEMICAL SPILLS and CHEMICAL DISASTERS can be avoided with STRONG regulations and OVERSIGHT! This current Common Sense Approach is neither strong or wise and it must not be implemented. PLEASE CONSIDER THE PEOPLE and THE SAFETY...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-0313-0118": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Joanne Luongo",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43944271909999155
+    },
+    {
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0106",
@@ -3462,10 +3679,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43944271909999155
+      "presentation_score": 0.42580635546362794
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0107",
@@ -3498,10 +3715,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43944271909999155
+      "presentation_score": 0.42580635546362794
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0109",
@@ -3534,10 +3751,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43944271909999155
+      "presentation_score": 0.42580635546362794
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0111",
@@ -3570,10 +3787,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43944271909999155
+      "presentation_score": 0.42580635546362794
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0112",
@@ -3606,10 +3823,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43944271909999155
+      "presentation_score": 0.42580635546362794
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0098",
@@ -3642,10 +3859,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43417956120525475
+      "presentation_score": 0.42126090091817336
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0092",
@@ -3678,10 +3895,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41839008752104423
+      "presentation_score": 0.40762453728180975
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0094",
@@ -3714,10 +3931,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41839008752104423
+      "presentation_score": 0.40762453728180975
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0095",
@@ -3750,10 +3967,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41839008752104423
+      "presentation_score": 0.40762453728180975
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0085",
@@ -3786,10 +4003,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4078637717315705
+      "presentation_score": 0.39853362819090066
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0086",
@@ -3822,10 +4039,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4078637717315705
+      "presentation_score": 0.39853362819090066
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0084",
@@ -3858,10 +4075,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40260061383683365
+      "presentation_score": 0.39398817364544614
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0083",
@@ -3894,10 +4111,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38154798225788633
+      "presentation_score": 0.37580635546362795
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0080",
@@ -3930,10 +4147,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3657585085736758
+      "presentation_score": 0.3621699918272643
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0076",
@@ -3969,7 +4186,7 @@
       "presentation_score": 0.3394427190999916
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0099",
@@ -4002,10 +4219,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.30084622787192145
+      "presentation_score": 0.28792756758484006
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0100",
@@ -4038,10 +4255,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.30084622787192145
+      "presentation_score": 0.28792756758484006
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0101",
@@ -4074,10 +4291,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.30084622787192145
+      "presentation_score": 0.28792756758484006
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-0313-0103",
@@ -4110,7 +4327,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.30084622787192145
+      "presentation_score": 0.28792756758484006
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2025-0313.csv",
@@ -4129,24 +4346,24 @@
       "withdrawn": false,
       "representative_excerpt": "The EPA\u2019s proposal to weaken the 2024 Chemical Safety Rule would roll back critical safeguards that protect workers and communities. By eliminating safer technology reviews, removing independent post-accident audits, weakening worker protections, and scaling back transparency requirements, the agency is reducing accountability for more than 11,000 chemical f...",
       "source_cluster_ids": [
-        25
+        31
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8787878787878788,
+  "comments_first_page_coverage_share": 0.7435897435897436,
   "comments_first_page_coverage_count": 29,
-  "comments_clusters_total_available": 29,
-  "comments_clusters_displayed": 29,
+  "comments_clusters_total_available": 35,
+  "comments_clusters_displayed": 35,
   "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 9,
-    "neutral": 15,
+    "negative": 12,
+    "neutral": 12,
     "positive": 1
   },
-  "comments_first_page_unique_days": 10,
+  "comments_first_page_unique_days": 8,
   "summary_available": true,
   "raw_summary_available": true
 }

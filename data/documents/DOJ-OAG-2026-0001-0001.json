@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-21T15:25:37.218089+00:00",
+  "comment_action_checked_at": "2026-03-21T22:07:50.847825+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -60,13 +60,13 @@
   "comments_total": 35424,
   "comments_velocity_total": 35132,
   "comments_public_total_estimate": 35132,
-  "comments_fetched": 1200,
+  "comments_fetched": 4727,
   "comments_text_hydrated": 1200,
   "comments_cached_records": 4727,
   "comments_unique_clusters": 1142,
-  "comments_clustered_duplicates": 2272,
+  "comments_clustered_duplicates": 2322,
   "comments_truncated": true,
-  "comments_source": "bulk_csv",
+  "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 4678,
   "comments_commenter_type_counts": {
@@ -111,18 +111,18 @@
     "2026-03-06": 2
   },
   "comments_novel_comment_rate": 0.436429024751428,
-  "comments_sentiment_positive_pct": 0.008643514004786369,
-  "comments_sentiment_negative_pct": 0.6344444002834242,
-  "comments_sentiment_neutral_pct": 0.35691208571178945,
-  "comments_sentiment_net": -0.6258008862786378,
-  "comments_sentiment_sample_size": 3331,
+  "comments_sentiment_positive_pct": 0.007545726510059893,
+  "comments_sentiment_negative_pct": 0.6446104961555758,
+  "comments_sentiment_neutral_pct": 0.34784377733436433,
+  "comments_sentiment_net": -0.6370647696455158,
+  "comments_sentiment_sample_size": 3381,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 3414,
+  "comments_analysis_sample_size": 3464,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 3414,
-  "comments_representative_prior_selected": 3404,
+  "comments_representative_selected": 3464,
+  "comments_representative_prior_selected": 3454,
   "comments_representative_newly_selected": 10,
   "comments_representative_must_keep": 445,
   "comments_representative_run_budget": 10,
@@ -132,20 +132,20 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 445,
     "salience_rank": 4,
-    "weighted_fill": 2965
+    "weighted_fill": 3015
   },
-  "comments_representative_selected_by_counts_total": 3414,
+  "comments_representative_selected_by_counts_total": 3464,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-19T04:00Z",
-  "comments_api_last_seen_at": "2026-03-21T04:00:19.558323+00:00",
-  "comments_checked_at": "2026-03-21T14:28:00.920330+00:00",
-  "comments_error": "offline_used_bulk_csv; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-03-21T22:03:04.087619+00:00",
+  "comments_checked_at": "2026-03-21T22:03:24.116527+00:00",
+  "comments_error": "used_bulk_csv",
   "comments_clusters": [
     {
       "cluster_id": 38,
-      "count": 938,
+      "count": 987,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-35233",
       "representative_posted_date": "2026-03-19T04:00:00Z",
@@ -159,6 +159,21 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
+        "DOJ-OAG-2026-0001-0013": {
+          "organization": "",
+          "postedDate": "2026-03-05T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "DOJ-OAG-2026-0001-0020": {
           "organization": "",
           "postedDate": "2026-03-05T05:00Z",
@@ -218,26 +233,11 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-0141": {
-          "organization": "",
-          "postedDate": "2026-03-05T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.336523994073967
+      "presentation_score": 0.33625456839562096
     },
     {
       "cluster_id": 48,
@@ -333,7 +333,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2372320455221491
+      "presentation_score": 0.23498117857998144
     },
     {
       "cluster_id": 231,
@@ -429,7 +429,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.1965597835206397
+      "presentation_score": 0.19525679324974926
     },
     {
       "cluster_id": 57,
@@ -525,7 +525,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2100578311038333
+      "presentation_score": 0.20887404681957875
     },
     {
       "cluster_id": 14,
@@ -621,7 +621,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.20866989872148317
+      "presentation_score": 0.20778586283074602
     },
     {
       "cluster_id": 162,
@@ -717,7 +717,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.20169076883764298
+      "presentation_score": 0.20086996211918756
     },
     {
       "cluster_id": 315,
@@ -813,7 +813,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.18728482481914321
+      "presentation_score": 0.18651483986554077
     },
     {
       "cluster_id": 60,
@@ -909,7 +909,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.21036174789606632
+      "presentation_score": 0.20959176294246384
     },
     {
       "cluster_id": 201,
@@ -945,7 +945,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7911456160998681
+      "presentation_score": 0.790981454756177
     },
     {
       "cluster_id": 313,
@@ -981,7 +981,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7834533084075603
+      "presentation_score": 0.7832891470638692
     },
     {
       "cluster_id": 32,
@@ -1032,7 +1032,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7067949485875017
+      "presentation_score": 0.7065627893888363
     },
     {
       "cluster_id": 124,
@@ -1083,7 +1083,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.699102640895194
+      "presentation_score": 0.6988704816965287
     },
     {
       "cluster_id": 71,
@@ -1134,7 +1134,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6567949485875016
+      "presentation_score": 0.6565627893888363
     },
     {
       "cluster_id": 1108,
@@ -1170,7 +1170,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6565302314844834
+      "presentation_score": 0.6563660701407923
     },
     {
       "cluster_id": 187,
@@ -1206,7 +1206,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6311456160998681
+      "presentation_score": 0.630981454756177
     },
     {
       "cluster_id": 458,
@@ -1242,7 +1242,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6303763853306373
+      "presentation_score": 0.6302122239869462
     },
     {
       "cluster_id": 1012,
@@ -1293,7 +1293,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6298718716644248
+      "presentation_score": 0.6296397124657594
     },
     {
       "cluster_id": 7,
@@ -1344,58 +1344,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6267949485875016
-    },
-    {
-      "cluster_id": 29,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-35280",
-      "representative_posted_date": "2026-03-19T04:00:00Z",
-      "representative_length": 614,
-      "representative_excerpt": "This proposed rule is an attempt to obstruct justice. Furthermore, it removes the method of accountability and prevents people from being heard. Only our current corrupt government would proposed such a rule. If they truly were seeking something honest they would have 20 days to look at it before it is referred to the state body. In no way should this be an ...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-35280": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-34727": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4967949485875016
+      "presentation_score": 0.6265627893888362
     },
     {
       "cluster_id": 134,
@@ -1446,7 +1395,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.619102640895194
+      "presentation_score": 0.6188704816965286
     },
     {
       "cluster_id": 236,
@@ -1497,7 +1446,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6114103332028863
+      "presentation_score": 0.6111781740042209
     },
     {
       "cluster_id": 186,
@@ -1548,7 +1497,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6114103332028863
+      "presentation_score": 0.6111781740042209
     },
     {
       "cluster_id": 574,
@@ -1584,7 +1533,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6003763853306373
+      "presentation_score": 0.6002122239869462
     },
     {
       "cluster_id": 617,
@@ -1620,7 +1569,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5926840776383295
+      "presentation_score": 0.5925199162946385
     },
     {
       "cluster_id": 106,
@@ -1686,7 +1635,43 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5816475728274316
+      "presentation_score": 0.5813632370395199
+    },
+    {
+      "cluster_id": 803,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-17515",
+      "representative_posted_date": "2026-03-11T04:00Z",
+      "representative_length": 1159,
+      "representative_excerpt": "As a retired member of both the District of Columbia and State of Wisconsin bar associations--with over 30 years of trial practice--I protest the proposed DOJ rule interference with state bar oversight over ethical complaints and subsequent investigations for alleged ethical violations by government lawyers. Talk about the fox guarding the henhouse! This cur...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-17515": {
+          "organization": "",
+          "postedDate": "2026-03-11T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3748276086023308
     },
     {
       "cluster_id": 765,
@@ -1722,7 +1707,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6149917699460219
+      "presentation_score": 0.6148276086023308
     },
     {
       "cluster_id": 533,
@@ -1773,7 +1758,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6106411024336555
+      "presentation_score": 0.6104089432349902
     },
     {
       "cluster_id": 101,
@@ -1809,7 +1794,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5965302314844834
+      "presentation_score": 0.5963660701407923
     },
     {
       "cluster_id": 30,
@@ -1845,7 +1830,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5965302314844834
+      "presentation_score": 0.5963660701407923
     },
     {
       "cluster_id": 210,
@@ -1881,7 +1866,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.581145616099868
+      "presentation_score": 0.5809814547561769
     },
     {
       "cluster_id": 354,
@@ -1917,7 +1902,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5734533084075604
+      "presentation_score": 0.5732891470638692
     },
     {
       "cluster_id": 972,
@@ -1953,7 +1938,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5696071545614065
+      "presentation_score": 0.5694429932177154
     },
     {
       "cluster_id": 9,
@@ -1989,7 +1974,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5665302314844834
+      "presentation_score": 0.5663660701407924
     },
     {
       "cluster_id": 142,
@@ -2025,7 +2010,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5588379237921758
+      "presentation_score": 0.5586737624484848
     },
     {
       "cluster_id": 136,
@@ -2061,7 +2046,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5588379237921758
+      "presentation_score": 0.5586737624484848
     },
     {
       "cluster_id": 135,
@@ -2097,7 +2082,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5588379237921758
+      "presentation_score": 0.5586737624484848
     },
     {
       "cluster_id": 130,
@@ -2133,7 +2118,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5588379237921758
+      "presentation_score": 0.5586737624484848
     },
     {
       "cluster_id": 118,
@@ -2169,7 +2154,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5588379237921758
+      "presentation_score": 0.5586737624484848
     },
     {
       "cluster_id": 358,
@@ -2220,7 +2205,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5537180255105785
+      "presentation_score": 0.5534858663119131
     },
     {
       "cluster_id": 193,
@@ -2256,7 +2241,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5511456160998681
+      "presentation_score": 0.550981454756177
     },
     {
       "cluster_id": 192,
@@ -2292,7 +2277,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5511456160998681
+      "presentation_score": 0.550981454756177
     },
     {
       "cluster_id": 579,
@@ -2328,7 +2313,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5503763853306373
+      "presentation_score": 0.5502122239869461
     },
     {
       "cluster_id": 563,
@@ -2364,7 +2349,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5503763853306373
+      "presentation_score": 0.5502122239869461
     },
     {
       "cluster_id": 451,
@@ -2400,7 +2385,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5503763853306373
+      "presentation_score": 0.5502122239869461
     },
     {
       "cluster_id": 400,
@@ -2436,7 +2421,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5503763853306373
+      "presentation_score": 0.5502122239869461
     },
     {
       "cluster_id": 5,
@@ -2487,7 +2472,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5467949485875017
+      "presentation_score": 0.5465627893888363
     },
     {
       "cluster_id": 1129,
@@ -2523,7 +2508,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5465302314844834
+      "presentation_score": 0.5463660701407923
     },
     {
       "cluster_id": 318,
@@ -2559,7 +2544,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5434533084075603
+      "presentation_score": 0.5432891470638693
     },
     {
       "cluster_id": 292,
@@ -2595,7 +2580,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5434533084075603
+      "presentation_score": 0.5432891470638693
     },
     {
       "cluster_id": 290,
@@ -2631,7 +2616,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5434533084075603
+      "presentation_score": 0.5432891470638693
     },
     {
       "cluster_id": 278,
@@ -2667,7 +2652,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5434533084075603
+      "presentation_score": 0.5432891470638693
     },
     {
       "cluster_id": 140,
@@ -2718,7 +2703,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.539102640895194
+      "presentation_score": 0.5388704816965286
     },
     {
       "cluster_id": 831,
@@ -2754,7 +2739,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5349917699460218
+      "presentation_score": 0.5348276086023308
     },
     {
       "cluster_id": 540,
@@ -2805,7 +2790,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5306411024336555
+      "presentation_score": 0.5304089432349901
     },
     {
       "cluster_id": 919,
@@ -2841,7 +2826,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5272994622537142
+      "presentation_score": 0.527135300910023
     },
     {
       "cluster_id": 860,
@@ -2852,7 +2837,7 @@
       "representative_length": 2650,
       "representative_excerpt": "OAG 199) are profound, affecting the balance of power between the federal government and the states, as well as the fundamental ethics of the legal profession. If finalized, the rule would fundamentally change how 115,000+ DOJ employees are held accountable. Here is a summary of the core implications: 1. The End of Independent Oversight Currently, every lawy...",
       "representative_signal_score": 3,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -2877,7 +2862,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5272994622537142
+      "presentation_score": 0.527135300910023
     },
     {
       "cluster_id": 388,
@@ -2928,7 +2913,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5237180255105786
+      "presentation_score": 0.5234858663119132
     },
     {
       "cluster_id": 639,
@@ -2979,7 +2964,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5229487947413478
+      "presentation_score": 0.5227166355426824
     },
     {
       "cluster_id": 480,
@@ -3015,7 +3000,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5203763853306373
+      "presentation_score": 0.5202122239869462
     },
     {
       "cluster_id": 442,
@@ -3051,7 +3036,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5203763853306373
+      "presentation_score": 0.5202122239869462
     },
     {
       "cluster_id": 46,
@@ -3087,7 +3072,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5165302314844834
+      "presentation_score": 0.5163660701407924
     },
     {
       "cluster_id": 41,
@@ -3123,7 +3108,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5165302314844834
+      "presentation_score": 0.5163660701407924
     },
     {
       "cluster_id": 721,
@@ -3159,7 +3144,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5126840776383296
+      "presentation_score": 0.5125199162946386
     },
     {
       "cluster_id": 253,
@@ -3195,7 +3180,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5011456160998681
+      "presentation_score": 0.500981454756177
     },
     {
       "cluster_id": 248,
@@ -3231,7 +3216,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5011456160998681
+      "presentation_score": 0.500981454756177
     },
     {
       "cluster_id": 245,
@@ -3267,7 +3252,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5011456160998681
+      "presentation_score": 0.500981454756177
     },
     {
       "cluster_id": 580,
@@ -3318,7 +3303,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5006411024336556
+      "presentation_score": 0.5004089432349902
     },
     {
       "cluster_id": 443,
@@ -3369,7 +3354,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5006411024336556
+      "presentation_score": 0.5004089432349902
     },
     {
       "cluster_id": 429,
@@ -3420,7 +3405,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5006411024336556
+      "presentation_score": 0.5004089432349902
     },
     {
       "cluster_id": 402,
@@ -3471,7 +3456,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5006411024336556
+      "presentation_score": 0.5004089432349902
     },
     {
       "cluster_id": 923,
@@ -3507,7 +3492,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4972994622537142
+      "presentation_score": 0.4971353009100231
     },
     {
       "cluster_id": 82,
@@ -3558,7 +3543,58 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4967949485875016
+      "presentation_score": 0.49656278938883625
+    },
+    {
+      "cluster_id": 29,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-35280",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 614,
+      "representative_excerpt": "This proposed rule is an attempt to obstruct justice. Furthermore, it removes the method of accountability and prevents people from being heard. Only our current corrupt government would proposed such a rule. If they truly were seeking something honest they would have 20 days to look at it before it is referred to the state body. In no way should this be an ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-35280": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-34727": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49656278938883625
     },
     {
       "cluster_id": 179,
@@ -3624,7 +3660,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49395526513512394
+      "presentation_score": 0.4936709293472122
     },
     {
       "cluster_id": 312,
@@ -3660,7 +3696,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49345330840756035
+      "presentation_score": 0.4932891470638693
     },
     {
       "cluster_id": 357,
@@ -3696,7 +3732,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49345330840756035
+      "presentation_score": 0.4932891470638693
     },
     {
       "cluster_id": 335,
@@ -3732,7 +3768,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49345330840756035
+      "presentation_score": 0.4932891470638693
     },
     {
       "cluster_id": 321,
@@ -3768,7 +3804,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49345330840756035
+      "presentation_score": 0.4932891470638693
     },
     {
       "cluster_id": 1025,
@@ -3804,7 +3840,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48960715456140647
+      "presentation_score": 0.4894429932177154
     },
     {
       "cluster_id": 1021,
@@ -3840,7 +3876,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48960715456140647
+      "presentation_score": 0.4894429932177154
     },
     {
       "cluster_id": 986,
@@ -3876,7 +3912,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48960715456140647
+      "presentation_score": 0.4894429932177154
     },
     {
       "cluster_id": 786,
@@ -3927,7 +3963,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48525648704904006
+      "presentation_score": 0.4850243278503747
     },
     {
       "cluster_id": 228,
@@ -3978,7 +4014,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4814103332028863
+      "presentation_score": 0.4811781740042209
     },
     {
       "cluster_id": 875,
@@ -3989,7 +4025,7 @@
       "representative_length": 4536,
       "representative_excerpt": "Pam Bondi\u2019s proposed rule is not merely corrupt policy. It is legally rotten. If this rule is read the way DOJ plainly wants it read \u2014 as a mechanism to force state bar authorities to halt or delay their own disciplinary investigations while the Department reviews itself first \u2014 then it collides with bedrock constitutional limits on federal power. The Suprem...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -4029,7 +4065,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4775641793567324
+      "presentation_score": 0.477332020158067
     },
     {
       "cluster_id": 306,
@@ -4080,7 +4116,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47371802551057857
+      "presentation_score": 0.4734858663119132
     },
     {
       "cluster_id": 199,
@@ -4116,7 +4152,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471145616099868
+      "presentation_score": 0.470981454756177
     },
     {
       "cluster_id": 185,
@@ -4152,7 +4188,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471145616099868
+      "presentation_score": 0.470981454756177
     },
     {
       "cluster_id": 582,
@@ -4188,7 +4224,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 560,
@@ -4224,7 +4260,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 550,
@@ -4260,7 +4296,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 535,
@@ -4296,7 +4332,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 532,
@@ -4332,7 +4368,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 531,
@@ -4368,7 +4404,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 511,
@@ -4379,7 +4415,7 @@
       "representative_length": 2342,
       "representative_excerpt": "This proposed regulation is in direct conflict with the McDade Amendment (28 U.S.C. \u00a7 530B) which explicitly requires federal government attorneys to comply with the same state laws and professional conduct rules as all other attorneys in that state. The DOJ has no authority to exempt its lawyers from the enforcement of these rules. The licensing and regulat...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -4404,7 +4440,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 453,
@@ -4440,7 +4476,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 428,
@@ -4476,7 +4512,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 424,
@@ -4512,7 +4548,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4703763853306373
+      "presentation_score": 0.4702122239869462
     },
     {
       "cluster_id": 282,
@@ -4548,7 +4584,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4634533084075603
+      "presentation_score": 0.46328914706386926
     },
     {
       "cluster_id": 726,
@@ -4584,7 +4620,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 715,
@@ -4620,7 +4656,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 691,
@@ -4656,7 +4692,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 686,
@@ -4692,7 +4728,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 682,
@@ -4728,7 +4764,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 671,
@@ -4764,7 +4800,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 663,
@@ -4800,7 +4836,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 627,
@@ -4836,7 +4872,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4626840776383296
+      "presentation_score": 0.4625199162946385
     },
     {
       "cluster_id": 122,
@@ -4887,7 +4923,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4591026408951939
+      "presentation_score": 0.45887048169652855
     },
     {
       "cluster_id": 566,
@@ -4953,7 +4989,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4554937266735855
+      "presentation_score": 0.45520939088567375
     },
     {
       "cluster_id": 848,
@@ -4989,7 +5025,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45499176994602186
+      "presentation_score": 0.45482760860233085
     },
     {
       "cluster_id": 808,
@@ -5025,7 +5061,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45499176994602186
+      "presentation_score": 0.45482760860233085
     },
     {
       "cluster_id": 796,
@@ -5061,7 +5097,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45499176994602186
+      "presentation_score": 0.45482760860233085
     },
     {
       "cluster_id": 779,
@@ -5097,7 +5133,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45499176994602186
+      "presentation_score": 0.45482760860233085
     },
     {
       "cluster_id": 734,
@@ -5133,7 +5169,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45499176994602186
+      "presentation_score": 0.45482760860233085
     },
     {
       "cluster_id": 732,
@@ -5169,7 +5205,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45499176994602186
+      "presentation_score": 0.45482760860233085
     },
     {
       "cluster_id": 78,
@@ -5235,7 +5271,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4516475728274316
+      "presentation_score": 0.45136323703951986
     },
     {
       "cluster_id": 398,
@@ -5286,7 +5322,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4506411024336555
+      "presentation_score": 0.45040894323499014
     },
     {
       "cluster_id": 954,
@@ -5322,7 +5358,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4472994622537142
+      "presentation_score": 0.4471353009100231
     },
     {
       "cluster_id": 926,
@@ -5358,7 +5394,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4472994622537142
+      "presentation_score": 0.4471353009100231
     },
     {
       "cluster_id": 920,
@@ -5394,7 +5430,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4472994622537142
+      "presentation_score": 0.4471353009100231
     },
     {
       "cluster_id": 913,
@@ -5430,7 +5466,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4472994622537142
+      "presentation_score": 0.4471353009100231
     },
     {
       "cluster_id": 891,
@@ -5466,7 +5502,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4472994622537142
+      "presentation_score": 0.4471353009100231
     },
     {
       "cluster_id": 881,
@@ -5502,7 +5538,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4472994622537142
+      "presentation_score": 0.4471353009100231
     },
     {
       "cluster_id": 877,
@@ -5538,7 +5574,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4472994622537142
+      "presentation_score": 0.4471353009100231
     },
     {
       "cluster_id": 280,
@@ -5589,7 +5625,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44371802551057854
+      "presentation_score": 0.44348586631191317
     },
     {
       "cluster_id": 710,
@@ -5640,7 +5676,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4429487947413478
+      "presentation_score": 0.4427166355426824
     },
     {
       "cluster_id": 649,
@@ -5691,7 +5727,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4429487947413478
+      "presentation_score": 0.4427166355426824
     },
     {
       "cluster_id": 593,
@@ -5727,7 +5763,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4403763853306372
+      "presentation_score": 0.4402122239869462
     },
     {
       "cluster_id": 527,
@@ -5763,7 +5799,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4403763853306372
+      "presentation_score": 0.4402122239869462
     },
     {
       "cluster_id": 417,
@@ -5799,7 +5835,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4403763853306372
+      "presentation_score": 0.4402122239869462
     },
     {
       "cluster_id": 415,
@@ -5835,7 +5871,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4403763853306372
+      "presentation_score": 0.4402122239869462
     },
     {
       "cluster_id": 403,
@@ -5871,7 +5907,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4403763853306372
+      "presentation_score": 0.4402122239869462
     },
     {
       "cluster_id": 1061,
@@ -5907,7 +5943,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4396071545614065
+      "presentation_score": 0.4394429932177154
     },
     {
       "cluster_id": 1054,
@@ -5943,7 +5979,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4396071545614065
+      "presentation_score": 0.4394429932177154
     },
     {
       "cluster_id": 1052,
@@ -5979,7 +6015,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4396071545614065
+      "presentation_score": 0.4394429932177154
     },
     {
       "cluster_id": 1036,
@@ -6015,7 +6051,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4396071545614065
+      "presentation_score": 0.4394429932177154
     },
     {
       "cluster_id": 996,
@@ -6026,7 +6062,7 @@
       "representative_length": 2190,
       "representative_excerpt": "I am a Vietnam veteran. When I was young, I took an oath to support and defend the Constitution of the United States. I didn't take that oath to a specific person or a specific political party; I took it to the idea that in this country, the law applies to everyone equally. From what I\u2019m reading, this new rule would let the DOJ tell State Bar Associations to...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -6051,7 +6087,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4396071545614065
+      "presentation_score": 0.4394429932177154
     },
     {
       "cluster_id": 987,
@@ -6087,7 +6123,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4396071545614065
+      "presentation_score": 0.4394429932177154
     },
     {
       "cluster_id": 109,
@@ -6123,7 +6159,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43653023148448344
+      "presentation_score": 0.4363660701407923
     },
     {
       "cluster_id": 74,
@@ -6159,7 +6195,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43653023148448344
+      "presentation_score": 0.4363660701407923
     },
     {
       "cluster_id": 65,
@@ -6195,7 +6231,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43653023148448344
+      "presentation_score": 0.4363660701407923
     },
     {
       "cluster_id": 51,
@@ -6231,7 +6267,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43653023148448344
+      "presentation_score": 0.4363660701407923
     },
     {
       "cluster_id": 800,
@@ -6282,7 +6318,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4352564870490401
+      "presentation_score": 0.4350243278503747
     },
     {
       "cluster_id": 698,
@@ -6318,7 +6354,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43268407763832956
+      "presentation_score": 0.4325199162946385
     },
     {
       "cluster_id": 404,
@@ -6399,7 +6435,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4322403504550237
+      "presentation_score": 0.4319120277676414
     },
     {
       "cluster_id": 183,
@@ -6435,7 +6471,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4288379237921757
+      "presentation_score": 0.42867376244848465
     },
     {
       "cluster_id": 157,
@@ -6471,7 +6507,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4288379237921757
+      "presentation_score": 0.42867376244848465
     },
     {
       "cluster_id": 115,
@@ -6537,7 +6573,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.42164757282743165
+      "presentation_score": 0.4213632370395199
     },
     {
       "cluster_id": 1,
@@ -6603,7 +6639,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.42164757282743165
+      "presentation_score": 0.4213632370395199
     },
     {
       "cluster_id": 274,
@@ -6639,7 +6675,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 258,
@@ -6675,7 +6711,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 257,
@@ -6711,7 +6747,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 237,
@@ -6747,7 +6783,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 234,
@@ -6783,7 +6819,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 232,
@@ -6819,7 +6855,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 226,
@@ -6855,7 +6891,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 221,
@@ -6891,7 +6927,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 215,
@@ -6927,7 +6963,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.421145616099868
+      "presentation_score": 0.420981454756177
     },
     {
       "cluster_id": 447,
@@ -6978,7 +7014,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42064110243365543
+      "presentation_score": 0.42040894323499006
     },
     {
       "cluster_id": 961,
@@ -7014,7 +7050,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41729946225371417
+      "presentation_score": 0.4171353009100231
     },
     {
       "cluster_id": 113,
@@ -7065,7 +7101,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41679494858750166
+      "presentation_score": 0.4165627893888363
     },
     {
       "cluster_id": 75,
@@ -7116,7 +7152,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41679494858750166
+      "presentation_score": 0.4165627893888363
     },
     {
       "cluster_id": 26,
@@ -7167,7 +7203,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41679494858750166
+      "presentation_score": 0.4165627893888363
     },
     {
       "cluster_id": 1122,
@@ -7203,7 +7239,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4165302314844834
+      "presentation_score": 0.41636607014079235
     },
     {
       "cluster_id": 1121,
@@ -7239,7 +7275,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4165302314844834
+      "presentation_score": 0.41636607014079235
     },
     {
       "cluster_id": 1110,
@@ -7275,7 +7311,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4165302314844834
+      "presentation_score": 0.41636607014079235
     },
     {
       "cluster_id": 1101,
@@ -7311,7 +7347,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4165302314844834
+      "presentation_score": 0.41636607014079235
     },
     {
       "cluster_id": 1099,
@@ -7347,7 +7383,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4165302314844834
+      "presentation_score": 0.41636607014079235
     },
     {
       "cluster_id": 1087,
@@ -7383,7 +7419,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4165302314844834
+      "presentation_score": 0.41636607014079235
     },
     {
       "cluster_id": 387,
@@ -7419,7 +7455,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 375,
@@ -7455,7 +7491,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 362,
@@ -7491,7 +7527,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 310,
@@ -7527,7 +7563,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 301,
@@ -7538,7 +7574,7 @@
       "representative_length": 1394,
       "representative_excerpt": "My experience and observations regarding her actions have been extremely disappointing and raise serious concerns about professionalism, accountability, and potential conflicts of interest. It is my belief that the behavior demonstrated reflects poor judgment and a failure to uphold the responsibilities expected of someone in such an important public office....",
       "representative_signal_score": 1,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -7563,7 +7599,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 300,
@@ -7599,7 +7635,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 348,
@@ -7635,7 +7671,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 338,
@@ -7671,7 +7707,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41345330840756034
+      "presentation_score": 0.41328914706386927
     },
     {
       "cluster_id": 610,
@@ -7722,7 +7758,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41294879474134777
+      "presentation_score": 0.4127166355426824
     },
     {
       "cluster_id": 175,
@@ -7773,7 +7809,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40910264089519394
+      "presentation_score": 0.40887048169652856
     },
     {
       "cluster_id": 165,
@@ -7824,7 +7860,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40910264089519394
+      "presentation_score": 0.40887048169652856
     },
     {
       "cluster_id": 156,
@@ -7875,7 +7911,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40910264089519394
+      "presentation_score": 0.40887048169652856
     },
     {
       "cluster_id": 152,
@@ -7926,7 +7962,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40910264089519394
+      "presentation_score": 0.40887048169652856
     },
     {
       "cluster_id": 11,
@@ -7962,7 +7998,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40653023148448336
+      "presentation_score": 0.40636607014079235
     },
     {
       "cluster_id": 10,
@@ -7998,7 +8034,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40653023148448336
+      "presentation_score": 0.40636607014079235
     },
     {
       "cluster_id": 8,
@@ -8034,7 +8070,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40653023148448336
+      "presentation_score": 0.40636607014079235
     },
     {
       "cluster_id": 6,
@@ -8070,7 +8106,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40653023148448336
+      "presentation_score": 0.40636607014079235
     },
     {
       "cluster_id": 4,
@@ -8106,7 +8142,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.40653023148448336
+      "presentation_score": 0.40636607014079235
     },
     {
       "cluster_id": 2,
@@ -8142,7 +8178,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.40653023148448336
+      "presentation_score": 0.40636607014079235
     },
     {
       "cluster_id": 432,
@@ -8208,7 +8244,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4054937266735855
+      "presentation_score": 0.40520939088567376
     },
     {
       "cluster_id": 264,
@@ -8259,7 +8295,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4014103332028862
+      "presentation_score": 0.40117817400422084
     },
     {
       "cluster_id": 151,
@@ -8295,7 +8331,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 149,
@@ -8331,7 +8367,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 148,
@@ -8367,7 +8403,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 146,
@@ -8403,7 +8439,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 145,
@@ -8439,7 +8475,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 144,
@@ -8475,7 +8511,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 143,
@@ -8511,7 +8547,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 139,
@@ -8547,7 +8583,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 138,
@@ -8583,7 +8619,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 137,
@@ -8619,7 +8655,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
+      "presentation_score": 0.3986737624484846
     },
     {
       "cluster_id": 133,
@@ -8655,43 +8691,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988379237921757
-    },
-    {
-      "cluster_id": 803,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-17515",
-      "representative_posted_date": "2026-03-11T04:00Z",
-      "representative_length": 1159,
-      "representative_excerpt": "As a retired member of both the District of Columbia and State of Wisconsin bar associations--with over 30 years of trial practice--I protest the proposed DOJ rule interference with state bar oversight over ethical complaints and subsequent investigations for alleged ethical violations by government lawyers. Talk about the fox guarding the henhouse! This cur...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-17515": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3749917699460219
+      "presentation_score": 0.3986737624484846
     }
   ],
   "comments_clusters_path": "data/comments/DOJ-OAG-2026-0001.csv",
@@ -8699,8 +8699,8 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8602894902454373,
-  "comments_first_page_coverage_count": 1367,
+  "comments_first_page_coverage_share": 0.8638583638583639,
+  "comments_first_page_coverage_count": 1415,
   "comments_clusters_total_available": 200,
   "comments_clusters_displayed": 200,
   "comments_first_page_high_signal_clusters": 16,
@@ -8710,7 +8710,7 @@
     "neutral": 2,
     "positive": 1
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true
 }
