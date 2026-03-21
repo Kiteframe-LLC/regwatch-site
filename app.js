@@ -1,3 +1,5 @@
+const DEFAULT_MIN_RELEVANCE = 0.65;
+
 async function loadData() {
   const res = await fetch("./data/rules.json", { cache: "no-store" });
   if (!res.ok) {
@@ -208,6 +210,7 @@ async function main() {
   const [data, overrides] = await Promise.all([loadData(), loadOverrides()]);
   window.__overrides = overrides || {};
   const records = data.records || [];
+  document.getElementById("minScore").value = String(DEFAULT_MIN_RELEVANCE);
   document.getElementById("meta").textContent =
     `Published ${records.length} records. Generated at ${data.generated_at || "unknown"}.`;
 
@@ -216,7 +219,7 @@ async function main() {
   document.getElementById("minScore").addEventListener("input", rerender);
   document.getElementById("resetBtn").addEventListener("click", () => {
     document.getElementById("agencyFilter").value = "";
-    document.getElementById("minScore").value = "0.5";
+    document.getElementById("minScore").value = String(DEFAULT_MIN_RELEVANCE);
     rerender();
   });
   rerender();

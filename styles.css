@@ -2,7 +2,7 @@
   --bg: #f7f6f2;
   --surface: #fff;
   --text: #161616;
-  --muted: #555;
+  --muted: #3f3f3f;
   --line: #d9d5cc;
   --accent: #1e4a36;
 }
@@ -136,9 +136,9 @@ a {
 }
 
 .comment-btn.disabled {
-  background: #f3f3f3;
-  color: #888;
-  border: 1px solid #ccc;
+  background: #ececec;
+  color: #575757;
+  border: 1px solid #a8a8a8;
   pointer-events: none;
 }
 
@@ -159,9 +159,9 @@ a {
 }
 
 .action-btn.disabled {
-  color: #888;
-  border-color: #ccc;
-  background: #f3f3f3;
+  color: #575757;
+  border-color: #a8a8a8;
+  background: #ececec;
   pointer-events: none;
 }
 
@@ -289,7 +289,10 @@ td.actions {
 
 .tab-btn.is-disabled,
 .tab-btn:disabled {
-  opacity: 0.55;
+  opacity: 1;
+  color: #666;
+  background: #f1efe8;
+  border-color: #b8b2a5;
   cursor: default;
 }
 
@@ -416,6 +419,14 @@ td.actions {
 .summary-page #analysisRoot {
   max-width: 920px;
   margin: 0 auto;
+}
+
+#meta {
+  min-height: 1.4rem;
+}
+
+#rulesSection {
+  min-height: 68vh;
 }
 
 @media (max-width: 900px) {
