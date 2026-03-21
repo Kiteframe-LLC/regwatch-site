@@ -13,6 +13,13 @@ function tabFromHash() {
   return TAB_NAMES.has(raw) ? raw : "";
 }
 
+function defaultTabFromPath() {
+  const parts = window.location.pathname.split("/").filter(Boolean);
+  const routeTab = String(parts[2] || "").toLowerCase();
+  if (TAB_NAMES.has(routeTab)) return routeTab;
+  return "overview";
+}
+
 async function loadOverrides() {
   const res = await fetch("/data/overrides.json", { cache: "no-store" });
   if (!res.ok) return {};
@@ -121,25 +128,6 @@ function govSubmissionRow(sub) {
     <td>${withdrawn ? "Yes" : "No"}</td>
     <td>${title || excerpt}</td>
   </tr>`;
-}
-
-function commentClusterRow(cluster) {
-  if (window.RegwatchComments && typeof window.RegwatchComments.commentClusterRow === "function") {
-    return window.RegwatchComments.commentClusterRow(cluster, esc, formatDateOnly);
-  }
-  const count = Number(cluster.count || 0);
-  const cid = esc(cluster.representative_comment_id || "");
-  const posted = esc(formatDateOnly(cluster.representative_posted_date || ""));
-  const chars = Number(cluster.representative_length || 0);
-  const excerpt = esc(cluster.representative_excerpt || "");
-  return `<tr><td>${count}</td><td><span class="review-pill sentiment-neutral">neutral</span></td><td><span class="review-pill">Unknown</span></td><td>${cid ? `<a href="https://www.regulations.gov/comment/${encodeURIComponent(cluster.representative_comment_id || "")}" target="_blank" rel="noopener noreferrer">${cid}</a>` : ""}</td><td>${posted}</td><td>${chars}</td><td>${excerpt}</td></tr>`;
-}
-
-function samplingBackfillHtml(detail) {
-  if (window.RegwatchComments && typeof window.RegwatchComments.samplingBackfillHtml === "function") {
-    return window.RegwatchComments.samplingBackfillHtml(detail, esc, formatMetricNumber);
-  }
-  return "";
 }
 
 function formatDateOnly(raw) {
@@ -548,7 +536,7 @@ function detailHtml(d, summaryMd, analysisMd) {
   `;
 }
 
-function initTabs() {
+function initTabs(defaultTab = "overview") {
   const buttons = Array.from(document.querySelectorAll(".tab-list .tab-btn[data-tab]"));
   const panels = Array.from(document.querySelectorAll(".tab-panel"));
   if (!buttons.length || !panels.length) return;
@@ -581,13 +569,27 @@ function initTabs() {
     });
   }
   window.addEventListener("hashchange", activateFromHash);
-  activateFromHash();
+  if (tabFromHash()) {
+    activateFromHash();
+    return;
+  }
+  const btn = buttons.find((b) => b.dataset.tab === defaultTab);
+  if (btn && !btn.disabled) {
+    applyTab(defaultTab);
+  } else {
+    applyTab("overview");
+  }
 }
 
 async function main() {
   const parts = window.location.pathname.split("/").filter(Boolean);
   const docId = parts.length >= 2 && parts[0] === "document" ? parts[1] : "";
-  const root = document.getElementById("detailRoot");
+  const root =
+    document.getElementById("detailRoot") ||
+    document.getElementById("summaryRoot") ||
+    document.getElementById("analysisRoot") ||
+    document.querySelector("main");
+  if (!root) return;
   if (!docId) {
     root.innerHTML = "<p>Missing document id in URL.</p>";
     return;
@@ -613,7 +615,9 @@ async function main() {
   const summaryMd = summaryRes && summaryRes.ok ? await summaryRes.text() : "";
   const analysisMd = analysisRes && analysisRes.ok ? await analysisRes.text() : "";
   root.innerHTML = detailHtml(data, summaryMd, analysisMd);
-  initTabs();
+  const bodyTab = String(document.body?.dataset?.defaultTab || "").toLowerCase();
+  const defaultTab = TAB_NAMES.has(bodyTab) ? bodyTab : defaultTabFromPath();
+  initTabs(defaultTab);
   if (window.RegwatchComments && typeof window.RegwatchComments.initCommentPager === "function") {
     window.RegwatchComments.initCommentPager(data.comments_clusters || [], { esc, formatDateOnly });
   }
