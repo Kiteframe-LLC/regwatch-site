@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-21T03:09:21.512302+00:00",
+  "comment_action_checked_at": "2026-03-21T06:21:49.617477+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-03-27T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 2.36258064516129,
+  "pass_3_score": 2.499354838709677,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.32548640027411024,
+  "pass_3_scaled": 0.3406884798990707,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.45712200649660084,
+  "combined_score": 0.46472304630908107,
   "score_total": 9,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -83,50 +83,51 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 1,
-  "comments_velocity_total": 0,
-  "comments_public_total_estimate": 0,
+  "comments_total": 2,
+  "comments_velocity_total": 2,
+  "comments_public_total_estimate": 2,
   "comments_fetched": 1,
   "comments_text_hydrated": 1,
-  "comments_cached_records": 1,
+  "comments_cached_records": 2,
   "comments_unique_clusters": 1,
-  "comments_clustered_duplicates": 0,
-  "comments_truncated": false,
+  "comments_clustered_duplicates": 1,
+  "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 1,
   "comments_commenter_type_counts": {
+    "other": 1,
     "citizen": 1
   },
   "comments_submission_role_counts": {
-    "unknown": 1
+    "individual": 2
   },
   "comments_submission_channel_counts": {
-    "unknown": 1
+    "public_portal": 2
   },
-  "comments_public_count": 0,
+  "comments_public_count": 2,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
-  "comments_unknown_channel_count": 1,
+  "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-03-16": 1
+    "2026-03-19": 1
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-03-16": 1
+    "2026-03-19": 1
   },
-  "comments_novel_comment_rate": 1.0,
+  "comments_novel_comment_rate": 0.5,
   "comments_sentiment_positive_pct": 0.0,
   "comments_sentiment_negative_pct": 0.0,
   "comments_sentiment_neutral_pct": 1.0,
   "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 1,
+  "comments_sentiment_sample_size": 2,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 1,
+  "comments_analysis_sample_size": 2,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 1,
-  "comments_representative_prior_selected": 1,
+  "comments_representative_selected": 2,
+  "comments_representative_prior_selected": 2,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 0,
@@ -134,24 +135,25 @@
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "salience_rank": 1
+    "salience_rank": 1,
+    "weighted_fill": 1
   },
-  "comments_representative_selected_by_counts_total": 1,
+  "comments_representative_selected_by_counts_total": 2,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-17T19:31:05.525987+00:00",
-  "comments_checked_at": "2026-03-20T01:58:42.606222+00:00",
-  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-03-21T03:59:23.831278+00:00",
+  "comments_checked_at": "2026-03-21T03:59:24.247819+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 1,
-      "count": 1,
+      "count": 2,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0011-0003",
-      "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 4440,
+      "representative_comment_id": "OPM-2025-0011-0004",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 4441,
       "representative_excerpt": "This rule purports to enhance accountability for federal employees through forced distribution of ratings (\"stack ranking\") and reduced procedural protections. It fails on legal and policy grounds and should be withdrawn. 1. VIOLATES STATUTORY MANDATE FOR ACCURATE EVALUATION The central flaw is the forced distribution requirement. 5 U.S.C. \u00a7 4302(c)(1) manda...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
@@ -161,6 +163,21 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
+        "OPM-2025-0011-0004": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Doran Chan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "OPM-2025-0011-0003": {
           "organization": "",
           "postedDate": "2026-03-16T04:00:00Z",
@@ -179,7 +196,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.9275598066567093
     }
   ],
   "comments_clusters_path": "data/comments/OPM-2025-0011.csv",
@@ -188,7 +205,7 @@
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 1,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 1,
+  "comments_first_page_coverage_count": 2,
   "comments_clusters_total_available": 1,
   "comments_clusters_displayed": 1,
   "comments_first_page_high_signal_clusters": 1,

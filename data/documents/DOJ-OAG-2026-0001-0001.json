@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-21T03:09:18.591685+00:00",
+  "comment_action_checked_at": "2026-03-21T06:21:46.294290+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,7 +27,7 @@
   "comment_end_date": "2026-04-07T03:59:59Z",
   "pass_1_score": 22,
   "pass_2_score": 4,
-  "pass_3_score": 2200.1136363636365,
+  "pass_3_score": 2200.2045454545455,
   "pass_1_scaled": 0.95,
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 1.0,
@@ -49,7 +49,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/05/2026-04390.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "offline_cache_miss_supporting_docs",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [
     {
@@ -136,8 +136,8 @@
   "comments_fetched": 4727,
   "comments_text_hydrated": 1200,
   "comments_cached_records": 4727,
-  "comments_unique_clusters": 1134,
-  "comments_clustered_duplicates": 2000,
+  "comments_unique_clusters": 1142,
+  "comments_clustered_duplicates": 2242,
   "comments_truncated": true,
   "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
@@ -161,41 +161,41 @@
   "comments_new_cluster_count_by_day": {
     "2026-03-19": 209,
     "2026-03-18": 105,
-    "2026-03-17": 171,
-    "2026-03-16": 192,
-    "2026-03-13": 381,
-    "2026-03-12": 223,
-    "2026-03-11": 241,
-    "2026-03-10": 200,
-    "2026-03-09": 179,
-    "2026-03-06": 149,
-    "2026-03-05": 9
+    "2026-03-17": 170,
+    "2026-03-16": 191,
+    "2026-03-13": 383,
+    "2026-03-12": 224,
+    "2026-03-11": 244,
+    "2026-03-10": 201,
+    "2026-03-09": 178,
+    "2026-03-06": 150,
+    "2026-03-05": 8
   },
   "comments_high_signal_cluster_count_by_day": {
     "2026-03-19": 6,
     "2026-03-18": 2,
     "2026-03-17": 5,
-    "2026-03-16": 4,
-    "2026-03-13": 7,
+    "2026-03-16": 3,
+    "2026-03-13": 8,
     "2026-03-12": 2,
     "2026-03-11": 2,
     "2026-03-10": 2,
-    "2026-03-09": 3,
+    "2026-03-09": 2,
     "2026-03-06": 2
   },
-  "comments_novel_comment_rate": 0.43558282208588955,
-  "comments_sentiment_positive_pct": 0.01378103579979529,
-  "comments_sentiment_negative_pct": 0.5583219905404894,
-  "comments_sentiment_neutral_pct": 0.42789697365971535,
-  "comments_sentiment_net": -0.5445409547406941,
-  "comments_sentiment_sample_size": 3101,
+  "comments_novel_comment_rate": 0.436429024751428,
+  "comments_sentiment_positive_pct": 0.013605056173920944,
+  "comments_sentiment_negative_pct": 0.5809846399825415,
+  "comments_sentiment_neutral_pct": 0.40541030384353766,
+  "comments_sentiment_net": -0.5673795838086205,
+  "comments_sentiment_sample_size": 3301,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 3134,
+  "comments_analysis_sample_size": 3384,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 3134,
-  "comments_representative_prior_selected": 3124,
+  "comments_representative_selected": 3384,
+  "comments_representative_prior_selected": 3374,
   "comments_representative_newly_selected": 10,
   "comments_representative_must_keep": 445,
   "comments_representative_run_budget": 10,
@@ -205,20 +205,20 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 445,
     "salience_rank": 4,
-    "weighted_fill": 2685
+    "weighted_fill": 2935
   },
-  "comments_representative_selected_by_counts_total": 3134,
+  "comments_representative_selected_by_counts_total": 3384,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-19T04:00Z",
-  "comments_api_last_seen_at": "2026-03-20T17:34:26.827430+00:00",
-  "comments_checked_at": "2026-03-20T17:34:41.656579+00:00",
-  "comments_error": "offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-03-21T04:00:19.558323+00:00",
+  "comments_checked_at": "2026-03-21T04:00:48.481081+00:00",
+  "comments_error": "used_bulk_csv",
   "comments_clusters": [
     {
       "cluster_id": 38,
-      "count": 733,
+      "count": 908,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-35233",
       "representative_posted_date": "2026-03-19T04:00:00Z",
@@ -232,6 +232,36 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
+        "DOJ-OAG-2026-0001-0020": {
+          "organization": "",
+          "postedDate": "2026-03-05T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-0027": {
+          "organization": "",
+          "postedDate": "2026-03-05T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "DOJ-OAG-2026-0001-0063": {
           "organization": "",
           "postedDate": "2026-03-05T05:00Z",
@@ -276,45 +306,15 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-0169": {
-          "organization": "",
-          "postedDate": "2026-03-05T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-0183": {
-          "organization": "",
-          "postedDate": "2026-03-05T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.337887346810601
+      "presentation_score": 0.3366980821646389
     },
     {
       "cluster_id": 48,
-      "count": 175,
+      "count": 188,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-35172",
       "representative_posted_date": "2026-03-19T04:00:00Z",
@@ -328,6 +328,21 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
+        "DOJ-OAG-2026-0001-0120": {
+          "organization": "",
+          "postedDate": "2026-03-05T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "DOJ-OAG-2026-0001-0470": {
           "organization": "",
           "postedDate": "2026-03-06T05:00Z",
@@ -387,30 +402,15 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-10112": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.24607442735596688
+      "presentation_score": 0.23869917797685977
     },
     {
-      "cluster_id": 222,
-      "count": 56,
+      "cluster_id": 231,
+      "count": 63,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29293",
       "representative_posted_date": "2026-03-17T04:00:00Z",
@@ -502,24 +502,39 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.20173037890925904
+      "presentation_score": 0.19740908264125084
     },
     {
-      "cluster_id": 152,
-      "count": 45,
+      "cluster_id": 57,
+      "count": 52,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-32127",
-      "representative_posted_date": "2026-03-18T04:00:00Z",
-      "representative_length": 839,
-      "representative_excerpt": "I strongly oppose this new rule, because it will diminish accountability for misconduct by government lawyers. I believe that lawyers representing the United States should be held to the highest standards of ethics and professionalism. They must be subject to oversight by independent authorities like state bar associations; the Justice Department cannot be t...",
+      "representative_comment_id": "DOJ-OAG-2026-0001-35072",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 894,
+      "representative_excerpt": "As a patriotic American citizen, I care deeply about preserving the rule of law and upholding integrity in our justice system. I strongly oppose this new rule (Department of Justice OAG-199) because it will reduce accountability for misconduct by government lawyers. I believe that all lawyers representing the United States should be held to the highest stand...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
+        "DOJ-OAG-2026-0001-0483": {
+          "organization": "",
+          "postedDate": "2026-03-06T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "DOJ-OAG-2026-0001-0706": {
           "organization": "",
           "postedDate": "2026-03-06T05:00Z",
@@ -535,7 +550,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0001-10312": {
+        "DOJ-OAG-2026-0001-10438": {
           "organization": "",
           "postedDate": "2026-03-09T04:00Z",
           "zip": "",
@@ -550,7 +565,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0001-10967": {
+        "DOJ-OAG-2026-0001-10642": {
           "organization": "",
           "postedDate": "2026-03-09T04:00Z",
           "zip": "",
@@ -565,22 +580,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0001-1149": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-11573": {
+        "DOJ-OAG-2026-0001-11074": {
           "organization": "",
           "postedDate": "2026-03-09T04:00Z",
           "zip": "",
@@ -598,7 +598,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.20715963957616548
+      "presentation_score": 0.21082943084181416
     },
     {
       "cluster_id": 14,
@@ -694,107 +694,11 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.21328464605687797
+      "presentation_score": 0.2092461201418309
     },
     {
-      "cluster_id": 35,
-      "count": 27,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-35238",
-      "representative_posted_date": "2026-03-19T04:00:00Z",
-      "representative_length": 978,
-      "representative_excerpt": "I strongly oppose this proposed rule, as it risks weakening accountability for misconduct by government attorneys. Lawyers representing the United States should be held to the highest standards of ethics and professionalism. Independent oversight\u2014particularly by state bar associations\u2014is essential to maintaining public trust and ensuring that misconduct is p...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-10212": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-13043": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-13330": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-13372": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-14090": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.26341026089108427
-    },
-    {
-      "cluster_id": 151,
-      "count": 23,
+      "cluster_id": 162,
+      "count": 25,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-33999",
       "representative_posted_date": "2026-03-18T04:00:00Z",
@@ -886,11 +790,11 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.20639980322618112
+      "presentation_score": 0.20222577699522462
     },
     {
-      "cluster_id": 305,
-      "count": 19,
+      "cluster_id": 315,
+      "count": 22,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25798",
       "representative_posted_date": "2026-03-16T04:00Z",
@@ -905,6 +809,21 @@
       "representative_sentiment_method": "",
       "submissions": {
         "DOJ-OAG-2026-0001-12091": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-12094": {
           "organization": "",
           "postedDate": "2026-03-09T04:00Z",
           "zip": "",
@@ -963,8 +882,89 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.18778670695793423
+    },
+    {
+      "cluster_id": 60,
+      "count": 22,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-35066",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 1034,
+      "representative_excerpt": "I strongly oppose this new rule, because it will diminish accountability for misconduct by government lawyers. This is particularly concerning when the administration has already ignored and worked to reduce the separation of the judicial and executive branches of government. I believe that lawyers representing the United States should be held to the highest...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-10832": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0001-12117": {
+        "DOJ-OAG-2026-0001-11807": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-11826": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-11860": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-12447": {
           "organization": "",
           "postedDate": "2026-03-09T04:00Z",
           "zip": "",
@@ -982,10 +982,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.19257504829193658
+      "presentation_score": 0.2108636300348573
     },
     {
-      "cluster_id": 192,
+      "cluster_id": 201,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29730",
@@ -993,7 +993,7 @@
       "representative_length": 3009,
       "representative_excerpt": "As a former attorney and a U.S. citizen, I find this proposed rule criminal. This is a lawless Department of Justice. Their loyalty is not to the Constitution or our laws. The banner that now hangs on the face of the Department of Justice building says it all. The Attorney General wants to evade responsibility for her actions and for the actions of those few...",
       "representative_signal_score": 5,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -1018,10 +1018,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7920025531669159
+      "presentation_score": 0.7912526177313844
     },
     {
-      "cluster_id": 303,
+      "cluster_id": 313,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25870",
@@ -1054,43 +1054,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7843102454746083
-    },
-    {
-      "cluster_id": 272,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-27616",
-      "representative_posted_date": "2026-03-16T04:00Z",
-      "representative_length": 4901,
-      "representative_excerpt": "My complete comment is in the attached PDF, which I request be made part of the official record. This text summarizes the key legal deficiencies. The proposed rule conflicts with 28 U.S.C. 530B(a), which requires DOJ attorneys to be subject to state ethics rules \"to the same extent and in the same manner as other attorneys in that State.\" The word \"manner\" e...",
-      "representative_signal_score": 5,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-27616": {
-          "organization": "",
-          "postedDate": "2026-03-16T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7843102454746083
+      "presentation_score": 0.7835603100390767
     },
     {
       "cluster_id": 32,
@@ -1141,10 +1105,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7080068406098209
+      "presentation_score": 0.7069462717459881
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 124,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34178",
@@ -1192,10 +1156,61 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7003145329175132
+      "presentation_score": 0.6992539640536805
     },
     {
-      "cluster_id": 1099,
+      "cluster_id": 71,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-34994",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 3135,
+      "representative_excerpt": "1. The Rule Undermines the Independence of State Bar Oversight The proposed rule would allow the Attorney General to intervene at the outset of state bar disciplinary proceedings involving Department attorneys and request that state authorities suspend investigative activity. This fundamentally alters the long-standing system in which attorney regulation is ...",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-34994": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-16468": {
+          "organization": "",
+          "postedDate": "2026-03-10T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6569462717459881
+    },
+    {
+      "cluster_id": 1108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-2388",
@@ -1228,10 +1243,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6573871685515312
+      "presentation_score": 0.6566372331159998
     },
     {
-      "cluster_id": 178,
+      "cluster_id": 187,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-31053",
@@ -1264,10 +1279,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6320025531669158
+      "presentation_score": 0.6312526177313844
     },
     {
-      "cluster_id": 446,
+      "cluster_id": 458,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-24827",
@@ -1300,10 +1315,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6312333223976851
+      "presentation_score": 0.6304833869621537
     },
     {
-      "cluster_id": 1002,
+      "cluster_id": 1012,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-13140",
@@ -1351,7 +1366,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.631083763686744
+      "presentation_score": 0.6300231948229112
     },
     {
       "cluster_id": 7,
@@ -1402,7 +1417,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6280068406098208
+      "presentation_score": 0.626946271745988
     },
     {
       "cluster_id": 29,
@@ -1453,10 +1468,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4980068406098208
+      "presentation_score": 0.49694627174598804
     },
     {
-      "cluster_id": 123,
+      "cluster_id": 134,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-33405",
@@ -1504,10 +1519,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6203145329175132
+      "presentation_score": 0.6192539640536804
     },
     {
-      "cluster_id": 177,
+      "cluster_id": 236,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-29262",
+      "representative_posted_date": "2026-03-17T04:00:00Z",
+      "representative_length": 4907,
+      "representative_excerpt": "I strongly oppose the DOJs proposed rule titled Review of State Bar Complaints and Allegations Against Department of Justice Attorneys. I write as an attorney licensed in two states, as a former federal government attorney with firsthand experience of the professional and ethical obligations that govern lawyers in federal service, and as an adjunct law profe...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-29262": {
+          "organization": "",
+          "postedDate": "2026-03-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-27616": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6115616563613727
+    },
+    {
+      "cluster_id": 186,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-31308",
@@ -1555,10 +1621,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6126222252252055
+      "presentation_score": 0.6115616563613727
     },
     {
-      "cluster_id": 564,
+      "cluster_id": 574,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23010",
@@ -1591,10 +1657,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.601233322397685
+      "presentation_score": 0.6004833869621536
     },
     {
-      "cluster_id": 605,
+      "cluster_id": 617,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-20969",
@@ -1627,10 +1693,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5935410147053773
+      "presentation_score": 0.5927910792698459
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 106,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34769",
@@ -1693,46 +1759,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5831318313664474
+      "presentation_score": 0.5818329050897106
     },
     {
-      "cluster_id": 987,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-13396",
-      "representative_posted_date": "2026-03-09T04:00Z",
-      "representative_length": 2200,
-      "representative_excerpt": "I am a member of the Colorado and South Carolina bars. Having witnessed the significant authority federal prosecutors wield, I believe that authority must be balanced by independent, external ethical oversight. Background The portion of the rule at issue would require state bar authorities to halt investigations at DOJ\u2019s request pending an internal DOJ revie...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-13396": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5704640916284542
-    },
-    {
-      "cluster_id": 756,
+      "cluster_id": 765,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-18206",
@@ -1740,7 +1770,7 @@
       "representative_length": 820,
       "representative_excerpt": "OAG199. We wouldn't put the fox in charge of guarding the hen house. Same here: DOJ should not be permitted to make DOJ officials immune to prosecution if they have--or may have--committed actionable offenses. Prosecuting such possible offenses is a duty assigned to the states, not to the DOJ, and for good reason. To make agents automatically immune to prose...",
       "representative_signal_score": 4,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -1765,10 +1795,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6158487070130697
+      "presentation_score": 0.6150987715775382
     },
     {
-      "cluster_id": 522,
+      "cluster_id": 533,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23740",
@@ -1816,10 +1846,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6118529944559747
+      "presentation_score": 0.610792425592142
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34794",
@@ -1852,16 +1882,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5973871685515312
+      "presentation_score": 0.5966372331159997
     },
     {
-      "cluster_id": 227,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-29262",
-      "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 4907,
-      "representative_excerpt": "I strongly oppose the DOJs proposed rule titled Review of State Bar Complaints and Allegations Against Department of Justice Attorneys. I write as an attorney licensed in two states, as a former federal government attorney with firsthand experience of the professional and ethical obligations that govern lawyers in federal service, and as an adjunct law profe...",
+      "representative_comment_id": "DOJ-OAG-2026-0001-35253",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 3650,
+      "representative_excerpt": "This proposed regulation would introduce bureaucratic inefficiency into the regulation of the legal profession and undermine public trust in government attorneys, taking a step backwards after the modest gains the profession made in each of these regards following Watergate. Such prospects dishearten me and the vast majority of my colleagues in the legal fie...",
       "representative_signal_score": 3,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -1870,9 +1900,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "DOJ-OAG-2026-0001-29262": {
+        "DOJ-OAG-2026-0001-35253": {
           "organization": "",
-          "postedDate": "2026-03-17T04:00:00Z",
+          "postedDate": "2026-03-19T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1888,10 +1918,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5820025531669157
+      "presentation_score": 0.5966372331159997
     },
     {
-      "cluster_id": 201,
+      "cluster_id": 210,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29563",
@@ -1924,97 +1954,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5820025531669157
+      "presentation_score": 0.5812526177313844
     },
     {
-      "cluster_id": 30,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-35253",
-      "representative_posted_date": "2026-03-19T04:00:00Z",
-      "representative_length": 3650,
-      "representative_excerpt": "This proposed regulation would introduce bureaucratic inefficiency into the regulation of the legal profession and undermine public trust in government attorneys, taking a step backwards after the modest gains the profession made in each of these regards following Watergate. Such prospects dishearten me and the vast majority of my colleagues in the legal fie...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-35253": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-0782": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5780068406098208
-    },
-    {
-      "cluster_id": 348,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-26645",
-      "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 1708,
-      "representative_excerpt": "My current practice concentrates in evaluating and opining in legal malpractice cases focussing on ethics and civil procedure. I oppose the proposed regulations for the following reasons: 1. The lack of any time limits for the proposed stay; 2. The possibility that premature disclosure of a complaint would impede an independent investigation; 3. The inherent...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-26645": {
-          "organization": "",
-          "postedDate": "2026-03-16T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5743102454746081
-    },
-    {
-      "cluster_id": 343,
+      "cluster_id": 354,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26678",
@@ -2047,10 +1990,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5743102454746081
+      "presentation_score": 0.5735603100390767
     },
     {
-      "cluster_id": 959,
+      "cluster_id": 972,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-5382",
@@ -2083,7 +2026,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5704640916284542
+      "presentation_score": 0.5697141561929229
     },
     {
       "cluster_id": 9,
@@ -2119,10 +2062,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5673871685515313
+      "presentation_score": 0.5666372331159998
     },
     {
-      "cluster_id": 131,
+      "cluster_id": 142,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32611",
@@ -2155,10 +2098,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5596948608592236
+      "presentation_score": 0.5589449254236921
     },
     {
-      "cluster_id": 125,
+      "cluster_id": 136,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32801",
@@ -2191,10 +2134,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5596948608592236
+      "presentation_score": 0.5589449254236921
     },
     {
-      "cluster_id": 124,
+      "cluster_id": 135,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-33182",
@@ -2227,10 +2170,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5596948608592236
+      "presentation_score": 0.5589449254236921
     },
     {
-      "cluster_id": 119,
+      "cluster_id": 130,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-33475",
@@ -2263,16 +2206,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5596948608592236
+      "presentation_score": 0.5589449254236921
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34427",
       "representative_posted_date": "2026-03-18T04:00Z",
-      "representative_length": 4125,
-      "representative_excerpt": "the proposed rule raises significant legal, constitutional, and policy concerns. As drafted, it undermines the independence of attorney disciplinary systems, interferes with state authority, and risks eroding public trust in the fair administration of justice. I. The Proposed Rule Undermines Independent Attorney Regulation Attorney discipline has long been t...",
+      "representative_length": 4276,
+      "representative_excerpt": "this comment in opposition to the Department\u2019s proposed rule establishing a process for internal review of bar complaints against current and former Department attorneys prior to participation in state bar disciplinary proceedings. As drafted, it undermines the independence of attorney disciplinary systems, interferes with state authority, and risks eroding ...",
       "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -2299,10 +2242,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5596948608592236
+      "presentation_score": 0.5589449254236921
     },
     {
-      "cluster_id": 184,
+      "cluster_id": 358,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-26645",
+      "representative_posted_date": "2026-03-16T04:00:00Z",
+      "representative_length": 1708,
+      "representative_excerpt": "My current practice concentrates in evaluating and opining in legal malpractice cases focussing on ethics and civil procedure. I oppose the proposed regulations for the following reasons: 1. The lack of any time limits for the proposed stay; 2. The possibility that premature disclosure of a complaint would impede an independent investigation; 3. The inherent...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-26645": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-2487": {
+          "organization": "",
+          "postedDate": "2026-03-06T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5538693486690649
+    },
+    {
+      "cluster_id": 193,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-30569",
@@ -2335,10 +2329,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5520025531669158
+      "presentation_score": 0.5512526177313845
     },
     {
-      "cluster_id": 183,
+      "cluster_id": 192,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-30774",
@@ -2371,10 +2365,46 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5520025531669158
+      "presentation_score": 0.5512526177313845
     },
     {
-      "cluster_id": 553,
+      "cluster_id": 579,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-22948",
+      "representative_posted_date": "2026-03-13T04:00Z",
+      "representative_length": 2283,
+      "representative_excerpt": "I respectfully submit this comment in opposition to the proposed rule titled \u201cReview of State Bar Complaints and Allegations Against Department of Justice Attorneys.\u201d This proposal risks weakening independent oversight of federal attorneys and undermining the equal application of ethical standards required by law. In 1998, Congress enacted the McDade Amendme...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-22948": {
+          "organization": "",
+          "postedDate": "2026-03-13T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5504833869621536
+    },
+    {
+      "cluster_id": 563,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23150",
@@ -2407,10 +2437,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.551233322397685
+      "presentation_score": 0.5504833869621536
     },
     {
-      "cluster_id": 438,
+      "cluster_id": 451,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-24986",
@@ -2443,10 +2473,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.551233322397685
+      "presentation_score": 0.5504833869621536
     },
     {
-      "cluster_id": 389,
+      "cluster_id": 400,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25539",
@@ -2479,7 +2509,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.551233322397685
+      "presentation_score": 0.5504833869621536
     },
     {
       "cluster_id": 5,
@@ -2530,10 +2560,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5480068406098209
+      "presentation_score": 0.5469462717459881
     },
     {
-      "cluster_id": 1120,
+      "cluster_id": 1129,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-0571",
@@ -2566,10 +2596,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5473871685515311
+      "presentation_score": 0.5466372331159998
     },
     {
-      "cluster_id": 306,
+      "cluster_id": 318,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25645",
@@ -2602,10 +2632,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5443102454746082
+      "presentation_score": 0.5435603100390767
     },
     {
-      "cluster_id": 284,
+      "cluster_id": 292,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26824",
@@ -2638,10 +2668,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5443102454746082
+      "presentation_score": 0.5435603100390767
     },
     {
-      "cluster_id": 282,
+      "cluster_id": 290,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26884",
@@ -2674,10 +2704,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5443102454746082
+      "presentation_score": 0.5435603100390767
     },
     {
-      "cluster_id": 269,
+      "cluster_id": 278,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-27736",
@@ -2710,61 +2740,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5443102454746082
+      "presentation_score": 0.5435603100390767
     },
     {
-      "cluster_id": 169,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-31878",
-      "representative_posted_date": "2026-03-18T04:00:00Z",
-      "representative_length": 3783,
-      "representative_excerpt": "1. Self policing is not independent oversight. This framework makes the Department the initial gatekeeper over ethics allegations against its own current or former attorneys, then seeks to pause the independent licensing authority\u2019s process while an internal executive branch review runs first. Even if the Department intends to prevent abuse of the complaint ...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-31878": {
-          "organization": "",
-          "postedDate": "2026-03-18T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-18516": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5403145329175132
-    },
-    {
-      "cluster_id": 129,
+      "cluster_id": 140,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32702",
@@ -2812,10 +2791,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5403145329175132
+      "presentation_score": 0.5392539640536804
     },
     {
-      "cluster_id": 821,
+      "cluster_id": 831,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-16946",
@@ -2848,10 +2827,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5358487070130696
+      "presentation_score": 0.5350987715775382
     },
     {
-      "cluster_id": 530,
+      "cluster_id": 540,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23563",
@@ -2899,10 +2878,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5318529944559747
+      "presentation_score": 0.5307924255921419
     },
     {
-      "cluster_id": 907,
+      "cluster_id": 919,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-14479",
@@ -2935,10 +2914,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5281563993207619
+      "presentation_score": 0.5274064638852305
     },
     {
-      "cluster_id": 850,
+      "cluster_id": 860,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-16367",
@@ -2971,10 +2950,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5281563993207619
+      "presentation_score": 0.5274064638852305
     },
     {
-      "cluster_id": 377,
+      "cluster_id": 388,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25697",
@@ -3022,10 +3001,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5249299175328977
+      "presentation_score": 0.523869348669065
     },
     {
-      "cluster_id": 629,
+      "cluster_id": 639,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-20681",
@@ -3073,10 +3052,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.524160686763667
+      "presentation_score": 0.5231001178998342
     },
     {
-      "cluster_id": 467,
+      "cluster_id": 480,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-24543",
@@ -3109,10 +3088,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.521233322397685
+      "presentation_score": 0.5204833869621537
     },
     {
-      "cluster_id": 429,
+      "cluster_id": 442,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25140",
@@ -3145,7 +3124,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.521233322397685
+      "presentation_score": 0.5204833869621537
     },
     {
       "cluster_id": 46,
@@ -3181,7 +3160,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5173871685515312
+      "presentation_score": 0.5166372331159997
     },
     {
       "cluster_id": 41,
@@ -3217,10 +3196,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5173871685515312
+      "presentation_score": 0.5166372331159997
     },
     {
-      "cluster_id": 713,
+      "cluster_id": 721,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-19099",
@@ -3253,10 +3232,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5135410147053774
+      "presentation_score": 0.5127910792698459
     },
     {
-      "cluster_id": 244,
+      "cluster_id": 253,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28996",
@@ -3289,10 +3268,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5020025531669158
+      "presentation_score": 0.5012526177313844
     },
     {
-      "cluster_id": 239,
+      "cluster_id": 248,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29019",
@@ -3300,7 +3279,7 @@
       "representative_length": 2078,
       "representative_excerpt": "OUR DOJ has been pillaged and left in a position where a highly coveted job has turned into one no self-respecting lawyer wants to be involved with. Experienced employees have been depleted to the point that cases are piling ip. That we have a Weaponization Department is beyond the belief. Yet, here we are, because of one man and his two personal lawyers. Th...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -3325,10 +3304,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5020025531669158
+      "presentation_score": 0.5012526177313844
     },
     {
-      "cluster_id": 236,
+      "cluster_id": 245,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29039",
@@ -3336,7 +3315,7 @@
       "representative_length": 1494,
       "representative_excerpt": "As an attorney with over 25 years of experience, first working for a top-tier law firm and later for a Fortune 500 company (where I helped establish that Company's Code of Conduct and Ethics program), I am flabbergasted that the DOJ has the audacity to propose that it be given unilateral power to stay the proceedings of independent state bar associations inv...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -3361,10 +3340,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5020025531669158
+      "presentation_score": 0.5012526177313844
     },
     {
-      "cluster_id": 569,
+      "cluster_id": 580,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-22941",
@@ -3412,61 +3391,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5018529944559748
+      "presentation_score": 0.500792425592142
     },
     {
-      "cluster_id": 556,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-23116",
-      "representative_posted_date": "2026-03-13T04:00Z",
-      "representative_length": 2891,
-      "representative_excerpt": "Public Comment on Proposed DOJ Rule Regarding Pre-Review of State Bar Complaints I respectfully submit this comment in opposition to the Department of Justice\u2019s proposed rule that would allow the Department to pre-review bar complaints filed against its attorneys and request suspension of state disciplinary proceedings during that review. The proposal raises...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-23116": {
-          "organization": "",
-          "postedDate": "2026-03-13T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-15477": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5018529944559748
-    },
-    {
-      "cluster_id": 430,
+      "cluster_id": 443,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25136",
@@ -3474,7 +3402,7 @@
       "representative_length": 2302,
       "representative_excerpt": "I strongly oppose this new rule, because it will diminish accountability for misconduct by government lawyers. I believe that lawyers representing the United States should be held to the highest standards of ethics and professionalism. They must be subject to oversight by independent authorities like state bar associations; the Justice Department cannot be t...",
       "representative_signal_score": 2,
-      "representative_stance": "negative",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -3514,10 +3442,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5018529944559748
+      "presentation_score": 0.500792425592142
     },
     {
-      "cluster_id": 417,
+      "cluster_id": 429,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25256",
@@ -3565,10 +3493,61 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5018529944559748
+      "presentation_score": 0.500792425592142
     },
     {
-      "cluster_id": 911,
+      "cluster_id": 402,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-25523",
+      "representative_posted_date": "2026-03-13T04:00Z",
+      "representative_length": 2243,
+      "representative_excerpt": "I am strongly opposed to the proposed rule by the DOJ. As an attorney of over 25 years who has frequently researched and addressed ethical issues in state and federal courts, including service on state commissions governing judicial conduct and selection, I believe the current process best serves the investigation of state bar complaints and allegations agai...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-25523": {
+          "organization": "",
+          "postedDate": "2026-03-13T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-13396": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.500792425592142
+    },
+    {
+      "cluster_id": 923,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-14423",
@@ -3601,10 +3580,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49815639932076194
+      "presentation_score": 0.4974064638852305
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 82,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34892",
@@ -3652,10 +3631,112 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4980068406098208
+      "presentation_score": 0.49694627174598804
     },
     {
-      "cluster_id": 347,
+      "cluster_id": 179,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-31878",
+      "representative_posted_date": "2026-03-18T04:00:00Z",
+      "representative_length": 3783,
+      "representative_excerpt": "1. Self policing is not independent oversight. This framework makes the Department the initial gatekeeper over ethics allegations against its own current or former attorneys, then seeks to pause the independent licensing authority\u2019s process while an internal executive branch review runs first. Even if the Department intends to prevent abuse of the complaint ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-31878": {
+          "organization": "",
+          "postedDate": "2026-03-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-18516": {
+          "organization": "",
+          "postedDate": "2026-03-11T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-0782": {
+          "organization": "",
+          "postedDate": "2026-03-06T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49414059739740296
+    },
+    {
+      "cluster_id": 312,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-25886",
+      "representative_posted_date": "2026-03-16T04:00Z",
+      "representative_length": 2404,
+      "representative_excerpt": "I have been an attorney since April 30, 1977. I am admitted to practice in Arizona, the District Court of Arizona, the Ninth Circuit Court of Appeals, and the United States Supreme Court. I do not believe that the proposed rule is Constitutional or wise. It would violate states rights to govern professionals licensed within their states. Further, and perhaps...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-25886": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4935603100390767
+    },
+    {
+      "cluster_id": 357,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26646",
@@ -3688,10 +3769,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4943102454746081
+      "presentation_score": 0.4935603100390767
     },
     {
-      "cluster_id": 323,
+      "cluster_id": 335,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28435",
@@ -3724,10 +3805,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4943102454746081
+      "presentation_score": 0.4935603100390767
     },
     {
-      "cluster_id": 309,
+      "cluster_id": 321,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28709",
@@ -3760,10 +3841,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4943102454746081
+      "presentation_score": 0.4935603100390767
     },
     {
-      "cluster_id": 1018,
+      "cluster_id": 1025,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-12852",
@@ -3796,10 +3877,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4904640916284542
+      "presentation_score": 0.4897141561929228
     },
     {
-      "cluster_id": 1013,
+      "cluster_id": 1021,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-12951",
@@ -3832,10 +3913,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4904640916284542
+      "presentation_score": 0.4897141561929228
     },
     {
-      "cluster_id": 974,
+      "cluster_id": 986,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-5038",
@@ -3868,10 +3949,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4904640916284542
+      "presentation_score": 0.4897141561929228
     },
     {
-      "cluster_id": 776,
+      "cluster_id": 786,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-17807",
@@ -3919,10 +4000,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48646837907135926
+      "presentation_score": 0.4854078102075265
     },
     {
-      "cluster_id": 219,
+      "cluster_id": 228,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29322",
@@ -3970,10 +4051,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4826222252252055
+      "presentation_score": 0.4815616563613727
     },
     {
-      "cluster_id": 865,
+      "cluster_id": 875,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-16122",
@@ -4021,10 +4102,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4787760713790516
+      "presentation_score": 0.4777155025152188
     },
     {
-      "cluster_id": 298,
+      "cluster_id": 306,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26270",
@@ -4072,10 +4153,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47492991753289776
+      "presentation_score": 0.473869348669065
     },
     {
-      "cluster_id": 190,
+      "cluster_id": 199,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29896",
@@ -4108,10 +4189,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4720025531669158
+      "presentation_score": 0.4712526177313843
     },
     {
-      "cluster_id": 176,
+      "cluster_id": 185,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-31332",
@@ -4144,10 +4225,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4720025531669158
+      "presentation_score": 0.4712526177313843
     },
     {
-      "cluster_id": 571,
+      "cluster_id": 582,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-22855",
@@ -4180,10 +4261,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 550,
+      "cluster_id": 560,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23180",
@@ -4216,10 +4297,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 540,
+      "cluster_id": 550,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23355",
@@ -4252,10 +4333,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 524,
+      "cluster_id": 535,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23666",
@@ -4288,10 +4369,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 521,
+      "cluster_id": 532,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23743",
@@ -4324,10 +4405,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 520,
+      "cluster_id": 531,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23790",
@@ -4360,10 +4441,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 499,
+      "cluster_id": 511,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-24143",
@@ -4396,10 +4477,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 440,
+      "cluster_id": 453,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-24966",
@@ -4432,10 +4513,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 416,
+      "cluster_id": 428,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25258",
@@ -4468,10 +4549,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 412,
+      "cluster_id": 424,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25277",
@@ -4504,46 +4585,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
+      "presentation_score": 0.47048338696215364
     },
     {
-      "cluster_id": 391,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-25523",
-      "representative_posted_date": "2026-03-13T04:00Z",
-      "representative_length": 2243,
-      "representative_excerpt": "I am strongly opposed to the proposed rule by the DOJ. As an attorney of over 25 years who has frequently researched and addressed ethical issues in state and federal courts, including service on state commissions governing judicial conduct and selection, I believe the current process best serves the investigation of state bar complaints and allegations agai...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-25523": {
-          "organization": "",
-          "postedDate": "2026-03-13T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.471233322397685
-    },
-    {
-      "cluster_id": 274,
+      "cluster_id": 282,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-27488",
@@ -4576,10 +4621,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4643102454746081
+      "presentation_score": 0.46356031003907666
     },
     {
-      "cluster_id": 718,
+      "cluster_id": 726,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-19021",
@@ -4612,10 +4657,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 707,
+      "cluster_id": 715,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-19196",
@@ -4648,10 +4693,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 683,
+      "cluster_id": 691,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-19687",
@@ -4684,10 +4729,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 678,
+      "cluster_id": 686,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-19742",
@@ -4720,10 +4765,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 673,
+      "cluster_id": 682,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-19778",
@@ -4756,10 +4801,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 662,
+      "cluster_id": 671,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-20010",
@@ -4792,10 +4837,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 653,
+      "cluster_id": 663,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-20172",
@@ -4828,10 +4873,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 616,
+      "cluster_id": 627,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-20842",
@@ -4864,10 +4909,127 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46354101470537734
+      "presentation_score": 0.4627910792698459
     },
     {
-      "cluster_id": 838,
+      "cluster_id": 122,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-34298",
+      "representative_posted_date": "2026-03-18T04:00Z",
+      "representative_length": 849,
+      "representative_excerpt": "We strenuously object to the proposed DOJ rule that would permit the DOJ to review state bar complaints against DOJ attorneys for all the following reasons: (1) The DOJ has a internal conflict of interest in any disciplinary review of its own attorneys which would prevent impartial, unbiased outcomes. (3) The proposed rule permits the DOJ to cover up illegal...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-34298": {
+          "organization": "Utah Legal Advocates",
+          "postedDate": "2026-03-18T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-13597": {
+          "organization": "",
+          "postedDate": "2026-03-10T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.45925396405368035
+    },
+    {
+      "cluster_id": 566,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-23116",
+      "representative_posted_date": "2026-03-13T04:00Z",
+      "representative_length": 2891,
+      "representative_excerpt": "Public Comment on Proposed DOJ Rule Regarding Pre-Review of State Bar Complaints I respectfully submit this comment in opposition to the Department of Justice\u2019s proposed rule that would allow the Department to pre-review bar complaints filed against its attorneys and request suspension of state disciplinary proceedings during that review. The proposal raises...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-23116": {
+          "organization": "",
+          "postedDate": "2026-03-13T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-15477": {
+          "organization": "",
+          "postedDate": "2026-03-10T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-12932": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4556790589358645
+    },
+    {
+      "cluster_id": 848,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-16608",
@@ -4900,10 +5062,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4558487070130697
+      "presentation_score": 0.4550987715775382
     },
     {
-      "cluster_id": 797,
+      "cluster_id": 808,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-17461",
@@ -4936,10 +5098,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4558487070130697
+      "presentation_score": 0.4550987715775382
     },
     {
-      "cluster_id": 786,
+      "cluster_id": 796,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-17590",
@@ -4972,10 +5134,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4558487070130697
+      "presentation_score": 0.4550987715775382
     },
     {
-      "cluster_id": 769,
+      "cluster_id": 779,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-17944",
@@ -5008,10 +5170,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4558487070130697
+      "presentation_score": 0.4550987715775382
     },
     {
-      "cluster_id": 725,
+      "cluster_id": 734,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-18871",
@@ -5044,10 +5206,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4558487070130697
+      "presentation_score": 0.4550987715775382
     },
     {
-      "cluster_id": 723,
+      "cluster_id": 732,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-18891",
@@ -5080,10 +5242,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4558487070130697
+      "presentation_score": 0.4550987715775382
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 78,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34910",
@@ -5146,10 +5308,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4531318313664474
+      "presentation_score": 0.45183290508971063
     },
     {
-      "cluster_id": 387,
+      "cluster_id": 398,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25562",
@@ -5197,10 +5359,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4518529944559747
+      "presentation_score": 0.45079242559214194
     },
     {
-      "cluster_id": 941,
+      "cluster_id": 954,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-13941",
@@ -5233,10 +5395,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44815639932076196
+      "presentation_score": 0.44740646388523053
     },
     {
-      "cluster_id": 914,
+      "cluster_id": 926,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-14367",
@@ -5269,10 +5431,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44815639932076196
+      "presentation_score": 0.44740646388523053
     },
     {
-      "cluster_id": 908,
+      "cluster_id": 920,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-14463",
@@ -5305,10 +5467,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44815639932076196
+      "presentation_score": 0.44740646388523053
     },
     {
-      "cluster_id": 902,
+      "cluster_id": 913,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-14518",
@@ -5341,10 +5503,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44815639932076196
+      "presentation_score": 0.44740646388523053
     },
     {
-      "cluster_id": 871,
+      "cluster_id": 891,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-15861",
+      "representative_posted_date": "2026-03-10T04:00Z",
+      "representative_length": 1445,
+      "representative_excerpt": "I am a private citizen writing to oppose this proposed rule (DOJ-OAG-2026-0001). I urge the Department to withdraw it in its entirety. The rule would require state bar disciplinary authorities to suspend ethics investigations into current or former DOJ attorneys whenever the Department asserts its own right of first review. It further authorizes the Departme...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-15861": {
+          "organization": "",
+          "postedDate": "2026-03-10T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44740646388523053
+    },
+    {
+      "cluster_id": 881,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-15999",
@@ -5377,10 +5575,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44815639932076196
+      "presentation_score": 0.44740646388523053
     },
     {
-      "cluster_id": 867,
+      "cluster_id": 877,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-16092",
@@ -5413,10 +5611,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44815639932076196
+      "presentation_score": 0.44740646388523053
     },
     {
-      "cluster_id": 271,
+      "cluster_id": 280,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-27617",
@@ -5464,10 +5662,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44492991753289773
+      "presentation_score": 0.44386934866906497
     },
     {
-      "cluster_id": 702,
+      "cluster_id": 710,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-19357",
@@ -5515,10 +5713,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.444160686763667
+      "presentation_score": 0.4431001178998342
     },
     {
-      "cluster_id": 639,
+      "cluster_id": 649,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-20438",
@@ -5566,10 +5764,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.444160686763667
+      "presentation_score": 0.4431001178998342
     },
     {
-      "cluster_id": 581,
+      "cluster_id": 593,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-22656",
@@ -5602,10 +5800,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.44123332239768503
+      "presentation_score": 0.44048338696215356
     },
     {
-      "cluster_id": 516,
+      "cluster_id": 527,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-23837",
@@ -5638,10 +5836,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44123332239768503
+      "presentation_score": 0.44048338696215356
     },
     {
-      "cluster_id": 405,
+      "cluster_id": 417,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25353",
@@ -5674,10 +5872,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44123332239768503
+      "presentation_score": 0.44048338696215356
     },
     {
-      "cluster_id": 403,
+      "cluster_id": 415,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25372",
@@ -5710,10 +5908,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44123332239768503
+      "presentation_score": 0.44048338696215356
     },
     {
-      "cluster_id": 392,
+      "cluster_id": 403,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25522",
@@ -5746,10 +5944,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44123332239768503
+      "presentation_score": 0.44048338696215356
     },
     {
-      "cluster_id": 1053,
+      "cluster_id": 1061,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-12253",
@@ -5782,10 +5980,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44046409162845424
+      "presentation_score": 0.4397141561929228
     },
     {
-      "cluster_id": 1047,
+      "cluster_id": 1054,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-12389",
@@ -5818,10 +6016,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44046409162845424
+      "presentation_score": 0.4397141561929228
     },
     {
-      "cluster_id": 1045,
+      "cluster_id": 1052,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-12414",
@@ -5854,10 +6052,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44046409162845424
+      "presentation_score": 0.4397141561929228
     },
     {
-      "cluster_id": 1029,
+      "cluster_id": 1036,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-12660",
@@ -5890,46 +6088,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44046409162845424
+      "presentation_score": 0.4397141561929228
     },
     {
-      "cluster_id": 1015,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-12932",
-      "representative_posted_date": "2026-03-09T04:00Z",
-      "representative_length": 3007,
-      "representative_excerpt": "\u200bTo the Department of Justice, \u200b to formally submit my opposition to the proposed rule regarding the Department\u2019s review of state bar complaints against its attorneys. This proposed regulation represents an unprecedented overreach that threatens the integrity of the legal profession, undermines the sovereignty of state bar authorities, and creates a \"shield ...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-12932": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.44046409162845424
-    },
-    {
-      "cluster_id": 984,
+      "cluster_id": 996,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-13475",
@@ -5962,10 +6124,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44046409162845424
+      "presentation_score": 0.4397141561929228
     },
     {
-      "cluster_id": 975,
+      "cluster_id": 987,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-5022",
@@ -5998,10 +6160,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44046409162845424
+      "presentation_score": 0.4397141561929228
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34756",
@@ -6034,10 +6196,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43738716855153115
+      "presentation_score": 0.4366372331159998
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34941",
@@ -6070,10 +6232,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43738716855153115
+      "presentation_score": 0.4366372331159998
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-35050",
@@ -6106,7 +6268,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43738716855153115
+      "presentation_score": 0.4366372331159998
     },
     {
       "cluster_id": 51,
@@ -6142,61 +6304,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43738716855153115
+      "presentation_score": 0.4366372331159998
     },
     {
-      "cluster_id": 828,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-16867",
-      "representative_posted_date": "2026-03-11T04:00Z",
-      "representative_length": 1330,
-      "representative_excerpt": "I am a retired attorney and I care about preserving the rule of law and upholding the integrity of our justice system. This new rule will diminish accountability for misconduct by government lawyers, and I vigorously oppose it. Lawyers representing the United States must be subject to oversight by independent authorities like state bar associations. No feder...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-16867": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0001-12390": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.43646837907135927
-    },
-    {
-      "cluster_id": 790,
+      "cluster_id": 800,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-17565",
@@ -6244,10 +6355,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43646837907135927
+      "presentation_score": 0.4354078102075265
     },
     {
-      "cluster_id": 393,
+      "cluster_id": 698,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-19540",
+      "representative_posted_date": "2026-03-12T04:00Z",
+      "representative_length": 2919,
+      "representative_excerpt": "I strongly oppose this new rule as it will remove the last remaining oversight, checks-and-balances, of our Federal attorneys. It is a fact that Donald Trump has turned the DOJ into his own personal law firm - seeking his \"retribution\" for his perceived wrongs. Both the DOJ and FBI are no longer independent entitites. Americans are witnessing daily atrocitie...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-19540": {
+          "organization": "",
+          "postedDate": "2026-03-12T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 4,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4327910792698459
+    },
+    {
+      "cluster_id": 404,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25517",
@@ -6325,46 +6472,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4339542245891192
+      "presentation_score": 0.43245435371805635
     },
     {
-      "cluster_id": 690,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-19540",
-      "representative_posted_date": "2026-03-12T04:00Z",
-      "representative_length": 2919,
-      "representative_excerpt": "I strongly oppose this new rule as it will remove the last remaining oversight, checks-and-balances, of our Federal attorneys. It is a fact that Donald Trump has turned the DOJ into his own personal law firm - seeking his \"retribution\" for his perceived wrongs. Both the DOJ and FBI are no longer independent entitites. Americans are witnessing daily atrocitie...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-19540": {
-          "organization": "",
-          "postedDate": "2026-03-12T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 4,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4335410147053773
-    },
-    {
-      "cluster_id": 173,
+      "cluster_id": 183,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-31849",
@@ -6397,10 +6508,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4296948608592235
+      "presentation_score": 0.42894492542369206
     },
     {
-      "cluster_id": 146,
+      "cluster_id": 157,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34122",
@@ -6433,10 +6544,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4296948608592235
+      "presentation_score": 0.42894492542369206
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 115,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34703",
@@ -6499,7 +6610,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.42313183136644744
+      "presentation_score": 0.42183290508971066
     },
     {
       "cluster_id": 1,
@@ -6565,10 +6676,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.42313183136644744
+      "presentation_score": 0.42183290508971066
     },
     {
-      "cluster_id": 265,
+      "cluster_id": 274,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28837",
@@ -6601,10 +6712,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 249,
+      "cluster_id": 258,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28968",
@@ -6637,10 +6748,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 248,
+      "cluster_id": 257,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28971",
@@ -6673,10 +6784,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 228,
+      "cluster_id": 237,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29257",
@@ -6709,10 +6820,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 225,
+      "cluster_id": 234,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29277",
@@ -6745,10 +6856,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 223,
+      "cluster_id": 232,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29290",
@@ -6781,10 +6892,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 217,
+      "cluster_id": 226,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29345",
@@ -6817,10 +6928,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 212,
+      "cluster_id": 221,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29378",
@@ -6853,10 +6964,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 206,
+      "cluster_id": 215,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-29440",
@@ -6889,10 +7000,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4220025531669158
+      "presentation_score": 0.42125261773138434
     },
     {
-      "cluster_id": 434,
+      "cluster_id": 447,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25068",
@@ -6940,10 +7051,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42185299445597463
+      "presentation_score": 0.42079242559214186
     },
     {
-      "cluster_id": 948,
+      "cluster_id": 961,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-13819",
@@ -6976,10 +7087,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41815639932076193
+      "presentation_score": 0.4174064638852305
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 113,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34722",
@@ -7027,10 +7138,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41800684060982085
+      "presentation_score": 0.4169462717459881
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 75,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34927",
@@ -7078,7 +7189,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41800684060982085
+      "presentation_score": 0.4169462717459881
     },
     {
       "cluster_id": 26,
@@ -7129,10 +7240,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41800684060982085
+      "presentation_score": 0.4169462717459881
     },
     {
-      "cluster_id": 1113,
+      "cluster_id": 1122,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-1105",
@@ -7165,10 +7276,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4173871685515312
+      "presentation_score": 0.41663723311599976
     },
     {
-      "cluster_id": 1112,
+      "cluster_id": 1121,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-1137",
@@ -7201,10 +7312,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4173871685515312
+      "presentation_score": 0.41663723311599976
     },
     {
-      "cluster_id": 1101,
+      "cluster_id": 1110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-2367",
@@ -7237,10 +7348,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4173871685515312
+      "presentation_score": 0.41663723311599976
     },
     {
-      "cluster_id": 1092,
+      "cluster_id": 1101,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-2603",
+      "representative_posted_date": "2026-03-06T05:00Z",
+      "representative_length": 2022,
+      "representative_excerpt": "\u200bAs a veteran with 24 years of military service and a retired federal employee who served within the Department of Justice (DOJ), I am writing to formally register my opposition to this proposed rule. \u200bI have dedicated my entire professional life to the service of this country. During my tenure at the Department of Justice, I witnessed firsthand the immense ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-2603": {
+          "organization": "",
+          "postedDate": "2026-03-06T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41663723311599976
+    },
+    {
+      "cluster_id": 1099,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-2677",
@@ -7273,10 +7420,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4173871685515312
+      "presentation_score": 0.41663723311599976
     },
     {
-      "cluster_id": 1080,
+      "cluster_id": 1087,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-2906",
@@ -7309,10 +7456,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4173871685515312
+      "presentation_score": 0.41663723311599976
     },
     {
-      "cluster_id": 376,
+      "cluster_id": 387,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25710",
@@ -7345,10 +7492,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 364,
+      "cluster_id": 375,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25833",
@@ -7381,10 +7528,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 352,
+      "cluster_id": 362,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25941",
@@ -7417,10 +7564,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 301,
+      "cluster_id": 310,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26004",
@@ -7453,10 +7600,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 293,
+      "cluster_id": 301,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26506",
@@ -7489,10 +7636,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 292,
+      "cluster_id": 300,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-26595",
@@ -7525,10 +7672,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 337,
+      "cluster_id": 348,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28281",
@@ -7561,10 +7708,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 326,
+      "cluster_id": 338,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28384",
@@ -7597,10 +7744,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4143102454746081
+      "presentation_score": 0.4135603100390767
     },
     {
-      "cluster_id": 598,
+      "cluster_id": 610,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-22365",
@@ -7648,10 +7795,163 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41416068676366696
+      "presentation_score": 0.4131001178998342
     },
     {
-      "cluster_id": 141,
+      "cluster_id": 175,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-31936",
+      "representative_posted_date": "2026-03-18T04:00:00Z",
+      "representative_length": 682,
+      "representative_excerpt": "The content of this proposed rule is contrary to the bar obligations of attorneys in the US, including all current DOJ attorneys. All would have the same conflict. The federal government cannot require state bar admission and then at the same time suspend the bar regulations in 50 jurisdictions upon its sole initiative. This proposal would create a class of ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-31936": {
+          "organization": "",
+          "postedDate": "2026-03-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-17358": {
+          "organization": "",
+          "postedDate": "2026-03-11T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.40925396405368036
+    },
+    {
+      "cluster_id": 165,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-32037",
+      "representative_posted_date": "2026-03-18T04:00:00Z",
+      "representative_length": 2081,
+      "representative_excerpt": "In the United States, regulation of the legal profession has never been centralized within a single institution. Instead, professional standards are maintained through a distributed system involving courts, state bar authorities, legislatures, and the profession itself. This structure helps ensure independent oversight of those who exercise prosecutorial aut...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-32037": {
+          "organization": "",
+          "postedDate": "2026-03-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        },
+        "DOJ-OAG-2026-0001-19125": {
+          "organization": "",
+          "postedDate": "2026-03-12T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.40925396405368036
+    },
+    {
+      "cluster_id": 156,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0001-34124",
+      "representative_posted_date": "2026-03-18T04:00:00Z",
+      "representative_length": 701,
+      "representative_excerpt": "As a citizen concerned with justice, the law, and maintaining ethical practices within our federal criminal justice institutions, I am categorically opposed to this rule. The current Department of Justice leadership has dismissed, fired, and otherwise dismantled all senior leadership positions in self-review and ethics within the DOJ. There is no world in wh...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0001-34124": {
+          "organization": "",
+          "postedDate": "2026-03-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0001-25770": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04390",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.40925396405368036
+    },
+    {
+      "cluster_id": 152,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-34182",
@@ -7699,7 +7999,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41031453291751313
+      "presentation_score": 0.40925396405368036
     },
     {
       "cluster_id": 11,
@@ -7735,7 +8035,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4073871685515312
+      "presentation_score": 0.4066372331159997
     },
     {
       "cluster_id": 10,
@@ -7771,7 +8071,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4073871685515312
+      "presentation_score": 0.4066372331159997
     },
     {
       "cluster_id": 8,
@@ -7807,7 +8107,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4073871685515312
+      "presentation_score": 0.4066372331159997
     },
     {
       "cluster_id": 6,
@@ -7843,7 +8143,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4073871685515312
+      "presentation_score": 0.4066372331159997
     },
     {
       "cluster_id": 4,
@@ -7879,7 +8179,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4073871685515312
+      "presentation_score": 0.4066372331159997
     },
     {
       "cluster_id": 2,
@@ -7915,10 +8215,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4073871685515312
+      "presentation_score": 0.4066372331159997
     },
     {
-      "cluster_id": 420,
+      "cluster_id": 432,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-25238",
@@ -7981,10 +8281,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4069779852126013
+      "presentation_score": 0.40567905893586453
     },
     {
-      "cluster_id": 255,
+      "cluster_id": 264,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-28938",
@@ -8032,10 +8332,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4026222252252054
+      "presentation_score": 0.40156165636137264
     },
     {
-      "cluster_id": 140,
+      "cluster_id": 151,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-31874",
@@ -8068,10 +8368,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 138,
+      "cluster_id": 149,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32225",
@@ -8104,10 +8404,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 137,
+      "cluster_id": 148,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32311",
@@ -8140,10 +8440,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 135,
+      "cluster_id": 146,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32413",
@@ -8176,10 +8476,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 134,
+      "cluster_id": 145,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32554",
@@ -8212,10 +8512,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 133,
+      "cluster_id": 144,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32571",
@@ -8248,10 +8548,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 132,
+      "cluster_id": 143,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32601",
@@ -8284,10 +8584,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 128,
+      "cluster_id": 139,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32759",
@@ -8320,10 +8620,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 127,
+      "cluster_id": 138,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32767",
@@ -8356,10 +8656,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 126,
+      "cluster_id": 137,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-32797",
@@ -8392,10 +8692,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 122,
+      "cluster_id": 133,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-33426",
@@ -8428,10 +8728,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     },
     {
-      "cluster_id": 120,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0001-33447",
@@ -8464,187 +8764,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.39969486085922346
-    },
-    {
-      "cluster_id": 118,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-33641",
-      "representative_posted_date": "2026-03-18T04:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-04390",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-33641": {
-          "organization": "",
-          "postedDate": "2026-03-18T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
-    },
-    {
-      "cluster_id": 117,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-33748",
-      "representative_posted_date": "2026-03-18T04:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-04390",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-33748": {
-          "organization": "",
-          "postedDate": "2026-03-18T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 2,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
-    },
-    {
-      "cluster_id": 116,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-33775",
-      "representative_posted_date": "2026-03-18T04:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-04390",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-33775": {
-          "organization": "",
-          "postedDate": "2026-03-18T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 3,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
-    },
-    {
-      "cluster_id": 115,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-33810",
-      "representative_posted_date": "2026-03-18T04:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-04390",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-33810": {
-          "organization": "",
-          "postedDate": "2026-03-18T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.39969486085922346
-    },
-    {
-      "cluster_id": 114,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0001-34164",
-      "representative_posted_date": "2026-03-18T04:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-04390",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0001-34164": {
-          "organization": "Massachusetts Law Reform Institute",
-          "postedDate": "2026-03-18T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment on FR Doc # 2026-04390",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.39969486085922346
+      "presentation_score": 0.39894492542369203
     }
   ],
   "comments_clusters_path": "data/comments/DOJ-OAG-2026-0001.csv",
@@ -8652,15 +8772,15 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8398813936249073,
-  "comments_first_page_coverage_count": 1133,
+  "comments_first_page_coverage_share": 0.8576010262989096,
+  "comments_first_page_coverage_count": 1337,
   "comments_clusters_total_available": 200,
   "comments_clusters_displayed": 200,
   "comments_first_page_high_signal_clusters": 16,
-  "comments_first_page_novelty_clusters": 15,
+  "comments_first_page_novelty_clusters": 13,
   "comments_first_page_stance_counts": {
-    "negative": 20,
-    "neutral": 4,
+    "negative": 21,
+    "neutral": 3,
     "positive": 1
   },
   "comments_first_page_unique_days": 8,
