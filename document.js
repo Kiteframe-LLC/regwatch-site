@@ -350,12 +350,6 @@ function renderDayHeatmap(label, byDay) {
   return renderWeeklyHeatmap(label, byDay);
 }
 
-function commentRowsHtml(comments, page, perPage) {
-  const start = Math.max(0, (page - 1) * perPage);
-  const end = start + perPage;
-  return comments.slice(start, end).map(commentClusterRow).join("");
-}
-
 function renderMarkdown(md) {
   if (!md) return "<p>Not available for this document.</p>";
   if (typeof marked !== "undefined") return marked.parse(md);
@@ -386,20 +380,34 @@ function detailHtml(d, summaryMd, analysisMd) {
   const attachmentRows = attachments.map(attachmentRow).join("");
   const governmentSubmissions = d.government_submissions || [];
   const governmentSubmissionRows = governmentSubmissions.map(govSubmissionRow).join("");
-  const comments = d.comments_clusters || [];
-  const sentimentPos = Number(d.comments_sentiment_positive_pct || 0);
-  const sentimentNeg = Number(d.comments_sentiment_negative_pct || 0);
-  const sentimentNeu = Number(d.comments_sentiment_neutral_pct || 0);
-  const sentimentNet = Number(d.comments_sentiment_net || 0);
-  const sentimentSample = Number(d.comments_sentiment_sample_size || 0);
-  const sentimentNetView = sentimentNetMeta(sentimentNet, sentimentSample);
   const referencedDocuments = Array.isArray(d.referenced_documents)
     ? d.referenced_documents
     : [];
   const referencedDocumentRows = referencedDocuments.map(referencedDocumentRow).join("");
-  const rowsPerPage = 25;
-  const totalCommentPages = Math.max(1, Math.ceil(comments.length / rowsPerPage));
-  const commentRows = commentRowsHtml(comments, 1, rowsPerPage);
+  const commentsPanelHtml =
+    window.RegwatchComments && typeof window.RegwatchComments.renderCommentsPanel === "function"
+      ? window.RegwatchComments.renderCommentsPanel(
+          d,
+          {
+            rowsPerPage: 25,
+            showSentiment: true,
+            showSelectionMeta: true,
+            showFirstPageCards: true,
+          },
+          {
+            esc,
+            formatMetricNumber,
+            formatPct,
+            formatDateOnly,
+            formatEasternDateTime,
+            commenterTypesText,
+            submissionRolesText,
+            stanceMixText,
+            renderDayHeatmap,
+            sentimentNetMeta,
+          }
+        )
+      : "<p>No comment renderer available.</p>";
   const hasSummary = Boolean(d.summary_available && summaryMd);
   const hasAnalysis = Boolean(d.raw_summary_available && analysisMd);
   const summaryBody = `${renderMarkdown(summaryMd)}${aiDisclaimerHtml()}`;
@@ -494,71 +502,7 @@ function detailHtml(d, summaryMd, analysisMd) {
       </div>
 
       <div class="tab-panel" data-panel="comments" role="tabpanel">
-        <div class="comment-metrics-grid">
-          <div class="metric-card"><div class="metric-label">Total comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_total || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Fetched sample</div><div class="metric-value">${esc(formatMetricNumber(d.comments_fetched || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Hydrated text</div><div class="metric-value">${esc(formatMetricNumber(d.comments_text_hydrated || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Unique clusters</div><div class="metric-value">${esc(formatMetricNumber(d.comments_unique_clusters || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Clustered duplicates</div><div class="metric-value">${esc(formatMetricNumber(d.comments_clustered_duplicates || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Source</div><div class="metric-value">${esc(d.comments_source || "unknown")}</div></div>
-          <div class="metric-card"><div class="metric-label">Citizen comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_citizen_count || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Novel cluster share</div><div class="metric-value">${esc(formatPct(d.comments_novel_comment_rate || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Public channel</div><div class="metric-value">${esc(formatMetricNumber(d.comments_public_count || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Recorded channel</div><div class="metric-value">${esc(formatMetricNumber(d.comments_recorded_count || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Agency material</div><div class="metric-value">${esc(formatMetricNumber(d.comments_agency_material_count || 0))}</div></div>
-          <div class="metric-card"><div class="metric-label">Positive</div><div class="metric-value">${esc(formatPct(sentimentPos))}</div></div>
-          <div class="metric-card"><div class="metric-label">Negative</div><div class="metric-value">${esc(formatPct(sentimentNeg))}</div></div>
-          <div class="metric-card"><div class="metric-label">Neutral</div><div class="metric-value">${esc(formatPct(sentimentNeu))}</div></div>
-          <div class="metric-card"><div class="metric-label">Net sentiment</div><div class="metric-value"><span class="review-pill ${esc(sentimentNetView.cls)}">${esc(sentimentNetView.label)}</span></div></div>
-          <div class="metric-card"><div class="metric-label">Sentiment sample</div><div class="metric-value">${esc(formatMetricNumber(sentimentSample))}</div></div>
-        </div>
-        <p><strong>Commenter types:</strong> ${esc(commenterTypesText(d.comments_commenter_type_counts || {}))}</p>
-        <p><strong>Submission roles:</strong> ${esc(submissionRolesText(d.comments_submission_role_counts || {}))}</p>
-        <p><strong>Submission channels:</strong> ${esc(commenterTypesText(d.comments_submission_channel_counts || {}))}</p>
-        ${
-          Number(d.government_submissions_count || 0) > 0
-            ? `<p><strong>Government submissions detected:</strong> <span class="review-pill sentiment-negative">${esc(formatMetricNumber(d.government_submissions_count || 0))}</span></p>`
-            : ""
-        }
-        <p><strong>Selection:</strong> ${esc(d.comments_display_strategy || "default")} | first-page coverage ${esc(formatPct(d.comments_first_page_coverage_share || 0))} | stance mix ${esc(stanceMixText(d.comments_first_page_stance_counts || {}))} | days represented ${esc(d.comments_first_page_unique_days || 0)}</p>
-        <div class="comment-heatmaps">
-          ${renderDayHeatmap("New clusters/day", d.comments_new_cluster_count_by_day || {})}
-          ${renderDayHeatmap("High-signal/day", d.comments_high_signal_cluster_count_by_day || {})}
-        </div>
-        <p><strong>Freshness (ET):</strong> bulk snapshot ${esc(formatEasternDateTime(d.comments_bulk_last_posted_date))} | API last seen ${esc(formatEasternDateTime(d.comments_api_last_seen_at))}</p>
-        ${samplingBackfillHtml(d)}
-        ${d.comment_count_supported === false ? `<p><em>${esc(d.comment_count_note || "Comment counts are not available for this comment channel.")}</em></p>` : ""}
-        ${d.comments_truncated ? "<p><em>Comment sample is truncated for performance.</em></p>" : ""}
-        ${d.comments_error ? `<p><em>Comments warning: ${esc(d.comments_error)}</em></p>` : ""}
-        ${
-          comments.length
-            ? `<div class="comment-metrics-grid">
-                <div class="metric-card"><div class="metric-label">Displayed / analyzed clusters</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_count || 0))}/${esc(formatMetricNumber(d.comments_clusters_total_available || 0))}</div></div>
-                <div class="metric-card"><div class="metric-label">High-signal on page 1</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_high_signal_clusters || 0))}</div></div>
-                <div class="metric-card"><div class="metric-label">Novelty on page 1</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_novelty_clusters || 0))}</div></div>
-                <div class="metric-card"><div class="metric-label">Represented comments</div><div class="metric-value">${esc(formatMetricNumber(d.comments_first_page_coverage_count || 0))}/${esc(formatMetricNumber(d.comments_total || 0))}</div></div>
-              </div>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Count</th>
-                    <th>Sentiment</th>
-                    <th>Channel</th>
-                    <th>Representative Comment ID</th>
-                    <th>Date</th>
-                    <th>Chars</th>
-                    <th>Representative Excerpt</th>
-                  </tr>
-                </thead>
-                <tbody id="commentRowsBody">${commentRows}</tbody>
-              </table>
-              <div class="inline-actions" id="commentPager" data-total-pages="${totalCommentPages}" data-page-size="${rowsPerPage}">
-                <button type="button" class="action-btn" id="commentPrevBtn" disabled>Prev</button>
-                <span id="commentPageLabel">Page 1 of ${totalCommentPages}</span>
-                <button type="button" class="action-btn" id="commentNextBtn" ${totalCommentPages > 1 ? "" : "disabled"}>Next</button>
-              </div>`
-            : "<p>No comment text clusters available in current site export.</p>"
-        }
+        ${commentsPanelHtml}
       </div>
 
       <div class="tab-panel" data-panel="attachments" role="tabpanel">
@@ -602,36 +546,6 @@ function detailHtml(d, summaryMd, analysisMd) {
       </div>
     </section>
   `;
-}
-
-function initCommentPager(comments) {
-  const pager = document.getElementById("commentPager");
-  const body = document.getElementById("commentRowsBody");
-  const prev = document.getElementById("commentPrevBtn");
-  const next = document.getElementById("commentNextBtn");
-  const label = document.getElementById("commentPageLabel");
-  if (!pager || !body || !prev || !next || !label) return;
-  const totalPages = Number(pager.dataset.totalPages || 1);
-  const perPage = Number(pager.dataset.pageSize || 25);
-  let page = 1;
-  const renderPage = () => {
-    body.innerHTML = commentRowsHtml(comments || [], page, perPage);
-    label.textContent = `Page ${page} of ${totalPages}`;
-    prev.disabled = page <= 1;
-    next.disabled = page >= totalPages;
-  };
-  prev.addEventListener("click", () => {
-    if (page > 1) {
-      page -= 1;
-      renderPage();
-    }
-  });
-  next.addEventListener("click", () => {
-    if (page < totalPages) {
-      page += 1;
-      renderPage();
-    }
-  });
 }
 
 function initTabs() {
@@ -700,7 +614,9 @@ async function main() {
   const analysisMd = analysisRes && analysisRes.ok ? await analysisRes.text() : "";
   root.innerHTML = detailHtml(data, summaryMd, analysisMd);
   initTabs();
-  initCommentPager(data.comments_clusters || []);
+  if (window.RegwatchComments && typeof window.RegwatchComments.initCommentPager === "function") {
+    window.RegwatchComments.initCommentPager(data.comments_clusters || [], { esc, formatDateOnly });
+  }
 }
 
 main().catch((err) => {
