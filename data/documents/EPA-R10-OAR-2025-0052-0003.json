@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-23T03:28:10.309325+00:00",
+  "comment_action_checked_at": "2026-03-24T04:58:32.056186+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-04T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 4,
-  "pass_3_score": 1.6451612903225805,
+  "pass_3_score": 1.935483870967742,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.23981507154546977,
+  "pass_3_scaled": 0.2757224800257857,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5123541800007088,
+  "combined_score": 0.5303078842408667,
   "score_total": 15,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -50,7 +50,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/04/2026-04333.html"
   ],
   "supporting_related_material_count": 24,
-  "supporting_docs_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=EPA-R10-OAR-2025-0052&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1; used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "EPA-R10-OAR-2025-0052-0006",
@@ -410,6 +410,48 @@
       ]
     },
     {
+      "document_id": "EPA-R10-OAR-2025-0052-0018",
+      "tracking_number": "m6b-id3j-ai71",
+      "title": "Klamath Falls 2006 24-hour PM2.5 Maintenance Plan and Resignation Request",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-03-04T05:00:00Z",
+      "received_date": "2025-01-24T05:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-R10-OAR-2025-0052-0018/content.pdf",
+          "format": "pdf",
+          "size": 13610348
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-R10-OAR-2025-0052-0015",
+      "tracking_number": "mkr-jiwi-rwoy",
+      "title": "Klamath Falls AQS Monitoring Data 2015-2017",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-03-04T05:00:00Z",
+      "received_date": "2026-01-23T05:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-R10-OAR-2025-0052-0015/content.pdf",
+          "format": "pdf",
+          "size": 100315
+        }
+      ]
+    },
+    {
       "document_id": "EPA-R10-OAR-2025-0052-0021",
       "tracking_number": "mkq-1kqf-f7yq",
       "title": "20250402_AQ_KFALLS-MSIP_CoverLetter (Signed)",
@@ -469,48 +511,6 @@
           "fileUrl": "https://downloads.regulations.gov/EPA-R10-OAR-2025-0052-0007/content.pdf",
           "format": "pdf",
           "size": 84661
-        }
-      ]
-    },
-    {
-      "document_id": "EPA-R10-OAR-2025-0052-0018",
-      "tracking_number": "m6b-id3j-ai71",
-      "title": "Klamath Falls 2006 24-hour PM2.5 Maintenance Plan and Resignation Request",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-03-04T05:00:00Z",
-      "received_date": "2025-01-24T05:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 0,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-R10-OAR-2025-0052-0018/content.pdf",
-          "format": "pdf",
-          "size": 13610348
-        }
-      ]
-    },
-    {
-      "document_id": "EPA-R10-OAR-2025-0052-0015",
-      "tracking_number": "mkr-jiwi-rwoy",
-      "title": "Klamath Falls AQS Monitoring Data 2015-2017",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-03-04T05:00:00Z",
-      "received_date": "2026-01-23T05:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 0,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-R10-OAR-2025-0052-0015/content.pdf",
-          "format": "pdf",
-          "size": 100315
         }
       ]
     },
@@ -614,9 +614,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-21T22:03:41.019713+00:00",
-  "comments_checked_at": "2026-03-21T22:03:41.019746+00:00",
-  "comments_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/comments?filter%5BcommentOnId%5D=09000064b91ef03b&sort=-postedDate&page%5Bsize%5D=10&page%5Bnumber%5D=1; used_stale_cache",
+  "comments_api_last_seen_at": "2026-03-24T02:18:57.274798+00:00",
+  "comments_checked_at": "2026-03-24T02:18:57.274831+00:00",
+  "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/EPA-R10-OAR-2025-0052.csv",
   "government_submissions_count": 0,

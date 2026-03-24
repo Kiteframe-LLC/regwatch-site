@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-23T03:28:09.254599+00:00",
+  "comment_action_checked_at": "2026-03-24T04:58:31.361466+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-02T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 5.039689387402934,
+  "pass_3_score": 5.038488952245189,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.5682671268712732,
+  "pass_3_scaled": 0.5681807403431662,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5785123697951824,
+  "combined_score": 0.5784691765311288,
   "score_total": 9,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -47,9 +47,51 @@
   "rule_text_sources": [
     "https://www.federalregister.gov/documents/full_text/html/2026/03/02/2026-04089.html"
   ],
-  "supporting_related_material_count": 4,
-  "supporting_docs_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=OCC-2025-0372&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1; used_stale_cache",
+  "supporting_related_material_count": 6,
+  "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "OCC-2025-0372-0031",
+      "tracking_number": "mn3-khtu-u4jl",
+      "title": "Summary of March18, 2026, meeting with BlackRock",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-03-23T04:00:00Z",
+      "received_date": "2026-03-23T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/OCC-2025-0372-0031/content.pdf",
+          "format": "pdf",
+          "size": 93050
+        }
+      ]
+    },
+    {
+      "document_id": "OCC-2025-0372-0030",
+      "tracking_number": "mn3-kbdl-tbwj",
+      "title": "Summary of March 16, 2026, meeting with Stripe",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-03-23T04:00:00Z",
+      "received_date": "2026-03-23T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/OCC-2025-0372-0030/content.pdf",
+          "format": "pdf",
+          "size": 109021
+        }
+      ]
+    },
     {
       "document_id": "OCC-2025-0372-0027",
       "tracking_number": "mmy-zam3-2cj0",
@@ -141,37 +183,38 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 23,
-  "comments_velocity_total": 21,
-  "comments_public_total_estimate": 21,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 23,
-  "comments_unique_clusters": 21,
+  "comments_total": 24,
+  "comments_velocity_total": 22,
+  "comments_public_total_estimate": 22,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 24,
+  "comments_unique_clusters": 22,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 14,
+  "comments_citizen_count": 15,
   "comments_commenter_type_counts": {
+    "citizen": 15,
     "organization_other": 8,
-    "citizen": 14,
     "government": 1
   },
   "comments_submission_role_counts": {
-    "organization": 9,
-    "individual": 14
+    "individual": 15,
+    "organization": 9
   },
   "comments_submission_channel_counts": {
-    "public_portal": 21,
+    "public_portal": 22,
     "agency_material": 1,
     "other_channel_recorded": 1
   },
-  "comments_public_count": 21,
+  "comments_public_count": 22,
   "comments_recorded_count": 1,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-03-23": 1,
     "2026-03-17": 3,
     "2026-03-16": 2,
     "2026-03-13": 1,
@@ -185,18 +228,18 @@
     "2026-03-09": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.10526315789473684,
-  "comments_sentiment_negative_pct": 0.05263157894736842,
-  "comments_sentiment_neutral_pct": 0.8421052631578947,
-  "comments_sentiment_net": 0.05263157894736842,
-  "comments_sentiment_sample_size": 19,
+  "comments_sentiment_positive_pct": 0.09999999999999999,
+  "comments_sentiment_negative_pct": 0.049999999999999996,
+  "comments_sentiment_neutral_pct": 0.85,
+  "comments_sentiment_net": 0.049999999999999996,
+  "comments_sentiment_sample_size": 20,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 21,
+  "comments_analysis_sample_size": 22,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 21,
-  "comments_representative_prior_selected": 21,
+  "comments_representative_selected": 22,
+  "comments_representative_prior_selected": 22,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 11,
   "comments_representative_run_budget": 2,
@@ -206,19 +249,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 11,
     "salience_rank": 2,
-    "weighted_fill": 8
+    "weighted_fill": 9
   },
-  "comments_representative_selected_by_counts_total": 21,
+  "comments_representative_selected_by_counts_total": 22,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-21T22:02:36.288898+00:00",
-  "comments_checked_at": "2026-03-21T22:02:37.385295+00:00",
-  "comments_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/comments?filter%5BcommentOnId%5D=09000064b91e8f98&sort=-postedDate&page%5Bsize%5D=10&page%5Bnumber%5D=1; used_stale_cache",
+  "comments_api_last_seen_at": "2026-03-24T02:20:00.968254+00:00",
+  "comments_checked_at": "2026-03-24T02:20:02.479660+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 14,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0013",
@@ -251,10 +294,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8625
+      "presentation_score": 0.8571428571428572
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0005",
@@ -290,7 +333,7 @@
       "presentation_score": 0.8
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0015",
@@ -323,10 +366,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7625
+      "presentation_score": 0.7571428571428571
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0009",
@@ -362,7 +405,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0010",
@@ -398,7 +441,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0014",
@@ -431,10 +474,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6625
+      "presentation_score": 0.6571428571428571
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0018",
@@ -467,10 +510,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6875
+      "presentation_score": 0.6714285714285715
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0021",
@@ -503,10 +546,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7000000000000001
+      "presentation_score": 0.6785714285714286
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0022",
@@ -539,10 +582,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7375
+      "presentation_score": 0.7000000000000001
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0025",
@@ -575,10 +618,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7000000000000001
+      "presentation_score": 0.6571428571428573
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0023",
@@ -611,10 +654,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6375000000000001
+      "presentation_score": 0.6000000000000001
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0024",
@@ -647,10 +690,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6000000000000001
+      "presentation_score": 0.5571428571428572
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0008",
@@ -686,7 +729,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0016",
@@ -719,10 +762,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5125000000000001
+      "presentation_score": 0.5071428571428571
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0011",
@@ -758,7 +801,7 @@
       "presentation_score": 0.5
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0026",
@@ -791,10 +834,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.49999999999999994
+      "presentation_score": 0.45714285714285713
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0007",
@@ -830,7 +873,43 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OCC-2025-0372-0029",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 39,
+      "representative_excerpt": "Notice of Proposed Rule-making (\u201cNPRM\u201d)",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OCC-2025-0372-0029": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "Dana Point",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Kevin Smith",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0019",
@@ -863,10 +942,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.43749999999999994
+      "presentation_score": 0.4214285714285714
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0006",
@@ -902,7 +981,7 @@
       "presentation_score": 0.39999999999999997
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0017",
@@ -935,10 +1014,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38749999999999996
+      "presentation_score": 0.3714285714285714
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OCC-2025-0372-0020",
@@ -971,7 +1050,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38749999999999996
+      "presentation_score": 0.3714285714285714
     }
   ],
   "comments_clusters_path": "data/comments/OCC-2025-0372.csv",
@@ -990,24 +1069,24 @@
       "withdrawn": false,
       "representative_excerpt": "EmpowerHour LLC",
       "source_cluster_ids": [
-        10
+        11
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 21,
+  "comments_first_page_count": 22,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 21,
-  "comments_clusters_total_available": 21,
-  "comments_clusters_displayed": 21,
+  "comments_first_page_coverage_count": 22,
+  "comments_clusters_total_available": 22,
+  "comments_clusters_displayed": 22,
   "comments_first_page_high_signal_clusters": 3,
   "comments_first_page_novelty_clusters": 8,
   "comments_first_page_stance_counts": {
-    "neutral": 18,
+    "neutral": 19,
     "negative": 1,
     "positive": 2
   },
-  "comments_first_page_unique_days": 6,
+  "comments_first_page_unique_days": 7,
   "summary_available": true,
   "raw_summary_available": true
 }

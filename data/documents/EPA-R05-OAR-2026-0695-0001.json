@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-23T03:28:24.386509+00:00",
+  "comment_action_checked_at": "2026-03-24T04:58:48.058190+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-03-31T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 2,
-  "pass_3_score": 2.090909090909091,
+  "pass_3_score": 2.3636363636363633,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.29424339177513825,
+  "pass_3_scaled": 0.3256050725782451,
   "ranking_multiplier": 0.65,
-  "combined_score": 0.3048972411820702,
+  "combined_score": 0.31508978744307986,
   "score_total": 11,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ROUTINE_ADMINISTRATIVE_RULE",
@@ -48,8 +48,34 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/02/26/2026-03846.html"
   ],
   "supporting_related_material_count": 8,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "EPA-R05-OAR-2026-0695-0009",
+      "tracking_number": "ml9-gmit-jnfv",
+      "title": "MetAdjO3_171193007",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-02-26T05:00:00Z",
+      "received_date": "2026-02-05T05:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-R05-OAR-2026-0695-0009/content.xlsx",
+          "format": "xlsx",
+          "size": 737097
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-R05-OAR-2026-0695-0009/content.pdf",
+          "format": "pdf",
+          "size": 2717202
+        }
+      ]
+    },
     {
       "document_id": "EPA-R05-OAR-2026-0695-0007",
       "tracking_number": "ml9-gmit-jnfv",
@@ -94,32 +120,6 @@
           "fileUrl": "https://downloads.regulations.gov/EPA-R05-OAR-2026-0695-0008/content.pdf",
           "format": "pdf",
           "size": 2602695
-        }
-      ]
-    },
-    {
-      "document_id": "EPA-R05-OAR-2026-0695-0009",
-      "tracking_number": "ml9-gmit-jnfv",
-      "title": "MetAdjO3_171193007",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-02-26T05:00:00Z",
-      "received_date": "2026-02-05T05:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 0,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-R05-OAR-2026-0695-0009/content.xlsx",
-          "format": "xlsx",
-          "size": 737097
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-R05-OAR-2026-0695-0009/content.pdf",
-          "format": "pdf",
-          "size": 2717202
         }
       ]
     },
@@ -281,9 +281,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-21T22:01:37.636948+00:00",
-  "comments_checked_at": "2026-03-21T22:01:37.637064+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45); used_stale_cache",
+  "comments_api_last_seen_at": "2026-03-24T02:16:45.195611+00:00",
+  "comments_checked_at": "2026-03-24T02:16:45.195731+00:00",
+  "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/EPA-R05-OAR-2026-0695.csv",
   "government_submissions_count": 0,
