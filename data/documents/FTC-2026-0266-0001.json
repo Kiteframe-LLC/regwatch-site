@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/FTC-2026-0266-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-24T04:58:30.585433+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": "check_failed:ConnectionError",
+  "comment_action_checked_at": "2026-03-25T13:47:04.865868+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-14T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 0,
-  "pass_3_score": 11.114583333333332,
+  "pass_3_score": 14.817307692307692,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.0,
-  "pass_3_scaled": 0.8431445432833893,
+  "pass_3_scaled": 0.9153771777372501,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6334913782363862,
+  "combined_score": 0.6696076954633167,
   "score_total": 9,
   "pass_2_rule_type": "anprm",
   "pass_2_rule_class": "ANPRM_INQUIRY",
@@ -98,74 +98,114 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 85,
-  "comments_velocity_total": 85,
-  "comments_public_total_estimate": 85,
+  "comments_total": 139,
+  "comments_velocity_total": 139,
+  "comments_public_total_estimate": 139,
   "comments_fetched": 10,
   "comments_text_hydrated": 10,
-  "comments_cached_records": 24,
-  "comments_unique_clusters": 24,
+  "comments_cached_records": 34,
+  "comments_unique_clusters": 34,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 23,
+  "comments_citizen_count": 33,
   "comments_commenter_type_counts": {
-    "citizen": 23,
+    "citizen": 33,
     "organization_other": 1
   },
   "comments_submission_role_counts": {
-    "individual": 24
+    "individual": 34
   },
   "comments_submission_channel_counts": {
-    "public_portal": 24
+    "public_portal": 34
   },
-  "comments_public_count": 24,
+  "comments_public_count": 34,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-03-25": 3,
+    "2026-03-24": 7,
     "2026-03-23": 10,
     "2026-03-17": 2,
     "2026-03-16": 6,
     "2026-03-13": 6
   },
-  "comments_high_signal_cluster_count_by_day": {},
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-03-24": 1
+  },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.16666666666666669,
-  "comments_sentiment_negative_pct": 0.375,
-  "comments_sentiment_neutral_pct": 0.45833333333333337,
-  "comments_sentiment_net": -0.20833333333333331,
-  "comments_sentiment_sample_size": 24,
+  "comments_sentiment_positive_pct": 0.14705882352941177,
+  "comments_sentiment_negative_pct": 0.3529411764705882,
+  "comments_sentiment_neutral_pct": 0.5,
+  "comments_sentiment_net": -0.20588235294117643,
+  "comments_sentiment_sample_size": 34,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 24,
+  "comments_analysis_sample_size": 34,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 24,
-  "comments_representative_prior_selected": 24,
+  "comments_representative_selected": 34,
+  "comments_representative_prior_selected": 34,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 1,
-  "comments_representative_run_budget": 8,
+  "comments_representative_run_budget": 10,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 1,
-    "weighted_fill": 22,
+    "weighted_fill": 32,
     "must_keep": 1
   },
-  "comments_representative_selected_by_counts_total": 24,
+  "comments_representative_selected_by_counts_total": 34,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-24T02:18:39.144324+00:00",
-  "comments_checked_at": "2026-03-24T02:18:39.363394+00:00",
+  "comments_api_last_seen_at": "2026-03-25T13:19:21.690805+00:00",
+  "comments_checked_at": "2026-03-25T13:19:22.059152+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 24,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0109",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 3824,
+      "representative_excerpt": "Recommendation: exempt small-scale, owner-occupied, and very-low-volume providers with clear thresholds; do not exempt third-party service providers. 1) Who to exempt (recommended) - Owner-occupied buildings with \u22644 total units where the owner resides in one unit. - Individual landlords who own and actively manage \u22642 units (single- or two-family homes). - Sm...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0109": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "IN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Beda, Peter",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9416666666666668
+    },
+    {
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0002",
@@ -198,10 +238,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8500000000000001
+      "presentation_score": 0.7166666666666666
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0003",
@@ -234,10 +274,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8500000000000001
+      "presentation_score": 0.7166666666666666
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0007",
@@ -270,10 +310,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8500000000000001
+      "presentation_score": 0.7166666666666666
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0008",
@@ -306,10 +346,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8800000000000001
+      "presentation_score": 0.7416666666666666
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0010",
@@ -342,10 +382,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8800000000000001
+      "presentation_score": 0.7416666666666666
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0011",
@@ -378,10 +418,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8800000000000001
+      "presentation_score": 0.7416666666666666
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0014",
@@ -414,10 +454,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8900000000000001
+      "presentation_score": 0.7499999999999999
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0143",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 4444,
+      "representative_excerpt": "Let me tell you where I am coming from. I have been a Realtor in Northern Virginia for over 30 years. I have worked with dozens of investors over those years. For any landlord I helped buy a rental property, I told them that while I do not do property management, I would help them find a renter, process the application and pull together the lease. I no longe...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0143": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "VA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Facenda, Joe",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8166666666666665
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0112",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 1872,
+      "representative_excerpt": "My grandfather,, my grandma, my mom, have all had rental properties, rent, sale and rent to own, you signed a lease or month to month, or if rent to own, would be a certain price over so many years and would be there's or get their deposit back unless they tore the place up other than normal where, something messed up my grandfather went and fixed it, no mat...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0112": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "GA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Thompson, Timothy",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8083333333333332
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0120",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 4993,
+      "representative_excerpt": "I'm a senior citizen, disabled veteran and living on a fixed income (currently only my monthly income of $1,147 from Social Security retirement). I've resided in my studio apartment for almost 7 years and always paid my full rent due on time every month without exception. A few years ago, my apartmemt complex was sold to a new owner who hired Orange Realty G...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0120": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NV",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Cavan, David",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8083333333333332
+    },
+    {
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0015",
@@ -450,10 +598,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9400000000000002
+      "presentation_score": 0.7999999999999999
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0053",
@@ -486,10 +634,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.7999999999999999
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0069",
@@ -522,10 +670,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.7999999999999999
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0141",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 733,
+      "representative_excerpt": "When we first moved in here, they increased our rent by $200 every month for the use of our laundry and dryer machines which comes with the apartment and wasn\u2019t advertised as a separate fee when we applied for this apartment and when we questioned it after we signed the lease, they said they would remove the machines to keep the rent the same rate that they ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0141": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Nicholas, Theodore",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6833333333333332
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0142",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 1089,
+      "representative_excerpt": "If all questions are addressed and the burden falls on landlords to address all this documented, honest, estimation of fees, this will be be quite a heavy burden for families or landlords with one or a few properties, especially if multiple properties have different town, city, county, and state requirements and service providers. Also, for questions 25, 27,...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0142": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous, Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6833333333333332
+    },
+    {
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0054",
@@ -558,10 +778,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.75
+      "presentation_score": 0.6666666666666666
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0067",
@@ -594,10 +814,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.75
+      "presentation_score": 0.6666666666666666
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0073",
@@ -630,10 +850,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.75
+      "presentation_score": 0.6666666666666666
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0012",
@@ -666,10 +886,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.68
+      "presentation_score": 0.6083333333333333
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0013",
@@ -702,10 +922,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.68
+      "presentation_score": 0.6083333333333333
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0004",
@@ -738,10 +958,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.5833333333333333
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0005",
@@ -774,10 +994,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.5833333333333333
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0006",
@@ -810,10 +1030,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.5833333333333333
     },
     {
       "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0105",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 729,
+      "representative_excerpt": "We bought a new refrigerator and water heater asking the owner not to raise our rent. He agreed. His rental manager had tried to raise the rent a couple of times on her own because they get a % and she wanted to get more money out of his renters. When I saw the owner I asked him if he was increasing the rent and he said no and would take care of this manager...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0105": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "VA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Plummer, Joyce",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5416666666666667
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0128",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 274,
+      "representative_excerpt": "The renter community is ridiculous, prices are so high,I cannot hardly afford it ,I have to chose between this and that,to make it ,I cannot work ,even jobs don't pay enough for rent ,food,bills, something needs be done ,how did we get here ? HELP US please,we are drowning.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0128": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hartley, Julie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5416666666666667
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0130",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 596,
+      "representative_excerpt": "There has been multiple times for random extra charges from my previous landlord.including when I moved in to my apartment it was not fully ready. There were multiple stuff that was broken in my apartment I complain over and over and asked the landlord to fix it and he refused to do so. Then when I moved out he never returned my deposit to me and the apartme...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0130": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "SD",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Wiley, Imani",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5416666666666667
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0266-0133",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 676,
+      "representative_excerpt": "I've come across an article in my local newspaper where a gigantic Rental Assistant Company has sold its software on rent manipulation to landlords all over the country. This software is marketed and sold to apartment owners, esp. here in Texas. Unfortunately, I am an apartment resident of this scheme. Real Pages is the culprit that invented a software that ...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0266-0133": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5416666666666667
+    },
+    {
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0043",
@@ -846,10 +1210,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.5333333333333333
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0045",
@@ -882,10 +1246,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.5333333333333333
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0047",
@@ -918,10 +1282,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.5333333333333333
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0051",
@@ -954,10 +1318,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.5333333333333333
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0059",
@@ -990,10 +1354,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.5333333333333333
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0266-0009",
@@ -1026,26 +1390,26 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48000000000000004
+      "presentation_score": 0.47500000000000003
     }
   ],
   "comments_clusters_path": "data/comments/FTC-2026-0266.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 24,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 24,
-  "comments_clusters_total_available": 24,
-  "comments_clusters_displayed": 24,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.7352941176470589,
+  "comments_first_page_coverage_count": 25,
+  "comments_clusters_total_available": 34,
+  "comments_clusters_displayed": 34,
+  "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
+    "neutral": 9,
     "positive": 4,
-    "negative": 9,
-    "neutral": 11
+    "negative": 12
   },
-  "comments_first_page_unique_days": 4,
+  "comments_first_page_unique_days": 6,
   "summary_available": true,
   "raw_summary_available": true
 }

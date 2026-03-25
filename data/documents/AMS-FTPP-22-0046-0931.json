@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/AMS-FTPP-22-0046-0931",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-24T04:58:32.200016+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": "check_failed:ConnectionError",
+  "comment_action_checked_at": "2026-03-25T13:47:04.949482+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-18T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 0,
-  "pass_3_score": 6.723502304147464,
+  "pass_3_score": 7.30241935483871,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.0,
-  "pass_3_scaled": 0.6739106049814343,
+  "pass_3_scaled": 0.7039035083492392,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5213022325908772,
+  "combined_score": 0.5362986842747797,
   "score_total": 7,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -158,48 +158,48 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 22,
-  "comments_velocity_total": 22,
-  "comments_public_total_estimate": 22,
+  "comments_total": 29,
+  "comments_velocity_total": 29,
+  "comments_public_total_estimate": 29,
   "comments_fetched": 10,
   "comments_text_hydrated": 10,
-  "comments_cached_records": 10,
-  "comments_unique_clusters": 9,
-  "comments_clustered_duplicates": 1,
+  "comments_cached_records": 20,
+  "comments_unique_clusters": 18,
+  "comments_clustered_duplicates": 2,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 10,
+  "comments_citizen_count": 20,
   "comments_commenter_type_counts": {
-    "citizen": 10
+    "citizen": 20
   },
   "comments_submission_role_counts": {
-    "individual": 10
+    "individual": 20
   },
   "comments_submission_channel_counts": {
-    "public_portal": 10
+    "public_portal": 20
   },
-  "comments_public_count": 10,
+  "comments_public_count": 20,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-03-23": 9
+    "2026-03-23": 18
   },
   "comments_high_signal_cluster_count_by_day": {},
   "comments_novel_comment_rate": 0.9,
-  "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.10433008996381171,
-  "comments_sentiment_neutral_pct": 0.8956699100361882,
-  "comments_sentiment_net": -0.10433008996381171,
-  "comments_sentiment_sample_size": 10,
+  "comments_sentiment_positive_pct": 0.05263157894736842,
+  "comments_sentiment_negative_pct": 0.15789473684210525,
+  "comments_sentiment_neutral_pct": 0.7894736842105263,
+  "comments_sentiment_net": -0.10526315789473684,
+  "comments_sentiment_sample_size": 20,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 10,
+  "comments_analysis_sample_size": 20,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 10,
-  "comments_representative_prior_selected": 10,
+  "comments_representative_selected": 20,
+  "comments_representative_prior_selected": 20,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 4,
@@ -208,20 +208,20 @@
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 2,
-    "weighted_fill": 8
+    "weighted_fill": 18
   },
-  "comments_representative_selected_by_counts_total": 10,
+  "comments_representative_selected_by_counts_total": 20,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-24T02:19:17.751172+00:00",
-  "comments_checked_at": "2026-03-24T02:19:18.417128+00:00",
+  "comments_api_last_seen_at": "2026-03-25T13:20:00.416005+00:00",
+  "comments_checked_at": "2026-03-25T13:20:00.749863+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 5,
-      "count": 2,
+      "cluster_id": 13,
+      "count": 3,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0941",
       "representative_posted_date": "2026-03-23T04:00:00Z",
@@ -250,6 +250,21 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
+        "AMS-FTPP-22-0046-0936": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "Orange Beach",
+          "stateProvinceRegion": "AL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Grigsby, Anthony",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "AMS-FTPP-22-0046-0934": {
           "organization": "",
           "postedDate": "2026-03-23T04:00:00Z",
@@ -268,10 +283,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9275598066567093
+      "presentation_score": 0.8803368801111203
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0935",
@@ -304,10 +319,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.8654700538379252
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0940",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 2459,
+      "representative_excerpt": "The most concerning part of this entire situation is the actual poultry grower (contract farmer) who grows the chicken, not producer (integrator) seems to have little to no input into the matter. The financial risk that the grower assumes when building or buying and operating a facility is extremely high to not have any input. To start, there is no fairness ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0940": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8654700538379252
     },
     {
       "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0945",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 1352,
+      "representative_excerpt": "I bought a poultry farm 3 years ago 6 boilers. With hopes and dreams of my family being able to run and live on a farm for generations to come. This way they could watch their kids grow and grandchildren grow. Showing that hard work and many sacrifices that was and still is being made so people can have food on there tables. But when you have an interest rat...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0945": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "Osyka",
+          "stateProvinceRegion": "MS",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Smith, J",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8654700538379252
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0950",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 1668,
+      "representative_excerpt": "I\u2019ve been seeing where the proposed grower payment has been postponed. I\u2019m a broiler grower of almost 9 years, and through the tournament system I have ranked really well, and I have ranked really bad, all doing the same farm management flock to flock. I have seen swings of $15,000 to the bad all the while it costing me the same money to raise the bad flock ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0950": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8654700538379252
+    },
+    {
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0933",
@@ -340,10 +463,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6654700538379251
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0938",
@@ -376,10 +499,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6654700538379251
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0942",
@@ -412,7 +535,115 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6654700538379251
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0944",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 678,
+      "representative_excerpt": "The Trump administration better wake up!! We the farmers made up a huge part of the reason why He got in office in the first place. This rule that was passed 2 years ago was the only thing the poultry farmers has had done in their favor in 20 plus years, but it looks like poultry company lobbyists has written somebody a fat check to screw the American farmer...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0944": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "Drakesboro",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kilpatrick, Darlene",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6654700538379251
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0946",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 816,
+      "representative_excerpt": "We currently love the new rule, no longer worrying about losing a contract over feed conversion. No longer getting punished for the bad birds the company provides via a contract when we pay 40 cents for each chick but get 25 week pullets and as a result hundreds die and our bottom line suffers and they are weaker then normal chicks. The crazy thing is the br...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0946": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Potts, Matt",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6654700538379251
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0948",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 1150,
+      "representative_excerpt": "We have been contract poultry farmers for many years, and we were hopeful to see an end to the current tournament system. Too often, this system creates a situation where farmers are effectively competing against the company rather than being supported by it. Farmers are required to raise whatever birds are delivered to their farms, regardless of quality. Fo...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0948": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6654700538379251
     },
     {
       "cluster_id": 2,
@@ -448,7 +679,115 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6654700538379251
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0943",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 157,
+      "representative_excerpt": "They have to increase the payment this in not right specially the winter time we are not making money at all to pay gas that it so please help us to pay more",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0943": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "Stella",
+          "stateProvinceRegion": "MO",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Peng, Pual",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0947",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 201,
+      "representative_excerpt": "Good Morning I would really like you to implement it this year and not delay any further please. Some flocks I even can\u2019t pay my mortgage. So kindly implement it this year and do not delay any further.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0947": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0949",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 134,
+      "representative_excerpt": "Please allow the rule to be implemented as scheduled. do not delay this..we growers need protection and to be treated fairly. thankyou",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0949": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
     },
     {
       "cluster_id": 3,
@@ -484,7 +823,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
       "cluster_id": 1,
@@ -520,10 +859,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0939",
@@ -556,23 +895,24 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
+      "presentation_score": 0.2654700538379252
     }
   ],
   "comments_clusters_path": "data/comments/AMS-FTPP-22-0046.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 9,
+  "comments_first_page_count": 18,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 10,
-  "comments_clusters_total_available": 9,
-  "comments_clusters_displayed": 9,
+  "comments_first_page_coverage_count": 20,
+  "comments_clusters_total_available": 18,
+  "comments_clusters_displayed": 18,
   "comments_first_page_high_signal_clusters": 0,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 8,
-    "negative": 1
+    "neutral": 14,
+    "negative": 3,
+    "positive": 1
   },
   "comments_first_page_unique_days": 1,
   "summary_available": false,
