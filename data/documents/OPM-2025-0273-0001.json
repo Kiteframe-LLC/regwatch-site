@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/OPM-2025-0273-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-03-25T13:47:04.856856+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-03-25T14:11:51.779577+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-03-27T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 1,
-  "pass_3_score": 16.106451612903225,
+  "pass_3_score": 16.473118279569892,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.32929841307547836,
-  "pass_3_scaled": 0.9317384482036829,
+  "pass_3_scaled": 0.9357850810742459,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7160758368170972,
+  "combined_score": 0.7180991532523786,
   "score_total": 8,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -55,41 +55,41 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 326,
-  "comments_velocity_total": 309,
-  "comments_public_total_estimate": 309,
-  "comments_fetched": 321,
+  "comments_total": 340,
+  "comments_velocity_total": 320,
+  "comments_public_total_estimate": 320,
+  "comments_fetched": 335,
   "comments_text_hydrated": 148,
-  "comments_cached_records": 321,
-  "comments_unique_clusters": 213,
-  "comments_clustered_duplicates": 30,
+  "comments_cached_records": 335,
+  "comments_unique_clusters": 233,
+  "comments_clustered_duplicates": 32,
   "comments_truncated": true,
   "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 184,
+  "comments_citizen_count": 191,
   "comments_commenter_type_counts": {
-    "other": 134,
-    "citizen": 184,
+    "citizen": 191,
+    "other": 141,
     "organization_other": 3
   },
   "comments_submission_role_counts": {
-    "individual": 300,
-    "unknown": 12,
+    "individual": 311,
+    "unknown": 13,
+    "government_unknown": 5,
     "organization": 5,
-    "government_unknown": 3,
     "government_affiliated_or_unclear": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 304,
-    "other_channel_recorded": 14,
-    "unknown": 3
+    "public_portal": 315,
+    "other_channel_recorded": 15,
+    "unknown": 5
   },
-  "comments_public_count": 304,
-  "comments_recorded_count": 14,
+  "comments_public_count": 315,
+  "comments_recorded_count": 15,
   "comments_agency_material_count": 0,
-  "comments_unknown_channel_count": 3,
+  "comments_unknown_channel_count": 5,
   "comments_new_cluster_count_by_day": {
-    "2026-03-25": 31,
+    "2026-03-25": 45,
     "2026-03-24": 63,
     "2026-03-23": 10,
     "2026-03-19": 6,
@@ -97,19 +97,19 @@
     "2026-03-17": 13,
     "2026-03-16": 29,
     "2026-03-12": 19,
-    "2026-03-11": 13,
+    "2026-03-11": 12,
     "2026-03-10": 7,
     "2026-03-09": 7,
     "2026-03-05": 6,
     "2026-03-04": 4,
     "2026-03-03": 3,
     "2026-03-02": 22,
-    "2026-02-26": 26,
+    "2026-02-26": 25,
     "2026-02-25": 6,
     "2026-02-24": 6
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-03-25": 5,
+    "2026-03-25": 7,
     "2026-03-24": 5,
     "2026-03-23": 2,
     "2026-03-19": 1,
@@ -123,41 +123,41 @@
     "2026-02-25": 3,
     "2026-02-24": 2
   },
-  "comments_novel_comment_rate": 0.8847352024922118,
-  "comments_sentiment_positive_pct": 0.03244642997834663,
-  "comments_sentiment_negative_pct": 0.451902201571896,
-  "comments_sentiment_neutral_pct": 0.5156513684497575,
-  "comments_sentiment_net": -0.41945577159354935,
-  "comments_sentiment_sample_size": 230,
+  "comments_novel_comment_rate": 0.8835820895522388,
+  "comments_sentiment_positive_pct": 0.03018410404495897,
+  "comments_sentiment_negative_pct": 0.46424620778972175,
+  "comments_sentiment_neutral_pct": 0.5055696881653193,
+  "comments_sentiment_net": -0.4340621037447628,
+  "comments_sentiment_sample_size": 247,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 243,
+  "comments_analysis_sample_size": 265,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 243,
-  "comments_representative_prior_selected": 233,
+  "comments_representative_selected": 265,
+  "comments_representative_prior_selected": 255,
   "comments_representative_newly_selected": 10,
-  "comments_representative_must_keep": 16,
+  "comments_representative_must_keep": 18,
   "comments_representative_run_budget": 10,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 16,
+    "must_keep": 18,
     "salience_rank": 4,
-    "weighted_fill": 223
+    "weighted_fill": 243
   },
-  "comments_representative_selected_by_counts_total": 243,
+  "comments_representative_selected_by_counts_total": 265,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-12T04:00Z",
-  "comments_api_last_seen_at": "2026-03-25T13:43:56.577638+00:00",
-  "comments_checked_at": "2026-03-25T13:44:19.490829+00:00",
+  "comments_api_last_seen_at": "2026-03-25T14:07:54.241086+00:00",
+  "comments_checked_at": "2026-03-25T14:08:08.819594+00:00",
   "comments_error": "used_bulk_csv",
   "comments_clusters": [
     {
-      "cluster_id": 139,
+      "cluster_id": 160,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0096",
@@ -238,7 +238,7 @@
       "presentation_score": 0.5463682163985237
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 123,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0138",
@@ -319,7 +319,7 @@
       "presentation_score": 0.5705061474330065
     },
     {
-      "cluster_id": 198,
+      "cluster_id": 218,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0021",
@@ -400,7 +400,7 @@
       "presentation_score": 0.3622302853640409
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 61,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0202",
@@ -466,7 +466,7 @@
       "presentation_score": 0.6694040298335254
     },
     {
-      "cluster_id": 138,
+      "cluster_id": 159,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0097",
@@ -532,7 +532,7 @@
       "presentation_score": 0.5445764436266288
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 99,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0163",
@@ -598,7 +598,7 @@
       "presentation_score": 0.5825074781093875
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 93,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0169",
@@ -649,7 +649,7 @@
       "presentation_score": 0.7579466801353983
     },
     {
-      "cluster_id": 210,
+      "cluster_id": 230,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0006",
@@ -700,7 +700,7 @@
       "presentation_score": 0.6089811628940189
     },
     {
-      "cluster_id": 136,
+      "cluster_id": 157,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0099",
@@ -736,7 +736,7 @@
       "presentation_score": 0.7948275862068965
     },
     {
-      "cluster_id": 172,
+      "cluster_id": 193,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0053",
@@ -772,7 +772,7 @@
       "presentation_score": 0.7706896551724138
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0259",
@@ -808,7 +808,7 @@
       "presentation_score": 0.766551724137931
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0273",
@@ -844,7 +844,7 @@
       "presentation_score": 0.766551724137931
     },
     {
-      "cluster_id": 189,
+      "cluster_id": 209,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0031",
@@ -880,7 +880,7 @@
       "presentation_score": 0.756896551724138
     },
     {
-      "cluster_id": 206,
+      "cluster_id": 226,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0010",
@@ -916,7 +916,7 @@
       "presentation_score": 0.753448275862069
     },
     {
-      "cluster_id": 205,
+      "cluster_id": 225,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0011",
@@ -952,7 +952,7 @@
       "presentation_score": 0.753448275862069
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0203",
@@ -988,7 +988,7 @@
       "presentation_score": 0.7458620689655173
     },
     {
-      "cluster_id": 174,
+      "cluster_id": 195,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0049",
@@ -1024,7 +1024,130 @@
       "presentation_score": 0.726896551724138
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 17,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0335",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 2571,
+      "representative_excerpt": "\u201d This proposal is purposefully designed not to improve federal performance, but to make it more difficult to recognize federal employees for performing their job functions at a high level. With this rule and others concurrently released, OPM has simultaneously made high performance ratings nearly impossible to obtain, capped top ratings at an undisclosed pe...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0335": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "OPM-2025-0273-0313": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Ashley Tippins",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7089811628940189
+    },
+    {
+      "cluster_id": 219,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0020",
+      "representative_posted_date": "2026-02-26T05:00:00Z",
+      "representative_length": 4676,
+      "representative_excerpt": "This comment is a revision of a comment previously submitted. While the rule correctly identifies challenges within the current system, its core solutions are deeply flawed. Most egregiously, the proposed forced distribution model will punish excellent employees with arbitrarily lowered scores, replace one outdated system with another, and create a two-tiere...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0020": {
+          "organization": "",
+          "postedDate": "2026-02-26T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment from Eric Clark",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.646896551724138
+    },
+    {
+      "cluster_id": 223,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0013",
+      "representative_posted_date": "2026-02-25T05:00:00Z",
+      "representative_length": 4160,
+      "representative_excerpt": "While the rule correctly identifies challenges within the current system, its core solutions are deeply flawed and likely to be counterproductive. The rule's own supporting evidence, particularly its academic citations, suggests that these proposals will damage federal workforce productivity. Analysis of Stated Goals 1. Goal: Increase Accountability and Perf...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0013": {
+          "organization": "",
+          "postedDate": "2026-02-25T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 1,
+          "title": "Comment from Eric Clark",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.643448275862069
+    },
+    {
+      "cluster_id": 11,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0351",
@@ -1075,79 +1198,43 @@
       "presentation_score": 0.7089811628940189
     },
     {
-      "cluster_id": 199,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0020",
-      "representative_posted_date": "2026-02-26T05:00:00Z",
-      "representative_length": 4676,
-      "representative_excerpt": "This comment is a revision of a comment previously submitted. While the rule correctly identifies challenges within the current system, its core solutions are deeply flawed. Most egregiously, the proposed forced distribution model will punish excellent employees with arbitrarily lowered scores, replace one outdated system with another, and create a two-tiere...",
+      "representative_comment_id": "OPM-2025-0273-0340",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 2281,
+      "representative_excerpt": "Forced\u2011distribution systems have been repeatedly shown to reduce organizational efficiency and weaken accountability, directly undermining the President\u2019s stated goals for a more effective federal government. Recent research makes this clear. A 2025 Cornell study found that high\u2011performing employees denied top ratings due to quotas were 34% more likely to le...",
       "representative_signal_score": 3,
       "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "OPM-2025-0273-0020": {
+        "OPM-2025-0273-0340": {
           "organization": "",
-          "postedDate": "2026-02-26T05:00:00Z",
+          "postedDate": "2026-03-25T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
-          "attachmentCount": 1,
-          "title": "Comment from Eric Clark",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
           "withdrawn": false,
-          "submissionRole": "individual",
+          "submissionRole": "unknown",
           "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
+          "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "medium"
         }
       },
-      "representative_has_attachment": true,
+      "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.646896551724138
+      "presentation_score": 0.69
     },
     {
-      "cluster_id": 203,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0013",
-      "representative_posted_date": "2026-02-25T05:00:00Z",
-      "representative_length": 4160,
-      "representative_excerpt": "While the rule correctly identifies challenges within the current system, its core solutions are deeply flawed and likely to be counterproductive. The rule's own supporting evidence, particularly its academic citations, suggests that these proposals will damage federal workforce productivity. Analysis of Stated Goals 1. Goal: Increase Accountability and Perf...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0013": {
-          "organization": "",
-          "postedDate": "2026-02-25T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 1,
-          "title": "Comment from Eric Clark",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.643448275862069
-    },
-    {
-      "cluster_id": 5,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0341",
@@ -1183,7 +1270,79 @@
       "presentation_score": 0.69
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0356",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 1600,
+      "representative_excerpt": "I strongly oppose the proposed rule eliminating second-level review of federal performance appraisals because it removes a critical safeguard required to ensure fairness, consistency, and accountability in personnel decisions. Under 5 U.S.C. \u00a7 4302 and its implementing regulations at 5 C.F.R. Part 430, agencies must maintain appraisal systems that are object...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0356": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.69
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0358",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 4790,
+      "representative_excerpt": "This comment is regarding a proposed rule by the Office of Personnel Management (OPM), Docket ID OPM-2025-0273, RIN 3206-AP06 titled \"Performance Appraisal for General Schedule, Prevailing Rate, and Certain Other Employees\" I strongly oppose this proposed rule for the following reasons: 1. This proposed rule appears to attempt to circumvent meaningful public...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0358": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from R Hardy",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.69
+    },
+    {
+      "cluster_id": 57,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0207",
@@ -1234,7 +1393,79 @@
       "presentation_score": 0.6882915077216052
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 30,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0288",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 2935,
+      "representative_excerpt": "I. INTEREST AND OPPOSITION I am a current Federal employee with 14 years of service. I strongly oppose the provisions that (1) remove an employee\u2019s ability to grieve an invalid Performance Appraisal and (2) eliminate mandatory 2nd-Level Manager Reviews. These changes dismantle the merit-based civil service, effectively creating an \"at-will\" environment that ...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0288": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.686551724137931
+    },
+    {
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0294",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 2083,
+      "representative_excerpt": "These proposed changes will institutionalize a \"set-up-to-fail\" culture. Numerous studies have shown that forced distribution of appraisal ratings has historically not been effective. The forced ratings were shown to drive short-term performance gains; however, the long-term impacts on teamwork, trust, and engagement were less than desirable because employee...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0294": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Karolyn Kaelin",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.686551724137931
+    },
+    {
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0243",
@@ -1270,7 +1501,7 @@
       "presentation_score": 0.683103448275862
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0244",
@@ -1306,7 +1537,7 @@
       "presentation_score": 0.683103448275862
     },
     {
-      "cluster_id": 195,
+      "cluster_id": 215,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0025",
@@ -1342,7 +1573,7 @@
       "presentation_score": 0.676896551724138
     },
     {
-      "cluster_id": 211,
+      "cluster_id": 231,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0004",
@@ -1378,7 +1609,7 @@
       "presentation_score": 0.67
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 127,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0132",
@@ -1429,7 +1660,7 @@
       "presentation_score": 0.6641535766871224
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 121,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0140",
@@ -1480,7 +1711,7 @@
       "presentation_score": 0.6641535766871224
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0150",
@@ -1516,7 +1747,7 @@
       "presentation_score": 0.6589655172413793
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0161",
@@ -1552,7 +1783,7 @@
       "presentation_score": 0.6589655172413793
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0162",
@@ -1588,7 +1819,7 @@
       "presentation_score": 0.6589655172413793
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0166",
@@ -1624,7 +1855,7 @@
       "presentation_score": 0.6589655172413793
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0170",
@@ -1660,7 +1891,7 @@
       "presentation_score": 0.6589655172413793
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0171",
@@ -1696,7 +1927,7 @@
       "presentation_score": 0.6589655172413793
     },
     {
-      "cluster_id": 121,
+      "cluster_id": 142,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0115",
@@ -1732,7 +1963,7 @@
       "presentation_score": 0.6417241379310344
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 134,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0123",
@@ -1768,7 +1999,7 @@
       "presentation_score": 0.6417241379310344
     },
     {
-      "cluster_id": 137,
+      "cluster_id": 158,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0098",
@@ -1804,7 +2035,7 @@
       "presentation_score": 0.6348275862068965
     },
     {
-      "cluster_id": 134,
+      "cluster_id": 155,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0101",
@@ -1840,7 +2071,7 @@
       "presentation_score": 0.6348275862068965
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 18,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0334",
@@ -1891,7 +2122,7 @@
       "presentation_score": 0.628981162894019
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 39,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0258",
@@ -1942,7 +2173,7 @@
       "presentation_score": 0.62553288703195
     },
     {
-      "cluster_id": 163,
+      "cluster_id": 184,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0064",
@@ -1978,7 +2209,7 @@
       "presentation_score": 0.6106896551724138
     },
     {
-      "cluster_id": 162,
+      "cluster_id": 183,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0065",
@@ -2014,7 +2245,7 @@
       "presentation_score": 0.6106896551724138
     },
     {
-      "cluster_id": 157,
+      "cluster_id": 178,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0071",
@@ -2050,7 +2281,7 @@
       "presentation_score": 0.6106896551724138
     },
     {
-      "cluster_id": 156,
+      "cluster_id": 177,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0072",
@@ -2086,7 +2317,79 @@
       "presentation_score": 0.6106896551724138
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0342",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 3303,
+      "representative_excerpt": "My experience at the IRS proves that these proposed changes will institutionalize a \"set-up-to-fail\" culture that punishes all employees, including those with the necessary skills who show up and perform daily. The current ratings are arbitrary, and the proposed \"forced distribution\" (quotas) assumes that current rating systems are accurate. They are not. I ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0342": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.61
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0363",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 675,
+      "representative_excerpt": "The suggested edits essentially make federal employees, including GS employees, at will and subject to the capricious whims of the government. Removing the prohibition on the forced distribution of performance scores will engender either apathy in employees or reduce collaborative team work, both of which reduce productivity and waste tax payer funds while h...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0363": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.61
+    },
+    {
+      "cluster_id": 53,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0211",
@@ -2137,7 +2440,7 @@
       "presentation_score": 0.6082915077216052
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0276",
@@ -2173,7 +2476,7 @@
       "presentation_score": 0.606551724137931
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0301",
@@ -2209,7 +2512,7 @@
       "presentation_score": 0.606551724137931
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0241",
@@ -2245,7 +2548,7 @@
       "presentation_score": 0.603103448275862
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0245",
@@ -2281,7 +2584,7 @@
       "presentation_score": 0.603103448275862
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 110,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0152",
@@ -2332,7 +2635,7 @@
       "presentation_score": 0.5979466801353983
     },
     {
-      "cluster_id": 196,
+      "cluster_id": 216,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0023",
@@ -2368,7 +2671,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 193,
+      "cluster_id": 213,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0027",
@@ -2404,7 +2707,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 186,
+      "cluster_id": 207,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0037",
@@ -2440,7 +2743,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 184,
+      "cluster_id": 205,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0039",
@@ -2476,7 +2779,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 179,
+      "cluster_id": 200,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0044",
@@ -2512,7 +2815,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 177,
+      "cluster_id": 198,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0046",
@@ -2548,7 +2851,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 176,
+      "cluster_id": 197,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0047",
@@ -2584,7 +2887,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 175,
+      "cluster_id": 196,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0048",
@@ -2620,7 +2923,7 @@
       "presentation_score": 0.5968965517241379
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0200",
@@ -2656,7 +2959,7 @@
       "presentation_score": 0.5858620689655173
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0185",
@@ -2692,7 +2995,7 @@
       "presentation_score": 0.5824137931034483
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0186",
@@ -2728,7 +3031,7 @@
       "presentation_score": 0.5824137931034483
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0187",
@@ -2764,7 +3067,7 @@
       "presentation_score": 0.5824137931034483
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0151",
@@ -2800,7 +3103,7 @@
       "presentation_score": 0.5789655172413793
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0154",
@@ -2836,7 +3139,7 @@
       "presentation_score": 0.5789655172413793
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0156",
@@ -2872,7 +3175,7 @@
       "presentation_score": 0.5789655172413793
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0174",
@@ -2908,7 +3211,7 @@
       "presentation_score": 0.5789655172413793
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 130,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0128",
@@ -2944,7 +3247,7 @@
       "presentation_score": 0.5651724137931035
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 125,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0134",
@@ -2980,7 +3283,7 @@
       "presentation_score": 0.5651724137931035
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0143",
@@ -3016,7 +3319,7 @@
       "presentation_score": 0.5651724137931035
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 116,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0145",
@@ -3052,7 +3355,7 @@
       "presentation_score": 0.5651724137931035
     },
     {
-      "cluster_id": 112,
+      "cluster_id": 133,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0125",
@@ -3088,7 +3391,7 @@
       "presentation_score": 0.5617241379310345
     },
     {
-      "cluster_id": 129,
+      "cluster_id": 150,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0107",
@@ -3124,7 +3427,7 @@
       "presentation_score": 0.5582758620689655
     },
     {
-      "cluster_id": 146,
+      "cluster_id": 167,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0083",
@@ -3160,7 +3463,7 @@
       "presentation_score": 0.5375862068965518
     },
     {
-      "cluster_id": 144,
+      "cluster_id": 165,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0086",
@@ -3196,7 +3499,7 @@
       "presentation_score": 0.5375862068965518
     },
     {
-      "cluster_id": 150,
+      "cluster_id": 171,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0079",
@@ -3232,7 +3535,7 @@
       "presentation_score": 0.5341379310344828
     },
     {
-      "cluster_id": 161,
+      "cluster_id": 182,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0066",
@@ -3268,7 +3571,7 @@
       "presentation_score": 0.5306896551724138
     },
     {
-      "cluster_id": 158,
+      "cluster_id": 179,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0070",
@@ -3304,7 +3607,7 @@
       "presentation_score": 0.5306896551724138
     },
     {
-      "cluster_id": 153,
+      "cluster_id": 174,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0076",
@@ -3340,7 +3643,7 @@
       "presentation_score": 0.5306896551724138
     },
     {
-      "cluster_id": 152,
+      "cluster_id": 173,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0077",
@@ -3376,7 +3679,79 @@
       "presentation_score": 0.5306896551724138
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0333",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 2334,
+      "representative_excerpt": "Specifically, I am concerned with the provisions that mandate a standardized distribution of ratings and the elimination of the right to appeal a rating. These changes will undermine the merit-based civil service and will lead to arbitrary or politically-motivated personnel actions that undermine agency missions. The proposal to require agencies to assign ra...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0333": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Nick  Wilson",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.53
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0354",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 848,
+      "representative_excerpt": "this proposal. Forced distribution doesn\u2019t solve two main problems: a) variation between supervisors and their standards within an agency and b) we have not been told further details of how the distribution will work; for example: across a team? An agency? The whole federal government? Additionally, limiting the option of 4s and 2s erases opportunities for n...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0354": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from A.L. K",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.53
+    },
+    {
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0249",
@@ -3412,7 +3787,43 @@
       "presentation_score": 0.526551724137931
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 37,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0261",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 769,
+      "representative_excerpt": "Listen, I voted for this 3 times. Don\u2019t make me regret it. I\u2019ll vote independent rest of my life if I have to. I have a great work ethic and now with all this downsizing, I\u2019m busting my butt even more, all so that I can now get a 3 out of 5 on my rating? And now to make it even worse, you want to make it harder for me to grieve this? I 100% think the rating ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0261": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous  Federal Employee",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.526551724137931
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0298",
@@ -3448,7 +3859,43 @@
       "presentation_score": 0.526551724137931
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0309",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 862,
+      "representative_excerpt": "As a former federal employee and manager with 31 years of service, I strongly oppose this rule. By ending mandatory reviews for Level 1 ratings and abolishing the right to grieve all ratings, this proposal would allow managers to fire employees on a whim, or for purely political reasons. It provides no recourse for the employee who is terminated unjustly and...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0309": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from David Swan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.526551724137931
+    },
+    {
+      "cluster_id": 70,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0193",
@@ -3499,7 +3946,7 @@
       "presentation_score": 0.5248432318595362
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0240",
@@ -3535,7 +3982,7 @@
       "presentation_score": 0.5231034482758621
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0248",
@@ -3571,7 +4018,7 @@
       "presentation_score": 0.5231034482758621
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 72,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0191",
@@ -3622,7 +4069,7 @@
       "presentation_score": 0.5213949559974672
     },
     {
-      "cluster_id": 201,
+      "cluster_id": 221,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0015",
@@ -3658,7 +4105,7 @@
       "presentation_score": 0.516896551724138
     },
     {
-      "cluster_id": 197,
+      "cluster_id": 217,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0022",
@@ -3694,7 +4141,7 @@
       "presentation_score": 0.516896551724138
     },
     {
-      "cluster_id": 190,
+      "cluster_id": 210,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0030",
@@ -3730,43 +4177,7 @@
       "presentation_score": 0.516896551724138
     },
     {
-      "cluster_id": 188,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0032",
-      "representative_posted_date": "2026-02-26T05:00:00Z",
-      "representative_length": 1052,
-      "representative_excerpt": "Changing to the system will only make high performers. Do just what\u2019s expected of them. The fact that there are a lot of high-performance within the VA is a truth with morale being as low as it says now and more work being put on people because of the DRP this change will negatively impact the VA employees While FDRS may drive short-term performance gains, i...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0032": {
-          "organization": "",
-          "postedDate": "2026-02-26T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Jennifer gum",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.516896551724138
-    },
-    {
-      "cluster_id": 185,
+      "cluster_id": 206,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0038",
@@ -3802,7 +4213,7 @@
       "presentation_score": 0.516896551724138
     },
     {
-      "cluster_id": 204,
+      "cluster_id": 224,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0012",
@@ -3838,7 +4249,7 @@
       "presentation_score": 0.513448275862069
     },
     {
-      "cluster_id": 213,
+      "cluster_id": 233,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0002",
@@ -3874,7 +4285,7 @@
       "presentation_score": 0.51
     },
     {
-      "cluster_id": 212,
+      "cluster_id": 232,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0003",
@@ -3910,7 +4321,7 @@
       "presentation_score": 0.51
     },
     {
-      "cluster_id": 209,
+      "cluster_id": 229,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0007",
@@ -3946,7 +4357,7 @@
       "presentation_score": 0.51
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0209",
@@ -3982,7 +4393,7 @@
       "presentation_score": 0.5093103448275863
     },
     {
-      "cluster_id": 147,
+      "cluster_id": 168,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0082",
@@ -4018,7 +4429,7 @@
       "presentation_score": 0.5075862068965518
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0197",
@@ -4054,7 +4465,7 @@
       "presentation_score": 0.5058620689655173
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0205",
@@ -4090,7 +4501,7 @@
       "presentation_score": 0.5058620689655173
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 124,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0137",
@@ -4141,7 +4552,7 @@
       "presentation_score": 0.5041535766871224
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 114,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0147",
@@ -4192,7 +4603,7 @@
       "presentation_score": 0.5041535766871224
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0184",
@@ -4228,7 +4639,7 @@
       "presentation_score": 0.5024137931034484
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0157",
@@ -4264,7 +4675,7 @@
       "presentation_score": 0.4989655172413794
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0158",
@@ -4300,7 +4711,7 @@
       "presentation_score": 0.4989655172413794
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0159",
@@ -4336,7 +4747,7 @@
       "presentation_score": 0.4989655172413794
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0167",
@@ -4372,7 +4783,7 @@
       "presentation_score": 0.4989655172413794
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0175",
@@ -4408,7 +4819,7 @@
       "presentation_score": 0.4989655172413794
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0178",
@@ -4444,7 +4855,7 @@
       "presentation_score": 0.4989655172413794
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0127",
@@ -4480,7 +4891,7 @@
       "presentation_score": 0.4851724137931035
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 129,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0129",
@@ -4516,7 +4927,7 @@
       "presentation_score": 0.4851724137931035
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 120,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0141",
@@ -4552,7 +4963,7 @@
       "presentation_score": 0.4851724137931035
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 119,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0142",
@@ -4588,7 +4999,7 @@
       "presentation_score": 0.4851724137931035
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 117,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0144",
@@ -4624,7 +5035,7 @@
       "presentation_score": 0.4851724137931035
     },
     {
-      "cluster_id": 122,
+      "cluster_id": 143,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0114",
@@ -4660,7 +5071,7 @@
       "presentation_score": 0.4817241379310345
     },
     {
-      "cluster_id": 116,
+      "cluster_id": 137,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0120",
@@ -4696,7 +5107,7 @@
       "presentation_score": 0.4817241379310345
     },
     {
-      "cluster_id": 115,
+      "cluster_id": 136,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0121",
@@ -4732,7 +5143,7 @@
       "presentation_score": 0.4817241379310345
     },
     {
-      "cluster_id": 111,
+      "cluster_id": 132,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0126",
@@ -4768,7 +5179,7 @@
       "presentation_score": 0.4817241379310345
     },
     {
-      "cluster_id": 143,
+      "cluster_id": 164,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0091",
@@ -4819,7 +5230,7 @@
       "presentation_score": 0.4800156456526396
     },
     {
-      "cluster_id": 127,
+      "cluster_id": 148,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0109",
@@ -4855,7 +5266,7 @@
       "presentation_score": 0.47827586206896555
     },
     {
-      "cluster_id": 125,
+      "cluster_id": 146,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0111",
@@ -4891,7 +5302,58 @@
       "presentation_score": 0.47827586206896555
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 3,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0361",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 1046,
+      "representative_excerpt": "It deeply concerns me that this policy would have unintended but significant impacts of negative consequences for workforce, moral, motivation with all of those affecting productivity. I wish to say that I do not support adding quotes or extra commentary to our performance ratings. This is totally unfair practice and unnecessary. This puts a tremendous press...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0361": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Yvette Justice",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "OPM-2025-0273-0032": {
+          "organization": "",
+          "postedDate": "2026-02-26T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Jennifer gum",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4689811628940189
+    },
+    {
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0165",
@@ -4927,7 +5389,7 @@
       "presentation_score": 0.4689655172413793
     },
     {
-      "cluster_id": 151,
+      "cluster_id": 172,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0078",
@@ -4963,7 +5425,7 @@
       "presentation_score": 0.4541379310344828
     },
     {
-      "cluster_id": 149,
+      "cluster_id": 170,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0080",
@@ -4999,7 +5461,7 @@
       "presentation_score": 0.4541379310344828
     },
     {
-      "cluster_id": 171,
+      "cluster_id": 192,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0054",
@@ -5035,7 +5497,7 @@
       "presentation_score": 0.45068965517241383
     },
     {
-      "cluster_id": 170,
+      "cluster_id": 191,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0055",
@@ -5071,7 +5533,7 @@
       "presentation_score": 0.45068965517241383
     },
     {
-      "cluster_id": 168,
+      "cluster_id": 189,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0057",
@@ -5107,7 +5569,7 @@
       "presentation_score": 0.45068965517241383
     },
     {
-      "cluster_id": 166,
+      "cluster_id": 187,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0060",
@@ -5143,7 +5605,7 @@
       "presentation_score": 0.45068965517241383
     },
     {
-      "cluster_id": 165,
+      "cluster_id": 186,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0061",
@@ -5179,7 +5641,7 @@
       "presentation_score": 0.45068965517241383
     },
     {
-      "cluster_id": 164,
+      "cluster_id": 185,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0062",
@@ -5215,7 +5677,7 @@
       "presentation_score": 0.45068965517241383
     },
     {
-      "cluster_id": 155,
+      "cluster_id": 176,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0073",
@@ -5251,7 +5713,7 @@
       "presentation_score": 0.45068965517241383
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0322",
@@ -5287,7 +5749,43 @@
       "presentation_score": 0.44999999999999996
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0330",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 404,
+      "representative_excerpt": "In that book ideas are expressed in such a way that the statement war is peace seems reasonable. I find many of the statements in these proposed changes to have a similar expression. It sounds reasonable, makes sense, but upon examination will be detrimental to public servants who dedicate their lives and work for the betterment of our nation. Please do not ...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0330": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from michael bucci",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0343",
@@ -5323,7 +5821,7 @@
       "presentation_score": 0.44999999999999996
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0346",
@@ -5359,7 +5857,7 @@
       "presentation_score": 0.44999999999999996
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0353",
@@ -5395,7 +5893,151 @@
       "presentation_score": 0.44999999999999996
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0355",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 616,
+      "representative_excerpt": "I do not think this is an intelligent proposal. Not well-founded. Work performance is directly related to a production process, it requires augmented different skills and competence to proceed from one step to another, etc. Many professionals might contribute excellent performance/ services in the process. They deserve to be recognized and encouraged with pr...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0355": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Zhuohong Liu",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0357",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 1063,
+      "representative_excerpt": "When it comes to my work in serving Veterans, I take great pride in doing what I do it is the least I can do when it comes to those who put their live on the line to protect our freedoms Foreign and Domestically in our Country. Not very many people can say they love their job. I can genuinely say that as a true statement. One of the reasons is because I know...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0357": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Yvette Justice",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0360",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 601,
+      "representative_excerpt": "I strongly oppose this proposed rule. Eliminating grievance-based avenues for revising ratings of record will not effectively promote clearer roles and responsibilities in performance management, it will not reinforce supervisory authority, nor will it enhance consistency and integrity in appraisal systems. A \"weighted distribution,\" and being able to cut an...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0360": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Patrick Houston",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0365",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 489,
+      "representative_excerpt": "I don't believe there should be forced distributions or rankings of performance ratings within a particular agency. It is a completely nonsensical policy that does not work in the private sector and doesn't belong in the federal government. It would be a detriment to morale, would harm collaborative work within a particular office or program, and would punis...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0365": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0256",
@@ -5431,7 +6073,7 @@
       "presentation_score": 0.44655172413793104
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0263",
@@ -5467,7 +6109,115 @@
       "presentation_score": 0.44655172413793104
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 35,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0271",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 1124,
+      "representative_excerpt": "This proposal is a lot more serious than it\u2019s being framed. Removing second-level review and weakening appeal/grievance pathways basically concentrates all power in a single supervisor\u2019s hands. That\u2019s not just a procedural tweak, it\u2019s a fundamental shift away from checks and balances in the performance system. Even if most managers act in good faith, the sys...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0271": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44655172413793104
+    },
+    {
+      "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0277",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 869,
+      "representative_excerpt": "It is not a fair nor accurate evaluation of employees to be ranked and pitted against their colleagues versus being judged by the requirements of their jobs. I believe it would have the unfortunate effect of driving poor performance with employees believing accurately that even with an excellent performance, they may only be able to be rated as mediocre. Whi...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0277": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44655172413793104
+    },
+    {
+      "cluster_id": 31,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0273-0284",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 982,
+      "representative_excerpt": "This new rule essentially removes all civil service protections required under the Pendleton Civil Service Act. Even in the private sector, employees are permitted to grieve performance ratings, particularly in unionized environments as the federal government also is. Additionally, human resources literature demonstrates many examples of how forced distribut...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0273-0284": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44655172413793104
+    },
+    {
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0291",
@@ -5503,7 +6253,7 @@
       "presentation_score": 0.44655172413793104
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0310",
@@ -5539,7 +6289,7 @@
       "presentation_score": 0.44655172413793104
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0239",
@@ -5575,7 +6325,7 @@
       "presentation_score": 0.44310344827586207
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0246",
@@ -5611,7 +6361,7 @@
       "presentation_score": 0.44310344827586207
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0247",
@@ -5647,7 +6397,7 @@
       "presentation_score": 0.44310344827586207
     },
     {
-      "cluster_id": 187,
+      "cluster_id": 208,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0035",
@@ -5683,7 +6433,7 @@
       "presentation_score": 0.436896551724138
     },
     {
-      "cluster_id": 182,
+      "cluster_id": 203,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0041",
@@ -5719,7 +6469,7 @@
       "presentation_score": 0.436896551724138
     },
     {
-      "cluster_id": 181,
+      "cluster_id": 202,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0042",
@@ -5755,7 +6505,7 @@
       "presentation_score": 0.436896551724138
     },
     {
-      "cluster_id": 207,
+      "cluster_id": 227,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0009",
@@ -5791,7 +6541,7 @@
       "presentation_score": 0.433448275862069
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0208",
@@ -5827,7 +6577,7 @@
       "presentation_score": 0.4293103448275862
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0210",
@@ -5863,7 +6613,7 @@
       "presentation_score": 0.4293103448275862
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0212",
@@ -5899,7 +6649,7 @@
       "presentation_score": 0.4293103448275862
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0194",
@@ -5935,7 +6685,7 @@
       "presentation_score": 0.4258620689655172
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0195",
@@ -5971,7 +6721,7 @@
       "presentation_score": 0.4258620689655172
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0196",
@@ -6007,7 +6757,7 @@
       "presentation_score": 0.4258620689655172
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0198",
@@ -6043,7 +6793,7 @@
       "presentation_score": 0.4258620689655172
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0199",
@@ -6079,7 +6829,7 @@
       "presentation_score": 0.4258620689655172
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0201",
@@ -6115,7 +6865,7 @@
       "presentation_score": 0.4258620689655172
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0204",
@@ -6151,7 +6901,7 @@
       "presentation_score": 0.4258620689655172
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0180",
@@ -6187,7 +6937,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0181",
@@ -6223,7 +6973,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0182",
@@ -6259,7 +7009,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0183",
@@ -6295,7 +7045,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0188",
@@ -6331,7 +7081,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0189",
@@ -6367,7 +7117,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0190",
@@ -6403,7 +7153,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0192",
@@ -6439,7 +7189,7 @@
       "presentation_score": 0.4224137931034483
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0328",
@@ -6475,7 +7225,7 @@
       "presentation_score": 0.42
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0153",
@@ -6511,7 +7261,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0155",
@@ -6547,7 +7297,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0160",
@@ -6583,7 +7333,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0164",
@@ -6619,7 +7369,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0168",
@@ -6655,7 +7405,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0172",
@@ -6691,7 +7441,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0173",
@@ -6727,7 +7477,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0176",
@@ -6763,7 +7513,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0177",
@@ -6799,7 +7549,7 @@
       "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0319",
@@ -6835,7 +7585,7 @@
       "presentation_score": 0.41655172413793107
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0131",
@@ -6871,7 +7621,7 @@
       "presentation_score": 0.4051724137931034
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 126,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0133",
@@ -6907,7 +7657,7 @@
       "presentation_score": 0.4051724137931034
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 122,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0139",
@@ -6943,7 +7693,7 @@
       "presentation_score": 0.4051724137931034
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 115,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0146",
@@ -6979,7 +7729,7 @@
       "presentation_score": 0.4051724137931034
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0148",
@@ -7015,7 +7765,7 @@
       "presentation_score": 0.4051724137931034
     },
     {
-      "cluster_id": 123,
+      "cluster_id": 144,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0113",
@@ -7051,7 +7801,7 @@
       "presentation_score": 0.40172413793103445
     },
     {
-      "cluster_id": 120,
+      "cluster_id": 141,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0273-0116",
@@ -7085,726 +7835,6 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.40172413793103445
-    },
-    {
-      "cluster_id": 119,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0117",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 765,
-      "representative_excerpt": "I believe this change doesn't increase any efficiency of the performance process. This new proposed system will in fact increase the work load of supervisors as lower levels. Further, this increase the volatility of the work force by reducing work place confidence, as it create an undue stress on the work forces impacted by this proposed change. The increase...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0117": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.40172413793103445
-    },
-    {
-      "cluster_id": 118,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0118",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 540,
-      "representative_excerpt": "The reason why the federal government gets away with paying such low rates with minimal cost of living increases is because of the built in work place protections. Yes, there are other compensatory benefits, but not everyone needs each of those. I\u2019m not sure how you expect to be the authority on and enforce EEO standards if you don\u2019t apply them internally. T...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0118": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.40172413793103445
-    },
-    {
-      "cluster_id": 117,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0119",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 314,
-      "representative_excerpt": "This is a terrible idea. Some agencies have a shallow bench of mostly Rockstars who are passionate about the mission. Now they will be penalized if they aren't the top rockstar which will greatly threaten retention. Come up with a reasonable approach rather than penalizing teams full of the highest quality staff.",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0119": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Megan Cromwell",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.40172413793103445
-    },
-    {
-      "cluster_id": 114,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0122",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 353,
-      "representative_excerpt": "If someone truly earns an Outstanding rating, they should receive it\u2014there shouldn\u2019t be a preset cap on how many people can achieve that level. If ratings are going to be limited regardless of performance, it would be more transparent to move to a simpler pass/fail system, similar to the performance criteria used during an employee\u2019s probation period.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0122": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.40172413793103445
-    },
-    {
-      "cluster_id": 128,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0108",
-      "representative_posted_date": "2026-03-10T04:00:00Z",
-      "representative_length": 1110,
-      "representative_excerpt": "I am concerned that by limiting the number of federal employees that can earn an \"outstanding\" rating the vast majority of federal employees will no longer seek to do more than the bare minimum. Limiting the number or percentage of employees rated as \"outstanding\" will be demotivating and will have the opposite outcome that is desired. As a taxpayer, I want ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0108": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3982758620689655
-    },
-    {
-      "cluster_id": 126,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0110",
-      "representative_posted_date": "2026-03-10T04:00:00Z",
-      "representative_length": 782,
-      "representative_excerpt": "These changes equate to government sanctioned nepotism. It leaves no room for any variance except for perfection which is impossible in actual real world settings. This change also leaves no recourse for supervisors who are grading based on personal opinion or feeling rather than facts and observations, both things this administration is terrified of. These ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0110": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3982758620689655
-    },
-    {
-      "cluster_id": 124,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0112",
-      "representative_posted_date": "2026-03-10T04:00:00Z",
-      "representative_length": 193,
-      "representative_excerpt": "These changes will further demoralize already overworked federal staff. This will neither cut costs nor rid the federal govt of unproductive workers. This will only hurt the federal government.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0112": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3982758620689655
-    },
-    {
-      "cluster_id": 135,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0100",
-      "representative_posted_date": "2026-03-09T04:00:00Z",
-      "representative_length": 506,
-      "representative_excerpt": "This move will degrade the performance of individuals who work hard and essentially the employer would be saying that hard work does not matter for OPM. That is a terrible way to manage employees and in doing so will run off hard working individuals. This also promotes employees to be lazy. Why try if my performance will be degraded. If anything, giving out ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0100": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Charles Wahl",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3948275862068965
-    },
-    {
-      "cluster_id": 133,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0102",
-      "representative_posted_date": "2026-03-09T04:00:00Z",
-      "representative_length": 95,
-      "representative_excerpt": "They inherently contradict each other and are arbitrary. Do not implement this proposed change.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0102": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3948275862068965
-    },
-    {
-      "cluster_id": 132,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0103",
-      "representative_posted_date": "2026-03-09T04:00:00Z",
-      "representative_length": 369,
-      "representative_excerpt": "The \"Proposed Rule by the Personnel Management Office\" is basically another implementation of the flawed \"stack ranking\" system. It failed spectacularly in the private sector and will fail again in the public sector. If - against all better judgement - this proposal is actually implemented, you should start by failing whatever idiot came up with this stupid ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0103": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3948275862068965
-    },
-    {
-      "cluster_id": 131,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0105",
-      "representative_posted_date": "2026-03-09T04:00:00Z",
-      "representative_length": 673,
-      "representative_excerpt": "\"Standardized distribution, also sometimes referred to as \u201cforced distribution\u201d or \u201cstack ranking,\u201d \" will be toxic in a high performing work unit. It would mandate identifying and punishing some individuals every performance cycle. In a unit where everyone is high performing, a high performing employee should not be punished because his or her colleagues pe...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0105": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Lothian Buss",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3948275862068965
-    },
-    {
-      "cluster_id": 142,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0093",
-      "representative_posted_date": "2026-03-05T05:00:00Z",
-      "representative_length": 974,
-      "representative_excerpt": "The Office of Management and Budget has been telling managers that they need to give each employee a rating. Most are only satisfactory, even though employees strive and often deliver excellent customer service each day. Then they want to implement Reductions in Force based on performance, even though they have been telling the agencies that they need to man...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0093": {
-          "organization": "",
-          "postedDate": "2026-03-05T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3810344827586207
-    },
-    {
-      "cluster_id": 141,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0094",
-      "representative_posted_date": "2026-03-05T05:00:00Z",
-      "representative_length": 239,
-      "representative_excerpt": "All evaluations should be based on objective, standardized, quantified and measurable criteria. The use of subjective criteria to rate civil servants who much like our military dedicate their lives to service of their country is ludicrous.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0094": {
-          "organization": "",
-          "postedDate": "2026-03-05T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Cathy Robinson Pickett",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3810344827586207
-    },
-    {
-      "cluster_id": 140,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0095",
-      "representative_posted_date": "2026-03-05T05:00:00Z",
-      "representative_length": 228,
-      "representative_excerpt": "If the administration loves veterans/disabled veterans, that portion should not be changed and especially disabled vets should be given the most seniority. Keep the original rif order and just change the weights for performance.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0095": {
-          "organization": "",
-          "postedDate": "2026-03-05T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3810344827586207
-    },
-    {
-      "cluster_id": 145,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0084",
-      "representative_posted_date": "2026-03-04T05:00:00Z",
-      "representative_length": 472,
-      "representative_excerpt": "This is a terrible idea. Let supervisors rate their employees as they see fit. Maybe, sometimes, a whole work until crushed it. Maybe they all weren\u2019t great, but either way they would be bound to some artificial construct. Plus, it means if you all work hard, only some will get bonuses, so that will make people not work hard. How about making agencies recogn...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0084": {
-          "organization": "",
-          "postedDate": "2026-03-04T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from M R",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3775862068965517
-    },
-    {
-      "cluster_id": 148,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0081",
-      "representative_posted_date": "2026-03-03T05:00:00Z",
-      "representative_length": 202,
-      "representative_excerpt": "Fundamentally, stack ranking turns your team into your adversaries. Stack ranking is organizational cancer. Explain how stack ranking will promotion collaboration if your teammates are your adversaries.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0081": {
-          "organization": "",
-          "postedDate": "2026-03-03T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37413793103448273
-    },
-    {
-      "cluster_id": 173,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0052",
-      "representative_posted_date": "2026-03-02T05:00:00Z",
-      "representative_length": 486,
-      "representative_excerpt": "We have a problem with upper management not allowing some employees to work at their full capability, minimizing their efforts to make themselves look \"better\". They also tend to bump their \"favorites\" up over these individuals to make them \"shine\" when most times they under perform. This happens more than you would think, especially to direct reports that a...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0052": {
-          "organization": "",
-          "postedDate": "2026-03-02T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37068965517241376
-    },
-    {
-      "cluster_id": 169,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0056",
-      "representative_posted_date": "2026-03-02T05:00:00Z",
-      "representative_length": 276,
-      "representative_excerpt": "This is wrong. Every single federal civilian employee should be evaluated on their own performance and how they achieve their job duties. They should not be rated using anything else. Not being compared to coworkers. Not with a quota on ratings levels. No forced distribution.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0056": {
-          "organization": "",
-          "postedDate": "2026-03-02T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anne Spillane",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37068965517241376
-    },
-    {
-      "cluster_id": 167,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0059",
-      "representative_posted_date": "2026-03-02T05:00:00Z",
-      "representative_length": 597,
-      "representative_excerpt": "Further, the ability to contest performance ratings through union grievance arbitration is an essential bulwark against retaliatory negative performance ratings under a standardized distribution. In the dockets own words: \"Some studies also found that a standardized distribution can have negative consequences such as discrimination, perceptions of unfairness...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0059": {
-          "organization": "",
-          "postedDate": "2026-03-02T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37068965517241376
-    },
-    {
-      "cluster_id": 160,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0273-0067",
-      "representative_posted_date": "2026-03-02T05:00:00Z",
-      "representative_length": 323,
-      "representative_excerpt": "i am concerned about the forced distribution giving people too low of rankings. I think that it is competitive to get the high ratings. I think that it is too hard to give people the low rankings and more should be done to empower people to not give baseline meets standards ratings because it is easier for the supervisor.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0273-0067": {
-          "organization": "",
-          "postedDate": "2026-03-02T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37068965517241376
     }
   ],
   "comments_clusters_path": "data/comments/OPM-2025-0273.csv",
@@ -7812,18 +7842,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.19130434782608696,
+  "comments_first_page_coverage_share": 0.1896551724137931,
   "comments_first_page_coverage_count": 44,
   "comments_clusters_total_available": 200,
   "comments_clusters_displayed": 200,
   "comments_first_page_high_signal_clusters": 20,
   "comments_first_page_novelty_clusters": 3,
   "comments_first_page_stance_counts": {
-    "neutral": 4,
-    "negative": 19,
+    "neutral": 3,
+    "negative": 20,
     "positive": 2
   },
-  "comments_first_page_unique_days": 13,
+  "comments_first_page_unique_days": 11,
   "summary_available": true,
   "raw_summary_available": true
 }
