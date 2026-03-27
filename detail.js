@@ -89,12 +89,12 @@ function attachmentRow(doc) {
     : "";
   const title = esc(doc.title);
   const subtype = esc(doc.document_subtype || "");
-  const rcv = esc(doc.received_date || doc.posted_date || "");
+  const rcv = esc(formatDateOnly(doc.received_date || doc.posted_date || ""));
   const authors = Array.isArray(doc.authors) ? esc(doc.authors.join("; ")) : esc(doc.authors || "");
   const pages = doc.page_count ?? "";
   return `<tr>
     <td>${href ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${id}</a>` : id}</td>
-    <td>${title}</td>
+    <td class="title-wrap">${title}</td>
     <td>${subtype}</td>
     <td>${rcv}</td>
     <td>${authors}</td>
@@ -404,6 +404,7 @@ function detailHtml(d, summaryMd, analysisMd) {
   return `
     <section class="card">
       <h2>${esc(d.title || "(untitled)")}</h2>
+      <p><strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
       <p class="inline-actions">
         ${
           commentUrl && commentSupported
@@ -497,6 +498,7 @@ function detailHtml(d, summaryMd, analysisMd) {
         ${
           governmentSubmissions.length
             ? `<h3>Government Submissions (From Docket Comments)</h3>
+               <div class="table-wrap">
                <table>
                  <thead>
                    <tr>
@@ -510,13 +512,15 @@ function detailHtml(d, summaryMd, analysisMd) {
                    </tr>
                  </thead>
                  <tbody>${governmentSubmissionRows}</tbody>
-               </table>`
+               </table>
+               </div>`
             : ""
         }
         ${governmentSubmissions.length && attachments.length ? "<h3>Supporting & Related Material</h3>" : ""}
         ${
           attachments.length
-            ? `<table>
+            ? `<div class="table-wrap">
+               <table>
                 <thead>
                   <tr>
                     <th>Document ID</th>
@@ -528,7 +532,8 @@ function detailHtml(d, summaryMd, analysisMd) {
                   </tr>
                 </thead>
                 <tbody>${attachmentRows}</tbody>
-              </table>`
+              </table>
+              </div>`
             : "<p>No supporting attachment metadata available in current site export.</p>"
         }
       </div>

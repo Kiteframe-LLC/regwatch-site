@@ -66,6 +66,23 @@ table {
   background: var(--surface);
 }
 
+.table-wrap {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.tab-panel .table-wrap table {
+  margin: 0 auto;
+}
+
+.title-wrap {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 th,
 td {
   padding: 0.45rem 0.55rem;
