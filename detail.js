@@ -588,33 +588,33 @@ function initTabs(defaultTab = "overview") {
 
 async function main() {
   const parts = window.location.pathname.split("/").filter(Boolean);
-  const docId = parts.length >= 2 && parts[0] === "document" ? parts[1] : "";
+  const routeId = parts.length >= 2 && parts[0] === "docket" ? parts[1] : "";
   const root =
     document.getElementById("detailRoot") ||
     document.getElementById("summaryRoot") ||
     document.getElementById("analysisRoot") ||
     document.querySelector("main");
   if (!root) return;
-  if (!docId) {
-    root.innerHTML = "<p>Missing document id in URL.</p>";
+  if (!routeId) {
+    root.innerHTML = "<p>Missing docket id in URL.</p>";
     return;
   }
   const [res, overrides] = await Promise.all([
-    fetch(`/data/documents/${encodeURIComponent(docId)}.json`, { cache: "no-store" }),
+    fetch(`/data/documents/${encodeURIComponent(routeId)}.json`, { cache: "no-store" }),
     loadOverrides(),
   ]);
   window.__overrides = overrides || {};
   if (!res.ok) {
-    root.innerHTML = `<p>Could not load detail data for ${esc(docId)}.</p>`;
+    root.innerHTML = `<p>Could not load detail data for ${esc(routeId)}.</p>`;
     return;
   }
   const data = await res.json();
   const [summaryRes, analysisRes] = await Promise.all([
     data.summary_available
-      ? fetch(`/data/summaries/${encodeURIComponent(docId)}.md`, { cache: "no-store" })
+      ? fetch(`/data/summaries/${encodeURIComponent(routeId)}.md`, { cache: "no-store" })
       : Promise.resolve(null),
     data.raw_summary_available
-      ? fetch(`/data/summaries_raw/${encodeURIComponent(docId)}.md`, { cache: "no-store" })
+      ? fetch(`/data/summaries_raw/${encodeURIComponent(routeId)}.md`, { cache: "no-store" })
       : Promise.resolve(null),
   ]);
   const summaryMd = summaryRes && summaryRes.ok ? await summaryRes.text() : "";

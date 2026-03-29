@@ -45,5 +45,6 @@ clean:
 	rm -f robots.txt
 	rm -rf data/documents
 	rm -rf data/summaries
+	rm -rf docket
 	rm -rf document
 	mkdir -p data

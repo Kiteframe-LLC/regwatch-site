@@ -1,4 +1,12 @@
 const DEFAULT_MIN_RELEVANCE = 0.65;
+const PASS1_TAU = 7.34378041529735;
+const PASS2_TAU = 2.50356150521501;
+const PASS3_TAU = 6.0;
+const COMBINED_WEIGHT_PASS1 = 0.30;
+const COMBINED_WEIGHT_PASS2 = 0.20;
+const COMBINED_WEIGHT_PASS3 = 0.50;
+const PASS3_FRESHNESS_BOOST = 0.5;
+const PASS3_DEADLINE_RAMP_MAX = 3.0;
 
 async function loadData() {
   const res = await fetch("./data/rules.json", { cache: "no-store" });
@@ -38,6 +46,76 @@ function velocityLabel(value, commentsTotal = 0) {
   if (total <= 0) return "none";
   if (v < 1) return "+0/day";
   return `${Math.round(v)}/day`;
+}
+
+function parseIsoDay(raw) {
+  if (!raw) return null;
+  const text = String(raw).trim();
+  if (!text) return null;
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(text);
+  if (!m) return null;
+  const dt = new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
+  return Number.isNaN(dt.getTime()) ? null : dt;
+}
+
+function daysBetweenInclusive(start, end) {
+  const ms = end.getTime() - start.getTime();
+  return Math.max(1, Math.floor(ms / (24 * 60 * 60 * 1000)) + 1);
+}
+
+function pass3DeadlineRampRaw(postedDate, commentEndDate, nowDate) {
+  const posted = parseIsoDay(postedDate);
+  const end = parseIsoDay(commentEndDate);
+  if (!posted || !end || end.getTime() <= posted.getTime()) return 0;
+  const now = nowDate || new Date();
+  const checked = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+  if (checked.getTime() <= posted.getTime()) return 0;
+  if (checked.getTime() >= end.getTime()) return PASS3_DEADLINE_RAMP_MAX;
+  const spanDays = Math.max(1, daysBetweenInclusive(posted, end) - 1);
+  const elapsedDays = Math.max(
+    0,
+    Math.floor((checked.getTime() - posted.getTime()) / (24 * 60 * 60 * 1000))
+  );
+  const progress = Math.max(0, Math.min(1, elapsedDays / spanDays));
+  return PASS3_DEADLINE_RAMP_MAX * progress;
+}
+
+function pass3FreshnessScaledBoost(postedDate, nowDate) {
+  const posted = parseIsoDay(postedDate);
+  if (!posted) return 0;
+  const now = nowDate || new Date();
+  const checked = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+  const day2 = new Date(posted.getTime());
+  day2.setUTCDate(day2.getUTCDate() + 2);
+  return checked.getTime() < day2.getTime() ? PASS3_FRESHNESS_BOOST : 0;
+}
+
+function chargeScale(rawScore, tau) {
+  const raw = Math.max(0, Number(rawScore || 0));
+  const t = Math.max(1e-9, Number(tau || 1));
+  return 1 - Math.exp(-(raw / t));
+}
+
+function combinedScoreClient(record) {
+  const pass1Scaled = Number(record.pass_1_scaled);
+  const pass2Scaled = Number(record.pass_2_scaled);
+  const p1s = Number.isFinite(pass1Scaled)
+    ? pass1Scaled
+    : chargeScale(record.pass_1_score || 0, PASS1_TAU);
+  const p2s = Number.isFinite(pass2Scaled)
+    ? pass2Scaled
+    : chargeScale(record.pass_2_score || 0, PASS2_TAU);
+  const pass3Base = Number(record.pass_3_score || 0);
+  const pass3Temporal = pass3Base + pass3DeadlineRampRaw(record.posted_date, record.comment_end_date);
+  let p3s = chargeScale(pass3Temporal, PASS3_TAU);
+  p3s = Math.min(1, p3s + pass3FreshnessScaledBoost(record.posted_date));
+  const wsum = COMBINED_WEIGHT_PASS1 + COMBINED_WEIGHT_PASS2 + COMBINED_WEIGHT_PASS3;
+  const combinedRaw =
+    ((COMBINED_WEIGHT_PASS1 * p1s) +
+      (COMBINED_WEIGHT_PASS2 * p2s) +
+      (COMBINED_WEIGHT_PASS3 * p3s)) / wsum;
+  const mult = Number(record.ranking_multiplier || 1);
+  return combinedRaw * (Number.isFinite(mult) ? mult : 1);
 }
 
 function pct0(value) {
@@ -117,6 +195,25 @@ function structuralBandLabel(raw) {
   return map[raw] || raw || "";
 }
 
+function normalizeSiteDocketPath(url) {
+  if (!url) return "";
+  const raw = String(url).trim();
+  if (!raw) return "";
+  if (raw.startsWith("/document/")) {
+    return raw.replace("/document/", "/docket/");
+  }
+  try {
+    const parsed = new URL(raw);
+    if (parsed.hostname === "regulations.observer" && parsed.pathname.startsWith("/document/")) {
+      parsed.pathname = parsed.pathname.replace("/document/", "/docket/");
+      return parsed.toString();
+    }
+  } catch {
+    return raw;
+  }
+  return raw;
+}
+
 function rowHtml(r, override = null) {
   const docId = r.document_id || "";
   const docketId = (r.docket_id || "").trim();
@@ -138,9 +235,16 @@ function rowHtml(r, override = null) {
   } else if (!r.document_action_label && docUrl.includes("federalregister.gov")) {
     docLabel = "Federal Register";
   }
-  const detailUrl = docId ? `/document/${encodeURIComponent(docId)}/#overview` : "";
-  const summaryUrl = r.summary_available ? `/document/${encodeURIComponent(docId)}/#summary` : "";
-  const analysisUrl = r.raw_summary_available ? `/document/${encodeURIComponent(docId)}/#analysis` : "";
+  const routeId = docketId || docId;
+  const detailUrl = normalizeSiteDocketPath(
+    r.detail_url || (routeId ? `/docket/${encodeURIComponent(routeId)}/#overview` : "")
+  );
+  const summaryUrl = normalizeSiteDocketPath(
+    r.summary_url || (r.summary_available ? `/docket/${encodeURIComponent(routeId)}/#summary` : "")
+  );
+  const analysisUrl = normalizeSiteDocketPath(
+    r.analysis_url || (r.raw_summary_available ? `/docket/${encodeURIComponent(routeId)}/#analysis` : "")
+  );
   const displayBand = override?.display_band || "";
   const reviewStatus = override?.review_status || "";
   const note = override?.note || "";
@@ -169,7 +273,7 @@ function rowHtml(r, override = null) {
       : `<span class="action-btn disabled">Analysis</span>`,
   ].join(" ");
   return `<tr>
-    <td>${pct5(r.combined_score)}</td>
+    <td>${pct5(r._combined_client ?? r.combined_score)}</td>
     <td>${r.rule_kind || "NPRM"}</td>
     <td>${docketId || "MISSING"}</td>
     <td class="title">${r.title || ""}</td>
@@ -201,15 +305,22 @@ function applyFilters(records) {
       (r.rule_kind || "").toLowerCase().includes(agency) ||
       docPrefix.includes(agency) ||
       docId.includes(agency);
-    const scoreOk = (r.combined_score || 0) >= minScore;
+    const scoreOk = ((r._combined_client ?? r.combined_score) || 0) >= minScore;
     return agencyOk && scoreOk;
+  }).sort((a, b) => {
+    const as = (a._combined_client ?? a.combined_score) || 0;
+    const bs = (b._combined_client ?? b.combined_score) || 0;
+    return bs - as;
   });
 }
 
 async function main() {
   const [data, overrides] = await Promise.all([loadData(), loadOverrides()]);
   window.__overrides = overrides || {};
-  const records = data.records || [];
+  const records = (data.records || []).map((r) => ({
+    ...r,
+    _combined_client: combinedScoreClient(r),
+  }));
   document.getElementById("minScore").value = String(DEFAULT_MIN_RELEVANCE);
   document.getElementById("meta").textContent =
     `Published ${records.length} records. Generated at ${data.generated_at || "unknown"}.`;

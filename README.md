@@ -2,7 +2,7 @@
 
 Static public site for publishing selected Regulations Observer outputs via GitHub Pages.
 
-See it live: [Regulations.observer](https://regulatios.observer)
+See it live: [Regulations.observer](https://regulations.observer)
 
 ## Local preview
 
@@ -30,8 +30,8 @@ The export also copies manual reviewed-label overrides from:
 
 This export also generates:
 
-- per-document route stubs at `/document/<document-id>/`
-- per-document metadata payloads at `/data/documents/<document-id>.json`
+- per-docket route stubs at `/docket/<docket-id>/`
+- per-docket metadata payloads at `/data/documents/<docket-id>.json`
 
 ## GitHub Pages
 

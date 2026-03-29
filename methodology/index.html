@@ -32,7 +32,7 @@
   <body>
     <header>
       <h1>Methodology (High-Level)</h1>
-      <p class="top-nav"><a href="/">Back to index</a> · <a href="/why/">Why</a> · <a href="/about/">About</a> · <a href="/review-status/">Review Status</a> · <a href="/corrections/">Corrections</a> · <a href="https://tally.so/r/A785lo" target="_blank" rel="noopener noreferrer">Pilot Survey</a></p>
+      <p class="top-nav"><a href="/">Back to index</a> · <a href="/why/">Why</a> · <a href="/about/">About</a> · <a href="/rss/">RSS</a> · <a href="/review-status/">Review Status</a> · <a href="/corrections/">Corrections</a> · <a href="https://tally.so/r/A785lo" target="_blank" rel="noopener noreferrer">Pilot Survey</a></p>
     </header>
 
     <main class="summary-page">
@@ -42,7 +42,7 @@
           This site is a triage tool. It helps identify NPRMs that may merit
           closer review before comment deadlines.
         </p>
-        <p><strong>Methodology version:</strong> 2026.03.21</p>
+        <p><strong>Methodology version:</strong> 2026.03.28</p>
       </section>
 
       <section class="markdown-body">
@@ -80,6 +80,7 @@
           <li>Presentation percentages are rounded to nearest 5%</li>
           <li>Reviewed overrides may adjust public-facing labels on specific dockets</li>
           <li>Closed-comment documents are hidden from the index</li>
+          <li>Backend scoring outputs are static for a fixed scoring model. Time-based pass_3 display boosts are computed in-browser from docket dates (`posted_date` and `comment_end_date`) so ranking can reflect “newly opened” and “closing soon” timing without mutating saved backend scores.</li>
           <li>Comment sentiment shows cluster-weighted support/opposition shares (`+% / -%`) and a net chip. Net is computed as positive% minus negative% using log-weighted cluster counts (`log1p(cluster size)`), with gray shown for no data or net within ±3%.</li>
         </ul>
 
@@ -92,6 +93,7 @@
 
         <h2>Recent Changes</h2>
         <ul>
+          <li>2026-03-28: Moved temporal pass_3 effects (freshness and deadline proximity) to client-side rendering; backend stored scores now remain static for unchanged inputs.</li>
           <li>2026-03-21: Unified detail-page renderer and shared comment-table rendering.</li>
           <li>2026-03-21: Added comment velocity and sentiment-based pass_3 contributions.</li>
           <li>2026-03-21: Added structured metadata pages for review status and corrections.</li>
