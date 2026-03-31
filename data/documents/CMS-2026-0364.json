@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-03-29T04:07:22.393210+00:00",
+  "comment_action_checked_at": "2026-03-31T17:27:16.688246+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-01T03:59:59Z",
   "pass_1_score": 12,
   "pass_2_score": 2,
-  "pass_3_score": 0.3333333333333333,
+  "pass_3_score": 3.4333333333333336,
   "pass_1_scaled": 0.8048595621585383,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.05404053109323448,
+  "pass_3_scaled": 0.43572988917223077,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.37851001045356436,
+  "combined_score": 0.5693546894930626,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "HIGH_RISK_RULEMAKING",
@@ -56,42 +56,43 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 23,
-  "comments_velocity_total": 19,
-  "comments_public_total_estimate": 19,
-  "comments_fetched": 3,
-  "comments_text_hydrated": 3,
-  "comments_cached_records": 23,
-  "comments_unique_clusters": 23,
-  "comments_clustered_duplicates": 0,
+  "comments_total": 30,
+  "comments_velocity_total": 26,
+  "comments_public_total_estimate": 26,
+  "comments_fetched": 7,
+  "comments_text_hydrated": 7,
+  "comments_cached_records": 30,
+  "comments_unique_clusters": 29,
+  "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 2,
+  "comments_citizen_count": 5,
   "comments_commenter_type_counts": {
-    "organization_other": 9,
-    "other": 12,
-    "citizen": 2
+    "organization_other": 10,
+    "other": 15,
+    "citizen": 5
   },
   "comments_submission_role_counts": {
-    "organization": 9,
-    "unknown": 12,
-    "individual": 2
+    "organization": 10,
+    "unknown": 15,
+    "individual": 5
   },
   "comments_submission_channel_counts": {
-    "public_portal": 19,
+    "public_portal": 26,
     "agency_material": 2,
     "other_channel_recorded": 2
   },
-  "comments_public_count": 19,
+  "comments_public_count": 26,
   "comments_recorded_count": 2,
   "comments_agency_material_count": 2,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-03-30": 7,
     "2026-03-27": 3,
     "2026-03-26": 4,
     "2026-03-24": 1,
-    "2026-03-23": 7,
+    "2026-03-23": 6,
     "2026-03-09": 1,
     "2026-03-02": 2,
     "2026-02-25": 1,
@@ -100,46 +101,134 @@
     "2026-02-18": 1
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-03-30": 3,
     "2026-03-23": 3,
     "2026-02-25": 1,
     "2026-02-19": 1,
     "2026-02-18": 1
   },
-  "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.10526315789473684,
-  "comments_sentiment_negative_pct": 0.10526315789473684,
-  "comments_sentiment_neutral_pct": 0.7894736842105263,
-  "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 19,
+  "comments_novel_comment_rate": 0.9666666666666667,
+  "comments_sentiment_positive_pct": 0.17920536332980444,
+  "comments_sentiment_negative_pct": 0.03908545888905693,
+  "comments_sentiment_neutral_pct": 0.7817091777811387,
+  "comments_sentiment_net": 0.1401199044407475,
+  "comments_sentiment_sample_size": 26,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 23,
+  "comments_analysis_sample_size": 30,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 23,
-  "comments_representative_prior_selected": 23,
+  "comments_representative_selected": 30,
+  "comments_representative_prior_selected": 30,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 9,
+  "comments_representative_must_keep": 10,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 9,
+    "must_keep": 10,
     "salience_rank": 1,
-    "weighted_fill": 13
+    "weighted_fill": 19
   },
-  "comments_representative_selected_by_counts_total": 23,
+  "comments_representative_selected_by_counts_total": 30,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-03-29T00:45:50.610532+00:00",
-  "comments_checked_at": "2026-03-29T00:45:50.847030+00:00",
-  "comments_error": "offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-03-30T16:38:44.630907+00:00",
+  "comments_checked_at": "2026-03-30T16:38:44.914174+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 23,
+      "cluster_id": 4,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-0364-0028",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 3471,
+      "representative_excerpt": "The University of Toledo\u2019s Master of Science in Donation and Transplantation Sciences Program appreciates the opportunity to comment on the proposed revisions to the Organ Procurement Organization (OPO) Conditions for Coverage (CMS-3409-P). We support CMS\u2019s continued commitment to improving organ donation and transplantation outcomes through enhanced account...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-0364-0028": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-0364-0016": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8275598066567095
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-0364-0027",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 963,
+      "representative_excerpt": "Dear Ms. Corning and colleagues: In response to the above docket and proposed rule, I write to make the following suggestions: consider discussing use of hospital data such as that from electronic health records along with state death certificate data for outcome measures (42 CFR 486.318, Condition: Outcome measures); developing specific standards governing ...",
+      "representative_signal_score": 4,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-0364-0027": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MD",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0002",
@@ -172,10 +261,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9000000000000001
+      "presentation_score": 0.7414213562373095
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0003",
@@ -208,10 +297,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8527027027027028
+      "presentation_score": 0.6939213562373094
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0006",
@@ -244,10 +333,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9189189189189191
+      "presentation_score": 0.7589213562373095
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0011",
@@ -280,10 +369,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9391891891891893
+      "presentation_score": 0.7739213562373095
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0012",
@@ -316,10 +405,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9891891891891893
+      "presentation_score": 0.8239213562373096
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0013",
@@ -352,10 +441,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9891891891891893
+      "presentation_score": 0.8239213562373096
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-0364-0030",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 4553,
+      "representative_excerpt": "This comment asks CMS to fix the governance problem measurement cannot reach: the performance layer. A performance layer exists when an OPO optimizes for the appearance of function rather than function itself, at every level of its hierarchy. It has a financial signature \u2014 duplicated labor costs where one position holds the title and another performs the wor...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-0364-0030": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7914213562373095
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-0364-0029",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 4910,
+      "representative_excerpt": "Organ Procurement Organizations Conditions for Coverage: Revisions to the Conditions for Coverage I submit this comment as the parent of a transplant recipient whose care has spanned more than three decades within the U.S. organ transplant system. My experience includes navigating liver transplantation in infancy and two subsequent kidney transplants across ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-0364-0029": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6914213562373095
+    },
+    {
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0009",
@@ -388,10 +549,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.818018018018018
+      "presentation_score": 0.6889213562373095
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0014",
@@ -424,46 +585,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8058558558558557
+      "presentation_score": 0.6739213562373095
     },
     {
-      "cluster_id": 9,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-0364-0016",
-      "representative_posted_date": "2026-03-23T04:00:00Z",
-      "representative_length": 3433,
-      "representative_excerpt": "My first comment (tracking number mlp-cx5g-5p3y) introduced the AORTA framework \u2014 an open-source AI architecture for OPO regulatory compliance. My second comment (tracking number mmw-y1vi-cyli) documented specific governance failure modes that output-based metrics cannot detect. This comment connects the two: the governance failures in my second comment are ...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-0364-0016": {
-          "organization": "",
-          "postedDate": "2026-03-23T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "TX",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-0364-0001",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.8058558558558557
-    },
-    {
-      "cluster_id": 3,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0022",
@@ -496,10 +621,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.5839213562373095
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0018",
@@ -532,10 +657,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6806306306306306
+      "presentation_score": 0.5814213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0020",
@@ -568,10 +693,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6806306306306306
+      "presentation_score": 0.5814213562373095
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0010",
@@ -604,10 +729,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6725225225225224
+      "presentation_score": 0.5739213562373094
     },
     {
       "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-0364-0031",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 29,
+      "representative_excerpt": "Comment on CMS-2026-0364-0001",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-0364-0031": {
+          "organization": "North American Transplant Coordinators Organization",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5414213562373096
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0024",
@@ -640,10 +801,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6000000000000001
+      "presentation_score": 0.5339213562373095
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0019",
@@ -676,10 +837,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5972972972972974
+      "presentation_score": 0.5314213562373096
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0021",
@@ -712,10 +873,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5972972972972974
+      "presentation_score": 0.5314213562373096
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0017",
@@ -748,10 +909,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.591891891891892
+      "presentation_score": 0.5264213562373096
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-0364-0025",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 898,
+      "representative_excerpt": "The rule aims to improve efficiency and increase organ availability. I support this rule\u2019s goal, but the added regulatory requirements raise some concerns for smaller OPOs and their ability to meet the same expectations as larger firms with more resources. The rule would be strengthened by accounting for regional disparities as having the same expectations a...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-0364-0025": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-0364-0026",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 293,
+      "representative_excerpt": "Under this system even if every OPO were operating at a high level tomorrow, half would still be classified as underperforming and subject to penalties. This approach prioritizes relative ranking over meaningful, objective benchmarks and ultimately undermines the goal of system-wide progress.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-0364-0026": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-0364-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0023",
@@ -784,10 +1017,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.48392135623730953
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0015",
@@ -820,10 +1053,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5391891891891892
+      "presentation_score": 0.4739213562373095
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0007",
@@ -856,10 +1089,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48243243243243245
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0008",
@@ -892,10 +1125,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48243243243243245
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0004",
@@ -928,10 +1161,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4635135135135135
+      "presentation_score": 0.4039213562373095
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-0364-0005",
@@ -964,7 +1197,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4635135135135135
+      "presentation_score": 0.4039213562373095
     }
   ],
   "comments_clusters_path": "data/comments/CMS-2026-0364.csv",
@@ -983,7 +1216,7 @@
       "withdrawn": false,
       "representative_excerpt": "Comment on CMS-2026-0364-0001",
       "source_cluster_ids": [
-        8
+        15
       ]
     },
     {
@@ -999,24 +1232,24 @@
       "withdrawn": false,
       "representative_excerpt": "Science in Donation & Transplant makes the following recommendations in our attached full comment: \u2022 Align donation and transplant-side performance metrics so that OPO procurement incentives and transplant center acceptance incentives work together rather than at cross-purposes, with shared accountability for organ utilization outcomes \u2022 Require CMS to use h...",
       "source_cluster_ids": [
-        16
+        22
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 23,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 23,
-  "comments_clusters_total_available": 23,
-  "comments_clusters_displayed": 23,
-  "comments_first_page_high_signal_clusters": 6,
-  "comments_first_page_novelty_clusters": 9,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.8666666666666667,
+  "comments_first_page_coverage_count": 26,
+  "comments_clusters_total_available": 29,
+  "comments_clusters_displayed": 29,
+  "comments_first_page_high_signal_clusters": 9,
+  "comments_first_page_novelty_clusters": 10,
   "comments_first_page_stance_counts": {
-    "positive": 4,
-    "neutral": 16,
-    "negative": 3
+    "positive": 5,
+    "neutral": 18,
+    "negative": 2
   },
-  "comments_first_page_unique_days": 10,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "CMS-2026-0364"
