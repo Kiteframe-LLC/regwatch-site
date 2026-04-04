@@ -81,6 +81,28 @@ function flagLabel(flag) {
   return map[flag] || flag;
 }
 
+function pass4AxisLabel(axis) {
+  const map = {
+    legal_authority_grounding: "Legal Authority Grounding",
+    legal_authority_vagueness: "Legal Authority Vagueness",
+    legal_authority_reversal: "Legal Authority Reversal",
+    legal_authority_judicial_tension: "Legal/Judicial Tension",
+    alternatives_option_quality: "Alternatives Option Quality",
+    alternatives_less_restrictive: "Alternatives Less Restrictive",
+    alternatives_targeting: "Alternatives Targeting",
+    alternatives_procedural_flexibility: "Alternatives Procedural Flexibility",
+    harmfulness_distributional_harms: "Harmfulness Distributional Harms",
+    harmfulness_rights_civil_liberties: "Harmfulness Rights/Civil Liberties",
+    harmfulness_disproportionate_burden: "Harmfulness Disproportionate Burden",
+    harmfulness_irreversibility: "Harmfulness Irreversibility",
+    evidence_quantification_quality: "Evidence Quantification Quality",
+    evidence_counterevidence_engagement: "Evidence Counterevidence Engagement",
+    evidence_replication_data_access: "Evidence Replication/Data Access",
+    evidence_enforcement_feasibility: "Evidence Enforcement Feasibility",
+  };
+  return map[axis] || axis;
+}
+
 function attachmentRow(doc) {
   const id = esc(doc.document_id);
   const rawId = String(doc.document_id || "");
@@ -368,6 +390,23 @@ function detailHtml(d, summaryMd, analysisMd) {
   const attachmentRows = attachments.map(attachmentRow).join("");
   const governmentSubmissions = d.government_submissions || [];
   const governmentSubmissionRows = governmentSubmissions.map(govSubmissionRow).join("");
+  const pass4HasData = d.pass_4_raw !== null && d.pass_4_raw !== undefined;
+  const pass4Axes = Object.entries(d.pass_4_axes || {}).filter(([, value]) =>
+    Number.isFinite(Number(value))
+  );
+  const pass4AxesList = pass4Axes
+    .sort((a, b) => String(a[0]).localeCompare(String(b[0])))
+    .map(([axis, value]) => `<li>${esc(pass4AxisLabel(axis))}: ${esc(String(value))}/3</li>`)
+    .join("");
+  const pass4DomainMeans = Object.entries(d.pass_4_domain_means || {}).filter(([, value]) =>
+    Number.isFinite(Number(value))
+  );
+  const pass4DomainMeansText = pass4DomainMeans
+    .sort((a, b) => String(a[0]).localeCompare(String(b[0])))
+    .map(([domain, value]) => `${domain}=${Number(value).toFixed(2)}`)
+    .join(" | ");
+  const pass4Signals = Array.isArray(d.pass_4_signals) ? d.pass_4_signals : [];
+  const pass4SignalsList = pass4Signals.map((signal) => `<li>${esc(String(signal))}</li>`).join("");
   const referencedDocuments = Array.isArray(d.referenced_documents)
     ? d.referenced_documents
     : [];
@@ -448,6 +487,17 @@ function detailHtml(d, summaryMd, analysisMd) {
            pass_2=${esc(d.pass_2_score)} (scaled ${pct5(d.pass_2_scaled)}),
            combined=${pct5(d.combined_score)}</p>
         ${
+          pass4HasData
+            ? `<p><strong>Pass 4:</strong> raw=${esc(d.pass_4_raw)} (scaled ${formatPct(Number(d.pass_4_scaled || 0))})</p>
+               ${pass4DomainMeansText ? `<p><strong>Pass 4 Domain Means:</strong> ${esc(pass4DomainMeansText)}</p>` : ""}
+               ${
+                 d.pass_4_primary_concern
+                   ? `<p><strong>Pass 4 Primary Concern:</strong> ${esc(d.pass_4_primary_concern)}</p>`
+                   : ""
+               }`
+            : ""
+        }
+        ${
           override
             ? `<p><strong>Reviewed Significance:</strong> ${esc(override.display_band || "")}
                  ${override.review_status ? `<span class="review-pill">${esc(override.review_status)}</span>` : ""}</p>
@@ -458,6 +508,14 @@ function detailHtml(d, summaryMd, analysisMd) {
         <p><strong>Pass 2 Type:</strong> ${esc(d.pass_2_rule_type || "")}</p>
         <h3>Structural Flags</h3>
         ${flags ? `<ul>${flags}</ul>` : "<p>None</p>"}
+        ${
+          pass4HasData
+            ? `<h3>Pass 4 Axes</h3>
+               ${pass4AxesList ? `<ul>${pass4AxesList}</ul>` : "<p>None</p>"}
+               <h3>Pass 4 Signals</h3>
+               ${pass4SignalsList ? `<ul>${pass4SignalsList}</ul>` : "<p>None</p>"}`
+            : ""
+        }
         <h3>Rule Text Sources</h3>
         ${sources ? `<ul>${sources}</ul>` : "<p>None</p>"}
         <h3>Referenced Documents</h3>

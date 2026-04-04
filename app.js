@@ -131,6 +131,15 @@ function pct0(value) {
   }
 }
 
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
 function sentimentCell(r) {
   const pos = Number(r.comments_sentiment_positive_pct || 0);
   const neg = Number(r.comments_sentiment_negative_pct || 0);
@@ -249,12 +258,14 @@ function rowHtml(r, override = null) {
   const reviewStatus = override?.review_status || "";
   const note = override?.note || "";
   const structuralBand = structuralBandLabel(r.pass_2_risk_band);
+  const primaryConcern = String(r.pass_4_primary_concern || "").trim();
   const bandCell = displayBand
     ? `<div class="band-primary">${displayBand}</div>
        <div class="band-secondary">Structural: ${structuralBand}</div>
+       ${primaryConcern ? `<div class="band-note"><strong>Primary concern:</strong> ${escapeHtml(primaryConcern)}</div>` : ""}
        ${reviewStatus ? `<div class="review-pill">${reviewStatus}</div>` : ""}
        ${note ? `<div class="band-note">${note}</div>` : ""}`
-    : `<div>${structuralBand}</div>`;
+    : `<div>${structuralBand}</div>${primaryConcern ? `<div class="band-note"><strong>Primary concern:</strong> ${escapeHtml(primaryConcern)}</div>` : ""}`;
   const actions = [
     detailUrl
       ? `<a class="action-btn" href="${detailUrl}">Detail</a>`
