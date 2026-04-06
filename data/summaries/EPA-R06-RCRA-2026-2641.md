@@ -1,0 +1,46 @@
+## What This Document Does
+- Proposes to let WRB Refining LP in Borger, Texas treat up to 700 cubic yards per year of stormwater tank solids as nonhazardous instead of listed hazardous waste F037, if specified conditions are met.
+- Builds on a prior one-time delisting and would convert that narrower relief into a continuing annual exclusion.
+- Says EPA relied on eight acceptable samples and a landfill-risk model called DRAS to conclude the waste does not need to remain listed if it stays within the proposed limits.
+- Requires future verification testing before disposal, annual reporting of testing data and waste volume, process-change notification, and a reopener if later information shows the waste no longer fits the exclusion.
+
+## Why It Matters
+- This is a facility-specific deregulatory proposal. If finalized, it would reduce disposal and compliance burdens for this refinery waste stream by allowing disposal in a Subtitle D landfill rather than management as listed hazardous waste.
+- The main public question is not whether EPA can ever grant a delisting. It is whether EPA has explained well enough why a continuous delisting is justified on this record rather than a more limited or more conditional approach.
+- EPA gives a real technical basis for the proposal: it describes the waste stream, the sample count, the DRAS landfill scenario, and the operating conditions. But the explanation is still compressed in the places that matter most for public review.
+- The strongest comment opportunities are about representativeness and future variability: whether eight samples are enough, whether future sampling is specific enough, and whether the monitoring backstops are clear enough to catch changes before noncompliant waste is managed as nonhazardous.
+
+## Who Is Affected
+- WRB Refining LP, because the proposal would directly change how this recurring waste stream may be managed.
+- Subtitle D landfill operators, including any on-site landfill used for disposal of qualifying waste.
+- Texas and EPA Region 6 regulators responsible for oversight, reporting review, and any reopener decisions.
+- Nearby communities and other stakeholders who care about how refinery waste is characterized, sampled, and disposed.
+
+## Issues Worth Commenting On (0-6)
+1. Issue: Thin explanation for moving from one-time relief to a continuous annual delisting
+   - Why it matters: EPA says a prior one-time delisting was granted in 2025, but the current notice does not spend much time explaining why the record now supports a recurring annual exclusion instead of another limited approval.
+   - Practical question to ask: What additional evidence or reasoning led EPA to conclude that an ongoing annual delisting is appropriate, rather than a time-limited or staged approach?
+
+2. Issue: Limited public explanation of sample representativeness
+   - Why it matters: EPA says it relied on eight acceptable samples, but the notice does not clearly explain why those samples are representative of future cleanouts across four tanks and changing operating conditions.
+   - Practical question to ask: Please explain how the eight samples represent future annual cleanouts, including variability across tanks, accumulation conditions, and different cleanout events.
+
+3. Issue: Future sampling plan is referenced but not summarized clearly enough
+   - Why it matters: The NPRM says future testing must follow the sampling and analysis plan, but the public-facing notice does not provide enough detail to judge whether that plan is robust against selective or overly aggregated sampling.
+   - Practical question to ask: Can EPA summarize the sampling plan in the docket or final rule, including how samples are selected, composited, and tied to specific tanks or cleanout campaigns?
+
+4. Issue: Disposal assumptions are stated at a high level
+   - Why it matters: EPA modeled a Subtitle D landfill scenario and says the landfill will likely be on-site, but the record gives only a high-level explanation of why that management scenario is fully captured by the risk analysis.
+   - Practical question to ask: What assumptions about handling, dewatering, transport, and landfill management were used in the DRAS analysis, and why are those assumptions appropriate for likely on-site disposal?
+
+5. Issue: "Increasing trends" language is vague
+   - Why it matters: EPA says WRB should monitor and report increasing trends in constituents, but the proposal does not make clear what level of trend is concerning or what happens when one appears before an actual exceedance.
+   - Practical question to ask: Please define what EPA considers a reportable increasing trend and what follow-up actions EPA expects when trend data suggest the waste may be moving toward noncompliance.
+
+## Evidence Quotes
+- "The EPA is proposing to grant a continuous delisting to clean out stormwater tanks annually."
+- "A total of eight acceptable sample results were provided by the Petitioner."
+- "The EPA considered all eight samples of the stormwater tank solids, and the landfill disposal scenario was modeled using the Delisting Risk Assessment Software (DRAS)."
+- "Based on this review, the EPA agrees with the Petitioner that the petitioned waste is nonhazardous with respect to the original listing criteria."
+- "Prior to disposal of any future tank cleanouts, the Petitioner must conduct sampling and analysis as described in the delisting sampling and analysis plan and ensure that the waste does not exceed the delisting parameters."
+- "The Petitioner should monitor and report increasing trends of constituents which will affect the overall compliance with the stormwater discharge permit."
