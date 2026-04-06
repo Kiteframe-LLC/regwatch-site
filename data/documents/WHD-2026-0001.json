@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-04-06T00:24:01.873348+00:00",
+  "comment_action_checked_at": "2026-04-06T14:35:45.897406+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-29T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 65.05555555555556,
+  "pass_3_score": 60.282051282051285,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.9999804511205946,
+  "pass_3_scaled": 0.9999566848693785,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8239953922950056,
+  "combined_score": 0.8239835091693974,
   "score_total": 10,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -69,8 +69,8 @@
   "comments_fetched": 404,
   "comments_text_hydrated": 204,
   "comments_cached_records": 404,
-  "comments_unique_clusters": 225,
-  "comments_clustered_duplicates": 101,
+  "comments_unique_clusters": 262,
+  "comments_clustered_duplicates": 137,
   "comments_truncated": true,
   "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
@@ -104,19 +104,19 @@
     "2026-03-06": 3
   },
   "comments_novel_comment_rate": 0.6608910891089109,
-  "comments_sentiment_positive_pct": 0.06378705509238522,
-  "comments_sentiment_negative_pct": 0.12430872752321685,
-  "comments_sentiment_neutral_pct": 0.8119042173843979,
-  "comments_sentiment_net": -0.06052167243083163,
-  "comments_sentiment_sample_size": 326,
+  "comments_sentiment_positive_pct": 0.05496048046604463,
+  "comments_sentiment_negative_pct": 0.10166111184353566,
+  "comments_sentiment_neutral_pct": 0.8433784076904197,
+  "comments_sentiment_net": -0.046700631377491024,
+  "comments_sentiment_sample_size": 399,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 326,
+  "comments_analysis_sample_size": 399,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 326,
-  "comments_representative_prior_selected": 296,
-  "comments_representative_newly_selected": 30,
+  "comments_representative_selected": 399,
+  "comments_representative_prior_selected": 399,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 7,
   "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
@@ -125,17 +125,113 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 7,
     "salience_rank": 4,
-    "weighted_fill": 315
+    "weighted_fill": 388
   },
-  "comments_representative_selected_by_counts_total": 326,
+  "comments_representative_selected_by_counts_total": 399,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-19T04:00Z",
-  "comments_api_last_seen_at": "2026-04-03T19:55:48.290113+00:00",
-  "comments_checked_at": "2026-04-03T19:55:49.345363+00:00",
+  "comments_api_last_seen_at": "2026-04-06T13:11:17.340747+00:00",
+  "comments_checked_at": "2026-04-06T13:11:18.403739+00:00",
   "comments_error": "used_bulk_csv",
   "comments_clusters": [
+    {
+      "cluster_id": 1,
+      "count": 53,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-2235",
+      "representative_posted_date": "2026-04-03T04:00:00Z",
+      "representative_length": 695,
+      "representative_excerpt": "Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act, As a Dasher, I appreciate the Department of Labor\u2019s proposed rule that values independent work and better protects the flexibility we want. Being able to choose when, where, and how often I earn is what makes this work possible for me. That freedom helps me prioritize ...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-2178": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Salamatmanesh, Akram",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-2179": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Loden, Rebecca",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-2180": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Fore, Michelle",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-2181": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Edouard, Monica",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-2182": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Rody, Rise",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3626725996097492
+    },
     {
       "cluster_id": 4,
       "count": 39,
@@ -230,106 +326,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5011045910037876
+      "presentation_score": 0.4726678803874752
     },
     {
-      "cluster_id": 1,
-      "count": 20,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-2232",
-      "representative_posted_date": "2026-04-03T04:00:00Z",
-      "representative_length": 695,
-      "representative_excerpt": "Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act, As a Dasher, I appreciate the Department of Labor\u2019s proposed rule that values independent work and better protects the flexibility we want. Being able to choose when, where, and how often I earn is what makes this work possible for me. That freedom helps me prioritize ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-2178": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Salamatmanesh, Akram",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-2179": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Loden, Rebecca",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-2181": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Edouard, Monica",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-2185": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Grant, Tasha",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-2186": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Powell, Reo",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.32533765949614935
-    },
-    {
-      "cluster_id": 65,
+      "cluster_id": 102,
       "count": 16,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0203",
@@ -422,10 +422,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.26277012543883144
+      "presentation_score": 0.24455605355371296
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 28,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1326",
@@ -518,16 +518,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3004248583274694
+      "presentation_score": 0.2902428826069212
     },
     {
-      "cluster_id": 10,
-      "count": 5,
+      "cluster_id": 56,
+      "count": 4,
       "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-1398",
+      "representative_comment_id": "WHD-2026-0001-1239",
       "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 175,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because it lets me work around my own schedule. I can go to Dr appointments and not have to worry about calling off work",
+      "representative_length": 267,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because it's the only work I have been able to maintain after years of searching for a job in the job market. Now that I have a new career path, I need apps like instacart to continue helping me pay for my bills.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -536,7 +536,7 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "WHD-2026-0001-1398": {
+        "WHD-2026-0001-1239": {
           "organization": "",
           "postedDate": "2026-03-31T04:00:00Z",
           "zip": "",
@@ -544,14 +544,29 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Sivak, Kimberly",
+          "title": "Comment from Vera Puy-Arena, Carolina",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "WHD-2026-0001-0198": {
+        "WHD-2026-0001-1132": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Rivera, Josiah",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-0094": {
           "organization": "",
           "postedDate": "2026-03-19T04:00Z",
           "zip": "",
@@ -559,14 +574,14 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Zivin, Scott",
+          "title": "Comment from Spencer, Jennifer",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "WHD-2026-0001-0196": {
+        "WHD-2026-0001-0144": {
           "organization": "",
           "postedDate": "2026-03-19T04:00:00Z",
           "zip": "",
@@ -574,37 +589,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Zivin, Scott",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0181": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Tekaucic, Anastasia",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0143": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Villegas, Juan",
+          "title": "Comment from Sullivan, Tracy",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -614,10 +599,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3004248583274694
+      "presentation_score": 0.2995636735050929
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 80,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1112",
@@ -680,16 +665,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32509261401935763
+      "presentation_score": 0.31720568953992334
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 14,
       "count": 3,
       "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-1239",
+      "representative_comment_id": "WHD-2026-0001-1398",
       "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 267,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because it's the only work I have been able to maintain after years of searching for a job in the job market. Now that I have a new career path, I need apps like instacart to continue helping me pay for my bills.",
+      "representative_length": 175,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because it lets me work around my own schedule. I can go to Dr appointments and not have to worry about calling off work",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -698,7 +683,7 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "WHD-2026-0001-1239": {
+        "WHD-2026-0001-1398": {
           "organization": "",
           "postedDate": "2026-03-31T04:00:00Z",
           "zip": "",
@@ -706,29 +691,14 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Vera Puy-Arena, Carolina",
+          "title": "Comment from Sivak, Kimberly",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "WHD-2026-0001-0094": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Spencer, Jennifer",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0144": {
+        "WHD-2026-0001-0181": {
           "organization": "",
           "postedDate": "2026-03-19T04:00:00Z",
           "zip": "",
@@ -736,7 +706,22 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Sullivan, Tracy",
+          "title": "Comment from Tekaucic, Anastasia",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-0143": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Villegas, Juan",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -746,16 +731,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32509261401935763
+      "presentation_score": 0.31720568953992334
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 7,
       "count": 3,
       "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-1354",
+      "representative_comment_id": "WHD-2026-0001-1477",
       "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 197,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because i have to take care of my old parents and help my brother out with the kids. This is the only job that gives me the flexibility i need",
+      "representative_length": 155,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because it avails me the opportunity to work anytime I want without without affecting my family time",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -764,7 +749,7 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "WHD-2026-0001-1354": {
+        "WHD-2026-0001-1477": {
           "organization": "",
           "postedDate": "2026-03-31T04:00:00Z",
           "zip": "",
@@ -772,29 +757,14 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Aghakhani, Parisa",
+          "title": "Comment from Agwu, Michael",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "WHD-2026-0001-1054": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Golden, Tamesha",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0082": {
+        "WHD-2026-0001-0198": {
           "organization": "",
           "postedDate": "2026-03-19T04:00Z",
           "zip": "",
@@ -802,7 +772,22 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Della Penna, Denise",
+          "title": "Comment from Zivin, Scott",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-0196": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Zivin, Scott",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -812,10 +797,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32509261401935763
+      "presentation_score": 0.31720568953992334
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 142,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0193",
@@ -848,10 +833,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7784542021895888
+      "presentation_score": 0.7739006842183094
     },
     {
-      "cluster_id": 183,
+      "cluster_id": 220,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0067",
@@ -884,10 +869,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7284542021895888
+      "presentation_score": 0.7239006842183093
     },
     {
-      "cluster_id": 182,
+      "cluster_id": 219,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0068",
@@ -920,10 +905,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7284542021895888
+      "presentation_score": 0.7239006842183093
     },
     {
-      "cluster_id": 178,
+      "cluster_id": 215,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0072",
@@ -956,10 +941,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7284542021895888
+      "presentation_score": 0.7239006842183093
     },
     {
-      "cluster_id": 177,
+      "cluster_id": 214,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0073",
@@ -992,10 +977,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7284542021895888
+      "presentation_score": 0.7239006842183093
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 136,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0202",
@@ -1028,10 +1013,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7284542021895888
+      "presentation_score": 0.7239006842183093
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0205",
@@ -1064,10 +1049,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7284542021895888
+      "presentation_score": 0.7239006842183093
     },
     {
-      "cluster_id": 188,
+      "cluster_id": 225,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0058",
@@ -1100,10 +1085,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6998827736181603
+      "presentation_score": 0.6953292556468808
     },
     {
-      "cluster_id": 186,
+      "cluster_id": 223,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0060",
@@ -1136,10 +1121,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6998827736181603
+      "presentation_score": 0.6953292556468808
     },
     {
-      "cluster_id": 225,
+      "cluster_id": 262,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0002",
@@ -1172,10 +1157,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6820256307610174
+      "presentation_score": 0.6774721127897378
     },
     {
-      "cluster_id": 193,
+      "cluster_id": 230,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0045",
@@ -1208,10 +1193,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5629780117133982
+      "presentation_score": 0.5584244937421188
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 134,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0062",
@@ -1259,10 +1244,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6359461261177313
+      "presentation_score": 0.6295064792462381
     },
     {
-      "cluster_id": 221,
+      "cluster_id": 258,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0007",
@@ -1295,10 +1280,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6820256307610174
+      "presentation_score": 0.6774721127897378
     },
     {
-      "cluster_id": 198,
+      "cluster_id": 235,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0033",
@@ -1331,7 +1316,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6820256307610174
+      "presentation_score": 0.6774721127897378
     },
     {
       "cluster_id": 3,
@@ -1367,10 +1352,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.648692297427684
+      "presentation_score": 0.6441387794564044
     },
     {
-      "cluster_id": 208,
+      "cluster_id": 245,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0020",
@@ -1403,10 +1388,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.46535896409435074
+      "presentation_score": 0.4608054461230711
     },
     {
-      "cluster_id": 207,
+      "cluster_id": 244,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0022",
@@ -1439,10 +1424,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.46535896409435074
+      "presentation_score": 0.4608054461230711
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 135,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0061",
@@ -1475,10 +1460,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5951208688562555
+      "presentation_score": 0.5905673508849758
     },
     {
-      "cluster_id": 181,
+      "cluster_id": 218,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0069",
@@ -1511,10 +1496,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5951208688562555
+      "presentation_score": 0.5905673508849758
     },
     {
-      "cluster_id": 180,
+      "cluster_id": 217,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0070",
@@ -1547,10 +1532,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5951208688562555
+      "presentation_score": 0.5905673508849758
     },
     {
-      "cluster_id": 179,
+      "cluster_id": 216,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0071",
@@ -1583,10 +1568,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5951208688562555
+      "presentation_score": 0.5905673508849758
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 140,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0195",
@@ -1619,10 +1604,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5951208688562555
+      "presentation_score": 0.5905673508849758
     },
     {
-      "cluster_id": 185,
+      "cluster_id": 222,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0063",
@@ -1670,10 +1655,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5859461261177312
+      "presentation_score": 0.5795064792462381
     },
     {
-      "cluster_id": 210,
+      "cluster_id": 247,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0018",
@@ -1706,10 +1691,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.548692297427684
+      "presentation_score": 0.5441387794564044
     },
     {
-      "cluster_id": 202,
+      "cluster_id": 239,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0029",
@@ -1742,10 +1727,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.548692297427684
+      "presentation_score": 0.5441387794564044
     },
     {
-      "cluster_id": 201,
+      "cluster_id": 238,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0030",
@@ -1778,10 +1763,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.548692297427684
+      "presentation_score": 0.5441387794564044
     },
     {
-      "cluster_id": 197,
+      "cluster_id": 234,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0034",
@@ -1814,10 +1799,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.548692297427684
+      "presentation_score": 0.5441387794564044
     },
     {
-      "cluster_id": 196,
+      "cluster_id": 233,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0035",
@@ -1850,10 +1835,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.548692297427684
+      "presentation_score": 0.5441387794564044
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0978",
@@ -1886,10 +1871,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5046446783800651
+      "presentation_score": 0.5000911604087854
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1120",
@@ -1922,10 +1907,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5046446783800651
+      "presentation_score": 0.5000911604087854
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1158",
@@ -1958,10 +1943,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5046446783800651
+      "presentation_score": 0.5000911604087854
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 66,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1173",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 315,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I am a mom that doesnt always have a babysitter for a regular 9-5 job. I work instacart when I have someone who can watch my kids. Also my kids are in elementary school and being able to log off in case of an unexpected event is a very important to me.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1173": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Gonzalez, Rosa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5000911604087854
+    },
+    {
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1206",
@@ -1994,10 +2015,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5046446783800651
+      "presentation_score": 0.5000911604087854
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1323",
@@ -2030,10 +2051,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5046446783800651
+      "presentation_score": 0.5000911604087854
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1444",
@@ -2066,10 +2087,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5046446783800651
+      "presentation_score": 0.5000911604087854
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 133,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0065",
@@ -2102,10 +2123,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 184,
+      "cluster_id": 221,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0066",
@@ -2138,10 +2159,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0086",
@@ -2174,10 +2195,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 121,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0106",
@@ -2210,10 +2231,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 150,
+      "cluster_id": 187,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0121",
@@ -2246,10 +2267,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 145,
+      "cluster_id": 182,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0127",
@@ -2282,10 +2303,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 144,
+      "cluster_id": 181,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0128",
@@ -2318,10 +2339,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 142,
+      "cluster_id": 179,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0130",
@@ -2354,10 +2375,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0138",
@@ -2390,10 +2411,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 127,
+      "cluster_id": 164,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0156",
@@ -2426,10 +2447,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 147,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0185",
@@ -2462,10 +2483,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0189",
@@ -2498,10 +2519,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 139,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-0197",
+      "representative_posted_date": "2026-03-19T04:00:00Z",
+      "representative_length": 316,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I'll be able to take care of my husband who is a 100 percent disabled veteran. Working with Instacart allow me to have more time to care for my husband who needs to go to the doctors quite often. Meals prep 3 times per day, bathing and other activities.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-0197": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Nguyen, Judy",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45723401755164256
+    },
+    {
+      "cluster_id": 137,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0200",
@@ -2534,10 +2591,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0201",
@@ -2570,10 +2627,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4617875355229222
+      "presentation_score": 0.45723401755164256
     },
     {
-      "cluster_id": 194,
+      "cluster_id": 231,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0046",
@@ -2606,10 +2663,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42964467838006504
+      "presentation_score": 0.4250911604087854
     },
     {
-      "cluster_id": 222,
+      "cluster_id": 259,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0006",
@@ -2642,10 +2699,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41535896409435075
+      "presentation_score": 0.4108054461230711
     },
     {
-      "cluster_id": 219,
+      "cluster_id": 256,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0009",
@@ -2678,10 +2735,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41535896409435075
+      "presentation_score": 0.4108054461230711
     },
     {
-      "cluster_id": 218,
+      "cluster_id": 255,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0010",
@@ -2714,10 +2771,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41535896409435075
+      "presentation_score": 0.4108054461230711
     },
     {
-      "cluster_id": 212,
+      "cluster_id": 249,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0016",
@@ -2750,10 +2807,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41535896409435075
+      "presentation_score": 0.4108054461230711
     },
     {
-      "cluster_id": 209,
+      "cluster_id": 246,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0019",
@@ -2786,10 +2843,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41535896409435075
+      "presentation_score": 0.4108054461230711
     },
     {
-      "cluster_id": 205,
+      "cluster_id": 242,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0025",
@@ -2822,10 +2879,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41535896409435075
+      "presentation_score": 0.4108054461230711
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 96,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-0981",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 389,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because it provided away from me to make some income after being out of the workforce for years from being a housewife after my husband passed away, who was the provider. It also gave me the flexibility of being able to work whenever I wanted while also building a business from scratch, having zero incom...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-0981": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Cuington, Laportia",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0987",
@@ -2858,10 +2951,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0999",
@@ -2894,10 +2987,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1006",
@@ -2930,10 +3023,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1025",
@@ -2966,10 +3059,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1051",
@@ -3002,10 +3095,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1059",
@@ -3038,10 +3131,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 86,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1077",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 233,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I can earn extra income for my family and work around school schedules and my husband's job. It is extremely important to continue to have the flexibility in my schedule.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1077": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Berg, Meredith",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 85,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1086",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 247,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because it allows me to carry two jobs and work when I need to work. Love the flexibility so I can spend time with family and make money as my second income. PLEASE KEEP FLEXIBILITY AVAILABLE!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1086": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Briggs, Thomas",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1087",
@@ -3074,10 +3239,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 82,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1097",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 250,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I need the extra income due to the Covid situation I was basically in big trouble with finances so at least I'm able to buy gifts now with my money for my grandchildren for their holidays",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1097": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Wasko, Michael",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1119",
@@ -3110,10 +3311,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1125",
@@ -3146,10 +3347,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1131",
@@ -3182,46 +3383,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 47,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-1135",
-      "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 343,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because it is my second income. I only do extra gig work when I need the money. I work as often and do how long I need to make the extra money needed to cover those extra expenses that come up. I don't want a regular schedule. I need the flexibility to work when I want or when I need to.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-1135": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Darling, Seth",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
-    },
-    {
-      "cluster_id": 46,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1137",
@@ -3254,10 +3419,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1147",
@@ -3290,10 +3455,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1148",
@@ -3326,10 +3491,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1149",
@@ -3362,10 +3527,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1165",
@@ -3398,10 +3563,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1187",
@@ -3434,10 +3599,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 64,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1188",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 87,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I have family to tend to",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1188": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Luckett, Quiana",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 61,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1212",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 235,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I can not afford to live on what wages I get for working in the Health Care Field and the price of RENT, FOOD, and GAS Everyday Life is hard and I live PAYCHECK TO PAYCHECK",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1212": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from McGrory, Sandra",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1213",
@@ -3470,10 +3707,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1225",
@@ -3506,10 +3743,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1226",
@@ -3542,10 +3779,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1243",
@@ -3578,10 +3815,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1248",
@@ -3614,10 +3851,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1249",
@@ -3650,10 +3887,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1258",
@@ -3686,10 +3923,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 46,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1267",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 84,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because it allows me to live.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1267": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Wood, Seth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1268",
@@ -3722,10 +3995,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1270",
@@ -3758,10 +4031,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1290",
@@ -3794,10 +4067,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1292",
@@ -3830,10 +4103,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1293",
@@ -3866,10 +4139,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1313",
@@ -3902,10 +4175,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1317",
@@ -3938,10 +4211,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1322",
@@ -3974,10 +4247,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1324",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 321,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because i have two small children and am a single mom and go to school full time it is hard to find work when i have no family around or any one to help so this flexibility w instacart is everything to me and the only way im anle to earn money until i finish school.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1324": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Smith, Casey",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1332",
@@ -4010,10 +4319,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1333",
@@ -4046,10 +4355,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1337",
@@ -4082,10 +4391,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1350",
@@ -4118,10 +4427,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1377",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 158,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because Im able to work at own schedule. Can do this in the morning midday or afternoon or on weekends.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1377": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Jimenez, Guilleormo",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1390",
@@ -4154,10 +4499,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1400",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 89,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I can make my own schedule",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1400": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Williams, Taimya",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1454",
@@ -4190,10 +4571,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1458",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 100,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I can spend more time with my family.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1458": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Prysvitlyy, Dmytro",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1462",
@@ -4226,10 +4643,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37131134504673174
+      "presentation_score": 0.3667578270754521
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1476",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 152,
+      "representative_excerpt": "I value my flexibility and independence with Instacart becauseI'm my own boss, I get money instantly, and the best part is that it keeps me entertained.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1476": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Palma, Alicia",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3667578270754521
+    },
+    {
+      "cluster_id": 90,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1043",
@@ -4277,61 +4730,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36213660230820754
+      "presentation_score": 0.35569695543671426
     },
     {
-      "cluster_id": 54,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-1086",
-      "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 247,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because it allows me to carry two jobs and work when I need to work. Love the flexibility so I can spend time with family and make money as my second income. PLEASE KEEP FLEXIBILITY AVAILABLE!",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-1086": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Briggs, Thomas",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0178": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Haulk, Michelle",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.36213660230820754
-    },
-    {
-      "cluster_id": 31,
+      "cluster_id": 50,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1253",
@@ -4379,10 +4781,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36213660230820754
+      "presentation_score": 0.35569695543671426
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 48,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1261",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 318,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I have a young son in school. Some days he is sick and can't go to school. With Instacart I can stay home with him and it's not a problem. I don't have to use \"sick days\". I also love the flexibility of being able to work short hours while he's at school.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1261": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Abbott, Chelsey",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-0150": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Pyfer, Katelyn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35569695543671426
+    },
+    {
+      "cluster_id": 47,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1263",
@@ -4430,10 +4883,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36213660230820754
+      "presentation_score": 0.35569695543671426
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 40,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1288",
@@ -4481,10 +4934,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36213660230820754
+      "presentation_score": 0.35569695543671426
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 32,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-1319",
@@ -4532,16 +4985,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36213660230820754
+      "presentation_score": 0.35569695543671426
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 22,
       "count": 2,
       "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-1479",
+      "representative_comment_id": "WHD-2026-0001-1354",
       "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 213,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because I manage my time, earn money and I can do other tasks. The bad thing is that before a bank it is not a \"safe\" job and you do not acquire many benefits",
+      "representative_length": 197,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because i have to take care of my old parents and help my brother out with the kids. This is the only job that gives me the flexibility i need",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -4550,7 +5003,7 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "WHD-2026-0001-1479": {
+        "WHD-2026-0001-1354": {
           "organization": "",
           "postedDate": "2026-03-31T04:00:00Z",
           "zip": "",
@@ -4558,22 +5011,22 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Ugarte Arenas, Diego",
+          "title": "Comment from Aghakhani, Parisa",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "WHD-2026-0001-0170": {
+        "WHD-2026-0001-0082": {
           "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
+          "postedDate": "2026-03-19T04:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Rojas Guzman, Frederik",
+          "title": "Comment from Della Penna, Denise",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -4583,10 +5036,163 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36213660230820754
+      "presentation_score": 0.35569695543671426
     },
     {
-      "cluster_id": 176,
+      "cluster_id": 20,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1372",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 263,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because I am disabled, can only work a couple hours a day, if at all. I like instacart because it allows me to work as I am able or need. If it ain't broken, then don't try and fix it. Leave this alone please",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1372": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Schweizer, Clinton",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-0178": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Haulk, Michelle",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35569695543671426
+    },
+    {
+      "cluster_id": 17,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1387",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 186,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because puedo adaptar mis horarios a los horarios escolares de mi hija, puedo conectarme siempre que tenga disponible alg\u00fan horario",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1387": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Nori, Kimberly",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-1054": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Golden, Tamesha",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35569695543671426
+    },
+    {
+      "cluster_id": 15,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "WHD-2026-0001-1391",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 362,
+      "representative_excerpt": "I value my flexibility and independence with Instacart because i have a full time job and they give me the opportunity when i choose to make extra income. It is hard to manage two jobs on the clock losing valuable family time. But being a independent contractor i choose when i am able to work and for how long. This keeps my family time availability my choice...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "WHD-2026-0001-1391": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Angelo, Mark",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "WHD-2026-0001-1135": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Darling, Seth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35569695543671426
+    },
+    {
+      "cluster_id": 213,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0074",
@@ -4619,10 +5225,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 175,
+      "cluster_id": 212,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0076",
@@ -4655,10 +5261,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0077",
@@ -4691,10 +5297,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 130,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0078",
@@ -4727,10 +5333,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 174,
+      "cluster_id": 211,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0079",
@@ -4763,10 +5369,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 173,
+      "cluster_id": 210,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0080",
@@ -4799,10 +5405,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 172,
+      "cluster_id": 209,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0081",
@@ -4835,10 +5441,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 171,
+      "cluster_id": 208,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0083",
@@ -4871,10 +5477,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 129,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0084",
@@ -4907,10 +5513,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 170,
+      "cluster_id": 207,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0085",
@@ -4943,10 +5549,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 169,
+      "cluster_id": 206,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0088",
@@ -4979,10 +5585,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 126,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0089",
@@ -5015,10 +5621,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 167,
+      "cluster_id": 204,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0092",
@@ -5051,10 +5657,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 165,
+      "cluster_id": 202,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0095",
@@ -5087,10 +5693,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 164,
+      "cluster_id": 201,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0096",
@@ -5123,10 +5729,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 124,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0097",
@@ -5159,10 +5765,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 163,
+      "cluster_id": 200,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0098",
@@ -5195,10 +5801,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 162,
+      "cluster_id": 199,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0099",
@@ -5231,10 +5837,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 123,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0100",
@@ -5267,10 +5873,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 122,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0102",
@@ -5303,10 +5909,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 160,
+      "cluster_id": 197,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0103",
@@ -5339,10 +5945,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 158,
+      "cluster_id": 195,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0105",
@@ -5375,10 +5981,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 120,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0107",
@@ -5411,10 +6017,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 157,
+      "cluster_id": 194,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0109",
@@ -5447,10 +6053,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 155,
+      "cluster_id": 192,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0112",
@@ -5483,10 +6089,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 154,
+      "cluster_id": 191,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0113",
@@ -5519,10 +6125,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 152,
+      "cluster_id": 189,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0115",
@@ -5555,10 +6161,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0116",
@@ -5591,10 +6197,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 117,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0117",
@@ -5627,10 +6233,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 151,
+      "cluster_id": 188,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0119",
@@ -5663,10 +6269,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 116,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0120",
@@ -5699,10 +6305,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 149,
+      "cluster_id": 186,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0122",
@@ -5735,10 +6341,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 148,
+      "cluster_id": 185,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0123",
@@ -5771,10 +6377,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 115,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0125",
@@ -5807,10 +6413,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 146,
+      "cluster_id": 183,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0126",
@@ -5843,10 +6449,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 143,
+      "cluster_id": 180,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0129",
@@ -5879,10 +6485,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0132",
@@ -5915,10 +6521,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 141,
+      "cluster_id": 178,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0134",
@@ -5951,10 +6557,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 140,
+      "cluster_id": 177,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0135",
@@ -5987,10 +6593,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 139,
+      "cluster_id": 176,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0136",
@@ -6023,10 +6629,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 138,
+      "cluster_id": 175,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0137",
@@ -6059,10 +6665,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 137,
+      "cluster_id": 174,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0139",
@@ -6095,10 +6701,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0140",
@@ -6131,10 +6737,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 136,
+      "cluster_id": 173,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0141",
@@ -6167,10 +6773,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 135,
+      "cluster_id": 172,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0142",
@@ -6203,10 +6809,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 134,
+      "cluster_id": 171,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0145",
@@ -6239,10 +6845,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 133,
+      "cluster_id": 170,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0146",
@@ -6275,10 +6881,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 132,
+      "cluster_id": 169,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0147",
@@ -6311,10 +6917,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0148",
@@ -6347,10 +6953,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 131,
+      "cluster_id": 168,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0149",
@@ -6383,10 +6989,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0151",
@@ -6419,10 +7025,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 130,
+      "cluster_id": 167,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0152",
@@ -6455,10 +7061,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0153",
@@ -6491,10 +7097,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 129,
+      "cluster_id": 166,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0154",
@@ -6527,10 +7133,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 128,
+      "cluster_id": 165,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0155",
@@ -6563,10 +7169,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 126,
+      "cluster_id": 163,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0157",
@@ -6599,10 +7205,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 125,
+      "cluster_id": 162,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0158",
@@ -6635,10 +7241,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 124,
+      "cluster_id": 161,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0160",
@@ -6671,10 +7277,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 123,
+      "cluster_id": 160,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0161",
@@ -6707,10 +7313,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 122,
+      "cluster_id": 159,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0162",
@@ -6743,10 +7349,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 121,
+      "cluster_id": 158,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0164",
@@ -6779,10 +7385,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 120,
+      "cluster_id": 157,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0165",
@@ -6815,10 +7421,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 119,
+      "cluster_id": 156,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0166",
@@ -6851,10 +7457,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 118,
+      "cluster_id": 155,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0171",
@@ -6887,10 +7493,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0172",
@@ -6923,10 +7529,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 117,
+      "cluster_id": 154,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0173",
@@ -6959,10 +7565,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 116,
+      "cluster_id": 153,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0174",
@@ -6995,10 +7601,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 115,
+      "cluster_id": 152,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0175",
@@ -7031,10 +7637,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 114,
+      "cluster_id": 151,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0177",
@@ -7067,10 +7673,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 150,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0180",
@@ -7103,10 +7709,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 112,
+      "cluster_id": 149,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0183",
@@ -7139,10 +7745,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 146,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0187",
@@ -7175,10 +7781,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 145,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0188",
@@ -7211,10 +7817,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 144,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0190",
@@ -7247,10 +7853,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
+      "presentation_score": 0.32390068421830925
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 143,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "WHD-2026-0001-0191",
@@ -7283,673 +7889,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
-    },
-    {
-      "cluster_id": 67,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0192",
-      "representative_posted_date": "2026-03-19T04:00Z",
-      "representative_length": 889,
-      "representative_excerpt": "I don't know what this change actually proposes, since I'm not a lawyer and I don't have a million years to read all the legalese. But what I can say is that I havce worked in IT for almost 2 decades, and every single contractor I've ever worked with (myself included) is just a misclassified employee. You take direction from a manager, you work onsite at the...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0192": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
-    },
-    {
-      "cluster_id": 104,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0194",
-      "representative_posted_date": "2026-03-19T04:00:00Z",
-      "representative_length": 997,
-      "representative_excerpt": "Companies such as Instacart can make it extremely difficult and will limit a contractors ability to fairly judge the work provided before acceptance by hiding delivery locations(before acceptance it will say 4mi but after acceptance it will add 10mi, totaling 14mi instead of 4mi), mileage, pay rates(pay rates will often change after acceptance), multi custom...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0194": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
-    },
-    {
-      "cluster_id": 102,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0199",
-      "representative_posted_date": "2026-03-19T04:00:00Z",
-      "representative_length": 401,
-      "representative_excerpt": "I vehemently oppose this ridiculous plan to strip even more rights from workers. In a time when people with years of experience and qualifications are struggling to find work, this will only further enable the exploitation of all of us. This is just one more disgusting way that the billionaire class is trying to control Americans and further strip us of any ...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0199": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Burke, Karen",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
-    },
-    {
-      "cluster_id": 64,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0204",
-      "representative_posted_date": "2026-03-19T04:00Z",
-      "representative_length": 236,
-      "representative_excerpt": "Businesses should not be allowed to require certain practices that are against the independent contractors status in the fair labor standards act to be hired. Businesses should beheld to these laws when hiring an independent contractor.",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0204": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3284542021895889
-    },
-    {
-      "cluster_id": 91,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0087",
-      "representative_posted_date": "2026-03-19T04:00Z",
-      "representative_length": 487,
-      "representative_excerpt": "I need flexibility because, I have a 15 month old at home and am currently pregnant, I am not able to work whenever I want so I work a couple random hours every week when I can . Sometimes I can only work in the very middle of the night when my husband is home after work or when my mom comes into town to see us. I don't get the luxury to work when I want or ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0087": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Strawder, Hailey",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0021": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3192794594510647
-    },
-    {
-      "cluster_id": 89,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0091",
-      "representative_posted_date": "2026-03-19T04:00Z",
-      "representative_length": 628,
-      "representative_excerpt": "As an Instacart shopper, the flexibility to choose when, where, and how often I work is extremely important to me. Independent contractor status allows me to balance my work with other professional and personal responsibilities in a way that a traditional job would not. Being able to log on when it fits my schedule gives me the freedom to earn income while m...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0091": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Smith, Majesti",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0044": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3192794594510647
-    },
-    {
-      "cluster_id": 161,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0101",
-      "representative_posted_date": "2026-03-19T04:00:00Z",
-      "representative_length": 481,
-      "representative_excerpt": "I need flexibility because I work full-time so for me being able to do Instacart on my terms on my schedule it works out better for me. I also am married with a husband and three loving cats along with the fact that I have a child in the military so I need to be able to pick my schedule when I can work and when I can't work, there are days that I start out a...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0101": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Wach, Kelly",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0026": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from McClanahan, Kenneth",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3192794594510647
-    },
-    {
-      "cluster_id": 73,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0150",
-      "representative_posted_date": "2026-03-19T04:00Z",
-      "representative_length": 290,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because I work full time. My hours at my full time job do not allow me to obtain a second job. Being able to be an independent contractor for myself with Instacart is sometimes the difference in me buying groceries for the week or not.",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0150": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Pyfer, Katelyn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0197": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Nguyen, Judy",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3192794594510647
-    },
-    {
-      "cluster_id": 69,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0179",
-      "representative_posted_date": "2026-03-19T04:00Z",
-      "representative_length": 437,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because I work, go to school, and am very involved in my self-development. When in a position of not even being able to secure a job, being denied unemployment and food stamps, and even when I am working, I am still in need of extra funds the flexibility becomes crucial. It becomes the difference between...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0179": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Tyler, Zara",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0176": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Hill, Cory",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3192794594510647
-    },
-    {
-      "cluster_id": 111,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0184",
-      "representative_posted_date": "2026-03-19T04:00:00Z",
-      "representative_length": 243,
-      "representative_excerpt": "I value my flexibility and independence with Instacart because I get to make extra money when I want to and do not depend on a set schedule a difficult part about a second job that's part time is that it does not meet my schedule but this does",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0184": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Lozano, Sebastian",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "WHD-2026-0001-0163": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Hoffman, Eric",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3192794594510647
-    },
-    {
-      "cluster_id": 190,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0056",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 658,
-      "representative_excerpt": "Most of the port truckers are NOT independent contractors. even though they own their truck, most don\u2019t have their own operating authority and they lease their truck to a motor carrier. The motor carrier uses the leased on owner operator as an employee but disguise ms him as an independent contractor and shift the burden of taxes and truck maintenance onto t...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0056": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from R , Rich",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.2998827736181603
-    },
-    {
-      "cluster_id": 187,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0059",
-      "representative_posted_date": "2026-03-11T04:00:00Z",
-      "representative_length": 729,
-      "representative_excerpt": "I strongly support maintaining independent contractor status for gig workers because the flexibility to choose when, where, and how often to work is extremely valuable. However, true independent work should not include systems that pressure drivers to behave like employees. Practices such as acceptance-rate tiers, hidden pay until after acceptance, and algor...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0059": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous, Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.2998827736181603
-    },
-    {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-2140",
-      "representative_posted_date": "2026-04-03T04:00:00Z",
-      "representative_length": 47,
-      "representative_excerpt": "Comment from Smith Summerset and Associates LLC",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-2140": {
-          "organization": "Smith Summerset and Associates LLC",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Smith Summerset and Associates LLC",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.2986922974276841
-    },
-    {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-2177",
-      "representative_posted_date": "2026-04-03T04:00:00Z",
-      "representative_length": 36,
-      "representative_excerpt": "Comment from The Scaffold Initiative",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-2177": {
-          "organization": "The Scaffold Initiative",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from The Scaffold Initiative",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.2986922974276841
-    },
-    {
-      "cluster_id": 192,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0053",
-      "representative_posted_date": "2026-03-10T04:00Z",
-      "representative_length": 852,
-      "representative_excerpt": "Have you made any attempts to predict how this will affect the economy? If so, what are your projections? This change will evidently negatively affect many public businesses that work with independent contractors. Depending on the new ruling, very important sectors can face critical blows. Companies including Amazon, Walmart, Doordash, and Uber all utilize i...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0053": {
-          "organization": "",
-          "postedDate": "2026-03-10T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Mora, Gavin",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.29631134504673173
-    },
-    {
-      "cluster_id": 224,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "WHD-2026-0001-0003",
-      "representative_posted_date": "2026-03-06T05:00Z",
-      "representative_length": 169,
-      "representative_excerpt": "I think you are overcomplicating something that doesn't need to be overly complicated. Stop trying to punish gig workers while the president steals from America. Thanks.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "WHD-2026-0001-0003": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Hayes, Lindsay",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.28202563076101744
+      "presentation_score": 0.32390068421830925
     }
   ],
   "comments_clusters_path": "data/comments/WHD-2026-0001.csv",
@@ -7957,15 +7897,15 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.37209302325581395,
-  "comments_first_page_coverage_count": 112,
+  "comments_first_page_coverage_share": 0.43636363636363634,
+  "comments_first_page_coverage_count": 144,
   "comments_clusters_total_available": 200,
   "comments_clusters_displayed": 200,
   "comments_first_page_high_signal_clusters": 12,
   "comments_first_page_novelty_clusters": 4,
   "comments_first_page_stance_counts": {
-    "positive": 3,
     "neutral": 10,
+    "positive": 3,
     "negative": 12
   },
   "comments_first_page_unique_days": 6,
