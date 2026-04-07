@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-04-06T14:35:46.238708+00:00",
+  "comment_action_checked_at": "2026-04-07T18:49:36.210509+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-10T03:59:59Z",
   "pass_1_score": 8,
   "pass_2_score": 3,
-  "pass_3_score": 5.607142857142858,
+  "pass_3_score": 5.517241379310345,
   "pass_1_scaled": 0.6635673136198881,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.6072271443002935,
+  "pass_3_scaled": 0.6012976896425207,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6423420028706613,
+  "combined_score": 0.639377275541775,
   "score_total": 11,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -88,68 +88,104 @@
   "comments_total": 73,
   "comments_velocity_total": 73,
   "comments_public_total_estimate": 73,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 30,
-  "comments_unique_clusters": 30,
+  "comments_fetched": 3,
+  "comments_text_hydrated": 3,
+  "comments_cached_records": 33,
+  "comments_unique_clusters": 33,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
-  "comments_zip_prefix_span": 7,
-  "comments_citizen_count": 30,
+  "comments_zip_prefix_span": 8,
+  "comments_citizen_count": 33,
   "comments_commenter_type_counts": {
-    "citizen": 30
+    "citizen": 33
   },
   "comments_submission_role_counts": {
-    "individual": 30
+    "individual": 33
   },
   "comments_submission_channel_counts": {
-    "public_portal": 30
+    "public_portal": 33
   },
-  "comments_public_count": 30,
+  "comments_public_count": 33,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-04-02": 30
+    "2026-04-02": 33
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-04-02": 1
+    "2026-04-02": 2
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.03333333333333333,
+  "comments_sentiment_positive_pct": 0.030303030303030304,
   "comments_sentiment_negative_pct": 0.33333333333333337,
-  "comments_sentiment_neutral_pct": 0.6333333333333333,
-  "comments_sentiment_net": -0.30000000000000004,
-  "comments_sentiment_sample_size": 30,
+  "comments_sentiment_neutral_pct": 0.6363636363636365,
+  "comments_sentiment_net": -0.3030303030303031,
+  "comments_sentiment_sample_size": 33,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 30,
+  "comments_analysis_sample_size": 33,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 30,
-  "comments_representative_prior_selected": 30,
+  "comments_representative_selected": 33,
+  "comments_representative_prior_selected": 33,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
-  "comments_representative_run_budget": 11,
+  "comments_representative_run_budget": 14,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 4,
-    "weighted_fill": 26
+    "weighted_fill": 29
   },
-  "comments_representative_selected_by_counts_total": 30,
+  "comments_representative_selected_by_counts_total": 33,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-04-06T12:59:04.597105+00:00",
-  "comments_checked_at": "2026-04-06T12:59:04.697755+00:00",
+  "comments_api_last_seen_at": "2026-04-07T14:41:21.187920+00:00",
+  "comments_checked_at": "2026-04-07T14:41:21.299139+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 30,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOE-HQ-2026-0199-0056",
+      "representative_posted_date": "2026-04-02T04:00:00Z",
+      "representative_length": 1762,
+      "representative_excerpt": "Manager, I believe that DEI Accessibility (DEI) mandates for federal programs are not beneficial to operational efficiency of most federal programs. I believe this same assessment is congruent to many of facets of the Dept. of Energy (DOE) mission and all of their contractual actions. I urge the DOE to rescind 48 CFR 970.5226-1 rules to DOE personnel hiring,...",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOE-HQ-2026-0199-0056": {
+          "organization": "",
+          "postedDate": "2026-04-02T04:00:00Z",
+          "zip": "34112",
+          "city": "Naples",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04687",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0003",
@@ -182,10 +218,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.85
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0012",
@@ -218,10 +254,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8166666666666665
+      "presentation_score": 0.75
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0008",
@@ -254,10 +290,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.65
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0013",
@@ -290,10 +326,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.65
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0025",
@@ -326,10 +362,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.65
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0035",
@@ -362,10 +398,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.65
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0046",
@@ -398,10 +434,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.65
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0052",
@@ -434,7 +470,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.65
     },
     {
       "cluster_id": 5,
@@ -470,10 +506,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.65
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0006",
@@ -509,7 +545,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0009",
@@ -545,7 +581,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0010",
@@ -581,7 +617,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOE-HQ-2026-0199-0011",
+      "representative_posted_date": "2026-04-02T04:00:00Z",
+      "representative_length": 120,
+      "representative_excerpt": "Remove ans recind any and all DEI requirements for anyone who does business with the US Federal government. Joe Baker Jr",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOE-HQ-2026-0199-0011": {
+          "organization": "",
+          "postedDate": "2026-04-02T04:00:00Z",
+          "zip": "68073",
+          "city": "Yutan",
+          "stateProvinceRegion": "NE",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04687",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0015",
@@ -617,7 +689,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0019",
@@ -653,7 +725,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0022",
@@ -689,7 +761,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0027",
@@ -728,6 +800,42 @@
       "cluster_id": 17,
       "count": 1,
       "page_count": 0,
+      "representative_comment_id": "DOE-HQ-2026-0199-0033",
+      "representative_posted_date": "2026-04-02T04:00:00Z",
+      "representative_length": 119,
+      "representative_excerpt": "Ensure that DOE finally removes this unlawful mandate and restores a neutral, lawful standard for federal contracting.\u201d",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOE-HQ-2026-0199-0033": {
+          "organization": "",
+          "postedDate": "2026-04-02T04:00:00Z",
+          "zip": "32081",
+          "city": "Ponte Vedra",
+          "stateProvinceRegion": "FL",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04687",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0029",
       "representative_posted_date": "2026-04-02T04:00:00Z",
       "representative_length": 450,
@@ -761,7 +869,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0030",
@@ -800,42 +908,6 @@
       "cluster_id": 15,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "DOE-HQ-2026-0199-0033",
-      "representative_posted_date": "2026-04-02T04:00:00Z",
-      "representative_length": 119,
-      "representative_excerpt": "Ensure that DOE finally removes this unlawful mandate and restores a neutral, lawful standard for federal contracting.\u201d",
-      "representative_signal_score": 0,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOE-HQ-2026-0199-0033": {
-          "organization": "",
-          "postedDate": "2026-04-02T04:00:00Z",
-          "zip": "32081",
-          "city": "Ponte Vedra",
-          "stateProvinceRegion": "FL",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04687",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.55
-    },
-    {
-      "cluster_id": 13,
-      "count": 1,
-      "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0036",
       "representative_posted_date": "2026-04-02T04:00:00Z",
       "representative_length": 147,
@@ -869,7 +941,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0038",
@@ -905,7 +977,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0041",
@@ -941,7 +1013,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOE-HQ-2026-0199-0042",
+      "representative_posted_date": "2026-04-02T04:00:00Z",
+      "representative_length": 363,
+      "representative_excerpt": "DEI is the most discriminatory policy imaginable. It seeks to punish those who have sacrificed time in countless areas of their lives to prepare themselves for the productive workforce only to be set aside on the basis of race and/or gender or any number of convenient excuses to discriminate against, primarily, people of white and Asian ancestry. It's BULLSH...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOE-HQ-2026-0199-0042": {
+          "organization": "",
+          "postedDate": "2026-04-02T04:00:00Z",
+          "zip": "50511",
+          "city": "ALGONA",
+          "stateProvinceRegion": "IA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04687",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0045",
@@ -977,7 +1085,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0049",
@@ -1013,7 +1121,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0055",
@@ -1121,7 +1229,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOE-HQ-2026-0199-0021",
@@ -1154,7 +1262,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.44999999999999996
     },
     {
       "cluster_id": 3,
@@ -1190,7 +1298,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.44999999999999996
     },
     {
       "cluster_id": 1,
@@ -1226,7 +1334,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.44999999999999996
     }
   ],
   "comments_clusters_path": "data/comments/DOE-HQ-2026-0199.csv",
@@ -1234,15 +1342,15 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8333333333333334,
+  "comments_first_page_coverage_share": 0.7575757575757576,
   "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 30,
-  "comments_clusters_displayed": 30,
-  "comments_first_page_high_signal_clusters": 1,
+  "comments_clusters_total_available": 33,
+  "comments_clusters_displayed": 33,
+  "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 14,
-    "negative": 10,
+    "negative": 9,
+    "neutral": 15,
     "positive": 1
   },
   "comments_first_page_unique_days": 1,
