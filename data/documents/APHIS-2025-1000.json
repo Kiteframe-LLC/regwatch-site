@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-04-09T02:04:32.495027+00:00",
+  "comment_action_checked_at": "2026-04-09T03:05:44.467027+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -87,8 +87,8 @@
   "comments_fetched": 1979,
   "comments_text_hydrated": 1119,
   "comments_cached_records": 1979,
-  "comments_unique_clusters": 770,
-  "comments_clustered_duplicates": 650,
+  "comments_unique_clusters": 772,
+  "comments_clustered_duplicates": 708,
   "comments_truncated": true,
   "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
@@ -155,18 +155,18 @@
     "2026-02-26": 1
   },
   "comments_novel_comment_rate": 0.4360788276907529,
-  "comments_sentiment_positive_pct": 0.1150084270342563,
-  "comments_sentiment_negative_pct": 0.2647588590507812,
-  "comments_sentiment_neutral_pct": 0.6202327139149625,
-  "comments_sentiment_net": -0.14975043201652494,
-  "comments_sentiment_sample_size": 1401,
+  "comments_sentiment_positive_pct": 0.11420446960004112,
+  "comments_sentiment_negative_pct": 0.2687448628504546,
+  "comments_sentiment_neutral_pct": 0.6170506675495042,
+  "comments_sentiment_net": -0.15454039325041352,
+  "comments_sentiment_sample_size": 1461,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 1420,
+  "comments_analysis_sample_size": 1480,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 1420,
-  "comments_representative_prior_selected": 1390,
+  "comments_representative_selected": 1480,
+  "comments_representative_prior_selected": 1450,
   "comments_representative_newly_selected": 30,
   "comments_representative_must_keep": 113,
   "comments_representative_run_budget": 30,
@@ -176,27 +176,123 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 113,
     "salience_rank": 4,
-    "weighted_fill": 1303
+    "weighted_fill": 1363
   },
-  "comments_representative_selected_by_counts_total": 1420,
+  "comments_representative_selected_by_counts_total": 1480,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-25T04:00Z",
-  "comments_api_last_seen_at": "2026-04-09T00:08:37.278238+00:00",
-  "comments_checked_at": "2026-04-09T00:08:44.585383+00:00",
+  "comments_api_last_seen_at": "2026-04-09T02:58:58.822401+00:00",
+  "comments_checked_at": "2026-04-09T02:59:09.492717+00:00",
   "comments_error": "used_bulk_csv",
   "comments_clusters": [
     {
       "cluster_id": 4,
-      "count": 405,
+      "count": 345,
       "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-7720",
+      "representative_comment_id": "APHIS-2025-1000-7732",
       "representative_posted_date": "2026-04-08T04:00:00Z",
-      "representative_length": 3789,
-      "representative_excerpt": "I appreciate the opportunity to provide input on appropriate standards for dogs under the Animal Welfare Act. I hope these updates will result in more robust regulations that will benefit hundreds of thousands of dogs throughout the country. SAVE ANIMALS I am among the many Americans who cherish dogs and feel that the USDA's role in protecting them is of gra...",
+      "representative_length": 3776,
+      "representative_excerpt": "I appreciate the opportunity to provide input on appropriate standards for dogs under the Animal Welfare Act. I hope these updates will result in more robust regulations that will benefit hundreds of thousands of dogs throughout the country. I am among the many Americans who cherish dogs and feel that the USDA's role in protecting them is of grave importance...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0970": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Gunnarson, Adele",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0971": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from duke, Linda",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0972": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Laufer, Jillana",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0973": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Dickenson, Marie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0974": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Berlan, Debra",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5427610738124136
+    },
+    {
+      "cluster_id": 21,
+      "count": 134,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-7622",
+      "representative_posted_date": "2026-04-01T04:00:00Z",
+      "representative_length": 3813,
+      "representative_excerpt": "It is difficult to diagnose, in the absence of a physical examination, the most common serious medical conditions frequently encountered in breeding dogs. This is especially true with dogs that have long hair and infrequent grooming. Internal parasite infestation would be difficult to confirm in the absence of an exam, and even external parasites and skin in...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -281,10 +377,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5416225941693673
+      "presentation_score": 0.5610266329583864
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 42,
       "count": 23,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1230",
@@ -377,202 +473,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.18674251864331393
+      "presentation_score": 0.1907209397271301
     },
     {
-      "cluster_id": 289,
-      "count": 16,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0726",
-      "representative_posted_date": "2026-03-10T04:00:00Z",
-      "representative_length": 3814,
-      "representative_excerpt": "It is difficult to diagnose, in the absence of a physical examination, the most common serious medical conditions frequently encountered in breeding dogs. This is especially true with dogs that have long hair and infrequent grooming. Internal parasite infestation would be difficult to confirm in the absence of an exam, and even external parasites and skin in...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0142": {
-          "organization": "Missouri Alliance for Animal Legislation",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Missouri Alliance for Animal Legislation",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0146": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "Fenton",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Jacobi, Carol",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0201": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "Saint Louis",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Robb, Brittany",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0208": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "Saint Louis",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Baker, Kathryn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0209": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "Saint Louis",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Baker, Kathryn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.51757468389952
-    },
-    {
-      "cluster_id": 151,
-      "count": 16,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0909",
-      "representative_posted_date": "2026-03-17T04:00Z",
-      "representative_length": 4381,
-      "representative_excerpt": "I believe these policies are the bare minimum that should be implemented to protect dogs in puppy mills. Animals deserve basic welfare and dignity and the current regulations are grossly lacking. As an owner of two rescue dogs, i've seen first hand the life long trauma bad breeders can inflict on innocent creatures. Thank you for receiving these comments. Ma...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0186": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from reinhold, ken",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0221": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "Saint Louis",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Corrigan, Molly",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0376": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "wentzville",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from lahmeyer, kathy",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0392": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "Council Bluffs",
-          "stateProvinceRegion": "IA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Kelley, Jennifer",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0445": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "Kansas City",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Schworer, Jacquelyn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4821580172328533
-    },
-    {
-      "cluster_id": 54,
+      "cluster_id": 55,
       "count": 16,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1209",
@@ -665,7 +569,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38840801723285323
+      "presentation_score": 0.39172624979751025
     },
     {
       "cluster_id": 5,
@@ -761,7 +665,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5274189000020616
+      "presentation_score": 0.5305228223487073
     },
     {
       "cluster_id": 7,
@@ -857,10 +761,106 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42847971874825913
+      "presentation_score": 0.4314707331622054
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 153,
+      "count": 12,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-0909",
+      "representative_posted_date": "2026-03-17T04:00Z",
+      "representative_length": 4381,
+      "representative_excerpt": "I believe these policies are the bare minimum that should be implemented to protect dogs in puppy mills. Animals deserve basic welfare and dignity and the current regulations are grossly lacking. As an owner of two rescue dogs, i've seen first hand the life long trauma bad breeders can inflict on innocent creatures. Thank you for receiving these comments. Ma...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0186": {
+          "organization": "",
+          "postedDate": "2026-03-06T05:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from reinhold, ken",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0392": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00:00Z",
+          "zip": "",
+          "city": "Council Bluffs",
+          "stateProvinceRegion": "IA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Kelley, Jennifer",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0445": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00:00Z",
+          "zip": "",
+          "city": "Kansas City",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Schworer, Jacquelyn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0454": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Howley, Theresa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0509": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4889346703090993
+    },
+    {
+      "cluster_id": 87,
       "count": 8,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0995",
@@ -953,10 +953,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5002223714187403
+      "presentation_score": 0.5025687161667632
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1027",
@@ -989,10 +989,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7682714132333325
+      "presentation_score": 0.7691009713744967
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1193",
@@ -1025,10 +1025,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7203547465666658
+      "presentation_score": 0.72118430470783
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1012",
@@ -1061,10 +1061,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6682714132333325
+      "presentation_score": 0.6691009713744968
     },
     {
-      "cluster_id": 395,
+      "cluster_id": 396,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0490",
@@ -1097,10 +1097,46 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6474380798999991
+      "presentation_score": 0.6482676380411634
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 69,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1194",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 3707,
+      "representative_excerpt": "(APHIS), U.S. I welcome this long-overdue review of the Animal Welfare Act standards for dogs, and I urge USDA to act decisively. The science has not stood still in 30 years \u2014 our regulations must not either. 1. VETERINARY AND NUTRITIONAL CARE FOR BREEDING FEMALES Breeding females bear an extraordinary physiological burden. Yet current standards allow inadeq...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1194": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "Fort Collins",
+          "stateProvinceRegion": "CO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Agredano, Rene",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.62118430470783
+    },
+    {
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1216",
@@ -1133,10 +1169,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6203547465666658
+      "presentation_score": 0.62118430470783
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1024",
@@ -1169,10 +1205,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6182714132333325
+      "presentation_score": 0.6191009713744967
     },
     {
-      "cluster_id": 127,
+      "cluster_id": 129,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0939",
@@ -1205,10 +1241,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6161880798999991
+      "presentation_score": 0.6170176380411634
     },
     {
-      "cluster_id": 222,
+      "cluster_id": 224,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0804",
@@ -1241,10 +1277,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6141047465666658
+      "presentation_score": 0.6149343047078301
     },
     {
-      "cluster_id": 212,
+      "cluster_id": 214,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0818",
@@ -1277,46 +1313,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6141047465666658
+      "presentation_score": 0.6149343047078301
     },
     {
-      "cluster_id": 181,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0869",
-      "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 2001,
-      "representative_excerpt": "Please mandate the following standards of care for the dogs in USDA licensed breeding facilities. These are living souls that deserve to be cared for. I'd also like to add that every animal is chipped. Mandate all spay/neuters, c-sections, tail docking, ear clipping and euthanasia procedures be performed only by a licensed veterinarian. Prohibit the stacking...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0869": {
-          "organization": "",
-          "postedDate": "2026-03-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Hoffman, Debra",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6141047465666658
-    },
-    {
-      "cluster_id": 44,
+      "cluster_id": 45,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1227",
@@ -1394,10 +1394,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5856265601065679
+      "presentation_score": 0.5872856763888964
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1993",
@@ -1430,10 +1430,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5766047465666658
+      "presentation_score": 0.5774343047078301
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1026",
@@ -1466,10 +1466,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5682714132333324
+      "presentation_score": 0.5691009713744967
     },
     {
-      "cluster_id": 217,
+      "cluster_id": 219,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0809",
@@ -1502,10 +1502,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5641047465666658
+      "presentation_score": 0.56493430470783
     },
     {
-      "cluster_id": 175,
+      "cluster_id": 177,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0878",
@@ -1538,10 +1538,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5641047465666658
+      "presentation_score": 0.56493430470783
     },
     {
-      "cluster_id": 170,
+      "cluster_id": 172,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0884",
@@ -1574,10 +1574,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5641047465666658
+      "presentation_score": 0.56493430470783
     },
     {
-      "cluster_id": 159,
+      "cluster_id": 161,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0896",
@@ -1610,10 +1610,46 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5641047465666658
+      "presentation_score": 0.56493430470783
     },
     {
-      "cluster_id": 153,
+      "cluster_id": 183,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-0869",
+      "representative_posted_date": "2026-03-17T04:00:00Z",
+      "representative_length": 2001,
+      "representative_excerpt": "Please mandate the following standards of care for the dogs in USDA licensed breeding facilities. These are living souls that deserve to be cared for. I'd also like to add that every animal is chipped. Mandate all spay/neuters, c-sections, tail docking, ear clipping and euthanasia procedures be performed only by a licensed veterinarian. Prohibit the stacking...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0869": {
+          "organization": "",
+          "postedDate": "2026-03-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hoffman, Debra",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6149343047078301
+    },
+    {
+      "cluster_id": 155,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0906",
@@ -1646,10 +1682,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6141047465666658
+      "presentation_score": 0.6149343047078301
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 106,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0987",
@@ -1697,10 +1733,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.599947707368569
+      "presentation_score": 0.6011208797425804
     },
     {
-      "cluster_id": 294,
+      "cluster_id": 295,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0721",
@@ -1733,10 +1769,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5995214132333324
+      "presentation_score": 0.6003509713744967
     },
     {
-      "cluster_id": 567,
+      "cluster_id": 570,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0324",
@@ -1769,10 +1805,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 426,
+      "cluster_id": 427,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0405",
@@ -1805,10 +1841,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 394,
+      "cluster_id": 395,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0494",
@@ -1841,10 +1877,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 509,
+      "cluster_id": 511,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0501",
@@ -1877,10 +1913,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 368,
+      "cluster_id": 369,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0571",
@@ -1913,10 +1949,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 489,
+      "cluster_id": 491,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0575",
@@ -1949,10 +1985,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 487,
+      "cluster_id": 489,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0579",
@@ -1985,10 +2021,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 483,
+      "cluster_id": 485,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0592",
@@ -2021,10 +2057,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 476,
+      "cluster_id": 478,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0626",
@@ -2057,10 +2093,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 341,
+      "cluster_id": 342,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0651",
@@ -2093,10 +2129,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 340,
+      "cluster_id": 341,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0655",
@@ -2129,10 +2165,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5974380798999991
+      "presentation_score": 0.5982676380411633
     },
     {
-      "cluster_id": 668,
+      "cluster_id": 670,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0138",
@@ -2165,10 +2201,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5911880798999991
+      "presentation_score": 0.5920176380411634
     },
     {
-      "cluster_id": 645,
+      "cluster_id": 648,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0181",
@@ -2201,10 +2237,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5911880798999991
+      "presentation_score": 0.5920176380411634
     },
     {
-      "cluster_id": 642,
+      "cluster_id": 645,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0185",
@@ -2237,10 +2273,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5911880798999991
+      "presentation_score": 0.5920176380411634
     },
     {
-      "cluster_id": 639,
+      "cluster_id": 642,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0189",
@@ -2273,10 +2309,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5911880798999991
+      "presentation_score": 0.5920176380411634
     },
     {
-      "cluster_id": 617,
+      "cluster_id": 620,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0237",
@@ -2309,10 +2345,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5911880798999991
+      "presentation_score": 0.5920176380411634
     },
     {
-      "cluster_id": 580,
+      "cluster_id": 583,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0298",
@@ -2345,10 +2381,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5911880798999991
+      "presentation_score": 0.5920176380411634
     },
     {
-      "cluster_id": 505,
+      "cluster_id": 507,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0511",
@@ -2396,10 +2432,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5791143740352356
+      "presentation_score": 0.5802875464092471
     },
     {
-      "cluster_id": 726,
+      "cluster_id": 728,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0054",
@@ -2432,61 +2468,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5745214132333325
+      "presentation_score": 0.5753509713744966
     },
     {
-      "cluster_id": 658,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0156",
-      "representative_posted_date": "2026-03-06T05:00Z",
-      "representative_length": 3864,
-      "representative_excerpt": "The following absolutely needs to happen and NOW! It is difficult to diagnose, in the absence of a physical examination, the most common serious medical conditions frequently encountered in breeding dogs. This is especially true with dogs that have long hair and infrequent grooming. Internal parasite infestation would be difficult to confirm in the absence o...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0156": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "Blue Springs",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Sanger, Tanya",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0137": {
-          "organization": "",
-          "postedDate": "2026-03-06T05:00Z",
-          "zip": "",
-          "city": "Fordland",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Fehr, Ingrid",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5728643740352356
-    },
-    {
-      "cluster_id": 156,
+      "cluster_id": 158,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0903",
@@ -2519,10 +2504,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5641047465666658
+      "presentation_score": 0.56493430470783
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 96,
       "count": 7,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1021",
@@ -2615,10 +2600,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5548516079989676
+      "presentation_score": 0.5570464125385571
     },
     {
-      "cluster_id": 231,
+      "cluster_id": 233,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0795",
@@ -2651,10 +2636,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5536880798999991
+      "presentation_score": 0.5545176380411634
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 103,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1000",
@@ -2702,10 +2687,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5499477073685689
+      "presentation_score": 0.5511208797425804
     },
     {
-      "cluster_id": 274,
+      "cluster_id": 276,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0745",
@@ -2738,10 +2723,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5495214132333325
+      "presentation_score": 0.5503509713744967
     },
     {
-      "cluster_id": 267,
+      "cluster_id": 269,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0752",
@@ -2774,10 +2759,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5495214132333325
+      "presentation_score": 0.5503509713744967
     },
     {
-      "cluster_id": 128,
+      "cluster_id": 130,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0938",
@@ -2825,190 +2810,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5478643740352356
+      "presentation_score": 0.5490375464092471
     },
     {
-      "cluster_id": 557,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0345",
-      "representative_posted_date": "2026-03-09T04:00:00Z",
-      "representative_length": 1556,
-      "representative_excerpt": "As a current foster, and an adopted person of a puppy mill / backyard breeder dog. What these poor animals go through is unimaginable! The abuse and cruelty they are subjected to is beyond comprehension. It takes months /years if ever to undo what they have been through. Mandating the need for basic guidelines needed to breed a female animal is the very leas...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0345": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "Fayette",
-          "stateProvinceRegion": "OH",
-          "country": "United States",
-          "attachmentCount": 4,
-          "title": "Comment from Keefer, Gwendolyn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5474380798999992
-    },
-    {
-      "cluster_id": 414,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0434",
-      "representative_posted_date": "2026-03-09T04:00Z",
-      "representative_length": 1424,
-      "representative_excerpt": "You only have to look at the images of dogs rescued from breeding mills to see what horrible conditions these innocent animals endure. Caged, dirty water (or none), poor nutrition, living in waste, breeding the 1st time a female comes into heat after birthing a litter, no socializing or human kindness. If you treat a human like this you're held accountable a...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0434": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "Saint Louis",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 4,
-          "title": "Comment from Jepsen, Kathryn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5474380798999992
-    },
-    {
-      "cluster_id": 497,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0543",
-      "representative_posted_date": "2026-03-09T04:00:00Z",
-      "representative_length": 1428,
-      "representative_excerpt": "Please shut down puppy mills. I have worked for 3 different rescue organizations & have seen firsthand the damage done by some of them; some emotionally abused, some physically abused, many suffered both. The neglect is horrible. These dogs many times are shutdown emotionally when they\u2019re finally rescued & are so frightened. I rescued a beautiful Pomeranian ...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0543": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "Columbia",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 4,
-          "title": "Comment from Livingston, Linda",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5474380798999992
-    },
-    {
-      "cluster_id": 334,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0662",
-      "representative_posted_date": "2026-03-09T04:00Z",
-      "representative_length": 1376,
-      "representative_excerpt": "I don't own a retired breeder. I fostered Muffin for about 2 1/2 weeks. She had been in another foster home for over two months and had not made progress. She was about the 75th animal I have helped through fostering. I know about dogs. I could not touch this girl. She was petrified of humans. When I did manage to corner her to get a slip lead on so we could...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0662": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00Z",
-          "zip": "",
-          "city": "Hamilton",
-          "stateProvinceRegion": "IN",
-          "country": "United States",
-          "attachmentCount": 2,
-          "title": "Comment from Wurfel Allen, Sue",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": true,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5474380798999992
-    },
-    {
-      "cluster_id": 19,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-7630",
-      "representative_posted_date": "2026-04-02T04:00:00Z",
-      "representative_length": 1420,
-      "representative_excerpt": "Females who are overbred well past the point of cruelty, their pups taken from them far too soon, then discarded like trash when they can no longer breed. Females who die excruciating deaths from pyometras and other horrible complications. Moms and their pups who die during birth because the mother should have had a Cesarean section. Puppies who are always t...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-7630": {
-          "organization": "",
-          "postedDate": "2026-04-02T04:00:00Z",
-          "zip": "",
-          "city": "University City",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Reis, Tracy",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.547438079899999
-    },
-    {
-      "cluster_id": 21,
+      "cluster_id": 22,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-7618",
@@ -3101,7 +2906,187 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5471665455267007
+      "presentation_score": 0.5490214939216324
+    },
+    {
+      "cluster_id": 560,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-0345",
+      "representative_posted_date": "2026-03-09T04:00:00Z",
+      "representative_length": 1556,
+      "representative_excerpt": "As a current foster, and an adopted person of a puppy mill / backyard breeder dog. What these poor animals go through is unimaginable! The abuse and cruelty they are subjected to is beyond comprehension. It takes months /years if ever to undo what they have been through. Mandating the need for basic guidelines needed to breed a female animal is the very leas...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0345": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00:00Z",
+          "zip": "",
+          "city": "Fayette",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 4,
+          "title": "Comment from Keefer, Gwendolyn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5482676380411634
+    },
+    {
+      "cluster_id": 415,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-0434",
+      "representative_posted_date": "2026-03-09T04:00Z",
+      "representative_length": 1424,
+      "representative_excerpt": "You only have to look at the images of dogs rescued from breeding mills to see what horrible conditions these innocent animals endure. Caged, dirty water (or none), poor nutrition, living in waste, breeding the 1st time a female comes into heat after birthing a litter, no socializing or human kindness. If you treat a human like this you're held accountable a...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0434": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "Saint Louis",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 4,
+          "title": "Comment from Jepsen, Kathryn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5482676380411634
+    },
+    {
+      "cluster_id": 499,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-0543",
+      "representative_posted_date": "2026-03-09T04:00:00Z",
+      "representative_length": 1428,
+      "representative_excerpt": "Please shut down puppy mills. I have worked for 3 different rescue organizations & have seen firsthand the damage done by some of them; some emotionally abused, some physically abused, many suffered both. The neglect is horrible. These dogs many times are shutdown emotionally when they\u2019re finally rescued & are so frightened. I rescued a beautiful Pomeranian ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0543": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00:00Z",
+          "zip": "",
+          "city": "Columbia",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 4,
+          "title": "Comment from Livingston, Linda",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5482676380411634
+    },
+    {
+      "cluster_id": 335,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-0662",
+      "representative_posted_date": "2026-03-09T04:00Z",
+      "representative_length": 1376,
+      "representative_excerpt": "I don't own a retired breeder. I fostered Muffin for about 2 1/2 weeks. She had been in another foster home for over two months and had not made progress. She was about the 75th animal I have helped through fostering. I know about dogs. I could not touch this girl. She was petrified of humans. When I did manage to corner her to get a slip lead on so we could...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0662": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00Z",
+          "zip": "",
+          "city": "Hamilton",
+          "stateProvinceRegion": "IN",
+          "country": "United States",
+          "attachmentCount": 2,
+          "title": "Comment from Wurfel Allen, Sue",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": true,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5482676380411634
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-7630",
+      "representative_posted_date": "2026-04-02T04:00:00Z",
+      "representative_length": 1420,
+      "representative_excerpt": "Females who are overbred well past the point of cruelty, their pups taken from them far too soon, then discarded like trash when they can no longer breed. Females who die excruciating deaths from pyometras and other horrible complications. Moms and their pups who die during birth because the mother should have had a Cesarean section. Puppies who are always t...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-7630": {
+          "organization": "",
+          "postedDate": "2026-04-02T04:00:00Z",
+          "zip": "",
+          "city": "University City",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Reis, Tracy",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5482676380411633
     },
     {
       "cluster_id": 3,
@@ -3152,10 +3137,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5416143740352355
+      "presentation_score": 0.542787546409247
     },
     {
-      "cluster_id": 237,
+      "cluster_id": 239,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0787",
@@ -3203,10 +3188,76 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5353643740352355
+      "presentation_score": 0.536537546409247
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 514,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-0496",
+      "representative_posted_date": "2026-03-09T04:00:00Z",
+      "representative_length": 3939,
+      "representative_excerpt": "Accessibility View SUGGESTED COMMENTS TO THE USDA Feel free to contact us if you have any questions on these recommendations. It is difficult to diagnose, in the absence of a physical examination, the most common serious medical conditions frequently encountered in breeding dogs. This is especially true with dogs that have long hair and infrequent grooming. ...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-0496": {
+          "organization": "",
+          "postedDate": "2026-03-09T04:00:00Z",
+          "zip": "",
+          "city": "O'Fallon",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Gaffney, Marilyn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0274": {
+          "organization": "",
+          "postedDate": "2026-03-06T05:00Z",
+          "zip": "",
+          "city": "Imperial",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Vines, Delta",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0156": {
+          "organization": "",
+          "postedDate": "2026-03-06T05:00Z",
+          "zip": "",
+          "city": "Blue Springs",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Sanger, Tanya",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5364869762759268
+    },
+    {
+      "cluster_id": 112,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0963",
@@ -3284,10 +3335,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5314598934399012
+      "presentation_score": 0.5331190097222297
     },
     {
-      "cluster_id": 273,
+      "cluster_id": 275,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0746",
@@ -3335,10 +3386,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5311977073685689
+      "presentation_score": 0.5323708797425803
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 24,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-6495",
@@ -3386,334 +3437,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5249477073685689
+      "presentation_score": 0.5261208797425804
     },
     {
-      "cluster_id": 74,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1187",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 3058,
-      "representative_excerpt": "If you are an ethical breeder you will take your pregnant bitch before breeding and once impregnated you go back into the vets.. I can also state that when the bitch is almost ready to whelp, I take her back into vets to have x-ray so I have a definite number of puppies that are to be born. If I find she is having difficulty whelping puppy 4 out of 5, I imme...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1187": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "Pineville",
-          "stateProvinceRegion": "LA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Krusper, Janelle",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 70,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1191",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 2331,
-      "representative_excerpt": "Good Day. Name: NOT ANONYMOUS. I have 50+ years experience raising, training and showing animals. I take enormous pride in caring for the domestic creatures in my charge. SUMMARY: AAS VET TECH, BAS UNIVERISTY OF IOWA. OCCUPATION: PET BREEDER, USDA 2019. BS REPORT 2022. #1 SHELTER OVERPOPULATION. WRONG. USDA breeders production are not the dogs or cats fillin...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1191": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "Mount Vernon",
-          "stateProvinceRegion": "IA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Krogmann, Alicia",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 69,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1192",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 3152,
-      "representative_excerpt": "The studies by Croney Research Group referred to don\u2019t directly proving need of changing current requirements. Studies lack essence and don\u2019t show correlation between existing issues that may need correction and insufficient agency regulations. Most studies are nothing but description of routine process in scientific language. Majority is inconclusive. For e...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1192": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 61,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1201",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 3000,
-      "representative_excerpt": "My name is Cynthia Susanne, and I am the founder and director of Animal Angels Network, a licensed 501(c)(3) dog rescue based in Webster County, Missouri. I want to speak plainly from experience. Our organization is on the receiving end of what happens when current standards fall short. We take in dogs every week that come from breeding environments where th...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1201": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "Rogersville",
-          "stateProvinceRegion": "MO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Susanne, Cynthia",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 60,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1202",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 4097,
-      "representative_excerpt": "We have adopted 4 puppy mill mamas and one sick puppy mill puppy and the conditions and situations are abhorrent. These commercial breeders should be banned but at a minimum they need to have standards for how to care for companion animals appropriately. We rescued Poppy from STS in Sept 2023. She came to us as a former puppy mill mama shutdown, scared of hu...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1202": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "Upper Arlington",
-          "stateProvinceRegion": "OH",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Maddocks, Kami",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 56,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1206",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 2382,
-      "representative_excerpt": "This information is from the newest Laboratory Animal Medicine book 2026 about exercise and socialization of dogs. Exercise periods are opportunities for physical exercise but also can provide additional important social (i.e. play) and sensory stimulation. The best exercise for most dogs is another dog in an area sufficiently large for them to interact play...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1206": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 52,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1211",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 1645,
-      "representative_excerpt": "1) All dog breeders in the US selling over a certain number of dogs each year (Wisconsin sets the limit at 25) should be required to have a USDA license with required husbandry and humane care, licensed veterinary health checks, health and heritable disease guarantees for buyers. 2) Requirements must be documented for every breeding animal and offspring with...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1211": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "Burlington",
-          "stateProvinceRegion": "WI",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from A Hunter, Kimberly",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 50,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1213",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 1421,
-      "representative_excerpt": "Breeding females should be spayed. But realistically, it should be required that they see a veterinarian for prenatal care and ultrasound. They should be vaccinated according to AAHA standards and veterinary guidance. If we were somehow, someday able to require a license to breed, this should require a veterinary reference from an AAHA accredited clinic show...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1213": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "NM",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Nevers, Amanda",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 37,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-1436",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 3967,
-      "representative_excerpt": "I appreciate the opportunity to provide input on appropriate standards for dogs under the Animal Welfare Act. I hope these updates will result in more robust regulations that will benefit hundreds of thousands of dogs throughout the country. Put stricter laws in place for puppy mills we have so many wonderful animals in shelters that are in need of loving ho...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-1436": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Fulton, Stacey",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5203547465666658
-    },
-    {
-      "cluster_id": 86,
+      "cluster_id": 88,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0994",
@@ -3806,10 +3533,298 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5200832121933674
+      "presentation_score": 0.521938160588299
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 76,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1187",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 3058,
+      "representative_excerpt": "If you are an ethical breeder you will take your pregnant bitch before breeding and once impregnated you go back into the vets.. I can also state that when the bitch is almost ready to whelp, I take her back into vets to have x-ray so I have a definite number of puppies that are to be born. If I find she is having difficulty whelping puppy 4 out of 5, I imme...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1187": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "Pineville",
+          "stateProvinceRegion": "LA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Krusper, Janelle",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 72,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1191",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 2331,
+      "representative_excerpt": "Good Day. Name: NOT ANONYMOUS. I have 50+ years experience raising, training and showing animals. I take enormous pride in caring for the domestic creatures in my charge. SUMMARY: AAS VET TECH, BAS UNIVERISTY OF IOWA. OCCUPATION: PET BREEDER, USDA 2019. BS REPORT 2022. #1 SHELTER OVERPOPULATION. WRONG. USDA breeders production are not the dogs or cats fillin...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1191": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "Mount Vernon",
+          "stateProvinceRegion": "IA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Krogmann, Alicia",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 71,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1192",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 3152,
+      "representative_excerpt": "The studies by Croney Research Group referred to don\u2019t directly proving need of changing current requirements. Studies lack essence and don\u2019t show correlation between existing issues that may need correction and insufficient agency regulations. Most studies are nothing but description of routine process in scientific language. Majority is inconclusive. For e...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1192": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 62,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1201",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 3000,
+      "representative_excerpt": "My name is Cynthia Susanne, and I am the founder and director of Animal Angels Network, a licensed 501(c)(3) dog rescue based in Webster County, Missouri. I want to speak plainly from experience. Our organization is on the receiving end of what happens when current standards fall short. We take in dogs every week that come from breeding environments where th...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1201": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "Rogersville",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Susanne, Cynthia",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 61,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1202",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 4097,
+      "representative_excerpt": "We have adopted 4 puppy mill mamas and one sick puppy mill puppy and the conditions and situations are abhorrent. These commercial breeders should be banned but at a minimum they need to have standards for how to care for companion animals appropriately. We rescued Poppy from STS in Sept 2023. She came to us as a former puppy mill mama shutdown, scared of hu...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1202": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "Upper Arlington",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Maddocks, Kami",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 57,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1206",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 2382,
+      "representative_excerpt": "This information is from the newest Laboratory Animal Medicine book 2026 about exercise and socialization of dogs. Exercise periods are opportunities for physical exercise but also can provide additional important social (i.e. play) and sensory stimulation. The best exercise for most dogs is another dog in an area sufficiently large for them to interact play...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1206": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 53,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1211",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 1645,
+      "representative_excerpt": "1) All dog breeders in the US selling over a certain number of dogs each year (Wisconsin sets the limit at 25) should be required to have a USDA license with required husbandry and humane care, licensed veterinary health checks, health and heritable disease guarantees for buyers. 2) Requirements must be documented for every breeding animal and offspring with...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1211": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "Burlington",
+          "stateProvinceRegion": "WI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from A Hunter, Kimberly",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 51,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-1213",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 1421,
+      "representative_excerpt": "Breeding females should be spayed. But realistically, it should be required that they see a veterinarian for prenatal care and ultrasound. They should be vaccinated according to AAHA standards and veterinary guidance. If we were somehow, someday able to require a license to breed, this should require a veterinary reference from an AAHA accredited clinic show...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1213": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NM",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Nevers, Amanda",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.52118430470783
+    },
+    {
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1001",
@@ -3842,10 +3857,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5182714132333324
+      "presentation_score": 0.5191009713744966
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1009",
@@ -3878,10 +3893,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5182714132333324
+      "presentation_score": 0.5191009713744966
     },
     {
-      "cluster_id": 126,
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0940",
@@ -3914,10 +3929,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.516188079899999
+      "presentation_score": 0.5170176380411633
     },
     {
-      "cluster_id": 123,
+      "cluster_id": 125,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0946",
@@ -3950,10 +3965,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.516188079899999
+      "presentation_score": 0.5170176380411633
     },
     {
-      "cluster_id": 122,
+      "cluster_id": 124,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0948",
@@ -3986,10 +4001,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.516188079899999
+      "presentation_score": 0.5170176380411633
     },
     {
-      "cluster_id": 116,
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0954",
@@ -4022,10 +4037,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.516188079899999
+      "presentation_score": 0.5170176380411633
     },
     {
-      "cluster_id": 111,
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0962",
@@ -4058,10 +4073,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.516188079899999
+      "presentation_score": 0.5170176380411633
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0964",
@@ -4094,10 +4109,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.516188079899999
+      "presentation_score": 0.5170176380411633
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0967",
@@ -4130,10 +4145,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.516188079899999
+      "presentation_score": 0.5170176380411633
     },
     {
-      "cluster_id": 275,
+      "cluster_id": 277,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0744",
@@ -4211,10 +4226,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5147932267732345
+      "presentation_score": 0.516452343055563
     },
     {
-      "cluster_id": 225,
+      "cluster_id": 227,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0801",
@@ -4247,10 +4262,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5141047465666657
+      "presentation_score": 0.51493430470783
     },
     {
-      "cluster_id": 221,
+      "cluster_id": 223,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0805",
@@ -4283,10 +4298,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5141047465666657
+      "presentation_score": 0.51493430470783
     },
     {
-      "cluster_id": 213,
+      "cluster_id": 215,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0817",
@@ -4319,10 +4334,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5141047465666657
+      "presentation_score": 0.51493430470783
     },
     {
-      "cluster_id": 202,
+      "cluster_id": 204,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0833",
@@ -4355,10 +4370,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5141047465666657
+      "presentation_score": 0.51493430470783
     },
     {
-      "cluster_id": 142,
+      "cluster_id": 144,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0918",
@@ -4391,10 +4406,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5141047465666657
+      "presentation_score": 0.51493430470783
     },
     {
-      "cluster_id": 135,
+      "cluster_id": 137,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0928",
@@ -4427,10 +4442,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5141047465666657
+      "presentation_score": 0.51493430470783
     },
     {
-      "cluster_id": 759,
+      "cluster_id": 761,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0015",
@@ -4463,10 +4478,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5099380798999991
+      "presentation_score": 0.5107676380411633
     },
     {
-      "cluster_id": 219,
+      "cluster_id": 221,
       "count": 6,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0807",
@@ -4559,10 +4574,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5069844770371118
+      "presentation_score": 0.5090164711949359
     },
     {
-      "cluster_id": 238,
+      "cluster_id": 240,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0786",
@@ -4595,10 +4610,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5036880798999991
+      "presentation_score": 0.5045176380411633
     },
     {
-      "cluster_id": 232,
+      "cluster_id": 234,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0794",
@@ -4631,10 +4646,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5036880798999991
+      "presentation_score": 0.5045176380411633
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 54,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1210",
@@ -4682,10 +4697,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5020310407019022
+      "presentation_score": 0.5032042130759137
     },
     {
-      "cluster_id": 261,
+      "cluster_id": 263,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0759",
@@ -4718,10 +4733,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5016047465666658
+      "presentation_score": 0.50243430470783
     },
     {
-      "cluster_id": 251,
+      "cluster_id": 253,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0772",
@@ -4754,10 +4769,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5016047465666658
+      "presentation_score": 0.50243430470783
     },
     {
-      "cluster_id": 306,
+      "cluster_id": 307,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0705",
@@ -4790,10 +4805,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49952141323333243
+      "presentation_score": 0.5003509713744967
     },
     {
-      "cluster_id": 287,
+      "cluster_id": 289,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0729",
@@ -4826,10 +4841,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49952141323333243
+      "presentation_score": 0.5003509713744967
     },
     {
-      "cluster_id": 285,
+      "cluster_id": 287,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0732",
@@ -4862,10 +4877,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49952141323333243
+      "presentation_score": 0.5003509713744967
     },
     {
-      "cluster_id": 270,
+      "cluster_id": 272,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0749",
@@ -4898,10 +4913,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49952141323333243
+      "presentation_score": 0.5003509713744967
     },
     {
-      "cluster_id": 266,
+      "cluster_id": 268,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0753",
@@ -4934,10 +4949,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49952141323333243
+      "presentation_score": 0.5003509713744967
     },
     {
-      "cluster_id": 576,
+      "cluster_id": 579,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0303",
@@ -4970,10 +4985,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 565,
+      "cluster_id": 568,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0330",
@@ -5006,10 +5021,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 554,
+      "cluster_id": 557,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0353",
@@ -5042,10 +5057,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 438,
+      "cluster_id": 439,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0368",
@@ -5078,10 +5093,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 423,
+      "cluster_id": 424,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0409",
@@ -5114,10 +5129,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 539,
+      "cluster_id": 542,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0412",
@@ -5150,10 +5165,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 415,
+      "cluster_id": 416,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0433",
@@ -5186,10 +5201,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 413,
+      "cluster_id": 414,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0442",
@@ -5222,10 +5237,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 383,
+      "cluster_id": 384,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0531",
@@ -5258,10 +5273,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 471,
+      "cluster_id": 473,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0641",
@@ -5294,10 +5309,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 325,
+      "cluster_id": 326,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0677",
@@ -5330,10 +5345,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4974380798999991
+      "presentation_score": 0.49826763804116336
     },
     {
-      "cluster_id": 211,
+      "cluster_id": 213,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0821",
@@ -5381,10 +5396,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4957810407019022
+      "presentation_score": 0.4969542130759137
     },
     {
-      "cluster_id": 606,
+      "cluster_id": 609,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0255",
@@ -5417,10 +5432,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4911880798999991
+      "presentation_score": 0.49201763804116333
     },
     {
-      "cluster_id": 692,
+      "cluster_id": 694,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0097",
@@ -5453,10 +5468,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4849380798999991
+      "presentation_score": 0.48576763804116335
     },
     {
-      "cluster_id": 719,
+      "cluster_id": 721,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0064",
@@ -5489,10 +5504,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4828547465666657
+      "presentation_score": 0.48368430470782997
     },
     {
-      "cluster_id": 715,
+      "cluster_id": 717,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0068",
@@ -5525,10 +5540,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4828547465666657
+      "presentation_score": 0.48368430470782997
     },
     {
-      "cluster_id": 711,
+      "cluster_id": 713,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0073",
@@ -5561,10 +5576,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4828547465666657
+      "presentation_score": 0.48368430470782997
     },
     {
-      "cluster_id": 709,
+      "cluster_id": 711,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0076",
@@ -5597,10 +5612,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4828547465666657
+      "presentation_score": 0.48368430470782997
     },
     {
-      "cluster_id": 304,
+      "cluster_id": 305,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0709",
@@ -5648,10 +5663,76 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48119770736856887
+      "presentation_score": 0.48237087974258036
     },
     {
-      "cluster_id": 458,
+      "cluster_id": 23,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-7496",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 4028,
+      "representative_excerpt": "I appreciate the opportunity to provide input on appropriate standards for dogs under the Animal Welfare Act. I hope these updates will result in more robust regulations that will benefit hundreds of thousands of dogs throughout the country. Animal ABUSE in any form should NOT still be happening in this day and age! Dogs and other companion animals DESERVE A...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-7496": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Scroggin, Deborah",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-3769": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Quintana, Patricia",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-0983": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Webster, Monica",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4823203096092601
+    },
+    {
+      "cluster_id": 459,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0313",
@@ -5699,10 +5780,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4791143740352355
+      "presentation_score": 0.480287546409247
     },
     {
-      "cluster_id": 399,
+      "cluster_id": 400,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0481",
@@ -5750,10 +5831,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4791143740352355
+      "presentation_score": 0.480287546409247
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 27,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-3689",
@@ -5816,10 +5897,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4788001394275978
+      "presentation_score": 0.4802369762759267
     },
     {
-      "cluster_id": 731,
+      "cluster_id": 733,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0048",
@@ -5852,10 +5933,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4745214132333324
+      "presentation_score": 0.47535097137449667
     },
     {
-      "cluster_id": 745,
+      "cluster_id": 747,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0030",
@@ -5888,10 +5969,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47035474656666576
+      "presentation_score": 0.47118430470783
     },
     {
-      "cluster_id": 744,
+      "cluster_id": 746,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0031",
@@ -5924,10 +6005,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47035474656666576
+      "presentation_score": 0.47118430470783
     },
     {
-      "cluster_id": 737,
+      "cluster_id": 739,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0038",
@@ -5960,10 +6041,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47035474656666576
+      "presentation_score": 0.47118430470783
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1189",
@@ -5996,10 +6077,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4703547465666657
+      "presentation_score": 0.47118430470782996
     },
     {
-      "cluster_id": 754,
+      "cluster_id": 756,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0020",
@@ -6032,10 +6113,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46827141323333243
+      "presentation_score": 0.4691009713744967
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0992",
@@ -6068,10 +6149,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4682714132333324
+      "presentation_score": 0.46910097137449663
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1025",
@@ -6104,10 +6185,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4682714132333324
+      "presentation_score": 0.46910097137449663
     },
     {
-      "cluster_id": 191,
+      "cluster_id": 193,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0853",
@@ -6140,10 +6221,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4641047465666657
+      "presentation_score": 0.46493430470783
     },
     {
-      "cluster_id": 157,
+      "cluster_id": 159,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0899",
@@ -6176,10 +6257,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4641047465666657
+      "presentation_score": 0.46493430470783
     },
     {
-      "cluster_id": 767,
+      "cluster_id": 769,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0007",
@@ -6212,10 +6293,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4599380798999991
+      "presentation_score": 0.46076763804116333
     },
     {
-      "cluster_id": 761,
+      "cluster_id": 763,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0013",
@@ -6248,10 +6329,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4599380798999991
+      "presentation_score": 0.46076763804116333
     },
     {
-      "cluster_id": 760,
+      "cluster_id": 762,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0014",
@@ -6284,7 +6365,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4599380798999991
+      "presentation_score": 0.46076763804116333
     },
     {
       "cluster_id": 13,
@@ -6320,10 +6401,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4578547465666657
+      "presentation_score": 0.45868430470782995
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 64,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1199",
@@ -6371,10 +6452,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45203104070190214
+      "presentation_score": 0.45320421307591363
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 37,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1490",
@@ -6422,10 +6503,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.45203104070190214
+      "presentation_score": 0.45320421307591363
     },
     {
-      "cluster_id": 263,
+      "cluster_id": 265,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0757",
@@ -6458,7 +6539,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4516047465666657
+      "presentation_score": 0.45243430470782997
     },
     {
       "cluster_id": 18,
@@ -6494,10 +6575,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44743807989999906
+      "presentation_score": 0.4482676380411633
     },
     {
-      "cluster_id": 575,
+      "cluster_id": 578,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0304",
@@ -6530,10 +6611,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 564,
+      "cluster_id": 567,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0331",
@@ -6566,10 +6647,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 451,
+      "cluster_id": 452,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0336",
@@ -6602,10 +6683,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 445,
+      "cluster_id": 446,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0351",
@@ -6638,10 +6719,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 444,
+      "cluster_id": 445,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0354",
@@ -6674,10 +6755,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 534,
+      "cluster_id": 537,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0422",
@@ -6710,10 +6791,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 416,
+      "cluster_id": 417,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0432",
@@ -6746,10 +6827,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 342,
+      "cluster_id": 343,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0647",
@@ -6782,10 +6863,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.447438079899999
+      "presentation_score": 0.44826763804116326
     },
     {
-      "cluster_id": 133,
+      "cluster_id": 135,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0930",
@@ -6833,106 +6914,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44578104070190216
+      "presentation_score": 0.44695421307591365
     },
     {
-      "cluster_id": 22,
-      "count": 5,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-7496",
-      "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 4028,
-      "representative_excerpt": "I appreciate the opportunity to provide input on appropriate standards for dogs under the Animal Welfare Act. I hope these updates will result in more robust regulations that will benefit hundreds of thousands of dogs throughout the country. Animal ABUSE in any form should NOT still be happening in this day and age! Dogs and other companion animals DESERVE A...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-7496": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Scroggin, Deborah",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-3769": {
-          "organization": "",
-          "postedDate": "2026-03-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Quintana, Patricia",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-1218": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Roth, Stephanie",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-0983": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Webster, Monica",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "APHIS-2025-1000-1073": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Killam, Lynn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.44508321219336733
-    },
-    {
-      "cluster_id": 613,
+      "cluster_id": 616,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0242",
@@ -6965,10 +6950,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44118807989999903
+      "presentation_score": 0.4420176380411633
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-3625",
@@ -7001,10 +6986,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44118807989999903
+      "presentation_score": 0.4420176380411633
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-3655",
@@ -7037,10 +7022,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44118807989999903
+      "presentation_score": 0.4420176380411633
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-3686",
@@ -7073,7 +7058,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44118807989999903
+      "presentation_score": 0.4420176380411633
     },
     {
       "cluster_id": 10,
@@ -7124,10 +7109,106 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43953104070190213
+      "presentation_score": 0.4407042130759136
     },
     {
-      "cluster_id": 682,
+      "cluster_id": 25,
+      "count": 6,
+      "page_count": 0,
+      "representative_comment_id": "APHIS-2025-1000-6201",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 3864,
+      "representative_excerpt": "I appreciate the opportunity to provide input on appropriate standards for dogs under the Animal Welfare Act. I hope these updates will result in more robust regulations that will benefit hundreds of thousands of dogs throughout the country. I have had many dogs my whole life and couldn't imagine navigating \"life\" without them. I am among the many Americans ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "APHIS-2025-1000-1089": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Tayler, Debbie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-1436": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Fulton, Stacey",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-2646": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Costlow, Elizabeth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-3595": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Weiss, Arwen",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "APHIS-2025-1000-6142": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hubbard, Stewart",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43818313786160257
+    },
+    {
+      "cluster_id": 684,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0109",
@@ -7160,10 +7241,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4370214132333324
+      "presentation_score": 0.43785097137449663
     },
     {
-      "cluster_id": 703,
+      "cluster_id": 705,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0082",
@@ -7196,10 +7277,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.43493807989999905
+      "presentation_score": 0.4357676380411633
     },
     {
-      "cluster_id": 688,
+      "cluster_id": 690,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0101",
@@ -7232,10 +7313,10 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43493807989999905
+      "presentation_score": 0.4357676380411633
     },
     {
-      "cluster_id": 724,
+      "cluster_id": 726,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0058",
@@ -7268,10 +7349,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.43285474656666567
+      "presentation_score": 0.4336843047078299
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1188",
@@ -7304,10 +7385,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4203547465666657
+      "presentation_score": 0.42118430470782997
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1195",
@@ -7340,10 +7421,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4203547465666657
+      "presentation_score": 0.42118430470782997
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1215",
@@ -7376,10 +7457,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4203547465666657
+      "presentation_score": 0.42118430470782997
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0998",
@@ -7412,10 +7493,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4182714132333324
+      "presentation_score": 0.41910097137449664
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1002",
@@ -7448,10 +7529,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4182714132333324
+      "presentation_score": 0.41910097137449664
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1004",
@@ -7484,10 +7565,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4182714132333324
+      "presentation_score": 0.41910097137449664
     },
     {
-      "cluster_id": 119,
+      "cluster_id": 121,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0951",
@@ -7520,10 +7601,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41618807989999906
+      "presentation_score": 0.4170176380411633
     },
     {
-      "cluster_id": 117,
+      "cluster_id": 119,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0953",
@@ -7556,10 +7637,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41618807989999906
+      "presentation_score": 0.4170176380411633
     },
     {
-      "cluster_id": 220,
+      "cluster_id": 222,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0806",
@@ -7592,10 +7673,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 209,
+      "cluster_id": 211,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0824",
@@ -7628,10 +7709,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 205,
+      "cluster_id": 207,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0829",
@@ -7664,10 +7745,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 197,
+      "cluster_id": 199,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0839",
@@ -7700,10 +7781,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 196,
+      "cluster_id": 198,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0840",
@@ -7736,10 +7817,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 189,
+      "cluster_id": 191,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0856",
@@ -7772,10 +7853,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 177,
+      "cluster_id": 179,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0876",
@@ -7808,10 +7889,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 160,
+      "cluster_id": 162,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0895",
@@ -7844,10 +7925,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 158,
+      "cluster_id": 160,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0897",
@@ -7880,10 +7961,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 155,
+      "cluster_id": 157,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0904",
@@ -7916,10 +7997,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 132,
+      "cluster_id": 134,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0931",
@@ -7952,10 +8033,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 129,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0936",
@@ -7988,10 +8069,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41410474656666574
+      "presentation_score": 0.41493430470783
     },
     {
-      "cluster_id": 475,
+      "cluster_id": 477,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0628",
@@ -8069,10 +8150,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41270989343990105
+      "presentation_score": 0.41436900972222956
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 66,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1197",
@@ -8135,7 +8216,7 @@
       },
       "representative_has_attachment": true,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4079668060942645
+      "presentation_score": 0.4094036429425934
     },
     {
       "cluster_id": 6,
@@ -8171,10 +8252,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4078547465666657
+      "presentation_score": 0.40868430470782996
     },
     {
-      "cluster_id": 248,
+      "cluster_id": 250,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0775",
@@ -8207,10 +8288,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40368807989999905
+      "presentation_score": 0.4045176380411633
     },
     {
-      "cluster_id": 246,
+      "cluster_id": 248,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0777",
@@ -8243,10 +8324,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40368807989999905
+      "presentation_score": 0.4045176380411633
     },
     {
-      "cluster_id": 244,
+      "cluster_id": 246,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0779",
@@ -8279,10 +8360,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40368807989999905
+      "presentation_score": 0.4045176380411633
     },
     {
-      "cluster_id": 242,
+      "cluster_id": 244,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0781",
@@ -8315,10 +8396,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40368807989999905
+      "presentation_score": 0.4045176380411633
     },
     {
-      "cluster_id": 240,
+      "cluster_id": 242,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0783",
@@ -8351,10 +8432,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40368807989999905
+      "presentation_score": 0.4045176380411633
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 47,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1223",
@@ -8402,10 +8483,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40203104070190215
+      "presentation_score": 0.40320421307591364
     },
     {
-      "cluster_id": 250,
+      "cluster_id": 252,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0773",
@@ -8438,10 +8519,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4016047465666657
+      "presentation_score": 0.40243430470783
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 90,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-1029",
@@ -8489,10 +8570,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39994770736856883
+      "presentation_score": 0.4011208797425803
     },
     {
-      "cluster_id": 316,
+      "cluster_id": 317,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0694",
@@ -8525,10 +8606,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3995214132333324
+      "presentation_score": 0.40035097137449666
     },
     {
-      "cluster_id": 314,
+      "cluster_id": 315,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0696",
@@ -8561,10 +8642,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3995214132333324
+      "presentation_score": 0.40035097137449666
     },
     {
-      "cluster_id": 313,
+      "cluster_id": 314,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0697",
@@ -8597,10 +8678,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3995214132333324
+      "presentation_score": 0.40035097137449666
     },
     {
-      "cluster_id": 312,
+      "cluster_id": 313,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0698",
@@ -8633,10 +8714,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3995214132333324
+      "presentation_score": 0.40035097137449666
     },
     {
-      "cluster_id": 291,
+      "cluster_id": 292,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "APHIS-2025-1000-0724",
@@ -8669,43 +8750,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3995214132333324
-    },
-    {
-      "cluster_id": 574,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "APHIS-2025-1000-0305",
-      "representative_posted_date": "2026-03-09T04:00:00Z",
-      "representative_length": 1067,
-      "representative_excerpt": "As a previous owner of a Rat Terrior who I named Angel, I am appalled at Missouri for allowing puppy mills. She was so broken when I got her from the humane society of Mo. Walked in circles due to being kept in a cage for 2 years breading. No social contact besides abuse. Would regurgitate her food as if she was doing it to feen her puppies. Shivered when I ...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "APHIS-2025-1000-0305": {
-          "organization": "",
-          "postedDate": "2026-03-09T04:00:00Z",
-          "zip": "",
-          "city": "O Fallon",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Hollensbe, Joan",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.397438079899999
+      "presentation_score": 0.40035097137449666
     }
   ],
   "comments_clusters_path": "data/comments/APHIS-2025-1000.csv",
@@ -8724,7 +8769,7 @@
       "withdrawn": false,
       "representative_excerpt": "",
       "source_cluster_ids": [
-        46
+        47
       ]
     },
     {
@@ -8740,7 +8785,7 @@
       "withdrawn": false,
       "representative_excerpt": "Mandate that females shall be at least 18 months old before the first litter. Mandate a retirement program 6years for females, 8 years for males and placed in homes at retirement. Mandate continuous access to clean potable water. Mandate three times the current USDA space requirements for dogs confined in commercial breeding facilities. Mandate that breeding...",
       "source_cluster_ids": [
-        238
+        240
       ]
     },
     {
@@ -8756,7 +8801,7 @@
       "withdrawn": false,
       "representative_excerpt": "",
       "source_cluster_ids": [
-        4
+        21
       ]
     },
     {
@@ -8772,18 +8817,18 @@
       "withdrawn": false,
       "representative_excerpt": "I have been fighting puppy mills for 26 years and what you are proposing we already have in Ohio. SB130 with all living conditions etc. etc. What we DO NOT have is the enforcement of the laws. Ohio Department of Agriculture (ODA) and United States Department of Agriculture (USDA) do not have the ideology in managing commercial dog breeders. Our group (PPOV),...",
       "source_cluster_ids": [
-        692
+        694
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.6968503937007874,
-  "comments_first_page_coverage_count": 531,
+  "comments_first_page_coverage_share": 0.7134146341463414,
+  "comments_first_page_coverage_count": 585,
   "comments_clusters_total_available": 200,
   "comments_clusters_displayed": 200,
   "comments_first_page_high_signal_clusters": 15,
-  "comments_first_page_novelty_clusters": 11,
+  "comments_first_page_novelty_clusters": 10,
   "comments_first_page_stance_counts": {
     "neutral": 11,
     "negative": 11,
