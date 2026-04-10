@@ -15,7 +15,12 @@ function tabFromHash() {
 
 function defaultTabFromPath() {
   const parts = window.location.pathname.split("/").filter(Boolean);
-  const routeTab = String(parts[2] || "").toLowerCase();
+  let routeTab = "";
+  if (parts[0] === "docket" && parts[2] === "document") {
+    routeTab = String(parts[4] || "").toLowerCase();
+  } else {
+    routeTab = String(parts[2] || "").toLowerCase();
+  }
   if (TAB_NAMES.has(routeTab)) return routeTab;
   return "overview";
 }
@@ -646,7 +651,15 @@ function initTabs(defaultTab = "overview") {
 
 async function main() {
   const parts = window.location.pathname.split("/").filter(Boolean);
-  const routeId = parts.length >= 2 && parts[0] === "docket" ? parts[1] : "";
+  const bodyDetailId = String(document.body?.dataset?.detailId || "").trim();
+  let routeId = bodyDetailId;
+  if (!routeId) {
+    if (parts.length >= 4 && parts[0] === "docket" && parts[2] === "document") {
+      routeId = parts[3];
+    } else if (parts.length >= 2 && parts[0] === "docket") {
+      routeId = parts[1];
+    }
+  }
   const root =
     document.getElementById("detailRoot") ||
     document.getElementById("summaryRoot") ||
