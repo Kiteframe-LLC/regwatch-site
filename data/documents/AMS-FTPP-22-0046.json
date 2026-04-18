@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-04-15T08:18:27.196485+00:00",
+  "comment_action_checked_at": "2026-04-18T02:43:59.779628+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-18T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 0,
-  "pass_3_score": 12.689655172413794,
+  "pass_3_score": 13.129032258064516,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.0,
-  "pass_3_scaled": 0.8793597772999397,
+  "pass_3_scaled": 0.8878784852850301,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6240268187501299,
+  "combined_score": 0.6282861727426751,
   "score_total": 7,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -164,35 +164,41 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 281,
-  "comments_velocity_total": 281,
-  "comments_public_total_estimate": 281,
+  "comments_total": 319,
+  "comments_velocity_total": 314,
+  "comments_public_total_estimate": 314,
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
-  "comments_cached_records": 102,
-  "comments_unique_clusters": 87,
-  "comments_clustered_duplicates": 15,
+  "comments_cached_records": 132,
+  "comments_unique_clusters": 115,
+  "comments_clustered_duplicates": 17,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 100,
+  "comments_citizen_count": 122,
   "comments_commenter_type_counts": {
-    "citizen": 100,
-    "organization_other": 2
+    "government": 2,
+    "citizen": 122,
+    "organization_other": 8
   },
   "comments_submission_role_counts": {
-    "individual": 100,
-    "organization": 2
+    "government_state": 1,
+    "individual": 126,
+    "organization": 4,
+    "government_unknown": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 102
+    "agency_material": 2,
+    "public_portal": 130
   },
-  "comments_public_count": 102,
+  "comments_public_count": 130,
   "comments_recorded_count": 0,
-  "comments_agency_material_count": 0,
+  "comments_agency_material_count": 2,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-04-14": 30,
+    "2026-04-16": 18,
+    "2026-04-15": 11,
+    "2026-04-14": 29,
     "2026-04-10": 19,
     "2026-03-30": 8,
     "2026-03-27": 1,
@@ -204,45 +210,45 @@
     "2026-04-14": 1,
     "2026-03-26": 1
   },
-  "comments_novel_comment_rate": 0.8529411764705882,
-  "comments_sentiment_positive_pct": 0.010941838747495838,
-  "comments_sentiment_negative_pct": 0.08753470997996671,
-  "comments_sentiment_neutral_pct": 0.9015234512725374,
-  "comments_sentiment_net": -0.07659287123247087,
-  "comments_sentiment_sample_size": 102,
+  "comments_novel_comment_rate": 0.8712121212121212,
+  "comments_sentiment_positive_pct": 0.00850448882861077,
+  "comments_sentiment_negative_pct": 0.09354937711471846,
+  "comments_sentiment_neutral_pct": 0.8979461340566709,
+  "comments_sentiment_net": -0.08504488828610769,
+  "comments_sentiment_sample_size": 130,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 102,
+  "comments_analysis_sample_size": 132,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 102,
-  "comments_representative_prior_selected": 102,
+  "comments_representative_selected": 132,
+  "comments_representative_prior_selected": 132,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 7,
+  "comments_representative_must_keep": 15,
   "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 7,
+    "must_keep": 15,
     "salience_rank": 2,
-    "weighted_fill": 93
+    "weighted_fill": 115
   },
-  "comments_representative_selected_by_counts_total": 102,
+  "comments_representative_selected_by_counts_total": 132,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-04-15T05:35:04.448233+00:00",
-  "comments_checked_at": "2026-04-15T05:35:04.817871+00:00",
+  "comments_api_last_seen_at": "2026-04-17T05:31:41.523095+00:00",
+  "comments_checked_at": "2026-04-17T05:31:42.014677+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 7,
-      "count": 13,
+      "cluster_id": 5,
+      "count": 15,
       "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-1200",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_comment_id": "AMS-FTPP-22-0046-1246",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
       "representative_length": 907,
       "representative_excerpt": "I join Farm Action in opposing USDA\u2019s proposed delay of the \u201cPoultry Grower Payment Systems and Capital Improvement Systems\u201d final rule. The poultry tournament system is fundamentally unfair. Growers\u2019 pay can be reduced based on how they rank against each other, even though they have no control over key inputs like chicks, feed, or medicine. This rule would ...",
       "representative_signal_score": 0,
@@ -331,10 +337,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3947307954224878
+      "presentation_score": 0.3901684400555602
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 110,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0941",
@@ -397,10 +403,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5430804390608394
+      "presentation_score": 0.5364462658777787
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 83,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0969",
@@ -448,10 +454,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6544911091968316
+      "presentation_score": 0.6464228143240649
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0962",
@@ -484,10 +490,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7191063832588867
+      "presentation_score": 0.7141397779494322
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1181",
@@ -520,10 +526,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.805470019622523
+      "presentation_score": 0.7933064446160989
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0935",
@@ -556,10 +562,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5721366862891896
+      "presentation_score": 0.5683064446160988
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0940",
@@ -592,10 +598,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5721366862891896
+      "presentation_score": 0.5683064446160988
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0945",
@@ -628,10 +634,262 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5721366862891896
+      "presentation_score": 0.5683064446160988
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1224",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 2882,
+      "representative_excerpt": "I join Farm Action in opposing USDA\u2019s proposed delay of the \u201cPoultry Grower Payment Systems and Capital Improvement Systems\u201d final rule. The poultry tournament system is fundamentally unfair. Growers\u2019 pay can be reduced based on how they rank against each other, even though they have no control over key inputs like chicks, feed, or medicine. This rule would ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1224": {
+          "organization": "Brady poultry farms",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Brady poultry farms",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7141397779494322
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1236",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 2170,
+      "representative_excerpt": "I can say I am NOT happy with the pay we are at currently . Can\u2019t say I\u2019d blame it on the tournament pay I\u2019d blame more on bad Birds being places consistently and not having a decent pay raise to compensate for the cost of living through the years! I can say that if the farmers pay goes any lower you think the snow storm was bad to put farmers out of busines...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1236": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6683064446160988
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1247",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 1202,
+      "representative_excerpt": "to make contract broiler production \"fair\" changing the pay to something other than the tournament pay system is not the answer. there has to be an incentive. If I\"m guaranteed the same pay for an inferior product why would I spend money on anything extra. The tourn.pay rewards growers that spend time, effort and money... most of the time. growers who settle...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1247": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "nashville",
+          "stateProvinceRegion": "AR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from hilliard, david",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6683064446160988
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1249",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 1375,
+      "representative_excerpt": "As a contract poultry grower, I operate in a system where my compensation is influenced by factors that are not always transparent or within my control. The final rule was intended to improve fairness in how growers are paid and to provide more clarity around how compensation is determined. Delaying implementation of this rule prolongs the uncertainty that m...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1249": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "homer",
+          "stateProvinceRegion": "LA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from robinson, kevin",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6683064446160988
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1221",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 1590,
+      "representative_excerpt": "Delaying the proposed payment system and capital improvement system will be determental to poultry farmers. The current tournament pay system is not fair because it does not and cannot take into account all of the variables. Variables such as chick quality, the age of the parent flock and feed quality just to name a few. The capital improvement system as it ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1221": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6641397779494321
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1228",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 2033,
+      "representative_excerpt": "While the tournament system is often presented as a fair, performance-based method of compensation, there are significant structural issues that undermine its fairness and transparency. First, there is a fundamental inequity in the quality of inputs provided to growers. Outcomes are heavily influenced by factors outside the grower\u2019s control, including chick ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1228": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "Stark City",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Bradshaw, Kent",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6641397779494321
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1230",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 2262,
+      "representative_excerpt": "While the intent to promote fairness and transparency in poultry grower relationships is important, these rules are structured around the vertically integrated model and do not account for all operational realities within the poultry industry. Non-integrated businesses operate without ownership or control of hatcheries or processing plants, yet the proposed ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1230": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6641397779494321
+    },
+    {
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0978",
@@ -664,10 +922,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6539548681073714
+      "presentation_score": 0.6433064446160988
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0992",
@@ -700,10 +958,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6539548681073714
+      "presentation_score": 0.6433064446160988
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0970",
@@ -736,262 +994,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6039548681073714
+      "presentation_score": 0.5974731112827655
     },
     {
-      "cluster_id": 73,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-0950",
-      "representative_posted_date": "2026-03-23T04:00:00Z",
-      "representative_length": 1668,
-      "representative_excerpt": "I\u2019ve been seeing where the proposed grower payment has been postponed. I\u2019m a broiler grower of almost 9 years, and through the tournament system I have ranked really well, and I have ranked really bad, all doing the same farm management flock to flock. I have seen swings of $15,000 to the bad all the while it costing me the same money to raise the bad flock ...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-FTPP-22-0046-0950": {
-          "organization": "",
-          "postedDate": "2026-03-23T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5721366862891896
-    },
-    {
-      "cluster_id": 26,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-1165",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 532,
-      "representative_excerpt": "\"This rule establishes a base level of pay for poultry growers, a position supported by Arkansas Farm Bureau policy, and provides a more predictable income in a system where many factors affecting performance are outside the grower\u2019s control. This stability is critical for managing risk, working with lenders, and making long-term investments. While USDA has ...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-FTPP-22-0046-1165": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "Waldron",
-          "stateProvinceRegion": "AR",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Wright , Dan",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5388033529558562
-    },
-    {
-      "cluster_id": 22,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-1172",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 370,
-      "representative_excerpt": "The tournament system is only for the integrators it completely screws the growers . If you question wat the integrators are doing they will see that u get junk chicks . I lived this for 2 years with pilgrims Pride . I feel like the USDA fix is in . If this don\u2019t go into affect now there will be more poultry growers go bankrupt in the next 2 years than ever ...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-FTPP-22-0046-1172": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "Timberville",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Showalter, Scott",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5388033529558562
-    },
-    {
-      "cluster_id": 20,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-1174",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 537,
-      "representative_excerpt": "Please keep the tournament system! My integrator changed to a tier based system 1.5 years ago. Pay is down 18% since the change. I have spoke with GIPSA personnel 3 times and the issues the new system brings are not \u201coffenses\u201d per GIPSA. The tools they have are for the tournament system and don\u2019t hold water with the new systems. Tournament isn\u2019t great, but i...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-FTPP-22-0046-1174": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "Batesville",
-          "stateProvinceRegion": "AR",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Cook, Mark",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5388033529558562
-    },
-    {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-1186",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 541,
-      "representative_excerpt": "I am a third generation poultry farmer. I began raising broilers on my own farm 25 years ago. My initial contract was for .05 cents per pound. My current contract is for .065 cents per pound. When I started my own farm it cost roughly $125,000 to build a broiler house. It now cost around $500,000. There are many reasons why we need the implementation of thes...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-FTPP-22-0046-1186": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5388033529558562
-    },
-    {
-      "cluster_id": 8,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-1196",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 1003,
-      "representative_excerpt": "As a poultry farmer in Alabama, I strongly support ending the tournament pay system. This system unfairly penalizes growers for factors that are entirely outside of their control. Bird health issues, breed differences, and hen flock age all have a direct impact on livability, feed conversion, and total pounds sold\u2014yet growers are financially punished when th...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-FTPP-22-0046-1196": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5388033529558562
-    },
-    {
-      "cluster_id": 49,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-0975",
-      "representative_posted_date": "2026-04-10T04:00:00Z",
-      "representative_length": 901,
-      "representative_excerpt": "Tournament system comment : As a grower , i signed up for and committed to $ 2,100,000 of debt based on the financial business plan provided by my integrator . Assuming my base is equal to .0750 lb Current scenario : poor quality chickens and diseases resulted in -.0045 deficit from the agreed upon .0750 base . Not only does the grower take the hit on a subp...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-FTPP-22-0046-0975": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "Boaz",
-          "stateProvinceRegion": "AL",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Lenoir, Brad",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
-    },
-    {
-      "cluster_id": 75,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0948",
@@ -1024,16 +1030,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4388033529558562
+      "presentation_score": 0.4349731112827655
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-0966",
-      "representative_posted_date": "2026-03-27T04:00:00Z",
-      "representative_length": 87,
-      "representative_excerpt": "I don't understand the delay \"companies are all ready there Wayne-Sanderson and others\"",
+      "representative_comment_id": "AMS-FTPP-22-0046-1233",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 115,
+      "representative_excerpt": "When will USDA start supporting small farmers and growers? Why is this rule being delayed? Farmers need relief now.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -1042,9 +1048,45 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "AMS-FTPP-22-0046-0966": {
+        "AMS-FTPP-22-0046-1233": {
+          "organization": "Save our Food and Farms",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Save our Food and Farms",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.45163977794943216
+    },
+    {
+      "cluster_id": 101,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0950",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 1668,
+      "representative_excerpt": "I\u2019ve been seeing where the proposed grower payment has been postponed. I\u2019m a broiler grower of almost 9 years, and through the tournament system I have ranked really well, and I have ranked really bad, all doing the same farm management flock to flock. I have seen swings of $15,000 to the bad all the while it costing me the same money to raise the bad flock ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0950": {
           "organization": "",
-          "postedDate": "2026-03-27T04:00:00Z",
+          "postedDate": "2026-03-23T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1060,17 +1102,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3236518378043411
+      "presentation_score": 0.5683064446160988
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "AMS-FTPP-22-0046-0954",
-      "representative_posted_date": "2026-03-24T04:00:00Z",
-      "representative_length": 1073,
-      "representative_excerpt": "I'm a poultry grower in South Central Pennsylvania. We have a fourhouse farm for an integrator, that has organic chickens in Pennsylvania. With organic chickens, chick quality and feed quality is a big deal. If you are a grower with an integrator that can give chickens medicine when they are challenged, the veterinarian and your service techs have no tools i...",
-      "representative_signal_score": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1238",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 879,
+      "representative_excerpt": "This rule establishes a base level of pay for poultry growers and provides a more predictable income in a system where many factors affecting performance are outside the growers control. My integrator cut my density but did not raise the weight of bird and my annual loss is 32000 dollars. USDA has raised concerns about impacts on grocery prices there is no c...",
+      "representative_signal_score": 1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1078,15 +1120,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "AMS-FTPP-22-0046-0954": {
+        "AMS-FTPP-22-0046-1238": {
           "organization": "",
-          "postedDate": "2026-03-24T04:00:00Z",
+          "postedDate": "2026-04-16T04:00:00Z",
           "zip": "",
-          "city": "Stevens",
-          "stateProvinceRegion": "PA",
+          "city": "Strong",
+          "stateProvinceRegion": "AR",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Musser , Carl",
+          "title": "Comment from Laster, Terry",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1096,10 +1138,334 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3100154741679774
+      "presentation_score": 0.5349731112827655
+    },
+    {
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1239",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 1470,
+      "representative_excerpt": "The tournament system used to pay poultry growers is fundamentally flawed because it shifts an unfair amount of risk onto the farmers while allowing integrator companies to maintain control over nearly every aspect of production. When those inputs vary\u2014and they often do\u2014it creates an uneven playing field where some farmers are set up to succeed while others ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1239": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5349731112827655
+    },
+    {
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1222",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 1126,
+      "representative_excerpt": "We grow a \u201c35 day\u201d old broiler in southern NC. There are so many factors that are out of a farmer\u2019s control, that having a tournament pay scale makes no sense at all. None of us can control what breeder age chick we get, feed outages, integrator catching birds at way early at 31 days, no medications since your \u201corganic bird\u201d, small chicks, and the list goes ...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1222": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "Laurinburg",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Bryant, MB",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5308064446160988
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1223",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 1171,
+      "representative_excerpt": "The tournament-style payment system in poultry production creates an inherently inequitable structure for growers. It evaluates performance based on relative comparison to other farms, while failing to account for critical variables that are entirely outside of the grower\u2019s control. Factors such as chick quality, breeder flock age, genetic variation, hatcher...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1223": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "Centre",
+          "stateProvinceRegion": "AL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Jones, Isaac",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5308064446160988
+    },
+    {
+      "cluster_id": 54,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1165",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 532,
+      "representative_excerpt": "\"This rule establishes a base level of pay for poultry growers, a position supported by Arkansas Farm Bureau policy, and provides a more predictable income in a system where many factors affecting performance are outside the grower\u2019s control. This stability is critical for managing risk, working with lenders, and making long-term investments. While USDA has ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1165": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "Waldron",
+          "stateProvinceRegion": "AR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Wright , Dan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5266397779494322
+    },
+    {
+      "cluster_id": 50,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1172",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 370,
+      "representative_excerpt": "The tournament system is only for the integrators it completely screws the growers . If you question wat the integrators are doing they will see that u get junk chicks . I lived this for 2 years with pilgrims Pride . I feel like the USDA fix is in . If this don\u2019t go into affect now there will be more poultry growers go bankrupt in the next 2 years than ever ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1172": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "Timberville",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Showalter, Scott",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5266397779494322
     },
     {
       "cluster_id": 48,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1174",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 537,
+      "representative_excerpt": "Please keep the tournament system! My integrator changed to a tier based system 1.5 years ago. Pay is down 18% since the change. I have spoke with GIPSA personnel 3 times and the issues the new system brings are not \u201coffenses\u201d per GIPSA. The tools they have are for the tournament system and don\u2019t hold water with the new systems. Tournament isn\u2019t great, but i...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1174": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "Batesville",
+          "stateProvinceRegion": "AR",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Cook, Mark",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5266397779494322
+    },
+    {
+      "cluster_id": 40,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1186",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 541,
+      "representative_excerpt": "I am a third generation poultry farmer. I began raising broilers on my own farm 25 years ago. My initial contract was for .05 cents per pound. My current contract is for .065 cents per pound. When I started my own farm it cost roughly $125,000 to build a broiler house. It now cost around $500,000. There are many reasons why we need the implementation of thes...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1186": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5266397779494322
+    },
+    {
+      "cluster_id": 36,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1196",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 1003,
+      "representative_excerpt": "As a poultry farmer in Alabama, I strongly support ending the tournament pay system. This system unfairly penalizes growers for factors that are entirely outside of their control. Bird health issues, breed differences, and hen flock age all have a direct impact on livability, feed conversion, and total pounds sold\u2014yet growers are financially punished when th...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1196": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5266397779494322
+    },
+    {
+      "cluster_id": 77,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0975",
+      "representative_posted_date": "2026-04-10T04:00:00Z",
+      "representative_length": 901,
+      "representative_excerpt": "Tournament system comment : As a grower , i signed up for and committed to $ 2,100,000 of debt based on the financial business plan provided by my integrator . Assuming my base is equal to .0750 lb Current scenario : poor quality chickens and diseases resulted in -.0045 deficit from the agreed upon .0750 base . Not only does the grower take the hit on a subp...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0975": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "Boaz",
+          "stateProvinceRegion": "AL",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Lenoir, Brad",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5099731112827655
+    },
+    {
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0976",
@@ -1132,10 +1498,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
+      "presentation_score": 0.5099731112827655
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0981",
@@ -1168,10 +1534,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
+      "presentation_score": 0.5099731112827655
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0983",
@@ -1204,10 +1570,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
+      "presentation_score": 0.5099731112827655
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0987",
@@ -1240,10 +1606,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
+      "presentation_score": 0.5099731112827655
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0990",
@@ -1276,10 +1642,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
+      "presentation_score": 0.5099731112827655
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0991",
@@ -1312,10 +1678,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
+      "presentation_score": 0.5099731112827655
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0999",
@@ -1348,10 +1714,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.520621534774038
+      "presentation_score": 0.5099731112827655
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0971",
@@ -1384,10 +1750,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.470621534774038
+      "presentation_score": 0.4641397779494322
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0973",
@@ -1420,10 +1786,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.470621534774038
+      "presentation_score": 0.4641397779494322
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 115,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0933",
@@ -1456,10 +1822,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4388033529558562
+      "presentation_score": 0.4349731112827655
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0938",
@@ -1492,10 +1858,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4388033529558562
+      "presentation_score": 0.4349731112827655
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0942",
@@ -1528,10 +1894,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4388033529558562
+      "presentation_score": 0.4349731112827655
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0944",
@@ -1564,10 +1930,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4388033529558562
+      "presentation_score": 0.4349731112827655
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0946",
@@ -1600,10 +1966,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4388033529558562
+      "presentation_score": 0.4349731112827655
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0952",
@@ -1636,10 +2002,226 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4388033529558562
+      "presentation_score": 0.4349731112827655
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1235",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 359,
+      "representative_excerpt": "I am a grower in Delaware for 8yrs the tournament system that these poultry integrated have set up, it\u2019s very unfair to the farmer. All of our houses are different environments are different. The Litter we grow on to the chicks we get. And as a grower, I feel as there\u2019s not much what we can do so as a grower I do not think that USDA should delay any longer.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1235": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "Harrington",
+          "stateProvinceRegion": "DE",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Wilson, Jody",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4016397779494322
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1237",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 107,
+      "representative_excerpt": "It got pushed out and less than 30 day after we are told we have to purchase a dehydrator 200k Thanks A lot",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1237": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "Russellville",
+          "stateProvinceRegion": "AL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Seal, Scott",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4016397779494322
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1241",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 859,
+      "representative_excerpt": "As a Pilgrim's Pride poultry grower Is disappointing that modest improvements to grower pay systems are being delayed. Many for the poultry companies have already incorporated the changes while Pilgrim's has resisted. Pilgrim's Pride is correctly owned by JBS which has long history of less then honorable business practices. \"JBS S.A. and its controlling shar...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1241": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4016397779494322
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1213",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 516,
+      "representative_excerpt": "Tournament pay is has always been unfair. Also the the capital improvements required by integrators has bankrupted many farms. Pay should be by the pound, square feet or by the egg depending on type. Capital improvements should be up to the farmer and the integrator not an upgrade or no contract deal. As long as equipment functions and they raise good birds ...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1213": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3974731112827655
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1227",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 289,
+      "representative_excerpt": "Very upset with the delay. The poultry growers are trying to survive on crumbs day to day. I look at our bills and am amazed that we're still making it. Everything keeps going up and our pay keeps staying the same. The square footage pay is the only way I can see fairness in our industry.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1227": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3974731112827655
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1231",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 458,
+      "representative_excerpt": "We have it hard enough feeding America, don\u2019t make it harder on the growers who actually take pride in their work by making it a \u201ceveryone gets a trophy\u201d situation. Keep the tournament system, if anything with the rate of inflation we are at in propane prices and fuel prices how about a raise to compensate. For all the ones who don\u2019t live in the country and ...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1231": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "Carthage",
+          "stateProvinceRegion": "MS",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from N/A, N/A",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3974731112827655
+    },
+    {
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1161",
@@ -1672,10 +2254,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1162",
@@ -1708,10 +2290,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1163",
@@ -1744,10 +2326,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1164",
@@ -1780,10 +2362,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1167",
@@ -1816,10 +2398,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1171",
@@ -1852,10 +2434,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1173",
@@ -1888,10 +2470,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1175",
@@ -1924,10 +2506,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1177",
@@ -1960,10 +2542,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1178",
@@ -1996,10 +2578,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1179",
@@ -2032,10 +2614,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1180",
@@ -2068,10 +2650,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1183",
@@ -2104,10 +2686,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1187",
@@ -2140,10 +2722,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1192",
@@ -2176,10 +2758,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1194",
@@ -2212,10 +2794,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1201",
@@ -2248,10 +2830,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1204",
@@ -2284,10 +2866,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1205",
@@ -2320,10 +2902,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1207",
@@ -2356,10 +2938,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1208",
@@ -2392,10 +2974,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1211",
@@ -2428,10 +3010,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40547001962252294
+      "presentation_score": 0.39330644461609887
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0977",
@@ -2464,10 +3046,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38728820144070475
+      "presentation_score": 0.3766397779494322
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0982",
@@ -2500,10 +3082,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38728820144070475
+      "presentation_score": 0.3766397779494322
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0986",
@@ -2536,10 +3118,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38728820144070475
+      "presentation_score": 0.3766397779494322
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0988",
@@ -2572,10 +3154,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38728820144070475
+      "presentation_score": 0.3766397779494322
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0989",
@@ -2608,10 +3190,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38728820144070475
+      "presentation_score": 0.3766397779494322
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1007",
@@ -2644,10 +3226,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38728820144070475
+      "presentation_score": 0.3766397779494322
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0967",
@@ -2680,10 +3262,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3372882014407047
+      "presentation_score": 0.33080644461609887
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0968",
@@ -2716,10 +3298,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3372882014407047
+      "presentation_score": 0.33080644461609887
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0972",
@@ -2752,10 +3334,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3372882014407047
+      "presentation_score": 0.33080644461609887
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0974",
@@ -2788,10 +3370,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3372882014407047
+      "presentation_score": 0.33080644461609887
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 86,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0966",
+      "representative_posted_date": "2026-03-27T04:00:00Z",
+      "representative_length": 87,
+      "representative_excerpt": "I don't understand the delay \"companies are all ready there Wayne-Sanderson and others\"",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0966": {
+          "organization": "",
+          "postedDate": "2026-03-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31830644461609886
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1234",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 27,
+      "representative_excerpt": "Comment from Meat Institute",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1234": {
+          "organization": "Meat Institute",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Meat Institute",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.31830644461609886
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1244",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 24,
+      "representative_excerpt": "Comment from Farm Action",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1244": {
+          "organization": "Farm Action",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Farm Action",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.31830644461609886
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1248",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 60,
+      "representative_excerpt": "Comment from Campaign for Contract Agriculture Reform (CCAR)",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1248": {
+          "organization": "Campaign for Contract Agriculture Reform (CCAR)",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Campaign for Contract Agriculture Reform (CCAR)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.31830644461609886
+    },
+    {
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0961",
@@ -2824,10 +3550,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3191063832588865
+      "presentation_score": 0.3141397779494322
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0963",
@@ -2860,10 +3586,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3191063832588865
+      "presentation_score": 0.3141397779494322
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0964",
@@ -2896,10 +3622,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3191063832588865
+      "presentation_score": 0.3141397779494322
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1214",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 41,
+      "representative_excerpt": "Comment from Rocky Mountain Farmers Union",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1214": {
+          "organization": "Rocky Mountain Farmers Union",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Rocky Mountain Farmers Union",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.3141397779494322
+    },
+    {
+      "cluster_id": 97,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-0954",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 1073,
+      "representative_excerpt": "I'm a poultry grower in South Central Pennsylvania. We have a fourhouse farm for an integrator, that has organic chickens in Pennsylvania. With organic chickens, chick quality and feed quality is a big deal. If you are a grower with an integrator that can give chickens medicine when they are challenged, the veterinarian and your service techs have no tools i...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-0954": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "Stevens",
+          "stateProvinceRegion": "PA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Musser , Carl",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.30580644461609885
+    },
+    {
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0956",
@@ -2932,10 +3730,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3100154741679774
+      "presentation_score": 0.30580644461609885
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0960",
@@ -2968,10 +3766,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3100154741679774
+      "presentation_score": 0.30580644461609885
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0943",
@@ -3004,10 +3802,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3054700196225229
+      "presentation_score": 0.3016397779494322
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0947",
@@ -3040,10 +3838,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3054700196225229
+      "presentation_score": 0.3016397779494322
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0949",
@@ -3076,10 +3874,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3054700196225229
+      "presentation_score": 0.3016397779494322
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0951",
@@ -3112,10 +3910,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3054700196225229
+      "presentation_score": 0.3016397779494322
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0953",
@@ -3148,10 +3946,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3054700196225229
+      "presentation_score": 0.3016397779494322
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0979",
@@ -3184,10 +3982,226 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.30395486810737143
+      "presentation_score": 0.2933064446160989
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1240",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 72,
+      "representative_excerpt": "Leave pay how it is. No need for change that will hurt farmers even more",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1240": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.26830644461609887
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1242",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 30,
+      "representative_excerpt": "Please DO NOT delay this rule.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1242": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Y, Nancy",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.26830644461609887
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1243",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 24,
+      "representative_excerpt": "Comment from Johns, Paul",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1243": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "Jonesboro",
+          "stateProvinceRegion": "LA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Johns, Paul",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.26830644461609887
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1245",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 28,
+      "representative_excerpt": "Comment from Fetterman, John",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1245": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "PA",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Fetterman, John",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.26830644461609887
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1250",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 30,
+      "representative_excerpt": "Comment from Texas Farm Bureau",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1250": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Texas Farm Bureau",
+          "withdrawn": false,
+          "submissionRole": "government_state",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.26830644461609887
+    },
+    {
+      "cluster_id": 27,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-FTPP-22-0046-1216",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 60,
+      "representative_excerpt": "Don\u2019t delay the rule Stop the tournament system immediately.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-FTPP-22-0046-1216": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Contract Poultry Growers of the Virginia\u2019s",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2641397779494322
+    },
+    {
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-1166",
@@ -3220,10 +4234,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27213668628918963
+      "presentation_score": 0.25997311128276557
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0980",
@@ -3256,10 +4270,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25395486810737145
+      "presentation_score": 0.2433064446160989
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0984",
@@ -3292,10 +4306,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25395486810737145
+      "presentation_score": 0.2433064446160989
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0965",
@@ -3328,10 +4342,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.18577304992555324
+      "presentation_score": 0.1808064446160989
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0957",
@@ -3364,10 +4378,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.17668214083464415
+      "presentation_score": 0.17247311128276555
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0958",
@@ -3400,10 +4414,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.17668214083464415
+      "presentation_score": 0.17247311128276555
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0959",
@@ -3436,10 +4450,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.17668214083464415
+      "presentation_score": 0.17247311128276555
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-FTPP-22-0046-0939",
@@ -3472,20 +4486,53 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.1721366862891896
+      "presentation_score": 0.1683064446160989
     }
   ],
   "comments_clusters_path": "data/comments/AMS-FTPP-22-0046.csv",
-  "government_submissions_count": 0,
-  "government_submissions": [],
+  "government_submissions_count": 2,
+  "government_submissions": [
+    {
+      "comment_id": "AMS-FTPP-22-0046-1250",
+      "organization": "",
+      "posted_date": "2026-04-16T04:00:00Z",
+      "title": "Comment from Texas Farm Bureau",
+      "attachment_count": 0,
+      "submission_role": "government_state",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Comment from Texas Farm Bureau",
+      "source_cluster_ids": [
+        1
+      ]
+    },
+    {
+      "comment_id": "AMS-FTPP-22-0046-1216",
+      "organization": "",
+      "posted_date": "2026-04-15T04:00:00Z",
+      "title": "Comment from Contract Poultry Growers of the Virginia\u2019s",
+      "attachment_count": 0,
+      "submission_role": "government_unknown",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Don\u2019t delay the rule Stop the tournament system immediately.",
+      "source_cluster_ids": [
+        27
+      ]
+    }
+  ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.39215686274509803,
-  "comments_first_page_coverage_count": 40,
-  "comments_clusters_total_available": 87,
-  "comments_clusters_displayed": 87,
+  "comments_first_page_coverage_share": 0.3181818181818182,
+  "comments_first_page_coverage_count": 42,
+  "comments_clusters_total_available": 115,
+  "comments_clusters_displayed": 115,
   "comments_first_page_high_signal_clusters": 2,
-  "comments_first_page_novelty_clusters": 1,
+  "comments_first_page_novelty_clusters": 3,
   "comments_first_page_stance_counts": {
     "neutral": 20,
     "negative": 4,

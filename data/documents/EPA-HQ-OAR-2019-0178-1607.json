@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-04-15T08:18:27.081265+00:00",
+  "comment_action_checked_at": "2026-04-18T02:43:59.650714+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-02T03:59:59Z",
   "pass_1_score": 16,
   "pass_2_score": 2,
-  "pass_3_score": 3.7666666666666666,
+  "pass_3_score": 3.875,
   "pass_1_scaled": 0.8868130475350612,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.4662233456414018,
+  "pass_3_scaled": 0.47577449455459564,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6274630872408231,
+  "combined_score": 0.6323819289311179,
   "score_total": 18,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "POLICY_REINTERPRETATION",
@@ -11924,36 +11924,41 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 25,
-  "comments_velocity_total": 23,
-  "comments_public_total_estimate": 23,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 25,
-  "comments_unique_clusters": 24,
+  "comments_total": 32,
+  "comments_velocity_total": 28,
+  "comments_public_total_estimate": 28,
+  "comments_fetched": 4,
+  "comments_text_hydrated": 4,
+  "comments_cached_records": 32,
+  "comments_unique_clusters": 31,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 25,
+  "comments_citizen_count": 32,
   "comments_commenter_type_counts": {
-    "citizen": 25
+    "citizen": 32
   },
   "comments_submission_role_counts": {
-    "individual": 23,
-    "government_state": 1,
-    "government_unknown": 1
+    "government_unknown": 2,
+    "organization": 3,
+    "government_affiliated_or_unclear": 1,
+    "individual": 25,
+    "government_state": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 23,
-    "agency_material": 1,
-    "other_channel_recorded": 1
+    "agency_material": 2,
+    "public_portal": 28,
+    "other_channel_recorded": 2
   },
-  "comments_public_count": 23,
-  "comments_recorded_count": 1,
-  "comments_agency_material_count": 1,
+  "comments_public_count": 28,
+  "comments_recorded_count": 2,
+  "comments_agency_material_count": 2,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-04-17": 4,
+    "2026-04-16": 2,
+    "2026-04-15": 1,
     "2026-04-08": 1,
     "2026-04-06": 8,
     "2026-03-30": 1,
@@ -11963,45 +11968,46 @@
     "2026-03-19": 1
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-04-17": 1,
     "2026-04-06": 1,
     "2026-03-30": 1,
     "2026-03-19": 1
   },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.3181818181818182,
-  "comments_sentiment_neutral_pct": 0.6818181818181819,
-  "comments_sentiment_net": -0.3181818181818182,
-  "comments_sentiment_sample_size": 22,
+  "comments_sentiment_negative_pct": 0.25925925925925924,
+  "comments_sentiment_neutral_pct": 0.7407407407407407,
+  "comments_sentiment_net": -0.25925925925925924,
+  "comments_sentiment_sample_size": 27,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 24,
+  "comments_analysis_sample_size": 31,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 24,
-  "comments_representative_prior_selected": 24,
+  "comments_representative_selected": 31,
+  "comments_representative_prior_selected": 31,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 7,
+  "comments_representative_must_keep": 13,
   "comments_representative_run_budget": 1,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 7,
+    "must_keep": 13,
     "salience_rank": 1,
-    "weighted_fill": 16
+    "weighted_fill": 17
   },
-  "comments_representative_selected_by_counts_total": 24,
+  "comments_representative_selected_by_counts_total": 31,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-04-15T07:25:14.260226+00:00",
-  "comments_checked_at": "2026-04-15T07:25:14.366794+00:00",
+  "comments_api_last_seen_at": "2026-04-18T02:34:08.475664+00:00",
+  "comments_checked_at": "2026-04-18T02:34:11.685728+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 3,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1642",
@@ -12034,10 +12040,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9400000000000001
+      "presentation_score": 0.9120689655172415
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1619",
@@ -12073,7 +12079,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1634",
@@ -12106,10 +12112,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.805
+      "presentation_score": 0.7879310344827586
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1648",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 3212,
+      "representative_excerpt": "On behalf of BioPhorum and the biopharmaceutical manufacturers, suppliers, and sterilization partners who depend on safe, reliable, and scientifically grounded access to ethylene oxide (EtO) sterilization, we respectfully submit these comments in response to the EPA\u2019s request for input on the proposed revisions to EtO regulations. We confirm that BioPhorum h...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2019-0178-1648": {
+          "organization": "",
+          "postedDate": "2026-04-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by BioPhorum",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.85
+    },
+    {
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1632",
@@ -12142,10 +12184,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.675
+      "presentation_score": 0.6672413793103449
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1620",
@@ -12178,10 +12220,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.555
+      "presentation_score": 0.553448275862069
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1621",
@@ -12214,10 +12256,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.555
+      "presentation_score": 0.553448275862069
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1627",
@@ -12250,16 +12292,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5700000000000001
+      "presentation_score": 0.5637931034482759
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1630",
-      "representative_posted_date": "2026-03-23T04:00:00Z",
-      "representative_length": 622,
-      "representative_excerpt": "I grew up in east Texas and was exposed to ethylene oxide most of my childhood. I was 30 years old when I found my breast cancer and now 11 years later I\u2019m dying. I\u2019m leaving my 2 kids, spouse, family & friends behind soon. I lived a healthy lifestyle and are well. I was an accountant who loved travel and contributed to our society. Me and so many people lik...",
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1650",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 903,
+      "representative_excerpt": "Please see the attached comment letter submitted by Andersen Scientific, Inc. EPA\u2013HQ\u2013OAR\u20132019\u20130178). Andersen Scientific is a small, low-use contract sterilization provider utilizing approximately 220 pounds of ethylene oxide annually. Our facility already employs abatement and achieves very low, well-controlled emissions. Our comments focus on the practical...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -12268,15 +12310,87 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "EPA-HQ-OAR-2019-0178-1630": {
+        "EPA-HQ-OAR-2019-0178-1650": {
           "organization": "",
-          "postedDate": "2026-03-23T04:00:00Z",
+          "postedDate": "2026-04-17T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment submitted by Amanda Salazar",
+          "title": "Comment submitted by Andersen Scientific, Inc.",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.65
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1646",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 206,
+      "representative_excerpt": "See attached file(s) containing public comment for the Technology Review Reconsideration related to questions #3, #4 (IRIS Risk Modeling) and #20 (compliance timeline) from CEO of Andersen Sterilizers, Inc.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2019-0178-1646": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Andersen Sterilizers, Inc.",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.646551724137931
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1647",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 150,
+      "representative_excerpt": "EPA-HQ-OAR-2019-0178-1607. The attached document is incorporated herein by reference and should be considered part of this submission in its entirety.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2019-0178-1647": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -12286,10 +12400,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5700000000000001
+      "presentation_score": 0.646551724137931
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1641",
@@ -12322,10 +12436,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.64
+      "presentation_score": 0.6120689655172414
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1630",
+      "representative_posted_date": "2026-03-23T04:00:00Z",
+      "representative_length": 622,
+      "representative_excerpt": "I grew up in east Texas and was exposed to ethylene oxide most of my childhood. I was 30 years old when I found my breast cancer and now 11 years later I\u2019m dying. I\u2019m leaving my 2 kids, spouse, family & friends behind soon. I lived a healthy lifestyle and are well. I was an accountant who loved travel and contributed to our society. Me and so many people lik...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2019-0178-1630": {
+          "organization": "",
+          "postedDate": "2026-03-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Amanda Salazar",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5637931034482759
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1649",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 265,
+      "representative_excerpt": "The Ethylene Oxide Sterilization Association, Inc. Environmental Protection Agency\u2019s (EPA) National Emission Standards for Hazardous Air Pollutants: Ethylene Oxide Emissions Standards for Sterilization Facilities Residual Risk and Technology Review Reconsideration.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2019-0178-1649": {
+          "organization": "",
+          "postedDate": "2026-04-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by The Ethylene Oxide Sterilization Association, Inc.",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1636",
@@ -12358,10 +12544,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.54
+      "presentation_score": 0.5120689655172413
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1639",
@@ -12394,10 +12580,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.54
+      "presentation_score": 0.5120689655172413
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1640",
@@ -12430,10 +12616,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.54
+      "presentation_score": 0.5120689655172413
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1625",
@@ -12466,10 +12652,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47000000000000003
+      "presentation_score": 0.4637931034482759
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1626",
@@ -12502,10 +12688,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47000000000000003
+      "presentation_score": 0.4637931034482759
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1628",
@@ -12538,10 +12724,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47000000000000003
+      "presentation_score": 0.4637931034482759
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1629",
@@ -12574,10 +12760,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47000000000000003
+      "presentation_score": 0.4637931034482759
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1631",
@@ -12610,10 +12796,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47000000000000003
+      "presentation_score": 0.4637931034482759
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1623",
@@ -12646,10 +12832,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.455
+      "presentation_score": 0.453448275862069
     },
     {
       "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1651",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 62,
+      "representative_excerpt": "Comment submitted by DuPage County Health Department, Illinois",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2019-0178-1651": {
+          "organization": "",
+          "postedDate": "2026-04-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by DuPage County Health Department, Illinois",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2019-0178-1645",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 79,
+      "representative_excerpt": "Comment submitted by Confederated Tribes of the Grand Ronde Community of Oregon",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2019-0178-1645": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Confederated Tribes of the Grand Ronde Community of Oregon",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44310344827586207
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1644",
@@ -12682,10 +12940,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44999999999999996
+      "presentation_score": 0.4189655172413793
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1637",
@@ -12718,10 +12976,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44
+      "presentation_score": 0.41206896551724137
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1638",
@@ -12754,10 +13012,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44
+      "presentation_score": 0.41206896551724137
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1643",
@@ -12790,10 +13048,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44
+      "presentation_score": 0.41206896551724137
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1633",
@@ -12826,10 +13084,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.375
+      "presentation_score": 0.3672413793103448
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2019-0178-1624",
@@ -12862,12 +13120,28 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37
+      "presentation_score": 0.36379310344827587
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OAR-2019-0178.csv",
-  "government_submissions_count": 1,
+  "government_submissions_count": 2,
   "government_submissions": [
+    {
+      "comment_id": "EPA-HQ-OAR-2019-0178-1651",
+      "organization": "",
+      "posted_date": "2026-04-17T04:00:00Z",
+      "title": "Comment submitted by DuPage County Health Department, Illinois",
+      "attachment_count": 0,
+      "submission_role": "government_unknown",
+      "submission_role_confidence": "medium",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Comment submitted by DuPage County Health Department, Illinois",
+      "source_cluster_ids": [
+        1
+      ]
+    },
     {
       "comment_id": "EPA-HQ-OAR-2019-0178-1636",
       "organization": "",
@@ -12881,23 +13155,23 @@
       "withdrawn": false,
       "representative_excerpt": "Please find enclosed from the Attorneys General of Illinois, Massachusetts, Minnesota, New Jersey, and Vermont a request that EPA extend the comment period in this rulemaking.",
       "source_cluster_ids": [
-        9
+        16
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 24,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 24,
-  "comments_clusters_total_available": 24,
-  "comments_clusters_displayed": 24,
-  "comments_first_page_high_signal_clusters": 3,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.8064516129032258,
+  "comments_first_page_coverage_count": 25,
+  "comments_clusters_total_available": 31,
+  "comments_clusters_displayed": 31,
+  "comments_first_page_high_signal_clusters": 4,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 7,
+    "negative": 8,
     "neutral": 17
   },
-  "comments_first_page_unique_days": 7,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "EPA-HQ-OAR-2019-0178"

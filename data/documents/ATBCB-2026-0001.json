@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-04-15T08:18:27.472188+00:00",
+  "comment_action_checked_at": "2026-04-18T02:44:00.934850+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-04-21T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 5.157894736842105,
+  "pass_3_score": 2.610169491525424,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.5766894137068255,
+  "pass_3_scaled": 0.3527536169763441,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5827235132129585,
+  "combined_score": 0.4707556148477178,
   "score_total": 9,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -62,88 +62,91 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 129,
-  "comments_velocity_total": 123,
-  "comments_public_total_estimate": 123,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 86,
-  "comments_unique_clusters": 85,
-  "comments_clustered_duplicates": 1,
+  "comments_total": 164,
+  "comments_velocity_total": 154,
+  "comments_public_total_estimate": 154,
+  "comments_fetched": 30,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 116,
+  "comments_unique_clusters": 114,
+  "comments_clustered_duplicates": 2,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 10,
-  "comments_citizen_count": 72,
+  "comments_citizen_count": 94,
   "comments_commenter_type_counts": {
-    "citizen": 72,
-    "other": 5,
-    "government": 3,
-    "organization_other": 6
+    "citizen": 94,
+    "government": 6,
+    "other": 7,
+    "organization_other": 9
   },
   "comments_submission_role_counts": {
-    "individual": 78,
+    "individual": 103,
+    "organization": 10,
+    "government_tribal": 1,
     "government_affiliated_or_unclear": 1,
-    "organization": 6,
     "government_state": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 82,
-    "other_channel_recorded": 2,
-    "agency_material": 2
+    "public_portal": 109,
+    "agency_material": 5,
+    "other_channel_recorded": 2
   },
-  "comments_public_count": 82,
+  "comments_public_count": 109,
   "comments_recorded_count": 2,
-  "comments_agency_material_count": 2,
+  "comments_agency_material_count": 5,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-04-16": 14,
+    "2026-04-15": 16,
     "2026-04-10": 9,
     "2026-04-06": 2,
     "2026-04-03": 4,
     "2026-04-02": 5,
     "2026-03-30": 4,
     "2026-03-25": 3,
-    "2026-03-24": 26,
+    "2026-03-24": 25,
     "2026-03-20": 10,
     "2026-03-17": 10,
     "2026-03-16": 2,
     "2026-03-12": 10
   },
   "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.9883720930232558,
-  "comments_sentiment_positive_pct": 0.08580012523678152,
-  "comments_sentiment_negative_pct": 0.036771482244334935,
-  "comments_sentiment_neutral_pct": 0.8774283925188836,
-  "comments_sentiment_net": 0.04902864299244658,
-  "comments_sentiment_sample_size": 82,
+  "comments_novel_comment_rate": 0.9827586206896551,
+  "comments_sentiment_positive_pct": 0.06471299670316549,
+  "comments_sentiment_negative_pct": 0.046223569073689644,
+  "comments_sentiment_neutral_pct": 0.8890634342231449,
+  "comments_sentiment_net": 0.01848942762947585,
+  "comments_sentiment_sample_size": 109,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 86,
+  "comments_analysis_sample_size": 116,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 86,
-  "comments_representative_prior_selected": 86,
+  "comments_representative_selected": 116,
+  "comments_representative_prior_selected": 116,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 13,
-  "comments_representative_run_budget": 8,
+  "comments_representative_must_keep": 25,
+  "comments_representative_run_budget": 12,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 13,
+    "must_keep": 25,
     "salience_rank": 1,
-    "weighted_fill": 72
+    "weighted_fill": 90
   },
-  "comments_representative_selected_by_counts_total": 86,
+  "comments_representative_selected_by_counts_total": 116,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-04-15T05:02:19.774275+00:00",
-  "comments_checked_at": "2026-04-15T05:02:20.105039+00:00",
+  "comments_api_last_seen_at": "2026-04-17T05:29:13.503709+00:00",
+  "comments_checked_at": "2026-04-17T05:29:13.957410+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 6,
+      "cluster_id": 36,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0125",
@@ -191,10 +194,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5275598066567094
+      "presentation_score": 0.5104169495138522
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 20,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0143",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 590,
+      "representative_excerpt": "This is long overdue. More and more people will live well into adulthood with conditions that make safe and dignified toileting difficult. Too often in our work, helping entities comply with the ADA, we hear from families who have had to change a family member on a dirty restroom floor, or worse. Starting this at large to medium airports is fine, but this re...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0143": {
+          "organization": "WT Group AEC, LLC",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from WT Group AEC, LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "ATBCB-2026-0001-0100": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "30214",
+          "city": "Fayetteville",
+          "stateProvinceRegion": "GA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Morante , Elena",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5747026637995666
+    },
+    {
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0041",
@@ -227,10 +281,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8052144596855855
+      "presentation_score": 0.802849927665881
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0045",
@@ -263,10 +317,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8086627355476544
+      "presentation_score": 0.8057070705230238
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0064",
@@ -299,10 +353,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8190075631338614
+      "presentation_score": 0.8142784990944525
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0069",
@@ -335,10 +389,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8190075631338614
+      "presentation_score": 0.8142784990944525
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0110",
@@ -371,10 +425,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.853490321754551
+      "presentation_score": 0.842849927665881
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0127",
@@ -407,10 +461,874 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9414213562373096
+      "presentation_score": 0.9242784990944525
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0158",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 2374,
+      "representative_excerpt": "My comments are related to public restroom usage by people with ostomies. This can include people who require an accessible changing station, and will also accommodate those people handicapped by the lack of needed facilities for the care and usage of an ostomy. In the United States, an estimated 725,000\u20131,000,000 people live with an ostomy, with tens of tho...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0158": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "61103",
+          "city": "Rockford",
+          "stateProvinceRegion": "IL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Peterson, Robert",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0161",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 3870,
+      "representative_excerpt": "We are writing today to provide public comment on the accessible design standards for universal changing tables. MCD played an important role in supporting the establishment of the technical standards of universal changing tables in Minnesota legislation. In 2025, Minnesota passed legislation requiring adult changing tables in state travel rest areas, state ...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0161": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Minnesota Council on Disability",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0164",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 1457,
+      "representative_excerpt": "I had a son who never got the chance to live a life without being close enough to home to go back and be toileted. That is a four-hour window. My surviving son is now 27 and deals with the same issue every day. Not being able to travel because there is not a viable place to be toileted with dignity should not be a problem in 2026. Although this Board is only...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0164": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Rosillo, Alisa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 30,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0131",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 675,
+      "representative_excerpt": "Hi my daughter name is Celina and she had a sudden cardiac arrest at 9 months old she is 4 now but she does not sit unsupported or walk as of yet and when we are out in public and traveling, she is very tall and the traditional changing stations are for infants and smaller kids. My idea and what I would appreciate as a medically complex MOM is a table that i...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0131": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "39059",
+          "city": "Crystal Springs",
+          "stateProvinceRegion": "MS",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Robinson , Tamar",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6885642133801666
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0132",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 1002,
+      "representative_excerpt": "Imagine being a person who is incontinent and requires the use of diapers or briefs as a teen or adult. Imagine you are someone who uses a wheelchair and is not able to sit upright on a toilet. Imagine you are a person who would like to enjoy a day outside with family and friends going to the mall or the beach, the park or a baseball game and you need to use...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0132": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "07070",
+          "city": "Rutherford",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Yurchak , Nicole",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6885642133801666
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0138",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 1007,
+      "representative_excerpt": "Changing stations have destroyed 99% of all formerly handicap restrooms, and there are no garbage cans placed directly adjacent to the changing table to ensure that napkins, diapers and other hard, large towels are placed only into those garbage containers and not into the toilets. The Access Board has entirely failed to put ISA stickers on handicap restroom...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0138": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "91604",
+          "city": "Studio City",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Lea, Susan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6885642133801666
+    },
+    {
+      "cluster_id": 31,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0130",
+      "representative_posted_date": "2026-04-10T04:00:00Z",
+      "representative_length": 2734,
+      "representative_excerpt": "I am a parent of a son with a disability and the lack of inclusive and accessible restrooms is one of our biggest barriers. Not only in airports, but everywhere in the general public. I have been advocating for height adjustable adult sized changing tables (universal changing tables) since 2017. I am part of a nationwide campaign called Changing Spaces and I...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0130": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "15237",
+          "city": "Pittsburgh",
+          "stateProvinceRegion": "PA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Abernethy, Christina",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6742784990944524
+    },
+    {
+      "cluster_id": 102,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0043",
+      "representative_posted_date": "2026-03-17T04:00:00Z",
+      "representative_length": 314,
+      "representative_excerpt": "Hello, Please find attached a public comment submitted by Iris Mehler, MS, CRC, Co-Executive Director and Co-Founder of 1in6 Support, regarding Docket No. ATBCB-2026-0001: Universal Changing Tables - Technical Accessibility Standards.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0043": {
+          "organization": "1in6 Support",
+          "postedDate": "2026-03-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from 1in6 Support",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6557070705230239
+    },
+    {
+      "cluster_id": 98,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0048",
+      "representative_posted_date": "2026-03-17T04:00:00Z",
+      "representative_length": 1018,
+      "representative_excerpt": "Good Morning I wanted to reach out to submit public comment regarding the Adult Changing tables. I am a mother to 4 boys. Three are triplets with disabilities. Two of them are in wheelchairs and would benefit so much from having changing tables at the airports long with other public locations. We have had to resort in changing our 19-year-old sons on floors ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0048": {
+          "organization": "Southwest Louisiana Independence Center",
+          "postedDate": "2026-03-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Southwest Louisiana Independence Center",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6557070705230239
+    },
+    {
+      "cluster_id": 45,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0116",
+      "representative_posted_date": "2026-04-03T04:00:00Z",
+      "representative_length": 1567,
+      "representative_excerpt": "Hello, I am Alaina Chachere Yount. I am the mother of two children, one of which requires an adult size changing table in order to access his very basic human right to use the restroom in public. Last time we were in the airport, I had to lay him on a towel on the floor of the restroom that people do not want the hem of their pants touching, much less their ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0116": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "70555",
+          "city": "Maurice, La 70555",
+          "stateProvinceRegion": "LA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Chachere, Alaina",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6542784990944523
+    },
+    {
+      "cluster_id": 44,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0117",
+      "representative_posted_date": "2026-04-03T04:00:00Z",
+      "representative_length": 2230,
+      "representative_excerpt": "I am submitting comment on the development of standards for universal changing tables under the FAA Reauthorization Act of 2024. I am a solo parent and caregiver for a child with significant medical and mobility needs. Access to appropriate changing facilities in airports is not a matter of convenience\u2014it is a matter of safety, health, and dignity. My child ...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0117": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "97062",
+          "city": "Tualatin",
+          "stateProvinceRegion": "OR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Palmer, Hayley",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6542784990944523
+    },
+    {
+      "cluster_id": 43,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0118",
+      "representative_posted_date": "2026-04-03T04:00:00Z",
+      "representative_length": 236,
+      "representative_excerpt": "The Disability and Communication Access Board (DCAB), Department of Health, State of Hawaii, submits comments in support of Docket ATBCB-2026-0001 Advance Notice of Proposed Rulemaking (ANPR). Please see the attachment for the comments.",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0118": {
+          "organization": "",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Disability and Communication Access Board (DCAB), Department of Health, State of Hawaii,",
+          "withdrawn": false,
+          "submissionRole": "government_state",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6542784990944523
+    },
+    {
+      "cluster_id": 46,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0115",
+      "representative_posted_date": "2026-04-02T04:00:00Z",
+      "representative_length": 812,
+      "representative_excerpt": "As an adult who is incontinent on both ends and has to wear diapers 24/7, there needs to be stores, airports, colleges, and other major places, like restaurants need to redo their ADA rules and take out the baby version of changing stations and implement adult sizes as well, or have them sizeable for both, so adults/youth who are over the size in length of t...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0115": {
+          "organization": "",
+          "postedDate": "2026-04-02T04:00:00Z",
+          "zip": "40475-1675",
+          "city": "Richmond",
+          "stateProvinceRegion": "KY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from E, Max",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373095
+    },
+    {
+      "cluster_id": 54,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0107",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 1657,
+      "representative_excerpt": "I am the parent of a 15-year-old son with disabilities who requires full assistance with toileting and diaper changes. As he grows, the lack of accessible universal changing stations in public places has become an increasing and serious barrier to his participation in everyday life. Currently, in most public facilities, there are no appropriate changing tabl...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0107": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "68850",
+          "city": "Lexington",
+          "stateProvinceRegion": "NE",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Worthing, Sadie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6428499276658809
+    },
+    {
+      "cluster_id": 55,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0106",
+      "representative_posted_date": "2026-03-25T04:00:00Z",
+      "representative_length": 1301,
+      "representative_excerpt": "Hello, I am a disabled parent of a disabled child who is incontinant, and requires adult changing stations. Please also ensure that these tables can have an inclination on the back area. My child cannot safely lay flat due to aspiration risks. There also needs to be a way for the table to go up and down remotely for height specifications. Please ensure there...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0106": {
+          "organization": "",
+          "postedDate": "2026-03-25T04:00:00Z",
+          "zip": "97381",
+          "city": "Silverton",
+          "stateProvinceRegion": "OR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Fern, Ezme",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6285642133801667
+    },
+    {
+      "cluster_id": 73,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0086",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 475,
+      "representative_excerpt": "This is an amazing step forward, HOWEVER, without a lift available, it still excludes a huge part of the population that could benefit from these tables. My son from age 10 on has needed a 2 person or mechanical lift. Having the user provide their own appropriate sling is easily manageable. A ceiling lift with lift motor is the fastest and easiest way to ass...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0086": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "99206",
+          "city": "Spokane",
+          "stateProvinceRegion": "WA",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Brazington, Staisha",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6257070705230238
+    },
+    {
+      "cluster_id": 69,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0090",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 965,
+      "representative_excerpt": "ATBCB-2026-0001 Accessibility Standards for Universal Changing Stations I strongly support the development of federal standards for universal (adult-sized) changing stations. The lack of appropriate changing facilities forces many individuals with disabilities and their caregivers into unsafe, unsanitary, and undignified situations. This is a clear accessibi...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0090": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Rushing, Gabrielle",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6257070705230238
+    },
+    {
+      "cluster_id": 63,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0096",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 696,
+      "representative_excerpt": "So relieved to see this is making its way to legislators. We have a 7 year old son whom, over the last few years, has become increasingly more difficult to change in public spaces because lack of accommodations. We are able to do less and less in the community because of this. It is incredibly isolating and defeating. All should have equal access to public s...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0096": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "70555",
+          "city": "Maurice",
+          "stateProvinceRegion": "LA",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Chachere , Alaina",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6257070705230238
+    },
+    {
+      "cluster_id": 61,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0099",
+      "representative_posted_date": "2026-03-24T04:00:00Z",
+      "representative_length": 197,
+      "representative_excerpt": "This would help so many families and caregivers! My younger sister is 14 years old and 53 pounds and has outgrown baby changing tables. Accessibility is so important and this is a fundamental need!",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0099": {
+          "organization": "",
+          "postedDate": "2026-03-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "IA",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Jacobsma, Joshi",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6257070705230238
+    },
+    {
+      "cluster_id": 91,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0065",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 617,
+      "representative_excerpt": "automatic height adjustability would be key. Also, plenty of turning space is needed because many people who require the use of a changing table have very large sophisticated wheelchairs. Minimally, 6 square feet would be appreciated. A 36\u201d inch wide door is also needed to accommodate larger chairs. Careful thought must be given as to how to dispose of diape...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0065": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6142784990944523
+    },
+    {
+      "cluster_id": 83,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0075",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 372,
+      "representative_excerpt": "This would make such a difference in our lives if this was a requirement in public places. My son is 15 years old, 220 lbs. He has a rare genetic disorder and is incontinent. I cannot even think about lifting him up to change him in public and floors and toilet are not a sanitary or fair option. A universal changing table that he could put himself on would h...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0075": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Perry, Lauren",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6142784990944523
+    },
+    {
+      "cluster_id": 100,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0046",
+      "representative_posted_date": "2026-03-17T04:00:00Z",
+      "representative_length": 711,
+      "representative_excerpt": "I am emailing regarding ATBCB-2026-0001 and my support of increasing requirements for accessible changing tables and bathrooms in airports and all other public spaces as applicable. I have a child with disabilities and we have profound difficulties traveling due to the lack of accessibility with restrooms. It\u2019s not appropriate, nor safe, to have people chang...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0046": {
+          "organization": "",
+          "postedDate": "2026-03-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hougland, Alana",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6057070705230239
+    },
+    {
+      "cluster_id": 94,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0055",
+      "representative_posted_date": "2026-03-17T04:00:00Z",
+      "representative_length": 500,
+      "representative_excerpt": "Universal changing tables are a necessity for adults and children with disabilities. My adult daughter is disabled with multiple chronic illnesses. Lack of changing tables keeps us at home. Is difficult to even take a day trip. Adjustable height tables are the best but are can have mechanical problems .Can do stationary tables but perhaps no higher than 4 ft...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0055": {
+          "organization": "",
+          "postedDate": "2026-03-17T04:00:00Z",
+          "zip": "",
+          "city": "Huntsville",
+          "stateProvinceRegion": "AL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Patrick, Lisa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6057070705230239
+    },
+    {
+      "cluster_id": 103,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0042",
+      "representative_posted_date": "2026-03-16T04:00:00Z",
+      "representative_length": 3680,
+      "representative_excerpt": "The Access Board\u2019s effort to develop accessibility standards for universal changing stations is an important step toward improving access and dignity for individuals with disabilities who require caregiver assistance. The proposed rulemaking appropriately recognizes that many individuals with disabilities cannot safely use standard restroom facilities when t...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0042": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00:00Z",
+          "zip": "70535",
+          "city": "EUNICE",
+          "stateProvinceRegion": "LA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Reppond, Owen",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.602849927665881
+    },
+    {
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0004",
@@ -446,655 +1364,7 @@
       "presentation_score": 0.5914213562373095
     },
     {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0130",
-      "representative_posted_date": "2026-04-10T04:00:00Z",
-      "representative_length": 2734,
-      "representative_excerpt": "I am a parent of a son with a disability and the lack of inclusive and accessible restrooms is one of our biggest barriers. Not only in airports, but everywhere in the general public. I have been advocating for height adjustable adult sized changing tables (universal changing tables) since 2017. I am part of a nationwide campaign called Changing Spaces and I...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0130": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "15237",
-          "city": "Pittsburgh",
-          "stateProvinceRegion": "PA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Abernethy, Christina",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
-    },
-    {
-      "cluster_id": 15,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0116",
-      "representative_posted_date": "2026-04-03T04:00:00Z",
-      "representative_length": 1567,
-      "representative_excerpt": "Hello, I am Alaina Chachere Yount. I am the mother of two children, one of which requires an adult size changing table in order to access his very basic human right to use the restroom in public. Last time we were in the airport, I had to lay him on a towel on the floor of the restroom that people do not want the hem of their pants touching, much less their ...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0116": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "70555",
-          "city": "Maurice, La 70555",
-          "stateProvinceRegion": "LA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Chachere, Alaina",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6672834252028268
-    },
-    {
-      "cluster_id": 14,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0117",
-      "representative_posted_date": "2026-04-03T04:00:00Z",
-      "representative_length": 2230,
-      "representative_excerpt": "I am submitting comment on the development of standards for universal changing tables under the FAA Reauthorization Act of 2024. I am a solo parent and caregiver for a child with significant medical and mobility needs. Access to appropriate changing facilities in airports is not a matter of convenience\u2014it is a matter of safety, health, and dignity. My child ...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0117": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "97062",
-          "city": "Tualatin",
-          "stateProvinceRegion": "OR",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Palmer, Hayley",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6672834252028268
-    },
-    {
-      "cluster_id": 13,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0118",
-      "representative_posted_date": "2026-04-03T04:00:00Z",
-      "representative_length": 236,
-      "representative_excerpt": "The Disability and Communication Access Board (DCAB), Department of Health, State of Hawaii, submits comments in support of Docket ATBCB-2026-0001 Advance Notice of Proposed Rulemaking (ANPR). Please see the attachment for the comments.",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "agency_material",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0118": {
-          "organization": "",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Disability and Communication Access Board (DCAB), Department of Health, State of Hawaii,",
-          "withdrawn": false,
-          "submissionRole": "government_state",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "agency_material",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6672834252028268
-    },
-    {
-      "cluster_id": 16,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0115",
-      "representative_posted_date": "2026-04-02T04:00:00Z",
-      "representative_length": 812,
-      "representative_excerpt": "As an adult who is incontinent on both ends and has to wear diapers 24/7, there needs to be stores, airports, colleges, and other major places, like restaurants need to redo their ADA rules and take out the baby version of changing stations and implement adult sizes as well, or have them sizeable for both, so adults/youth who are over the size in length of t...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0115": {
-          "organization": "",
-          "postedDate": "2026-04-02T04:00:00Z",
-          "zip": "40475-1675",
-          "city": "Richmond",
-          "stateProvinceRegion": "KY",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from E, Max",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6638351493407578
-    },
-    {
-      "cluster_id": 73,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0043",
-      "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 314,
-      "representative_excerpt": "Hello, Please find attached a public comment submitted by Iris Mehler, MS, CRC, Co-Executive Director and Co-Founder of 1in6 Support, regarding Docket No. ATBCB-2026-0001: Universal Changing Tables - Technical Accessibility Standards.",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0043": {
-          "organization": "1in6 Support",
-          "postedDate": "2026-03-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from 1in6 Support",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6586627355476544
-    },
-    {
-      "cluster_id": 69,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0048",
-      "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 1018,
-      "representative_excerpt": "Good Morning I wanted to reach out to submit public comment regarding the Adult Changing tables. I am a mother to 4 boys. Three are triplets with disabilities. Two of them are in wheelchairs and would benefit so much from having changing tables at the airports long with other public locations. We have had to resort in changing our 19-year-old sons on floors ...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0048": {
-          "organization": "Southwest Louisiana Independence Center",
-          "postedDate": "2026-03-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Southwest Louisiana Independence Center",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6586627355476544
-    },
-    {
-      "cluster_id": 24,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0107",
-      "representative_posted_date": "2026-03-30T04:00:00Z",
-      "representative_length": 1657,
-      "representative_excerpt": "I am the parent of a 15-year-old son with disabilities who requires full assistance with toileting and diaper changes. As he grows, the lack of accessible universal changing stations in public places has become an increasing and serious barrier to his participation in everyday life. Currently, in most public facilities, there are no appropriate changing tabl...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0107": {
-          "organization": "",
-          "postedDate": "2026-03-30T04:00:00Z",
-          "zip": "68850",
-          "city": "Lexington",
-          "stateProvinceRegion": "NE",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Worthing, Sadie",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6534903217545509
-    },
-    {
-      "cluster_id": 25,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0106",
-      "representative_posted_date": "2026-03-25T04:00:00Z",
-      "representative_length": 1301,
-      "representative_excerpt": "Hello, I am a disabled parent of a disabled child who is incontinant, and requires adult changing stations. Please also ensure that these tables can have an inclination on the back area. My child cannot safely lay flat due to aspiration risks. There also needs to be a way for the table to go up and down remotely for height specifications. Please ensure there...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0106": {
-          "organization": "",
-          "postedDate": "2026-03-25T04:00:00Z",
-          "zip": "97381",
-          "city": "Silverton",
-          "stateProvinceRegion": "OR",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Fern, Ezme",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.636248942444206
-    },
-    {
-      "cluster_id": 44,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0086",
-      "representative_posted_date": "2026-03-24T04:00:00Z",
-      "representative_length": 475,
-      "representative_excerpt": "This is an amazing step forward, HOWEVER, without a lift available, it still excludes a huge part of the population that could benefit from these tables. My son from age 10 on has needed a 2 person or mechanical lift. Having the user provide their own appropriate sling is easily manageable. A ceiling lift with lift motor is the fastest and easiest way to ass...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0086": {
-          "organization": "",
-          "postedDate": "2026-03-24T04:00:00Z",
-          "zip": "99206",
-          "city": "Spokane",
-          "stateProvinceRegion": "WA",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Brazington, Staisha",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6328006665821371
-    },
-    {
-      "cluster_id": 40,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0090",
-      "representative_posted_date": "2026-03-24T04:00:00Z",
-      "representative_length": 965,
-      "representative_excerpt": "ATBCB-2026-0001 Accessibility Standards for Universal Changing Stations I strongly support the development of federal standards for universal (adult-sized) changing stations. The lack of appropriate changing facilities forces many individuals with disabilities and their caregivers into unsafe, unsanitary, and undignified situations. This is a clear accessibi...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0090": {
-          "organization": "",
-          "postedDate": "2026-03-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Rushing, Gabrielle",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6328006665821371
-    },
-    {
-      "cluster_id": 34,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0096",
-      "representative_posted_date": "2026-03-24T04:00:00Z",
-      "representative_length": 696,
-      "representative_excerpt": "So relieved to see this is making its way to legislators. We have a 7 year old son whom, over the last few years, has become increasingly more difficult to change in public spaces because lack of accommodations. We are able to do less and less in the community because of this. It is incredibly isolating and defeating. All should have equal access to public s...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0096": {
-          "organization": "",
-          "postedDate": "2026-03-24T04:00:00Z",
-          "zip": "70555",
-          "city": "Maurice",
-          "stateProvinceRegion": "LA",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Chachere , Alaina",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6328006665821371
-    },
-    {
-      "cluster_id": 32,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0099",
-      "representative_posted_date": "2026-03-24T04:00:00Z",
-      "representative_length": 197,
-      "representative_excerpt": "This would help so many families and caregivers! My younger sister is 14 years old and 53 pounds and has outgrown baby changing tables. Accessibility is so important and this is a fundamental need!",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0099": {
-          "organization": "",
-          "postedDate": "2026-03-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "IA",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Jacobsma, Joshi",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6328006665821371
-    },
-    {
-      "cluster_id": 62,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0065",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 617,
-      "representative_excerpt": "automatic height adjustability would be key. Also, plenty of turning space is needed because many people who require the use of a changing table have very large sophisticated wheelchairs. Minimally, 6 square feet would be appreciated. A 36\u201d inch wide door is also needed to accommodate larger chairs. Careful thought must be given as to how to dispose of diape...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0065": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6190075631338612
-    },
-    {
-      "cluster_id": 54,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0075",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 372,
-      "representative_excerpt": "This would make such a difference in our lives if this was a requirement in public places. My son is 15 years old, 220 lbs. He has a rare genetic disorder and is incontinent. I cannot even think about lifting him up to change him in public and floors and toilet are not a sanitary or fair option. A universal changing table that he could put himself on would h...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0075": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "CO",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Perry, Lauren",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6190075631338612
-    },
-    {
-      "cluster_id": 71,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0046",
-      "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 711,
-      "representative_excerpt": "I am emailing regarding ATBCB-2026-0001 and my support of increasing requirements for accessible changing tables and bathrooms in airports and all other public spaces as applicable. I have a child with disabilities and we have profound difficulties traveling due to the lack of accessibility with restrooms. It\u2019s not appropriate, nor safe, to have people chang...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0046": {
-          "organization": "",
-          "postedDate": "2026-03-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Hougland, Alana",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6086627355476544
-    },
-    {
-      "cluster_id": 65,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0055",
-      "representative_posted_date": "2026-03-17T04:00:00Z",
-      "representative_length": 500,
-      "representative_excerpt": "Universal changing tables are a necessity for adults and children with disabilities. My adult daughter is disabled with multiple chronic illnesses. Lack of changing tables keeps us at home. Is difficult to even take a day trip. Adjustable height tables are the best but are can have mechanical problems .Can do stationary tables but perhaps no higher than 4 ft...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0055": {
-          "organization": "",
-          "postedDate": "2026-03-17T04:00:00Z",
-          "zip": "",
-          "city": "Huntsville",
-          "stateProvinceRegion": "AL",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Patrick, Lisa",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6086627355476544
-    },
-    {
-      "cluster_id": 74,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0042",
-      "representative_posted_date": "2026-03-16T04:00:00Z",
-      "representative_length": 3680,
-      "representative_excerpt": "The Access Board\u2019s effort to develop accessibility standards for universal changing stations is an important step toward improving access and dignity for individuals with disabilities who require caregiver assistance. The proposed rulemaking appropriately recognizes that many individuals with disabilities cannot safely use standard restroom facilities when t...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0042": {
-          "organization": "",
-          "postedDate": "2026-03-16T04:00:00Z",
-          "zip": "70535",
-          "city": "EUNICE",
-          "stateProvinceRegion": "LA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Reppond, Owen",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6052144596855854
-    },
-    {
-      "cluster_id": 78,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0032",
@@ -1130,7 +1400,7 @@
       "presentation_score": 0.5914213562373095
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0033",
@@ -1166,7 +1436,547 @@
       "presentation_score": 0.5914213562373095
     },
     {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0155",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 479,
+      "representative_excerpt": "I am the grandmother to a special needs adult who requires the use of diapers. You don't know the heartache when it is time to change her and there is not a changing table that is her size. We must either attempt this with her standing or lay her on a bathroom floor. Have you seen the shape some of those floors are ...please consider requiring all airports t...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0155": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "38460-5259",
+          "city": "Goodspring",
+          "stateProvinceRegion": "TN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hood, Linda",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0156",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 234,
+      "representative_excerpt": "The addition of Adult changing stations would change the size of bathroom/stall requirements beyond the 60 inch requirements and would make significant changes to bathroom sizes including egress and usage within the bathroom or stall.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0156": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "30004",
+          "city": "Byron",
+          "stateProvinceRegion": "GA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hendricks, James",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0157",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 97,
+      "representative_excerpt": "I agree to begin the process of the establishment of universal changing tables for those in need.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0157": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
       "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0159",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 147,
+      "representative_excerpt": "My son is 6 and he will never be toilet trained, a larger changing table is public areas would make my life so much easier, especially as he grows.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0159": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "63385",
+          "city": "Wentzville",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Henderson, Courtney",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0160",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 1109,
+      "representative_excerpt": "As a mom to a wonderful child with cerebral palsy, I know how exhausting and undignified air travel can feel when there\u2019s nowhere safe or respectful to change my son. He\u2019s grown too big for the tiny baby changing stations in most airports, yet he still needs hands-on help with personal care because of his mobility challenges. That\u2019s why I\u2019m so grateful for a...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0160": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "28584",
+          "city": "Swansboro",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Davenport , Samantha",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0162",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 380,
+      "representative_excerpt": "Adjustable height changing tables are necessary for many people to be able to take care of toileting needs. You and I wouldn't plan to go somewhere if there was no restroom available and it's sickening to think of putting a loved one on the floor of a public restroom to take care of their needs. Let's give everyone the dignity they deserve for such private a...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0162": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "30752",
+          "city": "Trenton",
+          "stateProvinceRegion": "GA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Chaney, Melinda",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0163",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 226,
+      "representative_excerpt": "This would make such a difference for so many people. A safe, clean toileting environment should be available to everyone - not just abled bodied people. This would allow so many families the opportunity to comfortably travel.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0163": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "35630",
+          "city": "Florence",
+          "stateProvinceRegion": "AL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Elkins, Aerial",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0165",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 200,
+      "representative_excerpt": "People who need this should not be required to stay home or avoid travel. Allow them the dignity of being able to be changed in a safe secure and clean environment. My niece is one who this will help.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0165": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "TN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hood, Kendall",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 27,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0134",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 1007,
+      "representative_excerpt": "The proposed rule should establish clear and uniform requirements for rooms that include a universal adult changing table in combination with other accessibility features. At a minimum, the regulation should define the baseline elements required for such spaces to ensure consistency, usability, and equitable access across airport facilities. Additionally, th...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0134": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Ontario International Airport Authority",
+          "withdrawn": false,
+          "submissionRole": "government_tribal",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48856421338016665
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0135",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 165,
+      "representative_excerpt": "I support this so much and ask that the adult changing stations be ones that lift electronically and also have tilt options to include those with respiratory issues.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0135": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48856421338016665
+    },
+    {
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0136",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 465,
+      "representative_excerpt": "It is vital that changing tables be usable by wheelchair users who are unaccompanied. That means easy height adjustments and railings that don't get in the way of transfers. The main \"challenge\", as with *ALL* \"family/companion\" restrooms, is that able-bodied people (who *DON'T* need them) use them so frequently that people with disabilities find them inacce...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0136": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "39206",
+          "city": "Jackson",
+          "stateProvinceRegion": "MS",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Crawford, Scott",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48856421338016665
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0137",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 1151,
+      "representative_excerpt": "I visit many parks and businesses across the country, and its unfortunate to know the need for adult sized changing tables, yet see such a lack of their presence. Demographics nationally show that incident of disability is increasing, and will continue to increase. It is important to establish parameters around providing adult sized changing tables for both ...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0137": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "60171",
+          "city": "River Grove",
+          "stateProvinceRegion": "IL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Storey, Tatum",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48856421338016665
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0139",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 125,
+      "representative_excerpt": "Not only do you need these in place but also some way to sanitize them. Please make it a cleaner and a healthier place to be.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0139": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48856421338016665
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0142",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 864,
+      "representative_excerpt": "The Colorado Developmental Disabilities Council is in full support of the U.S. Access Board's suggested technical standards for universal changing tables. Universal changing tables are a critical component of creating a built environment that works for every person in the United States, including people with caregiving needs who will benefit from the presenc...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0142": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Colorado Developmental Disabilities Council",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48856421338016665
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0144",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 112,
+      "representative_excerpt": "This should not even need to be questioned\u2026 these are a necessity for those (and their families) who need these.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0144": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48856421338016665
+    },
+    {
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0124",
@@ -1199,10 +2009,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.47427849909445235
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0126",
@@ -1235,10 +2045,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.47427849909445235
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0129",
@@ -1271,10 +2081,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.47427849909445235
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0120",
@@ -1307,10 +2117,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47762825278903365
+      "presentation_score": 0.46284992766588096
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0121",
@@ -1343,10 +2153,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47762825278903365
+      "presentation_score": 0.46284992766588096
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0112",
@@ -1379,10 +2189,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46383514934075776
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0113",
@@ -1415,10 +2225,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46383514934075776
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0114",
@@ -1451,10 +2261,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46383514934075776
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0109",
@@ -1487,10 +2297,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4534903217545509
+      "presentation_score": 0.44284992766588094
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0104",
@@ -1523,10 +2333,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4362489424442061
+      "presentation_score": 0.42856421338016665
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0105",
@@ -1559,10 +2369,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4362489424442061
+      "presentation_score": 0.42856421338016665
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0077",
@@ -1595,10 +2405,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0078",
@@ -1631,10 +2441,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0079",
@@ -1667,10 +2477,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0080",
@@ -1703,10 +2513,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0081",
@@ -1739,10 +2549,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0082",
@@ -1775,10 +2585,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0083",
@@ -1811,10 +2621,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0084",
@@ -1847,10 +2657,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0085",
@@ -1883,10 +2693,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0087",
@@ -1919,10 +2729,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0088",
@@ -1955,10 +2765,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0089",
@@ -1991,10 +2801,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0092",
@@ -2027,10 +2837,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0093",
@@ -2063,10 +2873,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0094",
@@ -2099,10 +2909,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0095",
@@ -2135,10 +2945,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0097",
@@ -2171,46 +2981,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 31,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATBCB-2026-0001-0100",
-      "representative_posted_date": "2026-03-24T04:00:00Z",
-      "representative_length": 603,
-      "representative_excerpt": "As a mother of a young boy with a rare disease it is imperative that we advocate for the most vulnerable and for the ones that can not express their needs. Even though we don\u2019t not require one of those for our personal use, I understand the struggle and feel the pain of other parents that are in this situation. We should uplift and support each other. I can ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATBCB-2026-0001-0100": {
-          "organization": "",
-          "postedDate": "2026-03-24T04:00:00Z",
-          "zip": "30214",
-          "city": "Fayetteville",
-          "stateProvinceRegion": "GA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Morante , Elena",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
-    },
-    {
-      "cluster_id": 30,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0101",
@@ -2243,10 +3017,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0102",
@@ -2279,10 +3053,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0103",
@@ -2315,10 +3089,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4328006665821371
+      "presentation_score": 0.4257070705230238
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0066",
@@ -2351,10 +3125,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4190075631338612
+      "presentation_score": 0.41427849909445236
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0070",
@@ -2387,10 +3161,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4190075631338612
+      "presentation_score": 0.41427849909445236
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0072",
@@ -2423,10 +3197,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4190075631338612
+      "presentation_score": 0.41427849909445236
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0047",
@@ -2459,10 +3233,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4086627355476543
+      "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0051",
@@ -2495,10 +3269,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4086627355476543
+      "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0052",
@@ -2531,10 +3305,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4086627355476543
+      "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0053",
@@ -2567,10 +3341,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4086627355476543
+      "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0056",
@@ -2603,10 +3377,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4086627355476543
+      "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0002",
@@ -2642,7 +3416,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0011",
@@ -2678,7 +3452,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0015",
@@ -2714,7 +3488,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0016",
@@ -2750,7 +3524,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0017",
@@ -2786,7 +3560,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0030",
@@ -2822,7 +3596,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0040",
@@ -2861,6 +3635,78 @@
       "cluster_id": 12,
       "count": 1,
       "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0154",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 0,
+      "representative_excerpt": "",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0154": {
+          "organization": "International Code Council",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "20001",
+          "city": "washington",
+          "stateProvinceRegion": "DC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "ICC Attachment",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.34142135623730946
+    },
+    {
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0133",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 25,
+      "representative_excerpt": "Comment from LIFE at RCIL",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0133": {
+          "organization": "LIFE at RCIL",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from LIFE at RCIL",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.3385642133801666
+    },
+    {
+      "cluster_id": 42,
+      "count": 1,
+      "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0119",
       "representative_posted_date": "2026-04-03T04:00:00Z",
       "representative_length": 21,
@@ -2891,10 +3737,226 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.3172834252028267
+      "presentation_score": 0.3042784990944523
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0152",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 16,
+      "representative_excerpt": "Christopher Kimm",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0152": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "San Antonio",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Christopher Kimm",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.29142135623730947
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0153",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 13,
+      "representative_excerpt": "Heather Lopez",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0153": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Heather Lopez",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.29142135623730947
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0147",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 14,
+      "representative_excerpt": "Anne Stambaugh",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0147": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anne Stambaugh",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.28856421338016663
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0149",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 17,
+      "representative_excerpt": "Jennifer Corocarn",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0149": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "Ohio",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Jennifer Corocarn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.28856421338016663
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0150",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 14,
+      "representative_excerpt": "Karen Sounders",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0150": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MI",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Karen Sounders",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.28856421338016663
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATBCB-2026-0001-0151",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 25,
+      "representative_excerpt": "Katherine Hunter Zaworski",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATBCB-2026-0001-0151": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "97330",
+          "city": "Corvallis",
+          "stateProvinceRegion": "OR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Katherine Hunter Zaworski",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.28856421338016663
+    },
+    {
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0122",
@@ -2927,10 +3989,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
+      "presentation_score": 0.27427849909445234
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0123",
@@ -2963,10 +4025,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
+      "presentation_score": 0.27427849909445234
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0128",
@@ -2999,10 +4061,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
+      "presentation_score": 0.27427849909445234
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0071",
@@ -3035,10 +4097,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.2690075631338612
+      "presentation_score": 0.26427849909445233
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0073",
@@ -3071,10 +4133,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.2690075631338612
+      "presentation_score": 0.26427849909445233
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0111",
@@ -3107,10 +4169,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2638351493407578
+      "presentation_score": 0.2514213562373095
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0108",
@@ -3143,10 +4205,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2534903217545509
+      "presentation_score": 0.24284992766588093
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0091",
@@ -3179,10 +4241,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.23280066658213708
+      "presentation_score": 0.22570707052302377
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATBCB-2026-0001-0074",
@@ -3215,12 +4277,60 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.21900756313386122
+      "presentation_score": 0.21427849909445235
     }
   ],
   "comments_clusters_path": "data/comments/ATBCB-2026-0001.csv",
-  "government_submissions_count": 2,
+  "government_submissions_count": 5,
   "government_submissions": [
+    {
+      "comment_id": "ATBCB-2026-0001-0161",
+      "organization": "",
+      "posted_date": "2026-04-16T04:00:00Z",
+      "title": "Comment from Minnesota Council on Disability",
+      "attachment_count": 0,
+      "submission_role": "organization",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "We are writing today to provide public comment on the accessible design standards for universal changing tables. MCD played an important role in supporting the establishment of the technical standards of universal changing tables in Minnesota legislation. In 2025, Minnesota passed legislation requiring adult changing tables in state travel rest areas, state ...",
+      "source_cluster_ids": [
+        5
+      ]
+    },
+    {
+      "comment_id": "ATBCB-2026-0001-0142",
+      "organization": "",
+      "posted_date": "2026-04-15T04:00:00Z",
+      "title": "Comment from Colorado Developmental Disabilities Council",
+      "attachment_count": 0,
+      "submission_role": "organization",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "The Colorado Developmental Disabilities Council is in full support of the U.S. Access Board's suggested technical standards for universal changing tables. Universal changing tables are a critical component of creating a built environment that works for every person in the United States, including people with caregiving needs who will benefit from the presenc...",
+      "source_cluster_ids": [
+        21
+      ]
+    },
+    {
+      "comment_id": "ATBCB-2026-0001-0134",
+      "organization": "",
+      "posted_date": "2026-04-15T04:00:00Z",
+      "title": "Comment from Ontario International Airport Authority",
+      "attachment_count": 0,
+      "submission_role": "government_tribal",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "The proposed rule should establish clear and uniform requirements for rooms that include a universal adult changing table in combination with other accessibility features. At a minimum, the regulation should define the baseline elements required for such spaces to ensure consistency, usability, and equitable access across airport facilities. Additionally, th...",
+      "source_cluster_ids": [
+        27
+      ]
+    },
     {
       "comment_id": "ATBCB-2026-0001-0118",
       "organization": "",
@@ -3234,7 +4344,7 @@
       "withdrawn": false,
       "representative_excerpt": "The Disability and Communication Access Board (DCAB), Department of Health, State of Hawaii, submits comments in support of Docket ATBCB-2026-0001 Advance Notice of Proposed Rulemaking (ANPR). Please see the attachment for the comments.",
       "source_cluster_ids": [
-        13
+        43
       ]
     },
     {
@@ -3250,24 +4360,24 @@
       "withdrawn": false,
       "representative_excerpt": "Comment from Michigan Developmental Disabilities Council",
       "source_cluster_ids": [
-        23
+        53
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.3023255813953488,
-  "comments_first_page_coverage_count": 26,
-  "comments_clusters_total_available": 85,
-  "comments_clusters_displayed": 85,
+  "comments_first_page_coverage_share": 0.23275862068965517,
+  "comments_first_page_coverage_count": 27,
+  "comments_clusters_total_available": 114,
+  "comments_clusters_displayed": 114,
   "comments_first_page_high_signal_clusters": 0,
-  "comments_first_page_novelty_clusters": 3,
+  "comments_first_page_novelty_clusters": 4,
   "comments_first_page_stance_counts": {
-    "neutral": 20,
-    "negative": 1,
+    "neutral": 18,
+    "negative": 3,
     "positive": 4
   },
-  "comments_first_page_unique_days": 10,
+  "comments_first_page_unique_days": 11,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "ATBCB-2026-0001"
