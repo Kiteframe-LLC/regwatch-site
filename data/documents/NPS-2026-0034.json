@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-04-18T05:16:24.363646+00:00",
+  "comment_action_checked_at": "2026-04-19T06:48:30.981868+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -163,8 +163,8 @@
   "comments_fetched": 1303,
   "comments_text_hydrated": 311,
   "comments_cached_records": 1303,
-  "comments_unique_clusters": 654,
-  "comments_clustered_duplicates": 592,
+  "comments_unique_clusters": 656,
+  "comments_clustered_duplicates": 647,
   "comments_truncated": true,
   "comments_source": "bulk_csv+api_topoff",
   "comments_zip_prefix_span": 0,
@@ -220,19 +220,19 @@
     "2026-03-20": 1
   },
   "comments_novel_comment_rate": 0.5034535686876439,
-  "comments_sentiment_positive_pct": 0.01716154755464426,
-  "comments_sentiment_negative_pct": 0.5281835758429311,
-  "comments_sentiment_neutral_pct": 0.4546548766024247,
-  "comments_sentiment_net": -0.5110220282882868,
-  "comments_sentiment_sample_size": 1244,
+  "comments_sentiment_positive_pct": 0.016837392282760415,
+  "comments_sentiment_negative_pct": 0.5286388707976956,
+  "comments_sentiment_neutral_pct": 0.4545237369195441,
+  "comments_sentiment_net": -0.5118014785149352,
+  "comments_sentiment_sample_size": 1301,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 1246,
+  "comments_analysis_sample_size": 1303,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 1246,
-  "comments_representative_prior_selected": 1216,
-  "comments_representative_newly_selected": 30,
+  "comments_representative_selected": 1303,
+  "comments_representative_prior_selected": 1303,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 35,
   "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
@@ -241,19 +241,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 35,
     "salience_rank": 4,
-    "weighted_fill": 1207
+    "weighted_fill": 1264
   },
-  "comments_representative_selected_by_counts_total": 1246,
+  "comments_representative_selected_by_counts_total": 1303,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": "2026-03-17T04:00Z",
-  "comments_api_last_seen_at": "2026-04-18T05:01:37.946531+00:00",
-  "comments_checked_at": "2026-04-18T05:02:19.130063+00:00",
+  "comments_api_last_seen_at": "2026-04-19T05:03:13.225569+00:00",
+  "comments_checked_at": "2026-04-19T05:03:16.874721+00:00",
   "comments_error": "used_bulk_csv",
   "comments_clusters": [
     {
-      "cluster_id": 26,
+      "cluster_id": 29,
       "count": 237,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4333",
@@ -349,7 +349,7 @@
       "presentation_score": 0.4790182080239833
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 98,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4356",
@@ -445,7 +445,7 @@
       "presentation_score": 0.41634713778860577
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 37,
       "count": 62,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4324",
@@ -541,7 +541,103 @@
       "presentation_score": 0.5265991033273463
     },
     {
-      "cluster_id": 466,
+      "cluster_id": 25,
+      "count": 31,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4338",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 270,
+      "representative_excerpt": "Allowing baiting in or near national preserves does more than endanger individual animals. It distorts natural wildlife behavior, increases the risk of dangerous bear-human interactions, and undermines the ecological integrity of some of our most treasured public lands.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-3174": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Whitney Watters",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3202": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Nicole Fountain",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3208": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Stacey Francis",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3334": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Diana McBride",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3369": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Maryetta Pinn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.24446778399077626
+    },
+    {
+      "cluster_id": 469,
       "count": 16,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0792",
@@ -637,8 +733,104 @@
       "presentation_score": 0.4798442548027604
     },
     {
-      "cluster_id": 75,
-      "count": 12,
+      "cluster_id": 66,
+      "count": 13,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4286",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 385,
+      "representative_excerpt": "Allowing baiting in or near national preserves does more than endanger individual animals. It distorts natural wildlife behavior, increases the risk of dangerous bear-human interactions, and undermines the ecological integrity of some of our most treasured public lands. The National Park Service was established to protect natural systems, not to sanction pra...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-3134": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from anne kaufmann",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3189": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kim   Brower",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3223": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Carol Stevens",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3267": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kristin  Womack",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3305": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kathryn Lemoine",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.23616653461245088
+    },
+    {
+      "cluster_id": 80,
+      "count": 10,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4254",
       "representative_posted_date": "2026-04-14T04:00:00Z",
@@ -697,21 +889,6 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "NPS-2026-0034-3189": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kim   Brower",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
         "NPS-2026-0034-3242": {
           "organization": "",
           "postedDate": "2026-04-10T04:00:00Z",
@@ -726,44 +903,8 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.23436321924175288
-    },
-    {
-      "cluster_id": 112,
-      "count": 10,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4173",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 398,
-      "representative_excerpt": "Allowing baiting in or near national preserves does more than endanger individual animals. It distorts natural wildlife behavior, increases the risk of dangerous bear-human interactions, and undermines the ecological integrity of some of our most treasured public lands. Baiting animals in their home is also a reflection of an apathy and wickedness on our com...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0587": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Christine Sepulveda",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
         },
-        "NPS-2026-0034-3134": {
+        "NPS-2026-0034-3300": {
           "organization": "",
           "postedDate": "2026-04-10T04:00:00Z",
           "zip": "",
@@ -771,52 +912,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from anne kaufmann",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-3223": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Carol Stevens",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-3267": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kristin  Womack",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-3305": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kathryn Lemoine",
+          "title": "Comment from Audrey Stafford",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -829,7 +925,1318 @@
       "presentation_score": 0.23723239124884155
     },
     {
-      "cluster_id": 202,
+      "cluster_id": 5,
+      "count": 9,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4362",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 149,
+      "representative_excerpt": "I strongly oppose the proposed rule by the National Park Service to rescind long-standing wildlife protections across Alaska\u2019s national preserves and",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4035": {
+          "organization": "",
+          "postedDate": "2026-04-12T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Cornelia  Herschel",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-4036": {
+          "organization": "",
+          "postedDate": "2026-04-12T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-4176": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Jan Wachholz",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-4177": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Jan Wachholz",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-4300": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Andrew Wadsworth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2475478086235108
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4348",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 3072,
+      "representative_excerpt": "Such practices do not belong in our national preserves; and NPS has not adequately explained how it can now summarily disregard these longstanding concerns. The proposed rule overly defers to State hunting and trapping regulations in national preserves, when it is well established that NPS has the plenary authority to manage and regulate such use and is in f...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4348": {
+          "organization": "",
+          "postedDate": "2026-04-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Brad Richie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7629913960492326
+    },
+    {
+      "cluster_id": 105,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4196",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 3041,
+      "representative_excerpt": "Department of the Interior to allow bear baiting on National Park Service lands in Alaska. This proposal represents a dangerous and unacceptable rollback of long-standing wildlife protections across approximately 20 million acres of some of America\u2019s most treasured public lands. Bear baiting - the practice of luring black bears and grizzly bears with piles o...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4196": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kelly Berry",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7548832879411245
+    },
+    {
+      "cluster_id": 329,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-2632",
+      "representative_posted_date": "2026-04-09T04:00:00Z",
+      "representative_length": 3845,
+      "representative_excerpt": "I strongly oppose the Proposed Rule (\"PR\") issued on March 10, 2026, by the National Park Service (\"NPS\"), an agency of the US Department of the Interior [91 Fed. Reg. 11483 (March 10, 2026)], for multiple reasons, including, but not limited to, those discussed below. First, the PR, almost 14 pages in length, single-spaced, with 3 columns per page, is comple...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-2632": {
+          "organization": "",
+          "postedDate": "2026-04-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Robert Aland",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.741369774427611
+    },
+    {
+      "cluster_id": 374,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-2118",
+      "representative_posted_date": "2026-04-08T04:00:00Z",
+      "representative_length": 3257,
+      "representative_excerpt": "This proposal represents an abdication of the National Park Service's (NPS) statutory responsibility to protect natural wildlife populations and ensures that these federal lands will be managed for \"intensive management\" rather than conservation. 1. Violation of the NPS Organic Act and Management PoliciesThe NPS Organic Act mandates that the Service manage p...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-2118": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7386670717249083
+    },
+    {
+      "cluster_id": 513,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0685",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 1833,
+      "representative_excerpt": "National preserves shouldn\u2019t allow bear hunting in the first place, much less serve as game farms. They are meant to provide habitat for species dependent on relatively undeveloped areas; to preserve a natural system such as unaltered arctic tundra, boreal forest, and coastal rainforest ecosystems. This rule turns over management to state policies that prior...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0685": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7170454501032867
+    },
+    {
+      "cluster_id": 477,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0777",
+      "representative_posted_date": "2026-04-06T04:00:00Z",
+      "representative_length": 3082,
+      "representative_excerpt": "I oppose the National Park Service proposal RIN 1024-AE96 that would remove restrictions governing hunting practices in Alaska\u2019s national preserves. The proposal to allow bear baiting and similar hunting practices in Alaska\u2019s national preserves should be rejected. It creates serious public safety risks and threatens one of Alaska\u2019s most valuable industries: ...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0777": {
+          "organization": "",
+          "postedDate": "2026-04-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Heather Moore",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-0776": {
+          "organization": "",
+          "postedDate": "2026-04-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Heather Moore",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7162026854139646
+    },
+    {
+      "cluster_id": 545,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0356",
+      "representative_posted_date": "2026-03-20T04:00:00Z",
+      "representative_length": 3745,
+      "representative_excerpt": "My name is Gabriel Dunn, and I am an Environmental Biology and Zoology student at Michigan State University. More specifically, I am concerned about the removal of the 2015 Rule regarding bear baiting. This proposal states that \u201cBased on the available data, compared to baseline conditions, NPS anticipates that the proposed rule would result in the harvest of...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0356": {
+          "organization": "",
+          "postedDate": "2026-03-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Gabriel Dunn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6873157203735569
+    },
+    {
+      "cluster_id": 83,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4246",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 3666,
+      "representative_excerpt": "Allowing baiting in or near national preserves does more than endanger individual animals. It distorts natural wildlife behavior, increases the risk of dangerous bear-human interactions, and undermines the ecological integrity of some of our most treasured public lands. This is beyond sick- it is sadistic murder! All those involved in this cowardly, unethica...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4246": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Cara Schmidt",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6215499546077912
+    },
+    {
+      "cluster_id": 100,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4209",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 2232,
+      "representative_excerpt": "he National Park Service is proposing a new rule that allows for cruel and grossly unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. This rule, by essentially turning wildlife management over to the State of Alaska, puts wildlife at risk across 19 million acres of the most iconic wild ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4209": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Joan L Casale",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-2712": {
+          "organization": "Association of National Park Rangers, Inc.",
+          "postedDate": "2026-04-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Association of National Park Rangers, Inc.",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-1993": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Shalynn Ehrenpfort",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6113971966881995
+    },
+    {
+      "cluster_id": 222,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-3494",
+      "representative_posted_date": "2026-04-10T04:00:00Z",
+      "representative_length": 1503,
+      "representative_excerpt": "This a deeply troubling and unacceptable rollback of wildlife protection. The Department of the Interior is seeking to make legal the practice of bear baiting across 20 million acres of National Park Service lands in Alaska. This practice \u2014 luring black bears and grizzly bears with piles of food so they can be shot in the back with their head in a barrel \u2014 i...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-3494": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Brent Bobo",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6107391437969802
+    },
+    {
+      "cluster_id": 240,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-3401",
+      "representative_posted_date": "2026-04-10T04:00:00Z",
+      "representative_length": 808,
+      "representative_excerpt": "The Alaska Falconers Association supports the implementation of the pre-2015/2018 regulations on National Park Service Preserve lands. We have submitted comments twice in opposition of the rule change that NPS implemented preventing the take of falconry birds from NPS preserve lands as allowed by both federal and state falconry regulations. We welcome this c...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-3401": {
+          "organization": "Alaska Falconers Association",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Alaska Falconers Association",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.527405810463647
+    },
+    {
+      "cluster_id": 492,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0756",
+      "representative_posted_date": "2026-04-03T04:00:00Z",
+      "representative_length": 188,
+      "representative_excerpt": "Please see the attached letter from Ben Mallott, AFN President, requesting an extension of the comment period in Docket NPS-2026-0034, Hunting and Trapping in National Preserves in Alaska.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0756": {
+          "organization": "Alaska Federation of Natives",
+          "postedDate": "2026-04-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Alaska Federation of Natives",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5084868915447281
+    },
+    {
+      "cluster_id": 559,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0328",
+      "representative_posted_date": "2026-03-18T04:00:00Z",
+      "representative_length": 689,
+      "representative_excerpt": "I strongly oppose this bill to allow bear baiting in Alaska's national parks. Baiting bears is unsporting and the antithesis of \"fair chase,\" a core tenet of the North American Model of Wildlife Management. Baiting bears is harmful to bears, other wildlife, and the larger environment. Hunters and outfitters stoop to using bait to increase hunter success. Bea...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0328": {
+          "organization": "Science for Colorado Wildlife",
+          "postedDate": "2026-03-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Science for Colorado Wildlife",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4652436483014848
+    },
+    {
+      "cluster_id": 553,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0342",
+      "representative_posted_date": "2026-03-18T04:00:00Z",
+      "representative_length": 1545,
+      "representative_excerpt": "I strongly oppose the adoption of this rule. Bear baiting\u2014the practice of placing food or other attractants to lure bears for hunting\u2014raises serious ethical, ecological, and public safety concerns, particularly on federal lands held in trust for all Americans. First, it is widely considered inhumane because it undermines the principles of fair chase by habit...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0342": {
+          "organization": "Dog Advocacy and Rescue",
+          "postedDate": "2026-03-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Dog Advocacy and Rescue",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4652436483014848
+    },
+    {
+      "cluster_id": 330,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-2625",
+      "representative_posted_date": "2026-04-09T04:00:00Z",
+      "representative_length": 4351,
+      "representative_excerpt": "Wilderness Watch Speak up against National Park Service proposal to allow cruel hunting practices on National Preserves in Alaska The National Park Service is proposing a new rule that allows for cruel and grossly unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. This rule, by essentia...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-2625": {
+          "organization": "",
+          "postedDate": "2026-04-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Leslie Cox",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6080364410942776
+    },
+    {
+      "cluster_id": 430,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-1771",
+      "representative_posted_date": "2026-04-08T04:00:00Z",
+      "representative_length": 1951,
+      "representative_excerpt": "In 2015, the Obama administration banned a number of cruel, unethical, and controversial hunting practices on National Preserves in Alaska. The banned hunting methods were authorized by the state as part of its efforts to kill as many wolves and bears as possible in an attempt to artificially increase moose and caribou populations. This included: Killing mot...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-1771": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Sybil Schlesinger",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6053337383915749
+    },
+    {
+      "cluster_id": 413,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-1858",
+      "representative_posted_date": "2026-04-08T04:00:00Z",
+      "representative_length": 2671,
+      "representative_excerpt": "Dear National Park Service: I am writing to speak up against the National Park Service proposal to allow cruel hunting practices on national preserves in Alaska. I read stories about the salmon returning to the Klamath river after the removal of dams constructed nearly a century ago, and the return of wetlands after beaver are reintroduced to rivers and stre...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-1858": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Susan Ryan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6053337383915749
+    },
+    {
+      "cluster_id": 111,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4186",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 4896,
+      "representative_excerpt": "Where bears are found across America\u2019s public lands \u2014 whether managed by the National Park Service, the U.S. Forest Service, the U.S. Fish and Wildlife Service, or the Bureau of Land Management \u2014 visitors see the same warning posted at trailheads and campgrounds: \u201cNever feed bears.\u201d Bears accustomed to human food lose their wariness of people and sniff out c...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4186": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from David Pistilli",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-3273": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Linda Murphy",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.604490973702253
+    },
+    {
+      "cluster_id": 88,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4238",
+      "representative_posted_date": "2026-04-14T04:00:00Z",
+      "representative_length": 3245,
+      "representative_excerpt": "My family and I are avid hikers and outdoor enthusiasts. Public lands and the wildlife that make them wild are central to how we spend our time, where we travel, and, I believe, what we owe future generations. Give them the same opportunity to build their own connections to our National Parks and the wildlife that reside within them. The national preserves t...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4238": {
+          "organization": "",
+          "postedDate": "2026-04-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Amanda Gaunt-Smith",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        },
+        "NPS-2026-0034-0355": {
+          "organization": "",
+          "postedDate": "2026-03-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Jolene Weiss",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.604490973702253
+    },
+    {
+      "cluster_id": 479,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0771",
+      "representative_posted_date": "2026-04-06T04:00:00Z",
+      "representative_length": 2428,
+      "representative_excerpt": "My name is Bob Standish and I live in Lake Clark National Preserve near Port Alsworth in the summer months where I have a cabin. I am opposed the proposed rule that would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska. The State of Alaska supports very poor conservation ethics and inste...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0771": {
+          "organization": "",
+          "postedDate": "2026-04-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from BOB STANDISH",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5999283329861694
+    },
+    {
+      "cluster_id": 248,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-3350",
+      "representative_posted_date": "2026-04-10T04:00:00Z",
+      "representative_length": 1682,
+      "representative_excerpt": "This proposed rule would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska, whose predator reduction philosophy is incompatible with the National Park Service's Organic Act mandate to conserve wildlife in its natural state. I am particularly concerned about the following provisions: 1. The...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-3350": {
+          "organization": "",
+          "postedDate": "2026-04-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-0148": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5936801628914421
+    },
+    {
+      "cluster_id": 496,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0752",
+      "representative_posted_date": "2026-04-02T04:00:00Z",
+      "representative_length": 2566,
+      "representative_excerpt": "I strongly oppose the proposed rule that would roll back protections put in place since 2015 and allow the State of Alaska to manage subsistence hunting within units of the National Park System. Subsistence is not optional where I live. It is how people feed their families, stay connected to culture, and take care of one another. Any decision that weakens su...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0752": {
+          "organization": "",
+          "postedDate": "2026-04-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Meghan Tapqaq",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5891175221753586
+    },
+    {
+      "cluster_id": 395,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-1992",
+      "representative_posted_date": "2026-04-08T04:00:00Z",
+      "representative_length": 1246,
+      "representative_excerpt": "As an American citizen, taxpayer, voter, and someone who values life in all its forms, I am disturbed and enraged that The National Park Service is proposing a new rule that allows for cruel and grossly unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. This rule, by essentially turning...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-1992": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Paula Grande",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-1653": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Tracy Callow",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5882747574860367
+    },
+    {
+      "cluster_id": 357,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-2209",
+      "representative_posted_date": "2026-04-08T04:00:00Z",
+      "representative_length": 2663,
+      "representative_excerpt": "The wildlife and wildlands in National Parks and Preserves in Alaska, including on eight million acres of Wilderness, are of world significance. They belong to every American, not just to trophy hunters or the State of Alaska, which wants to turn our wild public lands in Alaska into game farms. Congress set aside these public lands to maintain fish and wildl...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-2209": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Deborah Warren",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-2022": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Daniel Grassi",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5882747574860367
+    },
+    {
+      "cluster_id": 544,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0360",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 3217,
+      "representative_excerpt": "I oppose the National Park Service proposal that would rescind wildlife protection rules governing hunting practices in Alaska\u2019s national preserves. In particular, I strongly oppose allowing bear baiting on lands managed by the National Park Service. Bear baiting involves placing piles of human food in the environment to lure bears to predictable locations w...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0360": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Susan Patel",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5837121167699533
+    },
+    {
+      "cluster_id": 514,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0684",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 1219,
+      "representative_excerpt": "Stop opening Alaska\u2019s national preserves to bear baiting to appease hunters WHY STOPPING THIS MATTERS \u2022Bait stations are basically \u201cfeeding the bears\u201d\u2014exactly what we don\u2019t want to see in parks because bears become food conditioned. Bear baiting is a particularly harmful activity for wildlife, natural ecosystems and national park visitors. A 2024 scientific ...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0684": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5837121167699533
+    },
+    {
+      "cluster_id": 511,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0695",
+      "representative_posted_date": "2026-03-31T04:00:00Z",
+      "representative_length": 1223,
+      "representative_excerpt": "I am horrified by the proposal to allow hunting and trapping in our national preserves, esp. bear baiting. Bait stations are basically \u201cfeeding the bears\u201d\u2014exactly what we don\u2019t want to see in parks because bears become food conditioned. Bear baiting is a particularly harmful activity for wildlife, natural ecosystems and national park visitors. A 2024 scienti...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0695": {
+          "organization": "",
+          "postedDate": "2026-03-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Marie Marinakis",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5837121167699533
+    },
+    {
+      "cluster_id": 574,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0290",
+      "representative_posted_date": "2026-03-16T04:00Z",
+      "representative_length": 845,
+      "representative_excerpt": "I fully support the new National Park Service (NPS) proposal that would restore Alaska\u2019s longstanding, state\u2011led wildlife\u2011management system on national preserves. The proposed rule would reverse the 2015, 2017, and 2024 regulations and realign federal policy with the framework established under the Alaska National Interest Lands Conservation Act (ANILCA). I ...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0290": {
+          "organization": "",
+          "postedDate": "2026-03-16T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5431715762294127
+    },
+    {
+      "cluster_id": 644,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0031",
+      "representative_posted_date": "2026-03-11T04:00Z",
+      "representative_length": 3143,
+      "representative_excerpt": "My name is Fiona MacLean and I am a supporter of Alaska's national preserves. This proposed rule would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska, whose predator reduction philosophy is incompatible with the National Park Service's Organic Act mandate to conserve wildlife in its nat...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0031": {
+          "organization": "",
+          "postedDate": "2026-03-11T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Fiona MacLean",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5296580627158992
+    },
+    {
+      "cluster_id": 642,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-0035",
+      "representative_posted_date": "2026-03-12T04:00Z",
+      "representative_length": 2011,
+      "representative_excerpt": "I am a lover and visitor of Alaska's national preserves. This proposed rule would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska, whose predator reduction philosophy is incompatible with the National Park Service's Organic Act mandate to conserve wildlife in its natural state. I am part...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-0035": {
+          "organization": "",
+          "postedDate": "2026-03-12T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Abby Stratton",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-0030": {
+          "organization": "",
+          "postedDate": "2026-03-11T04:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5153017845130637
+    },
+    {
+      "cluster_id": 206,
       "count": 8,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3617",
@@ -925,1318 +2332,7 @@
       "presentation_score": 0.4982728680500725
     },
     {
-      "cluster_id": 133,
-      "count": 7,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4128",
-      "representative_posted_date": "2026-04-12T04:00:00Z",
-      "representative_length": 1712,
-      "representative_excerpt": "Please, no new cruel rules and unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. We must preserve million acres of the most iconic wild places left in America, including Gates of the Arctic, Denali, Wrangell-St. Elias, and Katmai National Park and preserve, a world-renowned gathering s...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-1590": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Leslie Burpo",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-1834": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kurt Jirka",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-1881": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Andy Middleton",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-2067": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-2715": {
-          "organization": "",
-          "postedDate": "2026-04-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from MONICA LEMKOWITZ",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3744164096903833
-    },
-    {
-      "cluster_id": 14,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4348",
-      "representative_posted_date": "2026-04-17T04:00:00Z",
-      "representative_length": 3072,
-      "representative_excerpt": "Such practices do not belong in our national preserves; and NPS has not adequately explained how it can now summarily disregard these longstanding concerns. The proposed rule overly defers to State hunting and trapping regulations in national preserves, when it is well established that NPS has the plenary authority to manage and regulate such use and is in f...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4348": {
-          "organization": "",
-          "postedDate": "2026-04-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Brad Richie",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7629913960492326
-    },
-    {
-      "cluster_id": 100,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4196",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 3041,
-      "representative_excerpt": "Department of the Interior to allow bear baiting on National Park Service lands in Alaska. This proposal represents a dangerous and unacceptable rollback of long-standing wildlife protections across approximately 20 million acres of some of America\u2019s most treasured public lands. Bear baiting - the practice of luring black bears and grizzly bears with piles o...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4196": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kelly Berry",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7548832879411245
-    },
-    {
-      "cluster_id": 325,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-2632",
-      "representative_posted_date": "2026-04-09T04:00:00Z",
-      "representative_length": 3845,
-      "representative_excerpt": "I strongly oppose the Proposed Rule (\"PR\") issued on March 10, 2026, by the National Park Service (\"NPS\"), an agency of the US Department of the Interior [91 Fed. Reg. 11483 (March 10, 2026)], for multiple reasons, including, but not limited to, those discussed below. First, the PR, almost 14 pages in length, single-spaced, with 3 columns per page, is comple...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-2632": {
-          "organization": "",
-          "postedDate": "2026-04-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Robert Aland",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.741369774427611
-    },
-    {
-      "cluster_id": 370,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-2118",
-      "representative_posted_date": "2026-04-08T04:00:00Z",
-      "representative_length": 3257,
-      "representative_excerpt": "This proposal represents an abdication of the National Park Service's (NPS) statutory responsibility to protect natural wildlife populations and ensures that these federal lands will be managed for \"intensive management\" rather than conservation. 1. Violation of the NPS Organic Act and Management PoliciesThe NPS Organic Act mandates that the Service manage p...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-2118": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7386670717249083
-    },
-    {
-      "cluster_id": 510,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0685",
-      "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 1833,
-      "representative_excerpt": "National preserves shouldn\u2019t allow bear hunting in the first place, much less serve as game farms. They are meant to provide habitat for species dependent on relatively undeveloped areas; to preserve a natural system such as unaltered arctic tundra, boreal forest, and coastal rainforest ecosystems. This rule turns over management to state policies that prior...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0685": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7170454501032867
-    },
-    {
-      "cluster_id": 474,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0777",
-      "representative_posted_date": "2026-04-06T04:00:00Z",
-      "representative_length": 3082,
-      "representative_excerpt": "I oppose the National Park Service proposal RIN 1024-AE96 that would remove restrictions governing hunting practices in Alaska\u2019s national preserves. The proposal to allow bear baiting and similar hunting practices in Alaska\u2019s national preserves should be rejected. It creates serious public safety risks and threatens one of Alaska\u2019s most valuable industries: ...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0777": {
-          "organization": "",
-          "postedDate": "2026-04-06T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Heather Moore",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-0776": {
-          "organization": "",
-          "postedDate": "2026-04-06T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Heather Moore",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7162026854139646
-    },
-    {
-      "cluster_id": 542,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0356",
-      "representative_posted_date": "2026-03-20T04:00:00Z",
-      "representative_length": 3745,
-      "representative_excerpt": "My name is Gabriel Dunn, and I am an Environmental Biology and Zoology student at Michigan State University. More specifically, I am concerned about the removal of the 2015 Rule regarding bear baiting. This proposal states that \u201cBased on the available data, compared to baseline conditions, NPS anticipates that the proposed rule would result in the harvest of...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0356": {
-          "organization": "",
-          "postedDate": "2026-03-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Gabriel Dunn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6873157203735569
-    },
-    {
-      "cluster_id": 78,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4246",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 3666,
-      "representative_excerpt": "Allowing baiting in or near national preserves does more than endanger individual animals. It distorts natural wildlife behavior, increases the risk of dangerous bear-human interactions, and undermines the ecological integrity of some of our most treasured public lands. This is beyond sick- it is sadistic murder! All those involved in this cowardly, unethica...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4246": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Cara Schmidt",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6215499546077912
-    },
-    {
-      "cluster_id": 95,
-      "count": 3,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4209",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 2232,
-      "representative_excerpt": "he National Park Service is proposing a new rule that allows for cruel and grossly unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. This rule, by essentially turning wildlife management over to the State of Alaska, puts wildlife at risk across 19 million acres of the most iconic wild ...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4209": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Joan L Casale",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-2712": {
-          "organization": "Association of National Park Rangers, Inc.",
-          "postedDate": "2026-04-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Association of National Park Rangers, Inc.",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-1993": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Shalynn Ehrenpfort",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6113971966881995
-    },
-    {
-      "cluster_id": 218,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-3494",
-      "representative_posted_date": "2026-04-10T04:00:00Z",
-      "representative_length": 1503,
-      "representative_excerpt": "This a deeply troubling and unacceptable rollback of wildlife protection. The Department of the Interior is seeking to make legal the practice of bear baiting across 20 million acres of National Park Service lands in Alaska. This practice \u2014 luring black bears and grizzly bears with piles of food so they can be shot in the back with their head in a barrel \u2014 i...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-3494": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Brent Bobo",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6107391437969802
-    },
-    {
-      "cluster_id": 236,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-3401",
-      "representative_posted_date": "2026-04-10T04:00:00Z",
-      "representative_length": 808,
-      "representative_excerpt": "The Alaska Falconers Association supports the implementation of the pre-2015/2018 regulations on National Park Service Preserve lands. We have submitted comments twice in opposition of the rule change that NPS implemented preventing the take of falconry birds from NPS preserve lands as allowed by both federal and state falconry regulations. We welcome this c...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-3401": {
-          "organization": "Alaska Falconers Association",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Alaska Falconers Association",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.527405810463647
-    },
-    {
-      "cluster_id": 489,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0756",
-      "representative_posted_date": "2026-04-03T04:00:00Z",
-      "representative_length": 188,
-      "representative_excerpt": "Please see the attached letter from Ben Mallott, AFN President, requesting an extension of the comment period in Docket NPS-2026-0034, Hunting and Trapping in National Preserves in Alaska.",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0756": {
-          "organization": "Alaska Federation of Natives",
-          "postedDate": "2026-04-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Alaska Federation of Natives",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5084868915447281
-    },
-    {
-      "cluster_id": 556,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0328",
-      "representative_posted_date": "2026-03-18T04:00:00Z",
-      "representative_length": 689,
-      "representative_excerpt": "I strongly oppose this bill to allow bear baiting in Alaska's national parks. Baiting bears is unsporting and the antithesis of \"fair chase,\" a core tenet of the North American Model of Wildlife Management. Baiting bears is harmful to bears, other wildlife, and the larger environment. Hunters and outfitters stoop to using bait to increase hunter success. Bea...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0328": {
-          "organization": "Science for Colorado Wildlife",
-          "postedDate": "2026-03-18T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Science for Colorado Wildlife",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4652436483014848
-    },
-    {
-      "cluster_id": 550,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0342",
-      "representative_posted_date": "2026-03-18T04:00:00Z",
-      "representative_length": 1545,
-      "representative_excerpt": "I strongly oppose the adoption of this rule. Bear baiting\u2014the practice of placing food or other attractants to lure bears for hunting\u2014raises serious ethical, ecological, and public safety concerns, particularly on federal lands held in trust for all Americans. First, it is widely considered inhumane because it undermines the principles of fair chase by habit...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0342": {
-          "organization": "Dog Advocacy and Rescue",
-          "postedDate": "2026-03-18T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Dog Advocacy and Rescue",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4652436483014848
-    },
-    {
-      "cluster_id": 326,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-2625",
-      "representative_posted_date": "2026-04-09T04:00:00Z",
-      "representative_length": 4351,
-      "representative_excerpt": "Wilderness Watch Speak up against National Park Service proposal to allow cruel hunting practices on National Preserves in Alaska The National Park Service is proposing a new rule that allows for cruel and grossly unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. This rule, by essentia...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-2625": {
-          "organization": "",
-          "postedDate": "2026-04-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Leslie Cox",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6080364410942776
-    },
-    {
-      "cluster_id": 427,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-1771",
-      "representative_posted_date": "2026-04-08T04:00:00Z",
-      "representative_length": 1951,
-      "representative_excerpt": "In 2015, the Obama administration banned a number of cruel, unethical, and controversial hunting practices on National Preserves in Alaska. The banned hunting methods were authorized by the state as part of its efforts to kill as many wolves and bears as possible in an attempt to artificially increase moose and caribou populations. This included: Killing mot...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-1771": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Sybil Schlesinger",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6053337383915749
-    },
-    {
-      "cluster_id": 410,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-1858",
-      "representative_posted_date": "2026-04-08T04:00:00Z",
-      "representative_length": 2671,
-      "representative_excerpt": "Dear National Park Service: I am writing to speak up against the National Park Service proposal to allow cruel hunting practices on national preserves in Alaska. I read stories about the salmon returning to the Klamath river after the removal of dams constructed nearly a century ago, and the return of wetlands after beaver are reintroduced to rivers and stre...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-1858": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Susan Ryan",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6053337383915749
-    },
-    {
-      "cluster_id": 106,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4186",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 4896,
-      "representative_excerpt": "Where bears are found across America\u2019s public lands \u2014 whether managed by the National Park Service, the U.S. Forest Service, the U.S. Fish and Wildlife Service, or the Bureau of Land Management \u2014 visitors see the same warning posted at trailheads and campgrounds: \u201cNever feed bears.\u201d Bears accustomed to human food lose their wariness of people and sniff out c...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4186": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from David Pistilli",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-3273": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Linda Murphy",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.604490973702253
-    },
-    {
-      "cluster_id": 83,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4238",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 3245,
-      "representative_excerpt": "My family and I are avid hikers and outdoor enthusiasts. Public lands and the wildlife that make them wild are central to how we spend our time, where we travel, and, I believe, what we owe future generations. Give them the same opportunity to build their own connections to our National Parks and the wildlife that reside within them. The national preserves t...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4238": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Amanda Gaunt-Smith",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        },
-        "NPS-2026-0034-0355": {
-          "organization": "",
-          "postedDate": "2026-03-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Jolene Weiss",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.604490973702253
-    },
-    {
-      "cluster_id": 476,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0771",
-      "representative_posted_date": "2026-04-06T04:00:00Z",
-      "representative_length": 2428,
-      "representative_excerpt": "My name is Bob Standish and I live in Lake Clark National Preserve near Port Alsworth in the summer months where I have a cabin. I am opposed the proposed rule that would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska. The State of Alaska supports very poor conservation ethics and inste...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0771": {
-          "organization": "",
-          "postedDate": "2026-04-06T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from BOB STANDISH",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5999283329861694
-    },
-    {
-      "cluster_id": 245,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-3350",
-      "representative_posted_date": "2026-04-10T04:00:00Z",
-      "representative_length": 1682,
-      "representative_excerpt": "This proposed rule would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska, whose predator reduction philosophy is incompatible with the National Park Service's Organic Act mandate to conserve wildlife in its natural state. I am particularly concerned about the following provisions: 1. The...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-3350": {
-          "organization": "",
-          "postedDate": "2026-04-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-0148": {
-          "organization": "",
-          "postedDate": "2026-03-16T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5936801628914421
-    },
-    {
-      "cluster_id": 493,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0752",
-      "representative_posted_date": "2026-04-02T04:00:00Z",
-      "representative_length": 2566,
-      "representative_excerpt": "I strongly oppose the proposed rule that would roll back protections put in place since 2015 and allow the State of Alaska to manage subsistence hunting within units of the National Park System. Subsistence is not optional where I live. It is how people feed their families, stay connected to culture, and take care of one another. Any decision that weakens su...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0752": {
-          "organization": "",
-          "postedDate": "2026-04-02T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Meghan Tapqaq",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5891175221753586
-    },
-    {
-      "cluster_id": 392,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-1992",
-      "representative_posted_date": "2026-04-08T04:00:00Z",
-      "representative_length": 1246,
-      "representative_excerpt": "As an American citizen, taxpayer, voter, and someone who values life in all its forms, I am disturbed and enraged that The National Park Service is proposing a new rule that allows for cruel and grossly unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. This rule, by essentially turning...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-1992": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Paula Grande",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-1653": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Tracy Callow",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5882747574860367
-    },
-    {
-      "cluster_id": 353,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-2209",
-      "representative_posted_date": "2026-04-08T04:00:00Z",
-      "representative_length": 2663,
-      "representative_excerpt": "The wildlife and wildlands in National Parks and Preserves in Alaska, including on eight million acres of Wilderness, are of world significance. They belong to every American, not just to trophy hunters or the State of Alaska, which wants to turn our wild public lands in Alaska into game farms. Congress set aside these public lands to maintain fish and wildl...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-2209": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Deborah Warren",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-2022": {
-          "organization": "",
-          "postedDate": "2026-04-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Daniel Grassi",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5882747574860367
-    },
-    {
-      "cluster_id": 541,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0360",
-      "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 3217,
-      "representative_excerpt": "I oppose the National Park Service proposal that would rescind wildlife protection rules governing hunting practices in Alaska\u2019s national preserves. In particular, I strongly oppose allowing bear baiting on lands managed by the National Park Service. Bear baiting involves placing piles of human food in the environment to lure bears to predictable locations w...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0360": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Susan Patel",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5837121167699533
-    },
-    {
-      "cluster_id": 511,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0684",
-      "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 1219,
-      "representative_excerpt": "Stop opening Alaska\u2019s national preserves to bear baiting to appease hunters WHY STOPPING THIS MATTERS \u2022Bait stations are basically \u201cfeeding the bears\u201d\u2014exactly what we don\u2019t want to see in parks because bears become food conditioned. Bear baiting is a particularly harmful activity for wildlife, natural ecosystems and national park visitors. A 2024 scientific ...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0684": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5837121167699533
-    },
-    {
-      "cluster_id": 508,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0695",
-      "representative_posted_date": "2026-03-31T04:00:00Z",
-      "representative_length": 1223,
-      "representative_excerpt": "I am horrified by the proposal to allow hunting and trapping in our national preserves, esp. bear baiting. Bait stations are basically \u201cfeeding the bears\u201d\u2014exactly what we don\u2019t want to see in parks because bears become food conditioned. Bear baiting is a particularly harmful activity for wildlife, natural ecosystems and national park visitors. A 2024 scienti...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0695": {
-          "organization": "",
-          "postedDate": "2026-03-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Marie Marinakis",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5837121167699533
-    },
-    {
-      "cluster_id": 571,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0290",
-      "representative_posted_date": "2026-03-16T04:00Z",
-      "representative_length": 845,
-      "representative_excerpt": "I fully support the new National Park Service (NPS) proposal that would restore Alaska\u2019s longstanding, state\u2011led wildlife\u2011management system on national preserves. The proposed rule would reverse the 2015, 2017, and 2024 regulations and realign federal policy with the framework established under the Alaska National Interest Lands Conservation Act (ANILCA). I ...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0290": {
-          "organization": "",
-          "postedDate": "2026-03-16T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5431715762294127
-    },
-    {
-      "cluster_id": 641,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0031",
-      "representative_posted_date": "2026-03-11T04:00Z",
-      "representative_length": 3143,
-      "representative_excerpt": "My name is Fiona MacLean and I am a supporter of Alaska's national preserves. This proposed rule would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska, whose predator reduction philosophy is incompatible with the National Park Service's Organic Act mandate to conserve wildlife in its nat...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0031": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Fiona MacLean",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5296580627158992
-    },
-    {
-      "cluster_id": 639,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-0035",
-      "representative_posted_date": "2026-03-12T04:00Z",
-      "representative_length": 2011,
-      "representative_excerpt": "I am a lover and visitor of Alaska's national preserves. This proposed rule would roll back wildlife protections established in 2015 and 2017 and return management authority back to the State of Alaska, whose predator reduction philosophy is incompatible with the National Park Service's Organic Act mandate to conserve wildlife in its natural state. I am part...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-0035": {
-          "organization": "",
-          "postedDate": "2026-03-12T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Abby Stratton",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "NPS-2026-0034-0030": {
-          "organization": "",
-          "postedDate": "2026-03-11T04:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5153017845130637
-    },
-    {
-      "cluster_id": 16,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4346",
@@ -2272,7 +2368,7 @@
       "presentation_score": 0.4963247293825659
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4359",
@@ -2308,7 +2404,7 @@
       "presentation_score": 0.4963247293825659
     },
     {
-      "cluster_id": 504,
+      "cluster_id": 507,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0732",
@@ -2404,7 +2500,7 @@
       "presentation_score": 0.4892980220472389
     },
     {
-      "cluster_id": 117,
+      "cluster_id": 121,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4156",
@@ -2440,7 +2536,7 @@
       "presentation_score": 0.4882166212744578
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4194",
@@ -2476,7 +2572,7 @@
       "presentation_score": 0.4882166212744578
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4199",
@@ -2512,7 +2608,7 @@
       "presentation_score": 0.4882166212744578
     },
     {
-      "cluster_id": 159,
+      "cluster_id": 163,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4063",
@@ -2548,7 +2644,7 @@
       "presentation_score": 0.4828112158690524
     },
     {
-      "cluster_id": 134,
+      "cluster_id": 138,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4125",
@@ -2584,7 +2680,7 @@
       "presentation_score": 0.4828112158690524
     },
     {
-      "cluster_id": 128,
+      "cluster_id": 132,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4136",
@@ -2620,7 +2716,7 @@
       "presentation_score": 0.4828112158690524
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4352",
@@ -2722,7 +2818,7 @@
       "presentation_score": 0.47926574847702774
     },
     {
-      "cluster_id": 299,
+      "cluster_id": 302,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3106",
@@ -2758,7 +2854,7 @@
       "presentation_score": 0.477405810463647
     },
     {
-      "cluster_id": 272,
+      "cluster_id": 275,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3220",
@@ -2794,7 +2890,7 @@
       "presentation_score": 0.477405810463647
     },
     {
-      "cluster_id": 244,
+      "cluster_id": 247,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3353",
@@ -2830,7 +2926,7 @@
       "presentation_score": 0.477405810463647
     },
     {
-      "cluster_id": 228,
+      "cluster_id": 232,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3453",
@@ -2866,7 +2962,7 @@
       "presentation_score": 0.477405810463647
     },
     {
-      "cluster_id": 215,
+      "cluster_id": 219,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3501",
@@ -2902,7 +2998,7 @@
       "presentation_score": 0.477405810463647
     },
     {
-      "cluster_id": 344,
+      "cluster_id": 348,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2403",
@@ -2938,7 +3034,7 @@
       "presentation_score": 0.47470310776094427
     },
     {
-      "cluster_id": 317,
+      "cluster_id": 321,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2672",
@@ -2974,7 +3070,7 @@
       "presentation_score": 0.47470310776094427
     },
     {
-      "cluster_id": 438,
+      "cluster_id": 441,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-1710",
@@ -3010,7 +3106,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 424,
+      "cluster_id": 427,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-1783",
@@ -3046,7 +3142,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 415,
+      "cluster_id": 418,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-1828",
@@ -3082,7 +3178,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 397,
+      "cluster_id": 400,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-1966",
@@ -3118,7 +3214,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 389,
+      "cluster_id": 392,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2024",
@@ -3154,7 +3250,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 388,
+      "cluster_id": 391,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2029",
@@ -3190,7 +3286,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 381,
+      "cluster_id": 385,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2063",
@@ -3226,7 +3322,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 358,
+      "cluster_id": 362,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2166",
@@ -3262,7 +3358,7 @@
       "presentation_score": 0.4720004050582416
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 96,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4220",
@@ -3313,7 +3409,7 @@
       "presentation_score": 0.4711576403689196
     },
     {
-      "cluster_id": 162,
+      "cluster_id": 166,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4057",
@@ -3364,7 +3460,7 @@
       "presentation_score": 0.4657522349635142
     },
     {
-      "cluster_id": 153,
+      "cluster_id": 157,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4072",
@@ -3415,7 +3511,7 @@
       "presentation_score": 0.4657522349635142
     },
     {
-      "cluster_id": 219,
+      "cluster_id": 223,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3493",
@@ -3466,7 +3562,7 @@
       "presentation_score": 0.4603468295581088
     },
     {
-      "cluster_id": 494,
+      "cluster_id": 497,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0751",
@@ -3502,7 +3598,7 @@
       "presentation_score": 0.4557841888420254
     },
     {
-      "cluster_id": 515,
+      "cluster_id": 518,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0638",
@@ -3538,7 +3634,7 @@
       "presentation_score": 0.45037878343661997
     },
     {
-      "cluster_id": 497,
+      "cluster_id": 500,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0746",
@@ -3589,7 +3685,7 @@
       "presentation_score": 0.4360225052337845
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 39,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4322",
@@ -3655,7 +3751,7 @@
       "presentation_score": 0.4334692687602716
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 64,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4288",
@@ -3721,7 +3817,7 @@
       "presentation_score": 0.4307665660575689
     },
     {
-      "cluster_id": 256,
+      "cluster_id": 259,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3312",
@@ -3787,7 +3883,7 @@
       "presentation_score": 0.41725305254405537
     },
     {
-      "cluster_id": 194,
+      "cluster_id": 198,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3663",
@@ -3853,7 +3949,7 @@
       "presentation_score": 0.41725305254405537
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4345",
@@ -3889,7 +3985,7 @@
       "presentation_score": 0.4129913960492326
     },
     {
-      "cluster_id": 565,
+      "cluster_id": 568,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0302",
@@ -3925,7 +4021,7 @@
       "presentation_score": 0.4125409455987821
     },
     {
-      "cluster_id": 568,
+      "cluster_id": 571,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0307",
@@ -3961,7 +4057,7 @@
       "presentation_score": 0.4125409455987821
     },
     {
-      "cluster_id": 369,
+      "cluster_id": 373,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2119",
@@ -4027,7 +4123,7 @@
       "presentation_score": 0.41184764713864996
     },
     {
-      "cluster_id": 616,
+      "cluster_id": 619,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0095",
@@ -4063,7 +4159,7 @@
       "presentation_score": 0.4098382428960794
     },
     {
-      "cluster_id": 613,
+      "cluster_id": 616,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0105",
@@ -4099,7 +4195,7 @@
       "presentation_score": 0.4098382428960794
     },
     {
-      "cluster_id": 601,
+      "cluster_id": 604,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0173",
@@ -4231,7 +4327,7 @@
       "presentation_score": 0.40191063465985155
     },
     {
-      "cluster_id": 632,
+      "cluster_id": 635,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0042",
@@ -4267,7 +4363,7 @@
       "presentation_score": 0.4017301347879713
     },
     {
-      "cluster_id": 646,
+      "cluster_id": 649,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0017",
@@ -4303,7 +4399,7 @@
       "presentation_score": 0.3963247293825659
     },
     {
-      "cluster_id": 645,
+      "cluster_id": 648,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0019",
@@ -4339,7 +4435,7 @@
       "presentation_score": 0.3963247293825659
     },
     {
-      "cluster_id": 598,
+      "cluster_id": 601,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0189",
@@ -4390,7 +4486,7 @@
       "presentation_score": 0.3927792619905412
     },
     {
-      "cluster_id": 527,
+      "cluster_id": 530,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0559",
@@ -4456,7 +4552,7 @@
       "presentation_score": 0.39022602551702834
     },
     {
-      "cluster_id": 356,
+      "cluster_id": 360,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2195",
@@ -4492,7 +4588,7 @@
       "presentation_score": 0.3886670717249083
     },
     {
-      "cluster_id": 295,
+      "cluster_id": 298,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3127",
@@ -4588,7 +4684,7 @@
       "presentation_score": 0.3829917157409326
     },
     {
-      "cluster_id": 318,
+      "cluster_id": 322,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-2669",
@@ -4684,7 +4780,7 @@
       "presentation_score": 0.38028901303822993
     },
     {
-      "cluster_id": 265,
+      "cluster_id": 268,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3249",
@@ -4735,7 +4831,103 @@
       "presentation_score": 0.3770134962247755
     },
     {
-      "cluster_id": 516,
+      "cluster_id": 137,
+      "count": 7,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4128",
+      "representative_posted_date": "2026-04-12T04:00:00Z",
+      "representative_length": 1712,
+      "representative_excerpt": "Please, no new cruel rules and unethical hunting practices on America\u2019s National Preserves in Alaska, including on over eight million acres of Wilderness. We must preserve million acres of the most iconic wild places left in America, including Gates of the Arctic, Denali, Wrangell-St. Elias, and Katmai National Park and preserve, a world-renowned gathering s...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-1590": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Leslie Burpo",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-1834": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kurt Jirka",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-1881": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Andy Middleton",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-2067": {
+          "organization": "",
+          "postedDate": "2026-04-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "NPS-2026-0034-2715": {
+          "organization": "",
+          "postedDate": "2026-04-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from MONICA LEMKOWITZ",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3744164096903833
+    },
+    {
+      "cluster_id": 519,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0625",
@@ -4771,7 +4963,7 @@
       "presentation_score": 0.36704545010328665
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4334",
@@ -4807,7 +4999,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4335",
@@ -4843,7 +5035,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4336",
@@ -4879,7 +5071,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4340",
@@ -4915,7 +5107,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4342",
@@ -4951,7 +5143,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4343",
@@ -4987,7 +5179,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4349",
@@ -5023,7 +5215,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4353",
@@ -5059,7 +5251,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4358",
@@ -5095,7 +5287,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4360",
@@ -5131,7 +5323,7 @@
       "presentation_score": 0.3629913960492326
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4293",
@@ -5167,7 +5359,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4294",
@@ -5203,7 +5395,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4295",
@@ -5239,7 +5431,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4298",
@@ -5275,7 +5467,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4301",
@@ -5311,7 +5503,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4302",
@@ -5347,7 +5539,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4303",
@@ -5383,7 +5575,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4304",
@@ -5419,7 +5611,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4305",
@@ -5455,7 +5647,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4309",
@@ -5491,7 +5683,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4313",
@@ -5527,7 +5719,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4314",
@@ -5563,7 +5755,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4318",
@@ -5599,7 +5791,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4319",
@@ -5635,7 +5827,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4327",
@@ -5671,7 +5863,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4329",
@@ -5707,7 +5899,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4330",
@@ -5743,7 +5935,7 @@
       "presentation_score": 0.3602886933465299
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4282",
@@ -5779,7 +5971,7 @@
       "presentation_score": 0.35758599064382723
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4284",
@@ -5815,43 +6007,7 @@
       "presentation_score": 0.35758599064382723
     },
     {
-      "cluster_id": 59,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4289",
-      "representative_posted_date": "2026-04-15T04:00:00Z",
-      "representative_length": 382,
-      "representative_excerpt": "The Department of the Interior is seeking to make legal the practice of bear baiting across 20 million acres of National Park Service lands in Alaska. This practice \u2014 luring black bears and grizzly bears with piles of food so they can be shot in the back with their head in a barrel \u2014 is reckless, unsporting, and fundamentally at odds with the mission of the ...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4289": {
-          "organization": "",
-          "postedDate": "2026-04-15T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from jennie  corona",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35758599064382723
-    },
-    {
-      "cluster_id": 58,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4292",
@@ -5887,7 +6043,7 @@
       "presentation_score": 0.35758599064382723
     },
     {
-      "cluster_id": 534,
+      "cluster_id": 537,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0516",
@@ -5983,7 +6139,7 @@
       "presentation_score": 0.3559646887139056
     },
     {
-      "cluster_id": 122,
+      "cluster_id": 126,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4147",
@@ -6019,7 +6175,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 116,
+      "cluster_id": 120,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4157",
@@ -6055,7 +6211,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 115,
+      "cluster_id": 119,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4162",
@@ -6091,7 +6247,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 117,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4169",
@@ -6127,7 +6283,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4180",
@@ -6163,7 +6319,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4191",
@@ -6199,7 +6355,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4192",
@@ -6235,7 +6391,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4193",
@@ -6271,7 +6427,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4207",
@@ -6307,7 +6463,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4210",
@@ -6343,43 +6499,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 93,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4212",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 215,
-      "representative_excerpt": "luring black bears and grizzly bears with piles of food so they can be shot in the back with their head in a barrel \u2014 is reckless, unsporting, and fundamentally at odds with the mission of the National Park Service.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4212": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Stacey Birkby",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3548832879411245
-    },
-    {
-      "cluster_id": 92,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4218",
@@ -6415,7 +6535,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4221",
@@ -6451,7 +6571,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4222",
@@ -6487,7 +6607,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4227",
@@ -6523,7 +6643,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4228",
@@ -6562,42 +6682,6 @@
       "cluster_id": 86,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "NPS-2026-0034-4229",
-      "representative_posted_date": "2026-04-14T04:00:00Z",
-      "representative_length": 291,
-      "representative_excerpt": "Allowing baiting in or near national preserves does more than endanger individual animals. It distorts natural wildlife behavior, increases the risk of dangerous bear-human interactions, and undermines the ecological integrity of some of our most treasured public lands. SHAME. SHAME. SHAME.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0034-4229": {
-          "organization": "",
-          "postedDate": "2026-04-14T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-04606",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3548832879411245
-    },
-    {
-      "cluster_id": 81,
-      "count": 1,
-      "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4242",
       "representative_posted_date": "2026-04-14T04:00:00Z",
       "representative_length": 241,
@@ -6631,7 +6715,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4245",
@@ -6667,7 +6751,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4247",
@@ -6703,7 +6787,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4249",
@@ -6739,7 +6823,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4258",
@@ -6775,7 +6859,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4261",
@@ -6811,7 +6895,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4268",
@@ -6847,7 +6931,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4269",
@@ -6883,7 +6967,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4273",
@@ -6919,7 +7003,7 @@
       "presentation_score": 0.3548832879411245
     },
     {
-      "cluster_id": 495,
+      "cluster_id": 498,
       "count": 6,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-0750",
@@ -7015,7 +7099,7 @@
       "presentation_score": 0.3530896697522597
     },
     {
-      "cluster_id": 185,
+      "cluster_id": 189,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3999",
@@ -7051,7 +7135,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 184,
+      "cluster_id": 188,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4003",
@@ -7087,7 +7171,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 183,
+      "cluster_id": 187,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4007",
@@ -7123,7 +7207,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 182,
+      "cluster_id": 186,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4010",
@@ -7159,7 +7243,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 181,
+      "cluster_id": 185,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4011",
@@ -7195,7 +7279,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 180,
+      "cluster_id": 184,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4013",
@@ -7231,7 +7315,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 179,
+      "cluster_id": 183,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4014",
@@ -7267,7 +7351,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 178,
+      "cluster_id": 182,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4015",
@@ -7303,7 +7387,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 177,
+      "cluster_id": 181,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4017",
@@ -7339,7 +7423,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 176,
+      "cluster_id": 180,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4020",
@@ -7375,7 +7459,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 174,
+      "cluster_id": 178,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4026",
@@ -7411,7 +7495,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 173,
+      "cluster_id": 177,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4027",
@@ -7447,7 +7531,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 172,
+      "cluster_id": 176,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4033",
@@ -7483,7 +7567,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 170,
+      "cluster_id": 174,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4039",
@@ -7519,7 +7603,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 168,
+      "cluster_id": 172,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4045",
@@ -7555,7 +7639,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 167,
+      "cluster_id": 171,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4048",
@@ -7591,7 +7675,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 166,
+      "cluster_id": 170,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4049",
@@ -7627,7 +7711,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 165,
+      "cluster_id": 169,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4051",
@@ -7663,7 +7747,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 164,
+      "cluster_id": 168,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4055",
@@ -7699,7 +7783,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 160,
+      "cluster_id": 164,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4060",
@@ -7735,7 +7819,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 158,
+      "cluster_id": 162,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4066",
@@ -7771,7 +7855,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 157,
+      "cluster_id": 161,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4067",
@@ -7807,7 +7891,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 156,
+      "cluster_id": 160,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4068",
@@ -7843,7 +7927,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 155,
+      "cluster_id": 159,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4069",
@@ -7879,7 +7963,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 154,
+      "cluster_id": 158,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4070",
@@ -7915,7 +7999,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 152,
+      "cluster_id": 156,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4075",
@@ -7951,7 +8035,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 151,
+      "cluster_id": 155,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4076",
@@ -7987,7 +8071,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 149,
+      "cluster_id": 153,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4080",
@@ -8023,7 +8107,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 148,
+      "cluster_id": 152,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4081",
@@ -8059,7 +8143,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 145,
+      "cluster_id": 149,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4088",
@@ -8095,7 +8179,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 144,
+      "cluster_id": 148,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4089",
@@ -8131,7 +8215,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 143,
+      "cluster_id": 147,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4096",
@@ -8167,7 +8251,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 141,
+      "cluster_id": 145,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4101",
@@ -8203,7 +8287,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 140,
+      "cluster_id": 144,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4104",
@@ -8239,7 +8323,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 139,
+      "cluster_id": 143,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4106",
@@ -8275,7 +8359,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 138,
+      "cluster_id": 142,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4107",
@@ -8311,7 +8395,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 137,
+      "cluster_id": 141,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4113",
@@ -8347,7 +8431,43 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 135,
+      "cluster_id": 140,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0034-4119",
+      "representative_posted_date": "2026-04-12T04:00:00Z",
+      "representative_length": 295,
+      "representative_excerpt": "Using food to entice a hungry animal is as much sport and putting candy bars outside a kindergarten school and shooting the children when they come to get them, this is a sick disgusting way of murdering animals for sick and depraved people, please do not approve and condone this type of thing.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0034-4119": {
+          "organization": "",
+          "postedDate": "2026-04-12T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-04606",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3494778825357191
+    },
+    {
+      "cluster_id": 139,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4124",
@@ -8383,7 +8503,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 131,
+      "cluster_id": 135,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4131",
@@ -8419,7 +8539,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 129,
+      "cluster_id": 133,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4134",
@@ -8455,7 +8575,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 124,
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4143",
@@ -8491,7 +8611,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 123,
+      "cluster_id": 127,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-4145",
@@ -8527,7 +8647,7 @@
       "presentation_score": 0.3494778825357191
     },
     {
-      "cluster_id": 308,
+      "cluster_id": 311,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3074",
@@ -8563,7 +8683,7 @@
       "presentation_score": 0.3440724771303137
     },
     {
-      "cluster_id": 307,
+      "cluster_id": 310,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3079",
@@ -8599,7 +8719,7 @@
       "presentation_score": 0.3440724771303137
     },
     {
-      "cluster_id": 305,
+      "cluster_id": 308,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3083",
@@ -8635,7 +8755,7 @@
       "presentation_score": 0.3440724771303137
     },
     {
-      "cluster_id": 304,
+      "cluster_id": 307,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3088",
@@ -8671,7 +8791,7 @@
       "presentation_score": 0.3440724771303137
     },
     {
-      "cluster_id": 303,
+      "cluster_id": 306,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3093",
@@ -8707,7 +8827,7 @@
       "presentation_score": 0.3440724771303137
     },
     {
-      "cluster_id": 302,
+      "cluster_id": 305,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0034-3100",
@@ -8748,16 +8868,16 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.6743185078909613,
-  "comments_first_page_coverage_count": 470,
+  "comments_first_page_coverage_share": 0.6739130434782609,
+  "comments_first_page_coverage_count": 496,
   "comments_clusters_total_available": 200,
   "comments_clusters_displayed": 200,
   "comments_first_page_high_signal_clusters": 7,
   "comments_first_page_novelty_clusters": 5,
   "comments_first_page_stance_counts": {
-    "negative": 21,
+    "negative": 20,
     "positive": 1,
-    "neutral": 3
+    "neutral": 4
   },
   "comments_first_page_unique_days": 13,
   "summary_available": true,
