@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-01T07:06:10.551637+00:00",
+  "comment_action_checked_at": "2026-05-04T10:00:29.178712+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -58,7 +58,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/02/24/2026-03633.html"
   ],
   "supporting_related_material_count": 77,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "500 Server Error: Internal Server Error for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=EPA-HQ-OLEM-2025-0313&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1; used_stale_cache",
   "supporting_related_material": [
     {
       "document_id": "EPA-HQ-OLEM-2025-0313-0133",
@@ -2968,8 +2968,8 @@
   "comments_total": 120,
   "comments_velocity_total": 114,
   "comments_public_total_estimate": 114,
-  "comments_fetched": 2,
-  "comments_text_hydrated": 2,
+  "comments_fetched": 0,
+  "comments_text_hydrated": 0,
   "comments_cached_records": 120,
   "comments_unique_clusters": 107,
   "comments_clustered_duplicates": 11,
@@ -3061,9 +3061,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-01T06:04:52.555470+00:00",
-  "comments_checked_at": "2026-05-01T06:04:53.149985+00:00",
-  "comments_error": null,
+  "comments_api_last_seen_at": "2026-05-02T05:01:20.878739+00:00",
+  "comments_checked_at": "2026-05-02T05:01:36.353352+00:00",
+  "comments_error": "500 Server Error: Internal Server Error for url: https://api.regulations.gov/v4/comments?filter%5BcommentOnId%5D=09000064b91d57ae&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1; used_stale_cache",
   "comments_clusters": [
     {
       "cluster_id": 2,
