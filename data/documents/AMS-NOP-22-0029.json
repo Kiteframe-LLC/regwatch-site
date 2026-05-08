@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-05T00:27:19.520817+00:00",
+  "comment_action_checked_at": "2026-05-08T14:57:19.228587+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-23T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 0.6,
+  "pass_3_score": 0.5869565217391305,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.09516258196404037,
+  "pass_3_scaled": 0.09319340446392954,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.37158645771672844,
+  "combined_score": 0.370601868966673,
   "score_total": 10,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/23/2026-05598.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "500 Server Error: Internal Server Error for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=AMS-NOP-22-0029&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -63,34 +63,35 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 24,
-  "comments_velocity_total": 24,
-  "comments_public_total_estimate": 24,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 24,
-  "comments_unique_clusters": 23,
+  "comments_total": 27,
+  "comments_velocity_total": 27,
+  "comments_public_total_estimate": 27,
+  "comments_fetched": 3,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 27,
+  "comments_unique_clusters": 24,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 15,
+  "comments_citizen_count": 17,
   "comments_commenter_type_counts": {
-    "organization_other": 9,
-    "citizen": 15
+    "citizen": 17,
+    "organization_other": 10
   },
   "comments_submission_role_counts": {
-    "organization": 5,
-    "individual": 19
+    "individual": 22,
+    "organization": 5
   },
   "comments_submission_channel_counts": {
-    "public_portal": 24
+    "public_portal": 27
   },
-  "comments_public_count": 24,
+  "comments_public_count": 27,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-06": 3,
     "2026-04-28": 7,
     "2026-04-21": 3,
     "2026-04-09": 1,
@@ -105,40 +106,40 @@
     "2026-03-26": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.17391304347826086,
-  "comments_sentiment_negative_pct": 0.17391304347826086,
-  "comments_sentiment_neutral_pct": 0.6521739130434783,
+  "comments_sentiment_positive_pct": 0.16666666666666669,
+  "comments_sentiment_negative_pct": 0.16666666666666669,
+  "comments_sentiment_neutral_pct": 0.6666666666666667,
   "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 23,
+  "comments_sentiment_sample_size": 24,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 23,
+  "comments_analysis_sample_size": 24,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 23,
-  "comments_representative_prior_selected": 23,
+  "comments_representative_selected": 24,
+  "comments_representative_prior_selected": 24,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 12,
+  "comments_representative_must_keep": 13,
   "comments_representative_run_budget": 1,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 12,
+    "must_keep": 13,
     "salience_rank": 2,
     "weighted_fill": 9
   },
-  "comments_representative_selected_by_counts_total": 23,
+  "comments_representative_selected_by_counts_total": 24,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-01T05:19:55.311556+00:00",
-  "comments_checked_at": "2026-05-01T05:19:55.422053+00:00",
-  "comments_error": "500 Server Error: Internal Server Error for url: https://api.regulations.gov/v4/comments?filter%5BcommentOnId%5D=09000064b922c25d&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1; used_stale_cache",
+  "comments_api_last_seen_at": "2026-05-07T14:58:09.110111+00:00",
+  "comments_checked_at": "2026-05-07T14:58:09.205874+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 23,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0002",
@@ -174,7 +175,7 @@
       "presentation_score": 0.9000000000000001
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0009",
@@ -207,10 +208,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7318181818181817
+      "presentation_score": 0.7288617886178861
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0020",
@@ -243,10 +244,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8166666666666665
+      "presentation_score": 0.7971544715447154
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0006",
@@ -279,10 +280,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5954545454545453
+      "presentation_score": 0.5930894308943089
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0015",
@@ -315,10 +316,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6257575757575757
+      "presentation_score": 0.6174796747967479
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0016",
@@ -351,10 +352,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6621212121212121
+      "presentation_score": 0.6467479674796748
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0021",
@@ -387,10 +388,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.6638211382113821
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0022",
@@ -423,10 +424,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7333333333333333
+      "presentation_score": 0.7138211382113822
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0023",
@@ -459,10 +460,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6000000000000001
+      "presentation_score": 0.5804878048780489
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0024",
@@ -495,10 +496,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6000000000000001
+      "presentation_score": 0.5804878048780489
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0025",
@@ -531,10 +532,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6000000000000001
+      "presentation_score": 0.5804878048780489
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0017",
@@ -567,10 +568,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5287878787878788
+      "presentation_score": 0.5134146341463415
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-NOP-22-0029-0026",
+      "representative_posted_date": "2026-05-06T04:00:00Z",
+      "representative_length": 33,
+      "representative_excerpt": "Comment from Handsome Brook Farms",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-NOP-22-0029-0026": {
+          "organization": "Handsome Brook Farms",
+          "postedDate": "2026-05-06T04:00:00Z",
+          "zip": "",
+          "city": "New York",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Handsome Brook Farms",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4666666666666666
+    },
+    {
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0007",
@@ -603,10 +640,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46212121212121215
+      "presentation_score": 0.45975609756097563
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0008",
@@ -639,10 +676,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46212121212121215
+      "presentation_score": 0.45975609756097563
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0003",
@@ -678,7 +715,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0018",
@@ -711,46 +748,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.44545454545454544
+      "presentation_score": 0.4300813008130081
     },
     {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "AMS-NOP-22-0029-0019",
-      "representative_posted_date": "2026-04-28T04:00:00Z",
-      "representative_length": 28,
-      "representative_excerpt": "Comment from Harman, Anthony",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "AMS-NOP-22-0029-0019": {
-          "organization": "",
-          "postedDate": "2026-04-28T04:00:00Z",
-          "zip": "",
-          "city": "Rogers",
-          "stateProvinceRegion": "AR",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Harman, Anthony",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
-    },
-    {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0014",
@@ -783,10 +784,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.40606060606060607
+      "presentation_score": 0.39837398373983735
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0013",
@@ -819,10 +820,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.39999999999999997
+      "presentation_score": 0.3934959349593496
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0004",
@@ -858,7 +859,43 @@
       "presentation_score": 0.36666666666666664
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "AMS-NOP-22-0029-0019",
+      "representative_posted_date": "2026-04-28T04:00:00Z",
+      "representative_length": 28,
+      "representative_excerpt": "Comment from Harman, Anthony",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "AMS-NOP-22-0029-0019": {
+          "organization": "",
+          "postedDate": "2026-04-28T04:00:00Z",
+          "zip": "",
+          "city": "Rogers",
+          "stateProvinceRegion": "AR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Harman, Anthony",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.39715447154471545
+    },
+    {
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0012",
@@ -891,10 +928,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3378787878787879
+      "presentation_score": 0.333739837398374
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0010",
@@ -927,10 +964,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3318181818181818
+      "presentation_score": 0.3288617886178862
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "AMS-NOP-22-0029-0011",
@@ -963,26 +1000,26 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3318181818181818
+      "presentation_score": 0.3288617886178862
     }
   ],
   "comments_clusters_path": "data/comments/AMS-NOP-22-0029.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 23,
+  "comments_first_page_count": 24,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 23,
-  "comments_clusters_total_available": 23,
-  "comments_clusters_displayed": 23,
+  "comments_first_page_coverage_count": 24,
+  "comments_clusters_total_available": 24,
+  "comments_clusters_displayed": 24,
   "comments_first_page_high_signal_clusters": 1,
-  "comments_first_page_novelty_clusters": 9,
+  "comments_first_page_novelty_clusters": 10,
   "comments_first_page_stance_counts": {
     "negative": 4,
     "positive": 4,
-    "neutral": 15
+    "neutral": 16
   },
-  "comments_first_page_unique_days": 9,
+  "comments_first_page_unique_days": 10,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "AMS-NOP-22-0029"

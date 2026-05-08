@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-05T00:27:16.337806+00:00",
+  "comment_action_checked_at": "2026-05-08T14:57:18.084352+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-02T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 2,
-  "pass_3_score": 4.24,
+  "pass_3_score": 1.1290322580645162,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.5067142541534744,
+  "pass_3_scaled": 0.17152783787400938,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5963069640111291,
+  "combined_score": 0.42871375587139665,
   "score_total": 13,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -54,7 +54,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/04/07/2026-06675.html"
   ],
   "supporting_related_material_count": 1,
-  "supporting_docs_error": "500 Server Error: Internal Server Error for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=CMS-2026-1123&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1; used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "CMS-2026-1123-0001",
@@ -84,36 +84,38 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 31,
-  "comments_velocity_total": 31,
-  "comments_public_total_estimate": 31,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 31,
-  "comments_unique_clusters": 30,
+  "comments_total": 35,
+  "comments_velocity_total": 35,
+  "comments_public_total_estimate": 35,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 35,
+  "comments_unique_clusters": 34,
   "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 6,
+  "comments_citizen_count": 7,
   "comments_commenter_type_counts": {
-    "other": 24,
-    "citizen": 6,
-    "organization_other": 1
+    "other": 26,
+    "citizen": 7,
+    "organization_other": 2
   },
   "comments_submission_role_counts": {
-    "unknown": 24,
-    "individual": 6,
-    "organization": 1
+    "unknown": 26,
+    "individual": 7,
+    "organization": 2
   },
   "comments_submission_channel_counts": {
-    "public_portal": 31
+    "public_portal": 35
   },
-  "comments_public_count": 31,
+  "comments_public_count": 35,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-06": 1,
+    "2026-05-04": 3,
     "2026-04-21": 1,
     "2026-04-15": 1,
     "2026-04-13": 6,
@@ -121,44 +123,45 @@
     "2026-04-07": 3
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-05-06": 1,
     "2026-04-13": 1,
     "2026-04-09": 1
   },
-  "comments_novel_comment_rate": 0.967741935483871,
-  "comments_sentiment_positive_pct": 0.13078322394234373,
-  "comments_sentiment_negative_pct": 0.0980874179567578,
-  "comments_sentiment_neutral_pct": 0.7711293581008986,
-  "comments_sentiment_net": 0.03269580598558594,
-  "comments_sentiment_sample_size": 31,
+  "comments_novel_comment_rate": 0.9714285714285714,
+  "comments_sentiment_positive_pct": 0.1156572021703535,
+  "comments_sentiment_negative_pct": 0.08674290162776511,
+  "comments_sentiment_neutral_pct": 0.7975998962018814,
+  "comments_sentiment_net": 0.02891430054258838,
+  "comments_sentiment_sample_size": 35,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 31,
+  "comments_analysis_sample_size": 35,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 31,
-  "comments_representative_prior_selected": 31,
+  "comments_representative_selected": 35,
+  "comments_representative_prior_selected": 35,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 1,
+  "comments_representative_must_keep": 3,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 1,
+    "must_keep": 3,
     "salience_rank": 1,
-    "weighted_fill": 29
+    "weighted_fill": 31
   },
-  "comments_representative_selected_by_counts_total": 31,
+  "comments_representative_selected_by_counts_total": 35,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-01T05:38:47.528893+00:00",
-  "comments_checked_at": "2026-05-01T05:38:47.719240+00:00",
-  "comments_error": "500 Server Error: Internal Server Error for url: https://api.regulations.gov/v4/comments?filter%5BcommentOnId%5D=09000064b9256d2e&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1; used_stale_cache",
+  "comments_api_last_seen_at": "2026-05-07T15:16:53.818350+00:00",
+  "comments_checked_at": "2026-05-07T15:16:54.034291+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 13,
+      "cluster_id": 17,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0021",
@@ -206,10 +209,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4418455209424237
+      "presentation_score": 0.43445635838084734
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0018",
@@ -242,10 +245,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8057070705230238
+      "presentation_score": 0.7983179079614475
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0029",
@@ -278,10 +281,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8342784990944524
+      "presentation_score": 0.8121110114097234
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1123-0037",
+      "representative_posted_date": "2026-05-06T04:00:00Z",
+      "representative_length": 3738,
+      "representative_excerpt": "I would like to start with that the provision while is a good first step in addressing the consistency of services that those in IPFs receive, it is still flawed. While it is beneficial to reduce redundant data, cutting SUB-2/2a & TOB-3/3a measures from the IPFQRP will introduce diagnostic upcoding, the process of which inpatient providers report more severe...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1123-0037": {
+          "organization": "",
+          "postedDate": "2026-05-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1123-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0004",
@@ -317,7 +356,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0014",
@@ -350,10 +389,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6723737371896903
+      "presentation_score": 0.664984574628114
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0017",
@@ -386,10 +425,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6723737371896903
+      "presentation_score": 0.664984574628114
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0023",
@@ -422,16 +461,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6723737371896903
+      "presentation_score": 0.664984574628114
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-1123-0024",
-      "representative_posted_date": "2026-04-09T04:00:00Z",
-      "representative_length": 2364,
-      "representative_excerpt": "I am a college student with an interest in public health, particularly mental health access and equity. This issue is important to me because mental health services are often underfunded and difficult to access, especially for vulnerable populations. This proposed rule outlines updates to payment rates, wage index adjustments, outlier thresholds, and changes...",
+      "representative_comment_id": "CMS-2026-1123-0034",
+      "representative_posted_date": "2026-05-04T04:00:00Z",
+      "representative_length": 722,
+      "representative_excerpt": "On the demographics portion, you mention required SS#. Several times I have patients that do not know their SS#'s or simply they do not have one. Is there an another option to proceed if you cannot fill in? You mention performing an admit and DC assessment. What if they are within in the same 1-3 day range? Are we having to file both or is there an option as...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -440,9 +479,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-1123-0024": {
-          "organization": "",
-          "postedDate": "2026-04-09T04:00:00Z",
+        "CMS-2026-1123-0034": {
+          "organization": "Spencer Hospital",
+          "postedDate": "2026-05-04T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -450,54 +489,18 @@
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-1123-0002",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6723737371896903
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8011914711798381
     },
     {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-1123-0033",
-      "representative_posted_date": "2026-04-21T04:00:00Z",
-      "representative_length": 1791,
-      "representative_excerpt": "I am writing in support of the following removal of SUB2/2a and TOB3/3a for the reasons recognized by CMS cost vs. benefit. IV. Inpatient Psychiatric Facility Quality Reporting Program B. Quality Measures in the IPF Quality Reporting Program 1. Proposed Removal of the Alcohol Use Brief Intervention Provided or Offered and Alcohol Use Brief Intervention (SUB-...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-1123-0033": {
-          "organization": "",
-          "postedDate": "2026-04-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-1123-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
-    },
-    {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0027",
@@ -530,10 +533,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7509451657611189
+      "presentation_score": 0.7287776780763899
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1123-0033",
+      "representative_posted_date": "2026-04-21T04:00:00Z",
+      "representative_length": 1791,
+      "representative_excerpt": "I am writing in support of the following removal of SUB2/2a and TOB3/3a for the reasons recognized by CMS cost vs. benefit. IV. Inpatient Psychiatric Facility Quality Reporting Program B. Quality Measures in the IPF Quality Reporting Program 1. Proposed Removal of the Alcohol Use Brief Intervention Provided or Offered and Alcohol Use Brief Intervention (SUB-...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1123-0033": {
+          "organization": "",
+          "postedDate": "2026-04-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1123-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7063638849729416
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1123-0024",
+      "representative_posted_date": "2026-04-09T04:00:00Z",
+      "representative_length": 2364,
+      "representative_excerpt": "I am a college student with an interest in public health, particularly mental health access and equity. This issue is important to me because mental health services are often underfunded and difficult to access, especially for vulnerable populations. This proposed rule outlines updates to payment rates, wage index adjustments, outlier thresholds, and changes...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1123-0024": {
+          "organization": "",
+          "postedDate": "2026-04-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1123-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.664984574628114
     },
     {
       "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1123-0036",
+      "representative_posted_date": "2026-05-04T04:00:00Z",
+      "representative_length": 1065,
+      "representative_excerpt": "I would propose that PIX be fielded in a way similar to other CAHPS surveys (through an authorized vendor). The burden on hospitals to deliver PIX surveys to patients is high. Additionally, it requires more training for all staff working on an IPFQR department. If PIX was distributed through a CAHPS authorized vendor, the vendor could withhold patient inform...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1123-0036": {
+          "organization": "",
+          "postedDate": "2026-05-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1123-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6178581378465048
+    },
+    {
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0032",
@@ -566,10 +677,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5818975467134999
+      "presentation_score": 0.5523408964671945
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0030",
@@ -602,10 +713,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5676118324277856
+      "presentation_score": 0.5454443447430566
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0008",
@@ -638,10 +749,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.539040403856357
+      "presentation_score": 0.5316512412947807
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1123-0035",
+      "representative_posted_date": "2026-05-04T04:00:00Z",
+      "representative_length": 29,
+      "representative_excerpt": "Comment on CMS-2026-1123-0002",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1123-0035": {
+          "organization": "",
+          "postedDate": "2026-05-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1123-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4845248045131716
+    },
+    {
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0026",
@@ -674,10 +821,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4342784990944524
+      "presentation_score": 0.4121110114097233
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0028",
@@ -710,10 +857,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4342784990944524
+      "presentation_score": 0.4121110114097233
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0031",
@@ -746,10 +893,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4342784990944524
+      "presentation_score": 0.4121110114097233
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0006",
@@ -782,10 +929,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0007",
@@ -818,10 +965,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0009",
@@ -854,10 +1001,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0010",
@@ -890,10 +1037,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0011",
@@ -926,10 +1073,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0012",
@@ -962,10 +1109,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0013",
@@ -998,10 +1145,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0015",
@@ -1034,10 +1181,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0016",
@@ -1070,10 +1217,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0019",
@@ -1106,10 +1253,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0022",
@@ -1142,10 +1289,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0025",
@@ -1178,10 +1325,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4057070705230238
+      "presentation_score": 0.39831790796144745
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0003",
@@ -1217,7 +1364,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1123-0005",
@@ -1258,18 +1405,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8387096774193549,
+  "comments_first_page_coverage_share": 0.7428571428571429,
   "comments_first_page_coverage_count": 26,
-  "comments_clusters_total_available": 30,
-  "comments_clusters_displayed": 30,
-  "comments_first_page_high_signal_clusters": 2,
-  "comments_first_page_novelty_clusters": 1,
+  "comments_clusters_total_available": 34,
+  "comments_clusters_displayed": 34,
+  "comments_first_page_high_signal_clusters": 3,
+  "comments_first_page_novelty_clusters": 2,
   "comments_first_page_stance_counts": {
-    "neutral": 19,
+    "neutral": 20,
     "negative": 3,
-    "positive": 3
+    "positive": 2
   },
-  "comments_first_page_unique_days": 5,
+  "comments_first_page_unique_days": 7,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "CMS-2026-1123"
