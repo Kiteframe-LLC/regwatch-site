@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-08T14:57:16.880493+00:00",
+  "comment_action_checked_at": "2026-05-09T07:55:26.028998+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-27T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 3,
-  "pass_3_score": 5.428571428571429,
+  "pass_3_score": 5.866666666666666,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.5953617839330112,
+  "pass_3_scaled": 0.6238539491035934,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6492582351957454,
+  "combined_score": 0.6635043177810365,
   "score_total": 12,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -85,34 +85,36 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 76,
-  "comments_velocity_total": 76,
-  "comments_public_total_estimate": 76,
-  "comments_fetched": 13,
-  "comments_text_hydrated": 13,
-  "comments_cached_records": 68,
-  "comments_unique_clusters": 62,
-  "comments_clustered_duplicates": 6,
+  "comments_total": 88,
+  "comments_velocity_total": 88,
+  "comments_public_total_estimate": 88,
+  "comments_fetched": 12,
+  "comments_text_hydrated": 12,
+  "comments_cached_records": 80,
+  "comments_unique_clusters": 73,
+  "comments_clustered_duplicates": 7,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 65,
+  "comments_citizen_count": 77,
   "comments_commenter_type_counts": {
-    "organization_other": 3,
-    "citizen": 65
+    "citizen": 77,
+    "organization_other": 3
   },
   "comments_submission_role_counts": {
-    "organization": 3,
-    "individual": 65
+    "individual": 77,
+    "organization": 3
   },
   "comments_submission_channel_counts": {
-    "public_portal": 68
+    "public_portal": 80
   },
-  "comments_public_count": 68,
+  "comments_public_count": 80,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-08": 9,
+    "2026-05-07": 2,
     "2026-05-06": 9,
     "2026-05-05": 4,
     "2026-05-04": 2,
@@ -123,21 +125,22 @@
     "2026-04-27": 21
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-05-08": 1,
     "2026-04-27": 1
   },
-  "comments_novel_comment_rate": 0.9117647058823529,
-  "comments_sentiment_positive_pct": 0.1624209710305314,
-  "comments_sentiment_negative_pct": 0.1381005118511464,
-  "comments_sentiment_neutral_pct": 0.6994785171183222,
-  "comments_sentiment_net": 0.024320459179384996,
-  "comments_sentiment_sample_size": 68,
+  "comments_novel_comment_rate": 0.9125,
+  "comments_sentiment_positive_pct": 0.17158418740527892,
+  "comments_sentiment_negative_pct": 0.15634183555622777,
+  "comments_sentiment_neutral_pct": 0.6720739770384933,
+  "comments_sentiment_net": 0.01524235184905115,
+  "comments_sentiment_sample_size": 80,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 68,
+  "comments_analysis_sample_size": 80,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 68,
-  "comments_representative_prior_selected": 68,
+  "comments_representative_selected": 80,
+  "comments_representative_prior_selected": 80,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 3,
   "comments_representative_run_budget": 6,
@@ -147,19 +150,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 3,
     "salience_rank": 3,
-    "weighted_fill": 62
+    "weighted_fill": 74
   },
-  "comments_representative_selected_by_counts_total": 68,
+  "comments_representative_selected_by_counts_total": 80,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-07T15:29:02.863646+00:00",
-  "comments_checked_at": "2026-05-07T15:29:03.113053+00:00",
+  "comments_api_last_seen_at": "2026-05-09T05:09:19.546626+00:00",
+  "comments_checked_at": "2026-05-09T05:09:19.902738+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 25,
+      "cluster_id": 36,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0053",
@@ -222,10 +225,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41367021344445376
+      "presentation_score": 0.4076096073838477
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 25,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0078",
@@ -288,10 +291,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4581146578888982
+      "presentation_score": 0.4439732437474841
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 37,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0052",
@@ -339,10 +342,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.424192456175588
+      "presentation_score": 0.41813185011498194
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 32,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0057",
@@ -390,10 +393,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.474192456175588
+      "presentation_score": 0.46813185011498193
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 1,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0103",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 453,
+      "representative_excerpt": "I support stronger federal regulation of online animal sales. Currently, there is no meaningful verification of sellers, which allows fraud, illegal breeding, and the sale of unhealthy or underage animals. This harms animals, misleads consumers, and also undermines responsible breeders who follow ethical and legal standards. The FTC should require seller ver...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0103": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FTC-2026-0529-0097": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Umetsu, Stacie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49085912284225464
+    },
+    {
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0010",
@@ -429,7 +483,43 @@
       "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0098",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 1433,
+      "representative_excerpt": "This is the source of never ending flow of animals. Our shelters, rescues, streets, and deserts are full of dogs, cats with no where to go. Our housing market with exclusion pet policies will not support homes for the overflow. Without accountability this is tax free commerce with no oversight or regulation, is akin to selling drugs or trafficking children. ...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0098": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from VanEtten, Gail",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8654700538379252
+    },
+    {
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0085",
@@ -462,10 +552,478 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
+      "presentation_score": 0.7139549023227736
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0095",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 4998,
+      "representative_excerpt": "Right now, in this country, we are in the mist of a massive national companion animal overpopulation and shelter crisis, The magnitude of which has created a holocaust and the mass slaughter of innocent companion animals, many of them young, healthy and adoptable, including mothers and their puppies. This is inconceivable and unfathomable, Just like the deat...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0095": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "WA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hunt, Elizabeth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
       "presentation_score": 0.7321367205045918
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0091",
+      "representative_posted_date": "2026-05-06T04:00:00Z",
+      "representative_length": 1630,
+      "representative_excerpt": "Hi! I want to give my support to more regulations for online animal sales, especially puppies. Currently there is no vetting no verification process, no real way to understand if these people buying the animals are actually buying for personal use or other. There is also no way to understand who the people selling the animals are. This opens up a huge opport...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0091": {
+          "organization": "Saving Dogs Inc",
+          "postedDate": "2026-05-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Saving Dogs Inc",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6306215689894403
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0096",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 2235,
+      "representative_excerpt": "I strongly support the FTC reviewing and addressing unregulated online animal sales. Online platforms have become large-scale marketplaces for backyard breeding operations, with little to no oversight, verification, or accountability. Animals are routinely sold through anonymous or fake profiles, often without breeder credentials, health transparency, vaccin...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0096": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Jorge Rivera, Jorge Rivera",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5988033871712585
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0101",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 4176,
+      "representative_excerpt": "I strongly support FTC action to regulate online animal sales. Thousands of animals sold online every day are not being produced ethically, responsibly, or humanely. Many are bred with little regard for genetics, temperament, health standards, disease prevention, or animal welfare conditions. Animals are often produced purely for quick profit because online ...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0101": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Kruglik, Natalya",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5988033871712585
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0102",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 2143,
+      "representative_excerpt": "As a member of the public, I strongly support efforts to regulate online animal sales and introduce basic accountability standards for sellers and platforms. Over the last several years, social media and online marketplaces have made it extremely easy to breed and sell animals at large scale with very little oversight. Animals can be advertised and sold acro...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0102": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Iurin, Sergei",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5988033871712585
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0092",
+      "representative_posted_date": "2026-05-07T04:00:00Z",
+      "representative_length": 1289,
+      "representative_excerpt": "As anyone working in animal welfare can attest, municipal shelters and rescue organizations are currently flooded with homeless animals. Large-scale, unlicensed breeders are a significant driver of this crisis. Their primary motive is profit, with little to no consideration for the health of the animals or the resulting financial burden placed on local commu...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0092": {
+          "organization": "",
+          "postedDate": "2026-05-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Schram, Katherine",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5897124780803494
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0093",
+      "representative_posted_date": "2026-05-07T04:00:00Z",
+      "representative_length": 3268,
+      "representative_excerpt": "If people in the animal welfare community are spending their time to bring this to your attention, you should take it under strong advisement. As a NASA technology spinoff entrepreneur, we know that the FTC regulates many digital products and services in the technology space, including but not limited to the deceptive practices such as those that make it dif...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0093": {
+          "organization": "",
+          "postedDate": "2026-05-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Sunderland, Melissa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5897124780803494
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0079",
+      "representative_posted_date": "2026-05-05T04:00:00Z",
+      "representative_length": 1714,
+      "representative_excerpt": "Please help stop unregulated online animal sales. Platforms such as Facebook, Instagram, and Craigslist have become high volume marketplaces for the sale of animals with little to no oversight. Sellers are able to operate without meaningful identity verification, licensing, or accountability. Many use misleading terms such as \u201crehoming\u201d or \u201cadoption fee\u201d to ...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0079": {
+          "organization": "",
+          "postedDate": "2026-05-05T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Callahan, Christina",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5715306598985312
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0080",
+      "representative_posted_date": "2026-05-05T04:00:00Z",
+      "representative_length": 1893,
+      "representative_excerpt": "I love animals and volunteer with several shelter systems across Southern California. I\u2019ve worked inside many branches and visited many more. I fully support responsible people having the pets they can truly care for their entire lives. However, impulsive binge purchasing is real; people whimsically order animals and products online. Binge purchasing may hav...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0080": {
+          "organization": "",
+          "postedDate": "2026-05-05T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Kiesche, Tom",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5715306598985312
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0081",
+      "representative_posted_date": "2026-05-05T04:00:00Z",
+      "representative_length": 1466,
+      "representative_excerpt": "If people in the animal welfare community are spending their time to bring this to your attention, you should take it under strong advisement. As a NASA technology spinoff entrepreneur, we know that the FTC regulates many digital products and services in the technology space, including but not limited to the deceptive practices such as those that make it dif...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0081": {
+          "organization": "",
+          "postedDate": "2026-05-05T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5715306598985312
+    },
+    {
+      "cluster_id": 49,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0035",
+      "representative_posted_date": "2026-04-28T04:00:00Z",
+      "representative_length": 616,
+      "representative_excerpt": "As a nonprofit that works with the homeless community in Venice, CA, we see pets frequently dumped on the Venice Boardwalk when backyard breeders can't sell them. These pets often end up in the hands of people who do not have their best interests at heart. Addressing unregulated online animal sales is essential to stabilizing the broader animal welfare syste...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0035": {
+          "organization": "Project Minnie",
+          "postedDate": "2026-04-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Project Minnie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4245609629288343
+    },
+    {
+      "cluster_id": 35,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0054",
+      "representative_posted_date": "2026-04-30T04:00:00Z",
+      "representative_length": 1439,
+      "representative_excerpt": "Online platforms have evolved into high-volume marketplaces for animal sales, operating with little to no oversight. Sellers can produce and distribute animals at scale, often without licensing, verification, or accountability. Many operate under misleading labels such as \"rehoming\" or \"adoption\" to bypass platform policies and avoid scrutiny. STOP ANIMAL SA...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0054": {
+          "organization": "",
+          "postedDate": "2026-04-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from potter, kelly",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5260761144439857
+    },
+    {
+      "cluster_id": 45,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0042",
+      "representative_posted_date": "2026-04-29T04:00:00Z",
+      "representative_length": 1554,
+      "representative_excerpt": "Hello, I strongly support federal action to regulate online animal sales. As it stands, there is little to no verification of who is selling animals, which opens the door to fraud, unlicensed and irresponsible breeding, and the sale of animals that are too young or in poor health. Basic safeguards are often missing\u2014many of these animals are not microchipped,...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0042": {
+          "organization": "",
+          "postedDate": "2026-04-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Gaffney, Steven",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5169852053530767
+    },
+    {
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0004",
@@ -501,7 +1059,7 @@
       "presentation_score": 0.4988033871712585
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0016",
@@ -537,223 +1095,7 @@
       "presentation_score": 0.4988033871712585
     },
     {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-0529-0091",
-      "representative_posted_date": "2026-05-06T04:00:00Z",
-      "representative_length": 1630,
-      "representative_excerpt": "Hi! I want to give my support to more regulations for online animal sales, especially puppies. Currently there is no vetting no verification process, no real way to understand if these people buying the animals are actually buying for personal use or other. There is also no way to understand who the people selling the animals are. This opens up a huge opport...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-0529-0091": {
-          "organization": "Saving Dogs Inc",
-          "postedDate": "2026-05-06T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Saving Dogs Inc",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6488033871712585
-    },
-    {
-      "cluster_id": 13,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-0529-0079",
-      "representative_posted_date": "2026-05-05T04:00:00Z",
-      "representative_length": 1714,
-      "representative_excerpt": "Please help stop unregulated online animal sales. Platforms such as Facebook, Instagram, and Craigslist have become high volume marketplaces for the sale of animals with little to no oversight. Sellers are able to operate without meaningful identity verification, licensing, or accountability. Many use misleading terms such as \u201crehoming\u201d or \u201cadoption fee\u201d to ...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-0529-0079": {
-          "organization": "",
-          "postedDate": "2026-05-05T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "CA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Callahan, Christina",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5876922760601474
-    },
-    {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-0529-0080",
-      "representative_posted_date": "2026-05-05T04:00:00Z",
-      "representative_length": 1893,
-      "representative_excerpt": "I love animals and volunteer with several shelter systems across Southern California. I\u2019ve worked inside many branches and visited many more. I fully support responsible people having the pets they can truly care for their entire lives. However, impulsive binge purchasing is real; people whimsically order animals and products online. Binge purchasing may hav...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-0529-0080": {
-          "organization": "",
-          "postedDate": "2026-05-05T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Kiesche, Tom",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5876922760601474
-    },
-    {
-      "cluster_id": 11,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-0529-0081",
-      "representative_posted_date": "2026-05-05T04:00:00Z",
-      "representative_length": 1466,
-      "representative_excerpt": "If people in the animal welfare community are spending their time to bring this to your attention, you should take it under strong advisement. As a NASA technology spinoff entrepreneur, we know that the FTC regulates many digital products and services in the technology space, including but not limited to the deceptive practices such as those that make it dif...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-0529-0081": {
-          "organization": "",
-          "postedDate": "2026-05-05T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5876922760601474
-    },
-    {
-      "cluster_id": 24,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-0529-0054",
-      "representative_posted_date": "2026-04-30T04:00:00Z",
-      "representative_length": 1439,
-      "representative_excerpt": "Online platforms have evolved into high-volume marketplaces for animal sales, operating with little to no oversight. Sellers can produce and distribute animals at scale, often without licensing, verification, or accountability. Many operate under misleading labels such as \"rehoming\" or \"adoption\" to bypass platform policies and avoid scrutiny. STOP ANIMAL SA...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-0529-0054": {
-          "organization": "",
-          "postedDate": "2026-04-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "CA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from potter, kelly",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5321367205045918
-    },
-    {
-      "cluster_id": 34,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-0529-0042",
-      "representative_posted_date": "2026-04-29T04:00:00Z",
-      "representative_length": 1554,
-      "representative_excerpt": "Hello, I strongly support federal action to regulate online animal sales. As it stands, there is little to no verification of who is selling animals, which opens the door to fraud, unlicensed and irresponsible breeding, and the sale of animals that are too young or in poor health. Basic safeguards are often missing\u2014many of these animals are not microchipped,...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-0529-0042": {
-          "organization": "",
-          "postedDate": "2026-04-29T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "CA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Gaffney, Steven",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5210256093934807
-    },
-    {
-      "cluster_id": 42,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0027",
@@ -792,6 +1134,114 @@
       "cluster_id": 9,
       "count": 1,
       "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0094",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 519,
+      "representative_excerpt": "We need support in stopping all backyard breeding. Prosecution needs to start at the source. Something has to be done. I have never seen such disregard for life. The cruelty, abuse is out of control. At what point is enough, enough! People just dispose of animals like trash. Our streets are full of strays, dead animals and shelters and rescues are at capacit...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0094": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Silva , Laura",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0099",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 203,
+      "representative_excerpt": "Please regulate the online sale of puppies. When it's unregulated, countless dogs suffer, being endlessly bred without oversight. Puppies are under-socialized and may be sick, and the sellers don't care.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0099": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "SC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Swier, Susan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0529-0100",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 312,
+      "representative_excerpt": "Back yard breeding is a huge problem everywhere and it needs to be addressed, people need to be held accountable. The shelters are full of unwanted puppies, animals are being abused, murdered, and dumped. It is time for this to stop and those doing so made an example of. The laws need to be upheld and enforced!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0529-0100": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Gruwell, Teresa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0083",
       "representative_posted_date": "2026-05-06T04:00:00Z",
       "representative_length": 1084,
@@ -822,10 +1272,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.447288235656107
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0084",
@@ -858,10 +1308,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.447288235656107
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0086",
@@ -894,46 +1344,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.447288235656107
     },
     {
-      "cluster_id": 38,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-0529-0035",
-      "representative_posted_date": "2026-04-28T04:00:00Z",
-      "representative_length": 616,
-      "representative_excerpt": "As a nonprofit that works with the homeless community in Venice, CA, we see pets frequently dumped on the Venice Boardwalk when backyard breeders can't sell them. These pets often end up in the hands of people who do not have their best interests at heart. Addressing unregulated online animal sales is essential to stabilizing the broader animal welfare syste...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-0529-0035": {
-          "organization": "Project Minnie",
-          "postedDate": "2026-04-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Project Minnie",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4265811649490363
-    },
-    {
-      "cluster_id": 5,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0087",
@@ -966,10 +1380,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.447288235656107
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0088",
@@ -1002,10 +1416,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.447288235656107
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0089",
@@ -1038,10 +1452,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.447288235656107
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0090",
@@ -1074,10 +1488,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.447288235656107
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0082",
@@ -1110,10 +1524,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4543589427268141
+      "presentation_score": 0.43819732656519794
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0077",
@@ -1146,10 +1560,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44324783161570297
+      "presentation_score": 0.42910641747428885
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0059",
@@ -1182,10 +1596,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40991449828236964
+      "presentation_score": 0.40183369020156157
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0060",
@@ -1218,10 +1632,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40991449828236964
+      "presentation_score": 0.40183369020156157
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0061",
@@ -1254,10 +1668,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40991449828236964
+      "presentation_score": 0.40183369020156157
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0062",
@@ -1290,10 +1704,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40991449828236964
+      "presentation_score": 0.40183369020156157
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0063",
@@ -1326,10 +1740,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40991449828236964
+      "presentation_score": 0.40183369020156157
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0050",
@@ -1362,10 +1776,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988033871712585
+      "presentation_score": 0.3927427811106525
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0055",
@@ -1398,10 +1812,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988033871712585
+      "presentation_score": 0.3927427811106525
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0056",
@@ -1434,10 +1848,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3988033871712585
+      "presentation_score": 0.3927427811106525
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0041",
@@ -1470,10 +1884,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3876922760601474
+      "presentation_score": 0.3836518720197434
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0043",
@@ -1506,10 +1920,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3876922760601474
+      "presentation_score": 0.3836518720197434
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0044",
@@ -1542,10 +1956,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3876922760601474
+      "presentation_score": 0.3836518720197434
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0045",
@@ -1578,10 +1992,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3876922760601474
+      "presentation_score": 0.3836518720197434
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0046",
@@ -1614,10 +2028,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3876922760601474
+      "presentation_score": 0.3836518720197434
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0047",
@@ -1650,10 +2064,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3876922760601474
+      "presentation_score": 0.3836518720197434
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0032",
@@ -1686,10 +2100,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3765811649490363
+      "presentation_score": 0.3745609629288343
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0033",
@@ -1722,10 +2136,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3765811649490363
+      "presentation_score": 0.3745609629288343
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0034",
@@ -1758,10 +2172,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3765811649490363
+      "presentation_score": 0.3745609629288343
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0036",
@@ -1794,10 +2208,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3765811649490363
+      "presentation_score": 0.3745609629288343
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0038",
@@ -1830,10 +2244,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3765811649490363
+      "presentation_score": 0.3745609629288343
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0003",
@@ -1869,7 +2283,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0005",
@@ -1905,7 +2319,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0007",
@@ -1941,7 +2355,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0009",
@@ -1977,7 +2391,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0011",
@@ -2013,7 +2427,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0012",
@@ -2049,7 +2463,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0013",
@@ -2085,7 +2499,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0015",
@@ -2121,7 +2535,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0017",
@@ -2157,7 +2571,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0019",
@@ -2193,7 +2607,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0020",
@@ -2229,7 +2643,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0021",
@@ -2265,7 +2679,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0023",
@@ -2301,7 +2715,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0024",
@@ -2337,7 +2751,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0025",
@@ -2373,7 +2787,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0026",
@@ -2409,7 +2823,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0048",
@@ -2442,10 +2856,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25435894272681403
+      "presentation_score": 0.25031853868641
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0529-0006",
@@ -2486,18 +2900,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.45588235294117646,
-  "comments_first_page_coverage_count": 31,
-  "comments_clusters_total_available": 62,
-  "comments_clusters_displayed": 62,
-  "comments_first_page_high_signal_clusters": 1,
+  "comments_first_page_coverage_share": 0.4,
+  "comments_first_page_coverage_count": 32,
+  "comments_clusters_total_available": 73,
+  "comments_clusters_displayed": 73,
+  "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 3,
   "comments_first_page_stance_counts": {
-    "neutral": 16,
-    "positive": 4,
-    "negative": 5
+    "neutral": 13,
+    "positive": 5,
+    "negative": 7
   },
-  "comments_first_page_unique_days": 7,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "FTC-2026-0529"
