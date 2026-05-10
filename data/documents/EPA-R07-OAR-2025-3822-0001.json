@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-09T07:55:43.632421+00:00",
+  "comment_action_checked_at": "2026-05-10T05:16:58.140469+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -54,7 +54,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/04/23/2026-07906.html"
   ],
   "supporting_related_material_count": 7,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=EPA-R07-OAR-2025-3822&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1; used_stale_cache",
   "supporting_related_material": [
     {
       "document_id": "EPA-R07-OAR-2025-3822-0003",
@@ -273,7 +273,7 @@
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-05-08T15:24:28.362683+00:00",
   "comments_checked_at": "2026-05-08T15:24:28.362763+00:00",
-  "comments_error": null,
+  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45); used_stale_cache",
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/EPA-R07-OAR-2025-3822.csv",
   "government_submissions_count": 0,
