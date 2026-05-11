@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-10T05:16:42.594549+00:00",
+  "comment_action_checked_at": "2026-05-11T05:20:07.210732+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-19T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 4,
-  "pass_3_score": 0.7391304347826086,
+  "pass_3_score": 0.9615384615384616,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.11590292214611675,
+  "pass_3_scaled": 0.14807468143099367,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.42939925122071754,
+  "combined_score": 0.445485130863156,
   "score_total": 13,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/04/16/2026-07473.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45)",
+  "supporting_docs_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=FTC-2026-0463&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1",
   "supporting_related_material": [],
   "referenced_documents": [
     {
@@ -363,35 +363,35 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 17,
-  "comments_velocity_total": 17,
-  "comments_public_total_estimate": 17,
-  "comments_fetched": 2,
-  "comments_text_hydrated": 2,
-  "comments_cached_records": 17,
-  "comments_unique_clusters": 15,
+  "comments_total": 25,
+  "comments_velocity_total": 25,
+  "comments_public_total_estimate": 25,
+  "comments_fetched": 12,
+  "comments_text_hydrated": 12,
+  "comments_cached_records": 29,
+  "comments_unique_clusters": 23,
   "comments_clustered_duplicates": 2,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 16,
+  "comments_citizen_count": 28,
   "comments_commenter_type_counts": {
-    "citizen": 16,
+    "citizen": 28,
     "organization_other": 1
   },
   "comments_submission_role_counts": {
-    "organization": 2,
-    "individual": 15
+    "individual": 27,
+    "organization": 2
   },
   "comments_submission_channel_counts": {
-    "public_portal": 17
+    "public_portal": 29
   },
-  "comments_public_count": 17,
+  "comments_public_count": 29,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-05-08": 2,
+    "2026-05-08": 14,
     "2026-05-01": 1,
     "2026-04-28": 1,
     "2026-04-27": 3,
@@ -406,19 +406,19 @@
     "2026-05-01": 1,
     "2026-04-20": 1
   },
-  "comments_novel_comment_rate": 0.8823529411764706,
-  "comments_sentiment_positive_pct": 0.1875,
-  "comments_sentiment_negative_pct": 0.1875,
-  "comments_sentiment_neutral_pct": 0.625,
+  "comments_novel_comment_rate": 0.9310344827586207,
+  "comments_sentiment_positive_pct": 0.125,
+  "comments_sentiment_negative_pct": 0.125,
+  "comments_sentiment_neutral_pct": 0.75,
   "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 17,
+  "comments_sentiment_sample_size": 25,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 17,
+  "comments_analysis_sample_size": 25,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 17,
-  "comments_representative_prior_selected": 17,
+  "comments_representative_selected": 25,
+  "comments_representative_prior_selected": 25,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 4,
   "comments_representative_run_budget": 0,
@@ -428,19 +428,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 4,
     "salience_rank": 1,
-    "weighted_fill": 12
+    "weighted_fill": 20
   },
-  "comments_representative_selected_by_counts_total": 17,
+  "comments_representative_selected_by_counts_total": 25,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-08T15:15:16.697154+00:00",
-  "comments_checked_at": "2026-05-08T15:15:16.848867+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45); used_stale_cache",
+  "comments_api_last_seen_at": "2026-05-11T05:10:21.880379+00:00",
+  "comments_checked_at": "2026-05-11T05:10:22.046385+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 3,
+      "cluster_id": 11,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0016",
@@ -506,7 +506,7 @@
       "presentation_score": 0.6870035467777871
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0005",
@@ -542,7 +542,7 @@
       "presentation_score": 0.7797557681236396
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0018",
@@ -578,7 +578,7 @@
       "presentation_score": 0.7054700538379252
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0019",
@@ -614,7 +614,7 @@
       "presentation_score": 0.7054700538379252
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0010",
@@ -650,7 +650,7 @@
       "presentation_score": 0.5492795776474491
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0002",
@@ -686,7 +686,7 @@
       "presentation_score": 0.4454700538379252
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0006",
@@ -722,7 +722,7 @@
       "presentation_score": 0.46451767288554424
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0009",
@@ -758,7 +758,43 @@
       "presentation_score": 0.46927957764744904
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0027",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 493,
+      "representative_excerpt": "The convenience for me was unmatched by any other service at the time. Fast-forward almost 20 years and I can say I've tried it all, and instacart has been the most advanced, convenient, available and reliable service I have come across. I probably order from instacart 3+ times a week. It has provided me the opportunity to spend more valuable time with my fa...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0027": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Sauer, Brina",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5454700538379252
+    },
+    {
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0014",
@@ -794,7 +830,7 @@
       "presentation_score": 0.4930891014569728
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0011",
@@ -830,7 +866,223 @@
       "presentation_score": 0.47880338717125853
     },
     {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0022",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 80,
+      "representative_excerpt": "The service is way to high and they mark up food prices. But i need this service",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0022": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Simmons, Susan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
       "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0023",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 278,
+      "representative_excerpt": "My name is Heather Frazier. I am a huge fan of Instacart. I am handicapped and having someone shop for me via Instacart is invaluable! It saves me energy and time when I am unable to get out of the house to do shopping myself. Please, do NOT mess with Instacart. LEAVE IT ALONE!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0023": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Frazier, Heather",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0024",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 520,
+      "representative_excerpt": "My name is Nancy Auslander, and I am currently the Communications/Events Coordinator for a religious organization. Instacart has saved our staff hundreds of hours, gas, wear & tear on their vehicles, and saved us over $1000 in the goods we order. On a personal level, I'm the only driver in my house, and Instacart has made it possible for me to travel to fami...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0024": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Auslander, Nancy",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0026",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 282,
+      "representative_excerpt": "My name is Rebecca Bertram and I have been a regular Instacart shopper since Covid. It is a reliable service that keeps me on budget. I use it twice a week for groceries and saves me so much time. My husband and I are seniors in our 70s and I feel I couldnt be without this service.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0026": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Bertram, Rebecca",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0028",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 439,
+      "representative_excerpt": "Melissa Minch. I love instacart. I love the convenience. I love how the pricing is not incredibly expensive. The service is exceptional. If I ever have a problem they always solve it immediately. I love the transparency and the deals they provide. I love the convenience of not having to go to the store and not having to drive as gas prices are so expensive. ...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0028": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Minch, Melissa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0034",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 503,
+      "representative_excerpt": "I am.mark Valenzuela......and I do not like or love instacart...more issues than me going to the store anyway....I hate instacart....the only reason I am using intacart is because frys stores only use them ....which I hate having no options and problems are so bad ...and don't compensate fully to the problems it causes.....policymakers.....\"please get rid of...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0034": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Valenzuela, Mark",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0013",
@@ -866,7 +1118,7 @@
       "presentation_score": 0.4130891014569728
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0015",
@@ -902,7 +1154,43 @@
       "presentation_score": 0.3878510062188775
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-0463-0021",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 40,
+      "representative_excerpt": "Here are my thoughts regarding Instacart",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-0463-0021": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Singer, Judi",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3854700538379252
+    },
+    {
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0004",
@@ -938,7 +1226,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0012",
@@ -974,7 +1262,7 @@
       "presentation_score": 0.3330891014569728
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-0463-0003",
@@ -1014,17 +1302,17 @@
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 15,
+  "comments_first_page_count": 23,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 17,
-  "comments_clusters_total_available": 15,
-  "comments_clusters_displayed": 15,
+  "comments_first_page_coverage_count": 25,
+  "comments_clusters_total_available": 23,
+  "comments_clusters_displayed": 23,
   "comments_first_page_high_signal_clusters": 4,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
     "negative": 2,
     "positive": 3,
-    "neutral": 10
+    "neutral": 18
   },
   "comments_first_page_unique_days": 9,
   "summary_available": true,

@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-10T05:16:42.525330+00:00",
+  "comment_action_checked_at": "2026-05-11T05:20:07.425400+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,19 +32,43 @@
   "pass_2_scaled": 0.32929841307547836,
   "pass_3_scaled": 0.4010037851488947,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.43383746641784987,
+  "combined_score": 0.4598677144029209,
   "score_total": 7,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 2,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
+  "pass_4_raw": 4,
+  "pass_4_scaled": 0.4,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.0,
+    "H": 0.3333333333333333,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "decision_brief_high",
+    "reversal_or_reinterpretation"
+  ],
+  "pass_4_primary_concern": "The proposal announces major threshold and methodology changes with only limited operational detail about economic security, cost-benefit comparison, and escalation from activity-based review to designation.",
   "pass_2_flags": [
     "missing_supporting_analysis_references"
   ],
@@ -53,7 +77,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/30/2026-06114.html"
   ],
   "supporting_related_material_count": 1,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45); used_stale_cache",
+  "supporting_docs_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=FSOC-2026-0034&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1; used_stale_cache",
   "supporting_related_material": [
     {
       "document_id": "FSOC-2026-0034-0001",
@@ -307,7 +331,7 @@
     "positive": 1
   },
   "comments_first_page_unique_days": 3,
-  "summary_available": false,
-  "raw_summary_available": false,
+  "summary_available": true,
+  "raw_summary_available": true,
   "route_id": "FSOC-2026-0034"
 }
