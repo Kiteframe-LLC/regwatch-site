@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-11T10:04:26.615897+00:00",
+  "comment_action_checked_at": "2026-05-12T07:00:33.567684+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-16T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 3,
-  "pass_3_score": 24.719298245614034,
+  "pass_3_score": 36.12068965517241,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.9837535855037284,
+  "pass_3_scaled": 0.9975706096612931,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8434541359811041,
+  "combined_score": 0.8503626480598864,
   "score_total": 12,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/16/2026-05134.html"
   ],
   "supporting_related_material_count": 11,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "DOJ-OAG-2026-0034-1409",
@@ -226,27 +226,6 @@
       ]
     },
     {
-      "document_id": "DOJ-OAG-2026-0034-1408",
-      "tracking_number": "mor-plw0-5gz6",
-      "title": "Response to FPD WD Mo CHU Extension Request - DOJ-OAG-2026-0034-0017",
-      "document_type": "Other",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-05-05T04:00:00Z",
-      "received_date": "2026-05-04T04:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 0,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOJ-OAG-2026-0034-1408/content.pdf",
-          "format": "pdf",
-          "size": 252189
-        }
-      ]
-    },
-    {
       "document_id": "DOJ-OAG-2026-0034-1401",
       "tracking_number": "mor-plw0-5gz6",
       "title": "Response to FPD Tex Extension Request - DOJ-OAG-2026-0034-1050",
@@ -287,6 +266,27 @@
           "size": 253247
         }
       ]
+    },
+    {
+      "document_id": "DOJ-OAG-2026-0034-1408",
+      "tracking_number": "mor-plw0-5gz6",
+      "title": "Response to FPD WD Mo CHU Extension Request - DOJ-OAG-2026-0034-0017",
+      "document_type": "Other",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-05-05T04:00:00Z",
+      "received_date": "2026-05-04T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOJ-OAG-2026-0034-1408/content.pdf",
+          "format": "pdf",
+          "size": 252189
+        }
+      ]
     }
   ],
   "referenced_documents": [],
@@ -295,43 +295,44 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 1238,
-  "comments_velocity_total": 1238,
-  "comments_public_total_estimate": 1238,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 237,
-  "comments_unique_clusters": 138,
-  "comments_clustered_duplicates": 99,
+  "comments_total": 1921,
+  "comments_velocity_total": 1921,
+  "comments_public_total_estimate": 1921,
+  "comments_fetched": 30,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 267,
+  "comments_unique_clusters": 162,
+  "comments_clustered_duplicates": 105,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 233,
+  "comments_citizen_count": 262,
   "comments_commenter_type_counts": {
-    "citizen": 233,
-    "organization_other": 4
+    "citizen": 262,
+    "organization_other": 5
   },
   "comments_submission_role_counts": {
-    "individual": 233,
-    "organization": 4
+    "individual": 262,
+    "organization": 5
   },
   "comments_submission_channel_counts": {
-    "public_portal": 237
+    "public_portal": 267
   },
-  "comments_public_count": 237,
+  "comments_public_count": 267,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-05-08": 25,
-    "2026-05-07": 15,
-    "2026-05-04": 4,
-    "2026-04-30": 21,
+    "2026-05-11": 28,
+    "2026-05-08": 21,
+    "2026-05-07": 16,
+    "2026-05-04": 2,
+    "2026-04-30": 20,
     "2026-04-28": 30,
     "2026-04-23": 6,
-    "2026-04-22": 17,
+    "2026-04-22": 18,
     "2026-04-21": 7,
-    "2026-04-20": 3,
+    "2026-04-20": 4,
     "2026-04-16": 2,
     "2026-04-10": 2,
     "2026-04-07": 1,
@@ -341,49 +342,50 @@
     "2026-03-23": 1
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-05-11": 1,
     "2026-05-07": 1
   },
-  "comments_novel_comment_rate": 0.5822784810126582,
-  "comments_sentiment_positive_pct": 0.028557425600060807,
-  "comments_sentiment_negative_pct": 0.5816323174968945,
-  "comments_sentiment_neutral_pct": 0.38981025690304455,
-  "comments_sentiment_net": -0.5530748918968337,
-  "comments_sentiment_sample_size": 237,
+  "comments_novel_comment_rate": 0.6067415730337079,
+  "comments_sentiment_positive_pct": 0.024528511542418256,
+  "comments_sentiment_negative_pct": 0.5786791785505705,
+  "comments_sentiment_neutral_pct": 0.3967923099070113,
+  "comments_sentiment_net": -0.5541506670081522,
+  "comments_sentiment_sample_size": 267,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 237,
+  "comments_analysis_sample_size": 267,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 237,
-  "comments_representative_prior_selected": 237,
+  "comments_representative_selected": 267,
+  "comments_representative_prior_selected": 267,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 8,
+  "comments_representative_must_keep": 9,
   "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 8,
+    "must_keep": 9,
     "salience_rank": 2,
-    "weighted_fill": 227
+    "weighted_fill": 256
   },
-  "comments_representative_selected_by_counts_total": 237,
+  "comments_representative_selected_by_counts_total": 267,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-11T05:02:17.327974+00:00",
-  "comments_checked_at": "2026-05-11T05:02:17.893296+00:00",
+  "comments_api_last_seen_at": "2026-05-12T05:34:56.348851+00:00",
+  "comments_checked_at": "2026-05-12T05:34:57.013879+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 27,
-      "count": 39,
+      "cluster_id": 11,
+      "count": 36,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1769",
-      "representative_posted_date": "2026-05-07T04:00:00Z",
-      "representative_length": 686,
-      "representative_excerpt": "May 6, 2026 Dear Good People: I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. We have known for a long time that the risk of executing innocent people is far too high, with more than 200 people having been exonerated from death row since 1973. Due process and federal ha...",
+      "representative_comment_id": "DOJ-OAG-2026-0034-1910",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 656,
+      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. We have known for a long time that the risk of executing innocent people is far too high, with more than 200 people having been exonerated from death row since 1973. Due process and federal habeas appeals help ensure that ...",
       "representative_signal_score": 1,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -470,14 +472,14 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49893067796030927
+      "presentation_score": 0.5025678066855477
     },
     {
-      "cluster_id": 1,
-      "count": 31,
+      "cluster_id": 4,
+      "count": 33,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1848",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_comment_id": "DOJ-OAG-2026-0034-1928",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
       "representative_length": 553,
       "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defense aga...",
       "representative_signal_score": 0,
@@ -566,15 +568,15 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3504459176927939
+      "presentation_score": 0.362380044564101
     },
     {
-      "cluster_id": 10,
-      "count": 7,
+      "cluster_id": 1,
+      "count": 12,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1824",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
-      "representative_length": 636,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1940",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 683,
       "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defense aga...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
@@ -584,6 +586,21 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
+        "DOJ-OAG-2026-0034-1283": {
+          "organization": "",
+          "postedDate": "2026-05-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "DOJ-OAG-2026-0034-1299": {
           "organization": "",
           "postedDate": "2026-05-04T04:00:00Z",
@@ -614,9 +631,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-1734": {
+        "DOJ-OAG-2026-0034-1334": {
           "organization": "",
-          "postedDate": "2026-05-07T04:00:00Z",
+          "postedDate": "2026-05-04T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -629,24 +646,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-1735": {
+        "DOJ-OAG-2026-0034-1353": {
           "organization": "",
-          "postedDate": "2026-05-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0034-1745": {
-          "organization": "",
-          "postedDate": "2026-05-07T04:00:00Z",
+          "postedDate": "2026-05-04T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -662,17 +664,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.30495644131437927
+      "presentation_score": 0.3129378651507452
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 17,
       "count": 5,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1818",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
-      "representative_length": 1001,
-      "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defense aga...",
-      "representative_signal_score": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1890",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 1024,
+      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. I believe in the sanctity of life of even those convicted of serious crimes, as Pope Leo recently stated and a s a Catholic, I firmly agree. I do not believe their execution is necessary for public safety and I do not beli...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -680,9 +682,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "DOJ-OAG-2026-0034-1818": {
+        "DOJ-OAG-2026-0034-1890": {
           "organization": "",
-          "postedDate": "2026-05-08T04:00:00Z",
+          "postedDate": "2026-05-11T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -695,9 +697,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-1761": {
+        "DOJ-OAG-2026-0034-1211": {
           "organization": "",
-          "postedDate": "2026-05-07T04:00:00Z",
+          "postedDate": "2026-04-30T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -710,22 +712,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-1740": {
-          "organization": "",
-          "postedDate": "2026-05-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0034-0233": {
+        "DOJ-OAG-2026-0034-0229": {
           "organization": "",
           "postedDate": "2026-04-22T04:00:00Z",
           "zip": "",
@@ -740,45 +727,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-0059": {
+        "DOJ-OAG-2026-0034-0224": {
           "organization": "",
-          "postedDate": "2026-04-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.31113914404175513
-    },
-    {
-      "cluster_id": 55,
-      "count": 4,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1211",
-      "representative_posted_date": "2026-04-30T04:00:00Z",
-      "representative_length": 974,
-      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. We have known for a long time that the risk of executing innocent people is far too high, with more than 200 people having been exonerated from death row since 1973. Due process and federal habeas appeals help ensure that ...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1211": {
-          "organization": "",
-          "postedDate": "2026-04-30T04:00:00Z",
+          "postedDate": "2026-04-22T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -805,8 +756,44 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5807299225544714
+    },
+    {
+      "cluster_id": 75,
+      "count": 4,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1218",
+      "representative_posted_date": "2026-04-30T04:00:00Z",
+      "representative_length": 730,
+      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. We have known for a long time that the risk of executing innocent people is far too high, with more than 200 people having been exonerated from death row since 1973. Due process and federal habeas appeals help ensure that ...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1218": {
+          "organization": "",
+          "postedDate": "2026-04-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-0073": {
+        "DOJ-OAG-2026-0034-0096": {
           "organization": "",
           "postedDate": "2026-04-20T04:00:00Z",
           "zip": "",
@@ -821,7 +808,22 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-0049": {
+        "DOJ-OAG-2026-0034-0034": {
+          "organization": "",
+          "postedDate": "2026-04-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0034-0022": {
           "organization": "",
           "postedDate": "2026-04-20T04:00:00Z",
           "zip": "",
@@ -839,11 +841,11 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4353270241474451
+      "presentation_score": 0.4328847540480662
     },
     {
-      "cluster_id": 53,
-      "count": 4,
+      "cluster_id": 77,
+      "count": 3,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1216",
       "representative_posted_date": "2026-04-30T04:00:00Z",
@@ -860,21 +862,6 @@
         "DOJ-OAG-2026-0034-1216": {
           "organization": "",
           "postedDate": "2026-04-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0034-0224": {
-          "organization": "",
-          "postedDate": "2026-04-22T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -920,17 +907,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4353270241474451
+      "presentation_score": 0.44895626077157963
     },
     {
-      "cluster_id": 23,
-      "count": 4,
+      "cluster_id": 10,
+      "count": 3,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1780",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
-      "representative_length": 722,
-      "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards to prevent the death of innocents wrongly convicted people. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row and if even one wrongfully convicte...",
-      "representative_signal_score": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1914",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 939,
+      "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defense aga...",
+      "representative_signal_score": 1,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -938,9 +925,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "DOJ-OAG-2026-0034-1780": {
+        "DOJ-OAG-2026-0034-1914": {
           "organization": "",
-          "postedDate": "2026-05-08T04:00:00Z",
+          "postedDate": "2026-05-11T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -953,7 +940,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-1727": {
+        "DOJ-OAG-2026-0034-1740": {
           "organization": "",
           "postedDate": "2026-05-07T04:00:00Z",
           "zip": "",
@@ -968,9 +955,45 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-0230": {
+        "DOJ-OAG-2026-0034-1360": {
           "organization": "",
-          "postedDate": "2026-04-22T04:00:00Z",
+          "postedDate": "2026-05-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.47140524036341636
+    },
+    {
+      "cluster_id": 9,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1915",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 789,
+      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. More than 200 people having been exonerated from death row since 1973. Defendants' access to proper legal counsel is questionable, and there is a long history of racial bias is arrests and convictions. Due process and fede...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1915": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -983,7 +1006,22 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "DOJ-OAG-2026-0034-0022": {
+        "DOJ-OAG-2026-0034-0098": {
+          "organization": "",
+          "postedDate": "2026-04-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0034-0095": {
           "organization": "",
           "postedDate": "2026-04-20T04:00:00Z",
           "zip": "",
@@ -1001,17 +1039,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31938499516193786
+      "presentation_score": 0.47140524036341636
     },
     {
-      "cluster_id": 42,
-      "count": 3,
+      "cluster_id": 12,
+      "count": 1,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1366",
-      "representative_posted_date": "2026-05-04T04:00:00Z",
-      "representative_length": 731,
-      "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this current system makes irreversible mistakes and this proposed new rule would fastrack those mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appe...",
-      "representative_signal_score": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1909",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 4811,
+      "representative_excerpt": "On this occasion, I would like to share some personal views on the death sentence. Death penalty, remnant of a primitive and cruel past, should be abolished in humane and civilized societies of the 21st century. The death sentence has been abandoned throughout the civilized world (even Turkey and post-communist Russia have practically abandoned it!). However...",
+      "representative_signal_score": 3,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1019,39 +1057,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "DOJ-OAG-2026-0034-1366": {
+        "DOJ-OAG-2026-0034-1909": {
           "organization": "",
-          "postedDate": "2026-05-04T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0034-1353": {
-          "organization": "",
-          "postedDate": "2026-05-04T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0034-1334": {
-          "organization": "",
-          "postedDate": "2026-05-04T04:00:00Z",
+          "postedDate": "2026-05-11T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1067,10 +1075,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3271112475597303
+      "presentation_score": 0.7833333333333333
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1723",
@@ -1103,10 +1111,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7798517177175391
+      "presentation_score": 0.7751700680272109
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1866",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 2316,
+      "representative_excerpt": "I am a now-retired criminal defense attorney. I have been practicing in Louisiana since 1973 and in California since 1990 and New York since 1991. I have tried most of my death penalty cases in Louisiana and am currently a member of Death Penalty Action and other pro-active anti-death penalty causes. There is nothing beneficial in the current proposal on the...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1866": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6499999999999999
+    },
+    {
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1802",
@@ -1139,10 +1183,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.648692297427684
+      "presentation_score": 0.6438775510204081
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1770",
@@ -1175,10 +1219,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6465183843842057
+      "presentation_score": 0.6418367346938775
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 15,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1893",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 1605,
+      "representative_excerpt": "Eliminating federal review of death-sentenced individuals is a move that is Orwellian and cruel. Florida has the highest number of death row exonerations in the nation, with 30 individuals exonerated as of early 2025. A vast majority of these exonerations involved non-unanimous jury recommendations, suggesting that lowering the threshold for death sentences ...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1893": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0034-1194": {
+          "organization": "",
+          "postedDate": "2026-04-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6413669254024792
+    },
+    {
+      "cluster_id": 38,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1815",
@@ -1226,10 +1321,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6395175546891598
+      "presentation_score": 0.6352444764228874
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0834",
@@ -1262,10 +1357,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6269531669929014
+      "presentation_score": 0.623469387755102
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0879",
@@ -1298,10 +1393,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6269531669929014
+      "presentation_score": 0.623469387755102
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0887",
@@ -1334,133 +1429,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6269531669929014
+      "presentation_score": 0.623469387755102
     },
     {
-      "cluster_id": 61,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1194",
-      "representative_posted_date": "2026-04-30T04:00:00Z",
-      "representative_length": 1519,
-      "representative_excerpt": "I sincerely believe that Death Penalty is inhumane, given more often in cases where the accused is/ are AFRICAN AMERICAN(S), the Accused is poor and unable to hire QUALIFIED attorneys. THEREFORE,rushing the process is not what I as an American Citizen believes is morally correct. As a retired electrician, There are so many circumstances these days in our pre...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1194": {
-          "organization": "",
-          "postedDate": "2026-04-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "DOJ-OAG-2026-0034-0235": {
-          "organization": "",
-          "postedDate": "2026-04-22T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6221262503413337
-    },
-    {
-      "cluster_id": 111,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-0227",
-      "representative_posted_date": "2026-04-22T04:00:00Z",
-      "representative_length": 1630,
-      "representative_excerpt": "I strongly object to this proposed rule that will allow states to fast-track executions while lowering the bar for legal representation and removing public oversight from the approval process. The rights of appeal serve the public interest in NOT killing innocent people. Since 1973, more than 200 people have been exonerated from death row. The appeals proces...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-0227": {
-          "organization": "",
-          "postedDate": "2026-04-22T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6139096887320318
-    },
-    {
-      "cluster_id": 107,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-0232",
-      "representative_posted_date": "2026-04-22T04:00:00Z",
-      "representative_length": 1556,
-      "representative_excerpt": "\"I am writing to object to this proposed rule. It would allow states to fast-track executions while lowering the bar for legal representation and removing public oversight from the approval process. Since 1973, more than 200 people have been exonerated from death row. The appeals process exists to catch those mistakes. This rule makes it harder to do that, a...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-0232": {
-          "organization": "",
-          "postedDate": "2026-04-22T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6139096887320318
-    },
-    {
-      "cluster_id": 130,
+      "cluster_id": 154,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0018",
@@ -1493,10 +1465,673 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.38419954380449567
+      "presentation_score": 0.38231292517006804
+    },
+    {
+      "cluster_id": 160,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-0011",
+      "representative_posted_date": "2026-03-30T04:00:00Z",
+      "representative_length": 386,
+      "representative_excerpt": "This proposal is an excellent administrative move to improve criminal justice efficiency in the country and help states clear up capital punishment backlogs. An expedited procedure to approve and certify the action following a criminal sentence makes us safer and our system less sluggish. We with law enforcement friends appreciate and support the proposal re...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-0011": {
+          "organization": "",
+          "postedDate": "2026-03-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2976190476190476
+    },
+    {
+      "cluster_id": 134,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-0227",
+      "representative_posted_date": "2026-04-22T04:00:00Z",
+      "representative_length": 1630,
+      "representative_excerpt": "I strongly object to this proposed rule that will allow states to fast-track executions while lowering the bar for legal representation and removing public oversight from the approval process. The rights of appeal serve the public interest in NOT killing innocent people. Since 1973, more than 200 people have been exonerated from death row. The appeals proces...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-0227": {
+          "organization": "",
+          "postedDate": "2026-04-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6112244897959183
+    },
+    {
+      "cluster_id": 130,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-0232",
+      "representative_posted_date": "2026-04-22T04:00:00Z",
+      "representative_length": 1556,
+      "representative_excerpt": "\"I am writing to object to this proposed rule. It would allow states to fast-track executions while lowering the bar for legal representation and removing public oversight from the approval process. Since 1973, more than 200 people have been exonerated from death row. The appeals process exists to catch those mistakes. This rule makes it harder to do that, a...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-0232": {
+          "organization": "",
+          "postedDate": "2026-04-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6112244897959183
+    },
+    {
+      "cluster_id": 16,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1891",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 94,
+      "representative_excerpt": "Please stop fast tracking death penalty murders, especially the murders of innocent prisoners.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1891": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0034-1875": {
+          "organization": "L'chaim! Jews Against the Death Penalty",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4247002587358126
+    },
+    {
+      "cluster_id": 78,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1212",
+      "representative_posted_date": "2026-04-30T04:00:00Z",
+      "representative_length": 607,
+      "representative_excerpt": "We oppose any proposal that weakens federal review in death penalty cases, including allowing the U.S. Attorney General to approve expedited systems that limit meaningful appeals. Federal oversight is essential to protect constitutional rights and prevent irreversible errors, especially given the documented history of wrongful convictions and exonerations. W...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1212": {
+          "organization": "Rapid Response Advocacy Team of MMOC Catholic Church",
+          "postedDate": "2026-04-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.41088435374149657
+    },
+    {
+      "cluster_id": 88,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1050",
+      "representative_posted_date": "2026-04-28T04:00:00Z",
+      "representative_length": 30,
+      "representative_excerpt": "Comment on FR Doc # 2026-05134",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1050": {
+          "organization": "Federal Public Defenders for the Northern and Western Districts of Texas and Texas Defender Service",
+          "postedDate": "2026-04-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.40680272108843535
+    },
+    {
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1849",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 1224,
+      "representative_excerpt": "I am a member of the National Lawyers Guild. I submit this comment in opposition to the proposed rule on the ground that the Attorney General\u2019s certification process is constitutionally defective because the Attorney General is a structurally biased actor. The Attorney General is the nation's chief law enforcement officer and institutionally aligned with the...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1849": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5166666666666666
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1868",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 503,
+      "representative_excerpt": "Since 1973, more than 200 people have been exonerated from death row, including seven in Georgia. The appeals process is one of the main reasons those people are alive today, and this rule would weaken it. The rule eliminates public input from the approval process and makes approvals permanent barring any future review. It would also reduce the time availabl...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1868": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5166666666666666
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1926",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 774,
+      "representative_excerpt": "I strongly oppose this change that would allow state governments to expedite appeals to capital sentences. Over 200 people have been exonerated from death rows--and this number does not include those whose sentences were commuted based on doubts or those executed who are now believed to not have been guilty. Forensic science and criminal justice studies cont...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1926": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5166666666666666
     },
     {
       "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1929",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 405,
+      "representative_excerpt": "In Louisiana, many cases which imposed the death penalty were reversed. In fact 83% of the death sentences were reversed - in many cases years afterwards. See: https://law.loyno.edu/sites/law.loyno.edu/files/images/Economic%20Cost%20Paper%20LA%205.1.2019.pdf Please do not limit the chances for people to overturn wrongfully imposed death sentences. Bill Quigl...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1929": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5166666666666666
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1936",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 890,
+      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. Our justice system is subject to human error. More than 200 people have been exonerated from death row since 1973 due to inability to secure a competent defense attorney, prosecutorial misconduct with political pressure to...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1936": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5166666666666666
+    },
+    {
+      "cluster_id": 45,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1792",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 647,
+      "representative_excerpt": "I am against any federal rule that rushes convicted Death Penalty cases to be executed quickly. Without allowing these people to bring an appeal to a higher court, innocent people might be put to death wrongly! I spent grades 1st through 6th living in Dayton, Ohio. I loved being a child in the early 60's attending Belle Haven elementary school. It had a prof...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1792": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5105442176870748
+    },
+    {
+      "cluster_id": 34,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1832",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 274,
+      "representative_excerpt": "The administration's proposed federal rule change would make it easier for states to \u201cfast track\u201d executions. That's increasing the risk that courts rush through cases without fully reviewing serious constitutional violations or evidence of innocence. Please stop this rule.",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1832": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5105442176870748
+    },
+    {
+      "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1836",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 303,
+      "representative_excerpt": "\"He has shown thee o man what is good, and what does the Lord require of you, but to do justly and to love mercy and walk humbly with thy God.\" Micah 6:8 If Since Christ has already died a criminal's execution for all our sins, then let us extend His mercy to those of us who have ended up on death row.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1836": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5105442176870748
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1846",
+      "representative_posted_date": "2026-05-08T04:00:00Z",
+      "representative_length": 456,
+      "representative_excerpt": "What does this administration want to be remembered for? This regulation is an egregious attempt to wipe out decades of sober study and reflection on the motives and effects of inflicting the death penalty. It has been shown that capital punishment is no deterrent and that it has been applied in racist and patently unjust ways. Two wrongs don't make a right,...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1846": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5105442176870748
+    },
+    {
+      "cluster_id": 58,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1732",
+      "representative_posted_date": "2026-05-07T04:00:00Z",
+      "representative_length": 278,
+      "representative_excerpt": "There are so many cases of new evidence being found, or judicial corruption being exposed, that exonerate someone on death row. There is no purpose to making it easier to kill people, even those who are guilty of a crime, let alone those who are innocent and wrongfully accused.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1732": {
+          "organization": "",
+          "postedDate": "2026-05-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5085034013605442
+    },
+    {
+      "cluster_id": 55,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1752",
+      "representative_posted_date": "2026-05-07T04:00:00Z",
+      "representative_length": 939,
+      "representative_excerpt": "I oppose this rule which strips critical legal safeguards, reduces the time available to challenge wrongful convictions and makes it easier to fast-track executions by U.S. Attorney Generals who, as political appointees, are subject to political pressures of the moment. I have been a barred attorney since 1979 and I have learned by consistent observation tha...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1752": {
+          "organization": "",
+          "postedDate": "2026-05-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5085034013605442
+    },
+    {
+      "cluster_id": 53,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1761",
+      "representative_posted_date": "2026-05-07T04:00:00Z",
+      "representative_length": 910,
+      "representative_excerpt": "We strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defense ag...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1761": {
+          "organization": "",
+          "postedDate": "2026-05-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5085034013605442
+    },
+    {
+      "cluster_id": 30,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1842",
@@ -1544,334 +2179,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5061842213558265
+      "presentation_score": 0.501911143089554
     },
     {
       "cluster_id": 54,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1212",
-      "representative_posted_date": "2026-04-30T04:00:00Z",
-      "representative_length": 607,
-      "representative_excerpt": "We oppose any proposal that weakens federal review in death penalty cases, including allowing the U.S. Attorney General to approve expedited systems that limit meaningful appeals. Federal oversight is essential to protect constitutional rights and prevent irreversible errors, especially given the documented history of wrongful convictions and exonerations. W...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1212": {
-          "organization": "Rapid Response Advocacy Team of MMOC Catholic Church",
-          "postedDate": "2026-04-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.41463432641319137
-    },
-    {
-      "cluster_id": 66,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1050",
-      "representative_posted_date": "2026-04-28T04:00:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-05134",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1050": {
-          "organization": "Federal Public Defenders for the Northern and Western Districts of Texas and Texas Defender Service",
-          "postedDate": "2026-04-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4102865003262348
-    },
-    {
-      "cluster_id": 20,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1792",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
-      "representative_length": 647,
-      "representative_excerpt": "I am against any federal rule that rushes convicted Death Penalty cases to be executed quickly. Without allowing these people to bring an appeal to a higher court, innocent people might be put to death wrongly! I spent grades 1st through 6th living in Dayton, Ohio. I loved being a child in the early 60's attending Belle Haven elementary school. It had a prof...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1792": {
-          "organization": "",
-          "postedDate": "2026-05-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5153589640943508
-    },
-    {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1832",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
-      "representative_length": 274,
-      "representative_excerpt": "The administration's proposed federal rule change would make it easier for states to \u201cfast track\u201d executions. That's increasing the risk that courts rush through cases without fully reviewing serious constitutional violations or evidence of innocence. Please stop this rule.",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1832": {
-          "organization": "",
-          "postedDate": "2026-05-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5153589640943508
-    },
-    {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1836",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
-      "representative_length": 303,
-      "representative_excerpt": "\"He has shown thee o man what is good, and what does the Lord require of you, but to do justly and to love mercy and walk humbly with thy God.\" Micah 6:8 If Since Christ has already died a criminal's execution for all our sins, then let us extend His mercy to those of us who have ended up on death row.",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1836": {
-          "organization": "",
-          "postedDate": "2026-05-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5153589640943508
-    },
-    {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1846",
-      "representative_posted_date": "2026-05-08T04:00:00Z",
-      "representative_length": 456,
-      "representative_excerpt": "What does this administration want to be remembered for? This regulation is an egregious attempt to wipe out decades of sober study and reflection on the motives and effects of inflicting the death penalty. It has been shown that capital punishment is no deterrent and that it has been applied in racist and patently unjust ways. Two wrongs don't make a right,...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1846": {
-          "organization": "",
-          "postedDate": "2026-05-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5153589640943508
-    },
-    {
-      "cluster_id": 34,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1732",
-      "representative_posted_date": "2026-05-07T04:00:00Z",
-      "representative_length": 278,
-      "representative_excerpt": "There are so many cases of new evidence being found, or judicial corruption being exposed, that exonerate someone on death row. There is no purpose to making it easier to kill people, even those who are guilty of a crime, let alone those who are innocent and wrongfully accused.",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1732": {
-          "organization": "",
-          "postedDate": "2026-05-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5131850510508725
-    },
-    {
-      "cluster_id": 31,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1752",
-      "representative_posted_date": "2026-05-07T04:00:00Z",
-      "representative_length": 939,
-      "representative_excerpt": "I oppose this rule which strips critical legal safeguards, reduces the time available to challenge wrongful convictions and makes it easier to fast-track executions by U.S. Attorney Generals who, as political appointees, are subject to political pressures of the moment. I have been a barred attorney since 1979 and I have learned by consistent observation tha...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1752": {
-          "organization": "",
-          "postedDate": "2026-05-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5131850510508725
-    },
-    {
-      "cluster_id": 44,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1283",
-      "representative_posted_date": "2026-05-04T04:00:00Z",
-      "representative_length": 661,
-      "representative_excerpt": "I oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defense against exec...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-1283": {
-          "organization": "",
-          "postedDate": "2026-05-04T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5066633119204377
-    },
-    {
-      "cluster_id": 30,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1760",
@@ -1919,10 +2230,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5040103083123483
+      "presentation_score": 0.4998703267630234
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 116,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0708",
@@ -1955,10 +2266,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49361983365956813
+      "presentation_score": 0.49013605442176866
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0751",
@@ -1991,10 +2302,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49361983365956813
+      "presentation_score": 0.49013605442176866
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0804",
@@ -2027,10 +2338,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49361983365956813
+      "presentation_score": 0.49013605442176866
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0816",
@@ -2063,10 +2374,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49361983365956813
+      "presentation_score": 0.49013605442176866
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 123,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0242",
@@ -2099,46 +2410,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48275026844217683
+      "presentation_score": 0.4799319727891156
     },
     {
-      "cluster_id": 99,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-0253",
-      "representative_posted_date": "2026-04-23T04:00:00Z",
-      "representative_length": 1404,
-      "representative_excerpt": "The purpose of this program was to encourage states to provide adequate defense protocols to prevent the execution of innocent people and other abuses of capital punishment. The failure of ANY state to meet the criteria for this program demonstrates how the safety of innocent people is not prioritized, and how the death penalty can never be safely and fairly...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-0253": {
-          "organization": "",
-          "postedDate": "2026-04-23T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.48275026844217683
-    },
-    {
-      "cluster_id": 96,
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0256",
@@ -2171,16 +2446,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48275026844217683
+      "presentation_score": 0.4799319727891156
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 132,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-0229",
+      "representative_comment_id": "DOJ-OAG-2026-0034-0230",
       "representative_posted_date": "2026-04-22T04:00:00Z",
-      "representative_length": 966,
-      "representative_excerpt": "It would allow states to fast-track executions while lowering the bar for legal representation and removing public oversight from the approval process. Since 1973, more than 200 people have been exonerated from death row. The appeals process exists to catch those mistakes. This rule makes it harder to do that, and execution cannot be undone. I urge the Depar...",
+      "representative_length": 766,
+      "representative_excerpt": "\"I am writing to object to this proposed rule. It would allow states to fast-track executions while lowering the bar for legal representation and removing public oversight from the approval process. Since 1973, more than 200 people have been exonerated from death row. The appeals process exists to catch those mistakes. This rule makes it harder to do that, a...",
       "representative_signal_score": 1,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -2189,7 +2464,7 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "DOJ-OAG-2026-0034-0229": {
+        "DOJ-OAG-2026-0034-0230": {
           "organization": "",
           "postedDate": "2026-04-22T04:00:00Z",
           "zip": "",
@@ -2207,10 +2482,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4805763553986986
+      "presentation_score": 0.477891156462585
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 127,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0236",
@@ -2243,10 +2518,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4805763553986986
+      "presentation_score": 0.477891156462585
     },
     {
-      "cluster_id": 124,
+      "cluster_id": 147,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0138",
@@ -2279,10 +2554,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47840244235522034
+      "presentation_score": 0.4758503401360544
     },
     {
-      "cluster_id": 123,
+      "cluster_id": 146,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0142",
@@ -2315,10 +2590,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47840244235522034
+      "presentation_score": 0.4758503401360544
     },
     {
-      "cluster_id": 128,
+      "cluster_id": 152,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0026",
@@ -2351,46 +2626,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4762285293117421
+      "presentation_score": 0.4738095238095238
     },
     {
-      "cluster_id": 127,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-0034",
-      "representative_posted_date": "2026-04-20T04:00:00Z",
-      "representative_length": 772,
-      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. We have known for a long time that the risk of executing innocent people is far too high, with more than 200 people having been exonerated from death row since 1973. Due process and federal habeas appeals help ensure that ...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-0034": {
-          "organization": "",
-          "postedDate": "2026-04-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4762285293117421
-    },
-    {
-      "cluster_id": 126,
+      "cluster_id": 151,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0048",
@@ -2423,10 +2662,97 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4762285293117421
+      "presentation_score": 0.4738095238095238
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 150,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-0059",
+      "representative_posted_date": "2026-04-20T04:00:00Z",
+      "representative_length": 912,
+      "representative_excerpt": "This comment is to object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. It is known that the risk of executing innocent people is high, with more than 200 people having been exonerated from death row since 1973. Due process and federal habeas appeals help ensure that the gover...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-0059": {
+          "organization": "",
+          "postedDate": "2026-04-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4738095238095238
+    },
+    {
+      "cluster_id": 121,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-0253",
+      "representative_posted_date": "2026-04-23T04:00:00Z",
+      "representative_length": 1404,
+      "representative_excerpt": "The purpose of this program was to encourage states to provide adequate defense protocols to prevent the execution of innocent people and other abuses of capital punishment. The failure of ANY state to meet the criteria for this program demonstrates how the safety of innocent people is not prioritized, and how the death penalty can never be safely and fairly...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-0253": {
+          "organization": "",
+          "postedDate": "2026-04-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0034-0235": {
+          "organization": "",
+          "postedDate": "2026-04-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4712988981915949
+    },
+    {
+      "cluster_id": 125,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0238",
@@ -2474,10 +2800,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4714016126601744
+      "presentation_score": 0.46925808186506424
     },
     {
-      "cluster_id": 134,
+      "cluster_id": 149,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-0073",
+      "representative_posted_date": "2026-04-20T04:00:00Z",
+      "representative_length": 995,
+      "representative_excerpt": "I object to the proposed rule changes that will make it easier for the U.S. Attorney General to approve states for fast-track executions. As a Christian, I am deeply opposed to the death penalty. We have known for a long time that the risk of executing innocent people is far too high, with more than 200 people having been exonerated from death row since 1973...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-0073": {
+          "organization": "",
+          "postedDate": "2026-04-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0034-0049": {
+          "organization": "",
+          "postedDate": "2026-04-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.465176449212003
+    },
+    {
+      "cluster_id": 158,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0013",
@@ -2510,10 +2887,334 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4349241814856551
+      "presentation_score": 0.43503401360544214
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1854",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 165,
+      "representative_excerpt": "I am a Catholic, age 83, who believes the death penalty should be abolished not fast-tracked. A life sentence should be preferred for serious crimes. Barbara Reilly.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1854": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
     },
     {
       "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1860",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 186,
+      "representative_excerpt": "Do NOT adopt this proposed rule I am opposed to ANYthing, like this, that would allow executions to go forward more quickly if at all. The death penalty is immoral and must be abolished.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1860": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1864",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 610,
+      "representative_excerpt": "Do me a favor and look at how many people have been exonerated that were on death row. Then do some research and see how many people have been executed that didn't kill anybody. Now do some more research and see how many people have been put on death row and we're executed that were innocent and found so to be. This is a horrible idea to fast track death pen...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1864": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1871",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 256,
+      "representative_excerpt": "Hello: I am writing in opposition to fast-tracking of death penalty cases. It would also reduce the time available to identify and correct errors in capital cases, while lowering the standards states must meet regarding the quality of legal representation.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1871": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1894",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 235,
+      "representative_excerpt": "This is horrifying, to legalize and fast track the death penalty. The majority of people sentenced to death will be innocent, but the current DOJ seems to not care. This needs to be thought through and ultimately end the death penalty.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1894": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1905",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 171,
+      "representative_excerpt": "Innocent people are, not infrequently, sentenced to death, and I believe that some must have been executed. I oppose anything that would hasten this already flawed system.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1905": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1917",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 156,
+      "representative_excerpt": "Need to end policy big dead row inmates Waiting for execution and need to consider Threat of pardon or commutation needed when execution is delayed too long",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1917": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1923",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 238,
+      "representative_excerpt": "Death penalty cases are the cases that should take the most time, and be the most scrutinized for error. This shift is not in the favor of justice. Better to be slow and sure rather then apologizing for killing someone before exoneration.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1923": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1927",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 114,
+      "representative_excerpt": "Death is PERMANENT. Everyone deserves having all avenews of research thoroughly covered before that step is taken.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1927": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3833333333333333
+    },
+    {
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1778",
@@ -2546,10 +3247,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1784",
@@ -2582,10 +3283,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1791",
@@ -2618,10 +3319,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1793",
@@ -2654,10 +3355,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1796",
@@ -2690,10 +3391,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1823",
@@ -2726,10 +3427,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1826",
@@ -2762,10 +3463,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1829",
@@ -2798,10 +3499,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1833",
@@ -2834,10 +3535,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3820256307610175
+      "presentation_score": 0.3772108843537415
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1704",
@@ -2870,10 +3571,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3798517177175392
+      "presentation_score": 0.37517006802721087
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1713",
@@ -2906,10 +3607,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3798517177175392
+      "presentation_score": 0.37517006802721087
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1717",
@@ -2942,10 +3643,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3798517177175392
+      "presentation_score": 0.37517006802721087
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1718",
@@ -2978,10 +3679,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3798517177175392
+      "presentation_score": 0.37517006802721087
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1719",
@@ -3014,10 +3715,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3798517177175392
+      "presentation_score": 0.37517006802721087
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 59,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1727",
+      "representative_posted_date": "2026-05-07T04:00:00Z",
+      "representative_length": 791,
+      "representative_excerpt": "As a Christian minister, I do NOT want the death penalty in our state at all. The state performing violence does not deter violent crimes, it simply teaches that violence is an answer. Too many people put to death by the state are less economically able to afford an attorney able to provide a fair due process. Please do not speed up the process and cut off m...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1727": {
+          "organization": "",
+          "postedDate": "2026-05-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.37517006802721087
+    },
+    {
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1737",
@@ -3050,10 +3787,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3798517177175392
+      "presentation_score": 0.37517006802721087
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1738",
@@ -3086,16 +3823,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3798517177175392
+      "presentation_score": 0.37517006802721087
     },
     {
-      "cluster_id": 43,
-      "count": 1,
+      "cluster_id": 27,
+      "count": 2,
       "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-1360",
-      "representative_posted_date": "2026-05-04T04:00:00Z",
-      "representative_length": 867,
-      "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defense aga...",
+      "representative_comment_id": "DOJ-OAG-2026-0034-1850",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 1046,
+      "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know the current system makes irreversible mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appeals are not technicalities; they are the last line of defe...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -3104,7 +3841,58 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "DOJ-OAG-2026-0034-1360": {
+        "DOJ-OAG-2026-0034-1850": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "DOJ-OAG-2026-0034-1818": {
+          "organization": "",
+          "postedDate": "2026-05-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3747002587358126
+    },
+    {
+      "cluster_id": 67,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1366",
+      "representative_posted_date": "2026-05-04T04:00:00Z",
+      "representative_length": 731,
+      "representative_excerpt": "I strongly oppose this rule, which would make it easier for the U.S. Attorney General to fast-track executions while stripping away critical legal safeguards. We know this current system makes irreversible mistakes and this proposed new rule would fastrack those mistakes \u2013 more than 200 people have been exonerated from death row. Due process and federal appe...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1366": {
           "organization": "",
           "postedDate": "2026-05-04T04:00:00Z",
           "zip": "",
@@ -3122,10 +3910,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3733299785871044
+      "presentation_score": 0.36904761904761907
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 42,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1797",
@@ -3173,10 +3961,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3728508880224932
+      "presentation_score": 0.36857780975622073
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 51,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1766",
@@ -3224,10 +4012,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.370676974979015
+      "presentation_score": 0.3665369934296901
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1186",
@@ -3260,10 +4048,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1187",
@@ -3296,10 +4084,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1193",
@@ -3332,10 +4120,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1196",
@@ -3368,10 +4156,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1200",
@@ -3404,10 +4192,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1206",
@@ -3440,10 +4228,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1208",
@@ -3476,10 +4264,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1217",
@@ -3512,10 +4300,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1219",
@@ -3548,10 +4336,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1221",
@@ -3584,10 +4372,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1223",
@@ -3620,10 +4408,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1226",
@@ -3656,10 +4444,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1228",
@@ -3692,10 +4480,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1230",
@@ -3728,10 +4516,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1231",
@@ -3764,10 +4552,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3646343264131914
+      "presentation_score": 0.3608843537414966
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 117,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0697",
@@ -3800,10 +4588,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 115,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0710",
@@ -3836,10 +4624,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0717",
@@ -3872,10 +4660,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0723",
@@ -3908,10 +4696,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0750",
@@ -3944,10 +4732,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0757",
@@ -3980,10 +4768,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0767",
@@ -4016,10 +4804,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0768",
@@ -4052,10 +4840,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0776",
@@ -4088,10 +4876,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0777",
@@ -4124,10 +4912,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0800",
@@ -4160,10 +4948,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0808",
@@ -4196,10 +4984,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0824",
@@ -4232,10 +5020,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0848",
@@ -4268,10 +5056,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0863",
@@ -4304,10 +5092,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0877",
@@ -4340,10 +5128,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0886",
@@ -4376,10 +5164,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1022",
@@ -4412,10 +5200,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3602865003262348
+      "presentation_score": 0.35680272108843536
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 85,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1188",
@@ -4463,10 +5251,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3554595836746672
+      "presentation_score": 0.3522512791439758
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 122,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0243",
@@ -4499,10 +5287,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.34941693510884353
+      "presentation_score": 0.3465986394557823
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 119,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0255",
@@ -4535,10 +5323,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.34941693510884353
+      "presentation_score": 0.3465986394557823
     },
     {
-      "cluster_id": 118,
+      "cluster_id": 141,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0218",
@@ -4571,10 +5359,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 117,
+      "cluster_id": 140,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0219",
@@ -4607,10 +5395,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 116,
+      "cluster_id": 139,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0220",
@@ -4643,10 +5431,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 115,
+      "cluster_id": 138,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0221",
@@ -4679,10 +5467,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 114,
+      "cluster_id": 137,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0222",
@@ -4715,10 +5503,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 136,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0223",
@@ -4751,10 +5539,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 112,
+      "cluster_id": 135,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0226",
@@ -4787,10 +5575,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 133,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0228",
@@ -4823,10 +5611,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0231",
@@ -4859,10 +5647,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 129,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-0233",
+      "representative_posted_date": "2026-04-22T04:00:00Z",
+      "representative_length": 918,
+      "representative_excerpt": "I'm absolutely opposed to DOJ plans to relax rules and allow death penalty cases to be fast tracked through the courts. My daughter practiced law defending death row inmates and quickly saw how difficult it is to get a fair review of defendant's cases. If the concern is excessive use of courts, let's get rid of the death penalty. Life in prison serves public...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-0233": {
+          "organization": "",
+          "postedDate": "2026-04-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3445578231292517
+    },
+    {
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0234",
@@ -4895,10 +5719,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 126,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0237",
@@ -4931,10 +5755,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 124,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0240",
@@ -4967,10 +5791,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3472430220653653
+      "presentation_score": 0.3445578231292517
     },
     {
-      "cluster_id": 125,
+      "cluster_id": 148,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0130",
@@ -5003,10 +5827,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.34506910902188703
+      "presentation_score": 0.34251700680272107
     },
     {
-      "cluster_id": 122,
+      "cluster_id": 145,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0176",
@@ -5039,10 +5863,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.34506910902188703
+      "presentation_score": 0.34251700680272107
     },
     {
-      "cluster_id": 121,
+      "cluster_id": 144,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0191",
@@ -5075,10 +5899,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.34506910902188703
+      "presentation_score": 0.34251700680272107
     },
     {
-      "cluster_id": 119,
+      "cluster_id": 142,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0199",
@@ -5111,10 +5935,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.34506910902188703
+      "presentation_score": 0.34251700680272107
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 66,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1383",
@@ -5177,10 +6001,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3271112475597303
+      "presentation_score": 0.3237861927443687
     },
     {
-      "cluster_id": 132,
+      "cluster_id": 156,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0016",
@@ -5213,10 +6037,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32115606554362613
+      "presentation_score": 0.32006802721088434
     },
     {
-      "cluster_id": 133,
+      "cluster_id": 157,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0015",
@@ -5249,46 +6073,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31463432641319133
+      "presentation_score": 0.3139455782312925
     },
     {
-      "cluster_id": 136,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "DOJ-OAG-2026-0034-0011",
-      "representative_posted_date": "2026-03-30T04:00:00Z",
-      "representative_length": 386,
-      "representative_excerpt": "This proposal is an excellent administrative move to improve criminal justice efficiency in the country and help states clear up capital punishment backlogs. An expedited procedure to approve and certify the action following a criminal sentence makes us safer and our system less sluggish. We with law enforcement friends appreciate and support the proposal re...",
-      "representative_signal_score": 0,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "DOJ-OAG-2026-0034-0011": {
-          "organization": "",
-          "postedDate": "2026-03-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-05134",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.2972430220653653
-    },
-    {
-      "cluster_id": 135,
+      "cluster_id": 159,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0012",
@@ -5321,10 +6109,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2972430220653653
+      "presentation_score": 0.2976190476190476
     },
     {
-      "cluster_id": 137,
+      "cluster_id": 161,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0010",
@@ -5357,10 +6145,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.28637345684797394
+      "presentation_score": 0.28741496598639454
     },
     {
-      "cluster_id": 129,
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1859",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 26,
+      "representative_excerpt": "I wanna stop the execution",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1859": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.25
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1863",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 11,
+      "representative_excerpt": "Help People",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1863": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.25
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOJ-OAG-2026-0034-1884",
+      "representative_posted_date": "2026-05-11T04:00:00Z",
+      "representative_length": 16,
+      "representative_excerpt": "Killing is wrong",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOJ-OAG-2026-0034-1884": {
+          "organization": "",
+          "postedDate": "2026-05-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-05134",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.25
+    },
+    {
+      "cluster_id": 153,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0019",
@@ -5393,10 +6289,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.25086621047116237
+      "presentation_score": 0.24897959183673468
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1773",
@@ -5429,10 +6325,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2486922974276841
+      "presentation_score": 0.24387755102040817
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1798",
@@ -5465,10 +6361,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2486922974276841
+      "presentation_score": 0.24387755102040817
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1809",
@@ -5501,10 +6397,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2486922974276841
+      "presentation_score": 0.24387755102040817
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1841",
@@ -5537,10 +6433,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2486922974276841
+      "presentation_score": 0.24387755102040817
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1763",
@@ -5573,10 +6469,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2465183843842058
+      "presentation_score": 0.24183673469387756
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-1198",
@@ -5609,10 +6505,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.23130099307985802
+      "presentation_score": 0.22755102040816327
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0774",
@@ -5645,10 +6541,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.22695316699290147
+      "presentation_score": 0.22346938775510203
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0787",
@@ -5681,10 +6577,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.22695316699290147
+      "presentation_score": 0.22346938775510203
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0849",
@@ -5717,10 +6613,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.22695316699290147
+      "presentation_score": 0.22346938775510203
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0868",
@@ -5753,10 +6649,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.22695316699290147
+      "presentation_score": 0.22346938775510203
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 120,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0254",
@@ -5789,10 +6685,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.21608360177551017
+      "presentation_score": 0.21326530612244898
     },
     {
-      "cluster_id": 120,
+      "cluster_id": 143,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0194",
@@ -5825,10 +6721,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.21173577568855367
+      "presentation_score": 0.20918367346938777
     },
     {
-      "cluster_id": 131,
+      "cluster_id": 155,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0017",
@@ -5861,10 +6757,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.18782273221029278
+      "presentation_score": 0.186734693877551
     },
     {
-      "cluster_id": 138,
+      "cluster_id": 162,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "DOJ-OAG-2026-0034-0009",
@@ -5897,7 +6793,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.14869229742768408
+      "presentation_score": 0.15
     }
   ],
   "comments_clusters_path": "data/comments/DOJ-OAG-2026-0034.csv",
@@ -5905,18 +6801,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.4936708860759494,
-  "comments_first_page_coverage_count": 117,
-  "comments_clusters_total_available": 138,
-  "comments_clusters_displayed": 138,
-  "comments_first_page_high_signal_clusters": 1,
-  "comments_first_page_novelty_clusters": 3,
+  "comments_first_page_coverage_share": 0.44569288389513106,
+  "comments_first_page_coverage_count": 119,
+  "comments_clusters_total_available": 162,
+  "comments_clusters_displayed": 162,
+  "comments_first_page_high_signal_clusters": 2,
+  "comments_first_page_novelty_clusters": 4,
   "comments_first_page_stance_counts": {
-    "negative": 20,
-    "neutral": 4,
+    "negative": 21,
+    "neutral": 3,
     "positive": 1
   },
-  "comments_first_page_unique_days": 7,
+  "comments_first_page_unique_days": 8,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "DOJ-OAG-2026-0034"
