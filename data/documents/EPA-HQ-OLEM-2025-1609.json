@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-13T05:05:40.545021+00:00",
+  "comment_action_checked_at": "2026-05-15T18:41:22.543084+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-23T03:59:59Z",
   "pass_1_score": 13,
   "pass_2_score": 5,
-  "pass_3_score": 3.2549019607843137,
+  "pass_3_score": 3.259259259259259,
   "pass_1_scaled": 0.8297019998312598,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.4186973003527582,
+  "pass_3_scaled": 0.4191192986642709,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6311150739598079,
+  "combined_score": 0.6313260731155642,
   "score_total": 18,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -497,35 +497,36 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 14,
-  "comments_velocity_total": 13,
-  "comments_public_total_estimate": 13,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 14,
-  "comments_unique_clusters": 14,
+  "comments_total": 15,
+  "comments_velocity_total": 14,
+  "comments_public_total_estimate": 14,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 15,
+  "comments_unique_clusters": 15,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 14,
+  "comments_citizen_count": 15,
   "comments_commenter_type_counts": {
-    "citizen": 14
+    "citizen": 15
   },
   "comments_submission_role_counts": {
-    "individual": 11,
+    "individual": 12,
     "organization": 2,
     "government_affiliated_or_unclear": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 13,
+    "public_portal": 14,
     "other_channel_recorded": 1
   },
-  "comments_public_count": 13,
+  "comments_public_count": 14,
   "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-13": 1,
     "2026-05-07": 3,
     "2026-05-05": 1,
     "2026-04-27": 1,
@@ -535,20 +536,22 @@
     "2026-04-01": 2,
     "2026-03-30": 2
   },
-  "comments_high_signal_cluster_count_by_day": {},
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-05-13": 1
+  },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.4615384615384615,
-  "comments_sentiment_negative_pct": 0.07692307692307693,
-  "comments_sentiment_neutral_pct": 0.4615384615384615,
-  "comments_sentiment_net": 0.3846153846153846,
-  "comments_sentiment_sample_size": 13,
+  "comments_sentiment_positive_pct": 0.42857142857142855,
+  "comments_sentiment_negative_pct": 0.07142857142857142,
+  "comments_sentiment_neutral_pct": 0.5,
+  "comments_sentiment_net": 0.3571428571428571,
+  "comments_sentiment_sample_size": 14,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 14,
+  "comments_analysis_sample_size": 15,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 14,
-  "comments_representative_prior_selected": 14,
+  "comments_representative_selected": 15,
+  "comments_representative_prior_selected": 15,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 7,
   "comments_representative_run_budget": 0,
@@ -558,19 +561,55 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 7,
     "salience_rank": 1,
-    "weighted_fill": 6
+    "weighted_fill": 7
   },
-  "comments_representative_selected_by_counts_total": 14,
+  "comments_representative_selected_by_counts_total": 15,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-12T05:20:12.325517+00:00",
-  "comments_checked_at": "2026-05-12T05:20:12.395589+00:00",
+  "comments_api_last_seen_at": "2026-05-15T14:21:49.697140+00:00",
+  "comments_checked_at": "2026-05-15T14:21:49.824143+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 10,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0036",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 4128,
+      "representative_excerpt": "I fully support the EPA\u2019s decision to streamline the current NHSM processing system. The current system is leading to an increase in scrap tires that will never be put to good use and will foster dangerous fire hazards. While the current system could prevent certain chemicals form entering the cement kilns mentioned, the chances of these chemicals causing co...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-1609-0036": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0026",
@@ -603,10 +642,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.868421052631579
+      "presentation_score": 0.7325757575757574
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0022",
@@ -639,10 +678,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.5833333333333333
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0023",
@@ -675,10 +714,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.65
+      "presentation_score": 0.5833333333333333
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0025",
@@ -711,10 +750,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6552631578947369
+      "presentation_score": 0.5878787878787878
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0031",
@@ -747,10 +786,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7236842105263158
+      "presentation_score": 0.6469696969696969
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0024",
@@ -783,10 +822,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45526315789473687
+      "presentation_score": 0.45454545454545453
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0027",
@@ -819,46 +858,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47631578947368425
+      "presentation_score": 0.4727272727272727
     },
     {
-      "cluster_id": 8,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0028",
-      "representative_posted_date": "2026-04-09T04:00:00Z",
-      "representative_length": 572,
-      "representative_excerpt": "As a Public Health student at SDSU, I support this rule of recycling tire scraps that have been abandoned. Reusing these scraps that would likely just go to landfills or dumps would be a good idea. Since it would reduce risk to human health and the harm that comes with having tire piles, it would be beneficial to resuse the scraps. More things should be recy...",
-      "representative_signal_score": 0,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OLEM-2025-1609-0028": {
-          "organization": "",
-          "postedDate": "2026-04-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Anonymous public comment",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.47631578947368425
-    },
-    {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0032",
@@ -891,10 +894,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5447368421052632
+      "presentation_score": 0.5318181818181819
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0028",
+      "representative_posted_date": "2026-04-09T04:00:00Z",
+      "representative_length": 572,
+      "representative_excerpt": "As a Public Health student at SDSU, I support this rule of recycling tire scraps that have been abandoned. Reusing these scraps that would likely just go to landfills or dumps would be a good idea. Since it would reduce risk to human health and the harm that comes with having tire piles, it would be beneficial to resuse the scraps. More things should be recy...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-1609-0028": {
+          "organization": "",
+          "postedDate": "2026-04-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4727272727272727
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0029",
@@ -927,10 +966,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47631578947368425
+      "presentation_score": 0.4727272727272727
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0033",
@@ -963,10 +1002,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35
+      "presentation_score": 0.403030303030303
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0034",
@@ -999,10 +1038,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35
+      "presentation_score": 0.403030303030303
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0035",
@@ -1035,10 +1074,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35
+      "presentation_score": 0.403030303030303
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0030",
@@ -1071,26 +1110,26 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3157894736842105
+      "presentation_score": 0.3734848484848485
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2025-1609.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 14,
+  "comments_first_page_count": 15,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 14,
-  "comments_clusters_total_available": 14,
-  "comments_clusters_displayed": 14,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_coverage_count": 15,
+  "comments_clusters_total_available": 15,
+  "comments_clusters_displayed": 15,
+  "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
+    "neutral": 7,
     "negative": 2,
-    "positive": 6,
-    "neutral": 6
+    "positive": 6
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "EPA-HQ-OLEM-2025-1609"
