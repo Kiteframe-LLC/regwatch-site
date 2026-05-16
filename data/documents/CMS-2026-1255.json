@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-15T18:41:22.714823+00:00",
+  "comment_action_checked_at": "2026-05-16T05:03:28.960057+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -68,7 +68,7 @@
   "comments_fetched": 21,
   "comments_text_hydrated": 21,
   "comments_cached_records": 21,
-  "comments_unique_clusters": 15,
+  "comments_unique_clusters": 20,
   "comments_clustered_duplicates": 1,
   "comments_truncated": false,
   "comments_source": "api",
@@ -100,30 +100,30 @@
     "2026-05-13": 5
   },
   "comments_novel_comment_rate": 0.9523809523809523,
-  "comments_sentiment_positive_pct": 0.5508490957436637,
-  "comments_sentiment_negative_pct": 0.06416441489376233,
-  "comments_sentiment_neutral_pct": 0.384986489362574,
-  "comments_sentiment_net": 0.48668468084990135,
-  "comments_sentiment_sample_size": 16,
+  "comments_sentiment_positive_pct": 0.41705018896295765,
+  "comments_sentiment_negative_pct": 0.04857915091975352,
+  "comments_sentiment_neutral_pct": 0.5343706601172887,
+  "comments_sentiment_net": 0.36847103804320414,
+  "comments_sentiment_sample_size": 21,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 16,
+  "comments_analysis_sample_size": 21,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 16,
-  "comments_representative_prior_selected": 15,
-  "comments_representative_newly_selected": 1,
+  "comments_representative_selected": 21,
+  "comments_representative_prior_selected": 21,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 7,
-  "comments_representative_run_budget": 1,
+  "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 7,
     "salience_rank": 1,
-    "weighted_fill": 8
+    "weighted_fill": 13
   },
-  "comments_representative_selected_by_counts_total": 16,
+  "comments_representative_selected_by_counts_total": 21,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -133,7 +133,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0015",
@@ -184,7 +184,7 @@
       "presentation_score": 0.6108931399900428
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0002",
@@ -220,7 +220,7 @@
       "presentation_score": 0.8414213562373096
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0005",
@@ -256,7 +256,7 @@
       "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0010",
@@ -400,7 +400,7 @@
       "presentation_score": 0.9414213562373096
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0011",
@@ -436,7 +436,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0012",
@@ -472,7 +472,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0018",
@@ -508,7 +508,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0009",
@@ -544,7 +544,43 @@
       "presentation_score": 0.5747546895706428
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1255-0003",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 363,
+      "representative_excerpt": "Vivienne Elizabeth Smith MD FACC 1306831771 NPI PROBLEM: Hypertension is a increasing focus of CMS Medications in Part D Formularies are limited, disallowing or inhibiting individualized regimens in complex and high risk patients 1. Endorse proposed changes. 2. Future upgrades should provide clear executable mechanism for appeals, with a required response ti...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1255-0003": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1255-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5247546895706428
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0008",
@@ -580,7 +616,79 @@
       "presentation_score": 0.4414213562373095
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1255-0004",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 303,
+      "representative_excerpt": "Pharmacy Benefit Prior Auths - all PBMS (Medicare, Medicaid) require ePA submission (no faxes) with outcomes and access to clinical policies or identify what reference the determination was used for the denial. Additional information, denials and approvals all should be via ePA response. Too much paper",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1255-0004": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1255-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3914213562373095
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1255-0007",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 85,
+      "representative_excerpt": "In my opinion Cytodyn/Leronlimab is going to be the next MIRACLE DRUG IN THE WORLD!!!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1255-0007": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "OR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1255-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3914213562373095
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0013",
@@ -616,7 +724,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0016",
@@ -652,7 +760,43 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1255-0017",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 149,
+      "representative_excerpt": "I am in favor of significantly increasing the public's visibility to prior authorization metrics (rates of approvals, denials, overturn rates, etc.).",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1255-0017": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1255-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3914213562373095
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1255-0006",
@@ -686,22 +830,58 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.25808802290397614
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1255-0019",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 43,
+      "representative_excerpt": "pharmacy PA transparency should be required",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1255-0019": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1255-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.25808802290397614
     }
   ],
   "comments_clusters_path": "data/comments/CMS-2026-1255.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 15,
+  "comments_first_page_count": 20,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 16,
-  "comments_clusters_total_available": 15,
-  "comments_clusters_displayed": 15,
+  "comments_first_page_coverage_count": 21,
+  "comments_clusters_total_available": 20,
+  "comments_clusters_displayed": 20,
   "comments_first_page_high_signal_clusters": 6,
   "comments_first_page_novelty_clusters": 5,
   "comments_first_page_stance_counts": {
     "positive": 8,
-    "neutral": 6,
+    "neutral": 11,
     "negative": 1
   },
   "comments_first_page_unique_days": 2,

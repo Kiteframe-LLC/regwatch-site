@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-15T18:41:22.953476+00:00",
+  "comment_action_checked_at": "2026-05-16T05:03:29.244689+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -70,7 +70,7 @@
   "comments_fetched": 13,
   "comments_text_hydrated": 13,
   "comments_cached_records": 13,
-  "comments_unique_clusters": 7,
+  "comments_unique_clusters": 11,
   "comments_clustered_duplicates": 0,
   "comments_truncated": false,
   "comments_source": "api",
@@ -96,18 +96,18 @@
     "2026-05-14": 2
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.7142857142857143,
-  "comments_sentiment_negative_pct": 0.14285714285714285,
-  "comments_sentiment_neutral_pct": 0.14285714285714285,
-  "comments_sentiment_net": 0.5714285714285714,
-  "comments_sentiment_sample_size": 7,
+  "comments_sentiment_positive_pct": 0.6363636363636364,
+  "comments_sentiment_negative_pct": 0.09090909090909091,
+  "comments_sentiment_neutral_pct": 0.2727272727272727,
+  "comments_sentiment_net": 0.5454545454545454,
+  "comments_sentiment_sample_size": 11,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 7,
+  "comments_analysis_sample_size": 11,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 7,
-  "comments_representative_prior_selected": 5,
+  "comments_representative_selected": 11,
+  "comments_representative_prior_selected": 9,
   "comments_representative_newly_selected": 2,
   "comments_representative_must_keep": 1,
   "comments_representative_run_budget": 2,
@@ -117,9 +117,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 1,
     "salience_rank": 1,
-    "weighted_fill": 5
+    "weighted_fill": 9
   },
-  "comments_representative_selected_by_counts_total": 7,
+  "comments_representative_selected_by_counts_total": 11,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -129,7 +129,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0337-0002",
@@ -165,7 +165,43 @@
       "presentation_score": 0.9500000000000001
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0337-0012",
+      "representative_posted_date": "2026-05-14T04:00:00Z",
+      "representative_length": 2996,
+      "representative_excerpt": "I generally support this proposed rule because it appears to correct an overbroad interpretation that has affected veterans, Social Security beneficiaries, and others who were never found dangerous or broadly incapable of safely handling firearms. A person should not lose Second Amendment rights merely because the VA, SSA, or another agency determines that t...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0337-0012": {
+          "organization": "",
+          "postedDate": "2026-05-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09156",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7899999999999999
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0337-0005",
@@ -201,7 +237,7 @@
       "presentation_score": 0.7100000000000001
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0337-0010",
@@ -237,7 +273,7 @@
       "presentation_score": 0.7100000000000001
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0337-0011",
@@ -273,7 +309,7 @@
       "presentation_score": 0.63
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0337-0003",
@@ -309,7 +345,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0337-0004",
+      "representative_posted_date": "2026-05-14T04:00:00Z",
+      "representative_length": 143,
+      "representative_excerpt": "This update appears to be a good idea. Currently this is an area with ambiguity. It will be helpful to have this question defined specifically.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0337-0004": {
+          "organization": "",
+          "postedDate": "2026-05-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09156",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0337-0007",
@@ -345,7 +417,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0337-0008",
+      "representative_posted_date": "2026-05-14T04:00:00Z",
+      "representative_length": 578,
+      "representative_excerpt": "How do the proposed rules comport with the Americans with Disabilities Act? How do the proposed rules address temporary insanity and curable or treatable mental illnesses? How are rights restorable after cure or treatment? How are the consequences of inappropriate or incorrect diagnosis to be corrected? Can independent evaluations of fitness be considered in...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0337-0008": {
+          "organization": "",
+          "postedDate": "2026-05-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09156",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0337-0009",
@@ -379,23 +487,59 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0337-0013",
+      "representative_posted_date": "2026-05-14T04:00:00Z",
+      "representative_length": 785,
+      "representative_excerpt": "I am a responsible gun owner writing to support the proposed rule to modernize the definitions of \u201cadjudicated as a mental defective\u201d and \u201ccommitted to a mental institution\u201d (RIN 1140-AB04). I support the effort to align the term \u201cmental defective\u201d with current medical standards, associating it with \u201cintellectually disabled\u201d and ensuring that individuals rec...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0337-0013": {
+          "organization": "",
+          "postedDate": "2026-05-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09156",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
     }
   ],
   "comments_clusters_path": "data/comments/ATF-2026-0337.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 7,
+  "comments_first_page_count": 11,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 7,
-  "comments_clusters_total_available": 7,
-  "comments_clusters_displayed": 7,
-  "comments_first_page_high_signal_clusters": 1,
+  "comments_first_page_coverage_count": 11,
+  "comments_clusters_total_available": 11,
+  "comments_clusters_displayed": 11,
+  "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "positive": 5,
+    "positive": 7,
     "negative": 1,
-    "neutral": 1
+    "neutral": 3
   },
   "comments_first_page_unique_days": 1,
   "summary_available": true,
