@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/FSIS-2026-0001-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-18T18:38:26.776820+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": "check_failed:ConnectionError",
+  "comment_action_checked_at": "2026-05-22T20:48:18.137179+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-27T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 0.33962264150943394,
+  "pass_3_score": 0.4,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.0550315833534093,
+  "pass_3_scaled": 0.06449301496838222,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3620665871637553,
+  "combined_score": 0.36693922444546634,
   "score_total": 10,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -56,7 +56,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/24/2026-05746.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "offline_cache_miss_supporting_docs",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -64,36 +64,40 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 19,
-  "comments_velocity_total": 18,
-  "comments_public_total_estimate": 18,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 19,
-  "comments_unique_clusters": 17,
-  "comments_clustered_duplicates": 1,
+  "comments_total": 25,
+  "comments_velocity_total": 24,
+  "comments_public_total_estimate": 24,
+  "comments_fetched": 6,
+  "comments_text_hydrated": 6,
+  "comments_cached_records": 25,
+  "comments_unique_clusters": 22,
+  "comments_clustered_duplicates": 2,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 16,
   "comments_commenter_type_counts": {
+    "organization_other": 8,
     "citizen": 16,
-    "organization_other": 2,
     "government": 1
   },
   "comments_submission_role_counts": {
-    "individual": 18,
+    "organization": 5,
+    "individual": 19,
     "government_state": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 18,
+    "public_portal": 24,
     "agency_material": 1
   },
-  "comments_public_count": 18,
+  "comments_public_count": 24,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-21": 2,
+    "2026-05-20": 1,
+    "2026-05-18": 2,
     "2026-04-10": 1,
     "2026-04-07": 1,
     "2026-04-06": 1,
@@ -105,44 +109,45 @@
     "2026-03-26": 2
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-05-20": 1,
     "2026-04-10": 1,
     "2026-03-27": 1
   },
-  "comments_novel_comment_rate": 0.9473684210526315,
-  "comments_sentiment_positive_pct": 0.06029558402417356,
-  "comments_sentiment_negative_pct": 0.06029558402417356,
-  "comments_sentiment_neutral_pct": 0.8794088319516529,
+  "comments_novel_comment_rate": 0.92,
+  "comments_sentiment_positive_pct": 0.045106151686798344,
+  "comments_sentiment_negative_pct": 0.045106151686798344,
+  "comments_sentiment_neutral_pct": 0.9097876966264034,
   "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 17,
+  "comments_sentiment_sample_size": 23,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 18,
+  "comments_analysis_sample_size": 24,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 18,
-  "comments_representative_prior_selected": 18,
+  "comments_representative_selected": 24,
+  "comments_representative_prior_selected": 24,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 1,
+  "comments_representative_must_keep": 7,
   "comments_representative_run_budget": 1,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 1,
+    "must_keep": 7,
     "salience_rank": 1,
     "weighted_fill": 16
   },
-  "comments_representative_selected_by_counts_total": 18,
+  "comments_representative_selected_by_counts_total": 24,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-17T05:05:47.472704+00:00",
-  "comments_checked_at": "2026-05-17T05:05:47.587020+00:00",
-  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-05-22T14:31:24.823822+00:00",
+  "comments_checked_at": "2026-05-22T14:31:24.955237+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 15,
+      "cluster_id": 20,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0005",
@@ -190,10 +195,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5675598066567095
+      "presentation_score": 0.562678854275757
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 1,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FSIS-2026-0001-0026",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 52,
+      "representative_excerpt": "Comment from Kentucky Association of Meat Processors",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FSIS-2026-0001-0026": {
+          "organization": "Kentucky Association of Meat Processors",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kentucky Association of Meat Processors",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FSIS-2026-0001-0024": {
+          "organization": "Nebraska Association of Meat Processors",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Nebraska Association of Meat Processors",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.444226473323376
+    },
+    {
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0006",
@@ -226,10 +282,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7980880229039763
+      "presentation_score": 0.7932070705230239
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0020",
@@ -262,10 +318,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.8182070705230239
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FSIS-2026-0001-0023",
+      "representative_posted_date": "2026-05-20T04:00:00Z",
+      "representative_length": 1721,
+      "representative_excerpt": "We urge FSIS to consider size definitions that: Recognize pre-operational facilities in development as a distinct category deserving of regulatory guidance and support Account for capital investment and facility size rather than solely employee count or revenue Align with the February 2026 USDA-DOD National Farm Security...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FSIS-2026-0001-0023": {
+          "organization": "The 25th Acre",
+          "postedDate": "2026-05-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from The 25th Acre",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.9396356419515953
+    },
+    {
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0002",
@@ -301,7 +393,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0003",
@@ -337,7 +429,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0008",
@@ -370,10 +462,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6847546895706427
+      "presentation_score": 0.6652308800468332
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0010",
@@ -406,46 +498,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6847546895706427
+      "presentation_score": 0.6652308800468332
     },
     {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FSIS-2026-0001-0016",
-      "representative_posted_date": "2026-04-01T04:00:00Z",
-      "representative_length": 898,
-      "representative_excerpt": "What single variable or combination of variables should FSIS consider in additional size categories ( e.g., shift, operating days, type of products, slaughter class, building square footage)? shifts, operating days, and types of products 7b. How should the information be collected ( e.g., self-reported or collected by an inspector)? inspector...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FSIS-2026-0001-0016": {
-          "organization": "",
-          "postedDate": "2026-04-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Smith, Andrea",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5647546895706428
-    },
-    {
-      "cluster_id": 2,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0019",
@@ -478,10 +534,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6047546895706428
+      "presentation_score": 0.5461832609992142
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FSIS-2026-0001-0016",
+      "representative_posted_date": "2026-04-01T04:00:00Z",
+      "representative_length": 898,
+      "representative_excerpt": "What single variable or combination of variables should FSIS consider in additional size categories ( e.g., shift, operating days, type of products, slaughter class, building square footage)? shifts, operating days, and types of products 7b. How should the information be collected ( e.g., self-reported or collected by an inspector)? inspector...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FSIS-2026-0001-0016": {
+          "organization": "",
+          "postedDate": "2026-04-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Smith, Andrea",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5354689752849284
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0018",
@@ -514,10 +606,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5147546895706429
+      "presentation_score": 0.4610642133801666
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0012",
@@ -550,10 +642,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.46808802290397616
+      "presentation_score": 0.4485642133801666
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FSIS-2026-0001-0025",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 39,
+      "representative_excerpt": "Comment from Southwest Meat Association",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FSIS-2026-0001-0025": {
+          "organization": "Southwest Meat Association",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Southwest Meat Association",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4080880229039761
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0017",
@@ -586,10 +714,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4380880229039762
+      "presentation_score": 0.4039213562373095
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FSIS-2026-0001-0021",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 26,
+      "representative_excerpt": "Comment from Agri Beef Co.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FSIS-2026-0001-0021": {
+          "organization": "Agri Beef Co.",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Agri Beef Co.",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4027308800468333
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FSIS-2026-0001-0022",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 42,
+      "representative_excerpt": "Comment from Eickman's Processing Co. Inc.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FSIS-2026-0001-0022": {
+          "organization": "Eickman's Processing Co. Inc.",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Eickman's Processing Co. Inc.",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4027308800468333
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0015",
@@ -622,10 +822,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4314213562373095
+      "presentation_score": 0.40213564195159524
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0014",
@@ -658,10 +858,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42475468957064283
+      "presentation_score": 0.40034992766588096
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0007",
@@ -694,10 +894,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4180880229039762
+      "presentation_score": 0.3985642133801666
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0011",
@@ -730,10 +930,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4180880229039762
+      "presentation_score": 0.3985642133801666
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FSIS-2026-0001-0013",
@@ -766,7 +966,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4180880229039762
+      "presentation_score": 0.3985642133801666
     }
   ],
   "comments_clusters_path": "data/comments/FSIS-2026-0001.csv",
@@ -785,24 +985,24 @@
       "withdrawn": false,
       "representative_excerpt": "The difference between an establishment with 499 employees (at least one of whom is a QA manager or HACCP Coordinator, guaranteed) and an operation with 11 employees to handle all the paperwork and time involved in maintaining multiple HACCP plans is enormous. The volume of sales between and 499 employee company and an 11 employee company is also enormous...",
       "source_cluster_ids": [
-        16
+        21
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 17,
+  "comments_first_page_count": 22,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 18,
-  "comments_clusters_total_available": 17,
-  "comments_clusters_displayed": 17,
-  "comments_first_page_high_signal_clusters": 2,
-  "comments_first_page_novelty_clusters": 2,
+  "comments_first_page_coverage_count": 24,
+  "comments_clusters_total_available": 22,
+  "comments_clusters_displayed": 22,
+  "comments_first_page_high_signal_clusters": 3,
+  "comments_first_page_novelty_clusters": 7,
   "comments_first_page_stance_counts": {
-    "neutral": 14,
+    "neutral": 19,
     "positive": 1,
     "negative": 2
   },
-  "comments_first_page_unique_days": 9,
+  "comments_first_page_unique_days": 12,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "FSIS-2026-0001"

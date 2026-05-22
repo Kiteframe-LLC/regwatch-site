@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/EPA-HQ-OLEM-2025-1609-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-18T18:38:24.487698+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": "check_failed:ConnectionError",
+  "comment_action_checked_at": "2026-05-22T20:48:18.117702+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-05-23T03:59:59Z",
   "pass_1_score": 13,
   "pass_2_score": 5,
-  "pass_3_score": 3.259259259259259,
+  "pass_3_score": 3.262295081967213,
   "pass_1_scaled": 0.8297019998312598,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.4191192986642709,
+  "pass_3_scaled": 0.41941313279293013,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6313260731155642,
+  "combined_score": 0.6314729901798939,
   "score_total": 18,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -57,7 +57,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/03/23/2026-05586.html"
   ],
   "supporting_related_material_count": 20,
-  "supporting_docs_error": "offline_used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "EPA-HQ-OLEM-2025-1609-0016",
@@ -497,35 +497,40 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 15,
-  "comments_velocity_total": 14,
-  "comments_public_total_estimate": 14,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 15,
-  "comments_unique_clusters": 15,
+  "comments_total": 19,
+  "comments_velocity_total": 16,
+  "comments_public_total_estimate": 16,
+  "comments_fetched": 4,
+  "comments_text_hydrated": 4,
+  "comments_cached_records": 19,
+  "comments_unique_clusters": 19,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 15,
+  "comments_citizen_count": 19,
   "comments_commenter_type_counts": {
-    "citizen": 15
+    "citizen": 19
   },
   "comments_submission_role_counts": {
-    "individual": 12,
+    "individual": 14,
+    "government_unknown": 1,
+    "government_tribal": 1,
     "organization": 2,
     "government_affiliated_or_unclear": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 14,
+    "public_portal": 16,
+    "agency_material": 2,
     "other_channel_recorded": 1
   },
-  "comments_public_count": 14,
+  "comments_public_count": 16,
   "comments_recorded_count": 1,
-  "comments_agency_material_count": 0,
+  "comments_agency_material_count": 2,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-21": 2,
+    "2026-05-19": 2,
     "2026-05-13": 1,
     "2026-05-07": 3,
     "2026-05-05": 1,
@@ -540,40 +545,40 @@
     "2026-05-13": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.42857142857142855,
-  "comments_sentiment_negative_pct": 0.07142857142857142,
-  "comments_sentiment_neutral_pct": 0.5,
-  "comments_sentiment_net": 0.3571428571428571,
-  "comments_sentiment_sample_size": 14,
+  "comments_sentiment_positive_pct": 0.375,
+  "comments_sentiment_negative_pct": 0.0625,
+  "comments_sentiment_neutral_pct": 0.5625,
+  "comments_sentiment_net": 0.3125,
+  "comments_sentiment_sample_size": 16,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 15,
+  "comments_analysis_sample_size": 19,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 15,
-  "comments_representative_prior_selected": 15,
+  "comments_representative_selected": 19,
+  "comments_representative_prior_selected": 19,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 7,
+  "comments_representative_must_keep": 11,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 7,
+    "must_keep": 11,
     "salience_rank": 1,
     "weighted_fill": 7
   },
-  "comments_representative_selected_by_counts_total": 15,
+  "comments_representative_selected_by_counts_total": 19,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-17T05:20:54.001473+00:00",
-  "comments_checked_at": "2026-05-17T05:20:54.107749+00:00",
-  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-05-22T14:54:32.880259+00:00",
+  "comments_checked_at": "2026-05-22T14:54:32.981124+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 1,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0036",
@@ -606,10 +611,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.9346153846153847
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0026",
@@ -642,10 +647,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7325757575757574
+      "presentation_score": 0.730128205128205
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0022",
@@ -681,7 +686,7 @@
       "presentation_score": 0.5833333333333333
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0023",
@@ -717,7 +722,7 @@
       "presentation_score": 0.5833333333333333
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0025",
@@ -750,10 +755,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5878787878787878
+      "presentation_score": 0.5871794871794871
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0031",
@@ -786,10 +791,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6469696969696969
+      "presentation_score": 0.6371794871794871
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0024",
@@ -822,10 +827,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45454545454545453
+      "presentation_score": 0.45384615384615384
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0027",
@@ -858,10 +863,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4727272727272727
+      "presentation_score": 0.46923076923076923
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0032",
@@ -894,10 +899,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5318181818181819
+      "presentation_score": 0.5192307692307693
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0028",
@@ -930,10 +935,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4727272727272727
+      "presentation_score": 0.46923076923076923
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0029",
@@ -966,10 +971,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4727272727272727
+      "presentation_score": 0.46923076923076923
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0039",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 74,
+      "representative_excerpt": "Comment submitted by Alabama Department of Environmental Management (ADEM)",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-1609-0039": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Alabama Department of Environmental Management (ADEM)",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41666666666666663
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0040",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 59,
+      "representative_excerpt": "Comment submitted by Environmental Protection Network (EPN)",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-1609-0040": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Environmental Protection Network (EPN)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41666666666666663
     },
     {
       "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0037",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 38,
+      "representative_excerpt": "Comment submitted by Michael Ravnitzky",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-1609-0037": {
+          "organization": "",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Michael Ravnitzky",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4128205128205128
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0038",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 79,
+      "representative_excerpt": "Comment submitted by Mille Lacs Band of Ojibwe, Department of Natural Resources",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2025-1609-0038": {
+          "organization": "",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Mille Lacs Band of Ojibwe, Department of Natural Resources",
+          "withdrawn": false,
+          "submissionRole": "government_tribal",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4128205128205128
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0033",
@@ -1002,10 +1151,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.403030303030303
+      "presentation_score": 0.38974358974358975
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0034",
@@ -1038,10 +1187,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.403030303030303
+      "presentation_score": 0.38974358974358975
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0035",
@@ -1074,10 +1223,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.403030303030303
+      "presentation_score": 0.38974358974358975
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2025-1609-0030",
@@ -1110,26 +1259,59 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3734848484848485
+      "presentation_score": 0.3647435897435897
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2025-1609.csv",
-  "government_submissions_count": 0,
-  "government_submissions": [],
+  "government_submissions_count": 2,
+  "government_submissions": [
+    {
+      "comment_id": "EPA-HQ-OLEM-2025-1609-0039",
+      "organization": "",
+      "posted_date": "2026-05-21T04:00:00Z",
+      "title": "Comment submitted by Alabama Department of Environmental Management (ADEM)",
+      "attachment_count": 0,
+      "submission_role": "government_unknown",
+      "submission_role_confidence": "medium",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Comment submitted by Alabama Department of Environmental Management (ADEM)",
+      "source_cluster_ids": [
+        2
+      ]
+    },
+    {
+      "comment_id": "EPA-HQ-OLEM-2025-1609-0038",
+      "organization": "",
+      "posted_date": "2026-05-19T04:00:00Z",
+      "title": "Comment submitted by Mille Lacs Band of Ojibwe, Department of Natural Resources",
+      "attachment_count": 0,
+      "submission_role": "government_tribal",
+      "submission_role_confidence": "medium",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Comment submitted by Mille Lacs Band of Ojibwe, Department of Natural Resources",
+      "source_cluster_ids": [
+        3
+      ]
+    }
+  ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 15,
+  "comments_first_page_count": 19,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 15,
-  "comments_clusters_total_available": 15,
-  "comments_clusters_displayed": 15,
+  "comments_first_page_coverage_count": 19,
+  "comments_clusters_total_available": 19,
+  "comments_clusters_displayed": 19,
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 7,
+    "neutral": 11,
     "negative": 2,
     "positive": 6
   },
-  "comments_first_page_unique_days": 9,
+  "comments_first_page_unique_days": 11,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "EPA-HQ-OLEM-2025-1609"

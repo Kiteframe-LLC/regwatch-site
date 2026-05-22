@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/CMS-2026-1156-0002",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-18T18:38:24.844857+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": "check_failed:ConnectionError",
+  "comment_action_checked_at": "2026-05-22T20:48:18.120083+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-02T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 3,
-  "pass_3_score": 3.675,
+  "pass_3_score": 3.7659574468085104,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.4580058115408129,
+  "pass_3_scaled": 0.46616024774510323,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.601579103079961,
+  "combined_score": 0.6056563211821062,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/04/06/2026-06604.html"
   ],
   "supporting_related_material_count": 1,
-  "supporting_docs_error": "offline_used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "CMS-2026-1156-0001",
@@ -85,39 +85,41 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 29,
-  "comments_velocity_total": 27,
-  "comments_public_total_estimate": 27,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 29,
-  "comments_unique_clusters": 28,
+  "comments_total": 38,
+  "comments_velocity_total": 36,
+  "comments_public_total_estimate": 36,
+  "comments_fetched": 9,
+  "comments_text_hydrated": 9,
+  "comments_cached_records": 38,
+  "comments_unique_clusters": 37,
   "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 8,
   "comments_commenter_type_counts": {
-    "other": 16,
-    "citizen": 8,
-    "organization_other": 5
+    "other": 22,
+    "organization_other": 8,
+    "citizen": 8
   },
   "comments_submission_role_counts": {
-    "unknown": 15,
+    "unknown": 21,
+    "organization": 8,
     "individual": 8,
-    "organization": 5,
     "government_federal": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 27,
+    "public_portal": 36,
     "other_channel_recorded": 1,
     "agency_material": 1
   },
-  "comments_public_count": 27,
+  "comments_public_count": 36,
   "comments_recorded_count": 1,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-19": 6,
+    "2026-05-18": 3,
     "2026-05-14": 3,
     "2026-05-13": 10,
     "2026-05-11": 2,
@@ -134,41 +136,41 @@
   "comments_high_signal_cluster_count_by_day": {
     "2026-04-14": 1
   },
-  "comments_novel_comment_rate": 0.9655172413793104,
-  "comments_sentiment_positive_pct": 0.03761524959731929,
-  "comments_sentiment_negative_pct": 0.2100797584562948,
-  "comments_sentiment_neutral_pct": 0.7523049919463858,
-  "comments_sentiment_net": -0.17246450885897552,
-  "comments_sentiment_sample_size": 27,
+  "comments_novel_comment_rate": 0.9736842105263158,
+  "comments_sentiment_positive_pct": 0.05620351573953376,
+  "comments_sentiment_negative_pct": 0.24125253751629433,
+  "comments_sentiment_neutral_pct": 0.7025439467441719,
+  "comments_sentiment_net": -0.18504902177676058,
+  "comments_sentiment_sample_size": 36,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 29,
+  "comments_analysis_sample_size": 38,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 29,
-  "comments_representative_prior_selected": 29,
+  "comments_representative_selected": 38,
+  "comments_representative_prior_selected": 38,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 7,
+  "comments_representative_must_keep": 10,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 7,
+    "must_keep": 10,
     "salience_rank": 1,
-    "weighted_fill": 21
+    "weighted_fill": 27
   },
-  "comments_representative_selected_by_counts_total": 29,
+  "comments_representative_selected_by_counts_total": 38,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-17T05:10:28.666953+00:00",
-  "comments_checked_at": "2026-05-17T05:10:28.828092+00:00",
-  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-05-22T14:35:32.625980+00:00",
+  "comments_checked_at": "2026-05-22T14:35:32.886079+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 7,
+      "cluster_id": 16,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0027",
@@ -216,10 +218,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6580359971329
+      "presentation_score": 0.6458931399900427
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0011",
@@ -252,10 +254,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8557070705230239
+      "presentation_score": 0.8539213562373096
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0015",
@@ -288,10 +290,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7680880229039762
+      "presentation_score": 0.7605880229039761
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0017",
@@ -324,10 +326,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7352308800468332
+      "presentation_score": 0.7255880229039761
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0019",
@@ -360,10 +362,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7995165943325475
+      "presentation_score": 0.7880880229039762
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0020",
@@ -396,10 +398,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7995165943325475
+      "presentation_score": 0.7880880229039762
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0029",
@@ -432,10 +434,442 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7552308800468333
+      "presentation_score": 0.743088022903976
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0034",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 1494,
+      "representative_excerpt": "Patient complexity, community resources, and geography all affect these numbers in ways the current methodology does not account for. We should not face payment penalties based on a scoring tool that needs significant refinement. Finally, I fully support the proposed change to \u00a7 418.26(b). Allowing a physician designee to sign discharge orders reflects how...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0034": {
+          "organization": "Heartlinks",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8055880229039761
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0040",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 4623,
+      "representative_excerpt": "Bad actors harm patients, families, referral partners, employees, ethical hospice providers, and the integrity of the Medicare program. CMS should use data, survey findings, ownership history, and referral source patterns to identify the individuals and entities behind these operations. CMS should also seek input from established, compliant, community...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0040": {
+          "organization": "",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.758088022903976
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0041",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 1164,
+      "representative_excerpt": "This results in patients having to discharge or revoke from hospice in order to receive a comfort-related treatment that ultimately hospice may be willing to pay for and support while enrolled in hospice. Smaller hospices need options to partner with acute care settings to offer these interventions without having to discharge from hospice services. Would...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0041": {
+          "organization": "",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6247546895706427
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0042",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 1342,
+      "representative_excerpt": "The current reporting structure does not appear to account for differences in hospice size or geographic service area, which places smaller hospices serving rural communities at a significant disadvantage. Providers in rural areas often face unique operational challenges, including greater travel distances, staffing limitations, and reduced access to...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0042": {
+          "organization": "",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6247546895706427
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0035",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 304,
+      "representative_excerpt": "See attached file: It applies to file code: CMS-1851-P, Specifically the CMS, Medicare Program: FY2027 Hospice Wage Index and Payment Rate Update and Hospice Quality Reporting Requirements. 17338. Applies specifically to the RFI, Section 3-e, regarding the information on interaction of MAID and Hospice.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0035": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "WI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6222546895706428
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0022",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 1312,
+      "representative_excerpt": "The term Medical Aid in Dying should really mean hospice care, providing support and comfort to the terminally ill without killing them or helping them to kill themselves. The assisted suicide movement does everything possible to blur the lines and make their killing acceptable, so they invent terms like MAID to soften the harsh reality. Many of my...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0022": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6097546895706427
+    },
+    {
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0014",
+      "representative_posted_date": "2026-04-29T04:00:00Z",
+      "representative_length": 798,
+      "representative_excerpt": "I support CMS' use of data to identify and prevent hospice fraud. I suggest a few revisions to the proposed SSVI. First, non-hospice spending should account for an agency's size. Per-day non-hospice spending would be a better metric. Second, CMS already measures and reports HVLDL and Visits Near Death - either of these should be included in the SSVI; there...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0014": {
+          "organization": "",
+          "postedDate": "2026-04-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5747546895706428
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0013",
+      "representative_posted_date": "2026-04-28T04:00:00Z",
+      "representative_length": 527,
+      "representative_excerpt": "While compliance is essential, it may limit a patient or family\u2019s preference regarding receiving or completing this form at that time. 2. I believe all hospices, regardless of census, should be required to report data to Medicare. Transparency in reporting allows patients and families to make informed decisions when selecting a hospice provider. Without...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0013": {
+          "organization": "",
+          "postedDate": "2026-04-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5722546895706427
+    },
+    {
+      "cluster_id": 30,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0012",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 733,
+      "representative_excerpt": "Many hospice patients, even when counseled, wish to continue taking medications that they feel promote their wellbeing. This is not due to any hospice malfeasance....",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0012": {
+          "organization": "",
+          "postedDate": "2026-04-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5447546895706428
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0037",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 306,
+      "representative_excerpt": "The Alzheimer's Association and the Alzheimer's Impact Movement appreciate the opportunity to submit the attached comments on the Fiscal Year 2027 Hospice Wage Index and Payment Rate Update and Hospice Quality Reporting Program Requirements. Please do not hesitate to contact us if we can be of assistance.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0037": {
+          "organization": "Alzheimer's Association",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5414213562373096
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0038",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 29,
+      "representative_excerpt": "Comment on CMS-2026-1156-0002",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0038": {
+          "organization": "Hospice of North Idaho",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5414213562373096
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1156-0030",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 975,
+      "representative_excerpt": "HMH is concerned that the proposed 2.4 percent payment update for hospices that meet quality reporting requirements is insufficient to sustain access and quality, particularly in light of ongoing health care workforce shortages and the competitive labor market in New Jersey. HMH also urges CMS to take a cautious and iterative approach to the proposed SSVI...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1156-0030": {
+          "organization": "Hackensack Meridian Health",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1156-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5264213562373096
+    },
+    {
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0007",
@@ -471,27 +905,27 @@
       "presentation_score": 0.5247546895706428
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-1156-0022",
-      "representative_posted_date": "2026-05-13T04:00:00Z",
-      "representative_length": 1312,
-      "representative_excerpt": "The term Medical Aid in Dying should really mean hospice care, providing support and comfort to the terminally ill without killing them or helping them to kill themselves. The assisted suicide movement does everything possible to blur the lines and make their killing acceptable, so they invent terms like MAID to soften the harsh reality. Many of my...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
+      "representative_comment_id": "CMS-2026-1156-0039",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 592,
+      "representative_excerpt": "It is illegal under federal law to use federal funding for assisted suicide or any part of the assisted suicide process- no Medicaid dollars, no federal funding towards telehealth. I would urge CMS to follow the statutory language of using \"assisted suicide\" (not \"Medical Aid in Dying\") and that it is illegal to use federal funds for assisted suicide....",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-1156-0022": {
+        "CMS-2026-1156-0039": {
           "organization": "",
-          "postedDate": "2026-05-13T04:00:00Z",
+          "postedDate": "2026-05-19T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "CA",
+          "stateProvinceRegion": "MN",
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-1156-0002",
@@ -504,89 +938,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6218975467135
+      "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-1156-0014",
-      "representative_posted_date": "2026-04-29T04:00:00Z",
-      "representative_length": 798,
-      "representative_excerpt": "I support CMS' use of data to identify and prevent hospice fraud. I suggest a few revisions to the proposed SSVI. First, non-hospice spending should account for an agency's size. Per-day non-hospice spending would be a better metric. Second, CMS already measures and reports HVLDL and Visits Near Death - either of these should be included in the SSVI; there...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-1156-0014": {
-          "organization": "",
-          "postedDate": "2026-04-29T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-1156-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5818975467134999
-    },
-    {
-      "cluster_id": 20,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-1156-0013",
-      "representative_posted_date": "2026-04-28T04:00:00Z",
-      "representative_length": 527,
-      "representative_excerpt": "While compliance is essential, it may limit a patient or family\u2019s preference regarding receiving or completing this form at that time. 2. I believe all hospices, regardless of census, should be required to report data to Medicare. Transparency in reporting allows patients and families to make informed decisions when selecting a hospice provider. Without...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-1156-0013": {
-          "organization": "",
-          "postedDate": "2026-04-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-1156-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.579040403856357
-    },
-    {
-      "cluster_id": 21,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-1156-0012",
-      "representative_posted_date": "2026-04-17T04:00:00Z",
-      "representative_length": 733,
-      "representative_excerpt": "Many hospice patients, even when counseled, wish to continue taking medications that they feel promote their wellbeing. This is not due to any hospice malfeasance....",
-      "representative_signal_score": 1,
+      "representative_comment_id": "CMS-2026-1156-0036",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 413,
+      "representative_excerpt": "I urge CMS to follow the statutory language of using \u201cassisted suicide\u201d (not \u201cMedical Aid in Dying\u201d.) It is illegal under federal law to use federal funding for assisted suicide or any part of the assisted suicide process. Please do not change the wording, and do not allow federal funds to be used the intentional killing of patients....",
+      "representative_signal_score": 0,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -594,17 +956,17 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-1156-0012": {
+        "CMS-2026-1156-0036": {
           "organization": "",
-          "postedDate": "2026-04-17T04:00:00Z",
+          "postedDate": "2026-05-18T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-1156-0002",
           "withdrawn": false,
-          "submissionRole": "individual",
+          "submissionRole": "unknown",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
@@ -612,46 +974,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5476118324277857
+      "presentation_score": 0.4889213562373095
     },
     {
-      "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-1156-0030",
-      "representative_posted_date": "2026-05-13T04:00:00Z",
-      "representative_length": 975,
-      "representative_excerpt": "HMH is concerned that the proposed 2.4 percent payment update for hospices that meet quality reporting requirements is insufficient to sustain access and quality, particularly in light of ongoing health care workforce shortages and the competitive labor market in New Jersey. HMH also urges CMS to take a cautious and iterative approach to the proposed SSVI...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-1156-0030": {
-          "organization": "Hackensack Meridian Health",
-          "postedDate": "2026-05-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-1156-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5385642133801667
-    },
-    {
-      "cluster_id": 3,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0031",
@@ -684,10 +1010,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4789213562373095
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0032",
@@ -720,10 +1046,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4789213562373095
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0033",
@@ -756,10 +1082,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4789213562373095
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0021",
@@ -792,10 +1118,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48856421338016665
+      "presentation_score": 0.4764213562373095
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0023",
@@ -828,10 +1154,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48856421338016665
+      "presentation_score": 0.4764213562373095
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0024",
@@ -864,10 +1190,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48856421338016665
+      "presentation_score": 0.4764213562373095
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0025",
@@ -900,10 +1226,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48856421338016665
+      "presentation_score": 0.4764213562373095
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0026",
@@ -936,10 +1262,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48856421338016665
+      "presentation_score": 0.4764213562373095
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0028",
@@ -972,10 +1298,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48856421338016665
+      "presentation_score": 0.4764213562373095
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0016",
@@ -1008,10 +1334,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46284992766588096
+      "presentation_score": 0.4539213562373095
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0009",
@@ -1044,10 +1370,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40284992766588096
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0010",
@@ -1080,10 +1406,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40284992766588096
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0005",
@@ -1119,7 +1445,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0006",
@@ -1155,7 +1481,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-1156-0008",
@@ -1207,22 +1533,22 @@
       "withdrawn": false,
       "representative_excerpt": "Since the Administration prioritizes elimination of Fraud, Waste and Abuse, so it should also prioritize regulations which make it impossible for the costs of Assisted Suicide to be passed on to CMS payers. These would include the requirement of Assisted Suicide as a cause of death (separated from any patient identifiers) in states where Assisted Suicide...",
       "source_cluster_ids": [
-        6
+        15
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.896551724137931,
+  "comments_first_page_coverage_share": 0.6842105263157895,
   "comments_first_page_coverage_count": 26,
-  "comments_clusters_total_available": 28,
-  "comments_clusters_displayed": 28,
+  "comments_clusters_total_available": 37,
+  "comments_clusters_displayed": 37,
   "comments_first_page_high_signal_clusters": 1,
-  "comments_first_page_novelty_clusters": 5,
+  "comments_first_page_novelty_clusters": 8,
   "comments_first_page_stance_counts": {
-    "negative": 5,
-    "neutral": 19,
-    "positive": 1
+    "negative": 7,
+    "neutral": 16,
+    "positive": 2
   },
   "comments_first_page_unique_days": 12,
   "summary_available": true,

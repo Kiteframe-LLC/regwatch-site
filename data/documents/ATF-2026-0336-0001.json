@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ATF-2026-0336-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-18T18:38:23.390862+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": "check_failed:ConnectionError",
+  "comment_action_checked_at": "2026-05-22T20:48:17.369953+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-08T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 6.875,
+  "pass_3_score": 5.533333333333333,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.6820411583440101,
+  "pass_3_scaled": 0.6023655735154125,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7054430786098868,
+  "combined_score": 0.6644101524231589,
   "score_total": 11,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -57,7 +57,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/08/2026-09154.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "offline_cache_miss_supporting_docs",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -65,48 +65,50 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 31,
-  "comments_velocity_total": 31,
-  "comments_public_total_estimate": 31,
-  "comments_fetched": 25,
-  "comments_text_hydrated": 25,
-  "comments_cached_records": 30,
-  "comments_unique_clusters": 27,
+  "comments_total": 38,
+  "comments_velocity_total": 38,
+  "comments_public_total_estimate": 38,
+  "comments_fetched": 7,
+  "comments_text_hydrated": 7,
+  "comments_cached_records": 37,
+  "comments_unique_clusters": 34,
   "comments_clustered_duplicates": 3,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 30,
+  "comments_citizen_count": 37,
   "comments_commenter_type_counts": {
-    "citizen": 30
+    "citizen": 37
   },
   "comments_submission_role_counts": {
-    "individual": 30
+    "individual": 37
   },
   "comments_submission_channel_counts": {
-    "public_portal": 30
+    "public_portal": 37
   },
-  "comments_public_count": 30,
+  "comments_public_count": 37,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-05-21": 3,
+    "2026-05-18": 4,
     "2026-05-15": 27
   },
   "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.9,
-  "comments_sentiment_positive_pct": 0.580198854565674,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.4198011454343261,
-  "comments_sentiment_net": 0.580198854565674,
-  "comments_sentiment_sample_size": 30,
+  "comments_novel_comment_rate": 0.918918918918919,
+  "comments_sentiment_positive_pct": 0.5222701162139631,
+  "comments_sentiment_negative_pct": 0.028101757869766878,
+  "comments_sentiment_neutral_pct": 0.44962812591627005,
+  "comments_sentiment_net": 0.49416835834419626,
+  "comments_sentiment_sample_size": 37,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 30,
+  "comments_analysis_sample_size": 37,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 30,
-  "comments_representative_prior_selected": 30,
+  "comments_representative_selected": 37,
+  "comments_representative_prior_selected": 37,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 1,
@@ -115,19 +117,19 @@
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 1,
-    "weighted_fill": 29
+    "weighted_fill": 36
   },
-  "comments_representative_selected_by_counts_total": 30,
+  "comments_representative_selected_by_counts_total": 37,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-05-17T05:42:10.573570+00:00",
-  "comments_checked_at": "2026-05-17T05:42:10.701298+00:00",
-  "comments_error": "offline_used_stale_cache; offline_comment_on_id_fallback_document_id",
+  "comments_api_last_seen_at": "2026-05-22T14:52:26.447441+00:00",
+  "comments_checked_at": "2026-05-22T14:52:26.579235+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 19,
+      "cluster_id": 26,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0012",
@@ -190,10 +192,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4803368801111204
+      "presentation_score": 0.38033688011112043
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 16,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0023",
@@ -241,10 +243,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49085912284225464
+      "presentation_score": 0.39085912284225466
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0003",
@@ -277,10 +279,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0005",
@@ -313,10 +315,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0017",
@@ -349,10 +351,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0019",
@@ -385,10 +387,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0025",
@@ -421,10 +423,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0029",
@@ -457,10 +459,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.7654700538379252
     },
     {
       "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0039",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 182,
+      "representative_excerpt": "ATF-2026-0336; ATF No. 2025R-13P] RIN 1140-AB00 I support the change to allow a spouse co-ownership with NFA items. This will reduce the burden on the spouse and eliminate confusion.",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0039": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8654700538379252
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0032",
@@ -493,10 +531,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0037",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 114,
+      "representative_excerpt": "Please implement this rule change. My spouse and I share all property and our firearms should be shared similarly.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0037": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0033",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 458,
+      "representative_excerpt": "We are looking at suppressors for vermin control and want to be sure our ownership of a suppressor is transferable. We are both citizens and legal gun owners and want to maintain the ability to transfer firearms and accessories in the event that one of us is no longer alive and/or in Texas where common law marriage is legal....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0033": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4154700538379252
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0036",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 284,
+      "representative_excerpt": "I am a married NFA item owner in North Carolina and I strongly support this proposed rule. My spouse and I share a household and the current prohibition on joint registration creates unnecessary legal ambiguity around access to lawful items. I urge ATF to finalize this rule promptly.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0036": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4154700538379252
+    },
+    {
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0002",
@@ -529,10 +675,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0007",
@@ -565,10 +711,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0009",
@@ -601,10 +747,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0010",
@@ -637,10 +783,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0011",
@@ -673,10 +819,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0013",
@@ -709,10 +855,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0016",
@@ -745,10 +891,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0018",
@@ -781,10 +927,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0020",
@@ -817,10 +963,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0024",
@@ -853,10 +999,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0030",
@@ -889,10 +1035,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0038",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 40,
+      "representative_excerpt": "I am in favor of this proposed rule<br/>",
+      "representative_signal_score": -1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0038": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.06547005383792516
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0034",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 11,
+      "representative_excerpt": "Great rule!",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0034": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.015470053837925157
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0035",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 52,
+      "representative_excerpt": "I support the addition of spousal joint registration",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0035": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.015470053837925157
+    },
+    {
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0004",
@@ -925,10 +1179,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.06547005383792516
+      "presentation_score": -0.034529946162074845
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0015",
@@ -961,10 +1215,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.06547005383792516
+      "presentation_score": -0.034529946162074845
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0021",
@@ -997,10 +1251,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.06547005383792516
+      "presentation_score": -0.034529946162074845
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0022",
@@ -1033,10 +1287,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.06547005383792516
+      "presentation_score": -0.034529946162074845
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0026",
@@ -1069,10 +1323,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.06547005383792516
+      "presentation_score": -0.034529946162074845
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0027",
@@ -1105,10 +1359,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.06547005383792516
+      "presentation_score": -0.034529946162074845
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0028",
@@ -1141,7 +1395,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.06547005383792516
+      "presentation_score": -0.034529946162074845
     }
   ],
   "comments_clusters_path": "data/comments/ATF-2026-0336.csv",
@@ -1149,17 +1403,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.9333333333333333,
+  "comments_first_page_coverage_share": 0.7567567567567568,
   "comments_first_page_coverage_count": 28,
-  "comments_clusters_total_available": 27,
-  "comments_clusters_displayed": 27,
+  "comments_clusters_total_available": 34,
+  "comments_clusters_displayed": 34,
   "comments_first_page_high_signal_clusters": 0,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "positive": 14,
-    "neutral": 11
+    "positive": 15,
+    "negative": 1,
+    "neutral": 9
   },
-  "comments_first_page_unique_days": 1,
+  "comments_first_page_unique_days": 3,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "ATF-2026-0336"
