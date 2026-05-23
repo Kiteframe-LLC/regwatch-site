@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ATF-2026-0007-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-05-22T20:48:17.369440+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-05-23T01:43:01.186906+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -41,10 +41,31 @@
   "pass_2_risk_band": "moderate_analytical_concern",
   "pass_4_raw": 0,
   "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 0,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 0,
+    "enforcement_clarity_risk": 0,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 0.8,
+    "H": 0.6666666666666666,
+    "E": 0.3333333333333333
+  },
   "pass_4_signals": [],
-  "pass_4_primary_concern": null,
+  "pass_4_primary_concern": "ATF's narrow deregulatory proposal is legally straightforward, but the visible NPRM record only partly supports its claims that CLEO notice is operationally useless and that repeal will save about $11.4 million annually.",
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "missing_baseline_signal",
@@ -93,7 +114,7 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
   "comments_cached_records": 30,
-  "comments_unique_clusters": 24,
+  "comments_unique_clusters": 30,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
@@ -120,19 +141,19 @@
     "2026-05-18": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.4166666666666667,
+  "comments_sentiment_positive_pct": 0.3666666666666667,
   "comments_sentiment_negative_pct": 0.16666666666666669,
-  "comments_sentiment_neutral_pct": 0.4166666666666667,
-  "comments_sentiment_net": 0.25,
-  "comments_sentiment_sample_size": 24,
+  "comments_sentiment_neutral_pct": 0.4666666666666667,
+  "comments_sentiment_net": 0.2,
+  "comments_sentiment_sample_size": 30,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 24,
+  "comments_analysis_sample_size": 30,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 24,
-  "comments_representative_prior_selected": 20,
-  "comments_representative_newly_selected": 4,
+  "comments_representative_selected": 30,
+  "comments_representative_prior_selected": 30,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 4,
   "comments_representative_overflow": false,
@@ -140,9 +161,9 @@
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 2,
-    "weighted_fill": 22
+    "weighted_fill": 28
   },
-  "comments_representative_selected_by_counts_total": 24,
+  "comments_representative_selected_by_counts_total": 30,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -152,7 +173,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0047",
@@ -188,7 +209,7 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0044",
@@ -224,7 +245,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0004",
@@ -260,7 +281,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0051",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 300,
+      "representative_excerpt": "I support the removal of this unnecessary step from NFA applications. My local sheriff who receives CLEO notifications just throws it in the trash. However, a CLEO that is anti-2a will use this notification to form lists of gun owners or use this data to profile gun owners within their jurisdiction.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0051": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0053",
@@ -296,7 +353,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0067",
@@ -368,7 +425,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0002",
@@ -404,7 +461,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0005",
@@ -440,7 +497,43 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0007",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 255,
+      "representative_excerpt": "I support eliminating the required CLEO notification. As this notice is not needed to approve a NFA item then it should no longer exist. It is a constitutionally protected right to keep and bear arms and there is no valid purpose in making a notification.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0007": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45
+    },
+    {
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0012",
@@ -476,7 +569,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0020",
@@ -512,7 +605,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0021",
@@ -548,7 +641,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0023",
@@ -584,7 +677,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0024",
@@ -620,7 +713,43 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0026",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 369,
+      "representative_excerpt": "The CLEO notification is an outdated hassle for the law abiding NFA owner. The digitization of the NFA process and modern law enforcement databases leaves this unnecessary. Most CLEOs throw the paperwork in the trash without shredding first leaving sensitive tax and other personally identifiable information vulnerable to compromise....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0026": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45
+    },
+    {
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0033",
@@ -656,7 +785,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0034",
@@ -692,7 +821,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0045",
@@ -728,7 +857,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0048",
@@ -764,7 +893,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0056",
@@ -800,7 +929,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0066",
@@ -836,7 +965,43 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0068",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 36,
+      "representative_excerpt": "I am in favor of this proposed rule.",
+      "representative_signal_score": -1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0068": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0006",
@@ -872,7 +1037,7 @@
       "presentation_score": 0.35
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0009",
@@ -908,7 +1073,43 @@
       "presentation_score": 0.35
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0013",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 33,
+      "representative_excerpt": "i think it was a unnecessary step",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0013": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35
+    },
+    {
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0014",
@@ -944,7 +1145,43 @@
       "presentation_score": 0.35
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0029",
+      "representative_posted_date": "2026-05-18T04:00:00Z",
+      "representative_length": 41,
+      "representative_excerpt": "I approve the removal of the CLEO notice.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0029": {
+          "organization": "",
+          "postedDate": "2026-05-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35
+    },
+    {
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0061",
@@ -980,7 +1217,7 @@
       "presentation_score": 0.35
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0007-0064",
@@ -1020,20 +1257,20 @@
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 24,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 24,
-  "comments_clusters_total_available": 24,
-  "comments_clusters_displayed": 24,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.8333333333333334,
+  "comments_first_page_coverage_count": 25,
+  "comments_clusters_total_available": 30,
+  "comments_clusters_displayed": 30,
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 4,
-    "positive": 10,
-    "neutral": 10
+    "negative": 5,
+    "positive": 11,
+    "neutral": 9
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
+  "summary_available": true,
+  "raw_summary_available": true,
   "route_id": "ATF-2026-0007"
 }

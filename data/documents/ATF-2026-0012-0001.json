@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ATF-2026-0012-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-05-22T20:48:18.125308+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-05-23T01:43:03.099963+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -41,10 +41,31 @@
   "pass_2_risk_band": "moderate_analytical_concern",
   "pass_4_raw": 0,
   "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 1.0,
+    "H": 0.6666666666666666,
+    "E": 0.6666666666666666
+  },
   "pass_4_signals": [],
-  "pass_4_primary_concern": null,
+  "pass_4_primary_concern": "ATF only partially shows that importing ITAR definitions, especially the firearm-specific carveout for 'part,' truly preserves current scope without imposing transition burden.",
   "pass_2_flags": [
     "high_obligation_low_evidence_language",
     "missing_baseline_signal",
@@ -361,7 +382,7 @@
     "neutral": 1
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
+  "summary_available": true,
+  "raw_summary_available": true,
   "route_id": "ATF-2026-0012"
 }
