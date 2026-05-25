@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-05-24T07:16:11.358274+00:00",
+  "comment_action_checked_at": "2026-05-25T05:09:55.608756+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,19 +32,42 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.4392226722859818,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5139901425025366,
+  "combined_score": 0.5294098467776127,
   "score_total": 9,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 2,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
+  "pass_4_raw": 2,
+  "pass_4_scaled": 0.2,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 2,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 1.2,
+    "H": 0.6666666666666666,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "distributional_harm"
+  ],
+  "pass_4_primary_concern": "The main concern is that ATF proposes a flexible adjacency standard with only limited evidence on its boundaries and expected burden reduction.",
   "pass_2_flags": [
     "missing_baseline_signal",
     "missing_supporting_analysis_references"
@@ -436,7 +459,7 @@
     "positive": 3
   },
   "comments_first_page_unique_days": 3,
-  "summary_available": false,
-  "raw_summary_available": false,
+  "summary_available": true,
+  "raw_summary_available": true,
   "route_id": "ATF-2026-0011"
 }
