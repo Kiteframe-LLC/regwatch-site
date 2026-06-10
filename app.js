@@ -1,4 +1,4 @@
-const DEFAULT_MIN_RELEVANCE = 0.65;
+const DEFAULT_MIN_RELEVANCE = 0;
 const PASS1_TAU = 7.34378041529735;
 const PASS2_TAU = 2.50356150521501;
 const PASS3_TAU = 6.0;
@@ -297,14 +297,16 @@ function rowHtml(r, override = null) {
 
 function render(records) {
   const tbody = document.querySelector("#rulesTable tbody");
+  if (!records.length) {
+    tbody.innerHTML = `<tr><td colspan="8">No open records match the current filters.</td></tr>`;
+    return;
+  }
   tbody.innerHTML = records
     .map((r) => rowHtml(r, window.__overrides?.[r.document_id] || null))
     .join("");
 }
 
-function applyFilters(records) {
-  const agency = document.getElementById("agencyFilter").value.trim().toLowerCase();
-  const minScore = Number(document.getElementById("minScore").value || 0);
+function filterRecords(records, agency, minScore) {
   return records.filter((r) => {
     if (!isCommentOpen(r.comment_end_date)) return false;
     const docId = (r.document_id || "").toLowerCase();
@@ -325,6 +327,12 @@ function applyFilters(records) {
   });
 }
 
+function applyFilters(records) {
+  const agency = document.getElementById("agencyFilter").value.trim().toLowerCase();
+  const minScore = Number(document.getElementById("minScore").value || 0);
+  return filterRecords(records, agency, minScore);
+}
+
 async function main() {
   const [data, overrides] = await Promise.all([loadData(), loadOverrides()]);
   window.__overrides = overrides || {};
@@ -332,16 +340,20 @@ async function main() {
     ...r,
     _combined_client: combinedScoreClient(r),
   }));
-  document.getElementById("minScore").value = String(DEFAULT_MIN_RELEVANCE);
-  document.getElementById("meta").textContent =
-    `Published ${records.length} records. Generated at ${data.generated_at || "unknown"}.`;
+  const minScoreInput = document.getElementById("minScore");
+  const meta = document.getElementById("meta");
+  minScoreInput.value = String(DEFAULT_MIN_RELEVANCE);
 
-  const rerender = () => render(applyFilters(records));
+  const rerender = () => {
+    const visible = applyFilters(records);
+    render(visible);
+    meta.textContent = `Published ${records.length} records; showing ${visible.length} open records. Generated at ${data.generated_at || "unknown"}.`;
+  };
   document.getElementById("agencyFilter").addEventListener("input", rerender);
-  document.getElementById("minScore").addEventListener("input", rerender);
+  minScoreInput.addEventListener("input", rerender);
   document.getElementById("resetBtn").addEventListener("click", () => {
     document.getElementById("agencyFilter").value = "";
-    document.getElementById("minScore").value = String(DEFAULT_MIN_RELEVANCE);
+    minScoreInput.value = String(DEFAULT_MIN_RELEVANCE);
     rerender();
   });
   rerender();
