@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/DOD-2026-OS-0662-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-10T03:35:39.125663+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": null,
+  "comment_action_checked_at": null,
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -41,10 +41,31 @@
   "pass_2_risk_band": "moderate_analytical_concern",
   "pass_4_raw": 0,
   "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 0,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 1.0,
+    "H": 0.3333333333333333,
+    "E": 0.6666666666666666
+  },
   "pass_4_signals": [],
-  "pass_4_primary_concern": null,
+  "pass_4_primary_concern": "The notice gives only a thin explanation for why new Privacy Act exemptions are needed beyond the existing exemption and how they will be tailored in practice.",
   "pass_2_flags": [
     "assertion_heavy_vs_evidence_language",
     "deregulatory_carveout_signal",
@@ -214,7 +235,7 @@
     "neutral": 2
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
+  "summary_available": true,
+  "raw_summary_available": true,
   "route_id": "DOD-2026-OS-0662"
 }

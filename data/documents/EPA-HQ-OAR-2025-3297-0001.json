@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-10T03:35:35.637459+00:00",
+  "comment_action_checked_at": "2026-06-10T05:38:44.573895+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,19 +32,43 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.5622410911302071,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6735671897930775,
+  "combined_score": 0.7139812211806622,
   "score_total": 15,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
+  "pass_4_raw": 4,
+  "pass_4_scaled": 0.4,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 1,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.4,
+    "H": 0.6666666666666666,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "decision_brief_high",
+    "distributional_harm"
+  ],
+  "pass_4_primary_concern": "EPA seeks a broad two-year delay based on changed BEV forecasts and lead-time concerns, but the public-facing record only partly explains why narrower alternatives or new air-quality modeling are unnecessary.",
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "epa_missing_cost_per_unit_signal",
@@ -1268,8 +1292,8 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
   "comments_cached_records": 31,
-  "comments_unique_clusters": 19,
-  "comments_clustered_duplicates": 1,
+  "comments_unique_clusters": 26,
+  "comments_clustered_duplicates": 5,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -1296,19 +1320,19 @@
     "2026-06-08": 7
   },
   "comments_novel_comment_rate": 0.8387096774193549,
-  "comments_sentiment_positive_pct": 0.10211916412535159,
-  "comments_sentiment_negative_pct": 0.3362254331852147,
-  "comments_sentiment_neutral_pct": 0.5616554026894338,
-  "comments_sentiment_net": -0.2341062690598631,
-  "comments_sentiment_sample_size": 20,
+  "comments_sentiment_positive_pct": 0.07099770410810817,
+  "comments_sentiment_negative_pct": 0.5030160712432428,
+  "comments_sentiment_neutral_pct": 0.425986224648649,
+  "comments_sentiment_net": -0.4320183671351346,
+  "comments_sentiment_sample_size": 31,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 20,
+  "comments_analysis_sample_size": 31,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 20,
-  "comments_representative_prior_selected": 18,
-  "comments_representative_newly_selected": 2,
+  "comments_representative_selected": 31,
+  "comments_representative_prior_selected": 31,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 4,
   "comments_representative_run_budget": 2,
   "comments_representative_overflow": false,
@@ -1317,9 +1341,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 4,
     "salience_rank": 1,
-    "weighted_fill": 15
+    "weighted_fill": 26
   },
-  "comments_representative_selected_by_counts_total": 20,
+  "comments_representative_selected_by_counts_total": 31,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -1329,7 +1353,103 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 2,
+      "cluster_id": 1,
+      "count": 5,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0102",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 1305,
+      "representative_excerpt": "Today, I am writing to urge you to oppose the proposed delay and move forward to implement Tier 4 Vehicle Emissions Standards on schedule in model year 2027. Transportation is the largest source of greenhouse gas emissions in the U.S. and a leading contributor to harmful air pollution. The American Lung Association\u2019s 2023 State of the Air report shows that...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0102": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Cynthia Point",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OAR-2025-3297-0101": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by AJ Cho",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OAR-2025-3297-0099": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Asphodel Denning",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OAR-2025-3297-0097": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Kathy Slaughter",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OAR-2025-3297-0093": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Gerritt and Elizabeth Baker-Smith",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8395276566378117
+    },
+    {
+      "cluster_id": 3,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0094",
@@ -1377,10 +1497,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9275598066567093
+      "presentation_score": 0.8540509130634446
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0069",
@@ -1413,10 +1533,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.8394427190999916
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0072",
@@ -1449,10 +1569,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.8394427190999916
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0076",
@@ -1485,10 +1605,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.8394427190999916
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0083",
@@ -1521,10 +1641,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.8394427190999916
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0085",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 4334,
+      "representative_excerpt": "Modern diesel PM chemically and physically resembles natural exposures humans have tolerated for millennia\u2014wood smoke, cooking fumes, road dust\u2014without the widespread harm claimed for current regulated levels. The body\u2019s clearance mechanisms handle these particles effectively at low doses. I fully support ongoing innovation in electronic controls...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0085": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Jakob Ingalls",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8394427190999916
+    },
+    {
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0071",
@@ -1557,10 +1713,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
+      "presentation_score": 0.7061093857666582
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0081",
@@ -1593,10 +1749,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
+      "presentation_score": 0.7061093857666582
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0082",
@@ -1629,10 +1785,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
+      "presentation_score": 0.7061093857666582
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0086",
@@ -1665,10 +1821,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
+      "presentation_score": 0.7061093857666582
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0087",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 2336,
+      "representative_excerpt": "There is also a real-world emissions argument that cuts against the standards. The aftertreatment complexity required to hit Tier 4 high-pressure injection, multi-stage EGR, SCR, and active particulate regeneration raises failure rates, repair costs, and downtime. When owners defer or forgo those repairs because of cost, in-use emissions rise above what a...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0087": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7061093857666582
+    },
+    {
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0089",
@@ -1701,10 +1893,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
+      "presentation_score": 0.7061093857666582
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0091",
@@ -1737,10 +1929,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.758088022903976
+      "presentation_score": 0.7061093857666582
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0074",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 770,
+      "representative_excerpt": "I am a pediatrician in NH and am very concerned about greenhouse gasses and their effect on our environment and the future of our children. Repealing the Delay of Tier 4 emissions just allows more greenhouse gas accumulation and all the medical effects that go along with this. In NH there has been a law to repeal vehicle inspections, which means more cars...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0074": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Patricia Edwards",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5727760524333249
+    },
+    {
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0075",
@@ -1773,10 +2001,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6247546895706427
+      "presentation_score": 0.5727760524333249
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0077",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 179,
+      "representative_excerpt": "I am opposed to this delay. Pollution kills and is causing a rise in illnesses such as asthma. Please oppose the proposed delay and implement Tier 4 standards on schedule in 2027.",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0077": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Katherine Thorndike",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5727760524333249
+    },
+    {
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0079",
@@ -1809,10 +2073,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6247546895706427
+      "presentation_score": 0.5727760524333249
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0080",
@@ -1845,10 +2109,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6247546895706427
+      "presentation_score": 0.5727760524333249
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0084",
@@ -1881,17 +2145,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6247546895706427
+      "presentation_score": 0.5727760524333249
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0078",
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0090",
       "representative_posted_date": "2026-06-08T04:00:00Z",
-      "representative_length": 408,
-      "representative_excerpt": "The current proposed delay quantifies only the cost to industry of complying with Tier 4 standards. It does not quantify the cost to the public of delaying them \u2014 no accounting of premature deaths, asthma attacks, hospitalizations, or lost workdays that will now occur. EPA produced those numbers two years ago. Choosing not to include them now is a values...",
-      "representative_signal_score": 0,
+      "representative_length": 387,
+      "representative_excerpt": "I request the comment period be extended by at least 60 days to September 4, 2026. I am aware that there are other extension requests and a FOIA request for vehicle emissions compliance information. EPA should place this information in the docket so all commenters have the benefit of this information when preparing their comment. Please extend the comment...",
+      "representative_signal_score": 1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1899,7 +2163,7 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "EPA-HQ-OAR-2025-3297-0078": {
+        "EPA-HQ-OAR-2025-3297-0090": {
           "organization": "",
           "postedDate": "2026-06-08T04:00:00Z",
           "zip": "",
@@ -1907,7 +2171,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment submitted by Deb Baker",
+          "title": "Comment submitted by Paul Billings",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1917,82 +2181,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.5727760524333249
     },
     {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0100",
-      "representative_posted_date": "2026-06-08T04:00:00Z",
-      "representative_length": 702,
-      "representative_excerpt": "The economic arguments that the cost of vehicles will increase if they must meet pollution standards fail to take into consideration the cost of pollution in terms of people's health and that of living creatures. Pollution is undeniable and there is no attempt at amelioration of pollution in these standards. These standards seek out a short term benefit of...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2025-3297-0100": {
-          "organization": "",
-          "postedDate": "2026-06-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Anonymous public comment",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
-    },
-    {
-      "cluster_id": 17,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0070",
-      "representative_posted_date": "2026-06-08T04:00:00Z",
-      "representative_length": 38,
-      "representative_excerpt": "Comment submitted by Victoria Gualario",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2025-3297-0070": {
-          "organization": "",
-          "postedDate": "2026-06-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Victoria Gualario",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3580880229039761
-    },
-    {
-      "cluster_id": 19,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-3297-0058",
@@ -2025,27 +2217,171 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.20610938576665827
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0073",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 241,
+      "representative_excerpt": "Healthy air is vital to healthy life. Pollution harms everyone's lungs and entire body leading to lower quality of life. Withdraw the Proposed Delay of Tier 4 Emissions Standards which endangers everyone \"down-stream\" from pollution sources!",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0073": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Barbara Widger",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43944271909999155
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0078",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 408,
+      "representative_excerpt": "The current proposed delay quantifies only the cost to industry of complying with Tier 4 standards. It does not quantify the cost to the public of delaying them \u2014 no accounting of premature deaths, asthma attacks, hospitalizations, or lost workdays that will now occur. EPA produced those numbers two years ago. Choosing not to include them now is a values...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0078": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Deb Baker",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43944271909999155
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0100",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 702,
+      "representative_excerpt": "The economic arguments that the cost of vehicles will increase if they must meet pollution standards fail to take into consideration the cost of pollution in terms of people's health and that of living creatures. Pollution is undeniable and there is no attempt at amelioration of pollution in these standards. These standards seek out a short term benefit of...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0100": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43944271909999155
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0070",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 38,
+      "representative_excerpt": "Comment submitted by Victoria Gualario",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0070": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Victoria Gualario",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.30610938576665825
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OAR-2025-3297.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 19,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 20,
-  "comments_clusters_total_available": 19,
-  "comments_clusters_displayed": 19,
-  "comments_first_page_high_signal_clusters": 5,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.967741935483871,
+  "comments_first_page_coverage_count": 30,
+  "comments_clusters_total_available": 26,
+  "comments_clusters_displayed": 26,
+  "comments_first_page_high_signal_clusters": 7,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 6,
+    "negative": 12,
     "neutral": 11,
     "positive": 2
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
+  "summary_available": true,
+  "raw_summary_available": true,
   "route_id": "EPA-HQ-OAR-2025-3297"
 }

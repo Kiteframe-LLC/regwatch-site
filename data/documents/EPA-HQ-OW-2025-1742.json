@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-10T03:35:36.212985+00:00",
+  "comment_action_checked_at": "2026-06-10T05:38:45.125913+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -2125,7 +2125,7 @@
   "comments_fetched": 8,
   "comments_text_hydrated": 8,
   "comments_cached_records": 18,
-  "comments_unique_clusters": 15,
+  "comments_unique_clusters": 17,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
@@ -2160,18 +2160,18 @@
   },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.21428571428571427,
-  "comments_sentiment_neutral_pct": 0.7857142857142858,
-  "comments_sentiment_net": -0.21428571428571427,
-  "comments_sentiment_sample_size": 14,
+  "comments_sentiment_negative_pct": 0.1875,
+  "comments_sentiment_neutral_pct": 0.8125,
+  "comments_sentiment_net": -0.1875,
+  "comments_sentiment_sample_size": 16,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 15,
+  "comments_analysis_sample_size": 17,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 15,
-  "comments_representative_prior_selected": 14,
-  "comments_representative_newly_selected": 1,
+  "comments_representative_selected": 17,
+  "comments_representative_prior_selected": 17,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 6,
   "comments_representative_run_budget": 1,
   "comments_representative_overflow": false,
@@ -2180,9 +2180,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 6,
     "salience_rank": 2,
-    "weighted_fill": 7
+    "weighted_fill": 9
   },
-  "comments_representative_selected_by_counts_total": 15,
+  "comments_representative_selected_by_counts_total": 17,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -2192,7 +2192,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 5,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0105",
@@ -2264,7 +2264,43 @@
       "presentation_score": 0.9000000000000001
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-1742-0107",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 225,
+      "representative_excerpt": "I concur and sign on to the comment posted by Matthew McMillan on April 21, 2026 which can be seen here: https://www.regulations.gov/comment/EPA-HQ-OW-2025-1742-0093 and which I downloaded and am uploading here for reference.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-1742-0107": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Marc Louis",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6333333333333333
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0094",
@@ -2300,7 +2336,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0098",
@@ -2336,7 +2372,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0099",
@@ -2370,6 +2406,42 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.45
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-1742-0106",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 140,
+      "representative_excerpt": "Please do not roll back the protections. If human rights aren't reason enough, more sick people means more money spent and more work lost...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-1742-0106": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5
     },
     {
       "cluster_id": 1,
@@ -2406,78 +2478,6 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.55
-    },
-    {
-      "cluster_id": 15,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OW-2025-1742-0093",
-      "representative_posted_date": "2026-05-21T04:00:00Z",
-      "representative_length": 37,
-      "representative_excerpt": "Comment submitted by Matthew McMillan",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OW-2025-1742-0093": {
-          "organization": "",
-          "postedDate": "2026-05-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Matthew McMillan",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.31666666666666665
-    },
-    {
-      "cluster_id": 13,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OW-2025-1742-0095",
-      "representative_posted_date": "2026-05-21T04:00:00Z",
-      "representative_length": 29,
-      "representative_excerpt": "NO pfoa's and NO PFOS, PERIOD",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OW-2025-1742-0095": {
-          "organization": "",
-          "postedDate": "2026-05-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by William Fraley",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.31666666666666665
     },
     {
       "cluster_id": 2,
@@ -2552,7 +2552,7 @@
       "presentation_score": 0.375
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0101",
@@ -2588,7 +2588,7 @@
       "presentation_score": 0.325
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0102",
@@ -2624,7 +2624,7 @@
       "presentation_score": 0.325
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0103",
@@ -2660,7 +2660,79 @@
       "presentation_score": 0.325
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-1742-0093",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 37,
+      "representative_excerpt": "Comment submitted by Matthew McMillan",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-1742-0093": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Matthew McMillan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31666666666666665
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-1742-0095",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 29,
+      "representative_excerpt": "NO pfoa's and NO PFOS, PERIOD",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-1742-0095": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by William Fraley",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31666666666666665
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0096",
@@ -2696,7 +2768,7 @@
       "presentation_score": 0.31666666666666665
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-1742-0097",
@@ -2753,16 +2825,16 @@
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 15,
+  "comments_first_page_count": 17,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 15,
-  "comments_clusters_total_available": 15,
-  "comments_clusters_displayed": 15,
+  "comments_first_page_coverage_count": 17,
+  "comments_clusters_total_available": 17,
+  "comments_clusters_displayed": 17,
   "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
     "negative": 3,
-    "neutral": 12
+    "neutral": 14
   },
   "comments_first_page_unique_days": 6,
   "summary_available": false,

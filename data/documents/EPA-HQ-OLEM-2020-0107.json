@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-10T03:35:35.921267+00:00",
+  "comment_action_checked_at": "2026-06-10T05:38:44.830897+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -9183,7 +9183,7 @@
   "comments_fetched": 16,
   "comments_text_hydrated": 16,
   "comments_cached_records": 46,
-  "comments_unique_clusters": 42,
+  "comments_unique_clusters": 46,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
@@ -9224,30 +9224,30 @@
     "2026-04-16": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.023809523809523815,
-  "comments_sentiment_negative_pct": 0.33333333333333337,
-  "comments_sentiment_neutral_pct": 0.6428571428571428,
-  "comments_sentiment_net": -0.30952380952380953,
-  "comments_sentiment_sample_size": 42,
+  "comments_sentiment_positive_pct": 0.02173913043478262,
+  "comments_sentiment_negative_pct": 0.30434782608695665,
+  "comments_sentiment_neutral_pct": 0.6739130434782608,
+  "comments_sentiment_net": -0.28260869565217406,
+  "comments_sentiment_sample_size": 46,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 42,
+  "comments_analysis_sample_size": 46,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 42,
-  "comments_representative_prior_selected": 40,
-  "comments_representative_newly_selected": 2,
+  "comments_representative_selected": 46,
+  "comments_representative_prior_selected": 46,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 8,
-  "comments_representative_run_budget": 2,
+  "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 8,
     "salience_rank": 1,
-    "weighted_fill": 33
+    "weighted_fill": 37
   },
-  "comments_representative_selected_by_counts_total": 42,
+  "comments_representative_selected_by_counts_total": 46,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -9257,7 +9257,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 38,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1492",
@@ -9293,7 +9293,7 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1508",
@@ -9329,7 +9329,7 @@
       "presentation_score": 0.8648148148148149
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1510",
@@ -9365,7 +9365,7 @@
       "presentation_score": 0.8648148148148149
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1519",
@@ -9401,7 +9401,7 @@
       "presentation_score": 0.9111111111111112
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1524",
@@ -9437,7 +9437,7 @@
       "presentation_score": 0.925925925925926
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1491",
@@ -9473,7 +9473,7 @@
       "presentation_score": 0.7166666666666666
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1504",
@@ -9509,7 +9509,7 @@
       "presentation_score": 0.7314814814814814
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1509",
@@ -9581,7 +9581,7 @@
       "presentation_score": 0.8037037037037036
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1511",
@@ -9617,7 +9617,79 @@
       "presentation_score": 0.7314814814814814
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1528",
+      "representative_posted_date": "2026-06-01T04:00:00Z",
+      "representative_length": 171,
+      "representative_excerpt": "Please find attached the written copy of the oral testimony I presented at the EPA public hearing on May 28, 2026 regarding the proposed amendments to the CCR regulations.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1528": {
+          "organization": "",
+          "postedDate": "2026-06-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Cindy Warren",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6685185185185185
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1529",
+      "representative_posted_date": "2026-06-01T04:00:00Z",
+      "representative_length": 284,
+      "representative_excerpt": "The Environmental Protection Network harnesses the expertise of over 750 former EPA career staff and political appointees from across the country to serve as a trusted resource, answering calls for objective analysis, scientific rigor, and a vision for a transformed 21st century EPA.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1529": {
+          "organization": "",
+          "postedDate": "2026-06-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Environmental Protection Network (EPN)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6685185185185185
+    },
+    {
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1520",
@@ -9653,7 +9725,7 @@
       "presentation_score": 0.6499999999999999
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1512",
@@ -9689,7 +9761,7 @@
       "presentation_score": 0.5981481481481481
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1513",
@@ -9725,7 +9797,7 @@
       "presentation_score": 0.5981481481481481
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1515",
@@ -9761,7 +9833,7 @@
       "presentation_score": 0.5981481481481481
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1488",
@@ -9797,7 +9869,7 @@
       "presentation_score": 0.5833333333333333
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1489",
@@ -9869,7 +9941,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1530",
+      "representative_posted_date": "2026-06-01T04:00:00Z",
+      "representative_length": 397,
+      "representative_excerpt": "My name is Judy Gayer. I\u2019m a resident of McLean Virginia and the Chair of the Virginia Chapter of the Sierra Club. We strongly believe the EPA needs to continue to apply rigorous standards to the enforcement of coal ash regulations, without allowing further industry delays or loosening up regulations to enable the industry to evade its clean up...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1530": {
+          "organization": "",
+          "postedDate": "2026-06-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Judy Gayer",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5351851851851852
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1521",
@@ -9905,7 +10013,7 @@
       "presentation_score": 0.5259259259259259
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1522",
@@ -9941,7 +10049,7 @@
       "presentation_score": 0.5259259259259259
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1525",
@@ -9977,7 +10085,43 @@
       "presentation_score": 0.5259259259259259
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1526",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 171,
+      "representative_excerpt": "Please don\u2019t repeal or alter this rule. Water is a limited resource; we need to preserve it as much as we can not just for future generations but also for our current one.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1526": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Megan Lambert",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5259259259259259
+    },
+    {
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1496",
@@ -10013,7 +10157,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1497",
@@ -10049,7 +10193,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1498",
@@ -10085,7 +10229,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1499",
@@ -10121,7 +10265,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1500",
@@ -10157,7 +10301,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1501",
@@ -10193,7 +10337,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1502",
@@ -10229,7 +10373,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1503",
@@ -10265,7 +10409,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1505",
@@ -10301,7 +10445,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1506",
@@ -10337,7 +10481,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1507",
@@ -10373,7 +10517,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1514",
@@ -10409,7 +10553,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1516",
@@ -10445,7 +10589,7 @@
       "presentation_score": 0.46481481481481485
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1490",
@@ -10625,7 +10769,7 @@
       "presentation_score": 0.40185185185185185
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1527",
@@ -10661,7 +10805,7 @@
       "presentation_score": 0.39444444444444443
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1523",
@@ -10697,7 +10841,7 @@
       "presentation_score": 0.3925925925925926
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1517",
@@ -10733,7 +10877,7 @@
       "presentation_score": 0.3555555555555555
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1518",
@@ -10774,18 +10918,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.5952380952380952,
+  "comments_first_page_coverage_share": 0.5434782608695652,
   "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 42,
-  "comments_clusters_displayed": 42,
+  "comments_clusters_total_available": 46,
+  "comments_clusters_displayed": 46,
   "comments_first_page_high_signal_clusters": 5,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 10,
-    "neutral": 14,
+    "negative": 9,
+    "neutral": 15,
     "positive": 1
   },
-  "comments_first_page_unique_days": 7,
+  "comments_first_page_unique_days": 8,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "EPA-HQ-OLEM-2020-0107"
