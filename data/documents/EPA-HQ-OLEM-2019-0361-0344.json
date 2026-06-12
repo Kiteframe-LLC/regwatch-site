@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/EPA-HQ-OLEM-2019-0361-0344",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:53.535349+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:38.849692+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-30T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 4,
-  "pass_3_score": 0.15384615384615385,
+  "pass_3_score": 3.1333333333333333,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.025315086291847866,
+  "pass_3_scaled": 0.4067991419378705,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3841053332935831,
+  "combined_score": 0.5748473611165944,
   "score_total": 13,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -56,7 +56,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/28/2026-10641.html"
   ],
   "supporting_related_material_count": 19,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=EPA-HQ-OLEM-2019-0361&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "EPA-HQ-OLEM-2019-0361-0329",
@@ -517,12 +517,14 @@
     "2026-06-03": 1,
     "2026-06-01": 1
   },
-  "comments_high_signal_cluster_count_by_day": {},
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-06-03": 1
+  },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 1.0,
-  "comments_sentiment_net": 0.0,
+  "comments_sentiment_negative_pct": 0.5,
+  "comments_sentiment_neutral_pct": 0.5,
+  "comments_sentiment_net": -0.5,
   "comments_sentiment_sample_size": 2,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
@@ -547,9 +549,45 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-09T18:13:40.303724+00:00",
-  "comments_checked_at": "2026-06-09T18:13:40.332848+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92f884f&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T20:40:32.818194+00:00",
+  "comments_error": null,
   "comments_clusters": [
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2019-0361-0346",
+      "representative_posted_date": "2026-06-03T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "In its 2024 decision in Gavin Power, LLC. v. EPA, the District Court of the Southern District of Ohio upheld EPA\u2019s interpretation in the final rule regarding WBWT. There have been numerous other...",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2019-0361-0346": {
+          "organization": "",
+          "postedDate": "2026-06-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Debra Shore",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
     {
       "cluster_id": 2,
       "count": 1,
@@ -584,43 +622,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8500000000000001
-    },
-    {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OLEM-2019-0361-0346",
-      "representative_posted_date": "2026-06-03T04:00:00Z",
-      "representative_length": 32,
-      "representative_excerpt": "Comment submitted by Debra Shore",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OLEM-2019-0361-0346": {
-          "organization": "",
-          "postedDate": "2026-06-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Debra Shore",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.15
+      "presentation_score": 0.53
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2019-0361.csv",
@@ -632,10 +634,11 @@
   "comments_first_page_coverage_count": 2,
   "comments_clusters_total_available": 2,
   "comments_clusters_displayed": 2,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 2
+    "negative": 1,
+    "neutral": 1
   },
   "comments_first_page_unique_days": 2,
   "summary_available": false,

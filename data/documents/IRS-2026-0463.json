@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/IRS-2026-0463-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:52.346805+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:39.387799+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-17T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 2,
-  "pass_3_score": 3.185185185185185,
+  "pass_3_score": 3.1785714285714284,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.4119034815503029,
+  "pass_3_scaled": 0.4112548695961067,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5489015777095434,
+  "combined_score": 0.5485772717324453,
   "score_total": 13,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -54,7 +54,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/04/17/2026-07519.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=IRS-2026-0463&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\"))",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -66,7 +66,7 @@
   "comments_velocity_total": 10,
   "comments_public_total_estimate": 10,
   "comments_fetched": 5,
-  "comments_text_hydrated": 5,
+  "comments_text_hydrated": 6,
   "comments_cached_records": 11,
   "comments_unique_clusters": 11,
   "comments_clustered_duplicates": 0,
@@ -101,12 +101,14 @@
     "2026-04-28": 2,
     "2026-04-20": 1
   },
-  "comments_high_signal_cluster_count_by_day": {},
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-05-29": 1
+  },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.3,
-  "comments_sentiment_neutral_pct": 0.7000000000000001,
-  "comments_sentiment_net": -0.3,
+  "comments_sentiment_negative_pct": 0.4,
+  "comments_sentiment_neutral_pct": 0.6,
+  "comments_sentiment_net": -0.4,
   "comments_sentiment_sample_size": 10,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
@@ -132,9 +134,45 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-09T17:58:51.971277+00:00",
-  "comments_checked_at": "2026-06-09T17:58:52.025134+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b928948a&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T21:12:28.395076+00:00",
+  "comments_error": null,
   "comments_clusters": [
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-0463-0011",
+      "representative_posted_date": "2026-05-29T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "National Collegiate Athletic Ass\u2019n, 584 U.S. 453 (2018). By striking down the Professional and Amateur Sports Protection Act (PASPA), Murphy effectively opened the door for states to legalize and regulate sports wagering. As of 2026, most states have legalized sports betting, and the American Gaming Association estimates that tens of millions of Americans...",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-0463-0011": {
+          "organization": "",
+          "postedDate": "2026-05-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Brost, Matt",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9347826086956523
+    },
     {
       "cluster_id": 5,
       "count": 1,
@@ -169,7 +207,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9282608695652175
+      "presentation_score": 0.6882608695652175
     },
     {
       "cluster_id": 4,
@@ -205,7 +243,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9282608695652175
+      "presentation_score": 0.6882608695652175
     },
     {
       "cluster_id": 3,
@@ -241,7 +279,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7326086956521739
+      "presentation_score": 0.6126086956521739
     },
     {
       "cluster_id": 1,
@@ -277,7 +315,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.75
+      "presentation_score": 0.63
     },
     {
       "cluster_id": 11,
@@ -388,42 +426,6 @@
       "presentation_score": 0.4673913043478261
     },
     {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "IRS-2026-0463-0006",
-      "representative_posted_date": "2026-05-01T04:00:00Z",
-      "representative_length": 136,
-      "representative_excerpt": "Please change this rule. It's not fair that I have to pay taxes on money i lost. Paying taxes on income that doesn't exist is not right.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "IRS-2026-0463-0006": {
-          "organization": "",
-          "postedDate": "2026-05-01T04:00:00Z",
-          "zip": "",
-          "city": "Claremont",
-          "stateProvinceRegion": "CA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Gilinets, Anna",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.47391304347826085
-    },
-    {
       "cluster_id": 6,
       "count": 1,
       "page_count": 0,
@@ -460,14 +462,14 @@
       "presentation_score": 0.5173913043478261
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "IRS-2026-0463-0011",
-      "representative_posted_date": "2026-05-29T04:00:00Z",
-      "representative_length": 24,
-      "representative_excerpt": "Comment from Brost, Matt",
-      "representative_signal_score": -1,
+      "representative_comment_id": "IRS-2026-0463-0006",
+      "representative_posted_date": "2026-05-01T04:00:00Z",
+      "representative_length": 136,
+      "representative_excerpt": "Please change this rule. It's not fair that I have to pay taxes on money i lost. Paying taxes on income that doesn't exist is not right.",
+      "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -475,15 +477,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "IRS-2026-0463-0011": {
+        "IRS-2026-0463-0006": {
           "organization": "",
-          "postedDate": "2026-05-29T04:00:00Z",
+          "postedDate": "2026-05-01T04:00:00Z",
           "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
+          "city": "Claremont",
+          "stateProvinceRegion": "CA",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Brost, Matt",
+          "title": "Comment from Gilinets, Anna",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -493,7 +495,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3347826086956522
+      "presentation_score": 0.47391304347826085
     },
     {
       "cluster_id": 8,
@@ -529,7 +531,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2717391304347826
+      "presentation_score": 0.3917391304347826
     }
   ],
   "comments_clusters_path": "data/comments/IRS-2026-0463.csv",
@@ -558,11 +560,11 @@
   "comments_first_page_coverage_count": 11,
   "comments_clusters_total_available": 11,
   "comments_clusters_displayed": 11,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 8,
-    "negative": 3
+    "negative": 4,
+    "neutral": 7
   },
   "comments_first_page_unique_days": 9,
   "summary_available": true,

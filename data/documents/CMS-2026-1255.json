@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/CMS-2026-1255-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:52.169815+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:38.632759+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-16T03:59:59Z",
   "pass_1_score": 17,
   "pass_2_score": 2,
-  "pass_3_score": 3.3684210526315788,
+  "pass_3_score": 3.3559322033898304,
   "pass_1_scaled": 0.901222361376306,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.4295920707516744,
+  "pass_3_scaled": 0.4284035444645372,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5951946200481146,
+  "combined_score": 0.594600356904546,
   "score_total": 19,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -54,7 +54,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/04/14/2026-07205.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=CMS-2026-1255&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\"))",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -65,8 +65,8 @@
   "comments_total": 21,
   "comments_velocity_total": 21,
   "comments_public_total_estimate": 21,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
+  "comments_fetched": 21,
+  "comments_text_hydrated": 2,
   "comments_cached_records": 21,
   "comments_unique_clusters": 20,
   "comments_clustered_duplicates": 1,
@@ -97,13 +97,13 @@
   },
   "comments_high_signal_cluster_count_by_day": {
     "2026-05-14": 1,
-    "2026-05-13": 5
+    "2026-05-13": 7
   },
   "comments_novel_comment_rate": 0.9523809523809523,
-  "comments_sentiment_positive_pct": 0.41705018896295765,
+  "comments_sentiment_positive_pct": 0.4656293398827112,
   "comments_sentiment_negative_pct": 0.04857915091975352,
-  "comments_sentiment_neutral_pct": 0.5343706601172887,
-  "comments_sentiment_net": 0.36847103804320414,
+  "comments_sentiment_neutral_pct": 0.4857915091975352,
+  "comments_sentiment_net": 0.4170501889629577,
   "comments_sentiment_sample_size": 21,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
@@ -129,8 +129,8 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-09T17:51:02.151137+00:00",
-  "comments_checked_at": "2026-06-09T17:51:02.369815+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b927bd06&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T20:11:39.812151+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 8,
@@ -181,7 +181,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6108931399900428
+      "presentation_score": 0.5575598066567095
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1255-0006",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "Re: CMS-0062-P: Request for Information on Electronic Event Notifications for Value-Based Care and Care Coordination (Section III.A) Clinical Evidence: Non-Transport Patients Face Significant Risk of Adverse Outcomes Why Notification to the Primary Care Team Is Essential The published literature demonstrates that non-transported EMS patients, particularly...",
+      "representative_signal_score": 5,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1255-0006": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Charles Dunn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7914213562373096
     },
     {
       "cluster_id": 20,
@@ -217,7 +253,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8414213562373096
+      "presentation_score": 0.6814213562373095
     },
     {
       "cluster_id": 17,
@@ -253,7 +289,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7914213562373096
+      "presentation_score": 0.6314213562373094
     },
     {
       "cluster_id": 12,
@@ -289,7 +325,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7914213562373096
+      "presentation_score": 0.6314213562373094
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-1255-0016",
+      "representative_posted_date": "2026-05-13T04:00:00Z",
+      "representative_length": 4623,
+      "representative_excerpt": "I want to again express my support for CMS-2026-1255-0001 with the added adjustments to ensure pa(ents are gePng the necessary insurance approvals in a (mely manner. Insurance companies need to be held liable for taking long periods of (me to get prior authoriza(ons approved or denied. Insurance companies should also speci\ufb01cally men(on what needs to be...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-1255-0016": {
+          "organization": "",
+          "postedDate": "2026-05-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-1255-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6314213562373094
     },
     {
       "cluster_id": 3,
@@ -325,7 +397,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7914213562373096
+      "presentation_score": 0.6314213562373094
     },
     {
       "cluster_id": 2,
@@ -361,7 +433,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7914213562373096
+      "presentation_score": 0.6314213562373094
     },
     {
       "cluster_id": 1,
@@ -397,7 +469,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9414213562373096
+      "presentation_score": 0.7814213562373095
     },
     {
       "cluster_id": 11,
@@ -433,7 +505,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.658088022903976
+      "presentation_score": 0.5514213562373096
     },
     {
       "cluster_id": 10,
@@ -469,7 +541,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.658088022903976
+      "presentation_score": 0.5514213562373096
     },
     {
       "cluster_id": 5,
@@ -505,7 +577,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.658088022903976
+      "presentation_score": 0.5514213562373096
     },
     {
       "cluster_id": 13,
@@ -541,7 +613,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5747546895706428
+      "presentation_score": 0.5214213562373096
     },
     {
       "cluster_id": 19,
@@ -577,7 +649,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5247546895706428
+      "presentation_score": 0.4714213562373095
     },
     {
       "cluster_id": 14,
@@ -724,42 +796,6 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-1255-0016",
-      "representative_posted_date": "2026-05-13T04:00:00Z",
-      "representative_length": 29,
-      "representative_excerpt": "Comment on CMS-2026-1255-0001",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-1255-0016": {
-          "organization": "",
-          "postedDate": "2026-05-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-1255-0001",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
-    },
-    {
       "cluster_id": 6,
       "count": 1,
       "page_count": 0,
@@ -796,42 +832,6 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 16,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-1255-0006",
-      "representative_posted_date": "2026-05-13T04:00:00Z",
-      "representative_length": 12,
-      "representative_excerpt": "Charles Dunn",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-1255-0006": {
-          "organization": "",
-          "postedDate": "2026-05-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Charles Dunn",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
-    },
-    {
       "cluster_id": 4,
       "count": 1,
       "page_count": 0,
@@ -865,7 +865,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.25808802290397614
+      "presentation_score": 0.3114213562373095
     }
   ],
   "comments_clusters_path": "data/comments/CMS-2026-1255.csv",
@@ -877,11 +877,11 @@
   "comments_first_page_coverage_count": 21,
   "comments_clusters_total_available": 20,
   "comments_clusters_displayed": 20,
-  "comments_first_page_high_signal_clusters": 6,
+  "comments_first_page_high_signal_clusters": 8,
   "comments_first_page_novelty_clusters": 5,
   "comments_first_page_stance_counts": {
-    "positive": 8,
-    "neutral": 11,
+    "positive": 9,
+    "neutral": 10,
     "negative": 1
   },
   "comments_first_page_unique_days": 2,

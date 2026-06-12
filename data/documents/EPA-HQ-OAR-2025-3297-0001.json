@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/EPA-HQ-OAR-2025-3297-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:51.993288+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:38.116123+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-07T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 4,
-  "pass_3_score": 4.956521739130435,
+  "pass_3_score": 4.8,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.5622410911302071,
+  "pass_3_scaled": 0.5506710358827784,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7139812211806622,
+  "combined_score": 0.7078490918995249,
   "score_total": 15,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -59,7 +59,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/18/2026-09905.html"
   ],
   "supporting_related_material_count": 56,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=EPA-HQ-OAR-2025-3297&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "EPA-HQ-OAR-2025-3297-0027",
@@ -835,46 +835,6 @@
       ]
     },
     {
-      "document_id": "EPA-HQ-OAR-2025-3297-0006",
-      "tracking_number": "mod-aaxi-2hxr",
-      "title": "2019-CATS-5885-REV DOC-2017Cost  Benefit Report11 18 2019.docx",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-24T04:00:00Z",
-      "author_date": "2017-01-01T05:00:00Z",
-      "authors": [
-        "Office of Management and Budget, OIRA"
-      ],
-      "page_count": 122,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-3297-0006/content.pdf",
-          "format": "pdf",
-          "size": 2584195
-        }
-      ]
-    },
-    {
-      "document_id": "EPA-HQ-OAR-2025-3297-0011",
-      "tracking_number": "moi-qdyj-5zkn",
-      "title": "2025-10-28 Hyundai Hybrid Model Lineup",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-28T04:00:00Z",
-      "author_date": null,
-      "authors": [
-        "Hyundai Motor America"
-      ],
-      "page_count": 1,
-      "media": "Electronic",
-      "file_formats": null
-    },
-    {
       "document_id": "EPA-HQ-OAR-2025-3297-0005",
       "tracking_number": "mod-aaxi-2hxr",
       "title": "2021-10 EPA Policy on Children's Health",
@@ -920,6 +880,46 @@
           "size": 5531760
         }
       ]
+    },
+    {
+      "document_id": "EPA-HQ-OAR-2025-3297-0006",
+      "tracking_number": "mod-aaxi-2hxr",
+      "title": "2019-CATS-5885-REV DOC-2017Cost  Benefit Report11 18 2019.docx",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-24T04:00:00Z",
+      "author_date": "2017-01-01T05:00:00Z",
+      "authors": [
+        "Office of Management and Budget, OIRA"
+      ],
+      "page_count": 122,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-3297-0006/content.pdf",
+          "format": "pdf",
+          "size": 2584195
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OAR-2025-3297-0011",
+      "tracking_number": "moi-qdyj-5zkn",
+      "title": "2025-10-28 Hyundai Hybrid Model Lineup",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-28T04:00:00Z",
+      "author_date": null,
+      "authors": [
+        "Hyundai Motor America"
+      ],
+      "page_count": 1,
+      "media": "Electronic",
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OAR-2025-3297-0054",
@@ -1128,29 +1128,6 @@
       ]
     },
     {
-      "document_id": "EPA-HQ-OAR-2025-3297-0036",
-      "tracking_number": "mol-qii1-oz5h",
-      "title": "2025-5-28 GM to Invest 888M Dollar in New York to Produce Next-gen V8 Engine",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-30T04:00:00Z",
-      "author_date": "2025-05-28T04:00:00Z",
-      "authors": [
-        "Eric Walz"
-      ],
-      "page_count": 4,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-3297-0036/content.pdf",
-          "format": "pdf",
-          "size": 200738
-        }
-      ]
-    },
-    {
       "document_id": "EPA-HQ-OAR-2025-3297-0007",
       "tracking_number": "mod-aaxi-2hxr",
       "title": "2014-04-28 79 FR 23414 Light-Duty Tier 3",
@@ -1206,6 +1183,29 @@
       "page_count": 4,
       "media": "Electronic",
       "file_formats": null
+    },
+    {
+      "document_id": "EPA-HQ-OAR-2025-3297-0036",
+      "tracking_number": "mol-qii1-oz5h",
+      "title": "2025-5-28 GM to Invest 888M Dollar in New York to Produce Next-gen V8 Engine",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-30T04:00:00Z",
+      "author_date": "2025-05-28T04:00:00Z",
+      "authors": [
+        "Eric Walz"
+      ],
+      "page_count": 4,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-3297-0036/content.pdf",
+          "format": "pdf",
+          "size": 200738
+        }
+      ]
     },
     {
       "document_id": "EPA-HQ-OAR-2025-3297-0043",
@@ -1269,7 +1269,7 @@
   "comments_velocity_total": 45,
   "comments_public_total_estimate": 45,
   "comments_fetched": 30,
-  "comments_text_hydrated": 30,
+  "comments_text_hydrated": 31,
   "comments_cached_records": 31,
   "comments_unique_clusters": 26,
   "comments_clustered_duplicates": 5,
@@ -1296,13 +1296,14 @@
     "2026-05-19": 1
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-06-08": 7
+    "2026-06-08": 7,
+    "2026-05-19": 1
   },
   "comments_novel_comment_rate": 0.8387096774193549,
-  "comments_sentiment_positive_pct": 0.07099770410810817,
+  "comments_sentiment_positive_pct": 0.10649655616216225,
   "comments_sentiment_negative_pct": 0.5030160712432428,
-  "comments_sentiment_neutral_pct": 0.425986224648649,
-  "comments_sentiment_net": -0.4320183671351346,
+  "comments_sentiment_neutral_pct": 0.390487372594595,
+  "comments_sentiment_net": -0.3965195150810805,
   "comments_sentiment_sample_size": 31,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
@@ -1328,8 +1329,8 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-09T19:50:55.159669+00:00",
-  "comments_checked_at": "2026-06-09T19:50:55.399438+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92dda79&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T20:40:10.811038+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -1477,6 +1478,42 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.8540509130634446
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0058",
+      "representative_posted_date": "2026-05-19T04:00:00Z",
+      "representative_length": 3465,
+      "representative_excerpt": "These tools have helped maintain transparency, strengthen the technical record, and support later rulemaking steps without imposing early compliance obligations. EPA has clear authority under Clean Air Act section 202(a) to gather information needed to support future standards, complemented by explicit authority under section 208 to maintain records...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0058": {
+          "organization": "",
+          "postedDate": "2026-05-19T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Michael Ravnitzky",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7394427190999916
     },
     {
       "cluster_id": 25,
@@ -1657,6 +1694,42 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.8394427190999916
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0070",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 2262,
+      "representative_excerpt": "Criteria pollutants coming from light- and medium-duty vehicles including nitrogen oxides, volatile organic compounds, and particulate matter are all directly related to adverse health effects. NOx and VOCs combine to create ground-level ozone, a component of smog, which causes lung damage, asthma attacks, and exacerbates preexisting cardiovascular...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-3297-0070": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Victoria Gualario",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7061093857666582
     },
     {
       "cluster_id": 23,
@@ -2163,42 +2236,6 @@
       "presentation_score": 0.5727760524333249
     },
     {
-      "cluster_id": 26,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0058",
-      "representative_posted_date": "2026-05-19T04:00:00Z",
-      "representative_length": 38,
-      "representative_excerpt": "Comment submitted by Michael Ravnitzky",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2025-3297-0058": {
-          "organization": "",
-          "postedDate": "2026-05-19T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Michael Ravnitzky",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.20610938576665827
-    },
-    {
       "cluster_id": 21,
       "count": 1,
       "page_count": 0,
@@ -2305,42 +2342,6 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.43944271909999155
-    },
-    {
-      "cluster_id": 24,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2025-3297-0070",
-      "representative_posted_date": "2026-06-08T04:00:00Z",
-      "representative_length": 38,
-      "representative_excerpt": "Comment submitted by Victoria Gualario",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2025-3297-0070": {
-          "organization": "",
-          "postedDate": "2026-06-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Victoria Gualario",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.30610938576665825
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OAR-2025-3297.csv",
@@ -2352,12 +2353,12 @@
   "comments_first_page_coverage_count": 30,
   "comments_clusters_total_available": 26,
   "comments_clusters_displayed": 26,
-  "comments_first_page_high_signal_clusters": 7,
+  "comments_first_page_high_signal_clusters": 8,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
     "negative": 12,
-    "neutral": 11,
-    "positive": 2
+    "positive": 3,
+    "neutral": 10
   },
   "comments_first_page_unique_days": 2,
   "summary_available": true,

@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ASC_FRDOC_0001-0195",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:54.609137+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:43.493740+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -53,9 +53,35 @@
   "rule_text_sources": [
     "https://www.federalregister.gov/documents/full_text/html/2026/05/29/2026-10817.html"
   ],
-  "supporting_related_material_count": 2,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=ASC_FRDOC_0001&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_related_material_count": 3,
+  "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "ASC_FRDOC_0001-0196",
+      "tracking_number": null,
+      "title": "Hearings, Meetings, Proceedings, etc.",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-06-11T04:00:00Z",
+      "received_date": "2026-06-11T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/ASC_FRDOC_0001-0196/content.pdf",
+          "format": "pdf",
+          "size": 223053
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/ASC_FRDOC_0001-0196/content.html",
+          "format": "html",
+          "size": 2498
+        }
+      ]
+    },
     {
       "document_id": "ASC_FRDOC_0001-0134",
       "tracking_number": null,
@@ -185,9 +211,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T19:01:12.841248+00:00",
-  "comments_checked_at": "2026-06-09T19:01:12.841288+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92fcff0&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T06:52:05.481374+00:00",
+  "comments_checked_at": "2026-06-12T06:52:05.481527+00:00",
+  "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/ASC_FRDOC_0001.csv",
   "government_submissions_count": 0,

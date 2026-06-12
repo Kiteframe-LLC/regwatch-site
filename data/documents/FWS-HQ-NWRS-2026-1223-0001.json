@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/FWS-HQ-NWRS-2026-1223-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:51.916968+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:37.867422+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-27T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 64.0,
+  "pass_3_score": 54.588235294117645,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.9999766908988571,
+  "pass_3_scaled": 0.9998881150241444,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8944957966487095,
+  "combined_score": 0.8944488514351118,
   "score_total": 11,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -59,7 +59,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/27/2026-10465.html"
   ],
   "supporting_related_material_count": 6,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=FWS-HQ-NWRS-2026-1223&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "FWS-HQ-NWRS-2026-1223-0006",
@@ -193,52 +193,52 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 854,
-  "comments_velocity_total": 854,
-  "comments_public_total_estimate": 854,
-  "comments_fetched": 30,
-  "comments_text_hydrated": 30,
-  "comments_cached_records": 30,
-  "comments_unique_clusters": 20,
-  "comments_clustered_duplicates": 10,
+  "comments_total": 877,
+  "comments_velocity_total": 877,
+  "comments_public_total_estimate": 877,
+  "comments_fetched": 28,
+  "comments_text_hydrated": 28,
+  "comments_cached_records": 58,
+  "comments_unique_clusters": 22,
+  "comments_clustered_duplicates": 36,
   "comments_truncated": true,
   "comments_source": "api",
-  "comments_zip_prefix_span": 8,
-  "comments_citizen_count": 30,
+  "comments_zip_prefix_span": 9,
+  "comments_citizen_count": 58,
   "comments_commenter_type_counts": {
-    "citizen": 30
+    "citizen": 58
   },
   "comments_submission_role_counts": {
-    "individual": 30
+    "individual": 58
   },
   "comments_submission_channel_counts": {
-    "public_portal": 30
+    "public_portal": 58
   },
-  "comments_public_count": 30,
+  "comments_public_count": 58,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-05-28": 11,
-    "2026-05-27": 9
+    "2026-05-28": 15,
+    "2026-05-27": 7
   },
   "comments_high_signal_cluster_count_by_day": {
     "2026-05-28": 1,
     "2026-05-27": 1
   },
-  "comments_novel_comment_rate": 0.6666666666666666,
-  "comments_sentiment_positive_pct": 0.08575620299757465,
-  "comments_sentiment_negative_pct": 0.1715124059951493,
-  "comments_sentiment_neutral_pct": 0.7427313910072761,
-  "comments_sentiment_net": -0.08575620299757465,
-  "comments_sentiment_sample_size": 30,
+  "comments_novel_comment_rate": 0.3793103448275862,
+  "comments_sentiment_positive_pct": 0.06671719399171208,
+  "comments_sentiment_negative_pct": 0.13343438798342416,
+  "comments_sentiment_neutral_pct": 0.7998484180248637,
+  "comments_sentiment_net": -0.06671719399171208,
+  "comments_sentiment_sample_size": 58,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 30,
+  "comments_analysis_sample_size": 58,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 30,
-  "comments_representative_prior_selected": 30,
+  "comments_representative_selected": 58,
+  "comments_representative_prior_selected": 58,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 30,
@@ -246,21 +246,21 @@
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "salience_rank": 12,
-    "weighted_fill": 18
+    "salience_rank": 15,
+    "weighted_fill": 43
   },
-  "comments_representative_selected_by_counts_total": 30,
+  "comments_representative_selected_by_counts_total": 58,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T18:34:05.022331+00:00",
-  "comments_checked_at": "2026-06-09T18:34:05.183754+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92f3c06&sort=postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=2 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T05:35:04.181428+00:00",
+  "comments_checked_at": "2026-06-12T05:35:04.387865+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 3,
-      "count": 9,
+      "count": 27,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0324",
       "representative_posted_date": "2026-05-28T04:00:00Z",
@@ -319,7 +319,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FWS-HQ-NWRS-2026-1223-0262": {
+        "FWS-HQ-NWRS-2026-1223-0086": {
           "organization": "",
           "postedDate": "2026-05-28T04:00:00Z",
           "zip": "",
@@ -327,14 +327,14 @@
           "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Jones, Richard",
+          "title": "Comment from Black, Donald",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FWS-HQ-NWRS-2026-1223-0272": {
+        "FWS-HQ-NWRS-2026-1223-0130": {
           "organization": "",
           "postedDate": "2026-05-28T04:00:00Z",
           "zip": "",
@@ -342,7 +342,7 @@
           "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Gonzalez, Jose",
+          "title": "Comment from Felice, Daniel",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -352,11 +352,11 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5419069538091463
+      "presentation_score": 0.5083587404584367
     },
     {
       "cluster_id": 4,
-      "count": 3,
+      "count": 7,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0317",
       "representative_posted_date": "2026-05-28T04:00:00Z",
@@ -370,15 +370,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0317": {
+        "FWS-HQ-NWRS-2026-1223-0017": {
           "organization": "",
-          "postedDate": "2026-05-28T04:00:00Z",
+          "postedDate": "2026-05-27T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Banta, Robert",
+          "title": "Comment from Jung, John",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -400,15 +400,45 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FWS-HQ-NWRS-2026-1223-0017": {
+        "FWS-HQ-NWRS-2026-1223-0126": {
           "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
+          "postedDate": "2026-05-28T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Jung, John",
+          "title": "Comment from Brunhuber, Paul",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FWS-HQ-NWRS-2026-1223-0229": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Ausman, Ronald",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FWS-HQ-NWRS-2026-1223-0267": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Brown, Gregg",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -418,10 +448,178 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6624736006157123
+      "presentation_score": 0.5887262688508768
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 11,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0112",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 1526,
+      "representative_excerpt": "Public Comments Processing Attn: FWS-HQ-NWRS-2026-1223 U.S. Fish and Wildlife Service 5275 Leesburg Pike, MS: PRB (JAO/3W) Falls Church, VA 22041-3803 As a passionate waterfowl hunter, I offer support of the actions of the United States Fish and Wildlife Service (Service) to open or expand waterfowl hunting opportunities on National Wildlife Refuge and...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0112": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "95673",
+          "city": "Rio Linda",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Bourn, Kenneth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FWS-HQ-NWRS-2026-1223-0088": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "56501",
+          "city": "Detroit Lakes",
+          "stateProvinceRegion": "MN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Blomberg, Benjamin",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FWS-HQ-NWRS-2026-1223-0039": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "56501",
+          "city": "Detroit Lakes",
+          "stateProvinceRegion": "MN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Sidders, Mike",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6136702134444537
+    },
+    {
+      "cluster_id": 12,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0082",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 1625,
+      "representative_excerpt": "Hunters and anglers play a vital role in conservation through excise tax revenues, license fees, habitat restoration, and direct wildlife management support. Hunting, fishing, and outdoor recreation generated more than $394 billion in economic activity in 2022, including more than $144 billion directly tied to hunters and anglers. I also support these new...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0082": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Van Winkle, spencer",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FWS-HQ-NWRS-2026-1223-0018": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from George, Connor",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6486595787185577
+    },
+    {
+      "cluster_id": 10,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0209",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 1288,
+      "representative_excerpt": "Hunters and anglers play a vital role in conservation through excise tax revenues, license fees, habitat restoration, and direct wildlife management support. Hunting, fishing, and outdoor recreation generated more than $394 billion in economic activity in 2022, including more than $144 billion directly tied to hunters and anglers. I also support these new...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0209": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Ingram, Keith",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FWS-HQ-NWRS-2026-1223-0016": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Roettger, Anthony",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6486595787185577
+    },
+    {
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0008",
@@ -454,7 +652,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7166666666666667
+      "presentation_score": 0.6884900179459751
     },
     {
       "cluster_id": 1,
@@ -490,10 +688,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8166666666666667
+      "presentation_score": 0.7884900179459751
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0015",
@@ -526,115 +724,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5833333333333333
-    },
-    {
-      "cluster_id": 13,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0016",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 1352,
-      "representative_excerpt": "Hunters and anglers play a vital role in conservation through excise tax revenues, license fees, habitat restoration, and direct wildlife management support. Hunting, fishing, and outdoor recreation generated more than $394 billion in economic activity in 2022, including more than $144 billion directly tied to hunters and anglers. I also support these new...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0016": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Roettger, Anthony",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5833333333333333
-    },
-    {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0018",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 1668,
-      "representative_excerpt": "Hunters and anglers play a vital role in conservation through excise tax revenues, license fees, habitat restoration, and direct wildlife management support. Hunting, fishing, and outdoor recreation generated more than $394 billion in economic activity in 2022, including more than $144 billion directly tied to hunters and anglers. I also support these new...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0018": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from George, Connor",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5833333333333333
-    },
-    {
-      "cluster_id": 9,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0039",
-      "representative_posted_date": "2026-05-28T04:00:00Z",
-      "representative_length": 1526,
-      "representative_excerpt": "Public Comments Processing Attn: FWS-HQ-NWRS-2026-1223 U.S. Fish and Wildlife Service 5275 Leesburg Pike, MS: PRB (JAO/3W) Falls Church, VA 22041-3803 As a passionate waterfowl hunter, I offer support of the actions of the United States Fish and Wildlife Service (Service) to open or expand waterfowl hunting opportunities on National Wildlife Refuge and...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0039": {
-          "organization": "",
-          "postedDate": "2026-05-28T04:00:00Z",
-          "zip": "56501",
-          "city": "Detroit Lakes",
-          "stateProvinceRegion": "MN",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Sidders, Mike",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.5551566846126417
     },
     {
       "cluster_id": 2,
@@ -670,10 +760,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.6551566846126416
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0010",
@@ -706,10 +796,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44999999999999996
+      "presentation_score": 0.42182335127930837
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0023",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 562,
+      "representative_excerpt": "Not one acre of it should be transferred to states, sold to corporations, etc. Each acre should stay in the hands of the American people. Please do not listen to the politicians in our government (looking at you, Mike Lee) who would love to sell this land off. Those who came before us were right to establish public land as a gift to the American people....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0023": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "85284",
+          "city": "Tempe",
+          "stateProvinceRegion": "AZ",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Easterling, Mason",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.38849001794597504
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0025",
@@ -742,10 +868,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.38849001794597504
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0032",
@@ -778,7 +904,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.38849001794597504
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0218",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 186,
+      "representative_excerpt": "Don\u2019t be like Esau and sell our birthright. (public lands) Allowing anglers and hunters to recreate in areas where management plans are in place can help balance our changing ecosystems.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0218": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.38849001794597504
     },
     {
       "cluster_id": 8,
@@ -814,7 +976,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.38849001794597504
     },
     {
       "cluster_id": 7,
@@ -850,7 +1012,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.38849001794597504
     },
     {
       "cluster_id": 6,
@@ -886,7 +1048,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.38849001794597504
     },
     {
       "cluster_id": 5,
@@ -922,10 +1084,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.38849001794597504
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0009",
@@ -958,10 +1120,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31666666666666665
+      "presentation_score": 0.28849001794597506
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0011",
@@ -994,10 +1156,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31666666666666665
+      "presentation_score": 0.28849001794597506
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0012",
@@ -1030,10 +1192,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31666666666666665
+      "presentation_score": 0.28849001794597506
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0014",
@@ -1066,22 +1228,22 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31666666666666665
+      "presentation_score": 0.28849001794597506
     }
   ],
   "comments_clusters_path": "data/comments/FWS-HQ-NWRS-2026-1223.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 20,
+  "comments_first_page_count": 22,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 30,
-  "comments_clusters_total_available": 20,
-  "comments_clusters_displayed": 20,
+  "comments_first_page_coverage_count": 58,
+  "comments_clusters_total_available": 22,
+  "comments_clusters_displayed": 22,
   "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 14,
+    "neutral": 16,
     "negative": 4,
     "positive": 2
   },

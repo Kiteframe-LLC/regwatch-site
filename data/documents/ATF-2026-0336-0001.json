@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ATF-2026-0336-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:52.099510+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:38.438666+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-08T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 5.212121212121212,
+  "pass_3_score": 5.055555555555555,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.5804979509942267,
+  "pass_3_scaled": 0.5694072764501523,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6531483268247482,
+  "combined_score": 0.6474366294345498,
   "score_total": 11,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -57,7 +57,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/08/2026-09154.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=ATF-2026-0336&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\"))",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -65,34 +65,35 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 73,
-  "comments_velocity_total": 73,
-  "comments_public_total_estimate": 73,
-  "comments_fetched": 30,
-  "comments_text_hydrated": 30,
-  "comments_cached_records": 69,
-  "comments_unique_clusters": 65,
+  "comments_total": 74,
+  "comments_velocity_total": 74,
+  "comments_public_total_estimate": 74,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 70,
+  "comments_unique_clusters": 66,
   "comments_clustered_duplicates": 4,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 68,
+  "comments_citizen_count": 69,
   "comments_commenter_type_counts": {
-    "citizen": 68,
+    "citizen": 69,
     "organization_other": 1
   },
   "comments_submission_role_counts": {
-    "individual": 68,
+    "individual": 69,
     "organization": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 69
+    "public_portal": 70
   },
-  "comments_public_count": 69,
+  "comments_public_count": 70,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-06-10": 1,
     "2026-06-09": 1,
     "2026-06-08": 1,
     "2026-06-07": 5,
@@ -109,19 +110,19 @@
     "2026-05-15": 26
   },
   "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.9420289855072463,
-  "comments_sentiment_positive_pct": 0.4255619237345787,
-  "comments_sentiment_negative_pct": 0.014887615253084295,
-  "comments_sentiment_neutral_pct": 0.5595504610123371,
-  "comments_sentiment_net": 0.4106743084814944,
-  "comments_sentiment_sample_size": 69,
+  "comments_novel_comment_rate": 0.9428571428571428,
+  "comments_sentiment_positive_pct": 0.4339884853928653,
+  "comments_sentiment_negative_pct": 0.01466922546825221,
+  "comments_sentiment_neutral_pct": 0.5513422891388826,
+  "comments_sentiment_net": 0.41931925992461305,
+  "comments_sentiment_sample_size": 70,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 69,
+  "comments_analysis_sample_size": 70,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 69,
-  "comments_representative_prior_selected": 69,
+  "comments_representative_selected": 70,
+  "comments_representative_prior_selected": 70,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 1,
   "comments_representative_run_budget": 3,
@@ -131,19 +132,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 1,
     "salience_rank": 1,
-    "weighted_fill": 67
+    "weighted_fill": 68
   },
-  "comments_representative_selected_by_counts_total": 69,
+  "comments_representative_selected_by_counts_total": 70,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T18:33:50.022920+00:00",
-  "comments_checked_at": "2026-06-09T18:33:50.226483+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92c9744&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T05:15:12.527680+00:00",
+  "comments_checked_at": "2026-06-12T05:15:12.744945+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 57,
+      "cluster_id": 58,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0012",
@@ -209,7 +210,7 @@
       "presentation_score": 0.38033688011112043
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 48,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0023",
@@ -260,7 +261,7 @@
       "presentation_score": 0.39085912284225466
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 15,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0061",
@@ -308,10 +309,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46685912284225467
+      "presentation_score": 0.46393604591917775
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0062",
@@ -344,10 +345,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8414700538379252
+      "presentation_score": 0.8385469769148483
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0066",
@@ -380,10 +381,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8454700538379252
+      "presentation_score": 0.8423931307610022
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0003",
@@ -419,7 +420,7 @@
       "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0005",
@@ -455,7 +456,7 @@
       "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0017",
@@ -491,7 +492,43 @@
       "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0336-0075",
+      "representative_posted_date": "2026-06-10T04:00:00Z",
+      "representative_length": 1261,
+      "representative_excerpt": "Writing in support of RIN 1140-AB00. One of the more common uses of an NFA trust (and NFA trusts have given the ATF significant headaches over the years, likewise the cost and burden on citizens creating trusts) is simply to allow spouses to share ownership of NFA firearms, particularly so one spouse doesn't inadvertently become a felon via \"constructive...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0336-0075": {
+          "organization": "",
+          "postedDate": "2026-06-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-09154",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6654700538379251
+    },
+    {
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0059",
@@ -524,10 +561,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6414700538379252
+      "presentation_score": 0.6385469769148482
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0039",
@@ -560,10 +597,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5894700538379252
+      "presentation_score": 0.5885469769148483
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0019",
@@ -599,7 +636,7 @@
       "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0025",
@@ -635,7 +672,7 @@
       "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0029",
@@ -671,7 +708,7 @@
       "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0032",
@@ -707,7 +744,7 @@
       "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0064",
@@ -740,10 +777,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4954700538379252
+      "presentation_score": 0.4923931307610021
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0074",
@@ -776,10 +813,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.46162389999177134
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0073",
@@ -812,10 +849,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46147005383792516
+      "presentation_score": 0.4577777461456175
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0068",
@@ -848,10 +885,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4574700538379252
+      "presentation_score": 0.45393159229946367
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0070",
@@ -884,10 +921,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4574700538379252
+      "presentation_score": 0.45393159229946367
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0071",
@@ -920,10 +957,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4574700538379252
+      "presentation_score": 0.45393159229946367
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0072",
@@ -956,10 +993,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4574700538379252
+      "presentation_score": 0.45393159229946367
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0067",
@@ -992,10 +1029,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4534700538379252
+      "presentation_score": 0.45008543845330984
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0065",
@@ -1028,10 +1065,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4454700538379252
+      "presentation_score": 0.4423931307610021
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0054",
@@ -1064,10 +1101,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414700538379252
+      "presentation_score": 0.4385469769148483
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0055",
@@ -1100,10 +1137,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414700538379252
+      "presentation_score": 0.4385469769148483
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0056",
@@ -1136,10 +1173,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414700538379252
+      "presentation_score": 0.4385469769148483
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0057",
@@ -1172,10 +1209,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414700538379252
+      "presentation_score": 0.4385469769148483
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0058",
@@ -1208,10 +1245,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414700538379252
+      "presentation_score": 0.4385469769148483
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0060",
@@ -1244,10 +1281,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414700538379252
+      "presentation_score": 0.4385469769148483
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0049",
@@ -1280,10 +1317,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4374700538379252
+      "presentation_score": 0.4347008230686944
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0050",
@@ -1316,10 +1353,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4374700538379252
+      "presentation_score": 0.4347008230686944
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0051",
@@ -1352,10 +1389,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4374700538379252
+      "presentation_score": 0.4347008230686944
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0053",
@@ -1388,10 +1425,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4374700538379252
+      "presentation_score": 0.4347008230686944
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0047",
@@ -1424,10 +1461,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4334700538379252
+      "presentation_score": 0.43085466922254056
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0046",
@@ -1460,10 +1497,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4174700538379252
+      "presentation_score": 0.4154700538379252
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0042",
@@ -1496,10 +1533,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4134700538379252
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0037",
@@ -1532,10 +1569,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3894700538379252
+      "presentation_score": 0.38854697691484824
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0033",
@@ -1568,10 +1605,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3774700538379252
+      "presentation_score": 0.37700851537638674
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0036",
@@ -1604,10 +1641,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3774700538379252
+      "presentation_score": 0.37700851537638674
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0002",
@@ -1643,7 +1680,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0007",
@@ -1679,7 +1716,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0009",
@@ -1715,7 +1752,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0010",
@@ -1751,7 +1788,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0011",
@@ -1787,7 +1824,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0013",
@@ -1823,7 +1860,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0016",
@@ -1859,7 +1896,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0018",
@@ -1895,7 +1932,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0020",
@@ -1931,7 +1968,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0030",
@@ -1967,7 +2004,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0069",
@@ -2000,10 +2037,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2574700538379252
+      "presentation_score": 0.25393159229946366
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0063",
@@ -2036,10 +2073,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2414700538379252
+      "presentation_score": 0.23854697691484827
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0048",
@@ -2072,10 +2109,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2374700538379252
+      "presentation_score": 0.23470082306869441
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0052",
@@ -2108,10 +2145,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2374700538379252
+      "presentation_score": 0.23470082306869441
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0040",
@@ -2144,10 +2181,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.19347005383792518
+      "presentation_score": 0.19239313076100212
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0041",
@@ -2180,10 +2217,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.19347005383792518
+      "presentation_score": 0.19239313076100212
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0038",
@@ -2216,10 +2253,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.18947005383792517
+      "presentation_score": 0.18854697691484826
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0034",
@@ -2252,10 +2289,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.1774700538379252
+      "presentation_score": 0.17700851537638673
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0035",
@@ -2288,10 +2325,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.1774700538379252
+      "presentation_score": 0.17700851537638673
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0004",
@@ -2327,7 +2364,7 @@
       "presentation_score": 0.16547005383792518
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0015",
@@ -2363,7 +2400,7 @@
       "presentation_score": 0.16547005383792518
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0021",
@@ -2399,7 +2436,7 @@
       "presentation_score": 0.16547005383792518
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0022",
@@ -2435,7 +2472,7 @@
       "presentation_score": 0.16547005383792518
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0026",
@@ -2471,7 +2508,7 @@
       "presentation_score": 0.16547005383792518
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0027",
@@ -2507,7 +2544,7 @@
       "presentation_score": 0.16547005383792518
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0336-0028",
@@ -2548,18 +2585,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.42028985507246375,
+  "comments_first_page_coverage_share": 0.4142857142857143,
   "comments_first_page_coverage_count": 29,
-  "comments_clusters_total_available": 65,
-  "comments_clusters_displayed": 65,
+  "comments_clusters_total_available": 66,
+  "comments_clusters_displayed": 66,
   "comments_first_page_high_signal_clusters": 0,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "positive": 17,
-    "neutral": 7,
+    "positive": 18,
+    "neutral": 6,
     "negative": 1
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "ATF-2026-0336"

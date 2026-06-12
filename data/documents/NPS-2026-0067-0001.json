@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/NPS-2026-0067-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:52.238319+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:39.058544+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-18T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 4.043478260869565,
+  "pass_3_score": 3.9230769230769234,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.49028984761382044,
+  "pass_3_scaled": 0.4799582352714201,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5691500905416185,
+  "combined_score": 0.5639842843704184,
   "score_total": 10,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/18/2026-09876.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=NPS-2026-0067&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\"))",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -63,32 +63,36 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 24,
+  "comments_total": 25,
   "comments_velocity_total": 24,
   "comments_public_total_estimate": 24,
-  "comments_fetched": 9,
-  "comments_text_hydrated": 9,
-  "comments_cached_records": 24,
-  "comments_unique_clusters": 23,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 25,
+  "comments_unique_clusters": 24,
   "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 24,
   "comments_commenter_type_counts": {
+    "organization_other": 1,
     "citizen": 24
   },
   "comments_submission_role_counts": {
+    "organization": 1,
     "individual": 24
   },
   "comments_submission_channel_counts": {
+    "other_channel_recorded": 1,
     "public_portal": 24
   },
   "comments_public_count": 24,
-  "comments_recorded_count": 0,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-06-11": 1,
     "2026-06-08": 1,
     "2026-05-28": 2,
     "2026-05-26": 6,
@@ -96,8 +100,10 @@
     "2026-05-20": 4,
     "2026-05-19": 7
   },
-  "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.9583333333333334,
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-06-11": 1
+  },
+  "comments_novel_comment_rate": 0.96,
   "comments_sentiment_positive_pct": 0.0,
   "comments_sentiment_negative_pct": 0.27920173714585333,
   "comments_sentiment_neutral_pct": 0.7207982628541466,
@@ -106,31 +112,32 @@
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 24,
+  "comments_analysis_sample_size": 25,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 24,
-  "comments_representative_prior_selected": 24,
+  "comments_representative_selected": 25,
+  "comments_representative_prior_selected": 25,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 0,
+  "comments_representative_must_keep": 1,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
+    "must_keep": 1,
     "salience_rank": 1,
     "weighted_fill": 23
   },
-  "comments_representative_selected_by_counts_total": 24,
+  "comments_representative_selected_by_counts_total": 25,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T19:43:45.907318+00:00",
-  "comments_checked_at": "2026-06-09T19:43:46.014770+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92dc0f6&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T05:51:35.627896+00:00",
+  "comments_checked_at": "2026-06-12T05:51:35.745995+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0020",
@@ -178,10 +185,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46255980665670937
+      "presentation_score": 0.45799458926540504
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0067-0026",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 1448,
+      "representative_excerpt": "A daily cap codifies a plan which has proven to be a successful model for flexibly expanding visitor access and capacity along the road corridor. Tourism is an economic pillar for the state, generating $5.6 billion in total economic output annually and creating 48,000 jobs. Over 3 million people traveled to Alaska last year to enjoy scenic landscapes...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0067-0026": {
+          "organization": "Alaska Travel Industry Association",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Alaska Travel Industry Association",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.9414213562373096
+    },
+    {
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0023",
@@ -214,10 +257,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8364213562373096
+      "presentation_score": 0.6972184576865847
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0005",
@@ -250,10 +293,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5914213562373095
+      "presentation_score": 0.5247546895706428
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0010",
@@ -286,10 +329,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5964213562373095
+      "presentation_score": 0.5291025156575992
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0012",
@@ -322,10 +365,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5964213562373095
+      "presentation_score": 0.5291025156575992
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0013",
@@ -358,10 +401,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5964213562373095
+      "presentation_score": 0.5291025156575992
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0014",
@@ -394,46 +437,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6014213562373095
+      "presentation_score": 0.5334503417445557
     },
     {
-      "cluster_id": 8,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NPS-2026-0067-0018",
-      "representative_posted_date": "2026-05-26T04:00:00Z",
-      "representative_length": 586,
-      "representative_excerpt": "I counter that the number of vehicles allowed should be 240 vehicles per 24-hour period for miles 15-90 which is 2.82 or 3 vehicles per mile of restricted section (miles 15-90). That is 1,760 feet per vehicle, more than enough to \"maintain the park's quality\" and allow for more people to view the park's wildlife and landscape....",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NPS-2026-0067-0018": {
-          "organization": "",
-          "postedDate": "2026-05-26T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Louis Howard",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6264213562373095
-    },
-    {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0025",
@@ -466,10 +473,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6117112113097731
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0024",
@@ -502,10 +509,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6364213562373096
+      "presentation_score": 0.5638851243532514
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NPS-2026-0067-0018",
+      "representative_posted_date": "2026-05-26T04:00:00Z",
+      "representative_length": 586,
+      "representative_excerpt": "I counter that the number of vehicles allowed should be 240 vehicles per 24-hour period for miles 15-90 which is 2.82 or 3 vehicles per mile of restricted section (miles 15-90). That is 1,760 feet per vehicle, more than enough to \"maintain the park's quality\" and allow for more people to view the park's wildlife and landscape....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NPS-2026-0067-0018": {
+          "organization": "",
+          "postedDate": "2026-05-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Louis Howard",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5551894721793385
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0019",
@@ -538,10 +581,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6264213562373095
+      "presentation_score": 0.5551894721793385
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0021",
@@ -574,10 +617,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6264213562373095
+      "presentation_score": 0.5551894721793385
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0022",
@@ -610,10 +653,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6264213562373095
+      "presentation_score": 0.5551894721793385
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0017",
@@ -646,10 +689,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4264213562373095
+      "presentation_score": 0.42185613884600515
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0015",
@@ -682,10 +725,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4014213562373095
+      "presentation_score": 0.40011700841122255
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0016",
@@ -718,10 +761,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4014213562373095
+      "presentation_score": 0.40011700841122255
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0011",
@@ -754,10 +797,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3964213562373095
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0002",
@@ -793,7 +836,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0003",
@@ -829,7 +872,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0006",
@@ -865,7 +908,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0007",
@@ -901,7 +944,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0008",
@@ -937,7 +980,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NPS-2026-0067-0009",
@@ -977,18 +1020,19 @@
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 23,
+  "comments_first_page_count": 24,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 24,
-  "comments_clusters_total_available": 23,
-  "comments_clusters_displayed": 23,
-  "comments_first_page_high_signal_clusters": 0,
-  "comments_first_page_novelty_clusters": 0,
+  "comments_first_page_coverage_count": 25,
+  "comments_clusters_total_available": 24,
+  "comments_clusters_displayed": 24,
+  "comments_first_page_high_signal_clusters": 1,
+  "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
     "negative": 6,
+    "positive": 1,
     "neutral": 17
   },
-  "comments_first_page_unique_days": 6,
+  "comments_first_page_unique_days": 7,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "NPS-2026-0067"

@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/USDA_FRDOC_0001-3311",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:56.292464+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:44.566818+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -54,8 +54,60 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/29/2026-10817.html"
   ],
   "supporting_related_material_count": 999,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=USDA_FRDOC_0001&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "USDA_FRDOC_0001-3317",
+      "tracking_number": null,
+      "title": "Agency Information Collection Activities; Proposals, Submissions, and Approvals",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-06-11T04:00:00Z",
+      "received_date": "2026-06-11T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-3317/content.pdf",
+          "format": "pdf",
+          "size": 188224
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-3317/content.html",
+          "format": "html",
+          "size": 5158
+        }
+      ]
+    },
+    {
+      "document_id": "USDA_FRDOC_0001-3316",
+      "tracking_number": null,
+      "title": "Agency Information Collection Activities; Proposals, Submissions, and Approvals",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-06-10T04:00:00Z",
+      "received_date": "2026-06-10T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 0,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-3316/content.pdf",
+          "format": "pdf",
+          "size": 187056
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-3316/content.html",
+          "format": "html",
+          "size": 6268
+        }
+      ]
+    },
     {
       "document_id": "USDA_FRDOC_0001-3315",
       "tracking_number": null,
@@ -10937,12 +10989,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-07-31T04:00:00Z",
-      "received_date": null,
+      "received_date": "2023-07-31T04:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 0,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-2867/content.pdf",
+          "format": "pdf",
+          "size": 174095
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-2867/content.htm",
+          "format": "htm",
+          "size": 5661
+        }
+      ]
     },
     {
       "document_id": "USDA_FRDOC_0001-2866",
@@ -25960,58 +26023,6 @@
           "size": 4864
         }
       ]
-    },
-    {
-      "document_id": "USDA_FRDOC_0001-2253",
-      "tracking_number": null,
-      "title": "Agency Information Collection Activities; Proposals, Submissions, and Approvals",
-      "document_type": "Notice",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2020-06-26T04:00:00Z",
-      "received_date": "2020-06-26T04:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 0,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-2253/content.pdf",
-          "format": "pdf",
-          "size": 233251
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-2253/content.htm",
-          "format": "htm",
-          "size": 5638
-        }
-      ]
-    },
-    {
-      "document_id": "USDA_FRDOC_0001-2252",
-      "tracking_number": null,
-      "title": "Agency Information Collection Activities; Proposals, Submissions, and Approvals",
-      "document_type": "Notice",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2020-06-26T04:00:00Z",
-      "received_date": "2020-06-26T04:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 0,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-2252/content.pdf",
-          "format": "pdf",
-          "size": 238779
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/USDA_FRDOC_0001-2252/content.htm",
-          "format": "htm",
-          "size": 4230
-        }
-      ]
     }
   ],
   "referenced_documents": [
@@ -26090,9 +26101,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-10T02:51:31.091998+00:00",
-  "comments_checked_at": "2026-06-10T02:51:31.092118+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92fcec7&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T13:32:12.155054+00:00",
+  "comments_checked_at": "2026-06-12T13:32:12.155181+00:00",
+  "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/USDA_FRDOC_0001.csv",
   "government_submissions_count": 0,

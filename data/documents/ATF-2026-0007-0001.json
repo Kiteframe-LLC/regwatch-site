@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ATF-2026-0007-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:52.075524+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:38.384750+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-07T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 6.0,
+  "pass_3_score": 5.783783783783784,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.6321205588285577,
+  "pass_3_scaled": 0.6186218833978823,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6599358930674064,
+  "combined_score": 0.6531865553520687,
   "score_total": 11,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/06/2026-08912.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=ATF-2026-0007&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\"))",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [
     {
@@ -88,10 +88,10 @@
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
   "comments_total": 105,
-  "comments_velocity_total": 105,
-  "comments_public_total_estimate": 105,
+  "comments_velocity_total": 103,
+  "comments_public_total_estimate": 103,
   "comments_fetched": 30,
-  "comments_text_hydrated": 30,
+  "comments_text_hydrated": 32,
   "comments_cached_records": 64,
   "comments_unique_clusters": 61,
   "comments_clustered_duplicates": 3,
@@ -108,10 +108,11 @@
     "organization": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 64
+    "public_portal": 63,
+    "other_channel_recorded": 1
   },
-  "comments_public_count": 64,
-  "comments_recorded_count": 0,
+  "comments_public_count": 63,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
@@ -130,14 +131,16 @@
     "2026-05-18": 30
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-06-08": 1,
+    "2026-06-02": 1,
     "2026-05-18": 2
   },
   "comments_novel_comment_rate": 0.953125,
-  "comments_sentiment_positive_pct": 0.35152214079774363,
-  "comments_sentiment_negative_pct": 0.13717292713281143,
-  "comments_sentiment_neutral_pct": 0.5113049320694449,
-  "comments_sentiment_net": 0.2143492136649322,
-  "comments_sentiment_sample_size": 64,
+  "comments_sentiment_positive_pct": 0.3734677925594365,
+  "comments_sentiment_negative_pct": 0.13940030410216828,
+  "comments_sentiment_neutral_pct": 0.4871319033383952,
+  "comments_sentiment_net": 0.23406748845726824,
+  "comments_sentiment_sample_size": 63,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
@@ -162,8 +165,8 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-09T18:30:15.375738+00:00",
-  "comments_checked_at": "2026-06-09T18:30:15.592704+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92c5c78&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T19:27:03.505205+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 27,
@@ -355,6 +358,78 @@
       "presentation_score": 0.6654700538379252
     },
     {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0083",
+      "representative_posted_date": "2026-06-02T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Section 5812 sets forth six conditions precedent to a lawful NFA transfer: application by the transferor in duplicate; payment of any applicable transfer tax; identification of the transferee 200 School Alley, Suite 5, Green Lane, PA 18054 | P . +1 610-949-0444 | F . +1 215-257-1910 goldsteinlp.com (including, for individuals, fingerprints and photograph)...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0083": {
+          "organization": "",
+          "postedDate": "2026-06-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7336518720197435
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0104",
+      "representative_posted_date": "2026-06-08T04:00:00Z",
+      "representative_length": 4100,
+      "representative_excerpt": "June 6, 2026 ATF Rulemaking Comments Mail Stop 6N\u2013518, Office of Regulatory Affairs Enforcement Programs and Services Bureau of Alcohol, Tobacco, Firearms, and Explosives 99 New York Ave. NE Washington, DC 20226 Re: Comment in Support of Proposed Rule, RIN 1140\u2013AA65 \u2014 Removing CLEO Notification Under the National Firearms Act Dear Director Cekada and ATF...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0104": {
+          "organization": "",
+          "postedDate": "2026-06-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7609245992924707
+    },
+    {
       "cluster_id": 42,
       "count": 1,
       "page_count": 0,
@@ -427,42 +502,6 @@
       "presentation_score": 0.6472882356561069
     },
     {
-      "cluster_id": 18,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0007-0089",
-      "representative_posted_date": "2026-06-06T04:00:00Z",
-      "representative_length": 1203,
-      "representative_excerpt": "For most applicants, this requirement amounts to a waste of postage and paper, resulting in local sheriff and police offices immediately shredding or discarding the documents. In a worst-case scenario, it creates an unnecessary administrative burden for local police departments that lack the resources to handle or store this high-volume mail. Because all...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0007-0089": {
-          "organization": "",
-          "postedDate": "2026-06-06T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08912",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6518336902015616
-    },
-    {
       "cluster_id": 11,
       "count": 1,
       "page_count": 0,
@@ -497,6 +536,42 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.6563791447470161
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0007-0089",
+      "representative_posted_date": "2026-06-06T04:00:00Z",
+      "representative_length": 1203,
+      "representative_excerpt": "For most applicants, this requirement amounts to a waste of postage and paper, resulting in local sheriff and police offices immediately shredding or discarding the documents. In a worst-case scenario, it creates an unnecessary administrative burden for local police departments that lack the resources to handle or store this high-volume mail. Because all...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0007-0089": {
+          "organization": "",
+          "postedDate": "2026-06-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08912",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6518336902015616
     },
     {
       "cluster_id": 21,
@@ -1003,42 +1078,6 @@
       "presentation_score": 0.46092459929247065
     },
     {
-      "cluster_id": 3,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0007-0104",
-      "representative_posted_date": "2026-06-08T04:00:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-08912",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0007-0104": {
-          "organization": "",
-          "postedDate": "2026-06-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08912",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.46092459929247065
-    },
-    {
       "cluster_id": 17,
       "count": 1,
       "page_count": 0,
@@ -1325,42 +1364,6 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.45637914474701613
-    },
-    {
-      "cluster_id": 24,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0007-0083",
-      "representative_posted_date": "2026-06-02T04:00:00Z",
-      "representative_length": 30,
-      "representative_excerpt": "Comment on FR Doc # 2026-08912",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0007-0083": {
-          "organization": "",
-          "postedDate": "2026-06-02T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08912",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.43365187201974337
     },
     {
       "cluster_id": 23,
@@ -2416,12 +2419,12 @@
   "comments_first_page_coverage_count": 28,
   "comments_clusters_total_available": 61,
   "comments_clusters_displayed": 61,
-  "comments_first_page_high_signal_clusters": 2,
+  "comments_first_page_high_signal_clusters": 4,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "positive": 10,
+    "positive": 11,
     "negative": 5,
-    "neutral": 10
+    "neutral": 9
   },
   "comments_first_page_unique_days": 11,
   "summary_available": true,

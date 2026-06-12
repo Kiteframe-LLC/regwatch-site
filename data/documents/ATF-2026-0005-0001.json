@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ATF-2026-0005-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:51.942063+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:37.979669+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-07T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 18.4,
+  "pass_3_score": 18.0,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.9534238497776165,
+  "pass_3_scaled": 0.950212931632136,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.824738604372222,
+  "combined_score": 0.8230849815272996,
   "score_total": 10,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -57,7 +57,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/06/2026-08915.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=ATF-2026-0005&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\"))",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -65,34 +65,36 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 539,
-  "comments_velocity_total": 539,
-  "comments_public_total_estimate": 539,
+  "comments_total": 570,
+  "comments_velocity_total": 570,
+  "comments_public_total_estimate": 570,
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
-  "comments_cached_records": 60,
-  "comments_unique_clusters": 57,
-  "comments_clustered_duplicates": 3,
+  "comments_cached_records": 90,
+  "comments_unique_clusters": 86,
+  "comments_clustered_duplicates": 4,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 59,
+  "comments_citizen_count": 89,
   "comments_commenter_type_counts": {
-    "citizen": 59,
+    "citizen": 89,
     "organization_other": 1
   },
   "comments_submission_role_counts": {
-    "individual": 59,
+    "individual": 89,
     "organization": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 60
+    "public_portal": 90
   },
-  "comments_public_count": 60,
+  "comments_public_count": 90,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-06-11": 26,
+    "2026-06-10": 3,
     "2026-06-09": 11,
     "2026-06-08": 2,
     "2026-06-07": 1,
@@ -104,42 +106,45 @@
     "2026-05-20": 15,
     "2026-05-19": 9
   },
-  "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.95,
-  "comments_sentiment_positive_pct": 0.38728501524789066,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.6127149847521093,
-  "comments_sentiment_net": 0.38728501524789066,
-  "comments_sentiment_sample_size": 60,
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-06-11": 2,
+    "2026-06-10": 1
+  },
+  "comments_novel_comment_rate": 0.9555555555555556,
+  "comments_sentiment_positive_pct": 0.3660845020885661,
+  "comments_sentiment_negative_pct": 0.022639839211122656,
+  "comments_sentiment_neutral_pct": 0.6112756587003113,
+  "comments_sentiment_net": 0.3434446628774434,
+  "comments_sentiment_sample_size": 90,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 60,
+  "comments_analysis_sample_size": 90,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 60,
-  "comments_representative_prior_selected": 60,
+  "comments_representative_selected": 90,
+  "comments_representative_prior_selected": 90,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 1,
-  "comments_representative_run_budget": 18,
+  "comments_representative_run_budget": 20,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 1,
     "salience_rank": 4,
-    "weighted_fill": 55
+    "weighted_fill": 85
   },
-  "comments_representative_selected_by_counts_total": 60,
+  "comments_representative_selected_by_counts_total": 90,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T18:28:42.916339+00:00",
-  "comments_checked_at": "2026-06-09T18:28:43.069805+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92c668d&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T05:28:42.865493+00:00",
+  "comments_checked_at": "2026-06-12T05:28:43.107346+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 28,
+      "cluster_id": 57,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0510",
@@ -187,10 +192,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8989883780852808
+      "presentation_score": 0.6527771979610572
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 60,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0161",
@@ -238,10 +243,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43708361618051894
+      "presentation_score": 0.43625545883062244
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 48,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0522",
@@ -289,10 +294,169 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5132740923709951
+      "presentation_score": 0.5058206762219268
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 29,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0542",
+      "representative_posted_date": "2026-06-10T04:00:00Z",
+      "representative_length": 339,
+      "representative_excerpt": "I agree with this change to the rule. Makers should be able to adopt certain existing markings, thereby reducing the cost to make an NFA firearm from an existing, already marked firearm. It also reduces the potential for confusion and incorrect markings, as there is mis-information often shared that is based on opinion rather than facts.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0542": {
+          "organization": "",
+          "postedDate": "2026-06-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "ATF-2026-0005-0541": {
+          "organization": "",
+          "postedDate": "2026-06-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5232119805697528
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0568",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 4414,
+      "representative_excerpt": "Eradication of Economic and Technical Friction\u2014The requirement to physically engrave a finished, heat-treated, or finished firearm receiver places an undue burden on individual makers. Proper engraving to the prescribed depth requires specialized machinery, such as CNC mills or high-output fiber lasers. Imprecise execution by an individual can compromise...",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0568": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0544",
+      "representative_posted_date": "2026-06-10T04:00:00Z",
+      "representative_length": 1959,
+      "representative_excerpt": "For multi-gun collectors, these redundant fees quickly compound into hundreds of dollars of unnecessary out-of-pocket expenses.Cause Logistics and Administrative Delays: It requires owners to coordinate transportation, risk shipping high-value items, and navigate lead times with local engravers, creating unnecessary friction for a process where the ATF...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0544": {
+          "organization": "",
+          "postedDate": "2026-06-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7270735301503529
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0558",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 667,
+      "representative_excerpt": "The firearm already possesses a unique, factory-engraved serial number, manufacturer name, city, and state mandated by the Gun Control Act (GCA). Additional personalization does not enhance tracing capabilities. Permanently altering and defacing the finish of high-value, legally acquired consumer goods to mirror information already recorded in the NFA...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0558": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7314213562373094
+    },
+    {
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0013",
@@ -325,52 +489,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7914213562373096
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "ATF-2026-0005-0159",
-      "representative_posted_date": "2026-05-21T04:00:00Z",
-      "representative_length": 1074,
-      "representative_excerpt": "Greetings, I'm 65 years old and have recently started a small collection of vintage and new vintage style firearms. I have completed ATF Form 1 in order to get approval to modify an existing Gun Control Act lever action pistol into a short-barreled rifle. This pistol is marked by the manufacturer with a serial number, model number, and caliber. My...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0005-0159": {
-          "organization": "",
-          "postedDate": "2026-05-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08915",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.8009451657611191
-    },
-    {
-      "cluster_id": 41,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0005-0151",
-      "representative_posted_date": "2026-05-20T04:00:00Z",
-      "representative_length": 452,
-      "representative_excerpt": "The biggest reason is the engraving is hard to do on one's own, and it added even more expense when the $200 tax was in place. Now, the $200 is removed from a Form 1 submission, but we still have to pay someone to engrave the firearm after the fact. The net effect is that there's still a form of \"tax\" on registering an NFA firearm with the ATF....",
+      "representative_comment_id": "ATF-2026-0005-0546",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 1423,
+      "representative_excerpt": "Because you are just modifying an existing gun it is unnecessary to require a new makers mark. This unnecessary step only makes the process of making a short barrel weapon more difficult and expensive for the law abiding citizen to exercise their constitutionally protected right. This agency should be taking steps that make this process easier for the law...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -379,9 +507,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "ATF-2026-0005-0151": {
+        "ATF-2026-0005-0546": {
           "organization": "",
-          "postedDate": "2026-05-20T04:00:00Z",
+          "postedDate": "2026-06-11T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -397,52 +525,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5961832609992143
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "ATF-2026-0005-0152",
-      "representative_posted_date": "2026-05-20T04:00:00Z",
-      "representative_length": 1070,
-      "representative_excerpt": "I support this rule change in all respects. These markings can be easily used by the ATF to link the firearm to its NFA registration, should the need ever arise. Adding additional markings for the maker's name and location do not enhance the ATF's ability to identify the firearm's registered owner. This is especially true if the maker transfers the firearm...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0005-0152": {
-          "organization": "",
-          "postedDate": "2026-05-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08915",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5961832609992143
-    },
-    {
-      "cluster_id": 35,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0005-0157",
-      "representative_posted_date": "2026-05-20T04:00:00Z",
-      "representative_length": 195,
-      "representative_excerpt": "I think the idea of removing the requirement for adding your info to an existing receiver when you form 1 SBR/ SBS it is due time for being be done. I ABSOLUTELY 100% supporting this rule change.",
+      "representative_comment_id": "ATF-2026-0005-0551",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 906,
+      "representative_excerpt": "Because that\u2019s who owns guns, there aren\u2019t 330 million lawyers with doctorates reading these rules. Let\u2019s be real. \u201cYou won\u2019t have to engrave your name and location anymore, it\u2019s kind of dumb and makes zero sense when the form is filed with the existing markings 9/10 times. For \u201c80 percent\u201d receivers you still need a serial number, makers location, etc.\u201d...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -451,9 +543,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "ATF-2026-0005-0157": {
+        "ATF-2026-0005-0551": {
           "organization": "",
-          "postedDate": "2026-05-20T04:00:00Z",
+          "postedDate": "2026-06-11T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -469,10 +561,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5961832609992143
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0564",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 493,
+      "representative_excerpt": "Have owned roughly multiple legal form 1 SBR\u2019s. The rule is effectively a roughly 100$ charge for a completely pointless addition to the firearm. Laser engraving is the most commonly used process and it is not cheap to do so when the firearms original markings would provide all the documentation to the owner needed. This rule does nothing but add a...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0564": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0565",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 460,
+      "representative_excerpt": "The current requirement of engraving one\u2019s name and city, state does not do anything but add a complicated and expensive hurdle to legal firearm ownership. It does nothing to benefit the application or ownership process. Since the receiver already has a clear manufacturer, model, and SN, that information is also already recorded on the form 1 application....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0565": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0538",
@@ -505,10 +669,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.5627257040633965
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0539",
@@ -541,10 +705,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.5627257040633965
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 62,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0159",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 1074,
+      "representative_excerpt": "Greetings, I'm 65 years old and have recently started a small collection of vintage and new vintage style firearms. I have completed ATF Form 1 in order to get approval to modify an existing Gun Control Act lever action pistol into a short-barreled rifle. This pistol is marked by the manufacturer with a serial number, model number, and caliber. My...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0159": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5601170084112226
+    },
+    {
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0524",
@@ -577,10 +777,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6771356419515953
+      "presentation_score": 0.5496822258025269
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0517",
@@ -613,10 +813,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6676118324277858
+      "presentation_score": 0.5409865736286139
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0513",
@@ -649,46 +849,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6628499276658809
+      "presentation_score": 0.5366387475416573
     },
     {
-      "cluster_id": 32,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0005-0160",
-      "representative_posted_date": "2026-05-21T04:00:00Z",
-      "representative_length": 680,
-      "representative_excerpt": "Please add language to make this change retro active and advise that BATFE Agents / Law Enforcement will not be required to check for markings for Tax stamps issued prior to the change going into effect. I suggest this because I can see the potential for cases where: 1. Individuals may not have been fully aware, or misunderstood the marking requirements....",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0005-0160": {
-          "organization": "",
-          "postedDate": "2026-05-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08915",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.600945165761119
-    },
-    {
-      "cluster_id": 24,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0516",
@@ -721,10 +885,586 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.512849927665881
+      "presentation_score": 0.5066387475416574
+    },
+    {
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0547",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 296,
+      "representative_excerpt": "There are no FFL holders capable of doing this kind of work in my area. Currently, my best option is to disassemble firearms and mail them half way across the country. I have been hesitant to have firearm parts mailed back and forth. Adopting this would allow me to forgo this unnecessary hurdle.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0547": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0548",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 105,
+      "representative_excerpt": "This should have been the process all along why deface a firearm with more numbers that shouldnt be there",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0548": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0549",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 219,
+      "representative_excerpt": "I support this ATF proposed amendment to DOJ NFA regulation regarding adoption of and allowance for using certain previously placed markings in compliance with NFA marking requirements. Support the proposed rule change.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0549": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0552",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 89,
+      "representative_excerpt": "This is an excellent proposal and my family fully supports this rule streamlining change.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0552": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0553",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 361,
+      "representative_excerpt": "This update to the marking requirement for NFA items to adopt existing manufacturer markings when converting a GCA firearm into an NFA firearm is welcomed and supported. The additional engraving requirements are superfluous and create additional expense for most people since they can't engrave the markings themselves. This update is appreciated and...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0553": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0554",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 298,
+      "representative_excerpt": "Furthermore the engravings on an already manufactured and purchased firearm should be more than sufficient for identification. Removing the form 1 engraving regulation for an already sufficiently engraved firearm would be a great benefit to those of us who don\u2019t readily have access to an engraver.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0554": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0555",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 203,
+      "representative_excerpt": "I fully and wholeheartedly support this proposed rule, for less restrictions on our constitutional rights and forcing extra markings that do not serve any better purpose for identification under the law.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0555": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0556",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 202,
+      "representative_excerpt": "I am in full support of this change to remove unnecessary burdens for NFA registered items. The proposed rule will not harm public safety nor will it make it harder for law enforcement to do their jobs.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0556": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0559",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 242,
+      "representative_excerpt": "I believe this rule change is a very good change. Individuals who manufacture NFA items should not face the burden of having to engrave a firearm that is already engraved from the manufacture ane registered as an NFA item with those markings.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0559": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0560",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 207,
+      "representative_excerpt": "the requirement to engrave should be removed with the advent of computerized record keeping, the serial number and owner is already registered during the form 1 approval and the markings should be sufficient",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0560": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
     },
     {
       "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0561",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 149,
+      "representative_excerpt": "I do not think that adding any markings to a firearm that all ready has a serial number is necessary it is redundant and burdensome as well as costly",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0561": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0566",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 185,
+      "representative_excerpt": "This is an excellent idea to reduce redundant government regulations. Adding additional markings to NFA items had no positive effect on public safety and should be modified as proposed.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0566": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0567",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 142,
+      "representative_excerpt": "Recommend clarifying that firearms approved to be made prior to this rule but not yet made be exempt from the additional markings requirement.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0567": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0569",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 364,
+      "representative_excerpt": "This is a step in the right direction. Persons making a SBR or SBS from an already serialized firearm shouldn\u2019t have to remark the NFA item! As the original manufacturer markings provide enough information to use for the NFA process. Some persons may not have access to mark the firearm in question with ease. Adding more hassle and expense to the overall...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0569": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0571",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 532,
+      "representative_excerpt": "Imposing an additional engraving requirement introduces unnecessary cost and administrative burden without improving traceability or compliance. Streamlining the process by relying on the original, legally recognized markings is a practical and efficient approach that maintains accountability while reducing needless duplication....",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0571": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 27,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0545",
+      "representative_posted_date": "2026-06-10T04:00:00Z",
+      "representative_length": 896,
+      "representative_excerpt": "It requires me to pay professional gunsmiths to deface high-quality factory receivers with custom trust text simply to reorganize or build an SBR. This extra engraving does not enhance public safety or improve the tracing capabilities of the National Firearms Registration and Transfer Record (NFRTR). Tracing can be complete and efficiently accomplished...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0545": {
+          "organization": "",
+          "postedDate": "2026-06-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.487073530150353
+    },
+    {
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0530",
@@ -757,10 +1497,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4827257040633965
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0531",
@@ -793,10 +1533,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4827257040633965
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0532",
@@ -829,10 +1569,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4827257040633965
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0533",
@@ -865,10 +1605,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4827257040633965
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0535",
@@ -901,10 +1641,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4827257040633965
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0536",
@@ -937,10 +1677,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4827257040633965
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0540",
@@ -973,10 +1713,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.4827257040633965
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 61,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0160",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 680,
+      "representative_excerpt": "Please add language to make this change retro active and advise that BATFE Agents / Law Enforcement will not be required to check for markings for Tax stamps issued prior to the change going into effect. I suggest this because I can see the potential for cases where: 1. Individuals may not have been fully aware, or misunderstood the marking requirements....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0160": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48011700841122257
+    },
+    {
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0528",
@@ -1009,10 +1785,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48665945147540474
+      "presentation_score": 0.47837787797643994
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0529",
@@ -1045,10 +1821,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48665945147540474
+      "presentation_score": 0.47837787797643994
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 70,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0151",
+      "representative_posted_date": "2026-05-20T04:00:00Z",
+      "representative_length": 452,
+      "representative_excerpt": "The biggest reason is the engraving is hard to do on one's own, and it added even more expense when the $200 tax was in place. Now, the $200 is removed from a Form 1 submission, but we still have to pay someone to engrave the firearm after the fact. The net effect is that there's still a form of \"tax\" on registering an NFA firearm with the ATF....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0151": {
+          "organization": "",
+          "postedDate": "2026-05-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.475769182324266
+    },
+    {
+      "cluster_id": 69,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0152",
+      "representative_posted_date": "2026-05-20T04:00:00Z",
+      "representative_length": 1070,
+      "representative_excerpt": "I support this rule change in all respects. These markings can be easily used by the ATF to link the firearm to its NFA registration, should the need ever arise. Adding additional markings for the maker's name and location do not enhance the ATF's ability to identify the firearm's registered owner. This is especially true if the maker transfers the firearm...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0152": {
+          "organization": "",
+          "postedDate": "2026-05-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.475769182324266
+    },
+    {
+      "cluster_id": 64,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0157",
+      "representative_posted_date": "2026-05-20T04:00:00Z",
+      "representative_length": 195,
+      "representative_excerpt": "I think the idea of removing the requirement for adding your info to an existing receiver when you form 1 SBR/ SBS it is due time for being be done. I ABSOLUTELY 100% supporting this rule change.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0157": {
+          "organization": "",
+          "postedDate": "2026-05-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.475769182324266
+    },
+    {
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0527",
@@ -1081,10 +1965,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4818975467135
+      "presentation_score": 0.47403005188948344
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0523",
@@ -1117,10 +2001,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47713564195159525
+      "presentation_score": 0.4696822258025269
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0525",
@@ -1153,10 +2037,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47713564195159525
+      "presentation_score": 0.4696822258025269
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0526",
@@ -1189,10 +2073,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47713564195159525
+      "presentation_score": 0.4696822258025269
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0520",
@@ -1225,10 +2109,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47237373718969045
+      "presentation_score": 0.4653343997155704
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0518",
@@ -1261,10 +2145,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4676118324277857
+      "presentation_score": 0.46098657362861384
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0509",
@@ -1297,10 +2181,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46284992766588096
+      "presentation_score": 0.45663874754165734
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0511",
@@ -1333,10 +2217,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46284992766588096
+      "presentation_score": 0.45663874754165734
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0515",
@@ -1369,10 +2253,262 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46284992766588096
+      "presentation_score": 0.45663874754165734
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0550",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 47,
+      "representative_excerpt": "I am in favor of not engraving form 1 NFA items",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0550": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0557",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 71,
+      "representative_excerpt": "100% agree and this should move forward. Keeps things clean and simple.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0557": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0562",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 67,
+      "representative_excerpt": "There is no reason to change the markings of they already have them",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0562": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0563",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 51,
+      "representative_excerpt": "Yes, original manufacturer markings should suffice.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0563": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0570",
+      "representative_posted_date": "2026-06-11T04:00:00Z",
+      "representative_length": 15,
+      "representative_excerpt": "Please do this!",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0570": {
+          "organization": "",
+          "postedDate": "2026-06-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 36,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0534",
+      "representative_posted_date": "2026-06-09T04:00:00Z",
+      "representative_length": 36,
+      "representative_excerpt": "I am in favor of this proposed rule.",
+      "representative_signal_score": -1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0534": {
+          "organization": "",
+          "postedDate": "2026-06-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4027257040633965
+    },
+    {
+      "cluster_id": 33,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0005-0537",
+      "representative_posted_date": "2026-06-09T04:00:00Z",
+      "representative_length": 29,
+      "representative_excerpt": "I\u2019m in favor of this passing.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0005-0537": {
+          "organization": "",
+          "postedDate": "2026-06-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08915",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4027257040633965
+    },
+    {
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0162",
@@ -1405,10 +2541,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40094516576111905
+      "presentation_score": 0.40011700841122255
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0144",
@@ -1441,10 +2577,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0145",
@@ -1477,10 +2613,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0146",
@@ -1513,10 +2649,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0147",
@@ -1549,10 +2685,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0148",
@@ -1585,10 +2721,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0149",
@@ -1621,10 +2757,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0150",
@@ -1657,10 +2793,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0153",
@@ -1693,10 +2829,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0155",
@@ -1729,10 +2865,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0156",
@@ -1765,10 +2901,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0158",
@@ -1801,10 +2937,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39618326099921425
+      "presentation_score": 0.395769182324266
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0007",
@@ -1840,7 +2976,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0011",
@@ -1876,7 +3012,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0012",
@@ -1912,7 +3048,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0014",
@@ -1948,7 +3084,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0029",
@@ -1984,7 +3120,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0031",
@@ -2020,7 +3156,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0033",
@@ -2056,79 +3192,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0005-0534",
-      "representative_posted_date": "2026-06-09T04:00:00Z",
-      "representative_length": 36,
-      "representative_excerpt": "I am in favor of this proposed rule.",
-      "representative_signal_score": -1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0005-0534": {
-          "organization": "",
-          "postedDate": "2026-06-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08915",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
-    },
-    {
-      "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ATF-2026-0005-0537",
-      "representative_posted_date": "2026-06-09T04:00:00Z",
-      "representative_length": 29,
-      "representative_excerpt": "I\u2019m in favor of this passing.",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ATF-2026-0005-0537": {
-          "organization": "",
-          "postedDate": "2026-06-09T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-08915",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
-    },
-    {
-      "cluster_id": 20,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0521",
@@ -2161,10 +3225,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27713564195159524
+      "presentation_score": 0.38968222580252687
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0154",
@@ -2197,10 +3261,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.19618326099921427
+      "presentation_score": 0.315769182324266
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0005-0009",
@@ -2233,7 +3297,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.1914213562373095
+      "presentation_score": 0.3114213562373095
     }
   ],
   "comments_clusters_path": "data/comments/ATF-2026-0005.csv",
@@ -2241,17 +3305,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.4666666666666667,
-  "comments_first_page_coverage_count": 28,
-  "comments_clusters_total_available": 57,
-  "comments_clusters_displayed": 57,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_coverage_share": 0.32222222222222224,
+  "comments_first_page_coverage_count": 29,
+  "comments_clusters_total_available": 86,
+  "comments_clusters_displayed": 86,
+  "comments_first_page_high_signal_clusters": 3,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
     "positive": 12,
-    "neutral": 13
+    "negative": 1,
+    "neutral": 12
   },
-  "comments_first_page_unique_days": 9,
+  "comments_first_page_unique_days": 8,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "ATF-2026-0005"

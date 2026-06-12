@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/EPA-R03-OAR-2025-0267-0006",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:53.329765+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:40.603649+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -63,7 +63,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/28/2026-10638.html"
   ],
   "supporting_related_material_count": 4,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=EPA-R03-OAR-2025-0267&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "EPA-R03-OAR-2025-0267-0001",
@@ -233,8 +233,8 @@
   "comments_api_backfill_complete": true,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T17:56:46.179629+00:00",
-  "comments_checked_at": "2026-06-09T17:56:46.179676+00:00",
+  "comments_api_last_seen_at": "2026-06-12T05:05:35.286623+00:00",
+  "comments_checked_at": "2026-06-12T05:05:35.286741+00:00",
   "comments_error": null,
   "comments_clusters": [
     {

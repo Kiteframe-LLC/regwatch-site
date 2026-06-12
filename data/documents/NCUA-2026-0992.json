@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/NCUA-2026-0992-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:53.754539+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:39.119428+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-07T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 5,
-  "pass_3_score": 0.029411764705882353,
+  "pass_3_score": 3.0277777777777777,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.004889965782228667,
+  "pass_3_scaled": 0.39627086259165667,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3596477368253252,
+  "combined_score": 0.5553381852300392,
   "score_total": 12,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -56,7 +56,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/07/2026-09009.html"
   ],
   "supporting_related_material_count": 0,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=NCUA-2026-0992&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\"))",
+  "supporting_docs_error": null,
   "supporting_related_material": [],
   "referenced_documents": [],
   "referenced_documents_count": 0,
@@ -92,12 +92,14 @@
   "comments_new_cluster_count_by_day": {
     "2026-06-09": 1
   },
-  "comments_high_signal_cluster_count_by_day": {},
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-06-09": 1
+  },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.0,
+  "comments_sentiment_positive_pct": 1.0,
   "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 1.0,
-  "comments_sentiment_net": 0.0,
+  "comments_sentiment_neutral_pct": 0.0,
+  "comments_sentiment_net": 1.0,
   "comments_sentiment_sample_size": 1,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
@@ -121,8 +123,8 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-09T18:05:24.358727+00:00",
-  "comments_checked_at": "2026-06-09T18:05:24.359284+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92c8658&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T21:13:49.715294+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 1,
@@ -130,10 +132,10 @@
       "page_count": 0,
       "representative_comment_id": "NCUA-2026-0992-0002",
       "representative_posted_date": "2026-06-09T04:00:00Z",
-      "representative_length": 38,
-      "representative_excerpt": "Comment from ORNL Federal Credit Union",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
+      "representative_length": 3785,
+      "representative_excerpt": "We understand NCUA\u2019s stated rationale for simplifying the exemption framework and addressing potential constitutional concerns. At the same time, we encourage the agency to continue applying its exemption authority in a practical and legally sound manner that recognizes the governance and recruitment challenges faced by community-based, newly chartered...",
+      "representative_signal_score": 4,
+      "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
@@ -158,7 +160,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.2
+      "presentation_score": 1.0
     }
   ],
   "comments_clusters_path": "data/comments/NCUA-2026-0992.csv",
@@ -170,10 +172,10 @@
   "comments_first_page_coverage_count": 1,
   "comments_clusters_total_available": 1,
   "comments_clusters_displayed": 1,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "neutral": 1
+    "positive": 1
   },
   "comments_first_page_unique_days": 1,
   "summary_available": false,

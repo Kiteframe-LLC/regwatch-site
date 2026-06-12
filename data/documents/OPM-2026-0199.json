@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/OPM-2026-0199-0002",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:53.305431+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:40.651614+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-16T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 0,
-  "pass_3_score": 4.385964912280702,
+  "pass_3_score": 4.338983050847458,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.0,
-  "pass_3_scaled": 0.5185698626530028,
+  "pass_3_scaled": 0.5147853175752332,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.44363186142666144,
+  "combined_score": 0.44173958888777665,
   "score_total": 7,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -51,7 +51,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/04/14/2026-07198.html"
   ],
   "supporting_related_material_count": 1,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=OPM-2026-0199&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "OPM-2026-0199-0001",
@@ -85,7 +85,7 @@
   "comments_velocity_total": 79,
   "comments_public_total_estimate": 79,
   "comments_fetched": 4,
-  "comments_text_hydrated": 4,
+  "comments_text_hydrated": 9,
   "comments_cached_records": 87,
   "comments_unique_clusters": 84,
   "comments_clustered_duplicates": 3,
@@ -135,14 +135,15 @@
     "2026-04-15": 15
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-05-26": 1,
     "2026-05-04": 1,
     "2026-04-27": 4
   },
   "comments_novel_comment_rate": 0.9655172413793104,
-  "comments_sentiment_positive_pct": 0.12860927873790262,
+  "comments_sentiment_positive_pct": 0.1671920623592734,
   "comments_sentiment_negative_pct": 0.07182779989959807,
-  "comments_sentiment_neutral_pct": 0.7995629213624994,
-  "comments_sentiment_net": 0.05678147883830455,
+  "comments_sentiment_neutral_pct": 0.7609801377411285,
+  "comments_sentiment_net": 0.09536426245967532,
   "comments_sentiment_sample_size": 79,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
@@ -168,8 +169,8 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-09T17:55:21.119525+00:00",
-  "comments_checked_at": "2026-06-09T17:55:21.543126+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b927b405&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T21:29:07.985388+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 26,
@@ -361,6 +362,42 @@
       "presentation_score": 0.8164213562373096
     },
     {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0199-0086",
+      "representative_posted_date": "2026-05-26T04:00:00Z",
+      "representative_length": 4580,
+      "representative_excerpt": "I watched two-ton root wads tumble downslope out of burning log landings. \u2022 Working in dense wood smoke was routine. I filed CA-1 injury reports on employees who suffered scratched corneas from hot, dense smoke exposure. \u2022 My crew and I ran for our lives after a burning block spontaneously ignited an adjacent unburned clearcut block, threatening to trap us...",
+      "representative_signal_score": 5,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0199-0086": {
+          "organization": "FUSEE",
+          "postedDate": "2026-05-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from FUSEE",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.9268380229039763
+    },
+    {
       "cluster_id": 27,
       "count": 1,
       "page_count": 0,
@@ -469,13 +506,49 @@
       "presentation_score": 0.6564213562373095
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "OPM-2026-0199-0003",
-      "representative_posted_date": "2026-04-15T04:00:00Z",
-      "representative_length": 2029,
-      "representative_excerpt": "Employees engaged in prescribed fire work are exposed to the same practical dangers faced on wildfire assignments: fireline exposure, smoke, heat, unstable terrain, rolling material, snag hazards, and the constant potential for conditions to change quickly. OPM\u2019s proposal correctly recognizes that these hazards are real and that they cannot be fully...",
+      "representative_comment_id": "OPM-2026-0199-0084",
+      "representative_posted_date": "2026-05-12T04:00:00Z",
+      "representative_length": 2921,
+      "representative_excerpt": "2023), https://www.usda.gov/sites/default/files/documents/ wfmmc-final-report-09-2023.pdf. smoke inhalation, extreme temperatures, chemical exposure, air and ground injuries, and an increased risk of cancer and cardio-pulmonary diseases. 2 We appreciate OPM\u2019...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0199-0084": {
+          "organization": "The Alliance for Wildfire Resilience (AWR)",
+          "postedDate": "2026-05-12T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from The Alliance for Wildfire Resilience (AWR)",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6576713562373097
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0199-0088",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 1626,
+      "representative_excerpt": "A decades-Old Pay Inequity In approximately 1977 I did a formal request of hazard pay for prescribed, (slash) burning with the support of the District Fire Management Officer, the District Ranger and Forest Fire Staff Officer. After several months The Washington Office of Personnel Management denied the request, ruling that it was an \u201cadministratively...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
@@ -484,25 +557,61 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "OPM-2026-0199-0003": {
+        "OPM-2026-0199-0088": {
           "organization": "",
-          "postedDate": "2026-04-15T04:00:00Z",
+          "postedDate": "2026-05-27T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Brian Rhodes",
+          "title": "Comment from Ken VanBuskirk",
           "withdrawn": false,
           "submissionRole": "individual",
-          "submissionRoleConfidence": "medium",
+          "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5514213562373096
+      "presentation_score": 0.6389213562373096
+    },
+    {
+      "cluster_id": 61,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0199-0027",
+      "representative_posted_date": "2026-04-17T04:00:00Z",
+      "representative_length": 1540,
+      "representative_excerpt": "In particular, an increasing body of scientific evidence has authoritatively demonstrated the long-term impacts from smoke-inhalation on the health of wildland firefighters, including from prescribed fires. Expanding the hazard pay differential to cover prescribed fire duties would ensure compensation accurately reflects the risks, support the wellbeing of...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0199-0027": {
+          "organization": "Megafire Action",
+          "postedDate": "2026-04-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Megafire Action",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6055880229039763
     },
     {
       "cluster_id": 13,
@@ -539,6 +648,42 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.5910046895706429
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0199-0070",
+      "representative_posted_date": "2026-04-29T04:00:00Z",
+      "representative_length": 3929,
+      "representative_excerpt": "June 6, 2022. https://www.americanforests.org/article/what-you-need-to-know-about- controlled-burns/. \u201cPrescribed Fire Challenges.\u201d n.d. Mississippi Forestry Commission. https://www.mfc.ms.gov/burning-info/prescribed-burning/prescribed-fire-challenges/. \u201cThe Pacific Northwest Is Missing Wildfire.\u201d 2019. Www.nature.org. April 21, 2019. https://www.nature....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0199-0070": {
+          "organization": "",
+          "postedDate": "2026-04-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Naomi S",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5805880229039763
     },
     {
       "cluster_id": 38,
@@ -647,6 +792,42 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.5639213562373095
+    },
+    {
+      "cluster_id": 84,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0199-0003",
+      "representative_posted_date": "2026-04-15T04:00:00Z",
+      "representative_length": 2029,
+      "representative_excerpt": "Employees engaged in prescribed fire work are exposed to the same practical dangers faced on wildfire assignments: fireline exposure, smoke, heat, unstable terrain, rolling material, snag hazards, and the constant potential for conditions to change quickly. OPM\u2019s proposal correctly recognizes that these hazards are real and that they cannot be fully...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0199-0003": {
+          "organization": "",
+          "postedDate": "2026-04-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Brian Rhodes",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5514213562373096
     },
     {
       "cluster_id": 7,
@@ -863,114 +1044,6 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.49642135623730954
-    },
-    {
-      "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0199-0086",
-      "representative_posted_date": "2026-05-26T04:00:00Z",
-      "representative_length": 18,
-      "representative_excerpt": "Comment from FUSEE",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0199-0086": {
-          "organization": "FUSEE",
-          "postedDate": "2026-05-26T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from FUSEE",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4468380229039762
-    },
-    {
-      "cluster_id": 6,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0199-0084",
-      "representative_posted_date": "2026-05-12T04:00:00Z",
-      "representative_length": 55,
-      "representative_excerpt": "Comment from The Alliance for Wildfire Resilience (AWR)",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0199-0084": {
-          "organization": "The Alliance for Wildfire Resilience (AWR)",
-          "postedDate": "2026-05-12T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from The Alliance for Wildfire Resilience (AWR)",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4176713562373095
-    },
-    {
-      "cluster_id": 61,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0199-0027",
-      "representative_posted_date": "2026-04-17T04:00:00Z",
-      "representative_length": 28,
-      "representative_excerpt": "Comment from Megafire Action",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0199-0027": {
-          "organization": "Megafire Action",
-          "postedDate": "2026-04-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Megafire Action",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.36558802290397613
     },
     {
       "cluster_id": 1,
@@ -2161,42 +2234,6 @@
       "presentation_score": 0.4018380229039762
     },
     {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0199-0088",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 27,
-      "representative_excerpt": "Comment from Ken VanBuskirk",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0199-0088": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Ken VanBuskirk",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3989213562373095
-    },
-    {
       "cluster_id": 64,
       "count": 1,
       "page_count": 0,
@@ -2953,42 +2990,6 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 19,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0199-0070",
-      "representative_posted_date": "2026-04-29T04:00:00Z",
-      "representative_length": 20,
-      "representative_excerpt": "Comment from Naomi S",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0199-0070": {
-          "organization": "",
-          "postedDate": "2026-04-29T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Naomi S",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.34058802290397616
-    },
-    {
       "cluster_id": 22,
       "count": 1,
       "page_count": 0,
@@ -3250,14 +3251,14 @@
   "comments_first_page_coverage_count": 28,
   "comments_clusters_total_available": 84,
   "comments_clusters_displayed": 84,
-  "comments_first_page_high_signal_clusters": 5,
+  "comments_first_page_high_signal_clusters": 6,
   "comments_first_page_novelty_clusters": 3,
   "comments_first_page_stance_counts": {
-    "neutral": 11,
+    "neutral": 10,
     "negative": 6,
-    "positive": 8
+    "positive": 9
   },
-  "comments_first_page_unique_days": 15,
+  "comments_first_page_unique_days": 16,
   "summary_available": true,
   "raw_summary_available": true,
   "route_id": "OPM-2026-0199"

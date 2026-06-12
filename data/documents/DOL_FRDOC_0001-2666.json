@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/DOL_FRDOC_0001-2666",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:55.199746+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:43.812026+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -53,8 +53,8 @@
   "rule_text_sources": [
     "https://www.federalregister.gov/documents/full_text/html/2026/05/29/2026-10817.html"
   ],
-  "supporting_related_material_count": 999,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=DOL_FRDOC_0001&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_related_material_count": 1000,
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "DOL_FRDOC_0001-2672",
@@ -10830,14 +10830,25 @@
       "title": "Federal Civil Penalties Inflation Adjustment Act Annual Adjustments for 2024",
       "document_type": "Rule",
       "document_subtype": null,
-      "abstract": null,
+      "abstract": "Immigration, Labor, Penalties, Administrative Practice and Procedure, Longshore and Harbor Workers, Reporting and Recordkeeping Requirements, Workers' Compensation, Black Lung Benefits, Coal ",
       "posted_date": "2024-01-11T05:00:00Z",
-      "received_date": null,
+      "received_date": "2024-01-11T05:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 13,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2232/content.pdf",
+          "format": "pdf",
+          "size": 342266
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2232/content.htm",
+          "format": "htm",
+          "size": 86178
+        }
+      ]
     },
     {
       "document_id": "DOL_FRDOC_0001-2230",
@@ -10847,12 +10858,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-12-28T05:00:00Z",
-      "received_date": null,
+      "received_date": "2023-12-28T05:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 2,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2230/content.pdf",
+          "format": "pdf",
+          "size": 207058
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2230/content.htm",
+          "format": "htm",
+          "size": 5124
+        }
+      ]
     },
     {
       "document_id": "DOL_FRDOC_0001-2231",
@@ -10914,12 +10936,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-12-26T05:00:00Z",
-      "received_date": null,
+      "received_date": "2023-12-26T05:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 2,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2225/content.pdf",
+          "format": "pdf",
+          "size": 208998
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2225/content.htm",
+          "format": "htm",
+          "size": 4237
+        }
+      ]
     },
     {
       "document_id": "DOL_FRDOC_0001-2228",
@@ -10929,12 +10962,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-12-26T05:00:00Z",
-      "received_date": null,
+      "received_date": "2023-12-26T05:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 2,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2228/content.pdf",
+          "format": "pdf",
+          "size": 208389
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-2228/content.htm",
+          "format": "htm",
+          "size": 4629
+        }
+      ]
     },
     {
       "document_id": "DOL_FRDOC_0001-2226",
@@ -26005,6 +26049,32 @@
           "size": 7596
         }
       ]
+    },
+    {
+      "document_id": "DOL_FRDOC_0001-1620",
+      "tracking_number": null,
+      "title": "Agency Information Collection Activities; Proposals, Submissions, and Approvals: Request for Examination and/or Treatment",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2020-10-29T04:00:00Z",
+      "received_date": "2020-10-29T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 1,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-1620/content.pdf",
+          "format": "pdf",
+          "size": 239493
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOL_FRDOC_0001-1620/content.htm",
+          "format": "htm",
+          "size": 5251
+        }
+      ]
     }
   ],
   "referenced_documents": [
@@ -26083,9 +26153,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-10T02:56:19.644525+00:00",
-  "comments_checked_at": "2026-06-10T02:56:19.644683+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92fcb6d&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T14:09:04.826001+00:00",
+  "comments_checked_at": "2026-06-12T14:09:04.826117+00:00",
+  "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/DOL_FRDOC_0001.csv",
   "government_submissions_count": 0,

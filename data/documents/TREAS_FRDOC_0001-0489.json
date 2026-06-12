@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/TREAS_FRDOC_0001-0489",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:54.029085+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:42.156446+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -54,7 +54,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/29/2026-10817.html"
   ],
   "supporting_related_material_count": 309,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=TREAS_FRDOC_0001&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "TREAS_FRDOC_0001-0487",
@@ -7905,12 +7905,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2009-03-30T04:00:00Z",
-      "received_date": null,
+      "received_date": "2009-03-30T15:08:14Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 0,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/TREAS_FRDOC_0001-0063/content.pdf",
+          "format": "pdf",
+          "size": 46062
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/TREAS_FRDOC_0001-0063/content.htm",
+          "format": "htm",
+          "size": 2887
+        }
+      ]
     },
     {
       "document_id": "TREAS_FRDOC_0001-0062",
@@ -7946,12 +7957,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2009-03-11T04:00:00Z",
-      "received_date": null,
+      "received_date": "2009-03-11T16:27:23Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 0,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/TREAS_FRDOC_0001-0061/content.pdf",
+          "format": "pdf",
+          "size": 49319
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/TREAS_FRDOC_0001-0061/content.htm",
+          "format": "htm",
+          "size": 7404
+        }
+      ]
     },
     {
       "document_id": "TREAS_FRDOC_0001-0056",
@@ -8134,9 +8156,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T23:22:01.666199+00:00",
-  "comments_checked_at": "2026-06-09T23:22:01.666266+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92f8893&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T10:07:16.422930+00:00",
+  "comments_checked_at": "2026-06-12T10:07:16.423048+00:00",
+  "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/TREAS_FRDOC_0001.csv",
   "government_submissions_count": 0,

@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/DOS_FRDOC_0001-7153",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:55.249265+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:43.867944+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -54,8 +54,60 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/29/2026-10817.html"
   ],
   "supporting_related_material_count": 999,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=DOS_FRDOC_0001&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "DOS_FRDOC_0001-7167",
+      "tracking_number": null,
+      "title": "Culturally Significant Objects Imported for Exhibition: Expressionism in Art and Film",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-06-10T04:00:00Z",
+      "received_date": "2026-06-10T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 1,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7167/content.pdf",
+          "format": "pdf",
+          "size": 206221
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7167/content.html",
+          "format": "html",
+          "size": 2742
+        }
+      ]
+    },
+    {
+      "document_id": "DOS_FRDOC_0001-7168",
+      "tracking_number": null,
+      "title": "Culturally Significant Objects Imported for Exhibition: L'Orage (Landscape with a Storm)",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-06-10T04:00:00Z",
+      "received_date": "2026-06-10T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 2,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7168/content.pdf",
+          "format": "pdf",
+          "size": 214338
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7168/content.html",
+          "format": "html",
+          "size": 2653
+        }
+      ]
+    },
     {
       "document_id": "DOS_FRDOC_0001-7166",
       "tracking_number": null,
@@ -79,32 +131,6 @@
           "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7166/content.html",
           "format": "html",
           "size": 6026
-        }
-      ]
-    },
-    {
-      "document_id": "DOS_FRDOC_0001-7164",
-      "tracking_number": null,
-      "title": "Agency Information Collection Activities; Proposals, Submissions, and Approvals: Medical Examination for Visa or Immigration Benefit",
-      "document_type": "Notice",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-06-09T04:00:00Z",
-      "received_date": "2026-06-09T04:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 2,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7164/content.pdf",
-          "format": "pdf",
-          "size": 211822
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7164/content.html",
-          "format": "html",
-          "size": 6132
         }
       ]
     },
@@ -287,32 +313,6 @@
           "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7163/content.html",
           "format": "html",
           "size": 6734
-        }
-      ]
-    },
-    {
-      "document_id": "DOS_FRDOC_0001-7156",
-      "tracking_number": null,
-      "title": "Hearings, Meetings, Proceedings, etc.: Cultural Property Advisory Committee; Proposals to Extend Bilateral Cultural Property Agreements with Albania and Nigeria; Receipt of a Request from Romania under the Convention on Cultural Property Implementation Act",
-      "document_type": "Notice",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-06-04T04:00:00Z",
-      "received_date": "2026-06-04T04:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 2,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7156/content.pdf",
-          "format": "pdf",
-          "size": 214150
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7156/content.html",
-          "format": "html",
-          "size": 7744
         }
       ]
     },
@@ -10796,12 +10796,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2024-11-27T00:00:00Z",
-      "received_date": null,
+      "received_date": "2024-11-27T00:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 1,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6702/content.pdf",
+          "format": "pdf",
+          "size": 193171
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6702/content.html",
+          "format": "html",
+          "size": 5296
+        }
+      ]
     },
     {
       "document_id": "DOS_FRDOC_0001-6703",
@@ -10811,12 +10822,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2024-11-27T00:00:00Z",
-      "received_date": null,
+      "received_date": "2024-11-27T00:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 5,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6703/content.pdf",
+          "format": "pdf",
+          "size": 255305
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6703/content.html",
+          "format": "html",
+          "size": 30589
+        }
+      ]
     },
     {
       "document_id": "DOS_FRDOC_0001-6700",
@@ -26037,9 +26059,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-10T02:54:39.746788+00:00",
-  "comments_checked_at": "2026-06-10T02:54:39.746905+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92fcd59&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T14:11:51.376787+00:00",
+  "comments_checked_at": "2026-06-12T14:11:51.376906+00:00",
+  "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/DOS_FRDOC_0001.csv",
   "government_submissions_count": 0,

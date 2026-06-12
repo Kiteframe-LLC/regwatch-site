@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/EPA-HQ-OLEM-2025-3325-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:53.729307+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:41.411262+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-07-07T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 3,
-  "pass_3_score": 0.13513513513513514,
+  "pass_3_score": 0.125,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.02227078398293758,
+  "pass_3_scaled": 0.02061781866875978,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3627127352207086,
+  "combined_score": 0.3618862525636197,
   "score_total": 12,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/04/2026-08662.html"
   ],
   "supporting_related_material_count": 33,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=EPA-HQ-OLEM-2025-3325&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "EPA-HQ-OLEM-2025-3325-0025",
@@ -553,29 +553,6 @@
       ]
     },
     {
-      "document_id": "EPA-HQ-OLEM-2025-3325-0027",
-      "tracking_number": "moc-xodm-rc29",
-      "title": "Rappahannock Tribe Consultation Closeout Letter CCR April 17 2026",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-05-04T04:00:00Z",
-      "received_date": "2026-04-24T00:00:00Z",
-      "author_date": "2026-04-17T04:00:00Z",
-      "authors": [
-        "David Campbell"
-      ],
-      "page_count": 2,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2025-3325-0027/content.pdf",
-          "format": "pdf",
-          "size": 215376
-        }
-      ]
-    },
-    {
       "document_id": "EPA-HQ-OLEM-2025-3325-0020",
       "tracking_number": "moc-xodm-rc29",
       "title": "CCR VA Tribal Consultation- Upper Mattaponi Tribe sent October 8, 2025",
@@ -664,6 +641,29 @@
           "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2025-3325-0018/content.pdf",
           "format": "pdf",
           "size": 496340
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OLEM-2025-3325-0027",
+      "tracking_number": "moc-xodm-rc29",
+      "title": "Rappahannock Tribe Consultation Closeout Letter CCR April 17 2026",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-05-04T04:00:00Z",
+      "received_date": "2026-04-24T00:00:00Z",
+      "author_date": "2026-04-17T04:00:00Z",
+      "authors": [
+        "David Campbell"
+      ],
+      "page_count": 2,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2025-3325-0027/content.pdf",
+          "format": "pdf",
+          "size": 215376
         }
       ]
     },
@@ -874,9 +874,9 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-09T18:37:39.365745+00:00",
-  "comments_checked_at": "2026-06-09T18:37:39.445675+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92c1272&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_api_last_seen_at": "2026-06-12T05:37:13.527309+00:00",
+  "comments_checked_at": "2026-06-12T05:37:13.614150+00:00",
+  "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 2,

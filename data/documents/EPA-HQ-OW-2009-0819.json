@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/EPA-HQ-OW-2009-0819-13740",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": null,
-  "comment_action_error": "check_failed:ConnectionError",
-  "comment_action_checked_at": "2026-06-11T05:10:52.191768+00:00",
+  "comment_action_status_code": 403,
+  "comment_action_error": "http_403_nonbrowser_check",
+  "comment_action_checked_at": "2026-06-12T14:27:38.777704+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,12 +27,12 @@
   "comment_end_date": "2026-06-18T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 3,
-  "pass_3_score": 3.3333333333333335,
+  "pass_3_score": 3.2800000000000002,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.42624657926256715,
+  "pass_3_scaled": 0.421123814743799,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5856994869408381,
+  "combined_score": 0.5831381046814541,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -55,7 +55,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/18/2026-09895.html"
   ],
   "supporting_related_material_count": 999,
-  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/documents?filter%5BdocketId%5D=EPA-HQ-OW-2009-0819&sort=-postedDate&page%5Bsize%5D=250&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "supporting_docs_error": null,
   "supporting_related_material": [
     {
       "document_id": "EPA-HQ-OW-2009-0819-13800",
@@ -465,6 +465,46 @@
       ]
     },
     {
+      "document_id": "EPA-HQ-OW-2009-0819-13786",
+      "tracking_number": "mo7-85z7-ujmh",
+      "title": "Analysis of Compliance Costs and Economic Impacts -DCN SE12148",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "DCN SE12148",
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-20T04:00:00Z",
+      "author_date": null,
+      "authors": [
+        "USEPA"
+      ],
+      "page_count": 1,
+      "media": "Electronic",
+      "file_formats": null
+    },
+    {
+      "document_id": "EPA-HQ-OW-2009-0819-13810",
+      "tracking_number": "mp3-eq09-krtm",
+      "title": "CBI Colstrip Steam Electric Station Site Visit Notes (January 20, 2026) - [DCN SE12103]",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "DCN SE12103",
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-05-12T04:00:00Z",
+      "author_date": "2026-04-27T04:00:00Z",
+      "authors": [
+        "U.S. EPA"
+      ],
+      "page_count": 23,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13810/content.pdf",
+          "format": "pdf",
+          "size": 30820
+        }
+      ]
+    },
+    {
       "document_id": "EPA-HQ-OW-2009-0819-13755",
       "tracking_number": "mnn-3cbc-xx1g",
       "title": "2025 Annual Groundwater Monitoring and Corrective Action Report - Laramie River Station - DCN SE12161",
@@ -539,29 +579,6 @@
       "file_formats": null
     },
     {
-      "document_id": "EPA-HQ-OW-2009-0819-13810",
-      "tracking_number": "mp3-eq09-krtm",
-      "title": "CBI Colstrip Steam Electric Station Site Visit Notes (January 20, 2026) - [DCN SE12103]",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": "DCN SE12103",
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-05-12T04:00:00Z",
-      "author_date": "2026-04-27T04:00:00Z",
-      "authors": [
-        "U.S. EPA"
-      ],
-      "page_count": 23,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13810/content.pdf",
-          "format": "pdf",
-          "size": 30820
-        }
-      ]
-    },
-    {
       "document_id": "EPA-HQ-OW-2009-0819-13811",
       "tracking_number": "mp3-eqrx-xuvz",
       "title": "CBI Unmanaged CRL Non Water Quality Environmental Impacts for the Steam Electric ELGs (DCN SE12118)",
@@ -583,23 +600,6 @@
           "size": 30766
         }
       ]
-    },
-    {
-      "document_id": "EPA-HQ-OW-2009-0819-13786",
-      "tracking_number": "mo7-85z7-ujmh",
-      "title": "Analysis of Compliance Costs and Economic Impacts -DCN SE12148",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": "DCN SE12148",
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-20T04:00:00Z",
-      "author_date": null,
-      "authors": [
-        "USEPA"
-      ],
-      "page_count": 1,
-      "media": "Electronic",
-      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OW-2009-0819-13742",
@@ -961,80 +961,6 @@
       "file_formats": null
     },
     {
-      "document_id": "EPA-HQ-OW-2009-0819-13787",
-      "tracking_number": "mo7-8n6m-rnf3",
-      "title": "Form EIA-860 Detailed Data: Final 2024 Data - DCN SE12160",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": "DCN SE12160",
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-20T04:00:00Z",
-      "author_date": null,
-      "authors": [
-        "US Energy Information Administration"
-      ],
-      "page_count": 64,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13787/content.pdf",
-          "format": "pdf",
-          "size": 701497
-        }
-      ]
-    },
-    {
-      "document_id": "EPA-HQ-OW-2009-0819-13768",
-      "tracking_number": "mnn-3cbc-xx1g",
-      "title": "2025 Annual Groundwater Monitoring and Corrective Action Report - Southwestern Electric Power Company Welsh Power Plant Landfill - DCN SE12139",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": "DCN SE12139",
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-06T04:00:00Z",
-      "author_date": "2026-01-31T05:00:00Z",
-      "authors": [
-        "American Electric Power Service Corporation"
-      ],
-      "page_count": 494,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13768/content.pdf",
-          "format": "pdf",
-          "size": 66954500
-        }
-      ]
-    },
-    {
-      "document_id": "EPA-HQ-OW-2009-0819-13784",
-      "tracking_number": "mo7-7bg5-ewwv",
-      "title": "Annual Energy Outlook 2025 supplemental tables - DCN SE12150",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": "DCN SE12150",
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-20T04:00:00Z",
-      "author_date": "2026-02-12T05:00:00Z",
-      "authors": [
-        "Energy Information Administration"
-      ],
-      "page_count": 1229,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13784/content.xlsx",
-          "format": "xlsx",
-          "size": 2755307
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13784/content.pdf",
-          "format": "pdf",
-          "size": 8718434
-        }
-      ]
-    },
-    {
       "document_id": "EPA-HQ-OW-2009-0819-13747",
       "tracking_number": "mnn-3cbc-xx1g",
       "title": "Cost Analyses for Selected Groundwater Cleanup Projects: Pump and Treat Systems and Permeable Reactive Barriers - DCN SE12116",
@@ -1179,6 +1105,80 @@
           "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13788/content.pdf",
           "format": "pdf",
           "size": 150579583
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OW-2009-0819-13787",
+      "tracking_number": "mo7-8n6m-rnf3",
+      "title": "Form EIA-860 Detailed Data: Final 2024 Data - DCN SE12160",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "DCN SE12160",
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-20T04:00:00Z",
+      "author_date": null,
+      "authors": [
+        "US Energy Information Administration"
+      ],
+      "page_count": 64,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13787/content.pdf",
+          "format": "pdf",
+          "size": 701497
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OW-2009-0819-13768",
+      "tracking_number": "mnn-3cbc-xx1g",
+      "title": "2025 Annual Groundwater Monitoring and Corrective Action Report - Southwestern Electric Power Company Welsh Power Plant Landfill - DCN SE12139",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "DCN SE12139",
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-06T04:00:00Z",
+      "author_date": "2026-01-31T05:00:00Z",
+      "authors": [
+        "American Electric Power Service Corporation"
+      ],
+      "page_count": 494,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13768/content.pdf",
+          "format": "pdf",
+          "size": 66954500
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OW-2009-0819-13784",
+      "tracking_number": "mo7-7bg5-ewwv",
+      "title": "Annual Energy Outlook 2025 supplemental tables - DCN SE12150",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "DCN SE12150",
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-20T04:00:00Z",
+      "author_date": "2026-02-12T05:00:00Z",
+      "authors": [
+        "Energy Information Administration"
+      ],
+      "page_count": 1229,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13784/content.xlsx",
+          "format": "xlsx",
+          "size": 2755307
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13784/content.pdf",
+          "format": "pdf",
+          "size": 8718434
         }
       ]
     },
@@ -1526,6 +1526,23 @@
       "file_formats": null
     },
     {
+      "document_id": "EPA-HQ-OW-2009-0819-13780",
+      "tracking_number": "mnr-vuon-9eeh",
+      "title": "Efficient Landfill Wastewater Monitoring: Reducing Long-Term Management Costs Through Collaborative R&D - DCN SE12172",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "DCN SE12172",
+      "posted_date": "2026-05-18T04:00:00Z",
+      "received_date": "2026-04-09T04:00:00Z",
+      "author_date": "2025-04-01T04:00:00Z",
+      "authors": [
+        "Electric Power Research Institute"
+      ],
+      "page_count": 2,
+      "media": "Electronic",
+      "file_formats": null
+    },
+    {
       "document_id": "EPA-HQ-OW-2009-0819-13744",
       "tracking_number": "mnn-3cbc-xx1g",
       "title": "Critical Materials Chapter 6 - Mitigating criticality, part II: Source diversification - DCN SE12120",
@@ -1626,23 +1643,6 @@
           "size": 276572
         }
       ]
-    },
-    {
-      "document_id": "EPA-HQ-OW-2009-0819-13780",
-      "tracking_number": "mnr-vuon-9eeh",
-      "title": "Efficient Landfill Wastewater Monitoring: Reducing Long-Term Management Costs Through Collaborative R&D - DCN SE12172",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": "DCN SE12172",
-      "posted_date": "2026-05-18T04:00:00Z",
-      "received_date": "2026-04-09T04:00:00Z",
-      "author_date": "2025-04-01T04:00:00Z",
-      "authors": [
-        "Electric Power Research Institute"
-      ],
-      "page_count": 2,
-      "media": "Electronic",
-      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OW-2009-0819-13739",
@@ -3783,26 +3783,18 @@
     },
     {
       "document_id": "EPA-HQ-OW-2009-0819-13726",
-      "tracking_number": "mjj-0tyx-dexu",
+      "tracking_number": null,
       "title": "Overview of Costs and Benefits of Steam Electric ELG 2025 Deadline Extensions Final Rule-DCN SE12028",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
-      "abstract": "DCN SE12028",
+      "abstract": null,
       "posted_date": "2025-12-31T05:00:00Z",
-      "received_date": "2025-12-23T05:00:00Z",
-      "author_date": "2025-12-17T05:00:00Z",
-      "authors": [
-        "US EPA"
-      ],
-      "page_count": 19,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13726/content.pdf",
-          "format": "pdf",
-          "size": 523250
-        }
-      ]
+      "received_date": null,
+      "author_date": null,
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OW-2009-0819-13657",
@@ -9905,32 +9897,42 @@
     },
     {
       "document_id": "EPA-HQ-OW-2009-0819-10175",
-      "tracking_number": null,
+      "tracking_number": "lv2-sh0m-48e9",
       "title": "Extension Request Response from EPA to Congresswoman Hageman - [DCN SE11609]",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
-      "abstract": null,
+      "abstract": "DCN SE11609",
       "posted_date": "2024-05-09T04:00:00Z",
-      "received_date": null,
-      "author_date": null,
-      "authors": null,
-      "page_count": null,
-      "media": null,
-      "file_formats": null
+      "received_date": "2024-04-16T04:00:00Z",
+      "author_date": "2023-06-27T04:00:00Z",
+      "authors": [
+        "Radhika Fox, USEPA"
+      ],
+      "page_count": 2,
+      "media": "Electronic ",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-10175/content.pdf",
+          "format": "pdf",
+          "size": 740437
+        }
+      ]
     },
     {
       "document_id": "EPA-HQ-OW-2009-0819-10254",
-      "tracking_number": null,
+      "tracking_number": "lv4-0ko1-qoys",
       "title": "Coal Ash Pond Cleanup - DCN SE11673",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
-      "abstract": null,
+      "abstract": "DCN SE11673",
       "posted_date": "2024-05-09T04:00:00Z",
-      "received_date": null,
+      "received_date": "2024-04-17T04:00:00Z",
       "author_date": null,
-      "authors": null,
-      "page_count": null,
-      "media": null,
+      "authors": [
+        "NIPSCO"
+      ],
+      "page_count": 5,
+      "media": "Electronic ",
       "file_formats": null
     },
     {
@@ -21983,13 +21985,13 @@
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
   "comments_total": 8,
-  "comments_velocity_total": 8,
-  "comments_public_total_estimate": 8,
+  "comments_velocity_total": 7,
+  "comments_public_total_estimate": 7,
   "comments_fetched": 4,
-  "comments_text_hydrated": 4,
+  "comments_text_hydrated": 7,
   "comments_cached_records": 8,
-  "comments_unique_clusters": 8,
-  "comments_clustered_duplicates": 0,
+  "comments_unique_clusters": 7,
+  "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -21998,28 +22000,33 @@
     "citizen": 8
   },
   "comments_submission_role_counts": {
-    "individual": 8
+    "government_affiliated_or_unclear": 1,
+    "individual": 7
   },
   "comments_submission_channel_counts": {
-    "public_portal": 8
+    "other_channel_recorded": 1,
+    "public_portal": 7
   },
-  "comments_public_count": 8,
-  "comments_recorded_count": 0,
+  "comments_public_count": 7,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
     "2026-05-28": 1,
-    "2026-05-27": 3,
+    "2026-05-27": 2,
     "2026-05-21": 2,
     "2026-05-19": 2
   },
-  "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 1.0,
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-05-28": 1,
+    "2026-05-21": 1
+  },
+  "comments_novel_comment_rate": 0.875,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.25,
-  "comments_sentiment_neutral_pct": 0.75,
-  "comments_sentiment_net": -0.25,
-  "comments_sentiment_sample_size": 8,
+  "comments_sentiment_negative_pct": 0.5,
+  "comments_sentiment_neutral_pct": 0.5,
+  "comments_sentiment_net": -0.5,
+  "comments_sentiment_sample_size": 6,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
@@ -22044,9 +22051,96 @@
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-06-10T02:53:40.716072+00:00",
-  "comments_checked_at": "2026-06-10T02:53:40.760339+00:00",
-  "comments_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Max retries exceeded with url: /v4/comments?filter%5BcommentOnId%5D=09000064b92dd989&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1 (Caused by NameResolutionError(\"HTTPSConnection(host='api.regulations.gov', port=443): Failed to resolve 'api.regulations.gov' ([Errno -2] Name or service not known)\")); used_stale_cache",
+  "comments_checked_at": "2026-06-11T20:50:07.334850+00:00",
+  "comments_error": null,
   "comments_clusters": [
+    {
+      "cluster_id": 1,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2009-0819-13820",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Moves to Weaken Water Pollution Rule for Coal Plants, N.Y. TIMES (May 14, 2026), https://www.nytimes.com/2026/05/14/climate/epa-coal-plants-wastewater.html; Marc Levy, Trump administration aims to roll back limits on toxic wastewater from coal-fired power plants, ASSOCIATED PRESS (May 14, 2026), https://apnews.com/article/trump-coal-wastewater-epa...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2009-0819-13820": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Earthjustice et al.",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        },
+        "EPA-HQ-OW-2009-0819-13817": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Attorneys General of Illinois, Arizona, and Maryland",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9275598066567093
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2009-0819-13815",
+      "representative_posted_date": "2026-05-21T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "EPA must weigh cross-media impacts (air emissions, GHGs) when evaluating zero...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2009-0819-13815": {
+          "organization": "",
+          "postedDate": "2026-05-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Michael Ravnitzky",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8136435784595318
+    },
     {
       "cluster_id": 3,
       "count": 1,
@@ -22081,7 +22175,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.938888888888889
+      "presentation_score": 0.6136435784595317
     },
     {
       "cluster_id": 2,
@@ -22117,10 +22211,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.938888888888889
+      "presentation_score": 0.6136435784595317
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2009-0819-13813",
@@ -22153,10 +22247,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2009-0819-13814",
@@ -22189,10 +22283,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2009-0819-13816",
@@ -22225,131 +22319,23 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4722222222222222
-    },
-    {
-      "cluster_id": 6,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OW-2009-0819-13815",
-      "representative_posted_date": "2026-05-21T04:00:00Z",
-      "representative_length": 38,
-      "representative_excerpt": "Comment submitted by Michael Ravnitzky",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OW-2009-0819-13815": {
-          "organization": "",
-          "postedDate": "2026-05-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Michael Ravnitzky",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.07222222222222222
-    },
-    {
-      "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OW-2009-0819-13817",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 73,
-      "representative_excerpt": "Comment submitted by Attorneys General of Illinois, Arizona, and Maryland",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OW-2009-0819-13817": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Attorneys General of Illinois, Arizona, and Maryland",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.1388888888888889
-    },
-    {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OW-2009-0819-13820",
-      "representative_posted_date": "2026-05-28T04:00:00Z",
-      "representative_length": 40,
-      "representative_excerpt": "Comment submitted by Earthjustice et al.",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OW-2009-0819-13820": {
-          "organization": "",
-          "postedDate": "2026-05-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Earthjustice et al.",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.15
+      "presentation_score": 0.4136435784595317
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OW-2009-0819.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 8,
+  "comments_first_page_count": 7,
   "comments_first_page_coverage_share": 1.0,
   "comments_first_page_coverage_count": 8,
-  "comments_clusters_total_available": 8,
-  "comments_clusters_displayed": 8,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_clusters_total_available": 7,
+  "comments_clusters_displayed": 7,
+  "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 6,
-    "negative": 2
+    "neutral": 4,
+    "negative": 3
   },
   "comments_first_page_unique_days": 4,
   "summary_available": true,
