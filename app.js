@@ -141,6 +141,9 @@ function escapeHtml(value) {
 }
 
 function sentimentCell(r) {
+  if (r.comment_count_supported === false) {
+    return `<div>N/A</div>`;
+  }
   const pos = Number(r.comments_sentiment_positive_pct || 0);
   const neg = Number(r.comments_sentiment_negative_pct || 0);
   const net = Number(r.comments_sentiment_net || 0);

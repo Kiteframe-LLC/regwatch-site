@@ -385,6 +385,8 @@ function detailHtml(d, summaryMd, analysisMd) {
   const commentSupported = d.comment_action_supported !== false;
   const commentIssue = d.comment_action_error || "";
   const commentReadUrl = d.comment_read_url || "";
+  const commentCountSupported = d.comment_count_supported !== false;
+  const commentCountNote = d.comment_count_note || "Comment counts and submitted-comment text are not available for this item.";
   const docUrl = `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`;
   const override = (window.__overrides && window.__overrides[docId]) || null;
   const flags = (d.pass_2_flags || []).map((f) => `<li>${esc(flagLabel(f))}</li>`).join("");
@@ -417,7 +419,9 @@ function detailHtml(d, summaryMd, analysisMd) {
     : [];
   const referencedDocumentRows = referencedDocuments.map(referencedDocumentRow).join("");
   const commentsPanelHtml =
-    window.RegwatchComments && typeof window.RegwatchComments.renderCommentsPanel === "function"
+    !commentCountSupported
+      ? `<p><em>${esc(commentCountNote)}</em></p>`
+      : window.RegwatchComments && typeof window.RegwatchComments.renderCommentsPanel === "function"
       ? window.RegwatchComments.renderCommentsPanel(
           d,
           {
@@ -465,7 +469,7 @@ function detailHtml(d, summaryMd, analysisMd) {
         <button type="button" class="tab-btn is-active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
         <button type="button" class="tab-btn ${hasSummary ? "" : "is-disabled"}" data-tab="summary" role="tab" aria-selected="false" ${hasSummary ? "" : "disabled"}>Summary</button>
         <button type="button" class="tab-btn ${hasAnalysis ? "" : "is-disabled"}" data-tab="analysis" role="tab" aria-selected="false" ${hasAnalysis ? "" : "disabled"}>Full Analysis</button>
-        <button type="button" class="tab-btn" data-tab="comments" role="tab" aria-selected="false">Comments</button>
+        <button type="button" class="tab-btn ${commentCountSupported ? "" : "is-disabled"}" data-tab="comments" role="tab" aria-selected="false" ${commentCountSupported ? "" : `disabled title="${esc(commentCountNote)}"`}>Comments</button>
         <button type="button" class="tab-btn" data-tab="attachments" role="tab" aria-selected="false">Attachments</button>
       </div>
 
@@ -694,7 +698,11 @@ async function main() {
   const bodyTab = String(document.body?.dataset?.defaultTab || "").toLowerCase();
   const defaultTab = TAB_NAMES.has(bodyTab) ? bodyTab : defaultTabFromPath();
   initTabs(defaultTab);
-  if (window.RegwatchComments && typeof window.RegwatchComments.initCommentPager === "function") {
+  if (
+    data.comment_count_supported !== false &&
+    window.RegwatchComments &&
+    typeof window.RegwatchComments.initCommentPager === "function"
+  ) {
     window.RegwatchComments.initCommentPager(data.comments_clusters || [], { esc, formatDateOnly });
   }
 }
