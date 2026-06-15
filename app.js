@@ -180,6 +180,20 @@ function sentimentCell(r) {
   return `<div>${velocity}</div><div class="velocity-sub">${plusMinus}</div><div class="review-pill ${chipClass}" title="sample ${sample}">${chipLabel}</div>`;
 }
 
+function netSentimentLabel(r) {
+  if (r.comment_count_supported === false) return "Net n/a";
+  const net = Number(r.comments_sentiment_net || 0);
+  const sample = Number(r.comments_sentiment_sample_size || 0);
+  if (sample <= 0) return "Net n/a";
+  if (Math.abs(net) < 0.03) return "Net ±0%";
+  return net > 0 ? `Net +${pct0(Math.abs(net))}` : `Net -${pct0(Math.abs(net))}`;
+}
+
+function agencyFromDocketId(docketId) {
+  const match = /^[A-Za-z]+/.exec(String(docketId || "").trim());
+  return match ? match[0].toUpperCase() : "";
+}
+
 function relativeCommentEnd(raw) {
   if (!raw) return "";
   let end;
@@ -197,6 +211,12 @@ function relativeCommentEnd(raw) {
   if (hours < 48) return "tomorrow";
   const days = Math.max(3, Math.ceil(hours / 24));
   return `${days} days`;
+}
+
+function mobileCommentsCell(r) {
+  const deadline = relativeCommentEnd(r.comment_end_date) || "unknown";
+  const velocity = velocityLabel(r.pass_3_score, r.comments_total) || "n/a";
+  return `<div>${deadline}</div><div class="velocity-sub">${velocity}</div><div class="velocity-sub">${netSentimentLabel(r)}</div>`;
 }
 
 function isCommentOpen(raw) {
@@ -311,12 +331,12 @@ function rowHtml(r, override = null) {
   ].join(" ");
   return `<tr>
     <td>${pct5(r._combined_client ?? r.combined_score)}</td>
-    <td>${r.rule_kind || "NPRM"}</td>
+    <td><span class="desktop-label">${r.rule_kind || "NPRM"}</span><span class="mobile-label">${agencyFromDocketId(docketId) || "N/A"}</span></td>
     <td>${docketId || "MISSING"}</td>
     <td class="title">${r.title || ""}</td>
     <td>${sentimentCell(r)}</td>
     <td>${bandCell}</td>
-    <td title="${r.comment_end_date || ""}">${relativeCommentEnd(r.comment_end_date)}</td>
+    <td title="${r.comment_end_date || ""}"><span class="desktop-label">${relativeCommentEnd(r.comment_end_date)}</span><span class="mobile-label">${mobileCommentsCell(r)}</span></td>
     <td class="actions">${actions}</td>
   </tr>`;
 }
