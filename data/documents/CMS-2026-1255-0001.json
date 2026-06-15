@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-13T05:29:36.492501+00:00",
+  "comment_action_checked_at": "2026-06-15T01:22:07.844567+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,19 +32,275 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.6735388884632463,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7171680289039006,
+  "combined_score": 0.864971877360814,
   "score_total": 19,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
+  "pass_4_raw": 2,
+  "pass_4_scaled": 0.24999999999999997,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 0,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 1.0,
+    "H": 0.6666666666666666,
+    "E": 0.3333333333333333
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "implementation_feasibility_risk",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The top concern is whether API reporting and usage metrics will measure real prior authorization burden reduction rather than nominal technical availability.",
+  "combined_score_pre_pass5": 0.744061829987797,
+  "pass_5_alpha": 0.65,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material concern",
+  "pass_5_scaled": 0.25,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "magic_interface_dependency",
+  "pass_5_worst_flaw_name": "Magic Interface Dependency",
+  "pass_5_material_flaw_count": 1,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal affects health care data exchange and prior authorization workflows for drugs and services, which can affect patient access to care.",
+  "pass_5_red_flag": false,
+  "pass_5_red_flag_gates": [],
+  "pass_5_concise_why": "The proposal is structurally coherent but materially dependent on API usability, endpoint accuracy, and future metrics to convert technical standards into patient and provider benefits.",
+  "pass_5_most_important_consequence": "If implementation metrics and registry governance are weak, payers may satisfy formal API duties without measurably reducing prior authorization delays or provider burden.",
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule imposes technical reporting and API obligations, but the obligations are matched to a recognized interoperability and prior authorization problem.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to keep the final rule tied to measurable burden-reduction outcomes."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The remedy is generally aligned with the stated interoperability problem, but some elements, especially future metrics and excluded markets, need clearer connection to outcomes.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to explain how each reporting and metric requirement will test the rule's claimed benefits."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "CMS acknowledges implementation risk and chooses a longer timeline, which reduces but does not eliminate feasibility concerns.",
+      "evidence": [],
+      "comment_leverage": "Ask for milestone-based readiness checks and fallback protections."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The practical success of the proposal depends on APIs, FHIR implementation guides, endpoint reporting, and usage metrics working in real workflows, not merely existing on paper.",
+      "evidence": [
+        {
+          "section": "Summary",
+          "quote_or_absence": "The notice proposes API endpoint reporting and API usage metrics, and requires certain HL7 FHIR implementation guides."
+        }
+      ],
+      "comment_leverage": "Ask CMS to require conformance testing, endpoint validation, failure-rate reporting, and maintenance duties."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice does not deny impacts; it includes a RIA and cost estimates, but some benefits remain non-quantified.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to clarify benefit measurement and outcome metrics."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Endpoint reporting and metrics are useful safeguards, but the notice leaves details of validation and maintenance to be developed.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to specify registry governance, correction procedures, and auditability."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Prior authorization delays can affect care access, but this NPRM does not create an immediate denial mechanism before review.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to include metrics that capture delays and failed transactions before patient harm occurs."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice treats interoperability benefits broadly, but does not fully classify which consequences will be measured as technical availability, transaction timeliness, burden reduction, or patient access improvement.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to map proposed metrics to each consequence category."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal is coherent as an interoperability extension, but its benefits depend on several implementation layers that should be made more auditable in the final rule.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to provide a clear implementation-to-outcome logic model."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "high_scope_exclusion_language"
@@ -1309,5 +1565,9 @@
   "comments_first_page_unique_days": 3,
   "summary_available": true,
   "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/CMS-2026-1255-0001_argument_graph.svg",
+  "archived_summary_only": false,
+  "archive_source": null,
   "route_id": "CMS-2026-1255"
 }

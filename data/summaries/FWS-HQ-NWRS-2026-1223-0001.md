@@ -1,48 +1,156 @@
+# Public Summary: FWS-HQ-NWRS-2026-1223-0001
+
 ## What This Document Does
-- Proposes the Fish and Wildlife Service's annual 2026-2027 update to station-specific hunting and sport-fishing regulations for refuges and hatcheries.
-- Would open or expand hunting or fishing opportunities on 111 field stations, including first-time openings at 14 refuges and 3 fish hatcheries.
-- Says the package would create more than 1,450 hunting and fishing opportunities across the National Wildlife Refuge System and National Fish Hatchery System.
-- Also proposes wording and consistency revisions that the Service says will improve clarity, reduce burden, and align rules across sites.
-- Separately proposes to rescind previously finalized but not yet effective non-lead ammunition and tackle requirements at nine refuges.
-- Asks for comment on whether Canaan Valley National Wildlife Refuge should instead get a refuge-wide lead-free hunting requirement, either immediately or through a phaseout.
+
+**Regulatory Action:** Open or expand hunting and sport fishing opportunities and revise station-specific regulations for the 2026-2027 season across the National Wildlife Refuge System and National Fish Hatchery System.
+
+**Affected Entities**
+- hunters and anglers
+- visitors to national wildlife refuges and national fish hatcheries
+- nearby small businesses and local communities
+- state fish and wildlife agencies
+- Tribal governments with adjoining or overlapping jurisdiction
+- refuge and hatchery managers
+- wildlife and habitat affected by hunting, fishing, ammunition, and tackle rules
+
+**Core Tradeoff:** The proposal increases recreational access and regulatory consistency while relying on station-level environmental and compatibility records to manage ecological, safety, and lead-related risks.
 
 ## Why It Matters
-- This is a large omnibus proposal combining new access, rule cleanup, and a lead-ammunition policy reversal.
-- The Service says the openings and expansions are backed by a "complete administrative record" that includes hunt plans, compatibility determinations, and NEPA analysis. Much of the real environmental reasoning sits in those underlying station files rather than in the NPRM itself.
-- The strongest comment opportunity is not a broad attack on hunting access. It is to ask the Service to show its work more clearly for the biggest station changes and for the proposed reversal of the nine non-lead rules.
-- The lead issue deserves separate attention. The notice says the Service finalized non-lead requirements at nine refuges in 2022 and 2023, that those requirements are scheduled to take effect on September 1, 2026, and that the Service now proposes to rescind them.
-- The economic discussion is also worth reading carefully. Attachment B estimates a maximum of about $2.2 million in local spending from additional use, but then says substitution effects likely reduce true net local gains to around $1.1 million.
+
+## Computed Scoring Summary
+- Pass 4 raw/scaled: 3 / 0.348
+- Pass 4 primary concern: The proposal combines broad station-specific access expansions with a thin explanation for reversing non-lead ammunition and tackle restrictions.
+- Pass 5 label/scaled: Material concern / 0.250
+- Procedural concern score: 5.400/10
+- Analysis score multiplier: 1.223
+
+- **Id:** brief_lead
+  
+  **Priority:** high
+  
+  **Worth A Comment:** high
+  
+  **Summary:** A comment focused on non-lead rescission is high leverage because the notice expressly requests comment and the rationale is thin in the available text.
+  
+  **Score Drivers**
+  - pass4.reasoned_explanation_completeness
+  - pass5.remedy_rationale_mismatch
+- **Id:** brief_record_access
+  
+  **Priority:** high
+  
+  **Worth A Comment:** high
+  
+  **Summary:** A comment asking for docket-level access to station-specific support would improve the practical ability to evaluate the proposal.
+  
+  **Score Drivers**
+  - pass4.procedural_compliance_risk
+  - pass5.structural_coherence
+- **Id:** brief_station_specific
+  
+  **Priority:** moderate
+  
+  **Worth A Comment:** depends on local interest
+  
+  **Summary:** Station-specific commenters should identify the refuge or hatchery of concern and request the local record, projected harvest, visitor-use assumptions, and compatibility analysis.
+  
+  **Score Drivers**
+  - pass4.data_quality_uncertainty_handling
 
 ## Who Is Affected
-- Hunters and anglers who use or may want to use refuges and fish hatcheries covered by the proposed station changes.
-- Nearby communities and businesses around stations with increases in hunting or fishing use.
-- Conservation groups, wildlife advocates, and people concerned about habitat impacts, compatibility findings, and cumulative effects.
-- Commenters focused on lead-ammunition policy, especially at the nine refuges where non-lead rules would be rescinded and at Canaan Valley NWR, where the Service is explicitly asking about a lead-free requirement.
+
+- hunters and anglers
+- visitors to national wildlife refuges and national fish hatcheries
+- nearby small businesses and local communities
+- state fish and wildlife agencies
+- Tribal governments with adjoining or overlapping jurisdiction
+- refuge and hatchery managers
+- wildlife and habitat affected by hunting, fishing, ammunition, and tackle rules
 
 ## Issues Worth Commenting On (0-6)
-1. Issue: The public-facing NPRM only partly summarizes the station-level compatibility and NEPA record
-   - Why it matters: The supporting station files may still be hard for ordinary commenters to use for the largest or most sensitive expansions.
-   - Practical question a commenter can ask: Can the Service publish or clearly index the key compatibility determinations, hunt-plan findings, and NEPA conclusions for the stations with the biggest proposed changes?
 
-2. Issue: The rationale for rescinding the nine non-lead rules is thin in the NPRM itself
-   - Why it matters: The notice proposes to undo prior finalized decisions before they take effect, but the public-facing explanation is limited.
-   - Practical question a commenter can ask: What changed since the 2022 and 2023 final rules that now justifies rescinding the not-yet-effective non-lead requirements?
-
-3. Issue: Clerical and plain-language edits may be hard to distinguish from substantive station-level changes
-   - Why it matters: In a package this large, readers can miss real access or equipment-rule changes if they are mixed with wording cleanups.
-   - Practical question a commenter can ask: Can the Service provide a clearer station-by-station label showing which changes are purely stylistic and which actually change public use rules?
-
-4. Issue: The economic and small-entity analysis uses broad substitution assumptions
-   - Why it matters: The RFA attachment says much of the added use will substitute for activity elsewhere and therefore produce limited net local gains, but that may not fit every area equally well.
-   - Practical question a commenter can ask: Can the Service provide more localized analysis or sensitivity testing for stations with especially large projected increases in hunting or fishing days?
-
-5. Issue: The Canaan Valley lead question needs clearer decision criteria
-   - Why it matters: The notice invites comments on immediate versus phased lead-free hunting at that refuge, but it does not clearly explain what evidence will matter most.
-   - Practical question a commenter can ask: What factors will the Service use to decide between no lead-free rule, an immediate requirement, or a phased approach at Canaan Valley?
+- **Id:** lead_rescission_explanation
+  
+  **Priority:** high
+  
+  **Issue:** Ask FWS to explain why previously finalized non-lead restrictions should be rescinded rather than retained, phased, or adjusted refuge by refuge.
+  
+  **Why It Matters:** A final rule reversing prior requirements needs a clear rationale that addresses wildlife impacts, visitor compliance, reliance on prior findings, and alternatives.
+  
+  **Practical Question:** For each listed refuge, what evidence supports rescission of the delayed non-lead ammunition or tackle requirement?
+  
+  **Score Drivers**
+  - pass4.reasoned_explanation_completeness
+  - pass5.remedy_rationale_mismatch
+- **Id:** record_access
+  
+  **Priority:** high
+  
+  **Issue:** Ask FWS to place the station-level hunt plans, compatibility determinations, NEPA documents, and section 7 reviews in or directly linked from the docket.
+  
+  **Why It Matters:** The proposal depends on those materials, and commenters need them to evaluate refuge-specific openings and expansions.
+  
+  **Practical Question:** Can the docket include a table with links to the supporting record for every affected station and regulatory provision?
+  
+  **Score Drivers**
+  - pass4.procedural_compliance_risk
+  - pass5.structural_coherence
+- **Id:** cumulative_impacts
+  
+  **Priority:** moderate
+  
+  **Issue:** Ask FWS to show how cumulative harvest and lead-related effects were evaluated for the stations with the largest changes.
+  
+  **Why It Matters:** The rule is national in scope but implemented locally, so localized impacts can be hidden by aggregated conclusions.
+  
+  **Practical Question:** Which stations drive the highest projected changes in harvest, visitor days, lead exposure, or enforcement burden?
+  
+  **Score Drivers**
+  - pass4.data_quality_uncertainty_handling
+  - pass5.externality_dumping
+- **Id:** local_economics
+  
+  **Priority:** moderate
+  
+  **Issue:** Ask FWS to test whether the RFA conclusion changes for communities near stations with large projected hunting or fishing day increases.
+  
+  **Why It Matters:** The RFA analysis is useful, but national totals may not answer local concentration questions.
+  
+  **Practical Question:** What are the projected effects for counties or sectors around the top ten stations by additional visitor days?
+  
+  **Score Drivers**
+  - pass4.cost_benefit_transparency
+  - pass4.distributional_omission_risk
 
 ## Evidence Quotes
-- "The proposed actions will open or expand more than 1,450 opportunities for hunting and fishing across the NWRS and NFHS."
-- "The changes for the 2026-2027 season are based on a complete administrative record, which includes a hunt plan, a compatibility determination (for refuges), the appropriate National Environmental Policy Act (NEPA) analysis, and other documents."
-- "The Service proposes in the current rulemaking to rescind these regulations and invites the public to comment on the proposed changes."
-- "The Service is seeking public comment on whether or not the Service should promulgate a lead-free requirement for hunting on the entire Canaan Valley NWR, with immediate or delayed effect (i.e., a phase out)."
-- "The Attachment B analysis details that the maximum estimate for the potential impact of added hunter and angler spending on local economies is approximately $2.2 million annually ..."
+
+- **Section:** NEPA
+  
+  **Quote:** Copies of all plans and NEPA compliance are available from the stations at the addresses provided below.
+- **Section:** Special Topics in This Rulemaking Related to Lead Use
+  
+  **Quote:** The Service proposes in the current rulemaking to rescind these regulations and invites the public to comment on the proposed changes.
+- **Section:** Special Topics in This Rulemaking Related to Lead Use
+  
+  **Quote:** The Service is seeking public comment on whether or not the Service should promulgate a lead-free requirement for hunting on the entire Canaan Valley NWR, with immediate or delayed effect.
+- **Section:** Attachment B
+  
+  **Quote:** The net gain to the local economies will be no more than $2.2 million and likely less.
+- **Section:** Cumulative Impacts Report
+  
+  **Quote:** For some stations, the projected harvest after the proposed action is implemented results in no, or minimal, additional harvest.
+- **Section:** Attachment A
+  
+  **Quote:** The Service distinguishes openings from expansions based on whether or not a new species is added.
+- **Section:** Regulatory Flexibility Act
+  
+  **Quote:** it is unlikely that a substantial number of small entities will have more than a small impact
+- **Section:** Required Determinations
+  
+  **Quote:** The notice does not identify a discrete environmental justice or subsistence-use analysis in the available text.
+- **Section:** Proposed Regulation Summary Table
+  
+  **Quote:** a separate document containing a table that provides additional clarity on which specific regulatory provisions have been amended and how they have been amended
+- **Section:** Cumulative Impacts Report
+  
+  **Quote:** The Service uses an adaptive management approach for its hunting and fishing programs, reviewing the station programs annually with relevant information from monitoring and relevant data.

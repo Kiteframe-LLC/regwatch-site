@@ -32,22 +32,382 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6950299297282009,
+  "combined_score": 0.7574010857355263,
   "score_total": 18,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 3,
-  "pass_4_scaled": 0.3,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_raw": 7,
+  "pass_4_scaled": 0.7083333333333334,
+  "pass_4_axes": {
+    "statutory_authority_fit": 2,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 2,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 2,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 2,
+    "distributional_omission_risk": 2,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 1.0,
+    "A": 2.0,
+    "H": 1.0,
+    "E": 1.6666666666666667
+  },
   "pass_4_signals": [
-    "apa_arbitrary_capricious_risk",
-    "decision_brief_high"
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "federalism_preemption_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
   ],
-  "pass_4_primary_concern": null,
+  "pass_4_primary_concern": "USPS proposes to make outbound federal ballot-mail acceptance depend on voter-linked barcode list infrastructure without providing enough authority, privacy, cost, reliability, and contingency analysis.",
+  "combined_score_pre_pass5": 0.45903096105183416,
+  "pass_5_alpha": 0.65,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Structural nonsense / red flag",
+  "pass_5_scaled": 1.0,
+  "pass_5_worst_flaw_severity": 4,
+  "pass_5_worst_flaw_key": "procedural_gateway_control",
+  "pass_5_worst_flaw_name": "Procedural Gateway Control",
+  "pass_5_material_flaw_count": 20,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal affects federal ballot mail, voter-linked ballot-mail metadata, and operational conditions for mailing ballots in federal elections.",
+  "pass_5_red_flag": true,
+  "pass_5_red_flag_gates": [
+    "Severe Defect Plus Interaction Density",
+    "Harm Before Review Plus Structural Lever",
+    "Accountability Capture",
+    "Rights or Sovereignty Burden Without Substantiated Need",
+    "Instrumental Disruption in High-Stakes Domain",
+    "Conversion Surface Before Constraint",
+    "Ambiguity-Enabled Harmful Finalization"
+  ],
+  "pass_5_concise_why": "The proposal turns mail visibility and barcode tools into a voter-linked data and acceptance-gateway system without enough authority, privacy, implementation, or reliability support.",
+  "pass_5_most_important_consequence": "Outbound ballot mail could be delayed or refused because of portal, list, barcode, or certification errors before election officials or voters have practical remedies.",
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 3,
+      "explanation": "The rule relies on postal mail authority to create a voter-linked ballot-mail data system whose stated purpose includes election-law enforcement.",
+      "evidence": [
+        {
+          "section": "Legal Authority and Rationale",
+          "quote_or_absence": "The proposed standards can provide information regarding the sending of ballots through the mails that would be available for use by law enforcement."
+        }
+      ],
+      "comment_leverage": "Ask USPS to identify the specific authority for each voter-linked data element and acceptance consequence."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The proposal says states remain responsible for voter eligibility, but federal postal acceptance rules may practically affect state ballot distribution.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.5.3",
+          "quote_or_absence": "Mailings that do not comply with 24.5.1 and 24.5.2 will not be accepted and will be returned."
+        }
+      ],
+      "comment_leverage": "Ask USPS to explain how acceptance rejection interacts with state election deadlines and lawful emergency or replacement ballot procedures."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "States and local mailers would bear consequences for list or portal errors, while key USPS system specifications and review timelines are not yet in the record.",
+      "evidence": [
+        {
+          "section": "Ensuring Compliance With New Standards",
+          "quote_or_absence": "USPS intends to provide further technical instructions after or alongside finalization."
+        }
+      ],
+      "comment_leverage": "Request service-level commitments, audit logs, and USPS accountability for portal outages or acceptance-review delays."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal includes state certification and USPS review, but the review design is not detailed enough to evaluate independence or error handling.",
+      "evidence": [],
+      "comment_leverage": "Ask for clear validation standards and independent error-resolution procedures."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 3,
+      "explanation": "The rule would impose data, certification, and verification gates before outbound ballot mail is accepted, placing procedural constraints before ballot distribution.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.5.1",
+          "quote_or_absence": "USPS will review mailings identified as Outbound Federal Ballot Mail prior to acceptance."
+        }
+      ],
+      "comment_leverage": "Ask USPS to adopt emergency bypasses and post-hoc reconciliation instead of pre-acceptance rejection for time-sensitive ballot mail."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The record asserts law-enforcement and fraud-detection value but does not provide evidence sufficient to justify voter-level barcode association and centralized lists.",
+      "evidence": [
+        {
+          "section": "Step 11",
+          "quote_or_absence": "The available record does not provide empirical evidence of fraud risk, scan completeness, false-positive rates, or expected enforcement value."
+        }
+      ],
+      "comment_leverage": "Ask USPS to quantify expected benefits and explain why aggregate or less intrusive reporting would not suffice."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The remedy is a broad ballot-mail acceptance and data system, while the rationale is a general concern about election integrity and mail visibility.",
+      "evidence": [
+        {
+          "section": "Background and Proposed Rule",
+          "quote_or_absence": "The Executive Order rationale is general, while the proposed DMM text requires names, addresses, outbound IMbs, and return IMbs."
+        }
+      ],
+      "comment_leverage": "Ask USPS to connect each requirement to a specific operational problem and evaluate narrower remedies."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The proposal assumes diverse election offices and vendors can implement a new federal portal, barcode, certification, and acceptance workflow without a visible implementation plan.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.4.2",
+          "quote_or_absence": "Ballot Portal Users must provide information through the Postal Service Federal Ballot Mail Portal."
+        }
+      ],
+      "comment_leverage": "Ask for pilots, phased dates, technical support commitments, and documented readiness testing."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposed Federal Ballot Mail Portal is central to compliance, but its specifications, outage handling, permissions, validation, and audit features are not included.",
+      "evidence": [
+        {
+          "section": "Ensuring Compliance With New Standards",
+          "quote_or_absence": "The notice says further technical instructions for entry of data into the proposed portal will be provided later."
+        }
+      ],
+      "comment_leverage": "Ask USPS to publish portal specifications and reopen comment if those specifications materially affect compliance."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The NPRM invokes fraud risk and federal-law enforcement without defining the specific threat model, baseline rate, or causal link to the selected controls.",
+      "evidence": [
+        {
+          "section": "Background",
+          "quote_or_absence": "The notice refers generally to reducing the risk of fraud and protecting election integrity."
+        }
+      ],
+      "comment_leverage": "Ask USPS to identify the specific fraud or compliance risks the rule is designed to detect or prevent."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The notice says the rule does not alter voter eligibility, but does not fully account for ballot-mail delay, rejection, or administrative burden effects.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.6",
+          "quote_or_absence": "The Postal Service does not purport to alter the eligibility of any individual to vote under state or federal law."
+        }
+      ],
+      "comment_leverage": "Ask USPS to analyze access and timing impacts even if eligibility rules remain formally unchanged."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The proposal creates voter-linked outbound and return ballot-mail metadata that could be misused or overinterpreted without clear limits.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.4.2",
+          "quote_or_absence": "Required fields include voter name, address, outbound barcode, and return barcode."
+        }
+      ],
+      "comment_leverage": "Ask for retention limits, access restrictions, audit requirements, and limits on secondary law-enforcement uses."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "Core safeguards are deferred: the SORN, technical specifications, correction procedures, and emergency exceptions are not in the NPRM.",
+      "evidence": [
+        {
+          "section": "Ensuring Compliance With New Standards",
+          "quote_or_absence": "Notice regarding the new SORN is forthcoming."
+        }
+      ],
+      "comment_leverage": "Ask USPS to publish safeguards before finalization or reopen comment after the SORN and technical instructions are available."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule shifts operational burdens and deadline risks to election officials and authorized mailers without quantifying those burdens.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.3.3",
+          "quote_or_absence": "Authorized ballot mailers are responsible for barcode creation under 24.3.1 and 24.3.2 as well as envelope design and printing."
+        }
+      ],
+      "comment_leverage": "Ask USPS to quantify costs and identify funding, technical assistance, and burden-reduction measures."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The proposal uses list and scan comparisons to flag potential issues for law enforcement, but does not address false positives or lawful reasons for discrepancies.",
+      "evidence": [
+        {
+          "section": "Mail-In and Absentee Participation List",
+          "quote_or_absence": "USPS says the lists allow law enforcement officials to compare mailed and received ballots to detect potential issues meriting further investigation."
+        }
+      ],
+      "comment_leverage": "Ask USPS to define discrepancy categories, false-positive safeguards, and rules against treating data mismatches as wrongdoing without context."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The record does not describe auditability, data correction, access logs, or public reporting for a system that may affect ballot-mail acceptance.",
+      "evidence": [
+        {
+          "section": "Available record",
+          "quote_or_absence": "The available record does not describe audit logs, correction rights, retention periods, access controls, or public performance reporting."
+        }
+      ],
+      "comment_leverage": "Ask USPS to publish audit and accountability controls as part of the final rule record."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 3,
+      "explanation": "If a mailing is rejected near a deadline, the harm from delayed outbound ballots may occur before further review can meaningfully fix it.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.5.3",
+          "quote_or_absence": "The authorized ballot mailer or Ballot Portal User must address the error(s) before resubmitting the mailing."
+        }
+      ],
+      "comment_leverage": "Ask for immediate escalation, provisional acceptance, and post-hoc reconciliation for time-sensitive election mail."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 4,
+      "explanation": "The proposal creates a USPS-controlled procedural gateway for outbound federal ballot mail through portal enrollment, certification, list matching, and acceptance verification.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.5.1",
+          "quote_or_absence": "USPS will review mailings prior to acceptance to evaluate whether the mailing meets standards and is being sent to enrolled individuals."
+        }
+      ],
+      "comment_leverage": "Ask USPS to justify pre-acceptance gatekeeping and compare less disruptive post-acceptance or post-hoc audit models."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The rule does not clearly distinguish technical noncompliance, suspected fraud, lawful ballot replacement, and administrative mismatch consequences.",
+      "evidence": [
+        {
+          "section": "DMM 705.24.5.3",
+          "quote_or_absence": "Mailings that do not comply will not be accepted and will be returned, but the notice does not specify consequence categories for different error types."
+        }
+      ],
+      "comment_leverage": "Ask USPS to define error classes, cure procedures, and law-enforcement referral thresholds."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 3,
+      "explanation": "Key technical standards are forthcoming, so future nonpublic or late-published requirements may control access to ballot-mail acceptance.",
+      "evidence": [
+        {
+          "section": "Ensuring Compliance With New Standards",
+          "quote_or_absence": "USPS intends to provide further technical instructions regarding barcode creation, service type identifiers, acceptance processes, file preparation, documentation submission, and entry of data."
+        }
+      ],
+      "comment_leverage": "Ask USPS to place all gatekeeping standards in the rule or incorporated public specifications subject to comment."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The structure is coherent as a control system but poorly balanced: high-stakes pre-acceptance consequences are paired with deferred safeguards and limited evidence.",
+      "evidence": [
+        {
+          "section": "Step 13A",
+          "quote_or_absence": "The proposal couples voter-level data collection, acceptance refusal, and law-enforcement rationale without sufficient safeguards or evidence."
+        }
+      ],
+      "comment_leverage": "Ask USPS to restructure the rule around visibility, assistance, and reconciliation rather than rejection unless and until safeguards are proven."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": true,
+    "instrumental_disruption": true,
+    "ambiguity_as_mechanism": true,
+    "conversion_surface": {
+      "present": true,
+      "source_surface": "Election-mail visibility and mailpiece preparation practices",
+      "converted_surface": "Federal ballot-mail acceptance gateway and voter-linked barcode data system",
+      "authority_used": "39 U.S.C. 401 and 404 plus Executive Order 14399 election-integrity rationale",
+      "new_control_point": "USPS pre-acceptance verification against Federal Ballot Mail Portal list data",
+      "affected_constraint": "Voting access and state election administration timing through ballot-mail distribution",
+      "harm_before_review_pathway": "Nonmatching or noncompliant outbound ballot mail is returned before acceptance and must be corrected before remailing"
+    }
+  },
   "pass_2_flags": [
     "high_obligation_low_evidence_language",
     "missing_alternative_procedural_signal",
@@ -132,5 +492,9 @@
   "comments_first_page_unique_days": 0,
   "summary_available": true,
   "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/USPS-2026-1289-0001_argument_graph.svg",
+  "archived_summary_only": false,
+  "archive_source": null,
   "route_id": "USPS-2026-1289"
 }

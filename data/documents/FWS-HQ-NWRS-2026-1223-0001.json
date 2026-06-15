@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-13T05:29:36.058569+00:00",
+  "comment_action_checked_at": "2026-06-15T01:22:07.657717+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,22 +32,287 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.9998881150241444,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8944488514351118,
+  "combined_score": 1.0,
   "score_total": 11,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 4,
-  "pass_4_scaled": 0.4,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_raw": 3,
+  "pass_4_scaled": 0.34791666666666665,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 1,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 0,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 1.2,
+    "H": 0.6666666666666666,
+    "E": 0.6666666666666666
+  },
   "pass_4_signals": [
-    "distributional_harm",
-    "reversal_or_reinterpretation"
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "environmental_justice_analysis_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness"
   ],
-  "pass_4_primary_concern": null,
+  "pass_4_primary_concern": "The proposal combines broad station-specific access expansions with a thin explanation for reversing non-lead ammunition and tackle restrictions.",
+  "combined_score_pre_pass5": 0.8878565102541336,
+  "pass_5_alpha": 0.65,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material concern",
+  "pass_5_scaled": 0.25,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
+  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
+  "pass_5_material_flaw_count": 3,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "",
+  "pass_5_red_flag": false,
+  "pass_5_red_flag_gates": [],
+  "pass_5_concise_why": "The proposal is legally ordinary but structurally strained by the breadth of station-specific changes and a weakly explained lead-restriction reversal.",
+  "pass_5_most_important_consequence": "Commenters may have difficulty testing whether each local opening, expansion, or lead-policy reversal is supported by the relevant station-level record.",
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The access expansion is supported by recurring refuge-program authorities, but the reversal of finalized non-lead restrictions is not matched with a detailed replacement rationale in the available text.",
+      "evidence": [
+        {
+          "section": "Special Topics in This Rulemaking Related to Lead Use",
+          "quote_or_absence": "The notice says the Service proposes to rescind non-lead requirements, but the available text gives little station-specific rationale for the reversal."
+        }
+      ],
+      "comment_leverage": "Ask the Service to explain, refuge by refuge, why rescission is compatible with wildlife, visitor safety, and prior findings."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule acknowledges ecological and economic impact categories, but often resolves them at a high level rather than displaying the underlying station-by-station record in the main notice.",
+      "evidence": [],
+      "comment_leverage": "Ask for a clearer station-level bridge between projected use changes, harvest effects, and compatibility findings."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Potential wildlife, habitat, and public-health externalities from lead ammunition or tackle are relevant because the proposal reverses non-lead restrictions at several refuges.",
+      "evidence": [
+        {
+          "section": "Cumulative Impacts Report",
+          "quote_or_absence": "The report considers cumulative impacts from lead ammunition or sport fishing tackle, while the proposal would reverse lead-related restrictions at multiple stations."
+        }
+      ],
+      "comment_leverage": "Ask the Service to compare the expected external costs of rescission against the claimed consistency and burden-reduction benefits."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal is broadly coherent as an annual refuge-system access rule, but it bundles many local amendments and a lead-policy reversal into one national action, making the evidence chain hard to audit.",
+      "evidence": [
+        {
+          "section": "Notice and supporting materials",
+          "quote_or_absence": "The proposal relies on station-level plans, compatibility determinations, and NEPA documents that are described as available from stations rather than fully reproduced in the main notice text."
+        }
+      ],
+      "comment_leverage": "Ask for clearer crosswalks from each substantive regulatory change to the corresponding hunt plan, compatibility determination, NEPA document, and section 7 review."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "facility_impacts_without_representative_facility",
     "high_scope_exclusion_language",
@@ -1250,5 +1515,9 @@
   "comments_first_page_unique_days": 2,
   "summary_available": true,
   "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/FWS-HQ-NWRS-2026-1223-0001_argument_graph.svg",
+  "archived_summary_only": false,
+  "archive_source": null,
   "route_id": "FWS-HQ-NWRS-2026-1223"
 }

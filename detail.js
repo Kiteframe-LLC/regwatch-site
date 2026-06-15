@@ -6,7 +6,7 @@ function esc(value) {
     .replaceAll(">", "&gt;");
 }
 
-const TAB_NAMES = new Set(["overview", "summary", "analysis", "comments", "attachments"]);
+const TAB_NAMES = new Set(["overview", "summary", "analysis", "reasoning", "comments", "attachments"]);
 
 function tabFromHash() {
   const raw = (window.location.hash || "").replace(/^#/, "").trim().toLowerCase();
@@ -106,6 +106,88 @@ function pass4AxisLabel(axis) {
     evidence_enforcement_feasibility: "Evidence Enforcement Feasibility",
   };
   return map[axis] || axis;
+}
+
+function presentAbsent(value) {
+  return value ? "present" : "absent";
+}
+
+function renderPass5FailureModes(modes) {
+  const fm = modes && typeof modes === "object" ? modes : {};
+  const conversion = fm.conversion_surface && typeof fm.conversion_surface === "object"
+    ? fm.conversion_surface
+    : {};
+  const conversionText = conversion.present
+    ? `present: ${esc(conversion.source_surface || "")} -> ${esc(conversion.converted_surface || "")}`
+    : "absent";
+  return `<ul>
+    <li>incompetence / administrative incoherence: ${esc(presentAbsent(fm.incompetence_administrative_incoherence))}</li>
+    <li>instrumental disruption: ${esc(presentAbsent(fm.instrumental_disruption))}</li>
+    <li>conversion surface: ${conversionText}</li>
+    <li>ambiguity as mechanism: ${esc(presentAbsent(fm.ambiguity_as_mechanism))}</li>
+  </ul>`;
+}
+
+function renderPass5FlawTable(flaws) {
+  const material = (Array.isArray(flaws) ? flaws : [])
+    .filter((flaw) => Number(flaw.severity || 0) >= 2);
+  if (!material.length) return "<p>No material structural-integrity flaws recorded.</p>";
+  const rows = material.map((flaw) => {
+    const evidence = Array.isArray(flaw.evidence)
+      ? flaw.evidence.map((ev) => `${ev.section || ""}: ${ev.quote_or_absence || ""}`).join(" ")
+      : "";
+    return `<tr>
+      <td>${esc(flaw.flaw_name || flaw.flaw_key || "")}</td>
+      <td>${esc(flaw.severity)}</td>
+      <td>${esc(flaw.explanation || "")}</td>
+      <td>${esc(evidence)}</td>
+      <td>${esc(flaw.comment_leverage || "")}</td>
+    </tr>`;
+  }).join("");
+  return `<div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Flaw</th>
+          <th>Severity</th>
+          <th>Explanation</th>
+          <th>Evidence</th>
+          <th>Comment leverage</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+function renderPass5Section(d) {
+  if (d.pass_5_applicable !== true && !d.pass_5_label) return "";
+  const gateText = Array.isArray(d.pass_5_red_flag_gates) && d.pass_5_red_flag_gates.length
+    ? d.pass_5_red_flag_gates.join("; ")
+    : "none";
+  const highStakes = d.pass_5_high_stakes_domain
+    ? `yes - ${d.pass_5_high_stakes_domain_reason || ""}`
+    : "no";
+  const label = d.pass_5_label || "Reviewed; no structural-integrity concern scored";
+  const scaled = Number(d.pass_5_scaled);
+  const scaledText = Number.isFinite(scaled) ? ` (scaled ${formatPct(scaled)})` : "";
+  return `<h3>Structural Integrity</h3>
+    <p><strong>Pass 5 Structural Integrity:</strong> ${esc(label)}${scaledText}</p>
+    ${d.pass_5_concise_why ? `<p><strong>Why:</strong> ${esc(d.pass_5_concise_why)}</p>` : ""}
+    <p><strong>Worst defect:</strong> ${esc(d.pass_5_worst_flaw_name || d.pass_5_worst_flaw_key || "")}
+       ${esc(d.pass_5_worst_flaw_severity ?? "")}</p>
+    <p><strong>Material flaw count:</strong> ${esc(d.pass_5_material_flaw_count ?? "")}</p>
+    <p><strong>High-stakes domain:</strong> ${esc(highStakes)}</p>
+    <p><strong>Red-flag gate:</strong> ${esc(gateText)}</p>
+    ${
+      d.pass_5_most_important_consequence
+        ? `<p><strong>Most important consequence:</strong> ${esc(d.pass_5_most_important_consequence)}</p>`
+        : ""
+    }
+    <h4>Failure Mode Classification</h4>
+    ${renderPass5FailureModes(d.pass_5_failure_modes)}
+    <h4>Material Flaws</h4>
+    ${renderPass5FlawTable(d.pass_5_flaws)}`;
 }
 
 function attachmentRow(doc) {
@@ -375,7 +457,21 @@ function aiDisclaimerHtml() {
   return `<div class="ai-disclaimer"><strong>AI-generated summary:</strong> This material is produced by automated analysis and may be incomplete or wrong. It is informational only, not legal advice. Verify key claims against the source record and use independent judgment before commenting.</div>`;
 }
 
-function detailHtml(d, summaryMd, analysisMd) {
+function renderArgumentGraph(d, graphSvg) {
+  if (!d.argument_graph_available || !graphSvg) {
+    return "<p>No agency reasoning graph is available for this document.</p>";
+  }
+  const svg = graphSvg
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
+    .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "");
+  return `<div class="argument-graph-shell" tabindex="0" aria-label="Agency reasoning graph scroll area">
+    <div class="argument-graph-canvas">${svg}</div>
+  </div>
+  <p class="graph-caption">Generated from the canonical report handoff's structured argument tree.</p>`;
+}
+
+function detailHtml(d, summaryMd, analysisMd, graphSvg) {
   const docId = d.document_id || "";
   const subjectId = d.subject_document_id || d.summary_source_document_id || docId;
   const scoreSourceId = d.score_source_document_id || docId;
@@ -446,8 +542,10 @@ function detailHtml(d, summaryMd, analysisMd) {
       : "<p>No comment renderer available.</p>";
   const hasSummary = Boolean(d.summary_available && summaryMd);
   const hasAnalysis = Boolean(d.raw_summary_available && analysisMd);
+  const hasArgumentGraph = Boolean(d.argument_graph_available && graphSvg);
   const summaryBody = `${renderMarkdown(summaryMd)}${aiDisclaimerHtml()}`;
   const analysisBody = `${renderMarkdown(analysisMd)}${aiDisclaimerHtml()}`;
+  const reasoningBody = renderArgumentGraph(d, graphSvg);
 
   return `
     <section class="card">
@@ -469,6 +567,7 @@ function detailHtml(d, summaryMd, analysisMd) {
         <button type="button" class="tab-btn is-active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
         <button type="button" class="tab-btn ${hasSummary ? "" : "is-disabled"}" data-tab="summary" role="tab" aria-selected="false" ${hasSummary ? "" : "disabled"}>Summary</button>
         <button type="button" class="tab-btn ${hasAnalysis ? "" : "is-disabled"}" data-tab="analysis" role="tab" aria-selected="false" ${hasAnalysis ? "" : "disabled"}>Full Analysis</button>
+        <button type="button" class="tab-btn ${hasArgumentGraph ? "" : "is-disabled"}" data-tab="reasoning" role="tab" aria-selected="false" ${hasArgumentGraph ? "" : "disabled"}>Reasoning Graph</button>
         <button type="button" class="tab-btn ${commentCountSupported ? "" : "is-disabled"}" data-tab="comments" role="tab" aria-selected="false" ${commentCountSupported ? "" : `disabled title="${esc(commentCountNote)}"`}>Comments</button>
         <button type="button" class="tab-btn" data-tab="attachments" role="tab" aria-selected="false">Attachments</button>
       </div>
@@ -506,6 +605,7 @@ function detailHtml(d, summaryMd, analysisMd) {
                }`
             : ""
         }
+        ${renderPass5Section(d)}
         ${
           override
             ? `<p><strong>Reviewed Significance:</strong> ${esc(override.display_band || "")}
@@ -555,6 +655,10 @@ function detailHtml(d, summaryMd, analysisMd) {
 
       <div class="tab-panel markdown-body" data-panel="analysis" role="tabpanel">
         ${analysisBody}
+      </div>
+
+      <div class="tab-panel reasoning-panel" data-panel="reasoning" role="tabpanel">
+        ${reasoningBody}
       </div>
 
       <div class="tab-panel" data-panel="comments" role="tabpanel">
@@ -684,17 +788,22 @@ async function main() {
     return;
   }
   const data = await res.json();
-  const [summaryRes, analysisRes] = await Promise.all([
+  const graphPath = String(data.argument_graph_path || "");
+  const [summaryRes, analysisRes, graphRes] = await Promise.all([
     data.summary_available
       ? fetch(`/data/summaries/${encodeURIComponent(routeId)}.md`, { cache: "no-store" })
       : Promise.resolve(null),
     data.raw_summary_available
       ? fetch(`/data/summaries_raw/${encodeURIComponent(routeId)}.md`, { cache: "no-store" })
       : Promise.resolve(null),
+    data.argument_graph_available && graphPath
+      ? fetch(graphPath, { cache: "no-store" })
+      : Promise.resolve(null),
   ]);
   const summaryMd = summaryRes && summaryRes.ok ? await summaryRes.text() : "";
   const analysisMd = analysisRes && analysisRes.ok ? await analysisRes.text() : "";
-  root.innerHTML = detailHtml(data, summaryMd, analysisMd);
+  const graphSvg = graphRes && graphRes.ok ? await graphRes.text() : "";
+  root.innerHTML = detailHtml(data, summaryMd, analysisMd, graphSvg);
   const bodyTab = String(document.body?.dataset?.defaultTab || "").toLowerCase();
   const defaultTab = TAB_NAMES.has(bodyTab) ? bodyTab : defaultTabFromPath();
   initTabs(defaultTab);

@@ -7,6 +7,8 @@ const COMBINED_WEIGHT_PASS2 = 0.20;
 const COMBINED_WEIGHT_PASS3 = 0.50;
 const PASS3_FRESHNESS_BOOST = 0.5;
 const PASS3_DEADLINE_RAMP_MAX = 3.0;
+const PASS4_ALPHA_DEFAULT = 0.15;
+const PASS5_ALPHA_DEFAULT = 0.65;
 
 async function loadData() {
   const res = await fetch("./data/rules.json", { cache: "no-store" });
@@ -115,7 +117,18 @@ function combinedScoreClient(record) {
       (COMBINED_WEIGHT_PASS2 * p2s) +
       (COMBINED_WEIGHT_PASS3 * p3s)) / wsum;
   const mult = Number(record.ranking_multiplier || 1);
-  return combinedRaw * (Number.isFinite(mult) ? mult : 1);
+  let combined = combinedRaw * (Number.isFinite(mult) ? mult : 1);
+  const pass4Scaled = Number(record.pass_4_scaled);
+  if (Number.isFinite(pass4Scaled) && pass4Scaled > 0) {
+    const pass4Alpha = Number(record.pass_4_alpha || PASS4_ALPHA_DEFAULT);
+    combined *= 1 + Math.max(0, pass4Alpha) * Math.min(1, pass4Scaled);
+  }
+  const pass5Scaled = Number(record.pass_5_scaled);
+  if (Number.isFinite(pass5Scaled) && pass5Scaled > 0) {
+    const pass5Alpha = Number(record.pass_5_alpha || PASS5_ALPHA_DEFAULT);
+    combined *= 1 + Math.max(0, pass5Alpha) * Math.min(1, pass5Scaled);
+  }
+  return Math.min(1, combined);
 }
 
 function pct0(value) {
@@ -262,13 +275,23 @@ function rowHtml(r, override = null) {
   const note = override?.note || "";
   const structuralBand = structuralBandLabel(r.pass_2_risk_band);
   const primaryConcern = String(r.pass_4_primary_concern || "").trim();
+  const pass5Label = String(r.pass_5_label || "").trim();
+  const pass5Why = String(r.pass_5_concise_why || "").trim();
+  const pass5Applicable = r.pass_5_applicable === true;
+  const pass5Display = pass5Label || (pass5Applicable ? "Reviewed; no score impact" : "");
+  const pass5Scaled = Number(r.pass_5_scaled);
+  const pass5ScoreText = Number.isFinite(pass5Scaled) ? ` (${pct5(pass5Scaled)})` : "";
+  const pass5Note = pass5Display
+    ? `<div class="band-note"><strong>Structural integrity:</strong> ${escapeHtml(pass5Display)}${pass5ScoreText}${pass5Why ? ` - ${escapeHtml(pass5Why)}` : ""}</div>`
+    : "";
   const bandCell = displayBand
     ? `<div class="band-primary">${displayBand}</div>
        <div class="band-secondary">Structural: ${structuralBand}</div>
        ${primaryConcern ? `<div class="band-note"><strong>Primary concern:</strong> ${escapeHtml(primaryConcern)}</div>` : ""}
+       ${pass5Note}
        ${reviewStatus ? `<div class="review-pill">${reviewStatus}</div>` : ""}
        ${note ? `<div class="band-note">${note}</div>` : ""}`
-    : `<div>${structuralBand}</div>${primaryConcern ? `<div class="band-note"><strong>Primary concern:</strong> ${escapeHtml(primaryConcern)}</div>` : ""}`;
+    : `<div>${structuralBand}</div>${primaryConcern ? `<div class="band-note"><strong>Primary concern:</strong> ${escapeHtml(primaryConcern)}</div>` : ""}${pass5Note}`;
   const actions = [
     detailUrl
       ? `<a class="action-btn" href="${detailUrl}">Detail</a>`

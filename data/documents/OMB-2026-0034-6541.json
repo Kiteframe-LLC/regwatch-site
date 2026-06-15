@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-13T05:29:36.329422+00:00",
+  "comment_action_checked_at": "2026-06-15T01:22:07.795458+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,21 +32,306 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 1.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7891703840000077,
+  "combined_score": 1.0,
   "score_total": 8,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 1,
-  "pass_4_scaled": 0.1,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_raw": 5,
+  "pass_4_scaled": 0.5416666666666666,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 1,
+    "federalism_preemption_risk": 1,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 1.0,
+    "A": 1.0,
+    "H": 0.6666666666666666,
+    "E": 1.6666666666666667
+  },
   "pass_4_signals": [
-    "unsupported_core_conclusion"
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "federalism_preemption_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "retroactivity_fair_notice_risk",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
   ],
-  "pass_4_primary_concern": null,
+  "pass_4_primary_concern": "The proposal is analytically supported but needs clearer implementation boundaries and cost evidence for broad recipient-facing controls.",
+  "combined_score_pre_pass5": 0.8406802735960675,
+  "pass_5_alpha": 0.65,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious structural concern",
+  "pass_5_scaled": 0.5,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "implementation_fantasy",
+  "pass_5_worst_flaw_name": "Implementation Fantasy",
+  "pass_5_material_flaw_count": 6,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "",
+  "pass_5_red_flag": false,
+  "pass_5_red_flag_gates": [],
+  "pass_5_concise_why": "The proposal is structurally coherent but creates material implementation and ambiguity risks because several broad recipient-facing controls would take effect across many assistance programs on a short timeline.",
+  "pass_5_most_important_consequence": "Recipients and subrecipients may face delayed payments, unclear verification duties, higher monitoring costs, or uncertain termination risk before guidance and agency implementation practices are settled.",
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "OMB cites financial-management authority, but some provisions would benefit from clearer authority mapping.",
+      "evidence": [],
+      "comment_leverage": "Ask OMB to map each major cross-cutting obligation to statutory authority."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No clear statutory inversion is visible from the available record.",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal increases recipient and pass-through duties to support Federal oversight goals.",
+      "evidence": [],
+      "comment_leverage": "Ask OMB to calibrate duties by risk, entity size, and award type."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Some controls depend on recipient internal controls and pass-through monitoring, but Federal review remains present.",
+      "evidence": [],
+      "comment_leverage": "Request Federal agency review standards and audit expectations."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Payment and termination controls could operate before disputes are resolved, but the available record does not show a central sequencing defect.",
+      "evidence": [],
+      "comment_leverage": "Request notice, cure, review, and payment-hold correction procedures."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The record gives examples of misuse and oversight problems, but commenters can test whether the broadest controls are proportional.",
+      "evidence": [],
+      "comment_leverage": "Ask OMB to connect each categorical requirement to specific evidence."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The remedies generally match the stated oversight rationale, though some may be broader than necessary.",
+      "evidence": [],
+      "comment_leverage": "Propose narrower or risk-based alternatives."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule expects many agencies and recipients to implement new payment, E-Verify, subaward, and national-policy controls quickly and consistently by October 1, 2026.",
+      "evidence": [
+        {
+          "section": "Step 13A \u2014 Structural Integrity / Nonsense Detector",
+          "quote_or_absence": "The proposal expects many agencies and recipients to implement new payment, E-Verify, subaward, and national-policy controls quickly and consistently by October 1, 2026."
+        }
+      ],
+      "comment_leverage": "Request phased effective dates, templates, and small-entity transition periods."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Payment checks and DNP-style screening assume workable data interfaces, but the proposal allows alternative payment screening.",
+      "evidence": [],
+      "comment_leverage": "Request safe harbors and data-matching correction procedures."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The record identifies waste, misuse, unlawful discrimination, and foreign-collaboration risks, but several operative standards need sharper boundaries.",
+      "evidence": [
+        {
+          "section": "Step 13A \u2014 Structural Integrity / Nonsense Detector",
+          "quote_or_absence": "The record identifies waste, misuse, unlawful discrimination, and foreign-collaboration risks, but several operative standards need sharper boundaries."
+        }
+      ],
+      "comment_leverage": "Ask for definitions, examples, and safe harbors for covered conduct."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The RFA and RIA recognize costs but often describe them as modest or minimal without granular estimates.",
+      "evidence": [
+        {
+          "section": "Step 4 \u2014 Analysis Obligations Review",
+          "quote_or_absence": "The available text does not fully explain how 'minimal,' 'modest,' or 'moderate' cost judgments were derived."
+        }
+      ],
+      "comment_leverage": "Submit concrete cost and staff-hour data."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Broad termination and national-policy language could be applied unevenly if final criteria are unclear.",
+      "evidence": [],
+      "comment_leverage": "Request objective criteria and written findings."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal would benefit from clearer process safeguards, but does not lack process entirely.",
+      "evidence": [],
+      "comment_leverage": "Ask for notice, cure, closeout, and review safeguards."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Pass-through entities, small recipients, and States may bear operational burdens created by Federal oversight goals.",
+      "evidence": [
+        {
+          "section": "Step 10 \u2014 Regulatory Incentives",
+          "quote_or_absence": "The rule could create incentives to avoid subawards, restructure relationships, or reduce use of smaller subrecipients if monitoring burdens become too high."
+        }
+      ],
+      "comment_leverage": "Request burden calibration, model clauses, and small-entity relief."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Payment screening and E-Verify may create over-screening incentives, but the available record does not show a central suspicion-machine design.",
+      "evidence": [],
+      "comment_leverage": "Ask for false-positive correction and documentation standards."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal generally strengthens accountability records, though broad discretion could reduce predictability.",
+      "evidence": [],
+      "comment_leverage": "Request written reasons and public implementation guidance."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Payment delays or suspension consequences could occur before disputes are resolved, but this is not shown as a central defect.",
+      "evidence": [],
+      "comment_leverage": "Ask for timely correction and review pathways."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal adds gateway controls for payments, eligibility, and award terms, but they are tied to assistance administration.",
+      "evidence": [],
+      "comment_leverage": "Request clear gateway criteria and documentation."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Termination, suspension, payment holds, and eligibility consequences need clearer process consequences.",
+      "evidence": [
+        {
+          "section": "Step 13A \u2014 Structural Integrity / Nonsense Detector",
+          "quote_or_absence": "Termination, suspension, payment holds, and eligibility consequences need clearer process consequences."
+        }
+      ],
+      "comment_leverage": "Ask OMB to distinguish audit findings, payment delays, suspension, termination, and eligibility consequences."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Ambiguity could influence agency and pass-through gatekeeping, but the available record does not show a severe mechanism.",
+      "evidence": [],
+      "comment_leverage": "Request safe harbors and examples."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The framework is coherent overall, but breadth and implementation timing create material risk of uneven application.",
+      "evidence": [
+        {
+          "section": "Step 13A \u2014 Structural Integrity / Nonsense Detector",
+          "quote_or_absence": "The framework is coherent overall, but breadth and implementation timing create material risk of uneven application."
+        }
+      ],
+      "comment_leverage": "Request phased implementation and agency-specific implementation plans."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": true,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": true,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "high_scope_exclusion_language"
@@ -62851,5 +63136,9 @@
   "comments_first_page_unique_days": 7,
   "summary_available": false,
   "raw_summary_available": false,
+  "argument_graph_available": false,
+  "argument_graph_path": "",
+  "archived_summary_only": false,
+  "archive_source": null,
   "route_id": "OMB-2026-0034"
 }
