@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-15T02:51:13.106122+00:00",
+  "comment_action_checked_at": "2026-06-15T10:01:40.533160+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -27,323 +27,42 @@
   "comment_end_date": "2026-06-18T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 3,
-  "pass_3_score": 3.3461538461538463,
+  "pass_3_score": 3.310344827586207,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.4274712392469241,
+  "pass_3_scaled": 0.42404407362912755,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8222610981989277,
+  "combined_score": 0.5845982341241183,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 4,
-  "pass_4_scaled": 0.38958333333333334,
-  "pass_4_axes": {
-    "statutory_authority_fit": 0,
-    "procedural_compliance_risk": 1,
-    "retroactivity_fair_notice_risk": 0,
-    "federalism_preemption_risk": 0,
-    "reasoned_explanation_completeness": 1,
-    "alternatives_analysis_adequacy": 1,
-    "cost_benefit_transparency": 1,
-    "data_quality_uncertainty_handling": 2,
-    "arbitrary_line_drawing_risk": 1,
-    "distributional_omission_risk": 1,
-    "environmental_justice_analysis_risk": 1,
-    "small_entity_impact_rfa_risk": 0,
-    "implementation_feasibility_risk": 1,
-    "enforcement_clarity_risk": 1,
-    "monitoring_and_feedback_design_quality": 1
-  },
-  "pass_4_domain_means": {
-    "L": 0.25,
-    "A": 1.2,
-    "H": 0.6666666666666666,
-    "E": 1.0
-  },
-  "pass_4_signals": [
-    "alternatives_analysis_adequacy",
-    "arbitrary_line_drawing_risk",
-    "cost_benefit_transparency",
-    "data_quality_uncertainty_handling",
-    "distributional_omission_risk",
-    "enforcement_clarity_risk",
-    "environmental_justice_analysis_risk",
-    "implementation_feasibility_risk",
-    "monitoring_and_feedback_design_quality",
-    "procedural_compliance_risk",
-    "reasoned_explanation_completeness"
-  ],
-  "pass_4_primary_concern": "EPA relies on substantial unmanaged-CRL uncertainty to justify BPJ flexibility while leaving key environmental effects and pollutant loadings incompletely quantified.",
-  "combined_score_pre_pass5": 0.6205744137350397,
-  "pass_5_alpha": 0.65,
-  "pass_5_applicable": true,
-  "pass_5_rubric_version": "pass5_structural_integrity_v1",
-  "pass_5_label": "Serious structural concern",
-  "pass_5_scaled": 0.5,
-  "pass_5_worst_flaw_severity": 2,
-  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
-  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
-  "pass_5_material_flaw_count": 5,
-  "pass_5_high_stakes_domain": false,
-  "pass_5_high_stakes_domain_reason": "",
-  "pass_5_red_flag": false,
+  "pass_4_raw": 0,
+  "pass_4_scaled": 0.0,
+  "pass_4_axes": {},
+  "pass_4_domain_means": {},
+  "pass_4_signals": [],
+  "pass_4_primary_concern": null,
+  "combined_score_pre_pass5": null,
+  "pass_5_alpha": null,
+  "pass_5_applicable": null,
+  "pass_5_rubric_version": null,
+  "pass_5_label": null,
+  "pass_5_scaled": null,
+  "pass_5_worst_flaw_severity": null,
+  "pass_5_worst_flaw_key": null,
+  "pass_5_worst_flaw_name": null,
+  "pass_5_material_flaw_count": null,
+  "pass_5_high_stakes_domain": null,
+  "pass_5_high_stakes_domain_reason": null,
+  "pass_5_red_flag": null,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": "The proposal is structurally coherent but uses uncertainty about unmanaged CRL to justify BPJ flexibility while leaving pollutant and benefit consequences incompletely quantified.",
-  "pass_5_most_important_consequence": "The final rule could reduce compliance costs substantially while leaving the environmental effects of functional-equivalent unmanaged CRL discharges dependent on later permit-by-permit BPJ records.",
-  "pass_5_flaws": [
-    {
-      "flaw_key": "authority_substitution",
-      "flaw_name": "Authority Substitution",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "The notice cites CWA sections 301, 304, 307, 402, and 501 and frames the change as a BAT/ELG reconsideration rather than a shift to another statutory regime.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to retain the CWA authority explanation in the final rule."
-    },
-    {
-      "flaw_key": "statutory_inversion",
-      "flaw_name": "Statutory Inversion",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The proposal relies heavily on cost and feasibility, which are BAT factors, but commenters can test whether the BPJ approach still makes reasonable further progress toward pollutant-discharge reduction.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to explain how Option 1 satisfies BAT reasonable-further-progress requirements for functional-equivalent discharges."
-    },
-    {
-      "flaw_key": "accountability_inversion",
-      "flaw_name": "Accountability Inversion",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "Permitting authorities would make case-by-case BPJ determinations for functional-equivalent discharges; that can be lawful, but the final rule should define what record and explanation must support those decisions.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to specify minimum BPJ record elements and public explanation requirements."
-    },
-    {
-      "flaw_key": "self_policing_substitution",
-      "flaw_name": "Self-Policing Substitution",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The proposal relies partly on facility-specific information about hydrogeology, capture, and treatment feasibility, but permitting authorities remain the decisionmakers.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to require facility submissions to be independently supportable and available in permitting records."
-    },
-    {
-      "flaw_key": "constraint_sequencing_capture",
-      "flaw_name": "Constraint Sequencing Capture",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "Option 1 shifts much of the constraint-setting step from national ELG text to later permits for functional-equivalent discharges.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA how later permit proceedings will preserve meaningful review of technology basis and pollutant-reduction assumptions."
-    },
-    {
-      "flaw_key": "evidence_to_intrusion_mismatch",
-      "flaw_name": "Evidence-to-Intrusion Mismatch",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The regulatory burden is narrower than the 2024 baseline for some discharges, but the record still needs clearer evidence for less stringent BPJ outcomes.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to explain when a BPJ limit below national numeric treatment remains adequately supported."
-    },
-    {
-      "flaw_key": "remedy_rationale_mismatch",
-      "flaw_name": "Remedy-Rationale Mismatch",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "EPA uses uncertainty about capture feasibility and costs to justify BPJ flexibility, but the same uncertainty also limits confidence about environmental consequences of relaxing baseline limits.",
-      "evidence": [
-        {
-          "section": "Benefit-Cost Analysis",
-          "quote_or_absence": "EPA says forgone benefits may occur where BPJ produces less stringent limits, but it expects them to be lower than cost savings."
-        },
-        {
-          "section": "Pollutant Loadings",
-          "quote_or_absence": "EPA says it cannot estimate post-implementation pollutant loadings for functional-equivalent discharges subject to BPJ under Option 1."
-        }
-      ],
-      "comment_leverage": "Ask EPA to pair BPJ flexibility with minimum monitoring, pollutant characterization, and explanation requirements."
-    },
-    {
-      "flaw_key": "implementation_fantasy",
-      "flaw_name": "Implementation Fantasy",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "EPA expressly recognizes capture, pumping, hydrogeology, and treatment feasibility limits; the concern is not fantasy implementation, but whether the final rule gives permit writers enough operational guardrails.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to include practical BPJ implementation criteria."
-    },
-    {
-      "flaw_key": "magic_interface_dependency",
-      "flaw_name": "Magic Interface Dependency",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "The proposal does not depend on an undefined technical interface or automated system.",
-      "evidence": [],
-      "comment_leverage": "No comment needed beyond ordinary record support."
-    },
-    {
-      "flaw_key": "threat_ambiguity",
-      "flaw_name": "Threat Ambiguity",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The problem definition mixes cost, energy reliability, retirement status, and technical uncertainty; commenters can ask EPA to identify which grounds independently support Option 1.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to separate cost, technical feasibility, and energy-reliability rationales."
-    },
-    {
-      "flaw_key": "impact_denial",
-      "flaw_name": "Impact Denial",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "EPA acknowledges forgone benefits and exposure pathways but leaves core environmental benefit effects qualitative and unmonetized.",
-      "evidence": [
-        {
-          "section": "Benefits",
-          "quote_or_absence": "EPA says data limitations, modeling limitations, and valuation gaps prevented quantifying and monetizing benefits."
-        },
-        {
-          "section": "Benefits",
-          "quote_or_absence": "EPA says it did not quantify changes in loadings for metals and toxic pollutants."
-        }
-      ],
-      "comment_leverage": "Ask EPA to quantify or bound important health and ecological consequences where possible."
-    },
-    {
-      "flaw_key": "targetability_abuse_surface",
-      "flaw_name": "Targetability / Abuse Surface",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "The proposal regulates a defined waste stream and does not create a broad targeting mechanism.",
-      "evidence": [],
-      "comment_leverage": "No structural targeting concern identified."
-    },
-    {
-      "flaw_key": "safeguard_absence",
-      "flaw_name": "Safeguard Absence",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The proposal leaves safeguards for BPJ limits largely to existing permitting processes and general CWA factors.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA whether the final rule should require minimum monitoring and anti-backsliding explanation safeguards."
-    },
-    {
-      "flaw_key": "externality_dumping",
-      "flaw_name": "Externality Dumping",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "Option 1 may reduce compliance costs for plants while leaving receiving-water impacts dependent on later BPJ decisions and incomplete pollutant data.",
-      "evidence": [
-        {
-          "section": "Pollutant Loadings",
-          "quote_or_absence": "EPA says only TSS and TDS were calculated for pollutant loadings because other analyte data were unavailable."
-        },
-        {
-          "section": "Benefits",
-          "quote_or_absence": "EPA identifies possible human health effects from exposure to metals and toxic pollutants through self-caught fish or drinking water."
-        }
-      ],
-      "comment_leverage": "Ask EPA to prevent cost savings from being achieved by shifting unquantified pollutant burdens to downstream communities."
-    },
-    {
-      "flaw_key": "suspicion_machine",
-      "flaw_name": "Suspicion Machine",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "The notice does not establish surveillance, suspicion scoring, or similar mechanisms.",
-      "evidence": [],
-      "comment_leverage": "No comment needed."
-    },
-    {
-      "flaw_key": "accountability_substrate_degradation",
-      "flaw_name": "Accountability Substrate Degradation",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The BPJ approach can preserve accountability if permit records are transparent, but the proposal would reduce national-level specificity for functional-equivalent discharges.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to require permit records to document technology availability, economic achievability, pollutant characterization, and alternatives considered."
-    },
-    {
-      "flaw_key": "harm_before_review",
-      "flaw_name": "Harm Before Review",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The rule would be implemented through permits, so affected limits generally should be reviewable in permitting processes before operation under new limits.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to clarify transition timing and permit modification procedures."
-    },
-    {
-      "flaw_key": "procedural_gateway_control",
-      "flaw_name": "Procedural Gateway Control",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The proposal makes the functional-equivalent determination and BPJ permit process the gateway for substantive controls on a difficult-to-characterize pollutant stream.",
-      "evidence": [
-        {
-          "section": "Table VI-1",
-          "quote_or_absence": "For functional-equivalent direct discharges, Option 1 uses BAT limits developed on a BPJ basis by the permitting authority."
-        },
-        {
-          "section": "Proposed Rule",
-          "quote_or_absence": "EPA says it is not defining what constitutes the functional equivalent of a direct discharge."
-        }
-      ],
-      "comment_leverage": "Ask EPA to define the decision path for functional-equivalent discharges and BPJ documentation."
-    },
-    {
-      "flaw_key": "consequence_class_ambiguity",
-      "flaw_name": "Consequence-Class Ambiguity",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The proposal identifies cost savings, possible forgone benefits, and pollutant-loading changes but does not clearly classify when environmental consequences become unacceptable under BPJ.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to define thresholds or factors for unacceptable residual discharge risk."
-    },
-    {
-      "flaw_key": "ambiguity_enabled_gatekeeping",
-      "flaw_name": "Ambiguity-Enabled Gatekeeping",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "Ambiguity in functional-equivalent determinations could affect whether discharges are subject to permit limits, though the proposal says Maui and existing NPDES principles govern.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to give nonbinding examples or factors without narrowing Maui improperly."
-    },
-    {
-      "flaw_key": "structural_coherence",
-      "flaw_name": "Structural Coherence",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The proposal is coherent at a high level, but it creates a tension: the lack of data supports flexibility, while the same lack of data weakens confidence that less stringent limits will protect receiving waters.",
-      "evidence": [
-        {
-          "section": "Rationale for Option 1",
-          "quote_or_absence": "EPA relies on site-specific factors such as aquifer volumes, pumping feasibility, hydrogeology, and discharge locations."
-        },
-        {
-          "section": "Pollutant Loadings",
-          "quote_or_absence": "EPA cannot predict which plants will have functional-equivalent discharges or the resulting BPJ requirements, so it cannot include those plants in pollutant-loading estimates."
-        }
-      ],
-      "comment_leverage": "Ask EPA to close the loop between uncertainty, BPJ flexibility, and environmental monitoring."
-    }
-  ],
-  "pass_5_failure_modes": {
-    "incompetence_administrative_incoherence": false,
-    "instrumental_disruption": false,
-    "ambiguity_as_mechanism": false,
-    "conversion_surface": {
-      "present": false,
-      "source_surface": "",
-      "converted_surface": "",
-      "authority_used": "",
-      "new_control_point": "",
-      "affected_constraint": "",
-      "harm_before_review_pathway": ""
-    }
-  },
+  "pass_5_concise_why": null,
+  "pass_5_most_important_consequence": null,
+  "pass_5_flaws": [],
+  "pass_5_failure_modes": {},
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "epa_missing_cost_per_unit_signal",
@@ -354,7 +73,7 @@
     "https://www.federalregister.gov/documents/full_text/html/2026/05/18/2026-09895.html"
   ],
   "supporting_related_material_count": 999,
-  "supporting_docs_error": null,
+  "supporting_docs_error": "HTTPSConnectionPool(host='api.regulations.gov', port=443): Read timed out. (read timeout=45); used_stale_cache",
   "supporting_related_material": [
     {
       "document_id": "EPA-HQ-OW-2009-0819-13800",
@@ -22286,8 +22005,8 @@
   "comments_total": 10,
   "comments_velocity_total": 9,
   "comments_public_total_estimate": 9,
-  "comments_fetched": 2,
-  "comments_text_hydrated": 2,
+  "comments_fetched": 0,
+  "comments_text_hydrated": 0,
   "comments_cached_records": 10,
   "comments_unique_clusters": 9,
   "comments_clustered_duplicates": 1,
@@ -22351,8 +22070,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-12T21:03:09.462994+00:00",
-  "comments_checked_at": "2026-06-12T21:03:10.869923+00:00",
+  "comments_api_last_seen_at": "2026-06-15T05:05:22.877314+00:00",
+  "comments_checked_at": "2026-06-15T05:05:22.987628+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
