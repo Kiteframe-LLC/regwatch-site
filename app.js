@@ -9,6 +9,18 @@ const PASS3_FRESHNESS_BOOST = 0.5;
 const PASS3_DEADLINE_RAMP_MAX = 3.0;
 const PASS4_ALPHA_DEFAULT = 0.15;
 const PASS5_ALPHA_DEFAULT = 0.65;
+const PASS5_TIER_SCALES = {
+  "Run-of-the-mill": 0.0,
+  "Low concern": 0.0,
+  Material: 0.25,
+  "Material concern": 0.25,
+  Serious: 0.5,
+  "Serious structural concern": 0.5,
+  Extreme: 0.75,
+  "Extreme structural concern": 0.75,
+  "🚩 Nuts": 1.0,
+  "Structural nonsense / red flag": 1.0,
+};
 
 async function loadData() {
   const res = await fetch("./data/rules.json", { cache: "no-store" });
@@ -98,6 +110,31 @@ function chargeScale(rawScore, tau) {
   return 1 - Math.exp(-(raw / t));
 }
 
+function pass5ScaledFromAssessment(text) {
+  const raw = String(text || "").trim();
+  if (!raw) return null;
+  const tier = raw.split("·", 1)[0].trim();
+  if (Object.prototype.hasOwnProperty.call(PASS5_TIER_SCALES, tier)) {
+    return PASS5_TIER_SCALES[tier];
+  }
+  if (Object.prototype.hasOwnProperty.call(PASS5_TIER_SCALES, raw)) {
+    return PASS5_TIER_SCALES[raw];
+  }
+  return null;
+}
+
+function pass5ScaledForRecord(record) {
+  const numericScaled = Number(record.pass_5_scaled);
+  if (Number.isFinite(numericScaled) && numericScaled > 0) {
+    return numericScaled;
+  }
+  return (
+    pass5ScaledFromAssessment(record.pass_5_assessment) ??
+    pass5ScaledFromAssessment(record.pass_5_label) ??
+    0
+  );
+}
+
 function combinedScoreClient(record) {
   const pass1Scaled = Number(record.pass_1_scaled);
   const pass2Scaled = Number(record.pass_2_scaled);
@@ -123,8 +160,8 @@ function combinedScoreClient(record) {
     const pass4Alpha = Number(record.pass_4_alpha || PASS4_ALPHA_DEFAULT);
     combined *= 1 + Math.max(0, pass4Alpha) * Math.min(1, pass4Scaled);
   }
-  const pass5Scaled = Number(record.pass_5_scaled);
-  if (Number.isFinite(pass5Scaled) && pass5Scaled > 0) {
+  const pass5Scaled = pass5ScaledForRecord(record);
+  if (pass5Scaled > 0) {
     const pass5Alpha = Number(record.pass_5_alpha || PASS5_ALPHA_DEFAULT);
     combined *= 1 + Math.max(0, pass5Alpha) * Math.min(1, pass5Scaled);
   }
@@ -302,8 +339,8 @@ function rowHtml(r, override = null) {
   const pass5Display = pass5Label || (pass5Applicable ? "Reviewed; no score impact" : "");
   const pass5RedFlag = Boolean(r.pass_5_red_flag || pass5Display.includes("🚩"));
   const pass5Badge = pass5RedFlag ? `<span class="red-flag-badge">🚩</span>` : "";
-  const pass5Scaled = Number(r.pass_5_scaled);
-  const pass5ScoreText = Number.isFinite(pass5Scaled) ? ` (${pct5(pass5Scaled)})` : "";
+  const pass5Scaled = pass5ScaledForRecord(r);
+  const pass5ScoreText = pass5Scaled > 0 ? ` (${pct5(pass5Scaled)})` : "";
   const pass5Note = pass5Display
     ? `<div class="band-note"><strong>Structural assessment:</strong> ${pass5Badge}${escapeHtml(pass5Display)}${pass5ScoreText}${pass5Why ? ` - ${escapeHtml(pass5Why)}` : ""}</div>`
     : "";
