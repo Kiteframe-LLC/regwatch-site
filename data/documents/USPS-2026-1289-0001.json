@@ -32,455 +32,52 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7353637095121479,
+  "combined_score": 0.6016677003617261,
   "score_total": 18,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 5,
-  "pass_4_scaled": 0.49375,
-  "pass_4_axes": {
-    "statutory_authority_fit": 1,
-    "procedural_compliance_risk": 1,
-    "retroactivity_fair_notice_risk": 0,
-    "federalism_preemption_risk": 1,
-    "reasoned_explanation_completeness": 2,
-    "alternatives_analysis_adequacy": 1,
-    "cost_benefit_transparency": 1,
-    "data_quality_uncertainty_handling": 1,
-    "arbitrary_line_drawing_risk": 1,
-    "distributional_omission_risk": 1,
-    "environmental_justice_analysis_risk": 0,
-    "small_entity_impact_rfa_risk": 0,
-    "implementation_feasibility_risk": 2,
-    "enforcement_clarity_risk": 2,
-    "monitoring_and_feedback_design_quality": 1
-  },
-  "pass_4_domain_means": {
-    "L": 0.75,
-    "A": 1.2,
-    "H": 0.3333333333333333,
-    "E": 1.6666666666666667
-  },
+  "pass_4_raw": 2,
+  "pass_4_scaled": 0.2,
+  "pass_4_axes": {},
+  "pass_4_domain_means": {},
   "pass_4_signals": [
-    "alternatives_analysis_adequacy",
-    "arbitrary_line_drawing_risk",
-    "cost_benefit_transparency",
-    "data_quality_uncertainty_handling",
-    "distributional_omission_risk",
-    "enforcement_clarity_risk",
-    "federalism_preemption_risk",
-    "implementation_feasibility_risk",
-    "monitoring_and_feedback_design_quality",
-    "procedural_compliance_risk",
-    "reasoned_explanation_completeness",
-    "statutory_authority_fit"
+    "distributional_harm"
   ],
-  "pass_4_primary_concern": "The main concern is whether the rule can support a ballot-tracking and acceptance gate without a fuller showing of statutory fit, operational feasibility, and safeguards against ballot delay.",
-  "combined_score_pre_pass5": 0.4456749754619079,
-  "pass_5_alpha": 0.65,
-  "pass_5_applicable": true,
-  "pass_5_rubric_version": "pass5_structural_integrity_v1",
-  "pass_5_label": "\ud83d\udea9 Nuts \u00b7 Enforcement and Control Architecture",
-  "pass_5_assessment": "\ud83d\udea9 Nuts \u00b7 Enforcement and Control Architecture",
-  "pass_5_assessment_tier": "\ud83d\udea9 Nuts",
-  "pass_5_scaled": 1.0,
-  "pass_5_worst_flaw_severity": 3,
-  "pass_5_worst_flaw_key": "constraint_sequencing_capture",
-  "pass_5_worst_flaw_name": "Constraint Sequencing Capture",
-  "pass_5_material_flaw_count": 14,
-  "pass_5_worst_family_key": "enforcement_and_control_architecture",
-  "pass_5_worst_family_name": "Enforcement and Control Architecture",
-  "pass_5_worst_family_severity": 3,
-  "pass_5_material_family_count": 6,
-  "pass_5_base_defect_score": 0.995897,
-  "pass_5_scrutiny_pressure": 0.25,
-  "pass_5_risk_pressure": 0.4,
-  "pass_5_context_pressure": 0.55,
-  "pass_5_scrutiny_multiplier": 1.25,
-  "pass_5_risk_multiplier": 1.4,
-  "pass_5_high_stakes_domain": true,
-  "pass_5_high_stakes_domain_reason": "The rule concerns federal election ballot mail and can affect whether ballots are accepted or delayed.",
-  "pass_5_red_flag": true,
-  "pass_5_red_flag_gates": [
-    "Harm Before Review Plus Structural Lever",
-    "Accountability Capture",
-    "Instrumental Disruption in High-Stakes Domain"
-  ],
-  "pass_5_concise_why": "The rule repurposes a postal mail standard into a ballot-tracking and pre-acceptance workflow that is only partly explained in the notice.",
-  "pass_5_most_important_consequence": "Eligible ballot mail can be delayed or rejected before a practical cure path exists, shifting the burden onto voters and election offices.",
-  "pass_5_defect_families": [
-    {
-      "family_key": "authority_and_constitutional_fit",
-      "family_name": "Authority and Constitutional Fit",
-      "flaw_keys": [
-        "authority_substitution",
-        "statutory_inversion",
-        "accountability_inversion",
-        "self_policing_substitution"
-      ],
-      "member_count": 4,
-      "worst_severity": 2,
-      "mean_severity": 1.25,
-      "material_flaw_count": 1,
-      "material_share": 0.25,
-      "family_score": 0.406
-    },
-    {
-      "family_key": "evidence_and_rationale_integrity",
-      "family_name": "Evidence and Rationale Integrity",
-      "flaw_keys": [
-        "evidence_to_intrusion_mismatch",
-        "remedy_rationale_mismatch",
-        "threat_ambiguity",
-        "impact_denial"
-      ],
-      "member_count": 4,
-      "worst_severity": 2,
-      "mean_severity": 1.75,
-      "material_flaw_count": 3,
-      "material_share": 0.75,
-      "family_score": 0.519
-    },
-    {
-      "family_key": "implementation_reality",
-      "family_name": "Implementation Reality",
-      "flaw_keys": [
-        "implementation_fantasy",
-        "magic_interface_dependency",
-        "structural_coherence"
-      ],
-      "member_count": 3,
-      "worst_severity": 3,
-      "mean_severity": 2.333,
-      "material_flaw_count": 3,
-      "material_share": 1.0,
-      "family_score": 0.738
-    },
-    {
-      "family_key": "safeguards_and_accountability",
-      "family_name": "Safeguards and Accountability",
-      "flaw_keys": [
-        "safeguard_absence",
-        "externality_dumping",
-        "accountability_substrate_degradation"
-      ],
-      "member_count": 3,
-      "worst_severity": 2,
-      "mean_severity": 1.667,
-      "material_flaw_count": 2,
-      "material_share": 0.667,
-      "family_score": 0.5
-    },
-    {
-      "family_key": "burden_and_consequence_handling",
-      "family_name": "Burden and Consequence Handling",
-      "flaw_keys": [
-        "harm_before_review",
-        "consequence_class_ambiguity"
-      ],
-      "member_count": 2,
-      "worst_severity": 3,
-      "mean_severity": 2.0,
-      "material_flaw_count": 1,
-      "material_share": 0.5,
-      "family_score": 0.637
-    },
-    {
-      "family_key": "enforcement_and_control_architecture",
-      "family_name": "Enforcement and Control Architecture",
-      "flaw_keys": [
-        "constraint_sequencing_capture",
-        "procedural_gateway_control",
-        "ambiguity_enabled_gatekeeping",
-        "targetability_abuse_surface",
-        "suspicion_machine"
-      ],
-      "member_count": 5,
-      "worst_severity": 3,
-      "mean_severity": 2.2,
-      "material_flaw_count": 4,
-      "material_share": 0.8,
-      "family_score": 0.698
-    }
-  ],
-  "pass_5_flaws": [
-    {
-      "flaw_key": "authority_substitution",
-      "flaw_name": "Authority Substitution",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "statutory_inversion",
-      "flaw_name": "Statutory Inversion",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "accountability_inversion",
-      "flaw_name": "Accountability Inversion",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "self_policing_substitution",
-      "flaw_name": "Self-Policing Substitution",
-      "defect_type": "Type I",
-      "severity": 2,
-      "explanation": "The proposal relies on state certification and state-provided lists as the main check on eligibility and preparation.",
-      "evidence": [
-        {
-          "section": "Section 24.4.2.f",
-          "quote_or_absence": "The notice relies on state certification that ballot mail meets the stated standards."
-        }
-      ],
-      "comment_leverage": "Ask for an independent verification step or correction path beyond state certification."
-    },
-    {
-      "flaw_key": "constraint_sequencing_capture",
-      "flaw_name": "Constraint Sequencing Capture",
-      "defect_type": "Type I",
-      "severity": 3,
-      "explanation": "Enrollment, certification, and portal registration all happen before USPS will accept ballot mail, so the gate comes first.",
-      "evidence": [
-        {
-          "section": "Section 24.4.1",
-          "quote_or_absence": "Portal registration must be completed before mailing; Section 24.4.2.d sets pre-election timing; Section 24.5.3 rejects noncompliant mail."
-        }
-      ],
-      "comment_leverage": "Ask whether a later correction path can reopen acceptance when a pre-mailing submission is incomplete."
-    },
-    {
-      "flaw_key": "evidence_to_intrusion_mismatch",
-      "flaw_name": "Evidence-to-Intrusion Mismatch",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The rule creates a name-barcode reporting system and pre-acceptance review without a strong empirical showing in the notice.",
-      "evidence": [
-        {
-          "section": "Legal Authority and Rationale",
-          "quote_or_absence": "The notice asserts law-enforcement usefulness but does not provide a quantitative necessity showing."
-        }
-      ],
-      "comment_leverage": "Ask what evidence shows the reporting burden is necessary and proportionate."
-    },
-    {
-      "flaw_key": "remedy_rationale_mismatch",
-      "flaw_name": "Remedy-Rationale Mismatch",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The remedy is a portal-and-barcode control system, but the notice frames the rule as mail-operations best practice plus law-enforcement support.",
-      "evidence": [
-        {
-          "section": "Proposed Rule",
-          "quote_or_absence": "The remedy is a portal, barcode, and verification system even though the rule is presented as mail-standards guidance."
-        }
-      ],
-      "comment_leverage": "Ask the agency to reconcile why an election-data workflow is the right fix for a mail-operations problem."
-    },
-    {
-      "flaw_key": "implementation_fantasy",
-      "flaw_name": "Implementation Fantasy",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The notice assumes states, mail providers, and USPS can complete registration, barcode work, and list management on election timelines.",
-      "evidence": [
-        {
-          "section": "24.4 and 24.5",
-          "quote_or_absence": "The notice assumes portal registration, barcode assignment, and list compilation can be completed on election timelines."
-        }
-      ],
-      "comment_leverage": "Ask for a rollout plan, staffing estimate, and failure-rate assumptions."
-    },
-    {
-      "flaw_key": "magic_interface_dependency",
-      "flaw_name": "Magic Interface Dependency",
-      "defect_type": "Type II",
-      "severity": 3,
-      "explanation": "The proposal depends on the Federal Ballot Mail Portal and technical specifications as if data handoff will be routine.",
-      "evidence": [
-        {
-          "section": "24.4.1 / 24.4.2 / 24.4.3",
-          "quote_or_absence": "The workflow depends on the Federal Ballot Mail Portal and technical specs to transfer data correctly."
-        }
-      ],
-      "comment_leverage": "Ask for validation, outage, and reconciliation procedures for the portal interface."
-    },
-    {
-      "flaw_key": "threat_ambiguity",
-      "flaw_name": "Threat Ambiguity",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "impact_denial",
-      "flaw_name": "Impact Denial",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The proposal downplays how rejection, delay, or data mismatch can affect voters and election offices.",
-      "evidence": [
-        {
-          "section": "24.5.3",
-          "quote_or_absence": "The notice says noncompliant mail will be returned and USPS is not responsible for delays when preparation fails."
-        }
-      ],
-      "comment_leverage": "Ask the agency to quantify delay and rejection risk when a mailing fails verification."
-    },
-    {
-      "flaw_key": "targetability_abuse_surface",
-      "flaw_name": "Targetability / Abuse Surface",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "safeguard_absence",
-      "flaw_name": "Safeguard Absence",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The notice does not spell out a strong correction path for a state or mailer that misses a submission deadline or has a list error.",
-      "evidence": [
-        {
-          "section": "24.5.3",
-          "quote_or_absence": "The notice gives rejection and resubmission rules, but no detailed cure window or exception path."
-        }
-      ],
-      "comment_leverage": "Ask what safeguards exist before ballot mail is turned away."
-    },
-    {
-      "flaw_key": "externality_dumping",
-      "flaw_name": "Externality Dumping",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The proposal pushes design, certification, enrollment, and troubleshooting burdens onto states and authorized mailers.",
-      "evidence": [
-        {
-          "section": "24.3.3 / 24.4.2",
-          "quote_or_absence": "Authorized ballot mailers and states must create barcodes, submit data, and manage corrections."
-        }
-      ],
-      "comment_leverage": "Ask the agency to describe who bears each compliance cost and how it was estimated."
-    },
-    {
-      "flaw_key": "suspicion_machine",
-      "flaw_name": "Suspicion Machine",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The rule uses comparison of mailed and received ballots to detect issues meriting investigation, which can turn ordinary mail into a suspicion surface.",
-      "evidence": [
-        {
-          "section": "24.4.3",
-          "quote_or_absence": "The final list is used to compare mailed and received ballots for issues meriting investigation."
-        }
-      ],
-      "comment_leverage": "Ask for limits on how mismatch data may be used and corrected."
-    },
-    {
-      "flaw_key": "accountability_substrate_degradation",
-      "flaw_name": "Accountability Substrate Degradation",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "harm_before_review",
-      "flaw_name": "Harm Before Review",
-      "defect_type": "Type I",
-      "severity": 3,
-      "explanation": "Ballots that fail acceptance review can be returned before a voter or election office gets a practical cure path.",
-      "evidence": [
-        {
-          "section": "24.5.1-24.5.3",
-          "quote_or_absence": "Mail that fails verification is not accepted and may be returned before a correction path is completed."
-        }
-      ],
-      "comment_leverage": "Ask for a cure-and-reoffer process that avoids pre-deadline loss of ballot mail."
-    },
-    {
-      "flaw_key": "procedural_gateway_control",
-      "flaw_name": "Procedural Gateway Control",
-      "defect_type": "Type II",
-      "severity": 3,
-      "explanation": "USPS acceptance review becomes a chokepoint before ballot mail can proceed.",
-      "evidence": [
-        {
-          "section": "24.5.1-24.5.2",
-          "quote_or_absence": "USPS review happens before acceptance and can stop the mailing at the gate."
-        }
-      ],
-      "comment_leverage": "Ask the agency to explain why acceptance review should be mandatory for all covered mailings."
-    },
-    {
-      "flaw_key": "consequence_class_ambiguity",
-      "flaw_name": "Consequence-Class Ambiguity",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "ambiguity_enabled_gatekeeping",
-      "flaw_name": "Ambiguity-Enabled Gatekeeping",
-      "defect_type": "Type I",
-      "severity": 2,
-      "explanation": "Terms like to the extent practicable and technical specifications leave room for exclusion through undefined standards.",
-      "evidence": [
-        {
-          "section": "24.4.2.d / 24.5.1",
-          "quote_or_absence": "The notice uses flexible timing language and technical specifications that can decide whether mail proceeds."
-        }
-      ],
-      "comment_leverage": "Ask the agency to define the standards that will trigger rejection versus cure."
-    },
-    {
-      "flaw_key": "structural_coherence",
-      "flaw_name": "Structural Coherence",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The rule blends mail preparation, ballot tracking, state enrollment, and enforcement support into one workflow without fully explaining the operating model.",
-      "evidence": [
-        {
-          "section": "Section 24.6",
-          "quote_or_absence": "The notice says USPS does not manage election eligibility, yet the new workflow uses election data to control mail acceptance."
-        }
-      ],
-      "comment_leverage": "Ask the agency to provide a plain-language end-to-end workflow and failure tree."
-    }
-  ],
-  "pass_5_failure_modes": {
-    "incompetence_administrative_incoherence": true,
-    "instrumental_disruption": true,
-    "ambiguity_as_mechanism": true,
-    "conversion_surface": {
-      "present": true,
-      "source_surface": "mail-preparation and barcode standards",
-      "converted_surface": "ballot-enrollment and acceptance gate",
-      "authority_used": "postal mail-regulation authority",
-      "new_control_point": "Federal Ballot Mail Portal plus acceptance review",
-      "affected_constraint": "voter access and election-office workflow",
-      "harm_before_review_pathway": "a mailing can be turned away or delayed before a correction path is completed"
-    }
-  },
+  "pass_4_primary_concern": null,
+  "combined_score_pre_pass5": null,
+  "pass_5_alpha": null,
+  "pass_5_applicable": null,
+  "pass_5_rubric_version": null,
+  "pass_5_label": null,
+  "pass_5_assessment": null,
+  "pass_5_assessment_tier": null,
+  "pass_5_scaled": null,
+  "pass_5_worst_flaw_severity": null,
+  "pass_5_worst_flaw_key": null,
+  "pass_5_worst_flaw_name": null,
+  "pass_5_material_flaw_count": null,
+  "pass_5_worst_family_key": null,
+  "pass_5_worst_family_name": null,
+  "pass_5_worst_family_severity": null,
+  "pass_5_material_family_count": null,
+  "pass_5_base_defect_score": null,
+  "pass_5_scrutiny_pressure": null,
+  "pass_5_risk_pressure": null,
+  "pass_5_context_pressure": null,
+  "pass_5_scrutiny_multiplier": null,
+  "pass_5_risk_multiplier": null,
+  "pass_5_high_stakes_domain": null,
+  "pass_5_high_stakes_domain_reason": null,
+  "pass_5_red_flag": null,
+  "pass_5_red_flag_gates": [],
+  "pass_5_concise_why": null,
+  "pass_5_most_important_consequence": null,
+  "pass_5_defect_families": [],
+  "pass_5_flaws": [],
+  "pass_5_failure_modes": {},
   "pass_2_flags": [
     "high_obligation_low_evidence_language",
     "missing_alternative_procedural_signal",
