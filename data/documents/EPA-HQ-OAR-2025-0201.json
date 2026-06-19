@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-15T13:02:52.976944+00:00",
+  "comment_action_checked_at": "2026-06-19T15:08:47.461475+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -52,17 +52,30 @@
   "pass_5_applicable": null,
   "pass_5_rubric_version": null,
   "pass_5_label": null,
+  "pass_5_assessment": null,
+  "pass_5_assessment_tier": null,
   "pass_5_scaled": null,
   "pass_5_worst_flaw_severity": null,
   "pass_5_worst_flaw_key": null,
   "pass_5_worst_flaw_name": null,
   "pass_5_material_flaw_count": null,
+  "pass_5_worst_family_key": null,
+  "pass_5_worst_family_name": null,
+  "pass_5_worst_family_severity": null,
+  "pass_5_material_family_count": null,
+  "pass_5_base_defect_score": null,
+  "pass_5_scrutiny_pressure": null,
+  "pass_5_risk_pressure": null,
+  "pass_5_context_pressure": null,
+  "pass_5_scrutiny_multiplier": null,
+  "pass_5_risk_multiplier": null,
   "pass_5_high_stakes_domain": null,
   "pass_5_high_stakes_domain_reason": null,
   "pass_5_red_flag": null,
   "pass_5_red_flag_gates": [],
   "pass_5_concise_why": null,
   "pass_5_most_important_consequence": null,
+  "pass_5_defect_families": [],
   "pass_5_flaws": [],
   "pass_5_failure_modes": {},
   "pass_2_flags": [
@@ -77,9 +90,37 @@
   "rule_text_sources": [
     "https://www.federalregister.gov/documents/full_text/html/2026/06/12/2026-11843.html"
   ],
-  "supporting_related_material_count": 30,
+  "supporting_related_material_count": 31,
   "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "EPA-HQ-OAR-2025-0201-0032",
+      "tracking_number": "mqh-06ft-q3b5",
+      "title": "E. O. 12866 Review: Ozone Reclassification State Implementation Plan Proposed Rule, OMB 1st Review Version (Word)",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-06-17T04:00:00Z",
+      "received_date": "2026-06-16T04:00:00Z",
+      "author_date": null,
+      "authors": [
+        "USEPA"
+      ],
+      "page_count": 40,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-0201-0032/content.docx",
+          "format": "docx",
+          "size": 155713
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-0201-0032/content.pdf",
+          "format": "pdf",
+          "size": 100126
+        }
+      ]
+    },
     {
       "document_id": "EPA-HQ-OAR-2025-0201-0005",
       "tracking_number": "mpm-ps54-2chn",
@@ -679,6 +720,29 @@
       ]
     },
     {
+      "document_id": "EPA-HQ-OAR-2025-0201-0023",
+      "tracking_number": "mpm-ps54-2chn",
+      "title": "Guidance: Guidance on Biennial Performance Evaluation Requirements for Enhanced Vehicle Inspection and Maintenance (I/M) Programs, Transportation and Climate Division, Office of Transportation and Air Quality, December 2022",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-06-12T04:00:00Z",
+      "received_date": "2026-05-26T04:00:00Z",
+      "author_date": "2022-12-01T05:00:00Z",
+      "authors": [
+        "USEPA"
+      ],
+      "page_count": 17,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-0201-0023/content.pdf",
+          "format": "pdf",
+          "size": 741448
+        }
+      ]
+    },
+    {
       "document_id": "EPA-HQ-OAR-2025-0201-0018",
       "tracking_number": "mpm-ps54-2chn",
       "title": "General Preamble: State Implementation Plans; General Preamble for the Implementation of Title I of the Clean Air Act of 1990, 57 FR 13498, April 16, 1992",
@@ -746,29 +810,6 @@
           "size": 458879
         }
       ]
-    },
-    {
-      "document_id": "EPA-HQ-OAR-2025-0201-0023",
-      "tracking_number": "mpm-ps54-2chn",
-      "title": "Guidance: Guidance on Biennial Performance Evaluation Requirements for Enhanced Vehicle Inspection and Maintenance (I/M) Programs, Transportation and Climate Division, Office of Transportation and Air Quality, December 2022",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2026-06-12T04:00:00Z",
-      "received_date": "2026-05-26T04:00:00Z",
-      "author_date": "2022-12-01T05:00:00Z",
-      "authors": [
-        "USEPA"
-      ],
-      "page_count": 17,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-0201-0023/content.pdf",
-          "format": "pdf",
-          "size": 741448
-        }
-      ]
     }
   ],
   "referenced_documents": [],
@@ -823,8 +864,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-15T05:49:17.249697+00:00",
-  "comments_checked_at": "2026-06-15T05:49:17.249815+00:00",
+  "comments_api_last_seen_at": "2026-06-19T03:11:45.146688+00:00",
+  "comments_checked_at": "2026-06-19T03:11:45.146734+00:00",
   "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/EPA-HQ-OAR-2025-0201.csv",

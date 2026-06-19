@@ -295,14 +295,17 @@ function rowHtml(r, override = null) {
   const note = override?.note || "";
   const structuralBand = structuralBandLabel(r.pass_2_risk_band);
   const primaryConcern = String(r.pass_4_primary_concern || "").trim();
-  const pass5Label = String(r.pass_5_label || "").trim();
+  const pass5Assessment = String(r.pass_5_assessment || r.pass_5_label || "").trim();
+  const pass5Label = pass5Assessment;
   const pass5Why = String(r.pass_5_concise_why || "").trim();
   const pass5Applicable = r.pass_5_applicable === true;
   const pass5Display = pass5Label || (pass5Applicable ? "Reviewed; no score impact" : "");
+  const pass5RedFlag = Boolean(r.pass_5_red_flag || pass5Display.includes("🚩"));
+  const pass5Badge = pass5RedFlag ? `<span class="red-flag-badge">🚩</span>` : "";
   const pass5Scaled = Number(r.pass_5_scaled);
   const pass5ScoreText = Number.isFinite(pass5Scaled) ? ` (${pct5(pass5Scaled)})` : "";
   const pass5Note = pass5Display
-    ? `<div class="band-note"><strong>Structural integrity:</strong> ${escapeHtml(pass5Display)}${pass5ScoreText}${pass5Why ? ` - ${escapeHtml(pass5Why)}` : ""}</div>`
+    ? `<div class="band-note"><strong>Structural assessment:</strong> ${pass5Badge}${escapeHtml(pass5Display)}${pass5ScoreText}${pass5Why ? ` - ${escapeHtml(pass5Why)}` : ""}</div>`
     : "";
   const bandCell = displayBand
     ? `<div class="band-primary">${displayBand}</div>

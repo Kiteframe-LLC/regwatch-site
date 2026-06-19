@@ -33,6 +33,8 @@ This export also generates:
 - per-docket route stubs at `/docket/<docket-id>/`
 - per-docket metadata payloads at `/data/documents/<docket-id>.json`
 
+From the parent repo root, `make site-refresh` runs the export and then validates the site bundle with `make -C regwatch-site check`.
+
 ## GitHub Pages
 
 Recommended:
@@ -48,7 +50,7 @@ If using custom domain, add a `CNAME` file at repo root.
 Typical flow from parent repo:
 
 ```bash
-make export-site-data
+make site-refresh
 ```
 
 Then in this repo (`regwatch-site`):

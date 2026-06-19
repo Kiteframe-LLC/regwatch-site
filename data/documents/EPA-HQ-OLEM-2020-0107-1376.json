@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-15T13:02:52.531733+00:00",
+  "comment_action_checked_at": "2026-06-19T15:08:46.865882+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,304 +32,50 @@
   "pass_2_scaled": 0.9917138649566499,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6694063774386922,
+  "combined_score": 0.481154628886751,
   "score_total": 33,
   "pass_2_rule_type": "HYBRID",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 5,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "high_comment_leverage_probability",
-  "pass_4_raw": 3,
-  "pass_4_scaled": 0.3333333333333333,
-  "pass_4_axes": {
-    "statutory_authority_fit": 0,
-    "procedural_compliance_risk": 0,
-    "retroactivity_fair_notice_risk": 0,
-    "federalism_preemption_risk": 0,
-    "reasoned_explanation_completeness": 1,
-    "alternatives_analysis_adequacy": 1,
-    "cost_benefit_transparency": 1,
-    "data_quality_uncertainty_handling": 1,
-    "arbitrary_line_drawing_risk": 1,
-    "distributional_omission_risk": 1,
-    "environmental_justice_analysis_risk": 1,
-    "small_entity_impact_rfa_risk": 0,
-    "implementation_feasibility_risk": 1,
-    "enforcement_clarity_risk": 1,
-    "monitoring_and_feedback_design_quality": 1
-  },
-  "pass_4_domain_means": {
-    "L": 0.0,
-    "A": 1.0,
-    "H": 0.6666666666666666,
-    "E": 1.0
-  },
-  "pass_4_signals": [
-    "alternatives_analysis_adequacy",
-    "arbitrary_line_drawing_risk",
-    "cost_benefit_transparency",
-    "data_quality_uncertainty_handling",
-    "distributional_omission_risk",
-    "enforcement_clarity_risk",
-    "environmental_justice_analysis_risk",
-    "implementation_feasibility_risk",
-    "monitoring_and_feedback_design_quality",
-    "reasoned_explanation_completeness"
-  ],
-  "pass_4_primary_concern": "EPA's flexibility-oriented CCR amendments use important carveouts and site-specific discretion that are only partially bounded in the visible record.",
-  "combined_score_pre_pass5": 0.5052123603310885,
-  "pass_5_alpha": 0.65,
-  "pass_5_applicable": true,
-  "pass_5_rubric_version": "pass5_structural_integrity_v1",
-  "pass_5_label": "Serious structural concern",
-  "pass_5_scaled": 0.5,
-  "pass_5_worst_flaw_severity": 2,
-  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
-  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
-  "pass_5_material_flaw_count": 4,
-  "pass_5_high_stakes_domain": false,
-  "pass_5_high_stakes_domain_reason": "",
-  "pass_5_red_flag": false,
+  "pass_4_raw": 0,
+  "pass_4_scaled": 0.0,
+  "pass_4_axes": {},
+  "pass_4_domain_means": {},
+  "pass_4_signals": [],
+  "pass_4_primary_concern": null,
+  "combined_score_pre_pass5": null,
+  "pass_5_alpha": null,
+  "pass_5_applicable": null,
+  "pass_5_rubric_version": null,
+  "pass_5_label": null,
+  "pass_5_assessment": null,
+  "pass_5_assessment_tier": null,
+  "pass_5_scaled": null,
+  "pass_5_worst_flaw_severity": null,
+  "pass_5_worst_flaw_key": null,
+  "pass_5_worst_flaw_name": null,
+  "pass_5_material_flaw_count": null,
+  "pass_5_worst_family_key": null,
+  "pass_5_worst_family_name": null,
+  "pass_5_worst_family_severity": null,
+  "pass_5_material_family_count": null,
+  "pass_5_base_defect_score": null,
+  "pass_5_scrutiny_pressure": null,
+  "pass_5_risk_pressure": null,
+  "pass_5_context_pressure": null,
+  "pass_5_scrutiny_multiplier": null,
+  "pass_5_risk_multiplier": null,
+  "pass_5_high_stakes_domain": null,
+  "pass_5_high_stakes_domain_reason": null,
+  "pass_5_red_flag": null,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": "The proposal is structurally coherent but its main safeguards depend on how EPA bounds site-specific discretion and categorical CCR exemptions.",
-  "pass_5_most_important_consequence": "The final rule could reduce compliance friction while making groundwater protection, closure, and beneficial-use outcomes more variable across sites.",
-  "pass_5_flaws": [
-    {
-      "flaw_key": "authority_substitution",
-      "flaw_name": "Authority Substitution",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "The proposal remains within the RCRA CCR regulatory framework and does not substitute a different authority for the underlying program.",
-      "evidence": [],
-      "comment_leverage": "No specific structural comment needed beyond ordinary record support."
-    },
-    {
-      "flaw_key": "statutory_inversion",
-      "flaw_name": "Statutory Inversion",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The proposal expands flexibility, but the visible record does not show a direct inversion of the CCR program purpose.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to explain how each flexibility provision remains consistent with the protective purpose of the CCR rules."
-    },
-    {
-      "flaw_key": "accountability_inversion",
-      "flaw_name": "Accountability Inversion",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "Permit writers would make important site-specific decisions, but the rule can preserve accountability if it requires transparent findings.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to specify minimum written findings for each site-specific departure."
-    },
-    {
-      "flaw_key": "self_policing_substitution",
-      "flaw_name": "Self-Policing Substitution",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "Facilities may supply site data used in permitting decisions, but regulators remain decisionmakers.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to require facility-submitted technical information to be documented, reviewable, and independently supportable."
-    },
-    {
-      "flaw_key": "constraint_sequencing_capture",
-      "flaw_name": "Constraint Sequencing Capture",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "Some constraints would be set later through permits rather than entirely in the national rule.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to clarify what protective floors apply before case-specific discretion is exercised."
-    },
-    {
-      "flaw_key": "evidence_to_intrusion_mismatch",
-      "flaw_name": "Evidence-to-Intrusion Mismatch",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The proposal generally reduces or customizes obligations rather than imposing a new intrusive mechanism, but the evidence for reduced safeguards still matters.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to tie each exemption or reduced demonstration to record evidence."
-    },
-    {
-      "flaw_key": "remedy_rationale_mismatch",
-      "flaw_name": "Remedy-Rationale Mismatch",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "EPA uses site-specific variation to justify flexibility, but that same variation can make protectiveness harder to verify without mandatory criteria.",
-      "evidence": [
-        {
-          "section": "NPRM Summary",
-          "quote_or_absence": "The proposed pathway would allow site-specific considerations for groundwater monitoring points, cleanup levels, closure requirements, and closure timeframes."
-        },
-        {
-          "section": "Supporting risk extract",
-          "quote_or_absence": "The risk record identifies higher risks from unlined units and sensitivity to liner type, waste conditions, and site assumptions."
-        }
-      ],
-      "comment_leverage": "Ask EPA to pair flexibility with mandatory protective floor criteria and monitoring obligations."
-    },
-    {
-      "flaw_key": "implementation_fantasy",
-      "flaw_name": "Implementation Fantasy",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The proposal acknowledges real-world site variation rather than assuming uniform implementation; the concern is whether permit writers receive enough concrete direction.",
-      "evidence": [],
-      "comment_leverage": "Ask for examples of compliant and noncompliant site-specific determinations."
-    },
-    {
-      "flaw_key": "magic_interface_dependency",
-      "flaw_name": "Magic Interface Dependency",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "No automated or undefined technical interface is central to the proposal.",
-      "evidence": [],
-      "comment_leverage": "No specific structural comment needed beyond ordinary record support."
-    },
-    {
-      "flaw_key": "threat_ambiguity",
-      "flaw_name": "Threat Ambiguity",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The problem definition blends rigidity, burden, beneficial use, closure, and site-specific cleanup issues.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to identify which problems each amendment solves and what evidence supports that solution."
-    },
-    {
-      "flaw_key": "impact_denial",
-      "flaw_name": "Impact Denial",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The visible record indicates EPA has RIA and risk materials, but proposal-specific impacts of broader discretion and removed demonstrations are not fully surfaced in the packet.",
-      "evidence": [
-        {
-          "section": "RIA extract",
-          "quote_or_absence": "The docketed RIA covers costs, monetized and non-monetized benefits, distributional analysis, and uncertainty."
-        },
-        {
-          "section": "NPRM Summary",
-          "quote_or_absence": "The proposal would eliminate the environmental demonstration for non-roadway use of more than 12,400 tons of unencapsulated CCR on land."
-        }
-      ],
-      "comment_leverage": "Ask EPA to show how costs, benefits, and environmental-justice impacts change under the new carveouts."
-    },
-    {
-      "flaw_key": "targetability_abuse_surface",
-      "flaw_name": "Targetability / Abuse Surface",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "The rule concerns CCR waste-management categories and does not create a targeting mechanism.",
-      "evidence": [],
-      "comment_leverage": "No specific structural comment needed beyond ordinary record support."
-    },
-    {
-      "flaw_key": "safeguard_absence",
-      "flaw_name": "Safeguard Absence",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The proposal removes or customizes some safeguards, but the record may support replacement safeguards if EPA states them clearly.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to list substitute safeguards for each removed demonstration or default requirement."
-    },
-    {
-      "flaw_key": "externality_dumping",
-      "flaw_name": "Externality Dumping",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "If cleanup levels, closure schedules, or beneficial-use exclusions are loosened without clear floors, residual risk could shift to nearby communities and groundwater users.",
-      "evidence": [
-        {
-          "section": "NPRM Summary",
-          "quote_or_absence": "The site-specific pathway covers cleanup levels, closure requirements, and closure timeframes."
-        },
-        {
-          "section": "Risk assessment extract",
-          "quote_or_absence": "EPA identifies risks to human health and ecological receptors from CCR constituents in groundwater, surface water, and wastewater exposure pathways."
-        }
-      ],
-      "comment_leverage": "Ask EPA to prevent burden reduction from being achieved by shifting unmeasured risk to communities."
-    },
-    {
-      "flaw_key": "suspicion_machine",
-      "flaw_name": "Suspicion Machine",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "No suspicion-scoring, surveillance, or analogous mechanism is present.",
-      "evidence": [],
-      "comment_leverage": "No specific structural comment needed beyond ordinary record support."
-    },
-    {
-      "flaw_key": "accountability_substrate_degradation",
-      "flaw_name": "Accountability Substrate Degradation",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The rule could reduce national uniformity if site-specific permitting records are inconsistent.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to create standardized public record elements for site-specific CCR determinations."
-    },
-    {
-      "flaw_key": "harm_before_review",
-      "flaw_name": "Harm Before Review",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The proposal would generally operate through permitting and regulatory processes, so direct harm-before-review risk appears limited.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to clarify transition timing and whether existing protections remain during permit revisions."
-    },
-    {
-      "flaw_key": "procedural_gateway_control",
-      "flaw_name": "Procedural Gateway Control",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The new permitting pathway becomes the gateway for important substantive outcomes, including points of compliance and cleanup levels.",
-      "evidence": [
-        {
-          "section": "NPRM Summary",
-          "quote_or_absence": "EPA proposes a compliance pathway allowing site-specific considerations during permitting."
-        }
-      ],
-      "comment_leverage": "Ask EPA to make the gateway criteria objective, public, and reviewable."
-    },
-    {
-      "flaw_key": "consequence_class_ambiguity",
-      "flaw_name": "Consequence-Class Ambiguity",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The proposal does not fully classify when site-specific changes become materially less protective.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to define consequence thresholds requiring denial, mitigation, or additional monitoring."
-    },
-    {
-      "flaw_key": "ambiguity_enabled_gatekeeping",
-      "flaw_name": "Ambiguity-Enabled Gatekeeping",
-      "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "Ambiguity in definitions of dewatering structures, storage piles, and excluded beneficial uses could determine regulatory coverage.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA for examples and counterexamples for each key definition."
-    },
-    {
-      "flaw_key": "structural_coherence",
-      "flaw_name": "Structural Coherence",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The package is coherent as a flexibility proposal, but its cross-cutting changes need a clearer unifying protectiveness principle.",
-      "evidence": [],
-      "comment_leverage": "Ask EPA to state the common limiting principle for all exemptions and site-specific departures."
-    }
-  ],
-  "pass_5_failure_modes": {
-    "incompetence_administrative_incoherence": false,
-    "instrumental_disruption": false,
-    "ambiguity_as_mechanism": false,
-    "conversion_surface": {
-      "present": false,
-      "source_surface": "",
-      "converted_surface": "",
-      "authority_used": "",
-      "new_control_point": "",
-      "affected_constraint": "",
-      "harm_before_review_pathway": ""
-    }
-  },
+  "pass_5_concise_why": null,
+  "pass_5_most_important_consequence": null,
+  "pass_5_defect_families": [],
+  "pass_5_flaws": [],
+  "pass_5_failure_modes": {},
   "pass_2_flags": [
     "epa_missing_cost_per_unit_signal",
     "high_obligation_low_evidence_language",
@@ -346,9 +92,78 @@
   "rule_text_sources": [
     "https://www.federalregister.gov/documents/full_text/html/2026/06/12/2026-11885.html"
   ],
-  "supporting_related_material_count": 412,
+  "supporting_related_material_count": 415,
   "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "EPA-HQ-OLEM-2020-0107-1565",
+      "tracking_number": "mqb-7sk0-mf7c",
+      "title": "Memo to the Docket June 9 Sierra Club et al Meeting Summary",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "Memo documenting the June 9, 2026 meeting between Sierra Club et al and EPA. EPA listened to Sierra Club as other representatives from front-line communities and asked clarifying questions",
+      "posted_date": "2026-06-15T04:00:00Z",
+      "received_date": "2026-06-12T04:00:00Z",
+      "author_date": "2026-06-09T04:00:00Z",
+      "authors": [
+        "Taylor Holt"
+      ],
+      "page_count": 2,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-1565/content.pdf",
+          "format": "pdf",
+          "size": 78524
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OLEM-2020-0107-1566",
+      "tracking_number": "mqb-boxx-ru05",
+      "title": "OLEM June 12, 2026, Response to June 1 Request for Extended Comment Period from Berkshire Hathaway Energy",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "OLEM response dated June 12, 2026, to Berkshire Hathaway Energy request for 17-day comment period extensions for the Legacy/CCRMU Amendments Proposed Rule",
+      "posted_date": "2026-06-15T04:00:00Z",
+      "received_date": "2026-06-12T04:00:00Z",
+      "author_date": "2026-06-12T04:00:00Z",
+      "authors": [
+        "Steven Cook"
+      ],
+      "page_count": 1,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-1566/content.pdf",
+          "format": "pdf",
+          "size": 137957
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OLEM-2020-0107-1564",
+      "tracking_number": "mqb-75h1-825a",
+      "title": "OLEM April 30, 2026, Response to April 17 Request for Extended Comment Period and In-Person Hearing from Sierra Club et al.",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "OLEM response dated April 30, 2026, to Sierra Club et al request for 30-day comment per and an in-person hearing for the Legacy/CCRMU Amendments Proposed Rule",
+      "posted_date": "2026-06-15T04:00:00Z",
+      "received_date": "2026-06-12T04:00:00Z",
+      "author_date": "2026-04-30T04:00:00Z",
+      "authors": [
+        "Steven Cook"
+      ],
+      "page_count": 2,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-1564/content.pdf",
+          "format": "pdf",
+          "size": 158990
+        }
+      ]
+    },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1493",
       "tracking_number": "mng-5mhw-v326",
@@ -1608,26 +1423,18 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1465",
-      "tracking_number": "mng-delq-0g3e",
+      "tracking_number": null,
       "title": "EEI - EPA Briefing Memo 2025-04-14",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-04-13T04:00:00Z",
-      "received_date": "2026-04-01T04:00:00Z",
-      "author_date": "2025-04-14T04:00:00Z",
-      "authors": [
-        "Edison Electric Institute (EEI)"
-      ],
-      "page_count": 3,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-1465/content.pdf",
-          "format": "pdf",
-          "size": 167881
-        }
-      ]
+      "received_date": null,
+      "author_date": null,
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1385",
@@ -1698,19 +1505,17 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1393",
-      "tracking_number": "mn6-7y7n-x1o9",
+      "tracking_number": null,
       "title": "Ash at Work - Ash as a Recoverable Resource - Issue 2, 2022",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-04-13T04:00:00Z",
-      "received_date": "2026-03-25T04:00:00Z",
-      "author_date": "2022-01-01T05:00:00Z",
-      "authors": [
-        "American Coal Ash Association (ACAA)"
-      ],
-      "page_count": 80,
-      "media": "Electronic",
+      "received_date": null,
+      "author_date": null,
+      "authors": null,
+      "page_count": null,
+      "media": null,
       "file_formats": null
     },
     {
@@ -3199,24 +3004,18 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1098",
-      "tracking_number": "mcj-9snv-dzlg",
+      "tracking_number": null,
       "title": "Recommendations for Updating the Federal Coal Combustion Residual (CCR) Regulations",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2025-07-22T04:00:00Z",
-      "received_date": "2025-06-30T04:00:00Z",
+      "received_date": null,
       "author_date": null,
       "authors": null,
-      "page_count": 23,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-1098/content.pdf",
-          "format": "pdf",
-          "size": 212917
-        }
-      ]
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1102",
@@ -3246,26 +3045,18 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1099",
-      "tracking_number": "mcj-kvhe-1y96",
+      "tracking_number": null,
       "title": "Summary of Meeting between EPA and Edison Electric Institute on March 6, 2025",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2025-07-22T04:00:00Z",
-      "received_date": "2025-06-30T04:00:00Z",
-      "author_date": "2025-06-30T04:00:00Z",
-      "authors": [
-        "Andy Crossland"
-      ],
-      "page_count": 1,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-1099/content.pdf",
-          "format": "pdf",
-          "size": 63172
-        }
-      ]
+      "received_date": null,
+      "author_date": null,
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1095",
@@ -4597,24 +4388,18 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1035",
-      "tracking_number": "lv5-8q8q-klbe",
+      "tracking_number": null,
       "title": "Volume III Response to Comments- Risk. April 2024",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2024-05-08T04:00:00Z",
-      "received_date": "2024-04-18T04:00:00Z",
-      "author_date": "2024-04-01T04:00:00Z",
+      "received_date": null,
+      "author_date": null,
       "authors": null,
-      "page_count": 113,
-      "media": "Electronic ",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-1035/content.pdf",
-          "format": "pdf",
-          "size": 1017965
-        }
-      ]
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-1054",
@@ -7638,26 +7423,18 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-0871",
-      "tracking_number": "lnk-iq40-bgen",
+      "tracking_number": null,
       "title": "U.S. EPA. 2004. Review of EPA\u2019s Multimedia, Multipathway, and Multireceptor Risk Assessment (3MRA) Modeling System. EPA-SAB-05-003. Prepared by the 3MRA Review Panel of the EPA Science Advisory Board. November",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-11-14T05:00:00Z",
-      "received_date": "2023-10-10T04:00:00Z",
-      "author_date": "2004-11-01T05:00:00Z",
-      "authors": [
-        "USEPA"
-      ],
-      "page_count": 130,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-0871/content.pdf",
-          "format": "pdf",
-          "size": 6569724
-        }
-      ]
+      "received_date": null,
+      "author_date": null,
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-0842",
@@ -7701,26 +7478,18 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-0885",
-      "tracking_number": "lnk-iq40-bgen",
+      "tracking_number": null,
       "title": "U.S. EPA. 2014a. Final Human and Ecological Risk Assessment of Coal Combustion Residuals. RIN: 2050-AE81. Prepared by the EPA Office of Solid Waste and Emergency Response. Washington, DC. December",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-11-14T05:00:00Z",
-      "received_date": "2023-10-10T04:00:00Z",
-      "author_date": "2014-12-01T05:00:00Z",
-      "authors": [
-        "USEPA"
-      ],
-      "page_count": 1237,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-0885/content.pdf",
-          "format": "pdf",
-          "size": 18798943
-        }
-      ]
+      "received_date": null,
+      "author_date": null,
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-0810",
@@ -9123,24 +8892,18 @@
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-0003",
-      "tracking_number": "1k4-9gkh-zzl9",
+      "tracking_number": null,
       "title": "Information Request Responses from Electric Utilities (April 30, 2010)",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2020-10-14T04:00:00Z",
-      "received_date": "2020-05-08T04:00:00Z",
-      "author_date": "2010-04-30T04:00:00Z",
+      "received_date": null,
+      "author_date": null,
       "authors": null,
-      "page_count": 6,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2020-0107-0003/content.xlsx",
-          "format": "xlsx",
-          "size": 157413
-        }
-      ]
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OLEM-2020-0107-0005",
@@ -9170,15 +8933,15 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 0,
+  "comments_total": 63,
   "comments_velocity_total": 0,
   "comments_public_total_estimate": 0,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
+  "comments_fetched": 17,
+  "comments_text_hydrated": 29,
   "comments_cached_records": 63,
-  "comments_unique_clusters": 55,
+  "comments_unique_clusters": 61,
   "comments_clustered_duplicates": 2,
-  "comments_truncated": false,
+  "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 0,
@@ -9192,18 +8955,18 @@
   "comments_new_cluster_count_by_day": {},
   "comments_high_signal_cluster_count_by_day": {},
   "comments_novel_comment_rate": 0.0,
-  "comments_sentiment_positive_pct": 0.040816326530612256,
-  "comments_sentiment_negative_pct": 0.42857142857142866,
-  "comments_sentiment_neutral_pct": 0.5306122448979592,
-  "comments_sentiment_net": -0.3877551020408164,
-  "comments_sentiment_sample_size": 49,
+  "comments_sentiment_positive_pct": 0.036363636363636376,
+  "comments_sentiment_negative_pct": 0.40000000000000013,
+  "comments_sentiment_neutral_pct": 0.5636363636363635,
+  "comments_sentiment_net": -0.36363636363636376,
+  "comments_sentiment_sample_size": 55,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 57,
+  "comments_analysis_sample_size": 63,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 57,
-  "comments_representative_prior_selected": 57,
+  "comments_representative_selected": 63,
+  "comments_representative_prior_selected": 63,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 23,
   "comments_representative_run_budget": 0,
@@ -9213,15 +8976,15 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 23,
     "salience_rank": 2,
-    "weighted_fill": 32
+    "weighted_fill": 38
   },
-  "comments_representative_selected_by_counts_total": 57,
+  "comments_representative_selected_by_counts_total": 63,
   "comments_api_backfill_next_page": 1,
-  "comments_api_backfill_complete": false,
+  "comments_api_backfill_complete": true,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-15T09:48:26.665763+00:00",
-  "comments_checked_at": "2026-06-15T09:48:26.665921+00:00",
+  "comments_api_last_seen_at": "2026-06-19T10:03:38.711470+00:00",
+  "comments_checked_at": "2026-06-19T10:03:38.711624+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
@@ -9248,10 +9011,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Public Health Law Center (PHLC)",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         },
@@ -9263,10 +9026,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Alliance of Nurses for Healthy Environments (ANHE)",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
@@ -9299,10 +9062,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Commission on Social Action of Reform Judaism",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         },
@@ -9314,10 +9077,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Ute Indian Tribe of the Uintah and Ouray Reservation",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         }
@@ -9327,7 +9090,7 @@
       "presentation_score": 0.794226473323376
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1492",
@@ -9350,7 +9113,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Becky Dilba",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9363,7 +9126,7 @@
       "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1508",
@@ -9386,7 +9149,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Phyllis Blumberg",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9399,7 +9162,7 @@
       "presentation_score": 0.8057070705230238
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1510",
@@ -9422,7 +9185,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Lindsay Wennihan",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9435,7 +9198,7 @@
       "presentation_score": 0.8057070705230238
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1518",
@@ -9458,7 +9221,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Angela Enright",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9471,7 +9234,7 @@
       "presentation_score": 0.8289213562373096
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1519",
@@ -9494,7 +9257,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Anonymous public comment",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9507,7 +9270,7 @@
       "presentation_score": 0.850349927665881
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1523",
@@ -9530,7 +9293,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Kate Tapley",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9566,10 +9329,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Iowa Environmental Council",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         }
@@ -9602,7 +9365,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Grace Schwartz",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9638,7 +9401,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Victoria Gualario",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9674,7 +9437,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Lynda Heideman",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9710,7 +9473,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Ellen Hornstein",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9723,7 +9486,7 @@
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1534",
@@ -9746,10 +9509,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Consumers Energy",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         }
@@ -9759,7 +9522,7 @@
       "presentation_score": 0.8860642133801667
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1524",
@@ -9782,7 +9545,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Lucas Quinn",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9818,10 +9581,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Office of the Secretary of Energy and Environment, State of Oklahoma",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "government_state",
+          "submissionRoleConfidence": "medium",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
         }
@@ -9854,7 +9617,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Steve Cohen et al., Congress of the United States",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9876,7 +9639,7 @@
       "representative_excerpt": "Regulations should be based on sound scientific data, modern engineering practices, and continuous evaluation of emerging technologies. As Larry Dembrun, I support regulatory approaches that encourage electric utilities to adopt improved waste management practices, invest in safer disposal methods, and implement technologies that reduce long-term...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
-      "representative_submission_channel": "other_channel_recorded",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -9890,12 +9653,12 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Larry  Dembrun",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
@@ -9926,7 +9689,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Public Citizen",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -9948,7 +9711,7 @@
       "representative_excerpt": "Additionally, the State is actively advancing the development and eventual deployment of small modular nuclear reactors (SMRs) as part of its long-term energy portfolio. However, bringing these highly sophisticated technologies to the scale needed to fully meet grid demand will require decades of sustained capital deployment and infrastructure development....",
       "representative_signal_score": 2,
       "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
@@ -9962,12 +9725,12 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Public Lands Policy Coordinating Office, State of Utah et al.",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
+          "submissionRole": "government_state",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         }
       },
       "representative_has_attachment": false,
@@ -9998,7 +9761,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Anonymous public comment",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10034,7 +9797,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Hannah Varadi",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10047,7 +9810,7 @@
       "presentation_score": 0.758088022903976
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1533",
@@ -10070,7 +9833,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Thomas Schuster",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10083,7 +9846,7 @@
       "presentation_score": 0.7473737371896904
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1532",
@@ -10106,7 +9869,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Nick Blocha",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10119,7 +9882,7 @@
       "presentation_score": 0.7420165943325475
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1531",
@@ -10142,7 +9905,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by John Todd Waterman",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10155,7 +9918,7 @@
       "presentation_score": 0.7402308800468332
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1517",
@@ -10178,7 +9941,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Jay Bassett",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10191,7 +9954,7 @@
       "presentation_score": 0.695588022903976
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1504",
@@ -10214,7 +9977,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Amy Polt",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10227,7 +9990,7 @@
       "presentation_score": 0.6723737371896903
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1509",
@@ -10250,7 +10013,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Frances E. Pope",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10263,7 +10026,7 @@
       "presentation_score": 0.6723737371896903
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1511",
@@ -10286,7 +10049,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Multiple More Coal = Initiative Prevention CO2 Catastrophe (MMC=IPCC)",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10299,7 +10062,7 @@
       "presentation_score": 0.6723737371896903
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1491",
@@ -10322,7 +10085,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Paulette Livers",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10358,7 +10121,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Susan Williams",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10371,7 +10134,7 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1528",
@@ -10394,7 +10157,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Cindy Warren",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10407,7 +10170,7 @@
       "presentation_score": 0.6068975467134999
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1529",
@@ -10430,7 +10193,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Environmental Protection Network (EPN)",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10443,7 +10206,7 @@
       "presentation_score": 0.6068975467134999
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1520",
@@ -10466,7 +10229,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Protect All Children's Environment (PACE)",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10479,7 +10242,7 @@
       "presentation_score": 0.589040403856357
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1512",
@@ -10502,7 +10265,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Anonymous public comment",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10515,7 +10278,7 @@
       "presentation_score": 0.539040403856357
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1513",
@@ -10538,7 +10301,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Anonymous public comment",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10551,7 +10314,7 @@
       "presentation_score": 0.539040403856357
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1515",
@@ -10574,7 +10337,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Alxe Slrck",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10587,7 +10350,7 @@
       "presentation_score": 0.539040403856357
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1488",
@@ -10610,7 +10373,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Eileen Puterski",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10623,7 +10386,7 @@
       "presentation_score": 0.5247546895706428
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1489",
@@ -10646,7 +10409,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Teresa de Lima",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10682,10 +10445,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Arizona Public Service Company (APS)",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
@@ -10718,10 +10481,10 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Hoosier Energy Rural Electric Cooperative, Inc.",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
@@ -10731,7 +10494,43 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1536",
+      "representative_posted_date": "2026-06-09T04:00:00Z",
+      "representative_length": 366,
+      "representative_excerpt": "Please require coal-burning plants to follow strict rules for controlling coal ash in perpetuity. Since \"perpetuity\" is impossible, please make attempting to prevent coal ash contamination of water and land mandatory, thus increasing the cost per MWh of coal-generated energy no longer competitive, thus accelerating the retirement of all coal-burning energy...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1536": {
+          "organization": "",
+          "postedDate": "2026-06-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by William Leighty",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4878499276658809
+    },
+    {
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1530",
@@ -10754,7 +10553,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Judy Gayer",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10767,7 +10566,7 @@
       "presentation_score": 0.47356421338016663
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1521",
@@ -10790,7 +10589,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by T. Cassidy",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10803,7 +10602,7 @@
       "presentation_score": 0.46463564195159524
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1522",
@@ -10826,7 +10625,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Nicholas Keller",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10839,7 +10638,7 @@
       "presentation_score": 0.46463564195159524
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1525",
@@ -10862,7 +10661,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Jonesy Pfeiffer",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10875,7 +10674,7 @@
       "presentation_score": 0.46463564195159524
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1526",
@@ -10898,7 +10697,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Megan Lambert",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10911,7 +10710,79 @@
       "presentation_score": 0.46463564195159524
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 56,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1496",
+      "representative_posted_date": "2026-04-24T04:00:00Z",
+      "representative_length": 133,
+      "representative_excerpt": "Please maintain and strengthen all EPA rules for safely disposing of toxic coal ash so it doesn\u2019t destroy our country\u2019s water supply.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1496": {
+          "organization": "",
+          "postedDate": "2026-04-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4057070705230238
+    },
+    {
+      "cluster_id": 55,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1497",
+      "representative_posted_date": "2026-04-24T04:00:00Z",
+      "representative_length": 359,
+      "representative_excerpt": "Do not roll back regulations on coal ash! The EPA needs to be working to ensure that the pollution and heavy metals from coal ash are never allowed to keep into ground water or any other water sources and needs to be looking to retire dirty coal plants & replace with clean & renewable energy sources from solar/wind coupled to battery energy storage systems.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1497": {
+          "organization": "",
+          "postedDate": "2026-04-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Patrick Reid",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4057070705230238
+    },
+    {
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1498",
@@ -10934,7 +10805,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Kirk Boller",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10947,7 +10818,43 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 53,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1499",
+      "representative_posted_date": "2026-04-24T04:00:00Z",
+      "representative_length": 227,
+      "representative_excerpt": "I lived in a coal mining community growing up in WV and it was ugly and depressing. The coal mining industry should clean up after itself. It is getting our coal free. It ought to leave the country beautiful like they found it.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1499": {
+          "organization": "",
+          "postedDate": "2026-04-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Norma Hanson",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4057070705230238
+    },
+    {
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1500",
@@ -10970,7 +10877,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Christina Moore",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -10983,7 +10890,7 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1501",
@@ -11006,7 +10913,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Alex Smith",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -11019,7 +10926,43 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 50,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1502",
+      "representative_posted_date": "2026-04-24T04:00:00Z",
+      "representative_length": 386,
+      "representative_excerpt": "Dear Sir or Madam: This EPA proposed rule should not go forward and should be rescinded. This rule endangers public health and safety from coal ash in the US. Coal ash is full of toxins. NC and TN have had coal ash spills with disastrous effects. This rule is a gift to the coal and electric utilities from the White House and is all about money over the...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1502": {
+          "organization": "",
+          "postedDate": "2026-04-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Dave Hill",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4057070705230238
+    },
+    {
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1503",
@@ -11042,7 +10985,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Nicole Chandler",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -11055,7 +10998,7 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1505",
@@ -11078,7 +11021,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Chris Ross",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -11091,7 +11034,7 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1506",
@@ -11114,7 +11057,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Patricia Simmons",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -11127,7 +11070,7 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1507",
@@ -11150,7 +11093,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Katie Grause",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -11163,7 +11106,7 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1514",
@@ -11186,7 +11129,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Anonymous public comment",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -11199,7 +11142,7 @@
       "presentation_score": 0.4057070705230238
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1516",
@@ -11222,7 +11165,7 @@
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "",
+          "title": "Comment submitted by Kathryn Kosse",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -11233,6 +11176,42 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.4057070705230238
+    },
+    {
+      "cluster_id": 59,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2020-0107-1490",
+      "representative_posted_date": "2026-04-16T04:00:00Z",
+      "representative_length": 384,
+      "representative_excerpt": "Beneficial use was an interesting concept, as I never thought about the fact that coal ash could be re-used in general. Recycling has been shown to be a great alternative for waste removal, reducing negative environmental impacts that may occur due to the multiple consequences of built-up waste....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2020-0107-1490": {
+          "organization": "",
+          "postedDate": "2026-04-16T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Lorena Delacruz",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3914213562373095
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2020-0107.csv",
@@ -11240,10 +11219,10 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.47368421052631576,
+  "comments_first_page_coverage_share": 0.42857142857142855,
   "comments_first_page_coverage_count": 27,
-  "comments_clusters_total_available": 55,
-  "comments_clusters_displayed": 55,
+  "comments_clusters_total_available": 61,
+  "comments_clusters_displayed": 61,
   "comments_first_page_high_signal_clusters": 14,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
