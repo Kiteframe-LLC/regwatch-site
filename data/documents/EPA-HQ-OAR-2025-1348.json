@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-19T17:49:58.919791+00:00",
+  "comment_action_checked_at": "2026-06-20T01:51:42.813447+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -32,7 +32,7 @@
   "pass_2_scaled": 0.8642791191702541,
   "pass_3_scaled": 0.40534508192121943,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6704430316126619,
+  "combined_score": 1.0,
   "score_total": 21,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -48,37 +48,339 @@
     "reversal_or_reinterpretation"
   ],
   "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "combined_score_pre_pass5": 1.0,
+  "pass_5_alpha": 0.65,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.805771198769536,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 1,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 1,
+  "pass_5_base_defect_score": 0.771496,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal affects hazardous air pollutant standards for oil and gas facilities, including facilities near communities and Tribal lands, so implementation and source-counting choices can affect public health exposure and compliance scope.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is structurally coherent, but several central claims depend on baseline data, statutory interpretation, and source-counting choices that are only partly resolved in the notice text.",
+  "pass_5_most_important_consequence": "If the baseline assumptions or associated-equipment revision are under-supported, the final rule could shift compliance obligations or foreclose emissions controls without a fully transparent record.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.388
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 1,
+      "mean_severity": 0.4,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.168
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "EPA offers a no-obligation interpretation for previously unregulated emission points, but it also presents an alternative MACT-style pathway, so the authority choice remains a live structural question rather than a settled one.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to explain which legal theory controls and why that theory is the better fit for the final rule."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal does not invert the statute, but the no-obligation theory narrows the scope of review in a way commenters may view as under-reading section 112(d)(6).",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to defend the limiting reading with text and precedent."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule sequences the no-obligation theory, the alternative standards, and the source-counting revision in a way that could blur which constraints actually drive the final regulatory choice.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to separate the legal, technical, and burden-reduction rationales for each proposal piece."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal reaches into new emission points and a revised major-source definition while relying on limited baseline detail in the notice text to support minimal-cost and no-impact claims.",
+      "evidence": [
+        {
+          "section": "Section III.B.4 / Summary",
+          "quote_or_absence": "The notice says the alternative standards would have minimal costs and no emissions impacts, but the detailed baseline assumptions are not fully reproduced in the notice text."
+        }
+      ],
+      "comment_leverage": "Ask EPA to publish the facility-level baseline assumptions and show how each proposed standard maps to actual operating conditions."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposed remedy generally matches the identified problems, but the split between a no-obligation theory and a fallback standards path deserves a clearer final explanation.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to explain why each remedy is the right one for the specific problem it identifies."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "EPA proposes practical compliance dates and says costs are minimal, which is plausible, but the final schedule still depends on procurement and installation realities not fully shown in the notice.",
+      "evidence": [],
+      "comment_leverage": "Ask for lead-time and installation evidence supporting the selected compliance period."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "EPA does not deny impact entirely, but the notice repeatedly emphasizes no-impact or minimal-impact conclusions that still depend on unstated baseline detail.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to quantify the emissions and compliance implications under at least a few realistic baseline cases."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal includes reporting and question-table safeguards, but the notice does not fully specify how data quality, update cadence, or source-count validation will be maintained in the final regime.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to specify validation, correction, and enforcement procedures for the final reporting requirements."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The associated-equipment change would reduce burdens on industry, but the notice does not fully quantify how any resulting burden reduction balances against potential oversight or emissions effects.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to quantify source-count and compliance effects before finalizing the burden-reducing definition change."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The associated-equipment revision changes a threshold-like classification rule for major-source status, but the notice does not yet quantify the full gatekeeping effect.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to estimate how many units or facilities change regulatory status under the revised definition."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice mixes several consequence classes - cost savings, recordkeeping burden, emissions impacts, and source-count effects - without fully mapping them to distinct analytic outputs.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to map each proposal element to a separate consequence category and quantified metric."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal is coherent overall, but the no-obligation theory, fallback standards, and major-source-definition revision would be easier to assess if the final record more clearly separated the logic of each path.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to provide a one-to-one logic map from problem to remedy for each alternative path."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "epa_missing_cost_per_unit_signal",
