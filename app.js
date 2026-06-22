@@ -8,7 +8,8 @@ const COMBINED_WEIGHT_PASS3 = 0.50;
 const PASS3_FRESHNESS_BOOST = 0.5;
 const PASS3_DEADLINE_RAMP_MAX = 3.0;
 const PASS4_ALPHA_DEFAULT = 0.15;
-const PASS5_ALPHA_DEFAULT = 0.65;
+const PASS5_ALPHA_DEFAULT = 0.25;
+const COMMENT_COUNT_UNSUPPORTED_BONUS = 0.35;
 const PASS5_TIER_SCALES = {
   "Run-of-the-mill": 0.0,
   "Low concern": 0.0,
@@ -164,6 +165,9 @@ function combinedScoreClient(record) {
   if (pass5Scaled > 0) {
     const pass5Alpha = Number(record.pass_5_alpha || PASS5_ALPHA_DEFAULT);
     combined *= 1 + Math.max(0, pass5Alpha) * Math.min(1, pass5Scaled);
+  }
+  if (record.comment_count_supported === false) {
+    combined *= 1 + COMMENT_COUNT_UNSUPPORTED_BONUS;
   }
   return Math.min(1, combined);
 }

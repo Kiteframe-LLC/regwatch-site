@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-22T10:02:23.426954+00:00",
+  "comment_action_checked_at": "2026-06-22T18:00:33.675416+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,83 +39,397 @@
   "pass_2_scaled": 0.959051813626104,
   "pass_3_scaled": 0.6479068997902151,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7790755253845807,
+  "combined_score": 0.9241241194592051,
   "score_total": 17,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "POLICY_REINTERPRETATION",
   "pass_2_routine_admin_score": 6,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "high_comment_leverage_probability",
-  "pass_4_raw": 5,
-  "pass_4_scaled": 0.4708333333333333,
+  "pass_4_raw": 3,
+  "pass_4_scaled": 0.33749999999999997,
   "pass_4_axes": {
-    "statutory_authority_fit": 0,
-    "procedural_compliance_risk": 1,
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 0,
     "retroactivity_fair_notice_risk": 0,
     "federalism_preemption_risk": 1,
     "reasoned_explanation_completeness": 2,
     "alternatives_analysis_adequacy": 1,
-    "cost_benefit_transparency": 2,
+    "cost_benefit_transparency": 1,
     "data_quality_uncertainty_handling": 1,
-    "arbitrary_line_drawing_risk": 2,
-    "distributional_omission_risk": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 0,
     "environmental_justice_analysis_risk": 0,
     "small_entity_impact_rfa_risk": 1,
     "implementation_feasibility_risk": 1,
-    "enforcement_clarity_risk": 2,
+    "enforcement_clarity_risk": 1,
     "monitoring_and_feedback_design_quality": 0
   },
   "pass_4_domain_means": {
     "L": 0.5,
-    "A": 1.6,
-    "H": 0.6666666666666666,
-    "E": 1.0
+    "A": 1.2,
+    "H": 0.3333333333333333,
+    "E": 0.6666666666666666
   },
   "pass_4_signals": [
     "alternatives_analysis_adequacy",
     "arbitrary_line_drawing_risk",
     "cost_benefit_transparency",
     "data_quality_uncertainty_handling",
-    "distributional_omission_risk",
     "enforcement_clarity_risk",
     "federalism_preemption_risk",
     "implementation_feasibility_risk",
-    "procedural_compliance_risk",
     "reasoned_explanation_completeness",
-    "small_entity_impact_rfa_risk"
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
   ],
-  "pass_4_primary_concern": "EPA proposes a meaningful deregulatory rewrite of NSR permit timing without yet fully showing that broader pre-permit construction exclusions will avoid permit leverage problems and remain clear in practice.",
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_primary_concern": "The proposal is conceptually coherent, but the record leaves the biggest pressure points in baseline support, boundary drawing, and enforceability of the non-emitting-component carveout.",
+  "combined_score_pre_pass5": 0.7645218670002802,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.8350434923994999,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 2,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 2,
+  "pass_5_base_defect_score": 0.835043,
+  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.0,
+  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is structurally ordinary for an NPRM, but the carveout boundary and the burden story still need sharper support.",
+  "pass_5_most_important_consequence": "Commenters can still shape how EPA defines the non-emitting carveout, handles reliance, and keeps state-by-state implementation consistent.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.388
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 0.667,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.375
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 1,
+      "mean_severity": 0.6,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.182
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "EPA relies on statutory interpretation plus program redesign rather than an enforcement-specific workaround.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to show why the proposed reading is the best statutory fit."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule reads the CAA as allowing more pre-permit construction than the current practice appears to allow.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to identify the text and precedent that support the new reading."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule allows more early work before the permit gate closes, which can shift leverage toward applicants that front-load construction.",
+      "evidence": [],
+      "comment_leverage": "Ask whether later permit discretion remains fully insulated from sunk-cost pressure."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal says the current language creates uncertainty, delays, and regulatory burdens, but the notice text does not fully quantify the claimed problem.",
+      "evidence": [
+        {
+          "section": "I. Executive Summary",
+          "quote_or_absence": "uncertainties, delays, and regulatory burdens"
+        },
+        {
+          "section": "VI. Request for Comments",
+          "quote_or_absence": "expected economic benefits for industry"
+        }
+      ],
+      "comment_leverage": "Ask EPA to disclose the project-frequency and cost evidence behind the burden claim."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "EPA's remedy is a broad definition rewrite even though the problem may vary by project type and permitting program.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA whether narrower guidance or model text would solve the same problem."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule depends on permit writers making consistent judgment calls about what counts as non-emitting work.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA for examples and model criteria that permit writers can actually apply."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "EPA says the rule preserves public health and welfare protections, but the notice does not fully show the magnitude of the practical impact tradeoff.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to quantify the retained protections and the remaining risk exposure."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Applicants could try to use the carveout to lock in site work before later emissions-unit review.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA how it will prevent strategic sequencing around the permit gate."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal relies on a case-by-case approach, but the notice does not yet provide a sufficiently objective safeguard for the non-emitting carveout boundary.",
+      "evidence": [
+        {
+          "section": "V. Policy Rationale",
+          "quote_or_absence": "case-by-case basis"
+        },
+        {
+          "section": "VI. Request for Comments / Question #4",
+          "quote_or_absence": "too general or too specific"
+        }
+      ],
+      "comment_leverage": "Ask EPA to add examples, exclusions, or model language that make the boundary enforceable."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "EPA acknowledges applicants may build early at their own economic risk, which can still create pressure before final NSR review.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to explain why the risk warning is enough to preserve the review process."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule shifts more activity into the pre-permit phase, so the permit gate must remain clean and enforceable.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA whether the later permit decision is fully insulated from early construction choices."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal separates non-emitting construction from source construction, but the practical consequences of that split are not fully mapped.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to map the consequence classes for common projects."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal is coherent overall, but the final carveout will need tighter drafting to avoid implementation drift.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to tighten the list and show how it will hold together across programs."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "assertion_heavy_vs_evidence_language",
     "deregulatory_carveout_with_thin_support",
@@ -3186,8 +3500,8 @@
   "comments_first_page_unique_days": 7,
   "summary_available": true,
   "raw_summary_available": true,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/EPA-HQ-OAR-2025-0618-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "EPA-HQ-OAR-2025-0618"

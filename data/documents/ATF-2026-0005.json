@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-22T10:02:23.366332+00:00",
+  "comment_action_checked_at": "2026-06-22T18:00:33.625394+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,7 +39,7 @@
   "pass_2_scaled": 0.6982911831727412,
   "pass_3_scaled": 0.9416175962815517,
   "ranking_multiplier": 1.0,
-  "combined_score": 1.0,
+  "combined_score": 0.8555427193792517,
   "score_total": 10,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -47,7 +47,7 @@
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "moderate_analytical_concern",
   "pass_4_raw": 2,
-  "pass_4_scaled": 0.175,
+  "pass_4_scaled": 0.24999999999999997,
   "pass_4_axes": {
     "statutory_authority_fit": 0,
     "procedural_compliance_risk": 0,
@@ -55,9 +55,9 @@
     "federalism_preemption_risk": 0,
     "reasoned_explanation_completeness": 1,
     "alternatives_analysis_adequacy": 1,
-    "cost_benefit_transparency": 0,
-    "data_quality_uncertainty_handling": 0,
-    "arbitrary_line_drawing_risk": 0,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
     "distributional_omission_risk": 1,
     "environmental_justice_analysis_risk": 0,
     "small_entity_impact_rfa_risk": 1,
@@ -67,46 +67,49 @@
   },
   "pass_4_domain_means": {
     "L": 0.0,
-    "A": 0.4,
+    "A": 1.0,
     "H": 0.6666666666666666,
     "E": 0.3333333333333333
   },
   "pass_4_signals": [
     "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
     "distributional_omission_risk",
     "enforcement_clarity_risk",
     "reasoned_explanation_completeness",
     "small_entity_impact_rfa_risk"
   ],
-  "pass_4_primary_concern": "The proposal is coherent but leaves the strongest comment leverage in traceability evidence, small-business effects, and plain-language scope guidance.",
-  "combined_score_pre_pass5": 0.7948139648754842,
-  "pass_5_alpha": 0.65,
+  "pass_4_primary_concern": "The cost-benefit and traceability case is plausible but only partly evidenced, especially on how often the adopted-markings approach affects real-world tracing and maker behavior.",
+  "combined_score_pre_pass5": 0.8246194885583149,
+  "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
-  "pass_5_label": "Serious \u00b7 Evidence and Rationale Integrity",
-  "pass_5_assessment": "Serious \u00b7 Evidence and Rationale Integrity",
-  "pass_5_assessment_tier": "Serious",
-  "pass_5_scaled": 0.45220693599999995,
-  "pass_5_worst_flaw_severity": 1,
-  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
-  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_label": "Run-of-the-mill \u00b7 Safeguards and Accountability",
+  "pass_5_assessment": "Run-of-the-mill \u00b7 Safeguards and Accountability",
+  "pass_5_assessment_tier": "Run-of-the-mill",
+  "pass_5_scaled": 0.1499999999999999,
+  "pass_5_worst_flaw_severity": 0,
+  "pass_5_worst_flaw_key": "authority_substitution",
+  "pass_5_worst_flaw_name": "Authority Substitution",
   "pass_5_material_flaw_count": 0,
-  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
-  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
-  "pass_5_worst_family_severity": 1,
+  "pass_5_worst_family_key": "safeguards_and_accountability",
+  "pass_5_worst_family_name": "Safeguards and Accountability",
+  "pass_5_worst_family_severity": 0,
   "pass_5_material_family_count": 0,
-  "pass_5_base_defect_score": 0.452207,
-  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_base_defect_score": 0.0,
+  "pass_5_scrutiny_pressure": 0.15,
   "pass_5_risk_pressure": 0.0,
-  "pass_5_context_pressure": 0.0,
-  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
   "pass_5_risk_multiplier": 1.0,
-  "pass_5_high_stakes_domain": false,
-  "pass_5_high_stakes_domain_reason": "",
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal concerns National Firearms Act firearms, traceability, and law-enforcement recovery of regulated weapons.",
   "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": "The proposal is structurally coherent and legally ordinary, but it rests on a narrow traceability premise and leaves small-business and administration details lightly developed.",
-  "pass_5_most_important_consequence": "If commenters cannot test the traceability premise and the small-business effect, the final rule could overstate certainty about both safety and savings.",
+  "pass_5_concise_why": "The rule is mostly coherent but still under-evidenced on the central tracing premise and on the size of the indirect economic spillovers.",
+  "pass_5_most_important_consequence": "If the traceability premise is overstated, the final rule could reduce physical redundancy without showing that the registry and original marks fully substitute for maker marks.",
   "pass_5_defect_families": [
     {
       "family_key": "authority_and_constitutional_fit",
@@ -134,11 +137,11 @@
         "impact_denial"
       ],
       "member_count": 4,
-      "worst_severity": 1,
-      "mean_severity": 0.75,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.194
+      "family_score": 0.0
     },
     {
       "family_key": "implementation_reality",
@@ -149,11 +152,11 @@
         "structural_coherence"
       ],
       "member_count": 3,
-      "worst_severity": 1,
-      "mean_severity": 0.333,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.163
+      "family_score": 0.0
     },
     {
       "family_key": "safeguards_and_accountability",
@@ -164,11 +167,11 @@
         "accountability_substrate_degradation"
       ],
       "member_count": 3,
-      "worst_severity": 1,
-      "mean_severity": 0.667,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.188
+      "family_score": 0.0
     },
     {
       "family_key": "burden_and_consequence_handling",
@@ -208,219 +211,189 @@
       "flaw_name": "Authority Substitution",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The rule does not substitute private authority for agency authority; ATF itself proposes the change.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "statutory_inversion",
       "flaw_name": "Statutory Inversion",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The proposal appears to implement the marking statute rather than invert it.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "accountability_inversion",
       "flaw_name": "Accountability Inversion",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The notice does not shift accountability away from ATF or the regulated maker in a structurally unusual way.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "self_policing_substitution",
       "flaw_name": "Self-Policing Substitution",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The rule keeps a federal registry and existing marking baseline; it does not rely purely on self-policing.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "constraint_sequencing_capture",
       "flaw_name": "Constraint Sequencing Capture",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The proposal does not obviously reorder constraints so that the public bears the loss before review.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "evidence_to_intrusion_mismatch",
       "flaw_name": "Evidence-to-Intrusion Mismatch",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The burden reduction is supported, but the traceability premise still depends on a thin empirical bridge.",
-      "evidence": [
-        {
-          "section": "Costs",
-          "quote_or_absence": "The notice says the firearm could still be traced through existing markings."
-        }
-      ],
-      "comment_leverage": "Ask ATF to show when the extra maker mark matters in real trace workflows."
+      "severity": 0,
+      "explanation": "The rule still has a traceability premise, but this record does not justify treating the evidence gap as material.",
+      "evidence": [],
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "remedy_rationale_mismatch",
       "flaw_name": "Remedy-Rationale Mismatch",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The remedy matches the burden it targets, but the public-safety rationale could be stated more directly.",
-      "evidence": [
-        {
-          "section": "Proposed Rule",
-          "quote_or_absence": "The notice says the requirement is burdensome and unnecessary."
-        }
-      ],
-      "comment_leverage": "Ask ATF to restate the traceability rationale in one short plain-language paragraph."
+      "severity": 0,
+      "explanation": "The remedy/rationale fit is adequate enough that this axis should not carry weight on its own.",
+      "evidence": [],
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "implementation_fantasy",
       "flaw_name": "Implementation Fantasy",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The proposal is implementable on its face and does not rely on impossible operational changes.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "magic_interface_dependency",
       "flaw_name": "Magic Interface Dependency",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The rule does not depend on a nonexistent technical interface or an opaque external system.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "threat_ambiguity",
       "flaw_name": "Threat Ambiguity",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The traceability risk is described at a high level, but the edge cases are not mapped in detail.",
-      "evidence": [
-        {
-          "section": "Costs",
-          "quote_or_absence": "The notice does not spell out edge-case trace failures."
-        }
-      ],
-      "comment_leverage": "Ask ATF to identify the specific scenarios that would make traceability fail."
+      "severity": 0,
+      "explanation": "The proposal discusses traceability and burden, not a vaguely defined threat model.",
+      "evidence": [],
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "impact_denial",
       "flaw_name": "Impact Denial",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The indirect small-entity effect is real but not strong enough here to score as a material loss of emphasis.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "targetability_abuse_surface",
       "flaw_name": "Targetability / Abuse Surface",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The rule does not create an obvious new abuse surface aimed at particular individuals or groups.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "safeguard_absence",
       "flaw_name": "Safeguard Absence",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The rule relies on existing records rather than adding new traceability safeguards.",
-      "evidence": [
-        {
-          "section": "Background",
-          "quote_or_absence": "The notice relies on Form 1 and NFRTR records instead of new guardrails."
-        }
-      ],
-      "comment_leverage": "Ask ATF whether any simple audit or guidance safeguard should accompany the exception."
+      "severity": 0,
+      "explanation": "The remaining safeguard question is not a standalone structural flaw in this docket.",
+      "evidence": [],
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "externality_dumping",
       "flaw_name": "Externality Dumping",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "Some revenue loss is shifted to gunsmiths and marking-service providers, even though the rule frames that effect as indirect.",
-      "evidence": [
-        {
-          "section": "RFA",
-          "quote_or_absence": "an unknown reduction in revenue for an unknown number of businesses"
-        }
-      ],
-      "comment_leverage": "Ask ATF to estimate how much revenue is actually at stake for affected businesses."
+      "severity": 0,
+      "explanation": "The spillover is too small and too speculative to count as a material externality on this pass.",
+      "evidence": [],
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "suspicion_machine",
       "flaw_name": "Suspicion Machine",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The rule does not create a new suspicion-based gatekeeping system.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "accountability_substrate_degradation",
       "flaw_name": "Accountability Substrate Degradation",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The NFRTR and underlying manufacturer marks remain part of the accountability substrate.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "harm_before_review",
       "flaw_name": "Harm Before Review",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "This is a proposal, not a completed operative change, so there is no finalized harm-before-review structure yet.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "procedural_gateway_control",
       "flaw_name": "Procedural Gateway Control",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The rule does not create a new procedural choke point or permit gate.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "consequence_class_ambiguity",
       "flaw_name": "Consequence-Class Ambiguity",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The consequences are relatively clear: reduced marking burden and possible reduced gunsmith work.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "ambiguity_enabled_gatekeeping",
       "flaw_name": "Ambiguity-Enabled Gatekeeping",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The exception is textually specific and not obviously an ambiguity-driven gatekeeping device.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "No special angle here."
     },
     {
       "flaw_key": "structural_coherence",
       "flaw_name": "Structural Coherence",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The proposal is coherent overall, but it depends on a narrow traceability bridge that should be easier to audit.",
-      "evidence": [
-        {
-          "section": "Proposed Rule",
-          "quote_or_absence": "The adopted-marking exception is narrower than a full removal of NFA marking requirements."
-        }
-      ],
-      "comment_leverage": "Ask ATF to show the full logic from existing markings to trace result to enforcement outcome."
+      "severity": 0,
+      "explanation": "The rule remains coherent enough that this axis should not be counted as a material defect.",
+      "evidence": [],
+      "comment_leverage": "No special angle here."
     }
   ],
   "pass_5_failure_modes": {
