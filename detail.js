@@ -473,6 +473,20 @@ function renderArgumentGraph(d, graphSvg) {
 
 function detailHtml(d, summaryMd, analysisMd, graphSvg) {
   const docId = d.document_id || "";
+  const redirectTo = String(d.cross_post_redirect_to_docket_id || "").trim();
+  if (redirectTo && redirectTo !== String(d.docket_id || "").trim()) {
+    const aliasDoc = String(d.cross_post_redirect_to_document_id || "").trim();
+    const targetUrl = aliasDoc
+      ? `/docket/${encodeURIComponent(redirectTo)}/document/${encodeURIComponent(aliasDoc)}/`
+      : `/docket/${encodeURIComponent(redirectTo)}/`;
+    return `
+      <section class="card">
+        <h2>${esc(d.title || "Cross-posted docket")}</h2>
+        <p><strong>This docket is an alias of:</strong> <a href="${targetUrl}">${esc(redirectTo)}</a></p>
+        <p>The record is cross-posted by multiple agencies. Use the canonical docket above for the full summary and analysis.</p>
+      </section>
+    `;
+  }
   const subjectId = d.subject_document_id || d.summary_source_document_id || docId;
   const scoreSourceId = d.score_source_document_id || docId;
   const commentId = d.comment_document_id || docId;
@@ -514,6 +528,18 @@ function detailHtml(d, summaryMd, analysisMd, graphSvg) {
     ? d.referenced_documents
     : [];
   const referencedDocumentRows = referencedDocuments.map(referencedDocumentRow).join("");
+  const crossPostAliases = Array.isArray(d.cross_post_aliases) ? d.cross_post_aliases : [];
+  const crossPostAliasHtml = crossPostAliases.length
+    ? `<h3>Cross-Posted Docket IDs</h3>
+       <ul>${crossPostAliases
+         .map((alias) => {
+           const aliasId = esc(alias.docket_id || "");
+           const aliasAgency = alias.agency_name ? ` (${esc(alias.agency_name)})` : "";
+           const aliasDocId = alias.document_id ? ` - ${esc(alias.document_id)}` : "";
+           return `<li>${aliasId}${aliasAgency}${aliasDocId}</li>`;
+         })
+         .join("")}</ul>`
+    : "";
   const commentsPanelHtml =
     !commentCountSupported
       ? `<p><em>${esc(commentCountNote)}</em></p>`
@@ -550,8 +576,9 @@ function detailHtml(d, summaryMd, analysisMd, graphSvg) {
   return `
     <section class="card">
       <h2>${esc(d.title || "(untitled)")}</h2>
-      <p><strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
-      <p class="inline-actions">
+        <p><strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
+        ${crossPostAliasHtml}
+        <p class="inline-actions">
         ${
           commentUrl && commentSupported
             ? `<a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">${esc(commentLabel)}</a>`

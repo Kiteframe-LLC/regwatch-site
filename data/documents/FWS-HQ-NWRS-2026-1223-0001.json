@@ -11,13 +11,20 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-20T02:57:04.207580+00:00",
+  "comment_action_checked_at": "2026-06-22T10:02:23.195359+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
   "summary_source_document_id": "FWS-HQ-NWRS-2026-1223-0001",
   "summary_resolved_document_id": "FWS-HQ-NWRS-2026-1223-0001",
   "docket_id": "FWS-HQ-NWRS-2026-1223",
+  "cross_post_canonical_docket_id": "FWS-HQ-NWRS-2026-1223",
+  "cross_post_is_alias": false,
+  "cross_post_redirect_to_docket_id": null,
+  "cross_post_redirect_to_document_id": null,
+  "cross_post_alias_docket_ids": [],
+  "cross_post_aliases": [],
+  "cross_post_alias_count": 0,
   "agency_id": "FWS",
   "agency_name": "FWS",
   "title": "National Wildlife Refuge System: 2026-2027 Station-Specific Hunting and Sport Fishing Regulations",
@@ -27,10 +34,10 @@
   "comment_end_date": "2026-06-27T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 38.958333333333336,
+  "pass_3_score": 41.958333333333336,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.9984860839210993,
+  "pass_3_scaled": 0.9990817634819148,
   "ranking_multiplier": 1.0,
   "combined_score": 1.0,
   "score_total": 11,
@@ -39,15 +46,45 @@
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 2,
-  "pass_4_scaled": 0.2,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_raw": 3,
+  "pass_4_scaled": 0.34791666666666665,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 1,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 0,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 1.2,
+    "H": 0.6666666666666666,
+    "E": 0.6666666666666666
+  },
   "pass_4_signals": [
-    "reversal_or_reinterpretation"
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "environmental_justice_analysis_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness"
   ],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": 1.0,
+  "pass_4_primary_concern": "The proposal combines broad station-specific access expansions with a thin explanation for reversing non-lead ammunition and tackle restrictions.",
+  "combined_score_pre_pass5": 0.8687189902559076,
   "pass_5_alpha": 0.65,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -538,49 +575,49 @@
   "comments_total": 935,
   "comments_velocity_total": 935,
   "comments_public_total_estimate": 935,
-  "comments_fetched": 19,
-  "comments_text_hydrated": 19,
-  "comments_cached_records": 102,
-  "comments_unique_clusters": 31,
-  "comments_clustered_duplicates": 71,
+  "comments_fetched": 30,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 132,
+  "comments_unique_clusters": 35,
+  "comments_clustered_duplicates": 97,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 10,
-  "comments_citizen_count": 102,
+  "comments_citizen_count": 132,
   "comments_commenter_type_counts": {
-    "citizen": 102
+    "citizen": 132
   },
   "comments_submission_role_counts": {
-    "individual": 102
+    "individual": 132
   },
   "comments_submission_channel_counts": {
-    "public_portal": 102
+    "public_portal": 132
   },
-  "comments_public_count": 102,
+  "comments_public_count": 132,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-05-28": 24,
+    "2026-05-28": 28,
     "2026-05-27": 7
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-05-28": 2,
+    "2026-05-28": 3,
     "2026-05-27": 1
   },
-  "comments_novel_comment_rate": 0.30392156862745096,
-  "comments_sentiment_positive_pct": 0.07150512132162017,
-  "comments_sentiment_negative_pct": 0.09534016176216023,
-  "comments_sentiment_neutral_pct": 0.8331547169162197,
-  "comments_sentiment_net": -0.023835040440540065,
-  "comments_sentiment_sample_size": 102,
+  "comments_novel_comment_rate": 0.26515151515151514,
+  "comments_sentiment_positive_pct": 0.06397579833748507,
+  "comments_sentiment_negative_pct": 0.10662633056247513,
+  "comments_sentiment_neutral_pct": 0.8293978711000399,
+  "comments_sentiment_net": -0.04265053222499006,
+  "comments_sentiment_sample_size": 132,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 102,
+  "comments_analysis_sample_size": 132,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 102,
-  "comments_representative_prior_selected": 102,
+  "comments_representative_selected": 132,
+  "comments_representative_prior_selected": 132,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 30,
@@ -588,21 +625,21 @@
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "salience_rank": 16,
-    "weighted_fill": 86
+    "salience_rank": 17,
+    "weighted_fill": 115
   },
-  "comments_representative_selected_by_counts_total": 102,
+  "comments_representative_selected_by_counts_total": 132,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-19T02:53:37.268757+00:00",
-  "comments_checked_at": "2026-06-19T02:53:37.520407+00:00",
+  "comments_api_last_seen_at": "2026-06-21T22:15:29.996159+00:00",
+  "comments_checked_at": "2026-06-21T22:15:30.287533+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
       "cluster_id": 3,
-      "count": 54,
+      "count": 77,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0324",
       "representative_posted_date": "2026-05-28T04:00:00Z",
@@ -631,6 +668,21 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
+        "FWS-HQ-NWRS-2026-1223-0027": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Hurner, Gregory",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "FWS-HQ-NWRS-2026-1223-0036": {
           "organization": "",
           "postedDate": "2026-05-28T04:00:00Z",
@@ -640,6 +692,21 @@
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment from Powell, Holland",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FWS-HQ-NWRS-2026-1223-0038": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Crumrine, Bill",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -660,45 +727,15 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
-        },
-        "FWS-HQ-NWRS-2026-1223-0044": {
-          "organization": "",
-          "postedDate": "2026-05-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Anstine, Mia",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FWS-HQ-NWRS-2026-1223-0070": {
-          "organization": "",
-          "postedDate": "2026-05-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Jolley, Stephen",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49571896199063625
+      "presentation_score": 0.4373827652810942
     },
     {
       "cluster_id": 4,
-      "count": 10,
+      "count": 12,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0317",
       "representative_posted_date": "2026-05-28T04:00:00Z",
@@ -742,6 +779,21 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
+        "FWS-HQ-NWRS-2026-1223-0061": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Thurkettle, Jeff",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "FWS-HQ-NWRS-2026-1223-0064": {
           "organization": "",
           "postedDate": "2026-05-28T04:00:00Z",
@@ -771,32 +823,17 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
-        },
-        "FWS-HQ-NWRS-2026-1223-0126": {
-          "organization": "",
-          "postedDate": "2026-05-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Brunhuber, Paul",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5569910611051153
+      "presentation_score": 0.43642201470799236
     },
     {
-      "cluster_id": 12,
-      "count": 6,
+      "cluster_id": 7,
+      "count": 7,
       "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0210",
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0295",
       "representative_posted_date": "2026-05-28T04:00:00Z",
       "representative_length": 1526,
       "representative_excerpt": "Public Comments Processing Attn: FWS-HQ-NWRS-2026-1223 U.S. Fish and Wildlife Service 5275 Leesburg Pike, MS: PRB (JAO/3W) Falls Church, VA 22041-3803 As a passionate waterfowl hunter, I offer support of the actions of the United States Fish and Wildlife Service (Service) to open or expand waterfowl hunting opportunities on National Wildlife Refuge and...",
@@ -886,10 +923,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.561807918925771
+      "presentation_score": 0.4405268556562998
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0240",
@@ -967,10 +1004,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7097668390350848
+      "presentation_score": 0.5409179642237582
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 20,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0082",
@@ -1018,10 +1055,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.632716491269351
+      "presentation_score": 0.5197927252177247
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0099",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 4316,
+      "representative_excerpt": "There is no updated scientific analysis, no new toxicological data, no technical basis for concluding that secondary lead poisoning of raptors and scavenging species through ingestion of lead fragments in gut piles will not occur. Several affected refuges, including Blackwater, Rachel Carson, and Chincoteague NWRs, were selected for these protections...",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0099": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7727921152919276
+    },
+    {
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0008",
@@ -1054,7 +1127,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6772165526975908
+      "presentation_score": 0.5127921152919276
     },
     {
       "cluster_id": 1,
@@ -1090,43 +1163,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7772165526975908
-    },
-    {
-      "cluster_id": 25,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0015",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 471,
-      "representative_excerpt": "As a science-based agency mandated to focus on biological integrity, diversity and environmental health, there is no good scientific reason to rescind the regulations pertaining to lead ammunition and tackle. In fact, based on the preponderance of scientific evidence, lead ammunition and tackle should be phased out on all national wildlife refuges...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0015": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "53125",
-          "city": "Fontana",
-          "stateProvinceRegion": "WI",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from O'Connell, Maggie",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5438832193642574
+      "presentation_score": 0.6127921152919276
     },
     {
       "cluster_id": 2,
@@ -1162,33 +1199,33 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6438832193642574
+      "presentation_score": 0.5327921152919276
     },
     {
       "cluster_id": 29,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0010",
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0015",
       "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 4116,
-      "representative_excerpt": "We can certainly foster environmental resource strength while simultaneously supporting conservation efforts that allow fishing and hunting to thrive, along with the ancillary economic benefits locally. True stewardship comes from supporting resource use with people who connect directly with the land and communities. Hunters, fisherman, farmers, rural...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
+      "representative_length": 471,
+      "representative_excerpt": "As a science-based agency mandated to focus on biological integrity, diversity and environmental health, there is no good scientific reason to rescind the regulations pertaining to lead ammunition and tackle. In fact, based on the preponderance of scientific evidence, lead ammunition and tackle should be phased out on all national wildlife refuges...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0010": {
+        "FWS-HQ-NWRS-2026-1223-0015": {
           "organization": "",
           "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
+          "zip": "53125",
+          "city": "Fontana",
+          "stateProvinceRegion": "WI",
+          "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Anonymous",
+          "title": "Comment from O'Connell, Maggie",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1198,10 +1235,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4105498860309242
+      "presentation_score": 0.4327921152919276
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0020",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 143,
+      "representative_excerpt": "As an Idaho resident and an avid big game hunter, I fully support expanding big game hunting opportunities in this state as well as nationwide.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0020": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Winckler, Johannes",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3727921152919276
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0023",
@@ -1234,10 +1307,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0025",
@@ -1270,10 +1343,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0028",
@@ -1306,10 +1379,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0032",
@@ -1342,10 +1415,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0034",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 85,
+      "representative_excerpt": "This is a common sense rule. I think the privilege should be limited to U S citizens.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0034": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "34120",
+          "city": "Naples",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Corr, Elizabeth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3727921152919276
+    },
+    {
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0043",
@@ -1378,10 +1487,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0104",
@@ -1414,10 +1523,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0138",
@@ -1450,10 +1559,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0197",
@@ -1486,10 +1595,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0199",
@@ -1522,10 +1631,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0218",
@@ -1558,10 +1667,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0276",
@@ -1594,10 +1703,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0277",
@@ -1630,10 +1739,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0278",
@@ -1666,10 +1775,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0289",
@@ -1702,7 +1811,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0296",
+      "representative_posted_date": "2026-05-28T04:00:00Z",
+      "representative_length": 320,
+      "representative_excerpt": "I don't hunt (but have done some fishing in my youth) but think the right to do so should not be limited in the way it is. Opening public lands for more opportunity is the right thing to do. If, in the future I wish to take up hunting, I want to know that I can use the available state and federal land for that purpose.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0296": {
+          "organization": "",
+          "postedDate": "2026-05-28T04:00:00Z",
+          "zip": "49418",
+          "city": "Grandville",
+          "stateProvinceRegion": "MI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Garratt , Christopher",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3727921152919276
     },
     {
       "cluster_id": 5,
@@ -1738,33 +1883,33 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3772165526975909
+      "presentation_score": 0.3727921152919276
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0009",
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0010",
       "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 296,
-      "representative_excerpt": "The expansion of elk hunts in Colorado is good good for hunters and better for the environment. Keep elk populations under control yields healthier herds and prevents future overkills and disease spread. In addition it brings economic benefit and revenue to the state and locally. Highly support.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
+      "representative_length": 4116,
+      "representative_excerpt": "We can certainly foster environmental resource strength while simultaneously supporting conservation efforts that allow fishing and hunting to thrive, along with the ancillary economic benefits locally. True stewardship comes from supporting resource use with people who connect directly with the land and communities. Hunters, fisherman, farmers, rural...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0009": {
+        "FWS-HQ-NWRS-2026-1223-0010": {
           "organization": "",
           "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "80920",
-          "city": "Colorado Springs",
-          "stateProvinceRegion": "CO",
-          "country": "United States",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Turner, Jobie",
+          "title": "Comment from Anonymous",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1774,118 +1919,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2772165526975909
-    },
-    {
-      "cluster_id": 28,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0011",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 214,
-      "representative_excerpt": "Questioning why not a single Kansas and or Nebraska Refuge is not included? Kansas is literally one of the lowest in public land access and this would help more. Would like to see Kansas and Nebraska refuges added.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0011": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "66839",
-          "city": "BURLINGTON",
-          "stateProvinceRegion": "KS",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Ikerd, Lane",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.2772165526975909
-    },
-    {
-      "cluster_id": 27,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0012",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 430,
-      "representative_excerpt": "I support the Department of the Interior removal of barriers to hunting and fishing access to better match federal regulations with state wildlife management on the ground with regards to the National Wildlife System. Hunters are some of our best conservationists and giving more access through the National Wildlife Refuge System is a good way to bring more...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0012": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "79401",
-          "city": "LUBBOCK",
-          "stateProvinceRegion": "TX",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Crawford, Melissa",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.2772165526975909
+      "presentation_score": 0.3527921152919276
     },
     {
       "cluster_id": 26,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0014",
-      "representative_posted_date": "2026-05-27T04:00:00Z",
-      "representative_length": 716,
-      "representative_excerpt": "Here in my state (Virginia) the only thing I worry about is the Governor trying to make it so it's difficult to even transport a firearm in a personal vehicle. Abigail Spanberger doesn't have any problem attempting to circumvent the 2nd. Amendment and trying to ban firearms in common use. We could use all the help in that area we can get or opening up new...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FWS-HQ-NWRS-2026-1223-0014": {
-          "organization": "",
-          "postedDate": "2026-05-27T04:00:00Z",
-          "zip": "23707",
-          "city": "Portsmouth",
-          "stateProvinceRegion": "VA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Sawyer, Claude",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.2772165526975909
-    },
-    {
-      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0024",
@@ -1918,10 +1955,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.24388321936425755
+      "presentation_score": 0.2927921152919276
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0171",
@@ -1954,7 +1991,151 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.24388321936425755
+      "presentation_score": 0.2927921152919276
+    },
+    {
+      "cluster_id": 34,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0009",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 296,
+      "representative_excerpt": "The expansion of elk hunts in Colorado is good good for hunters and better for the environment. Keep elk populations under control yields healthier herds and prevents future overkills and disease spread. In addition it brings economic benefit and revenue to the state and locally. Highly support.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0009": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "80920",
+          "city": "Colorado Springs",
+          "stateProvinceRegion": "CO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Turner, Jobie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2727921152919276
+    },
+    {
+      "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0011",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 214,
+      "representative_excerpt": "Questioning why not a single Kansas and or Nebraska Refuge is not included? Kansas is literally one of the lowest in public land access and this would help more. Would like to see Kansas and Nebraska refuges added.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0011": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "66839",
+          "city": "BURLINGTON",
+          "stateProvinceRegion": "KS",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Ikerd, Lane",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2727921152919276
+    },
+    {
+      "cluster_id": 31,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0012",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 430,
+      "representative_excerpt": "I support the Department of the Interior removal of barriers to hunting and fishing access to better match federal regulations with state wildlife management on the ground with regards to the National Wildlife System. Hunters are some of our best conservationists and giving more access through the National Wildlife Refuge System is a good way to bring more...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0012": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "79401",
+          "city": "LUBBOCK",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Crawford, Melissa",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2727921152919276
+    },
+    {
+      "cluster_id": 30,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FWS-HQ-NWRS-2026-1223-0014",
+      "representative_posted_date": "2026-05-27T04:00:00Z",
+      "representative_length": 716,
+      "representative_excerpt": "Here in my state (Virginia) the only thing I worry about is the Governor trying to make it so it's difficult to even transport a firearm in a personal vehicle. Abigail Spanberger doesn't have any problem attempting to circumvent the 2nd. Amendment and trying to ban firearms in common use. We could use all the help in that area we can get or opening up new...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FWS-HQ-NWRS-2026-1223-0014": {
+          "organization": "",
+          "postedDate": "2026-05-27T04:00:00Z",
+          "zip": "23707",
+          "city": "Portsmouth",
+          "stateProvinceRegion": "VA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Sawyer, Claude",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2727921152919276
     }
   ],
   "comments_clusters_path": "data/comments/FWS-HQ-NWRS-2026-1223.csv",
@@ -1962,16 +2143,16 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.9411764705882353,
-  "comments_first_page_coverage_count": 96,
-  "comments_clusters_total_available": 31,
-  "comments_clusters_displayed": 31,
-  "comments_first_page_high_signal_clusters": 3,
+  "comments_first_page_coverage_share": 0.9242424242424242,
+  "comments_first_page_coverage_count": 122,
+  "comments_clusters_total_available": 35,
+  "comments_clusters_displayed": 35,
+  "comments_first_page_high_signal_clusters": 4,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
     "neutral": 18,
-    "negative": 4,
-    "positive": 3
+    "negative": 5,
+    "positive": 2
   },
   "comments_first_page_unique_days": 2,
   "summary_available": true,

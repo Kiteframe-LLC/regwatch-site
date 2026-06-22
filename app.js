@@ -299,6 +299,16 @@ function normalizeSiteDocketPath(url) {
 function rowHtml(r, override = null) {
   const docId = r.document_id || "";
   const docketId = (r.docket_id || "").trim();
+  const crossPostAliases = Array.isArray(r.cross_post_aliases) ? r.cross_post_aliases : [];
+  const crossPostText = crossPostAliases.length
+    ? `<div class="band-note"><strong>Cross-posted docket IDs:</strong> ${crossPostAliases
+        .map((alias) => {
+          const aliasId = escapeHtml(alias?.docket_id || "");
+          const aliasAgency = alias?.agency_name ? ` (${escapeHtml(alias.agency_name)})` : "";
+          return `${aliasId}${aliasAgency}`;
+        })
+        .join(", ")}</div>`
+    : "";
   const subjectId = r.subject_document_id || docId;
   const defaultDocUrl = subjectId
     ? `https://www.regulations.gov/document/${encodeURIComponent(subjectId)}`
@@ -372,7 +382,7 @@ function rowHtml(r, override = null) {
   return `<tr>
     <td>${pct5(r._combined_client ?? r.combined_score)}</td>
     <td><span class="desktop-label">${r.rule_kind || "NPRM"}</span><span class="mobile-label">${agencyFromDocketId(docketId) || "N/A"}</span></td>
-    <td>${docketId || "MISSING"}</td>
+    <td>${docketId || "MISSING"}${crossPostText}</td>
     <td class="title">${r.title || ""}</td>
     <td>${sentimentCell(r)}</td>
     <td>${bandCell}</td>

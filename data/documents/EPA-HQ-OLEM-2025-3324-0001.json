@@ -11,13 +11,20 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-20T02:57:04.856492+00:00",
+  "comment_action_checked_at": "2026-06-22T10:02:23.936004+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
   "summary_source_document_id": "EPA-HQ-OLEM-2025-3324-0001",
   "summary_resolved_document_id": "EPA-HQ-OLEM-2025-3324-0001",
   "docket_id": "EPA-HQ-OLEM-2025-3324",
+  "cross_post_canonical_docket_id": "EPA-HQ-OLEM-2025-3324",
+  "cross_post_is_alias": false,
+  "cross_post_redirect_to_docket_id": null,
+  "cross_post_redirect_to_document_id": null,
+  "cross_post_alias_docket_ids": [],
+  "cross_post_aliases": [],
+  "cross_post_alias_count": 0,
   "agency_id": "EPA",
   "agency_name": "Environmental Protection Agency",
   "title": "Louisiana: Approval of State Coal Combustion Residuals Permit Program",
@@ -32,21 +39,51 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.40017126795849167,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5886794268507122,
+  "combined_score": 0.6042179918191624,
   "score_total": 13,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 4,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 2,
-  "pass_4_scaled": 0.2,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
+  "pass_4_raw": 4,
+  "pass_4_scaled": 0.38125,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 0,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 1,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 0.8,
+    "H": 0.6666666666666666,
+    "E": 1.3333333333333333
+  },
   "pass_4_signals": [
-    "distributional_harm"
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "environmental_justice_analysis_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness"
   ],
-  "pass_4_primary_concern": null,
+  "pass_4_primary_concern": "The main concern is whether EPA's final record will make the partial federal/state CCR regime clear enough for facilities, Tribes, and nearby communities during the permit transition.",
   "combined_score_pre_pass5": null,
   "pass_5_alpha": null,
   "pass_5_applicable": null,
@@ -91,29 +128,6 @@
   "supporting_related_material_count": 44,
   "supporting_docs_error": null,
   "supporting_related_material": [
-    {
-      "document_id": "EPA-HQ-OLEM-2025-3324-0008",
-      "tracking_number": "mp4-gn0f-ges9",
-      "title": "Standard Operating Procedure For Minor Modification - Solid Waste Permit, Revision 04, June 27, 2025",
-      "document_type": "Supporting & Related Material",
-      "document_subtype": null,
-      "abstract": "Standard Operating Procedure For Minor Modification - Solid Waste Permit, Revision 04, June 27, 2025",
-      "posted_date": "2026-06-05T04:00:00Z",
-      "received_date": "2026-05-13T04:00:00Z",
-      "author_date": "2025-06-27T04:00:00Z",
-      "authors": [
-        "Louisiana Department of Environmental Quality"
-      ],
-      "page_count": 10,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2025-3324-0008/content.pdf",
-          "format": "pdf",
-          "size": 122585
-        }
-      ]
-    },
     {
       "document_id": "EPA-HQ-OLEM-2025-3324-0015",
       "tracking_number": "mp4-gn0f-ges9",
@@ -252,6 +266,29 @@
           "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2025-3324-0026/content.pdf",
           "format": "pdf",
           "size": 1330868
+        }
+      ]
+    },
+    {
+      "document_id": "EPA-HQ-OLEM-2025-3324-0008",
+      "tracking_number": "mp4-gn0f-ges9",
+      "title": "Standard Operating Procedure For Minor Modification - Solid Waste Permit, Revision 04, June 27, 2025",
+      "document_type": "Supporting & Related Material",
+      "document_subtype": null,
+      "abstract": "Standard Operating Procedure For Minor Modification - Solid Waste Permit, Revision 04, June 27, 2025",
+      "posted_date": "2026-06-05T04:00:00Z",
+      "received_date": "2026-05-13T04:00:00Z",
+      "author_date": "2025-06-27T04:00:00Z",
+      "authors": [
+        "Louisiana Department of Environmental Quality"
+      ],
+      "page_count": 10,
+      "media": "Electronic",
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OLEM-2025-3324-0008/content.pdf",
+          "format": "pdf",
+          "size": 122585
         }
       ]
     },
@@ -1154,8 +1191,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-19T03:59:58.670082+00:00",
-  "comments_checked_at": "2026-06-19T03:59:58.693162+00:00",
+  "comments_api_last_seen_at": "2026-06-21T22:59:46.816430+00:00",
+  "comments_checked_at": "2026-06-21T22:59:46.831908+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
