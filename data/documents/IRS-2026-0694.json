@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-23T15:38:36.544130+00:00",
+  "comment_action_checked_at": "2026-06-26T11:49:05.391275+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,385 @@
   "pass_2_scaled": 0.8642791191702541,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.38477493042874245,
+  "combined_score": 0.4590221171236804,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 2,
+  "pass_4_scaled": 0.23333333333333334,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 2,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 0,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 0,
+    "enforcement_clarity_risk": 0,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 1.2,
+    "H": 0.6666666666666666,
+    "E": 0.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The main concern is whether the IRS has explained the cost-model assumptions, alternatives, and real-world burden distribution well enough to justify increasing the fee to $76.",
+  "combined_score_pre_pass5": 0.3982420529937484,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Material \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Material",
+  "pass_5_scaled": 0.610483636,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 2,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 1,
+  "pass_5_base_defect_score": 0.610484,
+  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.0,
+  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "This is a limited user-fee NPRM, but it sets a concrete burden through a summarized internal cost model that the public cannot fully inspect from the available record.",
+  "pass_5_most_important_consequence": "Requesters may face a higher fee without enough visibility into the assumptions that drove the agency's calculation and burden analysis.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.25,
+      "material_flaw_count": 2,
+      "material_share": 0.5,
+      "family_score": 0.444
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.333,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.163
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.333,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.163
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule imposes a concrete monetary burden, but the available record only summarizes the internal cost model rather than exposing it for testing.",
+      "evidence": [
+        {
+          "section": "Background A and C",
+          "quote_or_absence": "The available record says the 2025 Cost Model determined a full cost of $76, but the model itself is not included in the provided materials."
+        }
+      ],
+      "comment_leverage": "Ask the IRS to release or summarize the supporting model in more detail and explain how sensitive the fee is to key assumptions."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The fee increase follows the agency's stated cost-recovery rationale, but the record gives limited attention to whether operational reforms could reduce the need for the increase.",
+      "evidence": [],
+      "comment_leverage": "Ask whether lower-cost service redesign was considered before increasing the fee."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The notice certifies no significant small-entity impact, but it does not fully discuss whether professional intermediaries or frequent requesters bear meaningful practical costs.",
+      "evidence": [
+        {
+          "section": "Special Analyses II",
+          "quote_or_absence": "The available record states that estates generally are not small entities, but it does not explain whether small law, accounting, or fiduciary firms bear any meaningful share of the fee burden."
+        }
+      ],
+      "comment_leverage": "Ask the agency to identify who actually pays or absorbs the fee in practice and whether that changes the RFA analysis."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Some burden may be shifted to representatives and service providers, but the available record does not show a severe structural transfer of risk.",
+      "evidence": [],
+      "comment_leverage": "Ask the agency to describe whether request-processing costs are ultimately borne by estates, practitioners, or both."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No major issue identified from the available record.",
+      "evidence": [],
+      "comment_leverage": "No major leverage point from this flaw on the current record."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal is generally coherent, but it relies on summarized internal accounting judgments that make the burden-setting logic harder to test from outside the agency.",
+      "evidence": [],
+      "comment_leverage": "Ask for a fuller public explanation of how each major assumption in the model was selected and validated."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "missing_alternatives_analysis",
     "missing_baseline_signal",
@@ -147,8 +482,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-06-21T21:40:05.963099+00:00",
-  "comments_checked_at": "2026-06-21T21:40:05.963138+00:00",
+  "comments_api_last_seen_at": "2026-06-25T21:18:18.987022+00:00",
+  "comments_checked_at": "2026-06-25T21:18:18.987067+00:00",
   "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/IRS-2026-0694.csv",
@@ -164,10 +499,10 @@
   "comments_first_page_novelty_clusters": null,
   "comments_first_page_stance_counts": {},
   "comments_first_page_unique_days": 0,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/IRS-2026-0694-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "IRS-2026-0694"
