@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-26T11:49:02.169057+00:00",
+  "comment_action_checked_at": "2026-06-26T17:43:19.953913+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,525 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.4352818779922407,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5762398166350543,
+  "combined_score": 0.7986323708676455,
   "score_total": 12,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 1,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
-  "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_4_raw": 7,
+  "pass_4_scaled": 0.725,
+  "pass_4_axes": {
+    "statutory_authority_fit": 2,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 1,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 2,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 2,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 1,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 2
+  },
+  "pass_4_domain_means": {
+    "L": 1.0,
+    "A": 1.8,
+    "H": 1.0,
+    "E": 2.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "environmental_justice_analysis_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "retroactivity_fair_notice_risk",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
+  ],
+  "pass_4_primary_concern": "The rule applies a blanket automatic-expiration structure across very different DOE programs without a part-specific explanation for why the one-year default is safe, workable, or the best fit.",
+  "combined_score_pre_pass5": 0.6389058966941163,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "\ud83d\udea9 Nuts \u00b7 Safeguards and Accountability",
+  "pass_5_assessment": "\ud83d\udea9 Nuts \u00b7 Safeguards and Accountability",
+  "pass_5_assessment_tier": "\ud83d\udea9 Nuts",
+  "pass_5_scaled": 1.0,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "authority_substitution",
+  "pass_5_worst_flaw_name": "Authority Substitution",
+  "pass_5_material_flaw_count": 15,
+  "pass_5_worst_family_key": "safeguards_and_accountability",
+  "pass_5_worst_family_name": "Safeguards and Accountability",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 6,
+  "pass_5_base_defect_score": 0.986007,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.3,
+  "pass_5_context_pressure": 0.405,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.3,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal touches DOE contractor safety, nuclear-related programs, classified-information controls, waste and compensation regimes, and the continued force of regulations that affect public and worker protection.",
+  "pass_5_red_flag": true,
+  "pass_5_red_flag_gates": [
+    "Accountability Capture"
+  ],
+  "pass_5_concise_why": "The rule can let important DOE protections lapse before a rule-specific review is complete.",
+  "pass_5_most_important_consequence": "A covered regulation may expire, or remain uncertain, before DOE finishes the review needed to decide whether it should continue.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.75,
+      "material_flaw_count": 3,
+      "material_share": 0.75,
+      "family_score": 0.519
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.75,
+      "material_flaw_count": 3,
+      "material_share": 0.75,
+      "family_score": 0.519
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.667,
+      "material_flaw_count": 2,
+      "material_share": 0.667,
+      "family_score": 0.5
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 2.0,
+      "material_flaw_count": 3,
+      "material_share": 1.0,
+      "family_score": 0.575
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 2,
+      "mean_severity": 1.5,
+      "material_flaw_count": 1,
+      "material_share": 0.5,
+      "family_score": 0.463
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 1.4,
+      "material_flaw_count": 3,
+      "material_share": 0.6,
+      "family_score": 0.47
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "DOE relies on general housekeeping and broad executive-direction language to build a cross-cutting automatic-expiration regime, which is a different kind of authority claim than a part-specific amendment or repeal.",
+      "evidence": [
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "5 U.S.C. 301 ... 42 U.S.C. 7254"
+        },
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "will automatically expire and cease to be effective"
+        }
+      ],
+      "comment_leverage": "Ask DOE to map each covered part to a specific statutory hook and explain why automatic expiration is the right implementation vehicle."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The proposal treats expiration-by-default as the main governance move and treats affirmative continuation as the exception, even though the statutory baseline for a covered rule is continued force until changed through a rulemaking process.",
+      "evidence": [
+        {
+          "section": "II.A. Sunset Provisions for Specific Covered Regulations",
+          "quote_or_absence": "Sections in this part will automatically expire"
+        },
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "repealing outdated and unnecessary regulations as a pathway"
+        }
+      ],
+      "comment_leverage": "Ask whether a sunset architecture inverts the normal APA sequence by making expiration the default rather than a separately justified outcome."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal shifts the continuing obligation from the substance of each regulation to a recurring extension decision, but the record does not yet show a full responsibility shift strong enough to make this a central defect.",
+      "evidence": [],
+      "comment_leverage": "Comment on whether the extension decision would obscure who is accountable if a regulation lapses."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "DOE proposes to review and extend its own rules through its own designees, with no visible independent check beyond later public comment.",
+      "evidence": [
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "written determination by the Secretary of Energy or his designee"
+        },
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "DOE will give the public an opportunity to comment"
+        }
+      ],
+      "comment_leverage": "Ask DOE what independent review, if any, sits between the regulated program and the extension decision."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The rule forces continued regulatory validity through an extension gate before the covered rule can persist, rather than preserving the rule while the agency completes review.",
+      "evidence": [
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "automatically expire and cease to be effective"
+        },
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "before allowing any regulation to expire"
+        }
+      ],
+      "comment_leverage": "Ask DOE to justify why review must occur before continuation rather than after a rule remains in force."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal imposes a large structural change across many parts, but the visible record supports it only with high-level policy statements about periodic review and innovation.",
+      "evidence": [
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "Energy markets and needs are constantly changing"
+        },
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "the proposed sunset rule is the best way"
+        }
+      ],
+      "comment_leverage": "Ask DOE to show part-specific evidence that a blanket sunset is proportionate to the problem it says it is solving."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "A sunset mechanism is not obviously tailored to the stated rationale of keeping rules current, because the mechanism can create lapse risk even when the underlying problem is merely stale review rather than harmful regulation.",
+      "evidence": [
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "simply promising to review rules is insufficient"
+        },
+        {
+          "section": "II.A. Sunset Provisions for Specific Covered Regulations",
+          "quote_or_absence": "automatically expire"
+        }
+      ],
+      "comment_leverage": "Ask whether a scheduled review, not an expiration trigger, would better match the stated goal."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule assumes DOE can routinely review a very large portfolio of heterogeneous parts on a recurring schedule, but the record does not show the staffing or workflow needed to do that reliably.",
+      "evidence": [
+        {
+          "section": "I.B. Identified DOE Statutes and Regulations",
+          "quote_or_absence": "28 parts are listed"
+        },
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "routinely review agency regulations"
+        }
+      ],
+      "comment_leverage": "Ask DOE to provide a workplan and staffing model for timely reviews across all covered parts."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal depends on later RFIs and written determinations as if they will automatically preserve continuity, but the interface between the sunset date and the review process is not fully specified.",
+      "evidence": [],
+      "comment_leverage": "Ask DOE to explain the operational handoff between the expiration date and the extension review process."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "DOE identifies outdated or burdensome regulation as the general problem, but the specific failure mode the sunset architecture is meant to prevent is not sharply defined for each part.",
+      "evidence": [],
+      "comment_leverage": "Ask DOE to name the concrete harm each part-specific sunset is supposed to prevent."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal says some rules are excluded because sunset would chill contracting or conflict with law, but it does not show comparable impact analysis for the many parts that still face one-year expiration.",
+      "evidence": [
+        {
+          "section": "I.B. Identified DOE Statutes and Regulations",
+          "quote_or_absence": "could negatively affect DOE's ability to secure contracts"
+        },
+        {
+          "section": "II.A. Sunset Provisions for Specific Covered Regulations",
+          "quote_or_absence": "five years from the effective date"
+        }
+      ],
+      "comment_leverage": "Ask DOE to compare the burdens of lapse risk against the burdens of continued compliance for the one-year cohort."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The extension gate creates a point where some rules can be favored and others can lapse, but the record does not yet show that the discretion surface is severe enough to score as a central abuse channel.",
+      "evidence": [],
+      "comment_leverage": "Ask for objective extension criteria and a public explanation for each rule's status."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal does not include a continuity clause, automatic stay, or similar safeguard to prevent lapse while review is pending.",
+      "evidence": [
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "before allowing any regulation to expire"
+        },
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "automatically expire and cease to be effective"
+        }
+      ],
+      "comment_leverage": "Ask DOE to add a stay or continuity provision for rules under active review."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The burden of deadline management and uncertainty is pushed onto contractors, workers, and other stakeholders who must plan around possible expiration even though they did not create the review bottleneck.",
+      "evidence": [
+        {
+          "section": "II.A. Sunset Provisions for Specific Covered Regulations",
+          "quote_or_absence": "Sections in this part will automatically expire"
+        },
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "periodically review its regulations"
+        }
+      ],
+      "comment_leverage": "Ask DOE to explain who bears the operational cost if the review queue slips."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not primarily turn ordinary conduct into suspicion or flags; its main mechanism is expiration and review, not surveillance.",
+      "evidence": [],
+      "comment_leverage": "No special comment angle needed on this flaw."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "A default-expiration architecture can weaken later reconstructability because the record of why a rule stayed alive may depend on repeated extension notices instead of a stable substantive record.",
+      "evidence": [
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "written determination"
+        },
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "published in the Federal Register"
+        }
+      ],
+      "comment_leverage": "Ask DOE how the extension record will preserve traceability over time."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal creates a path where lapse can occur before review, but the rule also builds in a comment-and-extension process, so the present record does not yet show irreversible harm as the dominant feature.",
+      "evidence": [
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "before allowing any regulation to expire"
+        }
+      ],
+      "comment_leverage": "Ask for a continuity safeguard if DOE cannot finish review before the deadline."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Continuation of the covered regulation depends on a central extension decision by DOE leadership, making the extension process a chokepoint.",
+      "evidence": [
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "Secretary of Energy or designee"
+        },
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "written determination that an extension ... is warranted"
+        }
+      ],
+      "comment_leverage": "Ask DOE to show how the chokepoint will operate and whether lower-level action can prevent lapse."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal uses a one-year default for most parts and five years for some others, but the visible record does not cleanly explain the consequence categories that drive that split.",
+      "evidence": [
+        {
+          "section": "II.A. Sunset Provisions for Specific Covered Regulations",
+          "quote_or_absence": "five years from the effective date"
+        },
+        {
+          "section": "II.A. Sunset Provisions for Specific Covered Regulations",
+          "quote_or_absence": "one year from the effective date"
+        }
+      ],
+      "comment_leverage": "Ask DOE to classify the covered parts by consequence level and show why each duration fits that class."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The term 'warranted' is broad enough that the extension decision can operate as a vague gatekeeping standard unless DOE supplies more concrete criteria.",
+      "evidence": [
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "an extension of the Section is warranted"
+        },
+        {
+          "section": "III.B. DOE's Determination",
+          "quote_or_absence": "the proposed sunset rule is the best way"
+        }
+      ],
+      "comment_leverage": "Ask DOE to define the criteria that make an extension warranted and to publish them in advance."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal is directionally coherent, but the mix of one-year defaults, five-year exceptions, exclusions, and future RFIs is not yet tied together by a fully explained system design.",
+      "evidence": [
+        {
+          "section": "II.A. Sunset Provisions for Specific Covered Regulations",
+          "quote_or_absence": "five years from the effective date"
+        },
+        {
+          "section": "II.B. Sunset Provisions for Covered Regulations Generally",
+          "quote_or_absence": "before allowing any regulation to expire"
+        }
+      ],
+      "comment_leverage": "Ask DOE to show the overall design logic that makes the mixed timetable internally consistent."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": true,
+    "instrumental_disruption": true,
+    "ambiguity_as_mechanism": true,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "doe_missing_modeling_signal",
@@ -583,10 +1058,10 @@
     "positive": 1
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/DOE-HQ-2025-0603-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "DOE-HQ-2025-0603"
