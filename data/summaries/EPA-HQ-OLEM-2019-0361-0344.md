@@ -1,51 +1,188 @@
+# Public Summary: EPA-HQ-OLEM-2019-0361-0344
+
 ## What This Document Does
 
-- EPA reopens comment on its 2020 proposal to create a Federal permit program for coal combustion residuals (CCR, or coal ash) from electric utilities.
-- The Federal permit program would apply to CCR units in Indian country and in states that do not have an EPA-approved CCR permit program.
-- The reopening is not just administrative. EPA asks for updated comment because later CCR actions changed the practical context, including the 2024 Legacy Final Rule and a separate 2026 CCR proposal.
-- EPA specifically asks about three implementation issues: how long facilities need to compile permit-application materials, whether the first tier of applications should be due much sooner than originally proposed, and how electronic permitting should work for EPA and state-issued CCR permits.
+**What It Does:** Establishes a federal permit program for CCR disposal in Indian country and nonparticipating states, with tiered application deadlines, no-expiration permits, and electronic permitting/public notice.
+
+**Why It Matters:** The proposal shifts CCR oversight from a self-implementing structure toward a permit-centered system that will determine how current, accessible, and enforceable the program remains over time.
+
+**Affected Entities**
+- Owners and operators of CCR units needing federal permits
+- State agencies and EPA permit staff
+- Communities near CCR disposal facilities
+- Entities that submit permit applications, site data, and public comments
+- Commenters concerned with groundwater protection, public participation, and administrative access
+
+**Observed Facts**
+- The proposal ties federal permits to CCR disposal regulation in Indian country and nonparticipating states.
+- The rule text says permits would have no expiration date and public notice would be electronic rather than newspaper.
+
+**Inference:** The most useful comments focus on whether the permit architecture has enough review, access, and fallback safeguards to stay current and public-facing.
+
+**Evidence Quotes**
+- EPA is proposing to establish a new Federal permit program to implement the regulations governing the disposal of CCR established in the 2015 final rule.
+- Permits would be issued with no expiration date.
+- Public notice would be accomplished electronically rather than newspaper.
 
 ## Why It Matters
 
-- The 2015 CCR rule was largely self-implementing. A permit program would move many CCR obligations into permits that regulators can review, issue, modify, and enforce.
-- Timing matters. EPA originally proposed that first-tier applications would be due 18 months after the final rule's effective date. EPA is now asking whether that first tier could be due when the final rule becomes effective, roughly six months after publication.
-- A faster deadline could bring high-priority units into permitting sooner, but only if facilities can submit complete, technically useful applications.
-- Electronic permitting could make CCR permit data easier to compare nationwide. It could also create confusion or burden if EPA does not define the required data fields, public-access features, and state-system responsibilities clearly.
+Core structural concern: The permit program is coherent, but its long-lived permit design and electronic notice structure need clearer renewal and access safeguards.
+
+### Computed Scoring Summary
+- Pass 4 raw/scaled: 4 / 0.350
+- Pass 4 primary concern: EPA's indefinite-permit and electronic-notice design weakens periodic review and public-access safeguards unless the rule adds renewal and fallback procedures.
+- Pass 5 assessment/scaled: Serious · Safeguards and Accountability / 0.806
+- Pass 5 base defect score: 0.806
+- Pass 5 context pressure: 0.000
+- Pass 5 scrutiny/risk multipliers: 1.000 / 1.000
+- Pass 5 worst family: Safeguards and Accountability (safeguards_and_accountability)
+- Core structural concern: The permit program is coherent, but its long-lived permit design and electronic notice structure need clearer renewal and access safeguards.
+- Procedural concern score: 4.100/10
+- Analysis score multiplier: 1.265
+
+- **Id:** B1
+  
+  **Priority:** High
+  
+  **Posture:** comment recommended
+  
+  **Issue:** Support the permit program only if EPA adds review and notice backstops.
+  
+  **Why It Matters:** The basic federal permitting idea is coherent, but long-lived permits and electronic notice need more safeguards.
+  
+  **Ask Agency To:** Add periodic review, hybrid notice, and backup submission procedures.
+  
+  **Supporting Evidence**
+  - NPRM summary and notice text.
+  
+  **Score Drivers**
+  - pass4.primary_concern
+- **Id:** B2
+  
+  **Priority:** Medium
+  
+  **Posture:** comment recommended
+  
+  **Issue:** Ask EPA to justify the queue order and deadline structure.
+  
+  **Why It Matters:** The first-tier schedule shapes program rollout and fairness among facilities.
+  
+  **Ask Agency To:** Explain the evidence supporting the high-hazard first tier and the 18-month framework.
+  
+  **Supporting Evidence**
+  - Application deadlines will be tiered, and the first tier would include facilities with a high hazard surface impoundment.
+  
+  **Score Drivers**
+  - pass4.arbitrary_line_drawing_risk
 
 ## Who Is Affected
 
-- Electric utilities and independent power producers with CCR landfills, surface impoundments, legacy CCR surface impoundments, or related CCR management units.
-- Facilities in Indian country and in states without approved CCR permit programs.
-- State agencies that may seek or operate approved CCR permit programs.
-- Tribal governments and communities near coal ash units.
-- Members of the public who use permit records to understand closure, groundwater monitoring, corrective action, and facility compliance.
+- Owners and operators of CCR units needing federal permits
+- State agencies and EPA permit staff
+- Communities near CCR disposal facilities
+- Entities that submit permit applications, site data, and public comments
+- Commenters concerned with groundwater protection, public participation, and administrative access
 
 ## Issues Worth Commenting On (0-6)
 
-- Issue: EPA has not yet defined what makes a first-tier permit application complete.
-  - Why it matters: Commenters cannot assess whether six months is enough unless they know what materials EPA expects, especially for site-specific risk assessments and alternative closure requests.
-  - Practical question a commenter can ask: Can EPA publish a checklist of required first-tier application materials by CCR unit type?
-
-- Issue: The shortened first-tier deadline needs evidence.
-  - Why it matters: A shorter deadline could speed oversight, but incomplete applications could slow permit writing and weaken the record.
-  - Practical question a commenter can ask: What evidence supports six months rather than 12 months, 18 months, or a modular schedule?
-
-- Issue: The 2020 proposal needs a current-law crosswalk.
-  - Why it matters: EPA has since finalized legacy impoundment rules and proposed further CCR revisions. Facilities and the public need to know how those changes affect applications and tiering.
-  - Practical question a commenter can ask: Can EPA add a crosswalk showing how the 2020 permit-program proposal would apply after the 2024 Legacy Final Rule and any finalized 2026 CCR revisions?
-
-- Issue: Electronic permitting needs public-facing data standards.
-  - Why it matters: A national database is useful only if it captures information that helps regulators and communities track unit status, closure, groundwater monitoring, corrective action, and permit changes.
-  - Practical question a commenter can ask: What required data fields will be public, searchable, downloadable, and linked to the underlying permit documents?
-
-- Issue: State participation in an EPA data system needs more explanation.
-  - Why it matters: EPA is considering requiring states with approved CCR programs to enter permit data into an EPA system. That could improve consistency but may create duplicative reporting unless designed carefully.
-  - Practical question a commenter can ask: How will EPA avoid duplicate state and federal reporting while ensuring state-issued CCR permit data remain nationally comparable?
+- **Id:** A1
+  
+  **Priority:** High
+  
+  **Posture:** constructive
+  
+  **Issue:** Require periodic review or renewal for permits.
+  
+  **Why It Matters:** This is the most direct way to avoid stale permits.
+  
+  **Ask Agency To:** Add a fixed review interval or renewal trigger.
+  
+  **Supporting Evidence**
+  - Permits would be issued with no expiration date.
+  
+  **Score Drivers**
+  - pass4.monitoring_and_feedback_design_quality
+- **Id:** A2
+  
+  **Priority:** High
+  
+  **Posture:** constructive
+  
+  **Issue:** Keep a non-digital notice fallback.
+  
+  **Why It Matters:** Electronic-only notice can miss communities that do not track the docket online.
+  
+  **Ask Agency To:** Use hybrid notice, mailing, or other local outreach backstops.
+  
+  **Supporting Evidence**
+  - Public notice would be accomplished electronically rather than newspaper.
+  
+  **Score Drivers**
+  - pass4.environmental_justice_analysis_risk
+- **Id:** A3
+  
+  **Priority:** High
+  
+  **Posture:** constructive
+  
+  **Issue:** Define completion and backup rules for electronic permitting.
+  
+  **Why It Matters:** A digital workflow only helps if submissions, completeness, and state data entry are reliable.
+  
+  **Ask Agency To:** Publish completeness criteria and a paper backup path.
+  
+  **Supporting Evidence**
+  - EPA proposed to use an electronic permitting process whereby applicants would electronically submit a permit application to EPA.
+  
+  **Score Drivers**
+  - pass4.implementation_feasibility_risk
+- **Id:** A4
+  
+  **Priority:** Medium
+  
+  **Posture:** constructive
+  
+  **Issue:** Explain the first-tier queueing logic.
+  
+  **Why It Matters:** High-hazard prioritization affects who is burdened first and how quickly the program launches.
+  
+  **Ask Agency To:** Show why high-hazard surface impoundments should lead the schedule.
+  
+  **Supporting Evidence**
+  - Application deadlines will be tiered, and the first tier would include facilities with a high hazard surface impoundment.
+  
+  **Score Drivers**
+  - pass4.arbitrary_line_drawing_risk
 
 ## Evidence Quotes
 
-- "With this document, EPA reopens the public comment period on the entire proposal for 30 days."
-- "EPA requests estimates of how long it would take a CCR facility to conduct a site-specific risk assessment and compile the documents needed to support a request for alternative closure requirements."
-- "EPA also requests comment on shortening the deadline for submission of the first tier of permit applications to the effective date of the final permitting rule..."
-- "EPA is seeking comment on how best to implement this electronic permitting process..."
-- "EPA is considering implementing the electronic permitting process for both EPA-issued CCR permits as well as for States..."
+- **Section:** Step 12 - Administrative Record Gaps
+  
+  **Quote:** A side-by-side explanation for why an indefinite permit term is better than periodic renewal.
+- **Section:** Step 5 - Missing Alternatives Detector
+  
+  **Quote:** A fixed-term permit with periodic renewal rather than an indefinite permit.
+- **Section:** Step 12 - Administrative Record Gaps
+  
+  **Quote:** A contingency plan for electronic permitting if the RCRAInfo module or state data entry is delayed.
+- **Section:** Step 13 - Litigation Vulnerabilities
+  
+  **Quote:** The likely vulnerabilities are under-explained line drawing around indefinite permit duration, insufficient justification for electronic-only public notice, and implementation risk if the electronic workflow or state data entry lags.
+- **Section:** Step 9 - Failure Modes
+  
+  **Quote:** Access-gap risk: electronic notice may not reach some affected residents and groups as reliably as paper or hybrid notice.
+- **Section:** Step 16 - Evidence Requests
+  
+  **Quote:** Electronic posting can miss affected residents if they do not reliably track the docket online.
+- **Section:** Step 9 - Failure Modes
+  
+  **Quote:** Implementation bottleneck: the electronic permit system or state data entry workflow could delay applications or create record mismatches.
+- **Section:** Step 7 - Legal Grounding
+  
+  **Quote:** The principal legal vulnerability visible in the packet is not authority. It is reasoned explanation and public-access design.
+- **Section:** Step 13A - Structural Integrity
+  
+  **Quote:** EPA relies on the initial permit application and later modifications, yet the public record would be stronger if the final rule added periodic review, backup notice, and explicit contingency procedures.
+- **Section:** Hearing transcript summary of proposal
+  
+  **Quote:** Permits would be issued with no expiration date. Permit holders would be required to apply for modifications to keep the permit current with changes to operations at the unit or EPA changes in the applicable requirements in the CCR rule.
