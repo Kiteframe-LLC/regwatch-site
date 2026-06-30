@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-06-29T10:03:22.936185+00:00",
+  "comment_action_checked_at": "2026-06-30T01:51:26.372047+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,397 @@
   "pass_2_scaled": 0.9089717898486955,
   "pass_3_scaled": 0.008298707361124036,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3978628182449927,
+  "combined_score": 0.49319905128495095,
   "score_total": 15,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "high_comment_leverage_probability",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 3,
+  "pass_4_scaled": 0.3333333333333333,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 1.0,
+    "H": 0.6666666666666666,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The public record does not fully map each TSCA Order term to each substance-specific SNUR threshold.",
+  "combined_score_pre_pass5": 0.41775595915724234,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Safeguards and Accountability",
+  "pass_5_assessment": "Serious \u00b7 Safeguards and Accountability",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.7223652036457198,
+  "pass_5_worst_flaw_severity": 1,
+  "pass_5_worst_flaw_key": "self_policing_substitution",
+  "pass_5_worst_flaw_name": "Self-Policing Substitution",
+  "pass_5_material_flaw_count": 0,
+  "pass_5_worst_family_key": "safeguards_and_accountability",
+  "pass_5_worst_family_name": "Safeguards and Accountability",
+  "pass_5_worst_family_severity": 1,
+  "pass_5_material_family_count": 0,
+  "pass_5_base_defect_score": 0.722365,
+  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.0,
+  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "The proposal is a chemical notice-and-review package, not a rights-deprivation or emergency-suspension regime.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The rule is structurally ordinary for a TSCA SNUR package, but the public record is partly sanitized and the substance-specific mapping is not fully surfaced in the preamble.",
+  "pass_5_most_important_consequence": "If commenters cannot see how each Order term maps to each final threshold, the final rule will be harder to verify, harder to administer, and harder to review publicly.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.25,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.156
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 1,
+      "mean_severity": 0.6,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.182
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal stays within TSCA SNUR authority and does not substitute a different legal power.",
+      "evidence": [],
+      "comment_leverage": "No specific structural comment is needed beyond ordinary record support."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The rule uses the statute as written rather than flipping an exception into the primary grant of authority.",
+      "evidence": [],
+      "comment_leverage": "No specific structural comment is needed beyond ordinary record support."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "EPA remains the decisionmaker and does not shift responsibility to an outside actor.",
+      "evidence": [],
+      "comment_leverage": "No specific structural comment is needed beyond ordinary record support."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule relies on SNUN submissions from regulated entities, but EPA still retains the review function.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to clarify which parts are self-reported and which parts receive independent review."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The 90-day notice gate is central to the structure, but that is normal for a SNUR.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to give concrete timing examples so the gate is easy to apply."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The burden and cost summaries are brief relative to the breadth of the proposal, but the intrusion level is not obviously disproportionate.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to show the docketed cost analysis more explicitly."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The remedy fits the stated rationale of preserving review while regulating significant new uses, but the public mapping is incomplete.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to show which restrictions are copied from the Orders and which are new here."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Implementation depends on ordinary TSCA procedures and delegated-program uptake; the record does not show a fantasy mechanism, but it does leave operational details thin.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA for concrete implementation examples across the affected substances."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal depends on the SNUN review interface working as intended, but that is an ordinary regulatory handoff rather than a magical assumption.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to explain how the handoff works in practice when activity is already planned."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule clearly identifies the problem as nonconforming activity, but the public text does not fully spell out every borderline case.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to distinguish plainly excluded preparation from significant new use."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice summarizes costs and burdens, but the visible text does not fully surface the downstream implementation burden.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to describe the compliance burden for small entities and delegated authorities."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The rule does not create a selective targeting surface.",
+      "evidence": [],
+      "comment_leverage": "No specific structural comment is needed beyond ordinary record support."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Existing TSCA procedures supply safeguards, but the preamble does not add many extra guardrails for borderline cases.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to add a clearer example set or fallback guidance."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Some burden shifts to submitters and downstream implementers, but that is part of the SNUR design rather than a clear defect.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to explain who bears the compliance and recordkeeping burden in edge cases."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not turn ordinary conduct into a suspicion flag system.",
+      "evidence": [],
+      "comment_leverage": "No specific structural comment is needed beyond ordinary record support."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "CBI-heavy chemical identities and sanitized PMNs reduce public reconstructability even when the rule is lawful.",
+      "evidence": [
+        {
+          "section": "II. Background / C. Significant New Uses Claimed as CBI",
+          "quote_or_absence": "Since most of the chemical identities of the chemical substances subject to these SNURs are also CBI, manufacturers and processors can combine the bona fide submission under the procedure in 40 CFR 721.11 into a single step."
+        },
+        {
+          "section": "Cached supporting PMNs",
+          "quote_or_absence": "The visible record contains sanitized PMN extracts and test summaries rather than the full confidential technical package."
+        }
+      ],
+      "comment_leverage": "Ask EPA to preserve the most important nonconfidential traceability points in the final rule."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The SNUR structure is designed to keep covered activity from starting before review, so the rule does not obviously allow harm before review.",
+      "evidence": [],
+      "comment_leverage": "No specific structural comment is needed beyond ordinary record support."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The SNUN notice is a chokepoint, but it is the intended chokepoint of a SNUR.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to state clearly what happens when the review clock runs or when the activity is not covered."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal leaves some ambiguity about how borderline preparatory activities should be categorized.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to distinguish minor preparatory work from activity that counts as significant new use."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "If the thresholds are not mapped with examples, vague line-drawing could do too much work.",
+      "evidence": [],
+      "comment_leverage": "Ask EPA to publish model examples and fallback criteria."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule is coherent overall, but the moving parts depend on a public mapping that is still too abstract for easy application.",
+      "evidence": [
+        {
+          "section": "I. Executive Summary / B. What action is the Agency taking?",
+          "quote_or_absence": "EPA is proposing SNURs for the chemical substances discussed in Unit III."
+        },
+        {
+          "section": "Visible preamble",
+          "quote_or_absence": "The available record does not provide a side-by-side table that maps each TSCA Order term to each final SNUR threshold."
+        }
+      ],
+      "comment_leverage": "Ask EPA to tighten the public mapping between each Order and each final regulatory condition."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "assertion_heavy_vs_evidence_language",
     "deregulatory_carveout_with_thin_support",
@@ -834,10 +1181,10 @@
     "neutral": 1
   },
   "comments_first_page_unique_days": 1,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/EPA-HQ-OPPT-2026-0499-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "EPA-HQ-OPPT-2026-0499"
