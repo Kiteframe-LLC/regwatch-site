@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-06T10:33:52.674051+00:00",
+  "comment_action_checked_at": "2026-07-07T16:13:52.420826+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-07-16T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 8,
-  "pass_3_score": 0.05263157894736842,
+  "pass_3_score": 0.043478260869565216,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.959051813626104,
-  "pass_3_scaled": 0.008733568697122607,
+  "pass_3_scaled": 0.007220185126271761,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.4568867113961251,
+  "combined_score": 0.41752305093012443,
   "score_total": 17,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -78,343 +78,37 @@
     "reasoned_explanation_completeness"
   ],
   "pass_4_primary_concern": "The public excerpt does not fully show the quantitative bridge from the residue record to the proposed 0.30 ppm orange tolerance.",
-  "combined_score_pre_pass5": 0.4182986600101855,
-  "pass_5_alpha": 0.25,
-  "pass_5_applicable": true,
-  "pass_5_rubric_version": "pass5_structural_integrity_v1",
-  "pass_5_label": "Material \u00b7 Evidence and Rationale Integrity",
-  "pass_5_assessment": "Material \u00b7 Evidence and Rationale Integrity",
-  "pass_5_assessment_tier": "Material",
-  "pass_5_scaled": 0.369,
-  "pass_5_worst_flaw_severity": 2,
-  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
-  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
-  "pass_5_material_flaw_count": 1,
-  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
-  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
-  "pass_5_worst_family_severity": 2,
-  "pass_5_material_family_count": 1,
-  "pass_5_base_defect_score": 0.369,
-  "pass_5_scrutiny_pressure": 0.0,
-  "pass_5_risk_pressure": 0.0,
-  "pass_5_context_pressure": 0.0,
-  "pass_5_scrutiny_multiplier": 1.0,
-  "pass_5_risk_multiplier": 1.0,
-  "pass_5_high_stakes_domain": false,
-  "pass_5_high_stakes_domain_reason": "",
-  "pass_5_red_flag": false,
+  "combined_score_pre_pass5": null,
+  "pass_5_alpha": null,
+  "pass_5_applicable": null,
+  "pass_5_rubric_version": null,
+  "pass_5_label": null,
+  "pass_5_assessment": null,
+  "pass_5_assessment_tier": null,
+  "pass_5_scaled": null,
+  "pass_5_worst_flaw_severity": null,
+  "pass_5_worst_flaw_key": null,
+  "pass_5_worst_flaw_name": null,
+  "pass_5_material_flaw_count": null,
+  "pass_5_worst_family_key": null,
+  "pass_5_worst_family_name": null,
+  "pass_5_worst_family_severity": null,
+  "pass_5_material_family_count": null,
+  "pass_5_base_defect_score": null,
+  "pass_5_scrutiny_pressure": null,
+  "pass_5_risk_pressure": null,
+  "pass_5_context_pressure": null,
+  "pass_5_scrutiny_multiplier": null,
+  "pass_5_risk_multiplier": null,
+  "pass_5_high_stakes_domain": null,
+  "pass_5_high_stakes_domain_reason": null,
+  "pass_5_red_flag": null,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": "The public notice does not itself show the full rationale for moving the orange tolerance from 0.15 ppm to 0.30 ppm.",
-  "pass_5_most_important_consequence": "Commenters need the underlying residue and method record to test the chosen tolerance.",
-  "pass_5_defect_families": [
-    {
-      "family_key": "authority_and_constitutional_fit",
-      "family_name": "Authority and Constitutional Fit",
-      "flaw_keys": [
-        "authority_substitution",
-        "statutory_inversion",
-        "accountability_inversion",
-        "self_policing_substitution"
-      ],
-      "member_count": 4,
-      "worst_severity": 0,
-      "mean_severity": 0.0,
-      "material_flaw_count": 0,
-      "material_share": 0.0,
-      "family_score": 0.0
-    },
-    {
-      "family_key": "evidence_and_rationale_integrity",
-      "family_name": "Evidence and Rationale Integrity",
-      "flaw_keys": [
-        "evidence_to_intrusion_mismatch",
-        "remedy_rationale_mismatch",
-        "threat_ambiguity",
-        "impact_denial"
-      ],
-      "member_count": 4,
-      "worst_severity": 2,
-      "mean_severity": 0.75,
-      "material_flaw_count": 1,
-      "material_share": 0.25,
-      "family_score": 0.369
-    },
-    {
-      "family_key": "implementation_reality",
-      "family_name": "Implementation Reality",
-      "flaw_keys": [
-        "implementation_fantasy",
-        "magic_interface_dependency",
-        "structural_coherence"
-      ],
-      "member_count": 3,
-      "worst_severity": 0,
-      "mean_severity": 0.0,
-      "material_flaw_count": 0,
-      "material_share": 0.0,
-      "family_score": 0.0
-    },
-    {
-      "family_key": "safeguards_and_accountability",
-      "family_name": "Safeguards and Accountability",
-      "flaw_keys": [
-        "safeguard_absence",
-        "externality_dumping",
-        "accountability_substrate_degradation"
-      ],
-      "member_count": 3,
-      "worst_severity": 0,
-      "mean_severity": 0.0,
-      "material_flaw_count": 0,
-      "material_share": 0.0,
-      "family_score": 0.0
-    },
-    {
-      "family_key": "burden_and_consequence_handling",
-      "family_name": "Burden and Consequence Handling",
-      "flaw_keys": [
-        "harm_before_review",
-        "consequence_class_ambiguity"
-      ],
-      "member_count": 2,
-      "worst_severity": 0,
-      "mean_severity": 0.0,
-      "material_flaw_count": 0,
-      "material_share": 0.0,
-      "family_score": 0.0
-    },
-    {
-      "family_key": "enforcement_and_control_architecture",
-      "family_name": "Enforcement and Control Architecture",
-      "flaw_keys": [
-        "constraint_sequencing_capture",
-        "procedural_gateway_control",
-        "ambiguity_enabled_gatekeeping",
-        "targetability_abuse_surface",
-        "suspicion_machine"
-      ],
-      "member_count": 5,
-      "worst_severity": 0,
-      "mean_severity": 0.0,
-      "material_flaw_count": 0,
-      "material_share": 0.0,
-      "family_score": 0.0
-    }
-  ],
-  "pass_5_flaws": [
-    {
-      "flaw_key": "authority_substitution",
-      "flaw_name": "Authority Substitution",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "statutory_inversion",
-      "flaw_name": "Statutory Inversion",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "accountability_inversion",
-      "flaw_name": "Accountability Inversion",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "self_policing_substitution",
-      "flaw_name": "Self-Policing Substitution",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "constraint_sequencing_capture",
-      "flaw_name": "Constraint Sequencing Capture",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "evidence_to_intrusion_mismatch",
-      "flaw_name": "Evidence-to-Intrusion Mismatch",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "remedy_rationale_mismatch",
-      "flaw_name": "Remedy-Rationale Mismatch",
-      "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The excerpt shows a petition-based increase request and a provisional EPA notice, but it does not itself show the full rationale for why 0.30 ppm is the right regulatory endpoint.",
-      "evidence": [
-        {
-          "section": "Executive Summary C",
-          "quote_or_absence": "EPA has not fully evaluated the sufficiency of the submitted data"
-        },
-        {
-          "section": "Supporting petition summary",
-          "quote_or_absence": "requests to amend (increase) the existing afidopyropen tolerance established in 40 CFR part 180.700 in or on Orange, subgroup 10-10A from 0.15 ppm to 0.3 ppm"
-        }
-      ],
-      "comment_leverage": "Ask EPA to show the quantitative bridge from the residue record to the chosen 0.30 ppm level."
-    },
-    {
-      "flaw_key": "implementation_fantasy",
-      "flaw_name": "Implementation Fantasy",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "magic_interface_dependency",
-      "flaw_name": "Magic Interface Dependency",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "threat_ambiguity",
-      "flaw_name": "Threat Ambiguity",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "impact_denial",
-      "flaw_name": "Impact Denial",
-      "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The notice does not quantify the dietary or consumer-exposure implications of the requested tolerance increase in the public excerpt.",
-      "evidence": [],
-      "comment_leverage": "Ask whether the agency considered a lower increase, and what exposure assumptions make 0.30 ppm the appropriate ceiling."
-    },
-    {
-      "flaw_key": "targetability_abuse_surface",
-      "flaw_name": "Targetability / Abuse Surface",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "safeguard_absence",
-      "flaw_name": "Safeguard Absence",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "externality_dumping",
-      "flaw_name": "Externality Dumping",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "suspicion_machine",
-      "flaw_name": "Suspicion Machine",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "accountability_substrate_degradation",
-      "flaw_name": "Accountability Substrate Degradation",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "harm_before_review",
-      "flaw_name": "Harm Before Review",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "procedural_gateway_control",
-      "flaw_name": "Procedural Gateway Control",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "consequence_class_ambiguity",
-      "flaw_name": "Consequence-Class Ambiguity",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "ambiguity_enabled_gatekeeping",
-      "flaw_name": "Ambiguity-Enabled Gatekeeping",
-      "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    },
-    {
-      "flaw_key": "structural_coherence",
-      "flaw_name": "Structural Coherence",
-      "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
-    }
-  ],
-  "pass_5_failure_modes": {
-    "incompetence_administrative_incoherence": false,
-    "instrumental_disruption": false,
-    "ambiguity_as_mechanism": false,
-    "conversion_surface": {
-      "present": false,
-      "source_surface": "",
-      "converted_surface": "",
-      "authority_used": "",
-      "new_control_point": "",
-      "affected_constraint": "",
-      "harm_before_review_pathway": ""
-    }
-  },
+  "pass_5_concise_why": null,
+  "pass_5_most_important_consequence": null,
+  "pass_5_defect_families": [],
+  "pass_5_flaws": [],
+  "pass_5_failure_modes": {},
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "epa_missing_cost_per_unit_signal",
@@ -458,7 +152,7 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-06-15T04:00:00Z",
-      "received_date": "2026-06-15T04:00:00Z",
+      "received_date": "2026-06-15T00:00:00Z",
       "author_date": null,
       "authors": null,
       "page_count": 2,
@@ -753,8 +447,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-05T05:04:23.307538+00:00",
-  "comments_checked_at": "2026-07-05T05:04:23.308850+00:00",
+  "comments_api_last_seen_at": "2026-07-07T15:49:29.745391+00:00",
+  "comments_checked_at": "2026-07-07T15:49:29.746784+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
