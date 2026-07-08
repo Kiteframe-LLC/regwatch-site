@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-07T16:13:51.719353+00:00",
+  "comment_action_checked_at": "2026-07-08T02:33:07.989938+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,403 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.39938666541228773,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5435689463592714,
+  "combined_score": 0.7280853287981894,
   "score_total": 11,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 4,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 5,
+  "pass_4_scaled": 0.5416666666666667,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 2,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 2,
+    "distributional_omission_risk": 0,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 2
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 2.0,
+    "H": 0.3333333333333333,
+    "E": 2.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The proposal sets several key thresholds and reporting duties without fully explaining the empirical basis or operational tradeoffs behind them.",
+  "combined_score_pre_pass5": 0.5877339232509623,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Extreme \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment": "Extreme \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment_tier": "Extreme",
+  "pass_5_scaled": 0.9552037069488475,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
+  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
+  "pass_5_material_flaw_count": 5,
+  "pass_5_worst_family_key": "burden_and_consequence_handling",
+  "pass_5_worst_family_name": "Burden and Consequence Handling",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 5,
+  "pass_5_base_defect_score": 0.947298,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal affects financial institution safety, customer redemption rights, and the treatment of insured accounts in a new stablecoin market.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is broadly coherent, but several operating thresholds and recordkeeping choices are still under-justified.",
+  "pass_5_most_important_consequence": "A weakly calibrated rule could let market structure harden before the hardest tokenized-share and redemption questions are fully answered.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.75,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.194
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.25,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.406
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.425
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.425
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 2,
+      "mean_severity": 1.5,
+      "material_flaw_count": 1,
+      "material_share": 0.5,
+      "family_score": 0.463
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.2,
+      "family_score": 0.38
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule relies on GENIUS and FCU Act authority in a standard way.",
+      "evidence": [],
+      "comment_leverage": "Ask the NCUA to identify the exact statutory hook for each hard threshold."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal moves several obligations onto applicants and issuers through certifications and disclosures.",
+      "evidence": [],
+      "comment_leverage": "Ask how much of the compliance burden should sit with the issuer versus the parent and shareholders."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule still leans on issuer certifications, disclosures, and website reporting for several controls.",
+      "evidence": [],
+      "comment_leverage": "Ask what controls will verify issuer certifications in real time."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The licensing proposal arrives before the later substantive standards rule, so sequencing may shape the later constraint set.",
+      "evidence": [],
+      "comment_leverage": "Ask whether later substantive standards should precede, or at least condition, market entry."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Some screening and reporting duties are more detailed than the public explanation shown here.",
+      "evidence": [],
+      "comment_leverage": "Ask for the specific evidence that justifies each new screening or reporting duty."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Several numeric choices are left at the level of request-for-comment language rather than a fully defended public rationale.",
+      "evidence": [
+        {
+          "section": "Question 95",
+          "quote_or_absence": "as not exceeding two business days"
+        }
+      ],
+      "comment_leverage": "Ask the NCUA to explain why the chosen threshold, not a staged or liquidity-based alternative, is the right fit."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule leans on future automation, blockchain recordkeeping, and later guidance where the operational burden is still uncertain.",
+      "evidence": [
+        {
+          "section": "Question 178",
+          "quote_or_absence": "reporting and recordkeeping considerations that are unique to blockchain and Distributed Ledger-based systems"
+        }
+      ],
+      "comment_leverage": "Ask for concrete implementation milestones, data standards, and manual fallbacks before relying on automation."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal assumes blockchain and smart-contract tooling will be operational enough to support supervision and reporting.",
+      "evidence": [],
+      "comment_leverage": "Ask what happens when the blockchain or smart-contract layer fails or fragments."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Fraud, run risk, and de-pegging are discussed, but the notice does not collapse them into a single quantified threat model.",
+      "evidence": [],
+      "comment_leverage": "Ask for a clearer threat model that separates fraud, de-pegging, run risk, and operational error."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The RIA is positive, but several downstream impacts are still posed as questions rather than analyzed conclusions.",
+      "evidence": [],
+      "comment_leverage": "Ask for a sensitivity analysis that ties the claimed savings to actual market behavior."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal notices several misuse channels, but the final controls for white-label branding, deceptive names, and fraudulent tokens remain underdeveloped.",
+      "evidence": [
+        {
+          "section": "Question 191",
+          "quote_or_absence": "a bad actor may create fraudulent tokens intended to mimic a Payment Stablecoin"
+        }
+      ],
+      "comment_leverage": "Ask for anti-fraud, naming, and brand-control rules that are harder to game in white-label channels."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Several protective controls, including stress tests, customer-service standards, and fraud defenses, are still only posed as questions.",
+      "evidence": [
+        {
+          "section": "Question 194",
+          "quote_or_absence": "conduct periodic stress tests or run simulations modeled on historical stablecoin de-pegging events"
+        }
+      ],
+      "comment_leverage": "Ask for baseline stress tests, dispute resolution, and fraud controls rather than leaving them as open questions."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal could shift compliance and recordkeeping costs to smaller issuers and custodians if thresholds are not calibrated carefully.",
+      "evidence": [],
+      "comment_leverage": "Ask how the rule protects smaller institutions from disproportionate compliance spillovers."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Tokenized-share and blockchain recordkeeping issues are real, but the notice is still trying to surface them through comment questions rather than hardening them into a finalized control failure.",
+      "evidence": [],
+      "comment_leverage": "Ask how ownership, aggregation, and failure-time records will stay reliable on chain."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The licensing architecture may allow market structures to form before the substantive standards rule is final.",
+      "evidence": [],
+      "comment_leverage": "Ask what transition limits keep the market from locking in before the later standards rule arrives."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Licensing and investment gates are central to the rule's effect on market entry.",
+      "evidence": [],
+      "comment_leverage": "Ask whether the licensing gate is calibrated to market entry or just to supervisory convenience."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule does not yet fully separate tokenized shares, payment stablecoins, and deposits in edge cases the notice itself identifies.",
+      "evidence": [
+        {
+          "section": "Question 180",
+          "quote_or_absence": "under what circumstances could such a product be viewed as a tokenized share in an account of a FICU and under what circumstances could such a product be viewed as a Payment Stablecoin"
+        }
+      ],
+      "comment_leverage": "Ask for a rule text that separates tokenized shares, stablecoins, and deposit claims in edge cases."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Definitions are flexible enough that later interpretation will matter a great deal.",
+      "evidence": [],
+      "comment_leverage": "Ask which definitions are intended to be fixed now and which are intentionally deferred."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice is organized and internally consistent, even though it leaves major operating thresholds open.",
+      "evidence": [],
+      "comment_leverage": "Ask for the few remaining crosswalks needed to keep the system internally consistent."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "high_scope_exclusion_language",
@@ -289,10 +642,10 @@
     "neutral": 1
   },
   "comments_first_page_unique_days": 1,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/NCUA-2026-1024-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "NCUA-2026-1024"

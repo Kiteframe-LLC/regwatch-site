@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-07T16:13:51.977841+00:00",
+  "comment_action_checked_at": "2026-07-08T02:33:08.275312+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,386 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.398909040519287,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5214055031137208,
+  "combined_score": 0.6549142353498076,
   "score_total": 11,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 3,
+  "pass_4_scaled": 0.31875,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 2,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 0,
+    "data_quality_uncertainty_handling": 0,
+    "arbitrary_line_drawing_risk": 2,
+    "distributional_omission_risk": 0,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.75,
+    "A": 0.8,
+    "H": 0.0,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "retroactivity_fair_notice_risk"
+  ],
+  "pass_4_primary_concern": "The new transition dates and grandfathering carveouts need clearer justification for edge-case holdings and binding commitments.",
+  "combined_score_pre_pass5": 0.5463352037313456,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment": "Serious \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.7949627325999999,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "consequence_class_ambiguity",
+  "pass_5_worst_flaw_name": "Consequence-Class Ambiguity",
+  "pass_5_material_flaw_count": 2,
+  "pass_5_worst_family_key": "burden_and_consequence_handling",
+  "pass_5_worst_family_name": "Burden and Consequence Handling",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 2,
+  "pass_5_base_defect_score": 0.772181,
+  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_risk_pressure": 0.1,
+  "pass_5_context_pressure": 0.1,
+  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_risk_multiplier": 1.1,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is structurally coherent overall, but the grandfathering and binding-commitment carveouts create the main comment leverage because they determine who stays under the old regime and how close cases are documented.",
+  "pass_5_most_important_consequence": "Foreign governments and their advisers need a clear, auditable rule for deciding when legacy holdings stay under preexisting section 892 treatment and when the new rules begin.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.5,
+      "family_score": 0.425
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.2,
+      "family_score": 0.38
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule uses the later-of-date transition and commitment carveout as the sequencing device for applying the new regime to existing holdings.",
+      "evidence": [],
+      "comment_leverage": "Ask whether that sequencing should be accompanied by concrete examples."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule is implementable, but the preamble does not show how amended commitments, mixed portfolios, or unusual settlement patterns will be handled without later disputes.",
+      "evidence": [],
+      "comment_leverage": "Ask for examples and implementation guidance."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule assumes acquisition dates and commitment dates can be applied cleanly across market transactions.",
+      "evidence": [],
+      "comment_leverage": "Ask for an objective recordkeeping standard."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The binding-commitment carveout creates a modest timing and structuring incentive, although the rule is not broadly targetable.",
+      "evidence": [],
+      "comment_leverage": "Ask for examples that limit timing games."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice does not spell out a verification or safe-harbor framework for the transition carveouts.",
+      "evidence": [],
+      "comment_leverage": "Ask for proof standards or safe harbors."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule does not describe what records will prove a binding commitment or previously acquired interest in close cases, which is a modest reconstructability concern.",
+      "evidence": [],
+      "comment_leverage": "Ask the agency to specify documentary proof and audit expectations."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The transition dates act as the gateway for when the new rule applies, but that is a standard role for applicability dates.",
+      "evidence": [],
+      "comment_leverage": "Ask whether the gateway should include examples or a safe harbor."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule creates different consequence classes for legacy holdings, binding-commitment acquisitions, previously acquired interests, and new controlling interests, but the preamble does not show how borderline combinations will be classified.",
+      "evidence": [
+        {
+          "section": "Applicability Date for Debt Acquisition Rules",
+          "quote_or_absence": "The later-of-date formula and binding-commitment carveout create multiple consequence classes for acquisitions close to the cutoff."
+        }
+      ],
+      "comment_leverage": "Ask for concrete examples that show how the consequence classes work in practice."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The carveout language can determine whether the new rules apply to existing interests, and the notice leaves the close-case verification standard implicit rather than explicit.",
+      "evidence": [
+        {
+          "section": "Applicability Date for Effective Control Rules",
+          "quote_or_absence": "The rule turns on whether the foreign government first acquires new controlling interests, but the available text does not specify a documentation standard for the triggering event."
+        }
+      ],
+      "comment_leverage": "Ask for a documentation safe harbor and examples that limit ambiguity-driven exclusion."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule is coherent as a transition rule, but the interaction of timing, grandfathering, and commitment-based carveouts could still use examples to make the architecture easier to follow.",
+      "evidence": [],
+      "comment_leverage": "Ask for examples rather than abstract definitions."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": true,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "high_obligation_low_evidence_language",
     "missing_supporting_analysis_references"
@@ -253,10 +589,10 @@
     "neutral": 1
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/IRS-2026-0661-0002_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "IRS-2026-0661"

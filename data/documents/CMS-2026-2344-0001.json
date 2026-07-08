@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-07T16:13:53.943728+00:00",
+  "comment_action_checked_at": "2026-07-08T02:33:11.054764+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,399 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.34294983693439196,
+  "combined_score": 0.4318732267704907,
   "score_total": 13,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 3,
+  "pass_4_scaled": 0.29166666666666663,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 0,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 0,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 1.0,
+    "H": 0.6666666666666666,
+    "E": 0.6666666666666666
+  },
+  "pass_4_signals": [
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The top concern is whether the 340B payment bridge, prior authorization expansion, and quality-reporting refinements are tied closely enough to measurable access, comparability, and burden effects.",
+  "combined_score_pre_pass5": 0.3579538923002716,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.826020736863076,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
+  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
+  "pass_5_material_flaw_count": 2,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 2,
+  "pass_5_base_defect_score": 0.795319,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal affects Medicare outpatient payment, drug acquisition pricing, prior authorization, quality reporting, and access-sensitive hospital workflows.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is structurally coherent overall, but the 340B payment bridge and the prior-authorization expansion need stronger explanation of how the chosen mechanisms map to outcomes and access protections.",
+  "pass_5_most_important_consequence": "If the 340B bridge math or prior-authorization safeguards are thin, CMS could finalize large payment and workflow changes without a record that shows the same access and quality goals would be achieved with less distortion or delay.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.388
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 0.4,
+      "material_flaw_count": 1,
+      "material_share": 0.2,
+      "family_score": 0.335
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The prior authorization and off-campus payment-control choices are plausible policy tools, but the available text does not yet tie each intrusion tightly to measured reductions in unnecessary utilization or patient harm.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to connect each utilization-control mechanism to a measurable outcome and to publish the access metrics it will monitor."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The 340B survey, ASP-minus-33.4-percent proposal, and 3-percent offset are internally connected, but the available text does not fully show the bridge from survey inputs to the chosen rate and offset structure.",
+      "evidence": [
+        {
+          "section": "Section XXIII / 340B drug payment discussion",
+          "quote_or_absence": "from January 1, 2026 through April 7, 2026, we conducted a survey of the acquisition costs for each separately payable drug acquired by all hospitals paid under the OPPS."
+        },
+        {
+          "section": "Section XXIII / 340B drug payment discussion",
+          "quote_or_absence": "Taking the survey results into account, we propose for CY 2027 to pay ASP minus 33.4 percent for 340B acquired drugs."
+        },
+        {
+          "section": "Section XXIII / 340B remedy offset discussion",
+          "quote_or_absence": "For CY 2027, we propose to increase the annual percent reduction ... from 0.5 percent to 3 percent."
+        }
+      ],
+      "comment_leverage": "Ask CMS to publish the calculation bridge, alternative formulas, and sensitivity analysis that justify the final discount and offset choices."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule is not an unrealistic implementation fantasy because CMS provides concrete dates, formulas, and program boundaries, but the breadth of changes still creates coordination risk.",
+      "evidence": [],
+      "comment_leverage": "Ask for milestone-based readiness checks and fallback rules if the new mechanisms are not functioning on schedule."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice quantifies payment transfers and burden changes, but some downstream access and service-mix effects remain only partly measured in the available text.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to separate payment effects from patient-access effects in the final impact narrative."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The prior authorization expansion and the transparency RFI both leave important guardrail details to later implementation.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to specify timeliness, correction, and validation safeguards in the final rule or companion guidance."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The budget-neutral 340B adjustments move costs between service lines and hospital groups, but the available text does not fully trace the resulting distribution of burden.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to show which hospitals, services, and beneficiaries bear the offset burden and how that shifts access."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The colonoscopy measure removal may reduce the shared quality signal unless replacement or stratification preserves continuity.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS what replacement signal or transition plan preserves comparability after the measure is removed."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Prior authorization can delay care before a service is furnished, but the available text does not show immediate harm before review in the way a more extreme gatekeeping design would.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to include access-delay metrics, exception handling, and appeal timing in the final implementation design."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule uses prior authorization as a procedural gate for additional botulinum toxin injection services, which is a meaningful control surface because it can delay or redirect care if not tightly bounded.",
+      "evidence": [
+        {
+          "section": "Summary / prior authorization section",
+          "quote_or_absence": "We propose to expand the prior authorization requirement to include additional Botulinum Toxin Injection services."
+        },
+        {
+          "section": "Summary of the Major Provisions",
+          "quote_or_absence": "We propose to expand the prior authorization requirement to include additional Botulinum Toxin Injection services."
+        }
+      ],
+      "comment_leverage": "Ask CMS for turnaround-time standards, exceptions, appeals, and denial-rate reporting before this gate is expanded."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule combines payment, quality reporting, transparency, and utilization-control consequences, but the available text does not cleanly separate which outcomes are being measured for each component.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to map each proposal to the specific outcome category it is intended to change."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The package is coherent as an annual update and targeted control rule, but some of the proposed mechanisms need stronger outcome linkage to be fully auditable.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS for a clearer logic model from payment formula to access and quality outcome."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "high_scope_exclusion_language"
@@ -276,8 +625,8 @@
   "comments_first_page_unique_days": 0,
   "summary_available": false,
   "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/CMS-2026-2344-0002_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "CMS-2026-2344"
