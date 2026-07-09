@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-08T05:29:51.011543+00:00",
+  "comment_action_checked_at": "2026-07-09T14:32:54.497887+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -8734,12 +8734,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2024-02-21T05:00:00Z",
-      "received_date": null,
+      "received_date": "2024-02-21T05:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 0,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/NSF_FRDOC_0001-3289/content.pdf",
+          "format": "pdf",
+          "size": 173497
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/NSF_FRDOC_0001-3289/content.htm",
+          "format": "htm",
+          "size": 2483
+        }
+      ]
     },
     {
       "document_id": "NSF_FRDOC_0001-3294",
@@ -8749,12 +8760,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2024-02-21T05:00:00Z",
-      "received_date": null,
+      "received_date": "2024-02-21T05:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 0,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/NSF_FRDOC_0001-3294/content.pdf",
+          "format": "pdf",
+          "size": 173503
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/NSF_FRDOC_0001-3294/content.htm",
+          "format": "htm",
+          "size": 2148
+        }
+      ]
     },
     {
       "document_id": "NSF_FRDOC_0001-3296",
@@ -26140,7 +26162,7 @@
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-07-08T00:51:17.506420+00:00",
   "comments_checked_at": "2026-07-08T00:51:17.506572+00:00",
-  "comments_error": null,
+  "comments_error": "502 Server Error: Bad Gateway for url: https://api.regulations.gov/v4/comments?filter%5BcommentOnId%5D=09000064b92fcb9e&sort=-postedDate&page%5Bsize%5D=30&page%5Bnumber%5D=1; used_stale_cache",
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/NSF_FRDOC_0001.csv",
   "government_submissions_count": 0,
