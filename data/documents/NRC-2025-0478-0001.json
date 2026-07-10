@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-10T06:17:19.205611+00:00",
+  "comment_action_checked_at": "2026-07-10T17:26:59.763259+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,37 +39,37 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.44656830985455337,
+  "combined_score": 0.44971327629282765,
   "score_total": 11,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 5,
-  "pass_4_scaled": 0.5166666666666666,
+  "pass_4_raw": 4,
+  "pass_4_scaled": 0.37916666666666665,
   "pass_4_axes": {
-    "statutory_authority_fit": 0,
-    "procedural_compliance_risk": 0,
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 1,
     "retroactivity_fair_notice_risk": 0,
     "federalism_preemption_risk": 0,
     "reasoned_explanation_completeness": 2,
-    "alternatives_analysis_adequacy": 2,
-    "cost_benefit_transparency": 2,
-    "data_quality_uncertainty_handling": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
     "arbitrary_line_drawing_risk": 1,
     "distributional_omission_risk": 1,
     "environmental_justice_analysis_risk": 1,
-    "small_entity_impact_rfa_risk": 1,
-    "implementation_feasibility_risk": 2,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 1,
     "enforcement_clarity_risk": 1,
-    "monitoring_and_feedback_design_quality": 1
+    "monitoring_and_feedback_design_quality": 0
   },
   "pass_4_domain_means": {
-    "L": 0.0,
-    "A": 1.8,
-    "H": 1.0,
-    "E": 1.3333333333333333
+    "L": 0.5,
+    "A": 1.2,
+    "H": 0.6666666666666666,
+    "E": 0.6666666666666666
   },
   "pass_4_signals": [
     "alternatives_analysis_adequacy",
@@ -80,39 +80,39 @@
     "enforcement_clarity_risk",
     "environmental_justice_analysis_risk",
     "implementation_feasibility_risk",
-    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
     "reasoned_explanation_completeness",
-    "small_entity_impact_rfa_risk"
+    "statutory_authority_fit"
   ],
-  "pass_4_primary_concern": "The main record gap is the thin explanation for narrowing NEPA review scope and relying on new categorical exclusions and guidance.",
-  "combined_score_pre_pass5": 0.3705259737112449,
+  "pass_4_primary_concern": "The proposal narrows NEPA scope and shifts operative detail into guidance before fully showing how traceability and public review will stay intact.",
+  "combined_score_pre_pass5": 0.3634335391796492,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
-  "pass_5_label": "Serious \u00b7 Safeguards and Accountability",
-  "pass_5_assessment": "Serious \u00b7 Safeguards and Accountability",
-  "pass_5_assessment_tier": "Serious",
-  "pass_5_scaled": 0.82091234125,
+  "pass_5_label": "Extreme \u00b7 Safeguards and Accountability",
+  "pass_5_assessment": "Extreme \u00b7 Safeguards and Accountability",
+  "pass_5_assessment_tier": "Extreme",
+  "pass_5_scaled": 0.9496067678060875,
   "pass_5_worst_flaw_severity": 2,
-  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
-  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
-  "pass_5_material_flaw_count": 3,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 6,
   "pass_5_worst_family_key": "safeguards_and_accountability",
   "pass_5_worst_family_name": "Safeguards and Accountability",
   "pass_5_worst_family_severity": 2,
-  "pass_5_material_family_count": 3,
-  "pass_5_base_defect_score": 0.820912,
-  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_material_family_count": 4,
+  "pass_5_base_defect_score": 0.940714,
+  "pass_5_scrutiny_pressure": 0.15,
   "pass_5_risk_pressure": 0.0,
-  "pass_5_context_pressure": 0.0,
-  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
   "pass_5_risk_multiplier": 1.0,
-  "pass_5_high_stakes_domain": false,
-  "pass_5_high_stakes_domain_reason": "The rule changes environmental review procedures and information channels, but it does not itself impose a direct sanction, benefit cutoff, or rights-denial gate.",
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The rule governs NRC environmental review for nuclear licensing, petitioner, and related regulatory actions, so scope changes can affect what the public sees before a nuclear decision is made.",
   "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": "The proposal is coherent, but the core scope cut, new categorical exclusions, and guidance split still need clearer limits and better support.",
-  "pass_5_most_important_consequence": "The final rule may narrow the scope of environmental review and public participation faster than the visible record supports.",
+  "pass_5_concise_why": "The proposal shifts key work into guidance and sponsor-prepared materials without a full traceability map.",
+  "pass_5_most_important_consequence": "Some effects may move out of the formal record before the public can test the basis for a licensing decision.",
   "pass_5_defect_families": [
     {
       "family_key": "authority_and_constitutional_fit",
@@ -124,11 +124,11 @@
         "self_policing_substitution"
       ],
       "member_count": 4,
-      "worst_severity": 0,
-      "mean_severity": 0.0,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.0
+      "family_score": 0.213
     },
     {
       "family_key": "evidence_and_rationale_integrity",
@@ -141,10 +141,10 @@
       ],
       "member_count": 4,
       "worst_severity": 2,
-      "mean_severity": 0.5,
-      "material_flaw_count": 1,
-      "material_share": 0.25,
-      "family_score": 0.35
+      "mean_severity": 1.5,
+      "material_flaw_count": 2,
+      "material_share": 0.5,
+      "family_score": 0.463
     },
     {
       "family_key": "implementation_reality",
@@ -155,11 +155,11 @@
         "structural_coherence"
       ],
       "member_count": 3,
-      "worst_severity": 1,
-      "mean_severity": 0.333,
-      "material_flaw_count": 0,
-      "material_share": 0.0,
-      "family_score": 0.163
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.425
     },
     {
       "family_key": "safeguards_and_accountability",
@@ -171,10 +171,10 @@
       ],
       "member_count": 3,
       "worst_severity": 2,
-      "mean_severity": 1.0,
-      "material_flaw_count": 1,
-      "material_share": 0.333,
-      "family_score": 0.4
+      "mean_severity": 1.667,
+      "material_flaw_count": 2,
+      "material_share": 0.667,
+      "family_score": 0.5
     },
     {
       "family_key": "burden_and_consequence_handling",
@@ -185,10 +185,10 @@
       ],
       "member_count": 2,
       "worst_severity": 1,
-      "mean_severity": 0.5,
+      "mean_severity": 1.0,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.175
+      "family_score": 0.213
     },
     {
       "family_key": "enforcement_and_control_architecture",
@@ -202,10 +202,10 @@
       ],
       "member_count": 5,
       "worst_severity": 2,
-      "mean_severity": 0.4,
+      "mean_severity": 1.0,
       "material_flaw_count": 1,
       "material_share": 0.2,
-      "family_score": 0.335
+      "family_score": 0.38
     }
   ],
   "pass_5_flaws": [
@@ -213,217 +213,220 @@
       "flaw_key": "authority_substitution",
       "flaw_name": "Authority Substitution",
       "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "The proposal relies on executive directives and guidance to reshape the operative review framework, which can blur the line between statutory procedure and implementation detail.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask the NRC to explain exactly which changes are statutory necessities and which are policy choices."
     },
     {
       "flaw_key": "statutory_inversion",
       "flaw_name": "Statutory Inversion",
       "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "The rule treats codified NEPA/case-law constraints as a reason to delete or downgrade procedures, but the notice does not show that every deletion is compelled by statute.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask for a side-by-side map of statutory requirements versus proposed deletions."
     },
     {
       "flaw_key": "accountability_inversion",
       "flaw_name": "Accountability Inversion",
       "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "More of the environmental-review burden moves into applicant- and guidance-driven processes, which can make it harder to tell who is responsible for a weak record.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask who owns the final record if a sponsor-prepared submission is incomplete."
     },
     {
       "flaw_key": "self_policing_substitution",
       "flaw_name": "Self-Policing Substitution",
       "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "Applicant-prepared EAs/EISs and expanded submission flexibility push the process toward self-generated documentation, but the notice has not yet shown the full review structure that prevents self-certification problems.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask what independent NRC checks will remain mandatory."
     },
     {
       "flaw_key": "constraint_sequencing_capture",
       "flaw_name": "Constraint Sequencing Capture",
       "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "The rule front-loads scope narrowing and categorical exclusions before the final implementation details are fully fixed, but the notice still preserves a comment opportunity.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask which decisions will be made before the final procedural safeguards are in place."
     },
     {
       "flaw_key": "evidence_to_intrusion_mismatch",
       "flaw_name": "Evidence-to-Intrusion Mismatch",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
+      "severity": 2,
+      "explanation": "The scope narrowing is broad, but the notice text mainly supplies policy and legal citations rather than a full comparative record for every excluded effect.",
+      "evidence": [
+        {
+          "section": "V.1",
+          "quote_or_absence": "The notice asks what impacts should remain in scope, but the supplied text does not reproduce the comparative record."
+        }
+      ],
+      "comment_leverage": "Request the specific record the NRC used to decide which impacts should be excluded."
     },
     {
       "flaw_key": "remedy_rationale_mismatch",
       "flaw_name": "Remedy-Rationale Mismatch",
       "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The rule changes the review scope and moves operational detail into guidance, but the notice only partly explains why these specific cuts are the best-fit remedy for the stated burden problem.",
-      "evidence": [
-        {
-          "section": "Section V. Specific Request for Comment",
-          "quote_or_absence": "The notice asks whether more procedures should stay in the regulations or move to guidance, which shows the remedy choice is still open in the record."
-        },
-        {
-          "section": "Section VII. Regulatory Analysis",
-          "quote_or_absence": "The NRC requests public comment on the draft regulatory analysis, including the assumptions in the uncertainty analysis and the numbers presented in Appendix A."
-        }
-      ],
-      "comment_leverage": "Ask the NRC to map each major removal to a specific problem it solves and to explain why narrower alternatives were rejected."
+      "severity": 1,
+      "explanation": "The remedy is to streamline by deleting or converting text to guidance, which broadly matches the burden-reduction rationale, but the record is still thin on why each individual deletion is necessary.",
+      "evidence": [],
+      "comment_leverage": "Ask for item-by-item justification of every moved or deleted provision."
     },
     {
       "flaw_key": "implementation_fantasy",
       "flaw_name": "Implementation Fantasy",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "The proposal assumes the new rule/guidance stack and applicant-prepared submission channels will work smoothly, but the details are still mostly deferred.",
+      "explanation": "The proposal assumes the guidance package and future applicant submissions will absorb a lot of implementation detail, but the notice does not yet show a full workflow.",
       "evidence": [],
-      "comment_leverage": "Ask the NRC to spell out the staffing, review, and quality-control steps that make the new process workable."
+      "comment_leverage": "Ask for a concrete implementation timeline and staffing plan."
     },
     {
       "flaw_key": "magic_interface_dependency",
       "flaw_name": "Magic Interface Dependency",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
+      "severity": 2,
+      "explanation": "The rule depends on NUREG-2270 and other guidance to operationalize the narrowed scope and new procedures, which creates a real handoff point that can fail if the guidance is not tightly aligned.",
+      "evidence": [
+        {
+          "section": "XIII",
+          "quote_or_absence": "The NRC is issuing new draft guidance NUREG-2270 for implementation."
+        }
+      ],
+      "comment_leverage": "Ask the NRC to show where the binding rule stops and the guidance begins."
     },
     {
       "flaw_key": "threat_ambiguity",
       "flaw_name": "Threat Ambiguity",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "The proposal does identify the problem as unnecessary burden and overbroad review, so the basic threat is not vague.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "N/A"
     },
     {
       "flaw_key": "impact_denial",
       "flaw_name": "Impact Denial",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
+      "severity": 2,
+      "explanation": "The proposal explicitly removes environmental-justice references and narrows review to authority-bound effects, which risks downplaying some downstream community impacts that commenters may still care about.",
+      "evidence": [
+        {
+          "section": "III.3",
+          "quote_or_absence": "The Commission directed the staff to remove references to environmental justice (EJ)."
+        }
+      ],
+      "comment_leverage": "Ask which community impacts remain visible once the rule is narrowed to authority-bound effects."
     },
     {
       "flaw_key": "targetability_abuse_surface",
       "flaw_name": "Targetability / Abuse Surface",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "Nothing in the notice clearly creates a selective-targeting lever, though broad discretion on exclusions could still be unevenly applied.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask for viewpoint-neutral, geography-neutral, and association-neutral administration if a discretion point is created."
     },
     {
       "flaw_key": "safeguard_absence",
       "flaw_name": "Safeguard Absence",
       "defect_type": "Type II",
       "severity": 2,
-      "explanation": "The notice does not yet give a full set of limiting characteristics, carve-outs, or review triggers for the new categorical exclusions and flexible submission channels.",
+      "explanation": "The notice solicits ideas for preserving meaningful public engagement but does not yet present a complete safeguard package for the new workflow.",
       "evidence": [
         {
-          "section": "Section V. Specific Request for Comment",
-          "quote_or_absence": "What additional specific licensing or regulatory actions should the NRC consider for categorical exclusion from further NEPA review and why?"
-        },
-        {
-          "section": "Section V. Specific Request for Comment",
-          "quote_or_absence": "Please also provide comments on the newly proposed categorical exclusions in terms of whether the actions would normally result in no significant environmental impacts."
+          "section": "V.6",
+          "quote_or_absence": "The notice asks how to preserve meaningful public engagement, but does not yet give a full safeguard package."
         }
       ],
-      "comment_leverage": "Ask for limiting characteristics, carve-outs, and examples showing why each exclusion is safe."
+      "comment_leverage": "Ask the NRC to state the guardrails that will protect public participation and consultation."
     },
     {
       "flaw_key": "externality_dumping",
       "flaw_name": "Externality Dumping",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
-      "evidence": [],
-      "comment_leverage": ""
+      "severity": 2,
+      "explanation": "Applicant-prepared EAs/EISs and broader environmental-information submissions shift more record-building burden outward to applicants and petitioners.",
+      "evidence": [
+        {
+          "section": "IV.A",
+          "quote_or_absence": "provide new flexibility for licensees, applicants, and petitioners for rulemaking to submit environmental information"
+        }
+      ],
+      "comment_leverage": "Ask what review burden remains with NRC staff and how errors will be corrected."
     },
     {
       "flaw_key": "suspicion_machine",
       "flaw_name": "Suspicion Machine",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "",
+      "explanation": "The proposal does not turn ordinary conduct into a suspicion trigger on the supplied record.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "None."
     },
     {
       "flaw_key": "accountability_substrate_degradation",
       "flaw_name": "Accountability Substrate Degradation",
       "defect_type": "Type I",
       "severity": 1,
-      "explanation": "Moving important implementation detail into guidance can weaken the public record even if it remains legally permissible.",
+      "explanation": "Some content moves from regulation into guidance, which can weaken long-run auditability if the agency does not keep a strong crosswalk.",
       "evidence": [],
-      "comment_leverage": "Ask which requirements will stay binding in the regulation and which ones will be only guidance."
+      "comment_leverage": "Ask for a public crosswalk from removed regulatory text to the new guidance."
     },
     {
       "flaw_key": "harm_before_review",
       "flaw_name": "Harm Before Review",
       "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "The rule still operates as a pre-decision NEPA process, so the record does not yet show a direct harm-before-review design.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask for milestones that ensure review comes before any irreversible step."
     },
     {
       "flaw_key": "procedural_gateway_control",
       "flaw_name": "Procedural Gateway Control",
       "defect_type": "Type II",
       "severity": 2,
-      "explanation": "The proposal channels more of the practical decision-making into guidance and submission pathways that can act as gatekeepers without fully visible standards.",
+      "explanation": "New categorical exclusions and guidance-based procedures create a more powerful gateway for deciding which actions get fuller NEPA review.",
       "evidence": [
         {
-          "section": "Section V. Specific Request for Comment",
-          "quote_or_absence": "Should the NRC consider moving more information on applicant-prepared EAs and EISs from the regulation to the guidance document to allow for greater flexibility in the program?"
-        },
-        {
-          "section": "Section XIII. Availability of Guidance",
-          "quote_or_absence": "The NRC is issuing new draft guidance NUREG-2270 for the implementation of the proposed requirements."
+          "section": "IV.A",
+          "quote_or_absence": "establish new categorical exclusions"
         }
       ],
-      "comment_leverage": "Ask for explicit standards, timelines, and access guarantees in the rule text rather than only in guidance."
+      "comment_leverage": "Ask the NRC to define limiting characteristics and review checkpoints for every exclusion."
     },
     {
       "flaw_key": "consequence_class_ambiguity",
       "flaw_name": "Consequence-Class Ambiguity",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "The rule depends on deciding which effects count as within scope and which do not, but the available text does not fully separate those consequence classes.",
+      "explanation": "The rule narrows effects by authority, but the notice does not yet separately classify minor, serious, and irreversible impacts in a detailed way.",
       "evidence": [],
-      "comment_leverage": "Ask the NRC to show how it classifies edge-case effects and why those classifications are stable."
+      "comment_leverage": "Ask for a consequence-tier table if the final rule uses one."
     },
     {
       "flaw_key": "ambiguity_enabled_gatekeeping",
       "flaw_name": "Ambiguity-Enabled Gatekeeping",
       "defect_type": "Type I",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "The proposal still leaves several boundary questions open, but the notice is at least explicit that those questions are being asked for comment.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask the NRC to replace open-ended standards with clearer decision rules."
     },
     {
       "flaw_key": "structural_coherence",
       "flaw_name": "Structural Coherence",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "",
+      "severity": 1,
+      "explanation": "The overall structure holds together, though the regulation/guidance split and the applicant-prepared-document model still need a stronger implementation map.",
       "evidence": [],
-      "comment_leverage": ""
+      "comment_leverage": "Ask for a crosswalk showing how the pieces fit together in practice."
     }
   ],
   "pass_5_failure_modes": {
