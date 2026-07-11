@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-10T17:26:58.642525+00:00",
+  "comment_action_checked_at": "2026-07-11T15:18:20.205903+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,395 @@
   "pass_2_scaled": 0.959051813626104,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.4037294693199124,
+  "combined_score": 0.4585999797346524,
   "score_total": 17,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "high_comment_leverage_probability",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 2,
+  "pass_4_scaled": 0.18333333333333332,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 0,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 0,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 0.8,
+    "H": 0.3333333333333333,
+    "E": 0.3333333333333333
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "reasoned_explanation_completeness"
+  ],
+  "pass_4_primary_concern": "The notice is still mostly qualitative, so EPA should show how the broad DMSO exemption is supported across crop, animal, and food-contact uses.",
+  "combined_score_pre_pass5": 0.41483202972621,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Material \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Material",
+  "pass_5_scaled": 0.4220305750000001,
+  "pass_5_worst_flaw_severity": 1,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 0,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 1,
+  "pass_5_material_family_count": 0,
+  "pass_5_base_defect_score": 0.422031,
+  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.0,
+  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "The notice concerns food-exposure risk, but this is still a petition notice rather than a rights-like or control-surface rule.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The notice is coherent and procedurally ordinary, but the visible record is still mostly petitioner-driven and does not compare the three use pathways separately.",
+  "pass_5_most_important_consequence": "If EPA grants the exemption on the current record, the broad scope could be harder to defend without a clearer cross-pathway exposure bridge.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.333,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.163
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.333,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.163
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The petition summary relies on general toxicology and persistence claims, but the visible record does not quantify exposure by use pattern.",
+      "evidence": [
+        {
+          "section": "Supporting document / Aggregate Exposure",
+          "quote_or_absence": "Based on the lack of any endpoints of concern ... a quantitative risk assessment is not necessary."
+        }
+      ],
+      "comment_leverage": "Ask EPA to show why the hazard screen is enough for crop, animal, and food-contact uses."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The requested remedy spans crop, animal, and food-contact uses, but the public explanation is still a single safety narrative.",
+      "evidence": [
+        {
+          "section": "Unit II. Petitions Received / PP IN-12546",
+          "quote_or_absence": "requests to establish an exemption ... in pesticide formulations applied to growing crops pre- and post-harvest, applied to/on animals and in antimicrobial pesticide formulations applied to food-contact surfaces"
+        }
+      ],
+      "comment_leverage": "Ask EPA to explain why one rationale fits all three use classes."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The record does not show how the exemption would be implemented or checked across the different formulation and use settings.",
+      "evidence": [
+        {
+          "section": "Supporting document / Analytical method",
+          "quote_or_absence": "The petitioner believes no analytical method is needed because it is not required for an exemption from the requirement of tolerance."
+        }
+      ],
+      "comment_leverage": "Ask what practical compliance or review check remains after the exemption."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "No separate monitoring or verification concept appears in the visible record for the broad request.",
+      "evidence": [
+        {
+          "section": "Executive Summary / C",
+          "quote_or_absence": "Additional data may be needed before EPA can make a final determination on these pesticide petitions."
+        }
+      ],
+      "comment_leverage": "Ask whether EPA expects any follow-up data or monitoring before finalizing the exemption."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "epa_missing_cost_per_unit_signal",
@@ -333,8 +678,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-09T05:01:57.668557+00:00",
-  "comments_checked_at": "2026-07-09T05:01:57.668601+00:00",
+  "comments_api_last_seen_at": "2026-07-11T05:01:28.330283+00:00",
+  "comments_checked_at": "2026-07-11T05:01:28.330422+00:00",
   "comments_error": null,
   "comments_clusters": [],
   "comments_clusters_path": "data/comments/EPA-HQ-OPP-2026-0529.csv",
@@ -350,10 +695,10 @@
   "comments_first_page_novelty_clusters": null,
   "comments_first_page_stance_counts": {},
   "comments_first_page_unique_days": 0,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/EPA-HQ-OPP-2026-0529-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "EPA-HQ-OPP-2026-0529"

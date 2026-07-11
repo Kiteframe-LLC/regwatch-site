@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-10T17:26:58.354041+00:00",
+  "comment_action_checked_at": "2026-07-11T15:18:17.376543+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-07-14T03:59:59Z",
   "pass_1_score": 8,
   "pass_2_score": 7,
-  "pass_3_score": 0.14285714285714285,
+  "pass_3_score": 3.206896551724138,
   "pass_1_scaled": 0.6635673136198881,
   "pass_2_scaled": 0.9389472349966212,
-  "pass_3_scaled": 0.023528313347756735,
+  "pass_3_scaled": 0.4140276991056585,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.41668643859513144,
+  "combined_score": 0.6207833831826599,
   "score_total": 15,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "POLICY_REINTERPRETATION",
@@ -855,56 +855,59 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 6,
-  "comments_velocity_total": 4,
-  "comments_public_total_estimate": 4,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 6,
-  "comments_unique_clusters": 6,
+  "comments_total": 8,
+  "comments_velocity_total": 6,
+  "comments_public_total_estimate": 6,
+  "comments_fetched": 2,
+  "comments_text_hydrated": 2,
+  "comments_cached_records": 8,
+  "comments_unique_clusters": 8,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 6,
+  "comments_citizen_count": 8,
   "comments_commenter_type_counts": {
-    "citizen": 6
+    "citizen": 8
   },
   "comments_submission_role_counts": {
-    "individual": 3,
+    "individual": 5,
     "government_unknown": 2,
     "organization": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 4,
+    "public_portal": 6,
     "agency_material": 1,
     "other_channel_recorded": 1
   },
-  "comments_public_count": 4,
+  "comments_public_count": 6,
   "comments_recorded_count": 1,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-07-10": 1,
+    "2026-07-09": 1,
     "2026-07-06": 2,
     "2026-06-30": 2,
     "2026-06-24": 2
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-07-09": 1,
     "2026-06-24": 1
   },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 1.0,
-  "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 4,
+  "comments_sentiment_negative_pct": 0.33333333333333337,
+  "comments_sentiment_neutral_pct": 0.6666666666666667,
+  "comments_sentiment_net": -0.33333333333333337,
+  "comments_sentiment_sample_size": 6,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 6,
+  "comments_analysis_sample_size": 8,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 6,
-  "comments_representative_prior_selected": 6,
+  "comments_representative_selected": 8,
+  "comments_representative_prior_selected": 8,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 3,
   "comments_representative_run_budget": 0,
@@ -914,19 +917,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 3,
     "salience_rank": 2,
-    "weighted_fill": 1
+    "weighted_fill": 3
   },
-  "comments_representative_selected_by_counts_total": 6,
+  "comments_representative_selected_by_counts_total": 8,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-09T05:32:44.088692+00:00",
-  "comments_checked_at": "2026-07-09T05:32:44.117223+00:00",
+  "comments_api_last_seen_at": "2026-07-11T05:40:45.791350+00:00",
+  "comments_checked_at": "2026-07-11T05:40:45.845544+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 5,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-0201-0034",
@@ -962,7 +965,43 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-0201-0039",
+      "representative_posted_date": "2026-07-09T04:00:00Z",
+      "representative_length": 4842,
+      "representative_excerpt": "EPA's own example makes this concrete: A state owes a pollution-control plan \u2014 a Reasonably Available Control Technology, or RACT, SIP \u2014 by a certain date. It misses the deadline. Later, its air quality gets worse and the area gets bumped to a stricter category. Under the rule EPA adopted in January 2025, that missed deadline still counted: the state was...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-0201-0039": {
+          "organization": "",
+          "postedDate": "2026-07-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Steven Singleton",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9437500000000001
+    },
+    {
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-0201-0036",
@@ -995,10 +1034,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7666666666666666
+      "presentation_score": 0.7541666666666665
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-0201-0033",
@@ -1034,7 +1073,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-0201-0035",
@@ -1067,10 +1106,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5
+      "presentation_score": 0.48750000000000004
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-0201-0037",
@@ -1103,10 +1142,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.525
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-0201-0038",
@@ -1139,6 +1178,42 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
+      "presentation_score": 0.525
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-0201-0040",
+      "representative_posted_date": "2026-07-10T04:00:00Z",
+      "representative_length": 586,
+      "representative_excerpt": "At face value the proposed rule change appears to be an effort to align to the EPA\u2019s revised interpretation of CAA section 182. However, a sentence in (A.) Overview of Proposal is a cause for concern, it reads as follows: \u201cIf, for example, the EPA had issued a finding of failure to submit for the lower classification SIP submittals, the finalization of...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-0201-0040": {
+          "organization": "",
+          "postedDate": "2026-07-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
       "presentation_score": 0.55
     }
   ],
@@ -1158,22 +1233,23 @@
       "withdrawn": false,
       "representative_excerpt": "The Ozone Transport Commission is submitting the attached comments requesting a comment deadline extension of at least 30 days for EPA\u2019s proposed Ozone Reclassification State Implementation Plan Rule.",
       "source_cluster_ids": [
-        2
+        4
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 6,
+  "comments_first_page_count": 8,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 6,
-  "comments_clusters_total_available": 6,
-  "comments_clusters_displayed": 6,
-  "comments_first_page_high_signal_clusters": 1,
+  "comments_first_page_coverage_count": 8,
+  "comments_clusters_total_available": 8,
+  "comments_clusters_displayed": 8,
+  "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 6
+    "neutral": 6,
+    "negative": 2
   },
-  "comments_first_page_unique_days": 3,
+  "comments_first_page_unique_days": 5,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": false,
