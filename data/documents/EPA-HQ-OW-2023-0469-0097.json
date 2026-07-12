@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-11T15:18:17.186104+00:00",
+  "comment_action_checked_at": "2026-07-12T05:27:09.712133+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -3315,7 +3315,7 @@
   "comments_fetched": 6,
   "comments_text_hydrated": 7,
   "comments_cached_records": 10,
-  "comments_unique_clusters": 8,
+  "comments_unique_clusters": 10,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
@@ -3347,29 +3347,29 @@
   },
   "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.14285714285714285,
-  "comments_sentiment_neutral_pct": 0.8571428571428571,
-  "comments_sentiment_net": -0.14285714285714285,
-  "comments_sentiment_sample_size": 7,
+  "comments_sentiment_negative_pct": 0.1111111111111111,
+  "comments_sentiment_neutral_pct": 0.8888888888888888,
+  "comments_sentiment_net": -0.1111111111111111,
+  "comments_sentiment_sample_size": 9,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 8,
+  "comments_analysis_sample_size": 10,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 8,
-  "comments_representative_prior_selected": 7,
-  "comments_representative_newly_selected": 1,
+  "comments_representative_selected": 10,
+  "comments_representative_prior_selected": 10,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 2,
-  "comments_representative_run_budget": 1,
+  "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 2,
     "salience_rank": 1,
-    "weighted_fill": 5
+    "weighted_fill": 7
   },
-  "comments_representative_selected_by_counts_total": 8,
+  "comments_representative_selected_by_counts_total": 10,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -3379,7 +3379,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0148",
@@ -3415,7 +3415,7 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0150",
@@ -3451,7 +3451,7 @@
       "presentation_score": 0.6166666666666666
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0152",
@@ -3487,7 +3487,7 @@
       "presentation_score": 0.6499999999999999
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0154",
@@ -3523,7 +3523,7 @@
       "presentation_score": 0.6833333333333332
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0149",
@@ -3559,7 +3559,43 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0153",
+      "representative_posted_date": "2026-07-09T04:00:00Z",
+      "representative_length": 142,
+      "representative_excerpt": "They already pollute air, foods, etc. EPA regulations of micro plastics in public water systems would be vital for the health of all citizens.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0153": {
+          "organization": "",
+          "postedDate": "2026-07-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Marianne Makman",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5166666666666667
+    },
+    {
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0155",
@@ -3631,7 +3667,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0156",
+      "representative_posted_date": "2026-07-10T04:00:00Z",
+      "representative_length": 53,
+      "representative_excerpt": "Please keep our drinking water safe for all Americans",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0156": {
+          "organization": "",
+          "postedDate": "2026-07-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Eugene Fisu",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41666666666666663
+    },
+    {
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0151",
@@ -3671,16 +3743,16 @@
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 8,
+  "comments_first_page_count": 10,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 8,
-  "comments_clusters_total_available": 8,
-  "comments_clusters_displayed": 8,
+  "comments_first_page_coverage_count": 10,
+  "comments_clusters_total_available": 10,
+  "comments_clusters_displayed": 10,
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
     "negative": 1,
-    "neutral": 7
+    "neutral": 9
   },
   "comments_first_page_unique_days": 4,
   "summary_available": true,
