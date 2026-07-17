@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-16T09:50:53.482940+00:00",
+  "comment_action_checked_at": "2026-07-17T05:36:10.342716+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -3315,8 +3315,8 @@
   "comments_fetched": 17,
   "comments_text_hydrated": 18,
   "comments_cached_records": 27,
-  "comments_unique_clusters": 16,
-  "comments_clustered_duplicates": 0,
+  "comments_unique_clusters": 26,
+  "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -3350,29 +3350,29 @@
   },
   "comments_novel_comment_rate": 0.9629629629629629,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.06666666666666667,
-  "comments_sentiment_neutral_pct": 0.9333333333333333,
-  "comments_sentiment_net": -0.06666666666666667,
-  "comments_sentiment_sample_size": 15,
+  "comments_sentiment_negative_pct": 0.03908545888905694,
+  "comments_sentiment_neutral_pct": 0.9609145411109431,
+  "comments_sentiment_net": -0.03908545888905694,
+  "comments_sentiment_sample_size": 26,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 16,
+  "comments_analysis_sample_size": 27,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 16,
-  "comments_representative_prior_selected": 14,
-  "comments_representative_newly_selected": 2,
+  "comments_representative_selected": 27,
+  "comments_representative_prior_selected": 26,
+  "comments_representative_newly_selected": 1,
   "comments_representative_must_keep": 4,
-  "comments_representative_run_budget": 2,
+  "comments_representative_run_budget": 1,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 4,
     "salience_rank": 1,
-    "weighted_fill": 11
+    "weighted_fill": 22
   },
-  "comments_representative_selected_by_counts_total": 16,
+  "comments_representative_selected_by_counts_total": 27,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -3382,7 +3382,58 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 16,
+      "cluster_id": 2,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0173",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 379,
+      "representative_excerpt": "Include microplastics on the Sixth Unregulated Contaminant Monitoring Rule (UCMR 6) because our families deserve to know if their drinking water is contaminated with these tiny plastic particles. Monitoring will inform us so that we can take action to protect ourselves now and it will inform future action by the EPA to ensure that our drinking water is...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0173": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Terra Advocati",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OW-2023-0469-0172": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Timothy Edward Duda",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5275598066567094
+    },
+    {
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0148",
@@ -3415,10 +3466,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8500000000000001
+      "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0170",
@@ -3451,7 +3502,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.8914213562373096
     },
     {
       "cluster_id": 1,
@@ -3487,10 +3538,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0163",
@@ -3523,10 +3574,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8166666666666665
+      "presentation_score": 0.758088022903976
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0169",
@@ -3559,10 +3610,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8166666666666665
+      "presentation_score": 0.758088022903976
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0150",
@@ -3595,10 +3646,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5976190476190475
+      "presentation_score": 0.539040403856357
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0152",
@@ -3631,10 +3682,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6119047619047618
+      "presentation_score": 0.5533261181420713
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0160",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 1719,
+      "representative_excerpt": "They concentrate toxic chemicals, travel up the food chain, and pose serious long-term health risks like cardiovascular issues and cellular damage. The main reasons protecting our water is so critical include:Human Health Risks: Microplastics have been detected in human blood, breast milk, and even brain tissue. Research links exposure to potential...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0160": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Connor Chesus",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6247546895706427
+    },
+    {
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0154",
@@ -3667,10 +3754,226 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6261904761904761
+      "presentation_score": 0.5676118324277856
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0158",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 216,
+      "representative_excerpt": "The EPA has an opportunity to take meaningful action now. Please include microplastics in the final rule so communities across the country have the information they need to make informed decisions about their health.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0158": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Casey Carroll",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0159",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 462,
+      "representative_excerpt": "The EPA failed to include microplastics in its proposed monitoring rule, not based on an assessment of public risks, but because the EPA has failed to finalize a methodology. That\u2019s not acceptable. The EPA has been working on this for years, and California already has methodologies for drinking water monitoring. There have been many recent studies proving...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0159": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Jen Horowitz",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0161",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 117,
+      "representative_excerpt": "Eliminate microplastics from our drinking water as it is very toxic and bad for the environment and for human health!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0161": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Edwina Kadera",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0162",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 212,
+      "representative_excerpt": "I'm just a human being who requires water to live. I've heard more and more about the deleterious effects of microplastics. I think this is exactly the sort of thing the EPA should monitor -- for the common good!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0162": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Bart Everson",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0164",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 247,
+      "representative_excerpt": "We may not have grandchildren or living parents but EACH OF US ALIVE AT THIS MOMENT is responsible for taking the best care possible of ourselves. We know the drill. Give us a chance to stay well by being informed about microplastics in our water.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0164": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0165",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 152,
+      "representative_excerpt": "Our whole planet, in fact, needs the wholesale removal of plastics. Until that happens, let USA require keeping microplastics out of our drinking water.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0165": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Lucy Duff",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0168",
@@ -3703,10 +4006,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0171",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 251,
+      "representative_excerpt": "Microplastics are an urgent health issue. It is critical to monitor and report their presence in an essential commodity - water. This must happen for the health of humankind and all living species. Please do not short circuit this essential procedure.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0171": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Eileen Haflich",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0155",
@@ -3739,10 +4078,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4928571428571429
+      "presentation_score": 0.4342784990944524
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0157",
@@ -3775,10 +4114,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4928571428571429
+      "presentation_score": 0.4342784990944524
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0153",
@@ -3811,10 +4150,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4785714285714286
+      "presentation_score": 0.4199927848087381
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0149",
@@ -3847,10 +4186,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2023-0469-0166",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 62,
+      "representative_excerpt": "Monitor microplastics in water supplies. They are a pollutant!",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2023-0469-0166": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Theresa Bucher",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3580880229039761
+    },
+    {
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0167",
@@ -3883,10 +4258,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.3580880229039761
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0156",
@@ -3919,10 +4294,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3595238095238095
+      "presentation_score": 0.300945165761119
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2023-0469-0151",
@@ -3955,23 +4330,23 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.33095238095238094
+      "presentation_score": 0.27237373718969043
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OW-2023-0469.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 16,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 16,
-  "comments_clusters_total_available": 16,
-  "comments_clusters_displayed": 16,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.9629629629629629,
+  "comments_first_page_coverage_count": 26,
+  "comments_clusters_total_available": 26,
+  "comments_clusters_displayed": 26,
   "comments_first_page_high_signal_clusters": 3,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 1,
-    "neutral": 15
+    "neutral": 24,
+    "negative": 1
   },
   "comments_first_page_unique_days": 5,
   "summary_available": true,
