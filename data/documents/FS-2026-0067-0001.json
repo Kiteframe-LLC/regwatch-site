@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-19T05:33:14.749940+00:00",
+  "comment_action_checked_at": "2026-07-20T09:20:26.698948+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,10 +34,10 @@
   "comment_end_date": "2026-08-01T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 158.94117647058823,
+  "pass_3_score": 137.45,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.9999999999968706,
+  "pass_3_scaled": 0.9999999998875299,
   "ranking_multiplier": 1.0,
   "combined_score": 1.0,
   "score_total": 11,
@@ -86,7 +86,7 @@
     "statutory_authority_fit"
   ],
   "pass_4_primary_concern": "The rule narrows notice/comment and documentation requirements through internal reclassification of directives and handbook guidance.",
-  "combined_score_pre_pass5": 0.9227252413021307,
+  "combined_score_pre_pass5": 0.9227252412423522,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -466,87 +466,91 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 2664,
-  "comments_velocity_total": 2651,
-  "comments_public_total_estimate": 2651,
+  "comments_total": 2723,
+  "comments_velocity_total": 2689,
+  "comments_public_total_estimate": 2689,
   "comments_fetched": 30,
-  "comments_text_hydrated": 30,
-  "comments_cached_records": 210,
-  "comments_unique_clusters": 133,
-  "comments_clustered_duplicates": 77,
+  "comments_text_hydrated": 31,
+  "comments_cached_records": 240,
+  "comments_unique_clusters": 154,
+  "comments_clustered_duplicates": 86,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 209,
+  "comments_citizen_count": 238,
   "comments_commenter_type_counts": {
-    "citizen": 209,
-    "government": 1
+    "citizen": 238,
+    "government": 2
   },
   "comments_submission_role_counts": {
-    "individual": 209,
+    "individual": 238,
+    "government_tribal": 1,
     "government_state": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 209,
-    "agency_material": 1
+    "public_portal": 237,
+    "other_channel_recorded": 1,
+    "agency_material": 2
   },
-  "comments_public_count": 209,
-  "comments_recorded_count": 0,
-  "comments_agency_material_count": 1,
+  "comments_public_count": 237,
+  "comments_recorded_count": 1,
+  "comments_agency_material_count": 2,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-07-17": 30,
-    "2026-07-15": 21,
+    "2026-07-18": 27,
+    "2026-07-17": 24,
+    "2026-07-15": 20,
     "2026-07-13": 15,
     "2026-07-10": 22,
-    "2026-07-08": 10,
-    "2026-07-07": 20,
-    "2026-07-02": 15
+    "2026-07-08": 11,
+    "2026-07-07": 21,
+    "2026-07-02": 14
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-07-18": 1,
     "2026-07-17": 1,
-    "2026-07-07": 1,
+    "2026-07-07": 2,
     "2026-07-02": 1
   },
-  "comments_novel_comment_rate": 0.6333333333333333,
+  "comments_novel_comment_rate": 0.6416666666666667,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.4964214148414345,
-  "comments_sentiment_neutral_pct": 0.5035785851585655,
-  "comments_sentiment_net": -0.4964214148414345,
-  "comments_sentiment_sample_size": 209,
+  "comments_sentiment_negative_pct": 0.5032139659680684,
+  "comments_sentiment_neutral_pct": 0.49678603403193156,
+  "comments_sentiment_net": -0.5032139659680684,
+  "comments_sentiment_sample_size": 237,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 210,
+  "comments_analysis_sample_size": 240,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 210,
-  "comments_representative_prior_selected": 210,
+  "comments_representative_selected": 240,
+  "comments_representative_prior_selected": 240,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 2,
+  "comments_representative_must_keep": 4,
   "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 2,
+    "must_keep": 4,
     "salience_rank": 10,
-    "weighted_fill": 198
+    "weighted_fill": 226
   },
-  "comments_representative_selected_by_counts_total": 210,
+  "comments_representative_selected_by_counts_total": 240,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-18T05:42:48.767124+00:00",
-  "comments_checked_at": "2026-07-18T05:42:49.594178+00:00",
+  "comments_api_last_seen_at": "2026-07-20T05:21:12.430684+00:00",
+  "comments_checked_at": "2026-07-20T05:21:13.417874+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 3,
-      "count": 31,
+      "cluster_id": 22,
+      "count": 32,
       "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2663",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_comment_id": "FS-2026-0067-2673",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
       "representative_length": 995,
       "representative_excerpt": "While I support efforts to improve efficiency, those efforts should not reduce transparency or public accountability. Forest Service directives help ensure that important decisions affecting our national forests are made consistently and according to established procedures. I am particularly concerned by provisions that would make it easier to remove...",
       "representative_signal_score": 0,
@@ -635,16 +639,112 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3721347520444481
+      "presentation_score": 0.37149991687566863
     },
     {
-      "cluster_id": 17,
-      "count": 14,
+      "cluster_id": 8,
+      "count": 13,
       "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2643",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1006,
-      "representative_excerpt": "I\u2019m writing to oppose this proposal to narrow the public\u2019s right to comment on Forest Service directives. I hike, ride horses, recreate and camp on national forest land, and the decisions buried in these rulebooks shape every acre of it. In 2018, the Forest Service concluded that its Handbooks contain standards and guidelines that directly affect the...",
+      "representative_comment_id": "FS-2026-0067-2704",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 938,
+      "representative_excerpt": "Handbooks govern grazing permits, timber sale analysis, land management planning, and special-use decisions that shape these lands for everyone who depends on them. Public notice and comment is necessary for any changes to be made, as once again, these are public spaces belonging to the American people. Brilliant people in history realized the value of...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-0022": {
+          "organization": "",
+          "postedDate": "2026-07-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-0031": {
+          "organization": "",
+          "postedDate": "2026-07-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-0058": {
+          "organization": "",
+          "postedDate": "2026-07-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-0066": {
+          "organization": "",
+          "postedDate": "2026-07-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-0943": {
+          "organization": "",
+          "postedDate": "2026-07-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.40220628326230745
+    },
+    {
+      "cluster_id": 20,
+      "count": 10,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2676",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 1062,
+      "representative_excerpt": "In 2018, the Forest Service concluded that its Handbooks contain standards and guidelines that directly affect the public, and it expanded public comment to cover them. That conclusion was correct. The Handbooks govern grazing permits, timber sale analysis, land management planning, and special-use decisions that shape these lands for everyone who depends...",
       "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -683,7 +783,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FS-2026-0067-0031": {
+        "FS-2026-0067-0030": {
           "organization": "",
           "postedDate": "2026-07-02T04:00:00Z",
           "zip": "",
@@ -698,7 +798,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FS-2026-0067-0045": {
+        "FS-2026-0067-0044": {
           "organization": "",
           "postedDate": "2026-07-02T04:00:00Z",
           "zip": "",
@@ -713,7 +813,7 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FS-2026-0067-0058": {
+        "FS-2026-0067-0048": {
           "organization": "",
           "postedDate": "2026-07-02T04:00:00Z",
           "zip": "",
@@ -731,10 +831,106 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48672164427366316
+      "presentation_score": 0.476061496731051
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 13,
+      "count": 7,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2689",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 1175,
+      "representative_excerpt": "I recreate in many different national forests but mostly in Montana national forests and parks, such as Flathead national forest, Helena-Lewis and Clark national forest, Beaverhead-Deerlodge national forest. I trail run, hike, camp, and enjoy these wildly beautiful spaces. To protect and preserve these areas I believe it is integral to hear comments from...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-0045": {
+          "organization": "",
+          "postedDate": "2026-07-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-0959": {
+          "organization": "",
+          "postedDate": "2026-07-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-1064": {
+          "organization": "",
+          "postedDate": "2026-07-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-2052": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-2556": {
+          "organization": "",
+          "postedDate": "2026-07-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31376602141009546
+    },
+    {
+      "cluster_id": 47,
       "count": 6,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2633",
@@ -827,25 +1023,40 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3164628546052497
+      "presentation_score": 0.3088271259708815
     },
     {
-      "cluster_id": 30,
-      "count": 5,
+      "cluster_id": 25,
+      "count": 4,
       "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2625",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1121,
-      "representative_excerpt": "The ability for us as the landowners to make our views on the care of our land known should not be reduced, limited, eliminated, or ignored. If agency employees have more discretion to implement programs without public input, then our communities lose the ability to shape decisions affecting national forest wildlife, grazing, and wilderness. Requirements...",
+      "representative_comment_id": "FS-2026-0067-2668",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 446,
+      "representative_excerpt": "Cherokee National Forest is a place that matters to me. I photograph, hike, enjoy the beauty! there. If this goes through, the natural beauty; habitat for many species; a place for all Americans to enjoy!. I urge Forest Service to fully analyze these impacts, consider alternatives that protect public lands, and take public input seriously....",
       "representative_signal_score": 0,
-      "representative_stance": "negative",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FS-2026-0067-2625": {
+        "FS-2026-0067-2668": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-2648": {
           "organization": "",
           "postedDate": "2026-07-17T04:00:00Z",
           "zip": "",
@@ -860,9 +1071,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FS-2026-0067-0934": {
+        "FS-2026-0067-2634": {
           "organization": "",
-          "postedDate": "2026-07-07T04:00:00Z",
+          "postedDate": "2026-07-17T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -875,39 +1086,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "FS-2026-0067-0059": {
+        "FS-2026-0067-2560": {
           "organization": "",
-          "postedDate": "2026-07-02T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0048": {
-          "organization": "",
-          "postedDate": "2026-07-02T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0030": {
-          "organization": "",
-          "postedDate": "2026-07-02T04:00:00Z",
+          "postedDate": "2026-07-15T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -923,10 +1104,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31984958952806175
+      "presentation_score": 0.3260444117585577
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 35,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2652",
@@ -989,142 +1170,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5825539817949459
+      "presentation_score": 0.5753241236806999
     },
     {
-      "cluster_id": 101,
-      "count": 3,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-1006",
-      "representative_posted_date": "2026-07-07T04:00:00Z",
-      "representative_length": 854,
-      "representative_excerpt": "I\u2019m writing to express my outrage at this proposal to narrow the public\u2019s right to comment on Forest Service directives. I bird, hike and camp on national forest land, and the decisions buried in these rulebooks shape every acre of it. It is a travesty. In 2018, the Forest Service concluded that its Handbooks contain standards and guidelines that directly...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-1006": {
-          "organization": "",
-          "postedDate": "2026-07-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0943": {
-          "organization": "",
-          "postedDate": "2026-07-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0022": {
-          "organization": "",
-          "postedDate": "2026-07-02T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3558873151282793
-    },
-    {
-      "cluster_id": 63,
-      "count": 3,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2052",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 1272,
-      "representative_excerpt": "Oversight is vital. Our National Forest service lands are one of the greatest treasures that we the people currently have. Protecting them and being able to have a voice in how those lands are managed is crucial. Forest Service Manuals and Handbooks set the rules for grazing allotments, timber sales, mining exploration, and land-use planning on the ground....",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2052": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-1062": {
-          "organization": "",
-          "postedDate": "2026-07-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0969": {
-          "organization": "",
-          "postedDate": "2026-07-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.39588731512827935
-    },
-    {
-      "cluster_id": 88,
+      "cluster_id": 108,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1941",
@@ -1187,10 +1236,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29588731512827926
+      "presentation_score": 0.29157412368069985
     },
     {
-      "cluster_id": 115,
+      "cluster_id": 135,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0940",
@@ -1223,10 +1272,169 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7192543937386884
+      "presentation_score": 0.7166053390593274
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 3,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2722",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 3125,
+      "representative_excerpt": "The rule would allow required notices to appear on any broadly accessible public forum, including an agency web page, and would remove the requirement to provide a physical mailing address for comments. Replacing it with agency web pages disadvantages rural communities, people...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2722": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-2712": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6175598066567094
+    },
+    {
+      "cluster_id": 138,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-0934",
+      "representative_posted_date": "2026-07-07T04:00:00Z",
+      "representative_length": 1245,
+      "representative_excerpt": "I\u2019m writing to oppose this proposal to narrow the public\u2019s right to comment on Forest Service directives. I hike on White River, Roosevelt and Arapahoe National Forest and lands, and the decisions buried in these rulebooks shape every acre of it. In 2018, the Forest Service concluded that its Handbooks contain standards and guidelines that directly affect...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-0934": {
+          "organization": "",
+          "postedDate": "2026-07-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5566053390593274
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2702",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "The agency locates these provisions in named Handbooks including Grazing Permit Administration (2209.13), Special Uses (2709.11), Land Management Planning (1909.12), Civil Rights (1709.11), and the Health and Safety Code (6709.11). A provision that sets the criteria for denying a rancher's permit, or that imposes a penalty on a private operator, is a...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2702": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5453553390593274
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2710",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 2598,
+      "representative_excerpt": "While responsible resource extraction is important for the economy, this proposed rule change would remove public input on handbooks and manuals that set rules for grazing allotments, timber sales, mining exploration, land-use planning, in addition to several other important Forest Service policies, thereby undermining the purpose of national forests....",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2710": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5453553390593274
+    },
+    {
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2640",
@@ -1259,10 +1467,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.545921060405355
+      "presentation_score": 0.5391053390593274
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 45,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2636",
@@ -1310,10 +1518,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5383598574567856
+      "presentation_score": 0.5313098066567095
     },
     {
-      "cluster_id": 119,
+      "cluster_id": 141,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0069",
@@ -1361,10 +1569,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5183598574567856
+      "presentation_score": 0.5175598066567094
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 87,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2027",
@@ -1412,17 +1620,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.491693190790119
+      "presentation_score": 0.4875598066567094
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2651",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1117,
-      "representative_excerpt": "I am a government employee with 15 years experience, watching this happen from the inside. Our district ranger is already moving ahead as if this change has been finalized, to permit a large mine with catastrophic impacts to the land and local community. Our \u201cproject timeline\u201d already skips the objection period, as if this change has already been...",
-      "representative_signal_score": 1,
+      "representative_comment_id": "FS-2026-0067-1063",
+      "representative_posted_date": "2026-07-08T04:00:00Z",
+      "representative_length": 1039,
+      "representative_excerpt": "In 2018, the Forest Service concluded that its Handbooks contain standards and guidelines that directly affect the public, and it expanded public comment to cover them. That conclusion was correct. The Handbooks govern grazing permits, timber sale analysis, land management planning, and special-use decisions that shape these lands for everyone who depends...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1430,9 +1638,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FS-2026-0067-2651": {
+        "FS-2026-0067-1063": {
           "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
+          "postedDate": "2026-07-08T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1448,82 +1656,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46592106040535497
+      "presentation_score": 0.4828553390593274
     },
     {
-      "cluster_id": 6,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2655",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1073,
-      "representative_excerpt": "Our ability to shape decisions and hold public servants accountable would be greatly diminished, and changing broad internal agency discretion to set standards would be difficult to reverse. I urge Forest Service to fully analyze these impacts, consider alternatives that protect public lands, and take public input seriously....",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2655": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.46592106040535497
-    },
-    {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2664",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1567,
-      "representative_excerpt": "If control is given to the states, conservation, research, and ecological benefits for future generations are at risk. We need healthy forests and open space habitats to ensure clean air, water, and biodiversity. At the end of the day, our entire existence on this planet relies on nature and all that it provides. I want my tax dollars to ensure survival of...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2664": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.46592106040535497
-    },
-    {
-      "cluster_id": 43,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2542",
@@ -1556,10 +1692,277 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45258772707202166
+      "presentation_score": 0.44660533905932737
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2672",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 1830,
+      "representative_excerpt": "In the agency\u2019s press statement, it is said the changes are meant to \u201credefine the agency\u2019s manual and handbooks to reduce procedural burdens, encourage innovation, and return decision-making authority to employees closest to the land.\u201d This argument falls flat when reorganization of the service itself is actively pulling decision makers away from the...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2672": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46535533905932736
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2683",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 1344,
+      "representative_excerpt": "I personally feel deeply connected to the Inyo National Forest, and love and admire the bristlecones on Mount Whitney and have visited, hiked, and camped there countless times. I have also visited and enjoyed Lake Isabelle and the Kern River, which is runoff from Whitney. This is a hugely important wetland habitat that holds rare subspecies of trout, other...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2683": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46535533905932736
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2724",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 2347,
+      "representative_excerpt": "Keeping the documentation on management strategies transparent, available, and publicly negotiable through public comment periods is critical to understanding how people want to best support the USFS in their path forward, as well as check them when necessary. Undisclosed motives, opaqueness in decision making, and distancing the recreating public from the...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2724": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46535533905932736
+    },
+    {
+      "cluster_id": 36,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2651",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 1117,
+      "representative_excerpt": "I am a government employee with 15 years experience, watching this happen from the inside. Our district ranger is already moving ahead as if this change has been finalized, to permit a large mine with catastrophic impacts to the land and local community. Our \u201cproject timeline\u201d already skips the objection period, as if this change has already been...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2651": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4591053390593274
+    },
+    {
+      "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2655",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 1073,
+      "representative_excerpt": "Our ability to shape decisions and hold public servants accountable would be greatly diminished, and changing broad internal agency discretion to set standards would be difficult to reverse. I urge Forest Service to fully analyze these impacts, consider alternatives that protect public lands, and take public input seriously....",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2655": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4591053390593274
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2664",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 1567,
+      "representative_excerpt": "If control is given to the states, conservation, research, and ecological benefits for future generations are at risk. We need healthy forests and open space habitats to ensure clean air, water, and biodiversity. At the end of the day, our entire existence on this planet relies on nature and all that it provides. I want my tax dollars to ensure survival of...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2664": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4591053390593274
+    },
+    {
+      "cluster_id": 4,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2717",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 1468,
+      "representative_excerpt": "National forests like Inyo National Forest are true monuments to the values Americans across all generations hold near and dear to their hearts. Americans have a great sense of pride for our natural public lands, for national forests combine the best of nature with national history. People from across the nation and world travel to experience the wonders...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2717": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-0969": {
+          "organization": "",
+          "postedDate": "2026-07-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45755980665670937
+    },
+    {
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2548",
@@ -1592,82 +1995,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45258772707202166
+      "presentation_score": 0.44660533905932737
     },
     {
-      "cluster_id": 94,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-1060",
-      "representative_posted_date": "2026-07-08T04:00:00Z",
-      "representative_length": 1262,
-      "representative_excerpt": "Most weekends of my entire young life was spent in the state and national forests within Minnesota, and multiple visits to national forests in the western states. Places like the Boundary Waters Canoe Area (BWCA) hold significant importance to who I am as a person. I was raised to appreciate the delicate balance of nature, to leave no trace, to speak for...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-1060": {
-          "organization": "",
-          "postedDate": "2026-07-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.405921060405355
-    },
-    {
-      "cluster_id": 34,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2556",
-      "representative_posted_date": "2026-07-15T04:00:00Z",
-      "representative_length": 1239,
-      "representative_excerpt": "Removing the abilztir taxpayers to have input on how their land is managed, means communities lose their ability to shape decisions affecting national forest wildlife, grazing, and wilderness. The Directive System governs Forest Service programs across the entire National Forest System, so shrinking comment requirements removes a key check on decisions...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2556": {
-          "organization": "",
-          "postedDate": "2026-07-15T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.45258772707202166
-    },
-    {
-      "cluster_id": 122,
+      "cluster_id": 144,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0062",
@@ -1700,10 +2031,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.445921060405355
+      "presentation_score": 0.4453553390593274
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2114",
@@ -1736,10 +2067,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43925439373868835
+      "presentation_score": 0.43410533905932736
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 79,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2103",
@@ -1787,10 +2118,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.431693190790119
+      "presentation_score": 0.42630980665670937
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 77,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2120",
@@ -1838,10 +2169,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.431693190790119
+      "presentation_score": 0.42630980665670937
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1972",
@@ -1874,10 +2205,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41925439373868834
+      "presentation_score": 0.41535533905932737
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2003",
@@ -1910,10 +2241,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41925439373868834
+      "presentation_score": 0.41535533905932737
     },
     {
-      "cluster_id": 114,
+      "cluster_id": 115,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-1060",
+      "representative_posted_date": "2026-07-08T04:00:00Z",
+      "representative_length": 1262,
+      "representative_excerpt": "Most weekends of my entire young life was spent in the state and national forests within Minnesota, and multiple visits to national forests in the western states. Places like the Boundary Waters Canoe Area (BWCA) hold significant importance to who I am as a person. I was raised to appreciate the delicate balance of nature, to leave no trace, to speak for...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-1060": {
+          "organization": "",
+          "postedDate": "2026-07-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.40285533905932736
+    },
+    {
+      "cluster_id": 134,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0945",
@@ -1946,10 +2313,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3992543937386883
+      "presentation_score": 0.3966053390593274
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 125,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1000",
@@ -1982,10 +2349,514 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3992543937386883
+      "presentation_score": 0.3966053390593274
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 27,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2666",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 251,
+      "representative_excerpt": "Why is public comment being removed for management proposals of public lands? Public tax dollars go into the funding of public lands; the public needs to be allowed to comment and have those comments addressed regarding the management of public lands.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2666": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2667",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 527,
+      "representative_excerpt": "I am particularly worried about the need for a full and honest environmental review before any decision. All national forests in Oregon are places that matter to me. My family grazes cattle, camps and hunts elk there. If this goes through, we, the people, have the right to have a voice in the management of our public lands. Public lands belong to the...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2667": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2671",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 364,
+      "representative_excerpt": "Public lands belong to the people of this country. The people of this country should have a say in what happens to them. People need to be made clearly aware of what is happening to their public lands and have the opportunity to speak on it. As someone who lives in an area which primarily consists of public lands I and my neighbors feel very strongly about...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2671": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2675",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 277,
+      "representative_excerpt": "I disagree very much with the proposed rule since it wouldn't allow us, the people of this country, to know or have a say in what happens in our country. The proposed rule would most definitely be used underhandedly and inappropriately. Don't you dare let this rule go through.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2675": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2677",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 30,
+      "representative_excerpt": "Comment on FR Doc # 2026-13281",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2677": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "government_tribal",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2680",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 452,
+      "representative_excerpt": "I hike there. The natural beauty of the earth matters deeply to me. Without the ability to comment and weigh in on how forests are managed, corporations and those with more money and power would take control. And we know where that leads -- total destruction. We have already reduced our national forests too much. It's time to protect the rest. Do not try...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2680": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2681",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 533,
+      "representative_excerpt": "Hello, our forests belong to the American people. As Forest Service officials and employees you are and should remain accountable to us. Reviews that have occurred through public comment periods must continue. Handbooks, that have been published, reviewed and updated when more knowledge is gained, should remain and continue to be the guiding principles of...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2681": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2688",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 530,
+      "representative_excerpt": "I am ashamed that the Forest Service no longer holds the respect that it once had, and efforts like this to keep the public unaware and ill informed will only diminish the value of a once respected department. Please come to the right decision, and start getting public input immediately....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2688": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2691",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 109,
+      "representative_excerpt": "I oppose this change. Public lands are for the use of the public, not for the profit of private corporations.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2691": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2693",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 139,
+      "representative_excerpt": "The people have a right to understandxehat the government is proposing on public lands. I oppose any legislation that takes away visibility",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2693": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2698",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 99,
+      "representative_excerpt": "It is important for the public to participate in proposed actions of our pubic and protected lands.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2698": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2705",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 999,
+      "representative_excerpt": "Funding for recreation is important to maintain an intact ecosystem for all life. Education on how to travel through remote areas is essential to prevent wildfire but to ensure cleanliness and prevent illness and disease. As a fifth generation Idahoan and a long line of foresters and men who believed in what the USFS stands for, I encourage you to look at...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2705": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2707",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 312,
+      "representative_excerpt": "Our public lands are what make us as a nation great. It is our job to steward them and pass them down for future generations to maintain the spirit of America. How dare you sell them off like a failing company and scramble after your own greed you sinful sellouts. Where is your shame? Where is your patriotism?!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2707": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2723",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 235,
+      "representative_excerpt": "The public has a right to know and comment on any proposed changes. I urge the Forest Service to withdraw this proposal and preserve the public\u2019s right to comment on directive changes, whether they appear in the Manual or the Handbooks",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2723": {
+          "organization": "",
+          "postedDate": "2026-07-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3853553390593274
+    },
+    {
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2628",
@@ -2018,10 +2889,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2630",
@@ -2054,10 +2925,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2631",
@@ -2090,10 +2961,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2632",
@@ -2126,10 +2997,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2635",
@@ -2162,10 +3033,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2638",
@@ -2198,10 +3069,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2641",
@@ -2234,10 +3105,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2642",
@@ -2270,82 +3141,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 15,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2646",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1100,
-      "representative_excerpt": "I visit federal lands in my state and I do at least two road trips to multiple other states each year. I care deeply about sharing my uses and experiences with decision-makers because I'm sure they experience it differently and will make better decisions with more perspectives. Trying to silence people's access to government degrades our democracy....",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2646": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
-    },
-    {
-      "cluster_id": 13,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2648",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 455,
-      "representative_excerpt": "I vehemently disapprove of and public censorship in the comment period regarding any public land and I believe your actions are reprehensible and the people pushing the elimination of the comments period should be ashamed of themselves and removed from their positions since they are clearly not working in the interest of the American public nor public...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2648": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
-    },
-    {
-      "cluster_id": 12,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2649",
@@ -2378,10 +3177,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2650",
@@ -2414,10 +3213,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2654",
@@ -2450,10 +3249,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2656",
@@ -2486,10 +3285,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2659",
@@ -2522,10 +3321,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.385921060405355
+      "presentation_score": 0.37910533905932736
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 40,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2645",
@@ -2573,10 +3372,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3783598574567856
+      "presentation_score": 0.3713098066567094
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 39,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2647",
@@ -2624,10 +3423,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3783598574567856
+      "presentation_score": 0.3713098066567094
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 34,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2653",
@@ -2675,10 +3474,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3783598574567856
+      "presentation_score": 0.3713098066567094
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2528",
@@ -2711,10 +3510,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2529",
@@ -2747,10 +3546,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2530",
@@ -2783,10 +3582,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2532",
@@ -2819,10 +3618,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2535",
@@ -2855,10 +3654,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2536",
@@ -2891,10 +3690,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2544",
@@ -2927,10 +3726,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2545",
@@ -2963,10 +3762,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2546",
@@ -2999,10 +3798,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2550",
@@ -3035,10 +3834,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2551",
@@ -3071,10 +3870,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2555",
@@ -3107,10 +3906,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2557",
@@ -3143,10 +3942,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2564",
@@ -3179,10 +3978,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37258772707202165
+      "presentation_score": 0.36660533905932735
     },
     {
-      "cluster_id": 132,
+      "cluster_id": 153,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0004",
@@ -3215,10 +4014,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.365921060405355
+      "presentation_score": 0.3653553390593274
     },
     {
-      "cluster_id": 124,
+      "cluster_id": 145,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0039",
@@ -3251,46 +4050,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.365921060405355
+      "presentation_score": 0.3653553390593274
     },
     {
-      "cluster_id": 123,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-0061",
-      "representative_posted_date": "2026-07-02T04:00:00Z",
-      "representative_length": 1061,
-      "representative_excerpt": "In 2018 the Forest service concluded that guidelines in the Handbooks affected the public and expanded the public\u2019s ability to comment on them. I support this decision. The Handbooks cover timber sales analysis, land use planning, and special use decisions, and less pertinent to the Virginia forests, grazing permits. These decisions shape the lands for...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-0061": {
-          "organization": "",
-          "postedDate": "2026-07-02T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.365921060405355
-    },
-    {
-      "cluster_id": 44,
+      "cluster_id": 64,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2537",
@@ -3338,262 +4101,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36502652412345227
+      "presentation_score": 0.35880980665670936
     },
     {
-      "cluster_id": 66,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2036",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 361,
-      "representative_excerpt": "The ability to walk, fish, hunt and recreate on public lands make USA a great country. It is important that the public have input on their public lands. Limiting the opportunities by the public to comment on and have a say in the management of their public lands is anti-American. Do not change the rules to reduce public input....",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2036": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35925439373868834
-    },
-    {
-      "cluster_id": 65,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2038",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 976,
-      "representative_excerpt": "While public input may feel cumbersome, it is worth the time to do so. The care of our lands otherwise could fall into the hands of incompetent or self serving people. I am fortunate to live near forested public lands. I have studied for years, what keeps a forest healthy. And I want the opportunity to question or provide guidance if very unwise policies...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2038": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35925439373868834
-    },
-    {
-      "cluster_id": 64,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2039",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 187,
-      "representative_excerpt": "DO NOT CHANGE THE TIME ALLOWED OF PUBLIC COMMENTS OR CHANGE THAT CITIZENS HAVE A SAY IN WHAT THEY WANT AND EXPECT HOW THE FOREST SERVICE SHOULD FUNCTION FOR THE LANDS THEY ARE TO PROTECT!",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2039": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35925439373868834
-    },
-    {
-      "cluster_id": 62,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2061",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 385,
-      "representative_excerpt": "Please reject the proposed changes that would silence public opinion and allow destruction of our lands. So many times throughout history, public voice has helped protect future generations and resolve injustices. This is the foundation of democracy. Please ensure that public opinion is not only collected on government decisions, but also considered...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2061": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35925439373868834
-    },
-    {
-      "cluster_id": 61,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2077",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 138,
-      "representative_excerpt": "As has been said many times and it is not less true, forests are the lungs of the world and should be taken care of as you would your own!",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2077": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35925439373868834
-    },
-    {
-      "cluster_id": 54,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2274",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 545,
-      "representative_excerpt": "The air quality in Montrose, where I live, has been in a red zone for weeks. Firefighters have DIED fighting these blazes. And you want to starve the USFS further? Our government structures are being treated as a hostile takeover, with lawyers finding every last loophole and verbiage as an excuse to smother necessary operations and then sell them off....",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2274": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35925439373868834
-    },
-    {
-      "cluster_id": 52,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2425",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 403,
-      "representative_excerpt": "I\u2019m here to oppose the regulation that would remove public comment from being taken into consideration when dealing with our beloved natural world. The United States was founded on democracy and the people and we should not all of a sudden cut out the people from governmental decisions. We will not stand to have our voices silenced, we will be heard and...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2425": {
-          "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.35925439373868834
-    },
-    {
-      "cluster_id": 120,
+      "cluster_id": 142,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0064",
@@ -3641,10 +4152,349 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3583598574567856
+      "presentation_score": 0.3575598066567094
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 86,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2036",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 361,
+      "representative_excerpt": "The ability to walk, fish, hunt and recreate on public lands make USA a great country. It is important that the public have input on their public lands. Limiting the opportunities by the public to comment on and have a say in the management of their public lands is anti-American. Do not change the rules to reduce public input....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2036": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 85,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2038",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 976,
+      "representative_excerpt": "While public input may feel cumbersome, it is worth the time to do so. The care of our lands otherwise could fall into the hands of incompetent or self serving people. I am fortunate to live near forested public lands. I have studied for years, what keeps a forest healthy. And I want the opportunity to question or provide guidance if very unwise policies...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2038": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 84,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2039",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 187,
+      "representative_excerpt": "DO NOT CHANGE THE TIME ALLOWED OF PUBLIC COMMENTS OR CHANGE THAT CITIZENS HAVE A SAY IN WHAT THEY WANT AND EXPECT HOW THE FOREST SERVICE SHOULD FUNCTION FOR THE LANDS THEY ARE TO PROTECT!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2039": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 82,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2061",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 385,
+      "representative_excerpt": "Please reject the proposed changes that would silence public opinion and allow destruction of our lands. So many times throughout history, public voice has helped protect future generations and resolve injustices. This is the foundation of democracy. Please ensure that public opinion is not only collected on government decisions, but also considered...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2061": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 81,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2077",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 138,
+      "representative_excerpt": "As has been said many times and it is not less true, forests are the lungs of the world and should be taken care of as you would your own!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2077": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 80,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2093",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 1148,
+      "representative_excerpt": "I strongly oppose any effort to make the regulations contained within the Forest Service handbook optional or discretionary. These standards exist to provide consistency, accountability, and stewardship across our public lands. Making them optional risks creating uneven management practices between forests and districts, increasing confusion for staff and...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2093": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 74,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2274",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 545,
+      "representative_excerpt": "The air quality in Montrose, where I live, has been in a red zone for weeks. Firefighters have DIED fighting these blazes. And you want to starve the USFS further? Our government structures are being treated as a hostile takeover, with lawyers finding every last loophole and verbiage as an excuse to smother necessary operations and then sell them off....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2274": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 72,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2425",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 403,
+      "representative_excerpt": "I\u2019m here to oppose the regulation that would remove public comment from being taken into consideration when dealing with our beloved natural world. The United States was founded on democracy and the people and we should not all of a sudden cut out the people from governmental decisions. We will not stand to have our voices silenced, we will be heard and...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2425": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3541053390593274
+    },
+    {
+      "cluster_id": 83,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-2048",
+      "representative_posted_date": "2026-07-13T04:00:00Z",
+      "representative_length": 1064,
+      "representative_excerpt": "Giving agency employees more discretion to implement programs without public input means communities lose their ability to shape decisions affecting national forest wildlife, grazing, and wilderness. The Directive System governs Forest Service programs across the entire National Forest System, so shrinking comment requirements removes a key check on...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-2048": {
+          "organization": "",
+          "postedDate": "2026-07-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FS-2026-0067-1009": {
+          "organization": "",
+          "postedDate": "2026-07-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3463098066567094
+    },
+    {
+      "cluster_id": 76,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2156",
@@ -3692,10 +4542,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35169319079011896
+      "presentation_score": 0.3463098066567094
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 75,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2268",
@@ -3743,10 +4593,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35169319079011896
+      "presentation_score": 0.3463098066567094
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 73,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2423",
@@ -3794,76 +4644,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35169319079011896
+      "presentation_score": 0.3463098066567094
     },
     {
-      "cluster_id": 24,
-      "count": 3,
-      "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2634",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 437,
-      "representative_excerpt": "Mount Baker-Snoqualmie National Forest, Okanogan-Wenatchee National Forest is a place that matters to me. I camp, hike, ski, climb, learn about and appreciate our local species and habitats there. I urge Forest Service to fully analyze these impacts, consider alternatives that protect public lands, and take public input seriously....",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FS-2026-0067-2634": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-2560": {
-          "organization": "",
-          "postedDate": "2026-07-15T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0939": {
-          "organization": "",
-          "postedDate": "2026-07-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.34255398179494595
-    },
-    {
-      "cluster_id": 87,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1942",
@@ -3896,10 +4680,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1944",
@@ -3932,10 +4716,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1946",
@@ -3968,10 +4752,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1948",
@@ -4004,10 +4788,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1956",
@@ -4040,10 +4824,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1957",
@@ -4076,10 +4860,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1966",
@@ -4112,10 +4896,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1967",
@@ -4148,10 +4932,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1974",
@@ -4184,10 +4968,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1978",
@@ -4220,10 +5004,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1980",
@@ -4256,10 +5040,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1986",
@@ -4292,10 +5076,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1988",
@@ -4328,10 +5112,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1995",
@@ -4364,10 +5148,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1999",
@@ -4400,10 +5184,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2007",
@@ -4436,10 +5220,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2013",
@@ -4472,10 +5256,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2016",
@@ -4508,10 +5292,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3392543937386883
+      "presentation_score": 0.33535533905932735
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 119,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1051",
@@ -4544,10 +5328,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1056",
@@ -4580,10 +5364,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 117,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1057",
@@ -4616,10 +5400,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 116,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1058",
@@ -4652,16 +5436,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-1064",
+      "representative_comment_id": "FS-2026-0067-1062",
       "representative_posted_date": "2026-07-08T04:00:00Z",
-      "representative_length": 1082,
-      "representative_excerpt": "Forest Service Manuals and Handbooks set the rules for grazing allotments, timber sales, mining exploration, and land-use planning on the ground. They shouldn't be treated as advisory texts. Rolling back comment access on directive changes removes one of the only tools the public has to catch bad decisions before they're locked in. Changes to a Forest...",
+      "representative_length": 1172,
+      "representative_excerpt": "The economic effect of management decisions on local communities should be considered before private corporations profits. Extraction operations like mining and logging can have detrimental effects on the local environment affecting water and air quality. Consideration of these effects shouldn't be optional in management decisions. Local communities should...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -4670,7 +5454,7 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FS-2026-0067-1064": {
+        "FS-2026-0067-1062": {
           "organization": "",
           "postedDate": "2026-07-08T04:00:00Z",
           "zip": "",
@@ -4688,10 +5472,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1065",
@@ -4724,10 +5508,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1066",
@@ -4760,10 +5544,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1098",
@@ -4796,10 +5580,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1117",
@@ -4832,10 +5616,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32592106040535496
+      "presentation_score": 0.3228553390593274
     },
     {
-      "cluster_id": 118,
+      "cluster_id": 140,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0925",
@@ -4868,10 +5652,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 117,
+      "cluster_id": 139,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0926",
@@ -4904,10 +5688,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 116,
+      "cluster_id": 137,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0938",
@@ -4940,10 +5724,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 136,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FS-2026-0067-0939",
+      "representative_posted_date": "2026-07-07T04:00:00Z",
+      "representative_length": 439,
+      "representative_excerpt": "The forest are the lands of all Americans. To deny the public a chance to weigh in on changes to the forest administration that affects all of us is not democratic, is not fair and leaves are natural resources to the whims of the current regime. The job of the forest service is not to promote our president\u2018s latest industry or the industries of his...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FS-2026-0067-0939": {
+          "organization": "",
+          "postedDate": "2026-07-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13281",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31660533905932736
+    },
+    {
+      "cluster_id": 133,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0953",
@@ -4976,10 +5796,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 112,
+      "cluster_id": 132,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0966",
@@ -5012,10 +5832,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 111,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0983",
@@ -5048,10 +5868,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 130,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0993",
@@ -5084,10 +5904,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 129,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0994",
@@ -5120,10 +5940,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0995",
@@ -5156,10 +5976,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 127,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0998",
@@ -5192,10 +6012,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 126,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0999",
@@ -5228,10 +6048,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 124,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1001",
@@ -5264,10 +6084,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 123,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1002",
@@ -5300,10 +6120,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 122,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1003",
@@ -5336,10 +6156,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 121,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1007",
@@ -5372,10 +6192,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 120,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-1011",
@@ -5408,57 +6228,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3192543937386883
+      "presentation_score": 0.31660533905932736
     },
     {
-      "cluster_id": 60,
-      "count": 3,
+      "cluster_id": 15,
+      "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FS-2026-0067-2093",
-      "representative_posted_date": "2026-07-13T04:00:00Z",
-      "representative_length": 1148,
-      "representative_excerpt": "I strongly oppose any effort to make the regulations contained within the Forest Service handbook optional or discretionary. These standards exist to provide consistency, accountability, and stewardship across our public lands. Making them optional risks creating uneven management practices between forests and districts, increasing confusion for staff and...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
+      "representative_comment_id": "FS-2026-0067-2686",
+      "representative_posted_date": "2026-07-18T04:00:00Z",
+      "representative_length": 68,
+      "representative_excerpt": "NO rule changes and private industry giveaways without public input!",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FS-2026-0067-2093": {
+        "FS-2026-0067-2686": {
           "organization": "",
-          "postedDate": "2026-07-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0959": {
-          "organization": "",
-          "postedDate": "2026-07-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-13281",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FS-2026-0067-0044": {
-          "organization": "",
-          "postedDate": "2026-07-02T04:00:00Z",
+          "postedDate": "2026-07-18T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -5474,10 +6264,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3158873151282793
+      "presentation_score": 0.3053553390593273
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2665",
@@ -5510,10 +6300,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.30592106040535494
+      "presentation_score": 0.29910533905932735
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2533",
@@ -5546,10 +6336,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29258772707202163
+      "presentation_score": 0.28660533905932734
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2543",
@@ -5582,10 +6372,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29258772707202163
+      "presentation_score": 0.28660533905932734
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-2567",
@@ -5618,10 +6408,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29258772707202163
+      "presentation_score": 0.28660533905932734
     },
     {
-      "cluster_id": 133,
+      "cluster_id": 154,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0003",
@@ -5654,10 +6444,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 131,
+      "cluster_id": 152,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0005",
@@ -5690,10 +6480,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 130,
+      "cluster_id": 151,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0006",
@@ -5726,10 +6516,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 129,
+      "cluster_id": 150,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0007",
@@ -5762,10 +6552,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 128,
+      "cluster_id": 149,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0008",
@@ -5798,10 +6588,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 127,
+      "cluster_id": 148,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0009",
@@ -5834,10 +6624,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 126,
+      "cluster_id": 147,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0010",
@@ -5870,10 +6660,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 125,
+      "cluster_id": 146,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0033",
@@ -5906,10 +6696,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     },
     {
-      "cluster_id": 121,
+      "cluster_id": 143,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FS-2026-0067-0063",
@@ -5942,12 +6732,28 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.285921060405355
+      "presentation_score": 0.28535533905932736
     }
   ],
   "comments_clusters_path": "data/comments/FS-2026-0067.csv",
-  "government_submissions_count": 1,
+  "government_submissions_count": 2,
   "government_submissions": [
+    {
+      "comment_id": "FS-2026-0067-2677",
+      "organization": "",
+      "posted_date": "2026-07-18T04:00:00Z",
+      "title": "Comment on FR Doc # 2026-13281",
+      "attachment_count": 0,
+      "submission_role": "government_tribal",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Comment on FR Doc # 2026-13281",
+      "source_cluster_ids": [
+        19
+      ]
+    },
     {
       "comment_id": "FS-2026-0067-2659",
       "organization": "",
@@ -5961,21 +6767,21 @@
       "withdrawn": false,
       "representative_excerpt": "I am particularly worried about the need for a full and honest environmental review before any decision. Cotoni Coast Dairies National Monument is a place that matters to me. I hike, photograph, education there. If this goes through, the ability to submit future proposals for extraction. I urge Forest Service to fully analyze these impacts, consider...",
       "source_cluster_ids": [
-        4
+        30
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.42857142857142855,
-  "comments_first_page_coverage_count": 90,
-  "comments_clusters_total_available": 133,
-  "comments_clusters_displayed": 133,
-  "comments_first_page_high_signal_clusters": 3,
+  "comments_first_page_coverage_share": 0.4125,
+  "comments_first_page_coverage_count": 99,
+  "comments_clusters_total_available": 154,
+  "comments_clusters_displayed": 154,
+  "comments_first_page_high_signal_clusters": 5,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 18,
-    "neutral": 7
+    "negative": 19,
+    "neutral": 6
   },
   "comments_first_page_unique_days": 7,
   "summary_available": true,
