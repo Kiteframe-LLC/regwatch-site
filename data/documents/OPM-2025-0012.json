@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-21T05:21:21.510143+00:00",
+  "comment_action_checked_at": "2026-07-22T09:22:51.157557+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,10 +34,10 @@
   "comment_end_date": "2026-08-04T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 18.36842105263158,
+  "pass_3_score": 20.238095238095237,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.9531780659125902,
+  "pass_3_scaled": 0.9657139211976193,
   "ranking_multiplier": 1.0,
   "combined_score": 1.0,
   "score_total": 9,
@@ -85,7 +85,7 @@
     "statutory_authority_fit"
   ],
   "pass_4_primary_concern": "The proposal's remedy is broader than the current empirical explanation, especially on alternatives and current baseline data.",
-  "combined_score_pre_pass5": 0.825417442967522,
+  "combined_score_pre_pass5": 0.8321280429997892,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -546,39 +546,41 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 300,
-  "comments_velocity_total": 292,
-  "comments_public_total_estimate": 292,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 112,
-  "comments_unique_clusters": 81,
-  "comments_clustered_duplicates": 31,
+  "comments_total": 372,
+  "comments_velocity_total": 362,
+  "comments_public_total_estimate": 362,
+  "comments_fetched": 30,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 142,
+  "comments_unique_clusters": 107,
+  "comments_clustered_duplicates": 35,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 59,
+  "comments_citizen_count": 74,
   "comments_commenter_type_counts": {
-    "citizen": 59,
-    "other": 53
+    "other": 68,
+    "citizen": 74
   },
   "comments_submission_role_counts": {
-    "individual": 108,
+    "individual": 137,
+    "organization": 2,
     "unknown": 2,
-    "government_unknown": 1,
-    "organization": 1
+    "government_unknown": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 109,
-    "other_channel_recorded": 2,
+    "public_portal": 138,
+    "other_channel_recorded": 3,
     "unknown": 1
   },
-  "comments_public_count": 109,
-  "comments_recorded_count": 2,
+  "comments_public_count": 138,
+  "comments_recorded_count": 3,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 1,
   "comments_new_cluster_count_by_day": {
-    "2026-07-17": 18,
+    "2026-07-21": 25,
+    "2026-07-20": 3,
+    "2026-07-17": 16,
     "2026-07-15": 14,
     "2026-07-13": 14,
     "2026-07-10": 6,
@@ -586,52 +588,53 @@
     "2026-07-08": 27
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-07-21": 1,
     "2026-07-17": 2,
     "2026-07-13": 2,
     "2026-07-10": 1,
     "2026-07-08": 6
   },
-  "comments_novel_comment_rate": 0.7232142857142857,
+  "comments_novel_comment_rate": 0.7535211267605634,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.6087825878574628,
-  "comments_sentiment_neutral_pct": 0.3912174121425372,
-  "comments_sentiment_net": -0.6087825878574628,
-  "comments_sentiment_sample_size": 109,
+  "comments_sentiment_negative_pct": 0.5495611076773437,
+  "comments_sentiment_neutral_pct": 0.4504388923226563,
+  "comments_sentiment_net": -0.5495611076773437,
+  "comments_sentiment_sample_size": 138,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 112,
+  "comments_analysis_sample_size": 142,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 112,
-  "comments_representative_prior_selected": 112,
+  "comments_representative_selected": 142,
+  "comments_representative_prior_selected": 142,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 2,
-  "comments_representative_run_budget": 16,
+  "comments_representative_must_keep": 3,
+  "comments_representative_run_budget": 18,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 2,
+    "must_keep": 3,
     "salience_rank": 2,
-    "weighted_fill": 108
+    "weighted_fill": 137
   },
-  "comments_representative_selected_by_counts_total": 112,
+  "comments_representative_selected_by_counts_total": 142,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-20T05:06:24.112765+00:00",
-  "comments_checked_at": "2026-07-20T05:06:24.725566+00:00",
+  "comments_api_last_seen_at": "2026-07-22T05:25:57.938512+00:00",
+  "comments_checked_at": "2026-07-22T05:25:58.628764+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 2,
-      "count": 15,
+      "cluster_id": 27,
+      "count": 16,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0300",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 482,
-      "representative_excerpt": "I oppose the administration\u2019s efforts to make employee discipline less fair. Forty-five years of case law provide employees and management alike with flexible and workable guidelines on employee discipline. Civil servants deserve a transparent and fair process when facing discipline, and to ensure that, they must have union representation and enough time...",
+      "representative_comment_id": "OPM-2025-0012-0331",
+      "representative_posted_date": "2026-07-20T04:00:00Z",
+      "representative_length": 489,
+      "representative_excerpt": "o I oppose the administration\u2019s efforts to make employee discipline less fair. o Forty-five years of case law provide employees and management alike with flexible and workable guidelines on employee discipline. o Civil servants deserve a transparent and fair process when facing discipline, and to ensure that they must have union representation and enough...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -718,14 +721,14 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3901684400555602
+      "presentation_score": 0.3805467232738826
     },
     {
-      "cluster_id": 5,
-      "count": 10,
+      "cluster_id": 2,
+      "count": 12,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0281",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_comment_id": "OPM-2025-0012-0372",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
       "representative_length": 161,
       "representative_excerpt": "Civil servants deserve a transparent and fair process when facing discipline, and to ensure that, they must have union representation and enough time to respond.",
       "representative_signal_score": 0,
@@ -814,10 +817,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3675574140416068
+      "presentation_score": 0.37067289206970777
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 33,
       "count": 6,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0271",
@@ -910,10 +913,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27496569199917287
+      "presentation_score": 0.2401798419623658
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 30,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0294",
@@ -961,10 +964,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6405894809907315
+      "presentation_score": 0.6075012540061333
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 90,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0021",
@@ -1012,10 +1015,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3005894809907316
+      "presentation_score": 0.29827048477536416
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 51,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0165",
@@ -1063,10 +1066,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37836725876850935
+      "presentation_score": 0.352116638621518
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 12,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0362",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 650,
+      "representative_excerpt": "Until that is clear, this topic should remain in debate. \u2022 due process reductions should be removed. You have the right to due process by the constitution. Employees have a right to unionize. The federal workforce already gets limited union rights, and taking away what is there is removing any assistance employees have....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0362": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "OPM-2025-0012-0361": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3982704847753642
+    },
+    {
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0010",
@@ -1099,46 +1153,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7016397779494322
+      "presentation_score": 0.7000000000000001
     },
     {
-      "cluster_id": 67,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0018",
-      "representative_posted_date": "2026-07-08T04:00:00Z",
-      "representative_length": 2745,
-      "representative_excerpt": "Removing the Douglas Factors while simultaneously adding \u201cflexibility\u201d and \u201creasonableness\u201d will allow unscrupulous management officials to bend the CFR to punish/remove the employees who may not pander to their wants. This may contribute in violations in the MSPB of \u201cTreat[ing] employees and applicants fairly and equitably.\u201d Strictly interpreting the...",
-      "representative_signal_score": 5,
-      "representative_stance": "negative",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0018": {
-          "organization": "",
-          "postedDate": "2026-07-08T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Inna  Cogneedo",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7016397779494322
-    },
-    {
-      "cluster_id": 38,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0047",
@@ -1171,10 +1189,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7571953335049878
+      "presentation_score": 0.7384615384615385
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 93,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0018",
+      "representative_posted_date": "2026-07-08T04:00:00Z",
+      "representative_length": 2745,
+      "representative_excerpt": "Removing the Douglas Factors while simultaneously adding \u201cflexibility\u201d and \u201creasonableness\u201d will allow unscrupulous management officials to bend the CFR to punish/remove the employees who may not pander to their wants. This may contribute in violations in the MSPB of \u201cTreat[ing] employees and applicants fairly and equitably.\u201d Strictly interpreting the...",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0018": {
+          "organization": "",
+          "postedDate": "2026-07-08T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Inna  Cogneedo",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7000000000000001
+    },
+    {
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0028",
@@ -1207,10 +1261,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7016397779494322
+      "presentation_score": 0.7000000000000001
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0373",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 1778,
+      "representative_excerpt": "It avoids discrimination claims because it allows HRO to keep a record of past actions to ensure supervisors are operating along a uniform standard and not based upon the person they are disciplining. By removing this standard, it removes railings that are greatly needed to keep supervisors in line. Recently a required performance requirement for \"holding...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0373": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Brandon Gervais",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.64
+    },
+    {
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0287",
@@ -1243,10 +1333,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6416397779494322
+      "presentation_score": 0.6092307692307692
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0045",
@@ -1279,10 +1369,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5971953335049878
+      "presentation_score": 0.5784615384615385
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0036",
@@ -1315,82 +1405,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5638620001716544
+      "presentation_score": 0.5553846153846154
     },
     {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0240",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 2673,
-      "representative_excerpt": "Making it optional and narrowing the scope to how similarly situated coworkers were treated removes one of the strongest tools available to challenge unequal or pretextual discipline. Limiting comparisons to a single work unit and supervisor makes it easier for inconsistent treatment to go unexamined. A default 30-day Performance Improvement Plan, combined...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0240": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Kristen Carter",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5616397779494322
-    },
-    {
-      "cluster_id": 8,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0269",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1550,
-      "representative_excerpt": "Specifically, I oppose capping Performance Improvement Plans (PIPs) at 30 days and removing the requirement to prioritize progressive discipline. Career Perspective: Throughout my entire career in the military and in high-stakes civilian roles, I have understood that accountability is key, but I also know that genuine performance improvement is sometimes...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0269": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5616397779494322
-    },
-    {
-      "cluster_id": 74,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0011",
@@ -1423,10 +1441,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5416397779494322
+      "presentation_score": 0.54
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0012",
@@ -1459,10 +1477,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5416397779494322
+      "presentation_score": 0.54
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0013",
@@ -1495,27 +1513,63 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5416397779494322
+      "presentation_score": 0.54
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0032",
-      "representative_posted_date": "2026-07-09T04:00:00Z",
-      "representative_length": 1840,
-      "representative_excerpt": "The solution is to insulate the career workforce from political whiplash and allow institutional knowledge to do its job. I urge the Office of Personnel Management to reject proposals that destabilize the merit-based civil service and instead focus on fostering management stability and supporting the dedicated workforce already keeping these agencies afloat....",
-      "representative_signal_score": 1,
+      "representative_comment_id": "OPM-2025-0012-0240",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 2673,
+      "representative_excerpt": "Making it optional and narrowing the scope to how similarly situated coworkers were treated removes one of the strongest tools available to challenge unequal or pretextual discipline. Limiting comparisons to a single work unit and supervisor makes it easier for inconsistent treatment to go unexamined. A default 30-day Performance Improvement Plan, combined...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
-      "representative_submission_channel": "other_channel_recorded",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "OPM-2025-0012-0032": {
+        "OPM-2025-0012-0240": {
           "organization": "",
-          "postedDate": "2026-07-09T04:00:00Z",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kristen Carter",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5292307692307693
+    },
+    {
+      "cluster_id": 34,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0269",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 1550,
+      "representative_excerpt": "Specifically, I oppose capping Performance Improvement Plans (PIPs) at 30 days and removing the requirement to prioritize progressive discipline. Career Perspective: Throughout my entire career in the military and in high-stakes civilian roles, I have understood that accountability is key, but I also know that genuine performance improvement is sometimes...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0269": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1523,18 +1577,18 @@
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
           "withdrawn": false,
-          "submissionRole": "unknown",
+          "submissionRole": "individual",
           "submissionRoleConfidence": "low",
-          "submissionChannel": "other_channel_recorded",
+          "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3927508890605434
+      "presentation_score": 0.5292307692307693
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0117",
@@ -1567,10 +1621,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5394175557272101
+      "presentation_score": 0.5138461538461538
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0044",
@@ -1603,10 +1657,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5171953335049878
+      "presentation_score": 0.4984615384615385
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0046",
@@ -1639,10 +1693,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5171953335049878
+      "presentation_score": 0.4984615384615385
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0048",
@@ -1675,10 +1729,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5171953335049878
+      "presentation_score": 0.4984615384615385
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0049",
@@ -1711,10 +1765,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5171953335049878
+      "presentation_score": 0.4984615384615385
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0363",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 1198,
+      "representative_excerpt": "It does not provide employees with a genuine opportunity to improve, especially in complex technical roles.Allow Clean-Record Settlements: Banning these agreements removes a vital tool for resolving disputes efficiently. This ban will force more cases into formal litigation, heavily increasing costs for taxpayers and backlogging agencies.Protect Due...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0363": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0364",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 763,
+      "representative_excerpt": "It weakens employee rights and makes discipline less fair. This eliminates the Douglas factors, which help ensure discipline is fair and proportionate; limits Performance Improvement Plans (PIPs) to 30 days, which is not enough time to show meaningful improvement, especially if proper coaching, counseling, and training isn\u2019t given; bans \"clean record\"...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0364": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Angela Maier",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0369",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 239,
+      "representative_excerpt": "The only subsections found were 715.201 Applicability and 715.202 Resignation. How can this be a proposed \u201cchange\u201d when in reality it is an ADDITION. Whomever drafted this \u201cproposed change\u201d appears to be less than candid with the proposal.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0369": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Cody Fednaughtsey",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.48
+    },
+    {
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0034",
@@ -1747,10 +1909,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4838620001716544
+      "presentation_score": 0.4753846153846154
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0037",
@@ -1783,118 +1945,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4838620001716544
+      "presentation_score": 0.4753846153846154
     },
     {
-      "cluster_id": 18,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0222",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 954,
-      "representative_excerpt": "Employees should be provided reasonable time to improve performance that is proven subpar. The proposed language would result in arbitrarily limiting performance improvement plans to 30 days, creating a government-wide prohibition on \u201cclean record settlement\u201d agreements, thus ensuring wasteful litigation, and creating a new \u201cvoluntary abandonment\u201d rule...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0222": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Alan Ellsworth",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.48163977794943225
-    },
-    {
-      "cluster_id": 17,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0224",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1064,
-      "representative_excerpt": "By eliminating these factors and implementing arbitrary policies, such as limiting performance improvement plans to 30 days and prohibiting \"clean record settlement\" agreements, this proposal creates unnecessary burdens and fosters a less fair environment. Furthermore, I am deeply concerned that these changes threaten fundamental due process rights...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0224": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.48163977794943225
-    },
-    {
-      "cluster_id": 16,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0225",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 1237,
-      "representative_excerpt": "You\u2019re also trying to change the way that federal employees are disciplined. I oppose this as well. I oppose the administration\u2019s efforts to make employee discipline less fair. Forty-five years of case law provide employees and management alike with flexible and workable guidelines on employee discipline. Civil servants deserve a transparent and fair...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0225": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.48163977794943225
-    },
-    {
-      "cluster_id": 70,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0015",
@@ -1927,10 +1981,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46163977794943223
+      "presentation_score": 0.46
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0016",
@@ -1963,10 +2017,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46163977794943223
+      "presentation_score": 0.46
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0023",
@@ -1999,10 +2053,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46163977794943223
+      "presentation_score": 0.46
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 44,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0222",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 954,
+      "representative_excerpt": "Employees should be provided reasonable time to improve performance that is proven subpar. The proposed language would result in arbitrarily limiting performance improvement plans to 30 days, creating a government-wide prohibition on \u201cclean record settlement\u201d agreements, thus ensuring wasteful litigation, and creating a new \u201cvoluntary abandonment\u201d rule...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0222": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Alan Ellsworth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4492307692307692
+    },
+    {
+      "cluster_id": 43,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0224",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 1064,
+      "representative_excerpt": "By eliminating these factors and implementing arbitrary policies, such as limiting performance improvement plans to 30 days and prohibiting \"clean record settlement\" agreements, this proposal creates unnecessary burdens and fosters a less fair environment. Furthermore, I am deeply concerned that these changes threaten fundamental due process rights...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0224": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4492307692307692
+    },
+    {
+      "cluster_id": 42,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0225",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 1237,
+      "representative_excerpt": "You\u2019re also trying to change the way that federal employees are disciplined. I oppose this as well. I oppose the administration\u2019s efforts to make employee discipline less fair. Forty-five years of case law provide employees and management alike with flexible and workable guidelines on employee discipline. Civil servants deserve a transparent and fair...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0225": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4492307692307692
+    },
+    {
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0039",
@@ -2035,10 +2197,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43719533350498785
+      "presentation_score": 0.41846153846153844
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0043",
@@ -2071,10 +2233,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43719533350498785
+      "presentation_score": 0.41846153846153844
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0050",
@@ -2107,10 +2269,586 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43719533350498785
+      "presentation_score": 0.41846153846153844
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0348",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 649,
+      "representative_excerpt": "The majority of the employees are accountable. Since June 2026 there has been AHOD all month including leads. Due to this now lead work was completed and Managers were answering the Lead Chat when anyone had questions. So none to little manager work was completed. But then the Agency gets upset that little to no manager work and no lead work was completed....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0348": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Danielle Fleetwood",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0349",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 962,
+      "representative_excerpt": "Eliminating these factors risks arbitrary and inconsistent discipline while reducing accountability for management decisions. As a federal law enforcement officer, I understand the importance of maintaining high standards of conduct. However, accountability must apply to both employees and management. A fair disciplinary system protects the integrity of...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0349": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0350",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 525,
+      "representative_excerpt": "As a supervisor, one of the biggest challenges is employee discipline when having to deal with the union. The contract has made it next to impossible to take any corrective actions against employees who either do not meet standards or have continued disciplinary issues. HR gives guidance which is then argued by the union and no actions are ever taken...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0350": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0351",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 510,
+      "representative_excerpt": "This rule must be rescinded immediately and not ever implemented for any reason whatsoever at any stage, point or place in time by any official now or in the future. Doing so risks losing the entire federal government work force due to a loss of trust and confidence in the administrations ability to lead the nation executive branch...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0351": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0353",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 199,
+      "representative_excerpt": "I am opposed to the proposed regulations on employee discipline. It will negatively impact the retention of quality employees which have been significantly dwindling under the current administration.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0353": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0354",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 250,
+      "representative_excerpt": "Can we stop all this please. Enough has been taken from us. We are all beat down from all this. What y'all should be doing is looking at the inconsistent position descriptions and enhance growth opportunities but having ladder promotions in every PD.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0354": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from casie Norton",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0356",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 351,
+      "representative_excerpt": "Removing these standards limits basic due process for employees. Removing the Douglas factors, will erode the ethical obligation that an employer should have to ensure that discplinary actions are for just and sufficient cause. Removing these requirements for disciplinary action against public servants erode that the public servant are non partisan.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0356": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0357",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 170,
+      "representative_excerpt": "Verbal reprimand to termination for the littlest infraction is unacceptable. If your warden doesn't like you they can put you on a 30 day pip ans sabotage it to fire you.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0357": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Mr. Ricky Wynn",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0359",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 613,
+      "representative_excerpt": "The AFGE Seeks To Undermine The Authority Of Competent Management Leaving Complacent Employees In Place Who Procure Taxpayer Dollars (i.e., Government Paychecks, etc.) Without Knowing The Essential Functions Of Their Positions. The Utilization of Douglas Factors Are Rarely Explained To Managers By ER/LR Who Often Side With The Union To Avoid Unfair Labor...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0359": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kimberly LaPoint,  MHA",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0360",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 197,
+      "representative_excerpt": "This proposed rule is the exact wrong thing to do. The protections it weakens deserve to be strengthened. It\u2019s much more cost-effective to rehabilitate employees than to hire & train new employees.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0360": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from David Bump",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0365",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 199,
+      "representative_excerpt": "Please stop the madness!!! You have good people serving the public. You have corrupt management staff and that needs corrected!!! Stop harming government employees. Save money fire crappy leadership.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0365": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0366",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 836,
+      "representative_excerpt": "I'm a federal employee, and I support real accountability. We are already held accountable through performance standards, ethics rules, and established procedures. What I don't support is using \"employee accountability\" as a slogan to weaken due process or unfairly portray an entire workforce based on a few examples. Federal employees serve veterans...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0366": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0367",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 591,
+      "representative_excerpt": "Given the intention of the rule may be to improve the over all workforce by eliminating hindrances the government workplace remains top heavy and many in these positions use their position to bully and manipulate the workers assigned to their charge. Before invoking this proposed rule OPM and MSPB may want to consider including annual employee feedback on...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0367": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0368",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 235,
+      "representative_excerpt": "The proposed provisions on PIPs, settlements, and voluntary abandonment are arbitrary, and invite discrimination. These items should be negotiated with the union. They are a clear attack on government employees, damaging the workforce.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0368": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Amy Christensen",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0370",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 191,
+      "representative_excerpt": "The federal regulations would be unfair to public employees and take away their right to due process. It would lead to unfair firings and open the government up to litigation and revenue loss",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0370": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Edward mirigliano",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0371",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 316,
+      "representative_excerpt": "Nepotism still exists throughout all agencies, and the union is needed to help ensure that all bargaining unit employees are treated fairly and equitably. The Union organizations, though not perfect, are the only organizations can effectively represent and advise bargaining unit employees their rights as employees.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0371": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Aegon V. Targaryen",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4
+    },
+    {
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0038",
@@ -2143,16 +2881,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40386200017165447
+      "presentation_score": 0.3953846153846154
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0231",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 321,
-      "representative_excerpt": "I oppose the administration's efforts to make employee discipline less fair. The current program conforms with over 45 years of case law - which is fair to both employees and management. The proposed provisions on PIP's, settlements, and voluntary abandonment are arbitrary and will most certainly lead to discrimination.",
+      "representative_comment_id": "OPM-2025-0012-0316",
+      "representative_posted_date": "2026-07-20T04:00:00Z",
+      "representative_length": 629,
+      "representative_excerpt": "The current Douglas factors provide clear guidelines for how to determine the severity of employee actions. They are vary broad and can be interpreted on a case-by-case basis, as needed. Employees deserve representation from unions as part of the disciplinary process; otherwise, they are navigating an unfamiliar situation with no support and no recourse....",
       "representative_signal_score": 0,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -2161,9 +2899,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "OPM-2025-0012-0231": {
+        "OPM-2025-0012-0316": {
           "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
+          "postedDate": "2026-07-20T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -2179,16 +2917,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
+      "presentation_score": 0.3923076923076923
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0234",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 462,
-      "representative_excerpt": "The proposed provisions on PIPs, settlements, and voluntary abandonment are arbitrary, and invite discrimination, they are not fair and oppose forty-five years of case law which has provided employees and management alike with flexible and workable guidelines on employee discipline. Civil servants deserve a transparent process when facing discipline, and...",
+      "representative_comment_id": "OPM-2025-0012-0335",
+      "representative_posted_date": "2026-07-20T04:00:00Z",
+      "representative_length": 369,
+      "representative_excerpt": "I oppose the administration\u2019s efforts to make employee discipline less fair. Employees deserve to have representation at disciplinary proceedings. No changes should be made to shorten the timeframes currently in place. The Douglas factors should be retained. Federal employees deserve to be respected in the workplace at all times, even during disciplinary...",
       "representative_signal_score": 0,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -2197,9 +2935,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "OPM-2025-0012-0234": {
+        "OPM-2025-0012-0335": {
           "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
+          "postedDate": "2026-07-20T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -2215,63 +2953,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
+      "presentation_score": 0.3923076923076923
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0235",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 129,
-      "representative_excerpt": "Forty-five years of case law provide employees and management alike with flexible and workable guidelines on employee discipline.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0235": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Bianca Mata",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
-    },
-    {
-      "cluster_id": 11,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0249",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 81,
-      "representative_excerpt": "These changes are in no way constructive nor in good faith. Do not approve these.",
-      "representative_signal_score": 0,
+      "representative_comment_id": "OPM-2025-0012-0032",
+      "representative_posted_date": "2026-07-09T04:00:00Z",
+      "representative_length": 1840,
+      "representative_excerpt": "The solution is to insulate the career workforce from political whiplash and allow institutional knowledge to do its job. I urge the Office of Personnel Management to reject proposals that destabilize the merit-based civil service and instead focus on fostering management stability and supporting the dedicated workforce already keeping these agencies afloat....",
+      "representative_signal_score": 1,
       "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
+      "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "OPM-2025-0012-0249": {
+        "OPM-2025-0012-0032": {
           "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
+          "postedDate": "2026-07-09T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -2279,162 +2981,18 @@
           "attachmentCount": 0,
           "title": "Comment from Anonymous",
           "withdrawn": false,
-          "submissionRole": "individual",
+          "submissionRole": "unknown",
           "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
+          "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
+      "presentation_score": 0.38769230769230767
     },
     {
-      "cluster_id": 10,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0255",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 386,
-      "representative_excerpt": "I oppose current efforts to change disciplinary rules. Case law provides flexible and workable guidelines on employee discipline. Employees deserve a transparent and fair process when facing discipline. To ensure that, they must have union representation and enough time to respond. The proposals for PIPs, settlements, and voluntary abandonment are...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0255": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from VICTOR HERNANDEZ",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
-    },
-    {
-      "cluster_id": 9,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0256",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 778,
-      "representative_excerpt": "I oppose the administration's efforts to make employee discipline less fair. Overturning 45 years of case law that provides flexible options for both employees and managers is a foolish endeavor, and will only result in far more litigation and expense to the federal government. Civil servants deserve a transparent and fair process when facing discipline...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0256": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Patrick Schulz",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
-    },
-    {
-      "cluster_id": 6,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0278",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 734,
-      "representative_excerpt": "I oppose the administration\u2019s efforts to make employee discipline less fair. Civil servants deserve a transparent and fair process when facing discipline, and to ensure that, they must have union representation and enough time to respond. America has one of the worst benefits in the world for its citizens and even the worst benefits for its federal...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0278": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
-    },
-    {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0301",
-      "representative_posted_date": "2026-07-17T04:00:00Z",
-      "representative_length": 983,
-      "representative_excerpt": "At the same time, it is important that employees continue to receive clear expectations, notice of performance concerns, and an opportunity to respond before disciplinary action is taken. Maintaining fairness while improving efficiency can strengthen public confidence in the federal government and help agencies better serve the American people....",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0301": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4016397779494322
-    },
-    {
-      "cluster_id": 78,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0007",
@@ -2467,10 +3025,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38163977794943227
+      "presentation_score": 0.38
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0008",
@@ -2503,10 +3061,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38163977794943227
+      "presentation_score": 0.38
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0009",
@@ -2539,10 +3097,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38163977794943227
+      "presentation_score": 0.38
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0025",
@@ -2575,10 +3133,298 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38163977794943227
+      "presentation_score": 0.38
+    },
+    {
+      "cluster_id": 41,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0231",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 321,
+      "representative_excerpt": "I oppose the administration's efforts to make employee discipline less fair. The current program conforms with over 45 years of case law - which is fair to both employees and management. The proposed provisions on PIP's, settlements, and voluntary abandonment are arbitrary and will most certainly lead to discrimination.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0231": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
+    },
+    {
+      "cluster_id": 40,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0234",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 462,
+      "representative_excerpt": "The proposed provisions on PIPs, settlements, and voluntary abandonment are arbitrary, and invite discrimination, they are not fair and oppose forty-five years of case law which has provided employees and management alike with flexible and workable guidelines on employee discipline. Civil servants deserve a transparent process when facing discipline, and...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0234": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
+    },
+    {
+      "cluster_id": 39,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0235",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 129,
+      "representative_excerpt": "Forty-five years of case law provide employees and management alike with flexible and workable guidelines on employee discipline.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0235": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Bianca Mata",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
+    },
+    {
+      "cluster_id": 37,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0249",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 81,
+      "representative_excerpt": "These changes are in no way constructive nor in good faith. Do not approve these.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0249": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
+    },
+    {
+      "cluster_id": 36,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0255",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 386,
+      "representative_excerpt": "I oppose current efforts to change disciplinary rules. Case law provides flexible and workable guidelines on employee discipline. Employees deserve a transparent and fair process when facing discipline. To ensure that, they must have union representation and enough time to respond. The proposals for PIPs, settlements, and voluntary abandonment are...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0255": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from VICTOR HERNANDEZ",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
+    },
+    {
+      "cluster_id": 35,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0256",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 778,
+      "representative_excerpt": "I oppose the administration's efforts to make employee discipline less fair. Overturning 45 years of case law that provides flexible options for both employees and managers is a foolish endeavor, and will only result in far more litigation and expense to the federal government. Civil servants deserve a transparent and fair process when facing discipline...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0256": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Patrick Schulz",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
     },
     {
       "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0278",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 734,
+      "representative_excerpt": "I oppose the administration\u2019s efforts to make employee discipline less fair. Civil servants deserve a transparent and fair process when facing discipline, and to ensure that, they must have union representation and enough time to respond. America has one of the worst benefits in the world for its citizens and even the worst benefits for its federal...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0278": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0301",
+      "representative_posted_date": "2026-07-17T04:00:00Z",
+      "representative_length": 983,
+      "representative_excerpt": "At the same time, it is important that employees continue to receive clear expectations, notice of performance concerns, and an opportunity to respond before disciplinary action is taken. Maintaining fairness while improving efficiency can strengthen public confidence in the federal government and help agencies better serve the American people....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0301": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.36923076923076925
+    },
+    {
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0113",
@@ -2611,10 +3457,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0128",
@@ -2647,10 +3493,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0131",
@@ -2683,10 +3529,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0136",
@@ -2719,10 +3565,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0153",
@@ -2755,10 +3601,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0169",
@@ -2791,10 +3637,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0174",
@@ -2827,10 +3673,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0183",
@@ -2863,10 +3709,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0186",
@@ -2899,10 +3745,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0190",
@@ -2935,10 +3781,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0209",
@@ -2971,10 +3817,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37941755572721
+      "presentation_score": 0.3538461538461538
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0040",
@@ -3007,10 +3853,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3571953335049878
+      "presentation_score": 0.3384615384615385
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0042",
@@ -3043,10 +3889,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3571953335049878
+      "presentation_score": 0.3384615384615385
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0051",
@@ -3079,10 +3925,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3571953335049878
+      "presentation_score": 0.3384615384615385
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0052",
@@ -3115,10 +3961,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3571953335049878
+      "presentation_score": 0.3384615384615385
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0352",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 42,
+      "representative_excerpt": "Please make it easier to remove bad actors",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0352": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31999999999999995
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0355",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 76,
+      "representative_excerpt": "We spent years of tears and sweat to get where we are today. Leave it alone!",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0355": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from DOD",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31999999999999995
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0358",
+      "representative_posted_date": "2026-07-21T04:00:00Z",
+      "representative_length": 73,
+      "representative_excerpt": "I vehemently oppose any changes to discipline rules for federal employees",
+      "representative_signal_score": -1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0358": {
+          "organization": "",
+          "postedDate": "2026-07-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.31999999999999995
+    },
+    {
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0033",
@@ -3151,10 +4105,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3238620001716544
+      "presentation_score": 0.3153846153846154
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0035",
@@ -3187,10 +4141,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3238620001716544
+      "presentation_score": 0.3153846153846154
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0031",
@@ -3223,10 +4177,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3127508890605433
+      "presentation_score": 0.30769230769230765
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0004",
@@ -3259,10 +4213,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0005",
@@ -3295,10 +4249,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0006",
@@ -3331,10 +4285,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0014",
@@ -3367,10 +4321,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0017",
@@ -3403,10 +4357,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0019",
@@ -3439,10 +4393,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0020",
@@ -3475,10 +4429,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0022",
@@ -3511,10 +4465,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0024",
@@ -3547,10 +4501,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0026",
@@ -3583,10 +4537,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0027",
@@ -3619,10 +4573,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0029",
@@ -3655,10 +4609,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0030",
@@ -3691,10 +4645,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3016397779494322
+      "presentation_score": 0.3
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0122",
@@ -3727,10 +4681,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29941755572720996
+      "presentation_score": 0.27384615384615385
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0041",
@@ -3763,7 +4717,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27719533350498776
+      "presentation_score": 0.2584615384615384
     }
   ],
   "comments_clusters_path": "data/comments/OPM-2025-0012.csv",
@@ -3771,17 +4725,17 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.5,
-  "comments_first_page_coverage_count": 56,
-  "comments_clusters_total_available": 81,
-  "comments_clusters_displayed": 81,
-  "comments_first_page_high_signal_clusters": 11,
+  "comments_first_page_coverage_share": 0.4225352112676056,
+  "comments_first_page_coverage_count": 60,
+  "comments_clusters_total_available": 107,
+  "comments_clusters_displayed": 107,
+  "comments_first_page_high_signal_clusters": 12,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 21,
-    "neutral": 4
+    "negative": 20,
+    "neutral": 5
   },
-  "comments_first_page_unique_days": 6,
+  "comments_first_page_unique_days": 7,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
