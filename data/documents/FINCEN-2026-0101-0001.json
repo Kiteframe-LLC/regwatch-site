@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-27T10:04:35.947685+00:00",
+  "comment_action_checked_at": "2026-07-28T09:39:22.974434+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-22T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 1,
-  "pass_3_score": 3.121212121212121,
+  "pass_3_score": 3.135135135135135,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.32929841307547836,
-  "pass_3_scaled": 0.4055995450599942,
+  "pass_3_scaled": 0.4069772535888553,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.4530063852452528,
+  "combined_score": 0.4536952395096833,
   "score_total": 8,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -146,37 +146,38 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 5,
-  "comments_velocity_total": 4,
-  "comments_public_total_estimate": 4,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 5,
-  "comments_unique_clusters": 5,
+  "comments_total": 6,
+  "comments_velocity_total": 5,
+  "comments_public_total_estimate": 5,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 6,
+  "comments_unique_clusters": 6,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 2,
+  "comments_citizen_count": 3,
   "comments_commenter_type_counts": {
+    "citizen": 3,
     "government": 1,
-    "citizen": 2,
     "organization_other": 2
   },
   "comments_submission_role_counts": {
+    "individual": 3,
     "government_tribal": 1,
-    "individual": 2,
     "organization": 2
   },
   "comments_submission_channel_counts": {
-    "agency_material": 1,
-    "public_portal": 4
+    "public_portal": 5,
+    "agency_material": 1
   },
-  "comments_public_count": 4,
+  "comments_public_count": 5,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-07-27": 1,
     "2026-07-20": 1,
     "2026-07-08": 1,
     "2026-07-01": 3
@@ -186,18 +187,18 @@
     "2026-07-01": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.5,
+  "comments_sentiment_positive_pct": 0.4,
   "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.5,
-  "comments_sentiment_net": 0.5,
-  "comments_sentiment_sample_size": 4,
+  "comments_sentiment_neutral_pct": 0.6,
+  "comments_sentiment_net": 0.4,
+  "comments_sentiment_sample_size": 5,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 5,
+  "comments_analysis_sample_size": 6,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 5,
-  "comments_representative_prior_selected": 5,
+  "comments_representative_selected": 6,
+  "comments_representative_prior_selected": 6,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 3,
   "comments_representative_run_budget": 0,
@@ -206,19 +207,20 @@
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 3,
-    "salience_rank": 2
+    "salience_rank": 2,
+    "weighted_fill": 1
   },
-  "comments_representative_selected_by_counts_total": 5,
+  "comments_representative_selected_by_counts_total": 6,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-26T05:14:39.084927+00:00",
-  "comments_checked_at": "2026-07-26T05:14:39.129588+00:00",
+  "comments_api_last_seen_at": "2026-07-28T05:14:17.995665+00:00",
+  "comments_checked_at": "2026-07-28T05:14:18.063343+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0003",
@@ -254,7 +256,7 @@
       "presentation_score": 0.9000000000000001
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0005",
@@ -287,10 +289,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7268421052631578
+      "presentation_score": 0.7169230769230769
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FINCEN-2026-0101-0007",
+      "representative_posted_date": "2026-07-27T04:00:00Z",
+      "representative_length": 4078,
+      "representative_excerpt": "A record that states only \"identity verified via digital credential\" satisfies the letter of \u00a7 1033.220(a)(3) while leaving the PPSI unable to reconstruct, months or years later, which of several digital identity tools it may have used across a growing menu of vendors was applied to any specific customer. This is precisely the kind of gap that surfaces...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FINCEN-2026-0101-0007": {
+          "organization": "",
+          "postedDate": "2026-07-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "PA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Neutral Point Protocol",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7100000000000001
+    },
+    {
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0002",
@@ -326,7 +364,7 @@
       "presentation_score": 0.5800000000000001
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0006",
@@ -359,10 +397,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.5230769230769231
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0004",
@@ -414,23 +452,23 @@
       "withdrawn": false,
       "representative_excerpt": "The proposed rule making legislation has given an extraordinary innovative opportunity for developing growth businesses to attempt in good faith dealings level the playing field by creating new jobs and competing on merit based initiatives and policies in the Genius Act. These initiatives as presented shouldn\u2019t mandatorily require enjoining any specific...",
       "source_cluster_ids": [
-        1
+        2
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 5,
+  "comments_first_page_count": 6,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 5,
-  "comments_clusters_total_available": 5,
-  "comments_clusters_displayed": 5,
+  "comments_first_page_coverage_count": 6,
+  "comments_clusters_total_available": 6,
+  "comments_clusters_displayed": 6,
   "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 2,
   "comments_first_page_stance_counts": {
     "positive": 2,
-    "neutral": 3
+    "neutral": 4
   },
-  "comments_first_page_unique_days": 3,
+  "comments_first_page_unique_days": 4,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": false,
