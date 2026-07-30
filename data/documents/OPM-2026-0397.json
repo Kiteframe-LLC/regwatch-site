@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/OPM-2026-0397-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-29T07:14:32.274923+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": null,
+  "comment_action_checked_at": null,
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-07-30T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 3.6666666666666665,
+  "pass_3_score": 3.75,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.4572525188357781,
+  "pass_3_scaled": 0.4647385714810097,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6919705987676735,
+  "combined_score": 0.6966573828394654,
   "score_total": 10,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -83,7 +83,7 @@
     "statutory_authority_fit"
   ],
   "pass_4_primary_concern": "The public record is thin on how OPM will standardize broad discretionary leave decisions and edge-case line drawing across agencies.",
-  "combined_score_pre_pass5": 0.5773271430087915,
+  "combined_score_pre_pass5": 0.5812374358201992,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -438,37 +438,41 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 23,
-  "comments_velocity_total": 20,
-  "comments_public_total_estimate": 20,
-  "comments_fetched": 2,
-  "comments_text_hydrated": 2,
-  "comments_cached_records": 23,
-  "comments_unique_clusters": 23,
+  "comments_total": 28,
+  "comments_velocity_total": 24,
+  "comments_public_total_estimate": 24,
+  "comments_fetched": 5,
+  "comments_text_hydrated": 8,
+  "comments_cached_records": 28,
+  "comments_unique_clusters": 28,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 9,
+  "comments_citizen_count": 10,
   "comments_commenter_type_counts": {
-    "other": 13,
-    "citizen": 9,
-    "organization_other": 1
+    "organization_other": 4,
+    "citizen": 10,
+    "other": 14
   },
   "comments_submission_role_counts": {
-    "unknown": 3,
-    "individual": 18,
-    "organization": 2
+    "individual": 21,
+    "organization": 3,
+    "government_unknown": 1,
+    "unknown": 3
   },
   "comments_submission_channel_counts": {
-    "other_channel_recorded": 3,
-    "public_portal": 20
+    "public_portal": 24,
+    "unknown": 1,
+    "other_channel_recorded": 3
   },
-  "comments_public_count": 20,
+  "comments_public_count": 24,
   "comments_recorded_count": 3,
   "comments_agency_material_count": 0,
-  "comments_unknown_channel_count": 0,
+  "comments_unknown_channel_count": 1,
   "comments_new_cluster_count_by_day": {
+    "2026-07-29": 2,
+    "2026-07-28": 3,
     "2026-07-27": 2,
     "2026-07-24": 1,
     "2026-07-16": 1,
@@ -481,45 +485,46 @@
     "2026-07-01": 12
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-07-28": 1,
     "2026-07-24": 1,
     "2026-07-06": 1,
     "2026-07-01": 1
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.049999999999999996,
-  "comments_sentiment_negative_pct": 0.19999999999999998,
-  "comments_sentiment_neutral_pct": 0.75,
-  "comments_sentiment_net": -0.15,
-  "comments_sentiment_sample_size": 20,
+  "comments_sentiment_positive_pct": 0.08333333333333334,
+  "comments_sentiment_negative_pct": 0.2916666666666667,
+  "comments_sentiment_neutral_pct": 0.625,
+  "comments_sentiment_net": -0.20833333333333334,
+  "comments_sentiment_sample_size": 24,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 23,
+  "comments_analysis_sample_size": 28,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 23,
-  "comments_representative_prior_selected": 23,
+  "comments_representative_selected": 28,
+  "comments_representative_prior_selected": 28,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 3,
+  "comments_representative_must_keep": 8,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 3,
+    "must_keep": 8,
     "salience_rank": 1,
     "weighted_fill": 19
   },
-  "comments_representative_selected_by_counts_total": 23,
+  "comments_representative_selected_by_counts_total": 28,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-28T05:04:48.208939+00:00",
-  "comments_checked_at": "2026-07-28T05:04:48.393148+00:00",
+  "comments_api_last_seen_at": "2026-07-30T06:04:00.907299+00:00",
+  "comments_checked_at": "2026-07-30T06:04:01.194283+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 9,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0016",
@@ -552,10 +557,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8692307692307694
+      "presentation_score": 0.867857142857143
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0022",
@@ -588,10 +593,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9884615384615386
+      "presentation_score": 0.9821428571428573
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0027",
+      "representative_posted_date": "2026-07-28T04:00:00Z",
+      "representative_length": 2258,
+      "representative_excerpt": "Employees must then extend their workday by the equivalent amount of time of the break. The use of administrative leave for physical fitness activities is unnecessary at SBA, as the unpaid health and wellness break period policy has been successful in balancing employee personal needs with limited Agency resources toward accomplishing its critical mission....",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0027": {
+          "organization": "",
+          "postedDate": "2026-07-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from SBA",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8664285714285714
+    },
+    {
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0004",
@@ -627,7 +668,7 @@
       "presentation_score": 0.69
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0003",
@@ -663,7 +704,7 @@
       "presentation_score": 0.6100000000000001
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0019",
@@ -696,10 +737,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6561538461538463
+      "presentation_score": 0.6528571428571429
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0020",
@@ -732,10 +773,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.663846153846154
+      "presentation_score": 0.6600000000000001
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0021",
@@ -768,10 +809,262 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6676923076923078
+      "presentation_score": 0.6635714285714287
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0029",
+      "representative_posted_date": "2026-07-29T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "1 Public Employees for Environmental Responsibility Comments on Administrative Leave for Workplace Realignment and Other Purposes, OPM Proposed Rule, OPM-2026-0397 July 29, 2026 VIA FEDERAL eRULEMAKING PORTAL Bryce Baker Office of Personnel Management 1900 E Street, NW Washington, DC 20415 Dear Mr. Barker: PEER submits these comments in opposition to OPM...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0029": {
+          "organization": "Public Employees for Environmental Responsibility",
+          "postedDate": "2026-07-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Public Employees for Environmental Responsibility",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7600000000000001
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0025",
+      "representative_posted_date": "2026-07-28T04:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "Reg. 102256 (Dec. 17, 2024). Weather and safety leave was implemented by a different rulemaking. See Off. of Pers. Mgmt., 83 Fed. Reg. 15291 (Apr. 10, 2018). 5 Chris Marr, Trump Buyouts Paid $11 Billion for Not Working, Report Says, Bloomberg Law (June 18, 2026), https://news.bloomberglaw.com/daily-labor-report/trump-buyouts-paid-11-billion-for-not-working...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0025": {
+          "organization": "Civil Service Strong at Democracy Forward",
+          "postedDate": "2026-07-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Civil Service Strong at Democracy Forward",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7564285714285716
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0028",
+      "representative_posted_date": "2026-07-29T04:00:00Z",
+      "representative_length": 2648,
+      "representative_excerpt": "For example, engaging in physical activity can result in less sick days, an increase in productivity, lower healthcare costs, and a decreased risk of developing costly chronic diseases. Allowing administrative leave for physical activity is a way to support employers and their business needs. This translates into real cost savings and stability for the...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0028": {
+          "organization": "",
+          "postedDate": "2026-07-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7100000000000001
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0026",
+      "representative_posted_date": "2026-07-28T04:00:00Z",
+      "representative_length": 214,
+      "representative_excerpt": "Please see the attached comment letter from the Partnership for Public Service in response to the Office of Personnel Management's RIN 3206-AP07, \u201cAdministrative Leave for Workforce Realignment and Other Purposes.\u201d",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0026": {
+          "organization": "Partnership for Public Service",
+          "postedDate": "2026-07-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Partnership for Public Service",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5964285714285715
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0023",
+      "representative_posted_date": "2026-07-27T04:00:00Z",
+      "representative_length": 804,
+      "representative_excerpt": "Agencies should ensure that they retain the discretion to grant or not grant administrative leave based on agency judgments of mission needs and that administrative leave not become an entitlement without regard to mission needs.\" By allowing this, employees can have a good work-life balance, enhanced physical and mental well-being, and increased...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0023": {
+          "organization": "",
+          "postedDate": "2026-07-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5428571428571429
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0024",
+      "representative_posted_date": "2026-07-27T04:00:00Z",
+      "representative_length": 810,
+      "representative_excerpt": "We should allow and encourage extended durations for things like Christmas Eve, major events (like death of a president), and at presidential discretion. Fitness: We should permit and encourage use of administrative leave for items similar to the Civilian Fitness Program. Align the goals of the program to meet the Army Fitness Standards, to ensure an able...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0024": {
+          "organization": "",
+          "postedDate": "2026-07-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anthony Distel",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5428571428571429
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2026-0397-0014",
+      "representative_posted_date": "2026-07-02T04:00:00Z",
+      "representative_length": 1350,
+      "representative_excerpt": "Allowing the withdrawal of a resignation promotes employee retention, preserves valuable institutional knowledge, reduces unnecessary recruitment and training costs, and supports a fair and equitable workplace. A rigid prohibition on withdrawing a resignation unnecessarily limits management's discretion, deprives agencies of experienced employees they may...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2026-0397-0014": {
+          "organization": "",
+          "postedDate": "2026-07-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Reggie Greenwood",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5335714285714286
+    },
+    {
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0002",
@@ -807,115 +1100,7 @@
       "presentation_score": 0.53
     },
     {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0397-0023",
-      "representative_posted_date": "2026-07-27T04:00:00Z",
-      "representative_length": 804,
-      "representative_excerpt": "Agencies should ensure that they retain the discretion to grant or not grant administrative leave based on agency judgments of mission needs and that administrative leave not become an entitlement without regard to mission needs.\" By allowing this, employees can have a good work-life balance, enhanced physical and mental well-being, and increased...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0397-0023": {
-          "organization": "",
-          "postedDate": "2026-07-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.55
-    },
-    {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0397-0024",
-      "representative_posted_date": "2026-07-27T04:00:00Z",
-      "representative_length": 810,
-      "representative_excerpt": "We should allow and encourage extended durations for things like Christmas Eve, major events (like death of a president), and at presidential discretion. Fitness: We should permit and encourage use of administrative leave for items similar to the Civilian Fitness Program. Align the goals of the program to meet the Army Fitness Standards, to ensure an able...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0397-0024": {
-          "organization": "",
-          "postedDate": "2026-07-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anthony Distel",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.55
-    },
-    {
-      "cluster_id": 11,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2026-0397-0014",
-      "representative_posted_date": "2026-07-02T04:00:00Z",
-      "representative_length": 1350,
-      "representative_excerpt": "Allowing the withdrawal of a resignation promotes employee retention, preserves valuable institutional knowledge, reduces unnecessary recruitment and training costs, and supports a fair and equitable workplace. A rigid prohibition on withdrawing a resignation unnecessarily limits management's discretion, deprives agencies of experienced employees they may...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2026-0397-0014": {
-          "organization": "",
-          "postedDate": "2026-07-02T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Reggie Greenwood",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5338461538461539
-    },
-    {
-      "cluster_id": 17,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0008",
@@ -951,7 +1136,7 @@
       "presentation_score": 0.53
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0012",
@@ -987,7 +1172,7 @@
       "presentation_score": 0.53
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0013",
@@ -1023,7 +1208,7 @@
       "presentation_score": 0.53
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0018",
@@ -1056,10 +1241,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4807692307692308
+      "presentation_score": 0.4785714285714286
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0017",
@@ -1092,10 +1277,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47692307692307695
+      "presentation_score": 0.47500000000000003
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0015",
@@ -1128,10 +1313,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45384615384615384
+      "presentation_score": 0.45357142857142857
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0005",
@@ -1167,7 +1352,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0006",
@@ -1203,7 +1388,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0007",
@@ -1239,7 +1424,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0009",
@@ -1275,7 +1460,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0010",
@@ -1311,7 +1496,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2026-0397-0011",
@@ -1351,19 +1536,19 @@
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 23,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 23,
-  "comments_clusters_total_available": 23,
-  "comments_clusters_displayed": 23,
-  "comments_first_page_high_signal_clusters": 3,
-  "comments_first_page_novelty_clusters": 1,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.8928571428571429,
+  "comments_first_page_coverage_count": 25,
+  "comments_clusters_total_available": 28,
+  "comments_clusters_displayed": 28,
+  "comments_first_page_high_signal_clusters": 4,
+  "comments_first_page_novelty_clusters": 4,
   "comments_first_page_stance_counts": {
-    "negative": 6,
-    "neutral": 16,
-    "positive": 1
+    "negative": 9,
+    "neutral": 14,
+    "positive": 2
   },
-  "comments_first_page_unique_days": 10,
+  "comments_first_page_unique_days": 12,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
