@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-07-31T07:20:27.097305+00:00",
+  "comment_action_checked_at": "2026-08-01T09:53:38.860691+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-12T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 1,
-  "pass_3_score": 3.326530612244898,
+  "pass_3_score": 0.36,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.32929841307547836,
-  "pass_3_scaled": 0.42559569626853366,
+  "pass_3_scaled": 0.05823546641575128,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.4630044608495225,
+  "combined_score": 0.2793243459231313,
   "score_total": 8,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -99,36 +99,38 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 21,
-  "comments_velocity_total": 16,
-  "comments_public_total_estimate": 16,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 21,
-  "comments_unique_clusters": 16,
+  "comments_total": 23,
+  "comments_velocity_total": 18,
+  "comments_public_total_estimate": 18,
+  "comments_fetched": 2,
+  "comments_text_hydrated": 3,
+  "comments_cached_records": 23,
+  "comments_unique_clusters": 18,
   "comments_clustered_duplicates": 5,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 21,
+  "comments_citizen_count": 23,
   "comments_commenter_type_counts": {
-    "citizen": 21
+    "citizen": 23
   },
   "comments_submission_role_counts": {
+    "organization": 7,
     "government_affiliated_or_unclear": 5,
-    "organization": 5,
     "individual": 11
   },
   "comments_submission_channel_counts": {
+    "public_portal": 18,
     "other_channel_recorded": 4,
-    "public_portal": 16,
     "agency_material": 1
   },
-  "comments_public_count": 16,
+  "comments_public_count": 18,
   "comments_recorded_count": 4,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-07-31": 1,
+    "2026-07-30": 1,
     "2026-07-27": 1,
     "2026-07-23": 1,
     "2026-07-17": 1,
@@ -146,6 +148,7 @@
     "2026-06-12": 1
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-07-30": 1,
     "2026-07-27": 1,
     "2026-07-23": 1,
     "2026-07-14": 1,
@@ -154,41 +157,41 @@
     "2026-06-15": 1,
     "2026-06-12": 1
   },
-  "comments_novel_comment_rate": 0.7619047619047619,
-  "comments_sentiment_positive_pct": 0.07808013489793582,
-  "comments_sentiment_negative_pct": 0.23424040469380744,
-  "comments_sentiment_neutral_pct": 0.6876794604082568,
-  "comments_sentiment_net": -0.1561602697958716,
-  "comments_sentiment_sample_size": 16,
+  "comments_novel_comment_rate": 0.782608695652174,
+  "comments_sentiment_positive_pct": 0.20260201877994324,
+  "comments_sentiment_negative_pct": 0.20260201877994324,
+  "comments_sentiment_neutral_pct": 0.5947959624401135,
+  "comments_sentiment_net": 0.0,
+  "comments_sentiment_sample_size": 18,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 21,
+  "comments_analysis_sample_size": 23,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 21,
-  "comments_representative_prior_selected": 21,
+  "comments_representative_selected": 23,
+  "comments_representative_prior_selected": 23,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 10,
+  "comments_representative_must_keep": 12,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 10,
+    "must_keep": 12,
     "salience_rank": 1,
     "weighted_fill": 10
   },
-  "comments_representative_selected_by_counts_total": 21,
+  "comments_representative_selected_by_counts_total": 23,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-07-30T05:06:43.631666+00:00",
-  "comments_checked_at": "2026-07-30T05:06:43.859408+00:00",
+  "comments_api_last_seen_at": "2026-08-01T05:06:06.420378+00:00",
+  "comments_checked_at": "2026-08-01T05:06:06.680446+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 6,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0016",
@@ -281,10 +284,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3884745855924377
+      "presentation_score": 0.3835766264087642
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0003",
@@ -317,10 +320,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7383163247594393
+      "presentation_score": 0.7377721070723644
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0011",
@@ -353,10 +356,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7583163247594393
+      "presentation_score": 0.7561394540111399
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "HUD-2026-0794-0023",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 3830,
+      "representative_excerpt": "NexusGate Intelligence is the commercial intelligence publishing arm of NexusGate LLC, a Texas company. The firm publishes standardized intelligence products on lending markets, collateral classes, and regulatory economics for finance, due diligence, and compliance practitioners, including a ten year forecast of United States lending markets. We support...",
+      "representative_signal_score": 5,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "HUD-2026-0794-0023": {
+          "organization": "",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment Submitted by NexusGate LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.829608841766242
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0004",
@@ -389,10 +428,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6605385469816616
+      "presentation_score": 0.6598129233988951
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0002",
@@ -428,7 +467,7 @@
       "presentation_score": 0.5716496580927726
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0018",
@@ -461,10 +500,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6427607692038837
+      "presentation_score": 0.6369557805417522
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0021",
@@ -497,10 +536,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6627607692038837
+      "presentation_score": 0.6553231274805277
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0022",
@@ -533,10 +572,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6716496580927726
+      "presentation_score": 0.6634863927866501
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "HUD-2026-0794-0024",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 4110,
+      "representative_excerpt": "634 Watervliet Shaker Road \u2022 Latham, NY 12110 (518) 867-3242 \u2022 info@nyhousing.org www.NYHousing.org \u2022 www.factorybuiltnewyork.com July 31, 2026 Regulations Division Office of General Counsel U.S. FR-6537-P-01) Dear Sir or Madam: The New York housing Association (NYHA) writes in support of HUD's proposed rule, Revising the Definition of \"Manufactured Home\"...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "HUD-2026-0794-0024": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment Submitted by New York Housing Association, Inc.",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5916496580927727
+    },
+    {
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0020",
@@ -569,10 +644,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5694274358705504
+      "presentation_score": 0.5630782295213441
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0019",
@@ -605,10 +680,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.564982991426106
+      "presentation_score": 0.5589965968682828
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0013",
@@ -641,10 +716,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.464982991426106
+      "presentation_score": 0.4606292499295074
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0017",
@@ -677,10 +752,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4005385469816615
+      "presentation_score": 0.39491496421522165
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0015",
@@ -713,10 +788,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3894274358705504
+      "presentation_score": 0.3847108825825686
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0014",
@@ -749,10 +824,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.384982991426106
+      "presentation_score": 0.3806292499295073
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0009",
@@ -785,10 +860,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35387188031499484
+      "presentation_score": 0.3520578213580788
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "HUD-2026-0794-0007",
@@ -821,7 +896,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.34498299142610594
+      "presentation_score": 0.3438945560519563
     }
   ],
   "comments_clusters_path": "data/comments/HUD-2026-0794.csv",
@@ -840,24 +915,24 @@
       "withdrawn": false,
       "representative_excerpt": "Krantz, Founder & CEO | TeraSun Systems LLC / TeraSun IP Holdings LLC Fernandina Beach, Florida | kenkrantz@terasunsystems.com --- OPENING --- TeraSun Systems LLC supports HUD's proposed rule removing the permanent chassis requirement for upper-floor sections of multi-story manufactured homes. The commenter is a certificated building contractor with 43...",
       "source_cluster_ids": [
-        11
+        13
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 16,
+  "comments_first_page_count": 18,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 21,
-  "comments_clusters_total_available": 16,
-  "comments_clusters_displayed": 16,
-  "comments_first_page_high_signal_clusters": 7,
+  "comments_first_page_coverage_count": 23,
+  "comments_clusters_total_available": 18,
+  "comments_clusters_displayed": 18,
+  "comments_first_page_high_signal_clusters": 8,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
     "neutral": 10,
-    "positive": 3,
+    "positive": 5,
     "negative": 3
   },
-  "comments_first_page_unique_days": 15,
+  "comments_first_page_unique_days": 17,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": false,
