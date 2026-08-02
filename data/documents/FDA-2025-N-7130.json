@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-01T09:53:33.378515+00:00",
+  "comment_action_checked_at": "2026-08-02T06:56:10.334621+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,408 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.7241446894543553,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6840233275812548,
+  "combined_score": 0.8610845340992448,
   "score_total": 11,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 5,
+  "pass_4_scaled": 0.4708333333333333,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.6,
+    "H": 0.6666666666666666,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
+  ],
+  "pass_4_primary_concern": "FDA's benefits case depends on uncertain foreign-establishment counts, inspection assumptions, and waiver handling that are not fully quantified in the notice.",
+  "combined_score_pre_pass5": 0.7323324750916809,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Implementation Reality",
+  "pass_5_assessment": "Serious \u00b7 Implementation Reality",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.70324375,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "implementation_fantasy",
+  "pass_5_worst_flaw_name": "Implementation Fantasy",
+  "pass_5_material_flaw_count": 3,
+  "pass_5_worst_family_key": "implementation_reality",
+  "pass_5_worst_family_name": "Implementation Reality",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 2,
+  "pass_5_base_defect_score": 0.650875,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The rule governs tobacco-product registration, listing, foreign-establishment oversight, and import-screening mechanics in a public-health enforcement setting.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is structurally coherent, but the main structural risks are the heavy dependence on TRLM-NG and the foreign-country registration gate.",
+  "pass_5_most_important_consequence": "If the electronic workflow or foreign-country adequacy gate fails in practice, FDA could end up with a registry that is hard to use, hard to audit, or slow to support imports.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 2,
+      "material_share": 0.667,
+      "family_score": 0.475
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 0.4,
+      "material_flaw_count": 1,
+      "material_share": 0.2,
+      "family_score": 0.335
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The rule uses the tobacco-registration authorities and does not appear to shift the work to the wrong actor class.",
+      "evidence": [],
+      "comment_leverage": "No major authority-fit issue appears from the available record."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The rule uses section 905(h) as a foreign-establishment implementation hook rather than reversing the statute.",
+      "evidence": [],
+      "comment_leverage": "Comments should focus on calibration, not on a basic statutory inversion theory."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The notice keeps the compliance duty on the establishment owner or operator rather than shifting accountability away from the regulated party.",
+      "evidence": [],
+      "comment_leverage": "No material accountability-shift problem is visible in the notice text."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The registration system still depends on owner/operator certifications and updates, but that is largely inherent to the registration model rather than a structural defect by itself.",
+      "evidence": [],
+      "comment_leverage": "A commenter could ask how FDA will verify and audit self-reported registration data in practice."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Foreign establishments must clear registration and listing steps before import, but the notice does not show a separate sequencing problem severe enough to dominate the rule.",
+      "evidence": [],
+      "comment_leverage": "Ask whether the registration gate can be completed quickly enough for legitimate imports without creating avoidable delay."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The public-health and enforcement rationale is meaningful, so the intrusion level is not obviously disproportionate on the face of the notice.",
+      "evidence": [],
+      "comment_leverage": "Commenters can still ask FDA to show the evidence-to-burden bridge more explicitly for foreign firms."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The chosen remedy generally fits the stated goal of improving registration completeness and enforcement, though the benefits case remains partly illustrative.",
+      "evidence": [],
+      "comment_leverage": "Ask FDA to explain why this remedy is better than narrower or phased alternatives for the same enforcement goal."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule assumes a workable end-to-end path for foreign onboarding, electronic filing, waiver processing, translation, and foreign-country communication without showing a pilot or capacity test for each step.",
+      "evidence": [
+        {
+          "section": "V.I / V.J / 1108.40",
+          "quote_or_absence": "The system requires electronic submission unless a waiver is granted, and foreign-language materials must be translated into English."
+        },
+        {
+          "section": "VII / Baseline and Time Estimates",
+          "quote_or_absence": "The PRIA estimates 3,253 foreign establishments and acknowledges uncertainty in the time estimates, but it does not show a live implementation test of the full workflow."
+        }
+      ],
+      "comment_leverage": "Ask FDA for a step-by-step implementation plan, staffing assumption, and error-handling data for foreign onboarding and waiver processing."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The rule depends heavily on TRLM-NG and related electronic interfaces to make the new regime operational, which makes usability and fallback design central rather than incidental.",
+      "evidence": [
+        {
+          "section": "VII / TRLM-NG discussion",
+          "quote_or_absence": "TRLM NG allows users to view and update their registration and listing information from any location and at any time."
+        },
+        {
+          "section": "V.I / 1108.40",
+          "quote_or_absence": "Owners and operators ... must provide the following information to FDA using the electronic tobacco product registration and listing system, except as provided in paragraphs (b), (c), and (d) of this section."
+        }
+      ],
+      "comment_leverage": "Ask FDA to explain system uptime, multilingual support, paper fallback, and how often the interface is expected to fail or require manual intervention."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The notice clearly identifies the problem as incomplete visibility into domestic and foreign tobacco establishments and products, so the threat surface is not vague.",
+      "evidence": [],
+      "comment_leverage": "No major threat-ambiguity issue appears in the available record."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The notice acknowledges burdens and costs, but a commenter could still argue that some foreign-firm and translation burdens are understated relative to the public-health gains claimed.",
+      "evidence": [],
+      "comment_leverage": "Ask for a clearer burden discussion for small foreign firms and for registrants that cannot use the electronic path easily."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The rule is broad and generally market-wide, not a tailored targeting tool aimed at disfavored speakers or entities.",
+      "evidence": [],
+      "comment_leverage": "No obvious selective-targeting surface is visible from the notice text alone."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The rule has a waiver path and public-availability rules, but the notice does not fully explain the practical safeguards for edge cases or delay handling.",
+      "evidence": [],
+      "comment_leverage": "Ask FDA what safeguards exist if electronic filing, translation, or foreign-communication steps break down."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Some compliance and translation costs are shifted onto foreign establishments and FDA workflow rather than fully internalized in the preamble discussion.",
+      "evidence": [],
+      "comment_leverage": "Commenters can ask FDA to show the cost incidence for registrants that lack internet access or English-language capacity."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The rule does not turn ordinary conduct into a suspicion trigger; it is a registration-and-listing framework tied to regulated tobacco products.",
+      "evidence": [],
+      "comment_leverage": "No suspicion-machine defect appears from the record reviewed."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The rule appears to improve traceability through registration, historical files, and public posting rather than degrading the record substrate.",
+      "evidence": [],
+      "comment_leverage": "This is not a record-degradation rule on the face of the docket materials."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The rule is prospective and does not obviously authorize irreversible harm before review in the way a more coercive gatekeeping rule might.",
+      "evidence": [],
+      "comment_leverage": "No strong harm-before-review defect is visible in the current record."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Foreign registration is tied to an import-admission gate and to a foreign-country adequacy determination, so the rule centralizes access through a potentially consequential chokepoint.",
+      "evidence": [
+        {
+          "section": "V.J / 1108.50",
+          "quote_or_absence": "Any foreign establishment engaged in the manufacture, preparation, compounding, or processing of a tobacco product that is imported or offered for import into the United States must register such establishment and list such tobacco products."
+        },
+        {
+          "section": "V.K / 1108.52",
+          "quote_or_absence": "Any establishment in a foreign country ... shall register ... provided that adequate and effective means are available, by arrangement with the government of such foreign country or otherwise, to enable the Secretary to determine ... whether ... [the product] shall be refused admission."
+        }
+      ],
+      "comment_leverage": "Ask FDA for clear criteria, timelines, and review procedures for the foreign-country adequacy determination and for import-facing registration gates."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The notice makes the consequence class fairly clear: registration, listing, inspection, and misbranding consequences for noncompliance.",
+      "evidence": [],
+      "comment_leverage": "No major consequence-class ambiguity is visible in the notice."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The phrase \"adequate and effective means\" leaves some room for administrative discretion, but the notice does not show that discretion becoming a dominant opacity problem.",
+      "evidence": [],
+      "comment_leverage": "Commenters can ask FDA to define the adequacy standard and explain how foreign governments or other arrangements will be evaluated."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The rule is structurally coherent overall, but it depends on multiple linked systems - electronic filing, waiver handling, historical files, and foreign coordination - that need careful execution.",
+      "evidence": [],
+      "comment_leverage": "Ask FDA to publish the operating assumptions and failure-handling steps for the linked systems that make the rule work."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "missing_baseline_signal"
@@ -346,7 +704,7 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
   "comments_cached_records": 32,
-  "comments_unique_clusters": 26,
+  "comments_unique_clusters": 31,
   "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
@@ -375,19 +733,19 @@
     "2026-07-21": 1
   },
   "comments_novel_comment_rate": 0.96875,
-  "comments_sentiment_positive_pct": 0.3981560064428913,
+  "comments_sentiment_positive_pct": 0.39844791648664496,
   "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.6018439935571086,
-  "comments_sentiment_net": 0.3981560064428913,
-  "comments_sentiment_sample_size": 27,
+  "comments_sentiment_neutral_pct": 0.601552083513355,
+  "comments_sentiment_net": 0.39844791648664496,
+  "comments_sentiment_sample_size": 32,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 27,
+  "comments_analysis_sample_size": 32,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 27,
-  "comments_representative_prior_selected": 22,
-  "comments_representative_newly_selected": 5,
+  "comments_representative_selected": 32,
+  "comments_representative_prior_selected": 32,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 5,
   "comments_representative_overflow": false,
@@ -395,9 +753,9 @@
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 2,
-    "weighted_fill": 25
+    "weighted_fill": 30
   },
-  "comments_representative_selected_by_counts_total": 27,
+  "comments_representative_selected_by_counts_total": 32,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -458,7 +816,7 @@
       "presentation_score": 0.6608931399900427
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0013",
@@ -494,7 +852,7 @@
       "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0132",
@@ -530,7 +888,7 @@
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0072",
@@ -566,7 +924,7 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0076",
@@ -602,7 +960,7 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0083",
@@ -638,7 +996,43 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FDA-2025-N-7130-0117",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 257,
+      "representative_excerpt": "Foreign companies selling tobacco products into the U.S. should meet the exact same facility registration and ingredient listing standards required of domestic businesses. Docket FDA-2025-N-7130 eliminates an unfair loophole that undermines public health. I",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FDA-2025-N-7130-0117": {
+          "organization": "",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6247546895706427
+    },
+    {
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0123",
@@ -674,7 +1068,7 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0128",
@@ -710,7 +1104,7 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0134",
@@ -926,7 +1320,7 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0026",
@@ -962,7 +1356,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0027",
@@ -998,7 +1392,43 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 27,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FDA-2025-N-7130-0031",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 239,
+      "representative_excerpt": "I support this proposed rule because it helps create a level playing field. Companies that sell tobacco products in the United States should follow the same basic transparency and compliance standards, regardless of where they are located.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FDA-2025-N-7130-0031": {
+          "organization": "",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0041",
@@ -1034,7 +1464,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0051",
@@ -1070,7 +1500,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0055",
@@ -1106,7 +1536,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0058",
@@ -1142,7 +1572,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0062",
@@ -1178,7 +1608,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0063",
@@ -1214,7 +1644,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0065",
@@ -1250,7 +1680,79 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FDA-2025-N-7130-0075",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 391,
+      "representative_excerpt": "Adult Consumer (Plain Language) As an adult consumer, I believe everyone deserves to know exactly what is in the products available on store shelves. Foreign tobacco companies shouldn't get a pass on basic establishment registration and ingredient listing requirements. Applying the exact same transparency standards to imported products as domestic ones...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FDA-2025-N-7130-0075": {
+          "organization": "",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FDA-2025-N-7130-0088",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 245,
+      "representative_excerpt": "As an immigrant residing in the United States, I strongly support efforts to standardize product safety regulations. Equal transparency standards ensure that imported products adhere to the same quality and labeling controls as domestic items. I",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FDA-2025-N-7130-0088": {
+          "organization": "",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0095",
@@ -1266,6 +1768,42 @@
       "representative_sentiment_method": "",
       "submissions": {
         "FDA-2025-N-7130-0095": {
+          "organization": "",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FDA-2025-N-7130-0136",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 352,
+      "representative_excerpt": "Adult consumers have a right to know that every product available in store aisles meets federal oversight standards. Overseas tobacco companies should not be exempt from mandatory facility registration or ingredient listing regulations. Applying identical transparency and inspection requirements to all market participants ensures product integrity. I",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FDA-2025-N-7130-0136": {
           "organization": "",
           "postedDate": "2026-07-30T04:00:00Z",
           "zip": "",
@@ -1322,7 +1860,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2025-N-7130-0012",
@@ -1363,21 +1901,21 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.9629629629629629,
+  "comments_first_page_coverage_share": 0.8125,
   "comments_first_page_coverage_count": 26,
-  "comments_clusters_total_available": 26,
-  "comments_clusters_displayed": 26,
+  "comments_clusters_total_available": 31,
+  "comments_clusters_displayed": 31,
   "comments_first_page_high_signal_clusters": 2,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "positive": 10,
-    "neutral": 15
+    "positive": 11,
+    "neutral": 14
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/FDA-2025-N-7130-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "FDA-2025-N-7130"
