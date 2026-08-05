@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/ATF-2026-0011-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-04T06:55:37.653785+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": null,
+  "comment_action_checked_at": null,
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-05T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 3.2444444444444445,
+  "pass_3_score": 3.3478260869565215,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.41768325316154375,
+  "pass_3_scaled": 0.42763078467176663,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5302685312108596,
+  "combined_score": 0.5355096368753083,
   "score_total": 9,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -131,35 +131,37 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 23,
-  "comments_velocity_total": 22,
-  "comments_public_total_estimate": 22,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 23,
-  "comments_unique_clusters": 22,
+  "comments_total": 33,
+  "comments_velocity_total": 32,
+  "comments_public_total_estimate": 32,
+  "comments_fetched": 10,
+  "comments_text_hydrated": 13,
+  "comments_cached_records": 33,
+  "comments_unique_clusters": 32,
   "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 18,
+  "comments_citizen_count": 23,
   "comments_commenter_type_counts": {
-    "organization_other": 5,
-    "citizen": 18
+    "citizen": 23,
+    "organization_other": 10
   },
   "comments_submission_role_counts": {
-    "organization": 5,
-    "individual": 18
+    "individual": 23,
+    "organization": 10
   },
   "comments_submission_channel_counts": {
-    "other_channel_recorded": 1,
-    "public_portal": 22
+    "public_portal": 32,
+    "other_channel_recorded": 1
   },
-  "comments_public_count": 22,
+  "comments_public_count": 32,
   "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-04": 8,
+    "2026-08-03": 2,
     "2026-07-31": 1,
     "2026-07-29": 3,
     "2026-07-27": 1,
@@ -174,45 +176,46 @@
     "2026-05-15": 3
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-08-04": 1,
     "2026-07-29": 1,
     "2026-07-27": 1,
     "2026-05-15": 1
   },
-  "comments_novel_comment_rate": 0.9565217391304348,
-  "comments_sentiment_positive_pct": 0.4632854932996015,
-  "comments_sentiment_negative_pct": 0.09265709865992029,
-  "comments_sentiment_neutral_pct": 0.4440574080404783,
-  "comments_sentiment_net": 0.3706283946396812,
-  "comments_sentiment_sample_size": 22,
+  "comments_novel_comment_rate": 0.9696969696969697,
+  "comments_sentiment_positive_pct": 0.37992763169264526,
+  "comments_sentiment_negative_pct": 0.12664254389754842,
+  "comments_sentiment_neutral_pct": 0.4934298244098063,
+  "comments_sentiment_net": 0.25328508779509684,
+  "comments_sentiment_sample_size": 32,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 23,
+  "comments_analysis_sample_size": 33,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 23,
-  "comments_representative_prior_selected": 23,
+  "comments_representative_selected": 33,
+  "comments_representative_prior_selected": 33,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 5,
+  "comments_representative_must_keep": 11,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 5,
+    "must_keep": 11,
     "salience_rank": 1,
-    "weighted_fill": 17
+    "weighted_fill": 21
   },
-  "comments_representative_selected_by_counts_total": 23,
+  "comments_representative_selected_by_counts_total": 33,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-03T05:05:09.307220+00:00",
-  "comments_checked_at": "2026-08-03T05:05:09.511158+00:00",
+  "comments_api_last_seen_at": "2026-08-05T06:05:43.119182+00:00",
+  "comments_checked_at": "2026-08-05T06:05:43.385219+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 2,
+      "cluster_id": 12,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0023",
@@ -260,10 +263,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5249624040593068
+      "presentation_score": 0.520152399249302
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0020",
@@ -296,10 +299,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.888823953639907
+      "presentation_score": 0.8840139488299021
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0002",
@@ -335,7 +338,7 @@
       "presentation_score": 0.7114213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0019",
@@ -368,10 +371,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8062265510425043
+      "presentation_score": 0.801544813027433
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0030",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "ATF failed to consider the rule\u2019s effects on compliance inspections, crime-gun tracing, acquisition and disposition recordkeeping, licensee theft and security, premises vetting, and fee revenue. It quantified not hing beyond a speculative per-licensee savings of $225 to $375, admitted that \"an overall industry savings was not calculated,\" 91 Fed. Reg. at...",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0030": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8114213562373095
+    },
+    {
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0009",
@@ -404,10 +443,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6066161614321148
+      "presentation_score": 0.606359627842248
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0014",
@@ -440,10 +479,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6702525250684784
+      "presentation_score": 0.6668534550027417
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0018",
@@ -476,16 +515,52 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6910317458476992
+      "presentation_score": 0.6866065414224949
     },
     {
       "cluster_id": 3,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "ATF-2026-0011-0021",
-      "representative_posted_date": "2026-07-29T04:00:00Z",
-      "representative_length": 2412,
-      "representative_excerpt": "By focusing on a rigid, outdated conceptualization of premises, the agency risks penalizing businesses that have adapted to modern operational needs or that function within multi-use environments. A more restrictive definition fails to account for the diverse ways that modern companies utilize space to serve their customers and support their workforce....",
+      "representative_comment_id": "ATF-2026-0011-0032",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 2918,
+      "representative_excerpt": "ATF-2026-0011, Fed. Reg. (rel. May6, 2026). 2 Defense Contract Management Agency (\u201cDCMA\u201d) regulatory regimes. As the demand for munitions and related defense capabilities continues to grow, Lockheed Martin thus welcomes the ATF\u2019s examination of current regulations that are ripe for review and reconsideration to help maximize efficiency of its manufacturing...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0032": {
+          "organization": "Lockheed Martin Corporation",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7014213562373096
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0033",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Todd Blanche, Acting Attorney General, US Department of Justice Hon. We work to ensure that the costs, risks, and benefits of regulatory proposals are evaluated transparently and accurately, and that the voices, interests, and freedoms of Americans, particularly small businesses and working families, are meaningfully represented in regulatory debates....",
       "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -494,9 +569,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "ATF-2026-0011-0021": {
-          "organization": "",
-          "postedDate": "2026-07-29T04:00:00Z",
+        "ATF-2026-0011-0033": {
+          "organization": "Main Street Foundation Center for Regulatory Analysis and Engagement",
+          "postedDate": "2026-08-04T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -504,18 +579,18 @@
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-08925",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.648823953639907
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7014213562373096
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0024",
@@ -548,10 +623,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7014213562373096
+      "presentation_score": 0.6964830846323714
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0021",
+      "representative_posted_date": "2026-07-29T04:00:00Z",
+      "representative_length": 2412,
+      "representative_excerpt": "By focusing on a rigid, outdated conceptualization of premises, the agency risks penalizing businesses that have adapted to modern operational needs or that function within multi-use environments. A more restrictive definition fails to account for the diverse ways that modern companies utilize space to serve their customers and support their workforce....",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0021": {
+          "organization": "",
+          "postedDate": "2026-07-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6440139488299021
     },
     {
       "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0027",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 1604,
+      "representative_excerpt": "FFLGuard recommends that ATF define \u201cadjoining\u201d and \u201cadjacent\u201d to include buildings or parcels separated only by a shared parking area, private drive, sidewalk, internal roadway, easement, or other common access feature serving the operation. ATF should permit a licensee to submit a site plan identifying the full licensed footprint and obtain a written...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0027": {
+          "organization": "FFLGuard LLC",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6214213562373095
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0026",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 1634,
+      "representative_excerpt": "By providing clear guidance that contiguous or shared-access locations constitute a single business premises, the proposed rule offers several key benefits: Operational Clarity and Reduced Burden: FFLs frequently utilize additional nearby units or connected storage spaces to manage inventory, host customer service areas, or conduct background checks....",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0026": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.570186788336075
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0031",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 153,
+      "representative_excerpt": "Everytown for Gun Safety Support Fund submits the attached comment in response to ATF\u2019s NPRM entitled, \u201cDefinition of Business Premises\u201d (RIN 1140-AA69).",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0031": {
+          "organization": "Everytown for Gun Safety Support Fund",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5414213562373096
+    },
+    {
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0016",
@@ -584,10 +803,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5180447328606862
+      "presentation_score": 0.514260862410149
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0034",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 277,
+      "representative_excerpt": "I support the proposed clarification, subject to explicit protections for small and home-based FFLs operating across residences, detached workshops, secured storage buildings, outbuildings, and adjoining or adjacent properties that function as one integrated business premises.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0034": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0025",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 199,
+      "representative_excerpt": "This rule would help FFL holders with storage and safe record keeping and help with the burden of multiple license requirements for adjoining properties. I fully support and appreciate this proposal.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0025": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49018678833607493
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0029",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 54,
+      "representative_excerpt": "FAIR Trade Group strongly supports the proposed rules.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0029": {
+          "organization": "FAIR Trade Group",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.46142135623730945
+    },
+    {
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0003",
@@ -623,7 +950,7 @@
       "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0015",
@@ -656,10 +983,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46804473286068615
+      "presentation_score": 0.464260862410149
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0017",
@@ -692,10 +1019,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46804473286068615
+      "presentation_score": 0.464260862410149
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0013",
@@ -728,10 +1055,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46025252506847836
+      "presentation_score": 0.4568534550027416
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0012",
@@ -764,10 +1091,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4251875900035433
+      "presentation_score": 0.4235201216694083
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0011",
@@ -800,10 +1127,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4134992783152316
+      "presentation_score": 0.41240901055829715
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0011-0028",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 56,
+      "representative_excerpt": "I am for removing any rule or restriction on our rights.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0011-0028": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-08925",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0005",
@@ -836,10 +1199,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3953174601334134
+      "presentation_score": 0.3951250599410132
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0004",
@@ -875,7 +1238,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0010",
@@ -908,10 +1271,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3270057718217251
+      "presentation_score": 0.3262361710521243
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0006",
@@ -944,10 +1307,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3153174601334134
+      "presentation_score": 0.3151250599410132
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0007",
@@ -980,10 +1343,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3153174601334134
+      "presentation_score": 0.3151250599410132
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0011-0008",
@@ -1016,24 +1379,24 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3153174601334134
+      "presentation_score": 0.3151250599410132
     }
   ],
   "comments_clusters_path": "data/comments/ATF-2026-0011.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 22,
-  "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 23,
-  "comments_clusters_total_available": 22,
-  "comments_clusters_displayed": 22,
-  "comments_first_page_high_signal_clusters": 3,
-  "comments_first_page_novelty_clusters": 5,
+  "comments_first_page_count": 25,
+  "comments_first_page_coverage_share": 0.7878787878787878,
+  "comments_first_page_coverage_count": 26,
+  "comments_clusters_total_available": 32,
+  "comments_clusters_displayed": 32,
+  "comments_first_page_high_signal_clusters": 4,
+  "comments_first_page_novelty_clusters": 10,
   "comments_first_page_stance_counts": {
-    "neutral": 10,
-    "negative": 2,
-    "positive": 10
+    "neutral": 12,
+    "negative": 4,
+    "positive": 9
   },
   "comments_first_page_unique_days": 12,
   "summary_available": true,

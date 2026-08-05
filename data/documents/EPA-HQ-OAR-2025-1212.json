@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-04T06:55:39.878105+00:00",
+  "comment_action_checked_at": "2026-08-05T10:01:12.925968+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-22T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 3,
-  "pass_3_score": 3.607142857142857,
+  "pass_3_score": 3.8,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.4518413223489437,
+  "pass_3_scaled": 0.46918054943798604,
   "ranking_multiplier": 0.65,
-  "combined_score": 0.3753737028624126,
+  "combined_score": 0.3810089516663514,
   "score_total": 12,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ROUTINE_ADMINISTRATIVE_RULE",
@@ -276,35 +276,37 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 19,
-  "comments_velocity_total": 17,
-  "comments_public_total_estimate": 17,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 19,
-  "comments_unique_clusters": 18,
-  "comments_clustered_duplicates": 1,
+  "comments_total": 27,
+  "comments_velocity_total": 24,
+  "comments_public_total_estimate": 24,
+  "comments_fetched": 8,
+  "comments_text_hydrated": 9,
+  "comments_cached_records": 27,
+  "comments_unique_clusters": 24,
+  "comments_clustered_duplicates": 3,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 19,
+  "comments_citizen_count": 27,
   "comments_commenter_type_counts": {
-    "citizen": 19
+    "citizen": 27
   },
   "comments_submission_role_counts": {
-    "organization": 4,
-    "individual": 13,
-    "government_affiliated_or_unclear": 2
+    "government_affiliated_or_unclear": 3,
+    "individual": 20,
+    "organization": 4
   },
   "comments_submission_channel_counts": {
-    "public_portal": 17,
-    "other_channel_recorded": 2
+    "other_channel_recorded": 3,
+    "public_portal": 24
   },
-  "comments_public_count": 17,
-  "comments_recorded_count": 2,
+  "comments_public_count": 24,
+  "comments_recorded_count": 3,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-04": 5,
+    "2026-08-03": 1,
     "2026-07-31": 4,
     "2026-07-28": 4,
     "2026-07-23": 4,
@@ -322,41 +324,107 @@
     "2026-07-14": 1,
     "2026-07-13": 1
   },
-  "comments_novel_comment_rate": 0.9473684210526315,
-  "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.542660256217562,
-  "comments_sentiment_neutral_pct": 0.45733974378243797,
-  "comments_sentiment_net": -0.542660256217562,
-  "comments_sentiment_sample_size": 17,
+  "comments_novel_comment_rate": 0.8888888888888888,
+  "comments_sentiment_positive_pct": 0.04427724863249471,
+  "comments_sentiment_negative_pct": 0.5313269835899365,
+  "comments_sentiment_neutral_pct": 0.4243957677775689,
+  "comments_sentiment_net": -0.48704973495744175,
+  "comments_sentiment_sample_size": 24,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 19,
+  "comments_analysis_sample_size": 27,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 19,
-  "comments_representative_prior_selected": 19,
+  "comments_representative_selected": 27,
+  "comments_representative_prior_selected": 27,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 12,
+  "comments_representative_must_keep": 14,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 12,
+    "must_keep": 14,
     "salience_rank": 2,
-    "weighted_fill": 5
+    "weighted_fill": 11
   },
-  "comments_representative_selected_by_counts_total": 19,
+  "comments_representative_selected_by_counts_total": 27,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-03T05:08:36.483163+00:00",
-  "comments_checked_at": "2026-08-03T05:08:36.718778+00:00",
+  "comments_api_last_seen_at": "2026-08-05T05:22:54.887007+00:00",
+  "comments_checked_at": "2026-08-05T05:22:55.166318+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 6,
+      "cluster_id": 3,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-1212-0033",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 224,
+      "representative_excerpt": "Attached please find Attachments 6 and 7 to the Environmental Defense Fund public outreach minor NSR Comments originally submitted to EPA in December 2022 and refiled with EPA for consideration in this rulemaking proceeding.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-1212-0033": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Environmental Defense Fund (EDF)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OAR-2025-1212-0032": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Environmental Defense Fund (EDF)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OAR-2025-1212-0031": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Environmental Defense Fund (EDF)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5603368801111205
+    },
+    {
+      "cluster_id": 12,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0022",
@@ -404,10 +472,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5939234430203457
+      "presentation_score": 0.5439360459191777
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0011",
@@ -440,10 +508,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8096031744191278
+      "presentation_score": 0.7808546692225407
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0012",
@@ -476,10 +544,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8141486289645823
+      "presentation_score": 0.7847008230686945
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0014",
@@ -512,10 +580,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8414213562373096
+      "presentation_score": 0.8077777461456175
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0018",
@@ -548,10 +616,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8550577198736732
+      "presentation_score": 0.8193162076840791
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0019",
@@ -584,10 +652,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.695057719873673
+      "presentation_score": 0.6593162076840791
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0021",
@@ -620,10 +688,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7177849926009459
+      "presentation_score": 0.6785469769148482
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0024",
@@ -656,10 +724,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.6900854384533098
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0025",
@@ -692,10 +760,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.6900854384533098
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0026",
@@ -728,10 +796,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.6900854384533098
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-1212-0034",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 1201,
+      "representative_excerpt": "Attached is the EPA presentation used in the Fall 2022 Stakeholder Engagement Sessions entitled \"Clarifying/Revising the Minor New Source Review Program for Air Agencies.\" Though EPA states that it \"considered the resulting information [from the outreach sessions] to determine how to address the regulatory framework\" in its proposal, \"Minor New Source...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-1212-0034": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Southern Environmental Law Center",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6254700538379252
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-1212-0028",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 1523,
+      "representative_excerpt": "While the EPA proposes that such participation is not necessary to ensure the National Ambient Air Quality Standards are achieved, this proposal ignores the vital role that community oversight plays in protecting public health and air quality. Public participation is a hallmark of the Clean Air Act that ensures accountability of pollution source creators....",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-1212-0028": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Kathryn Barnes",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6216238999917714
+    },
+    {
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0016",
@@ -764,10 +904,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6150577198736732
+      "presentation_score": 0.5793162076840791
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0013",
@@ -800,10 +940,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5786940835100368
+      "presentation_score": 0.5485469769148483
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-1212-0030",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 1122,
+      "representative_excerpt": "Though EPA states that it \"considered the resulting information [from the outreach sessions] to determine how to address the regulatory framework\" in its proposal, \"Minor New Source Review Air Permitting Public Participation Requirements for State Implementation Plans,\" 91 Fed. Reg. 41,491 (July 7, 2026), EPA did not place EDF's comments in the rulemaking...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-1212-0030": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Environmental Defense Fund (EDF)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5454700538379252
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-1212-0035",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 1151,
+      "representative_excerpt": "James, Louisiana Bucket Brigade, Sierra Club, and Healthy Gulf as part of EPA's 2022-2023 outreach on minor NSR. Though EPA states that it \"considered the resulting information [from the outreach sessions] to determine how to address the regulatory framework\" in its proposal, \"Minor New Source Review Air Permitting Public Participation Requirements for...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-1212-0035": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Earthjustice et al.",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5454700538379252
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0020",
@@ -836,10 +1048,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5577849926009459
+      "presentation_score": 0.5185469769148483
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0015",
@@ -872,10 +1084,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5214213562373096
+      "presentation_score": 0.48777774614561753
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2025-1212-0029",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 809,
+      "representative_excerpt": "I live in Houston, Texas. We need stronger protections from concrete batch plants and metal recyclers. Here's a specific \"minor source\" bad actor: Heidelberg Materials has two facilities in the Houston area that have repeatedly failed inspections for missing air quality mitigation. Harris County sued over one facility; Heidelberg still isn't complying, so...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2025-1212-0029": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Neal Ehardt",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0027",
@@ -908,10 +1156,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.45008543845330984
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0009",
@@ -944,10 +1192,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4714213562373095
+      "presentation_score": 0.4454700538379252
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0017",
@@ -980,10 +1228,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45505771987367316
+      "presentation_score": 0.41931620768407907
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2025-1212-0023",
@@ -1016,25 +1264,26 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39778499260094585
+      "presentation_score": 0.35854697691484827
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OAR-2025-1212.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 18,
+  "comments_first_page_count": 24,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 19,
-  "comments_clusters_total_available": 18,
-  "comments_clusters_displayed": 18,
+  "comments_first_page_coverage_count": 27,
+  "comments_clusters_total_available": 24,
+  "comments_clusters_displayed": 24,
   "comments_first_page_high_signal_clusters": 9,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 9,
-    "negative": 9
+    "neutral": 10,
+    "negative": 13,
+    "positive": 1
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 10,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": false,
