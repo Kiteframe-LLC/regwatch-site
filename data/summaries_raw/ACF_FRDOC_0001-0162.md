@@ -1,0 +1,680 @@
+# Administrative Rulemaking Structural Review
+
+**Document ID:** `ACF_FRDOC_0001-0162`
+
+**Document type:** `NPRM`
+
+## Computed Scoring Summary
+- Pass 4 raw/scaled: 5 / 0.548
+- Pass 4 primary concern: The record does not fully demonstrate that each added screening requirement is necessary, workable, and bounded by safeguards.
+- Pass 5 assessment/scaled: 🚩 Nuts · Evidence and Rationale Integrity / 1.000
+- Pass 5 base defect score: 0.938
+- Pass 5 context pressure: 0.235
+- Pass 5 scrutiny/risk multipliers: 1.150 / 1.100
+- Pass 5 worst family: Evidence and Rationale Integrity (evidence_and_rationale_integrity)
+- Core structural concern: The rule has a coherent child-safety objective, but several mechanisms depend on incomplete evidence and discretionary implementation.
+- Procedural concern score: 6.400/10
+- Analysis score multiplier: 1.353
+
+# Phase 1 — Docket Integrity Check
+
+**Classification:** Partial analytical spine
+
+**Observed Fact:** The notice contains a proposed regulatory text, statutory background, discussion of investigations and oversight reports, a regulatory impact analysis, and public-participation instructions. Export diagnostics report three optional supporting materials ingested and no required supporting materials missing.
+
+**Inference:** The notice itself identifies potentially influential sources, including the HHS OIG report, a Senate investigation, ORR investigations, and litigation materials; the export count is not proof that those materials are absent.
+
+**Substantive Document Check:** The selected document is a substantive NPRM. No extension, reopening, correction, or replacement document is identified, and no override is needed.
+
+**Supporting Material Decision:** No attachment fetch is required to produce a defensible proposal-stage review from the supplied notice. The notice identifies supporting sources but provides enough source description and analysis to flag evidence requests without treating cited materials as fully reviewed.
+
+**Unknowns:** The separately cited OIG, Senate, investigation, and litigation documents were not part of the prepared export and their full contents are Unknown from available text.
+
+# Phase 2 — Claim-Centered Analysis
+
+## Step 0 — Extract Agency Reasoning Claims
+
+**Claims**
+- **Id:** C1
+  
+  **Category:** LEGAL | CONCLUSION
+  
+  **Quoted Sentence:** This NPRM proposes the establishment of a new requirement to submit proof of income, updated requirements for background checks, and a list of acceptable documentation for potential sponsors of UAC to demonstrate proof of identity.
+  
+  **Location:** Executive Summary
+  
+  **Procedural Relevance:** Defines the core burdens and needs support for statutory fit and feasibility.
+  
+  **Support Type:** preamble explanation
+- **Id:** C2
+  
+  **Category:** DATA | CONCLUSION
+  
+  **Quoted Sentence:** These investigations have identified specific gaps in ORR's processes, resulting in situations where the safety of UAC could have been or has been compromised.
+  
+  **Location:** Section III, Authority and Background
+  
+  **Procedural Relevance:** Supplies the principal safety rationale for more intrusive screening requirements.
+  
+  **Support Type:** docket cited, full source not supplied
+- **Id:** C3
+  
+  **Category:** METHOD | CONCLUSION
+  
+  **Quoted Sentence:** These cases illustrate the importance of biometric verification and cross-case comparison of identifiers... to identify potential fraud schemes.
+  
+  **Location:** Section III, Authority and Background
+  
+  **Procedural Relevance:** Links reported incidents to proposed verification methods.
+  
+  **Support Type:** preamble explanation
+- **Id:** C4
+  
+  **Category:** SCOPE | CONCLUSION
+  
+  **Quoted Sentence:** ORR proposes to require proof of income from potential sponsors of UAC... and to accept specified identity documents.
+  
+  **Location:** Sections IV.A and IV.B
+  
+  **Procedural Relevance:** The scope and document categories determine who can qualify as a sponsor.
+  
+  **Support Type:** preamble explanation
+- **Id:** C5
+  
+  **Category:** LEGAL | CONCLUSION
+  
+  **Quoted Sentence:** ORR believes that the requirements proposed in this NPRM are consistent with its statutory authority and responsibilities.
+  
+  **Location:** Legal authority discussion
+  
+  **Procedural Relevance:** Needs a clear bridge from broad child-welfare authority to each new mandatory document and screening requirement.
+  
+  **Support Type:** preamble explanation
+
+## Step 1 — Claim Stress Test
+
+**Tests**
+- **Claim:** Reported fraud and abuse justify standardized identity, income, and background-check requirements.
+  
+  **Underlying Assumption:** The cited incidents are sufficiently representative of preventable screening failures.
+  
+  **Failure Scenario:** If the incidents are exceptional or the proposed documents do not detect the relevant failure modes, the burdens may rise without comparable safety gains.
+  
+  **Procedural Implication:** Request incident-level evidence, detection rates, and sensitivity analysis.
+- **Claim:** Proof of income is a useful indicator of sponsor suitability and ability to support a child.
+  
+  **Underlying Assumption:** Income documentation is available, legible, current, and meaningfully related to caregiving capacity.
+  
+  **Failure Scenario:** Informal workers, people paid in cash, recent arrivals, or sponsors with nontraditional household support may be screened out or delayed.
+  
+  **Procedural Implication:** Ask for alternatives, exception criteria, and outcome monitoring.
+- **Claim:** Visible gang-related tattoos or markings can inform dangerousness and trafficking assessments.
+  
+  **Underlying Assumption:** Staff can identify relevant markings reliably and use them without stereotyping or overreading ambiguous symbols.
+  
+  **Failure Scenario:** A subjective observation may be mistaken for evidence of dangerousness or trafficking risk.
+  
+  **Procedural Implication:** Request training, documentation, review, and anti-bias safeguards.
+
+## Step 2 — Essence of the Rule
+
+**Regulatory Action:** ACF proposes to amend 45 CFR part 410 by specifying acceptable sponsor identity documents, requiring proof of income, updating background-check requirements, and expressly authorizing ORR examinations of UAC for visible gang-related or criminal-organization-related tattoos, markings, or brandings in dangerousness and trafficking assessments.
+
+**Affected Entities:** Potential sponsors and adult household members; unaccompanied children in ORR custody; ORR caseworkers and contractors; identity, background-check, and document-verification systems; and organizations assisting sponsors.
+
+**Statutory Authority:** The notice relies primarily on the TVPRA, 8 U.S.C. 1232(c)(3)(A), and the Homeland Security Act, together with existing 45 CFR 410 sponsor-suitability provisions.
+
+**Observed Facts**
+- The proposal adds documentation and verification requirements to sponsor suitability assessments.
+- The notice cites internal and external investigations, including an HHS OIG report and Senate oversight report, as support.
+- The notice acknowledges that some proposed practices have previously appeared in sub-regulatory guidance and that litigation has addressed changes to proof-of-identity and proof-of-income policies.
+
+**Inference:** The proposal is a safety-driven formalization and expansion of sponsor screening. Its strongest comment leverage concerns fit between the documented failure modes and each proposed requirement, implementation alternatives, and safeguards against subjective or disparate administration.
+
+**Evidence Quotes**
+- This NPRM proposes the establishment of a new requirement to submit proof of income...
+- These investigations have identified specific gaps in ORR's processes...
+- ORR has historically described detailed requirements in sub-regulatory guidance.
+
+## Step 3 — Agency Argument Tree
+
+**Summary:** Reported fraud, incomplete safety checks, and exploitation risks lead ORR to formalize sponsor identity, income, background-check, and UAC-examination requirements.
+
+**Nodes**
+- **Id:** n1
+  
+  **Label:** Child safety obligation
+  
+  **Node Type:** authority
+  
+  **Chain Role:** objective
+  
+  **Text:** ORR must determine that a proposed custodian can provide for the child's physical and mental well-being and poses no indicated risk.
+  
+  **Support Status:** supported
+  
+  **Evidence:** TVPRA and existing 45 CFR 410 provisions cited in the notice.
+- **Id:** n2
+  
+  **Label:** Screening failures and fraud
+  
+  **Node Type:** evidence
+  
+  **Chain Role:** problem
+  
+  **Text:** The notice describes missing checks, illegible IDs, aliases, suspected fraud, extortion, and exploitation cases.
+  
+  **Support Status:** partially supported
+  
+  **Evidence:** Notice discussion of OIG, Senate, and ORR investigations; underlying reports not supplied.
+- **Id:** n3
+  
+  **Label:** Standardized identity and income proof
+  
+  **Node Type:** mechanism
+  
+  **Chain Role:** response
+  
+  **Text:** Define acceptable identity documents and require proof of income.
+  
+  **Support Status:** supported
+  
+  **Evidence:** Proposed amendments described in the Executive Summary and Section IV.
+- **Id:** n4
+  
+  **Label:** Expanded background checks
+  
+  **Node Type:** mechanism
+  
+  **Chain Role:** response
+  
+  **Text:** Specify required checks and information for sponsors and adult household members.
+  
+  **Support Status:** supported
+  
+  **Evidence:** Proposed amendments to sponsor suitability assessment provisions.
+- **Id:** n5
+  
+  **Label:** Tattoo and marking examinations
+  
+  **Node Type:** mechanism
+  
+  **Chain Role:** response
+  
+  **Text:** Authorize visible-marking examinations as one consideration in dangerousness or trafficking assessments.
+  
+  **Support Status:** supported
+  
+  **Evidence:** Proposed new paragraph (h) to 45 CFR 410.1103.
+- **Id:** n6
+  
+  **Label:** Safer and more consistent placements
+  
+  **Node Type:** conclusion
+  
+  **Chain Role:** outcome
+  
+  **Text:** Formalized requirements are expected to reduce preventable screening failures and improve placement safety.
+  
+  **Support Status:** inferred
+  
+  **Evidence:** Agency rationale; outcome data and comparative effectiveness are not fully supplied.
+
+**Edges**
+- **From:** n1
+  
+  **To:** n2
+  
+  **Relationship:** motivates review
+  
+  **Basis:** Statutory safety duty and reported incidents
+  
+  **Strength:** moderate
+- **From:** n2
+  
+  **To:** n3
+  
+  **Relationship:** supports
+  
+  **Basis:** Identity fraud and income/ability concerns
+  
+  **Strength:** moderate
+- **From:** n2
+  
+  **To:** n4
+  
+  **Relationship:** supports
+  
+  **Basis:** Missing or incomplete background checks
+  
+  **Strength:** moderate
+- **From:** n2
+  
+  **To:** n5
+  
+  **Relationship:** supports
+  
+  **Basis:** Dangerousness and trafficking concerns
+  
+  **Strength:** weak-to-moderate
+- **From:** n3
+  
+  **To:** n6
+  
+  **Relationship:** intended to produce
+  
+  **Basis:** Agency rationale
+  
+  **Strength:** uncertain
+- **From:** n4
+  
+  **To:** n6
+  
+  **Relationship:** intended to produce
+  
+  **Basis:** Agency rationale
+  
+  **Strength:** uncertain
+- **From:** n5
+  
+  **To:** n6
+  
+  **Relationship:** intended to produce
+  
+  **Basis:** Agency rationale
+  
+  **Strength:** uncertain
+
+**Missing Links**
+- Comparative evidence showing which proposed document requirements would have prevented the cited incidents.
+- Operational safeguards connecting observed markings to individualized risk findings rather than categorical suspicion.
+- Analysis of delay, exclusion, and disparate-impact effects for sponsors lacking standard income or identity documents.
+
+**Logical Jumps**
+- From documented screening gaps to the conclusion that the full set of specified documents is necessary.
+- From the usefulness of examining markings to the authority and reliability of using them in dangerousness or trafficking determinations.
+
+## Step 4 — Analysis Obligations Review
+
+**Obligations**
+- **Obligation:** adequate data
+  
+  **Classification:** Partially satisfied
+  
+  **Notes:** The notice cites investigations and specific incidents, but the underlying materials and denominators are not in the prepared export.
+- **Obligation:** transparent methodology
+  
+  **Classification:** Partially satisfied
+  
+  **Notes:** Requirements are described, but detection effectiveness, false-positive risk, and implementation workload are less developed.
+- **Obligation:** reasonable alternatives
+  
+  **Classification:** Partially satisfied
+  
+  **Notes:** The notice discusses existing guidance and current practice, but the available text does not fully compare less burdensome alternatives.
+- **Obligation:** threshold explanation
+  
+  **Classification:** Partially satisfied
+  
+  **Notes:** The proposed document list and marking examination authority need clearer criteria for sufficiency and escalation.
+- **Obligation:** foreseeable impacts
+  
+  **Classification:** Partially satisfied
+  
+  **Notes:** The notice recognizes safety benefits and some burden, but impacts on undocumented, low-income, informal-worker, and non-English-speaking sponsors need more detail.
+
+## Step 5 — Missing Alternatives Detector
+
+**Alternatives Evaluated:** Formal rulemaking, existing sub-regulatory guidance, specified identity and income documents, and expanded checks.
+
+**Plausible Alternatives Not Analyzed**
+- Tiered or risk-based documentation keyed to the sponsor relationship and available fraud indicators.
+- Verified alternative evidence for informal income or unavailable identity documents.
+- Independent review or supervisory confirmation before a marking observation materially affects placement.
+- Pilot implementation with outcome and disparate-impact monitoring before applying every requirement nationwide.
+
+**Classification:** Potential unacknowledged weakness where the proposal makes firm requirements without fully comparing narrower safeguards; deliberate solicitation where the notice expressly asks for alternatives or evidence.
+
+## Step 6 — Technical Coherence
+
+**Observed Fact:** The identity, income, background-check, and examination provisions generally map to distinct sponsor-suitability concerns.
+
+**Inference:** The package is coherent at a high level, but the operational chain is incomplete: it does not fully show how caseworkers resolve conflicting documents, missing income records, or ambiguous markings, nor how long the added steps will take.
+
+**Unknown:** The prepared materials do not include implementation manuals, forms, training materials, or performance data.
+
+## Step 7 — Legal Grounding
+
+**Observed Fact:** The notice cites the TVPRA minimum requirements for identity, relationship, and risk assessment, existing 45 CFR 410 authority, and the HSA.
+
+**Inference:** The basic authority for sponsor suitability screening is plausible. The closer legal questions are whether each new mandatory condition is sufficiently tied to the statutory safety mandate and whether subjective marking examinations are bounded by adequate standards.
+
+**Unknown:** The full cited statutory and litigation materials were not supplied for independent review.
+
+## Step 8 — Procedural Normalcy
+
+**Classification:** Normal with material record-development questions
+
+**Observed Fact:** The document is a standard NPRM with proposed text, public participation instructions, regulatory analyses, and explicit requests for comment.
+
+**Inference:** The process is ordinary. Comments can improve the record by supplying evidence on effectiveness, alternatives, implementation burden, and safeguards; the notice's solicitation of input does not itself establish a defect.
+
+## Step 9 — Failure Modes
+
+- Standard document requirements may delay or exclude otherwise suitable sponsors who have informal income or nonstandard identity records.
+- A marking examination may produce subjective or stigmatizing inferences if not tied to individualized evidence and supervisory review.
+- Additional background-check and cross-case matching steps may create processing bottlenecks without service standards or escalation paths.
+- The rule may formalize requirements previously handled through guidance without fully addressing reliance interests and transition effects.
+- Inconsistent local interpretation could create unequal sponsor outcomes across caseworkers or contractors.
+
+## Step 10 — Regulatory Incentives
+
+**Positive**
+- Encourages more complete and comparable sponsor records.
+- Creates incentives to report identity inconsistencies before placement.
+- May improve accountability by putting important screening requirements in regulation.
+
+**Adverse Or Unintended**
+- May incentivize sponsors to produce documents that technically fit a list without improving actual caregiving capacity.
+- May shift applications toward sponsors with conventional payroll and identity records.
+- Could incentivize over-reporting of ambiguous markings if reviewers lack clear standards.
+
+## Step 11 — Evidentiary Strength
+
+**Assessment:** Moderate from the NPRM alone
+
+**Strengths**
+- The proposal identifies concrete failure modes and cites multiple oversight sources.
+- The proposed requirements are connected to recognizable identity, fraud, and household-risk concerns.
+
+**Limitations**
+- Underlying reports, case-file denominators, and comparative effectiveness data are not included in the prepared materials.
+- The notice does not fully quantify false positives, processing delays, or exclusion effects.
+- The relationship between each cited incident and each proposed requirement is not always demonstrated.
+
+**Observed Fact Vs Inference:** The incidents and percentages are reported by the agency; the claim that the proposed package will materially reduce risk remains an inference requiring validation.
+
+## Step 12 — Administrative Record Gaps
+
+- **Id:** G1
+  
+  **Gap Type:** Requirement-to-evidence mapping
+  
+  **Why It Matters:** Commenters need to know which proposed document or check addresses which documented failure.
+  
+  **Agency Solicitation:** partly
+- **Id:** G2
+  
+  **Gap Type:** Alternative evidence and exception handling
+  
+  **Why It Matters:** Rigid proof rules may burden informal workers, recent arrivals, and sponsors whose records are unavailable for reasons unrelated to risk.
+  
+  **Agency Solicitation:** yes
+- **Id:** G3
+  
+  **Gap Type:** Marking examination safeguards
+  
+  **Why It Matters:** The provision could affect individualized placement judgments based on subjective observations.
+  
+  **Agency Solicitation:** partly
+- **Id:** G4
+  
+  **Gap Type:** Implementation burden and outcomes
+  
+  **Why It Matters:** Added checks can delay placement and should be evaluated alongside safety gains.
+  
+  **Agency Solicitation:** yes
+
+## Step 13 — Litigation Vulnerabilities
+
+**Summary:** The most visible vulnerabilities are arbitrary-line-drawing and inadequate explanation risks, not an obviously absent statutory safety mandate.
+
+**Potential Issues**
+- Whether the record explains why the specified proof-of-income and identity categories are necessary rather than one set of reasonable options.
+- Whether the marking-examination authority has sufficiently clear and reviewable criteria.
+- Whether the agency considered less burdensome alternatives and reliance interests after prior guidance and litigation.
+- Whether the agency adequately addressed processing delays and disparate effects on sponsors with nonstandard records.
+
+**Comment Posture:** Use these points to request evidence, safeguards, and alternatives rather than asserting that the proposed safety objective is illegitimate.
+
+## Step 13A — Structural Integrity / Nonsense Detector
+
+**Assessment:** No broad structural incoherence identified; targeted safeguards are needed.
+
+**Observed Fact:** The rule's stated problem, proposed mechanisms, and child-safety objective are related.
+
+**Inference:** The main structural risk is overextension: some mechanisms, especially marking examinations and rigid documentation, may be broader or less reliable than the evidence supplied for them.
+
+**High Priority Checks**
+- Tie each requirement to a documented failure mode.
+- Define reviewable standards and alternatives.
+- Measure delay, exclusion, false positives, and placement outcomes.
+
+# Phase 3 — Comment Generation
+
+## Step 14 — Commentable Sentences
+
+- The proposed rule would require proof of income and specified proof of identity for potential sponsors.
+- ORR proposes to examine UAC for visible gang-related or criminal-organization-related tattoos, markings, or brandings as part of dangerousness or trafficking assessments.
+- The notice states that investigations identified gaps in sponsor screening and situations in which child safety could have been compromised.
+- ORR has historically described detailed vetting requirements in sub-regulatory guidance.
+
+## Step 15 — Procedural Concern Score
+
+**Score:** 6.4
+
+**Weighted Sum:** 25
+
+**Max Weighted Sum:** 39
+
+**Categories**
+**Data Issues**
+**Severity:** 2
+
+**Weight:** 2
+
+**Rationale:** The notice reports investigations and percentages but the underlying files and denominators are not in the prepared record.
+
+**Linked Nodes**
+- n2
+
+**Methodology Gaps**
+**Severity:** 2
+
+**Weight:** 3
+
+**Rationale:** The notice does not fully connect each proposed requirement to measured effectiveness, false-positive risk, or workload.
+
+**Linked Nodes**
+- n2
+- n3
+- n4
+- n5
+
+**Missing Alternatives**
+**Severity:** 2
+
+**Weight:** 4
+
+**Rationale:** The available text does not fully compare tiered documentation, alternative evidence, or review safeguards.
+
+**Linked Nodes**
+- n3
+- n5
+
+**Scope Exclusions**
+**Severity:** 2
+
+**Weight:** 3
+
+**Rationale:** The proposal may affect sponsors with informal income or nonstandard documents without a sufficiently detailed impact analysis.
+
+**Linked Nodes**
+- n3
+- n6
+
+**Unsupported Conclusions**
+**Severity:** 1
+
+**Weight:** 1
+
+**Rationale:** The safety rationale is plausible but the predicted improvement from the complete package remains partly inferential.
+
+**Linked Nodes**
+- n6
+
+## Step 16 — Evidence Requests
+
+- **Id:** E2
+  
+  **Priority:** high
+  
+  **Request:** Explain acceptable alternative evidence for informal income, unavailable identity records, and sponsors with foreign or nontraditional documents.
+  
+  **Score Drivers**
+  - pass4.implementation_feasibility_risk
+  - pass4.distributional_omission_risk
+- **Id:** E1
+  
+  **Priority:** high
+  
+  **Request:** Provide the cited OIG, Senate, and ORR source materials, case-file denominators, and a requirement-by-requirement mapping from documented failures to proposed checks.
+  
+  **Score Drivers**
+  - pass4.data_quality_uncertainty_handling
+- **Id:** E3
+  
+  **Priority:** high
+  
+  **Request:** Describe training, documentation, supervisory review, and appeal or correction procedures for tattoo and marking observations.
+  
+  **Score Drivers**
+  - pass4.enforcement_clarity_risk
+- **Id:** E4
+  
+  **Priority:** moderate
+  
+  **Request:** Estimate added processing time, staffing needs, delayed placements, and expected false-positive or incomplete-document rates.
+  
+  **Score Drivers**
+  - pass4.cost_benefit_transparency
+  - pass4.monitoring_and_feedback_design_quality
+
+## Step 17 — High-Leverage Comment Angles
+
+- **Id:** A1
+  
+  **Priority:** high
+  
+  **Posture:** evidence request
+  
+  **Issue:** Tie each new requirement to the specific safety failure it is designed to prevent.
+  
+  **Why It Matters:** A transparent mapping would let the agency retain effective safeguards while narrowing unnecessary burdens.
+  
+  **Ask Agency To:** Publish the underlying evidence and explain expected benefits, false positives, and alternatives.
+  
+  **Supporting Evidence:** The notice cites multiple investigations but the prepared export does not include them.
+  
+  **Score Drivers**
+  - pass4.data_quality_uncertainty_handling
+  - pass5.evidence_to_intrusion_mismatch
+- **Id:** A2
+  
+  **Priority:** high
+  
+  **Posture:** implementation safeguard
+  
+  **Issue:** Create alternative-evidence and exception pathways for income and identity documentation.
+  
+  **Why It Matters:** Rigid categories may delay or exclude suitable sponsors based on record availability rather than safety risk.
+  
+  **Ask Agency To:** Define equivalent documents, caseworker discretion limits, reasons-required denials, and supervisory review.
+  
+  **Supporting Evidence:** The proposal specifies acceptable documentation and proof of income.
+  
+  **Score Drivers**
+  - pass4.implementation_feasibility_risk
+  - pass5.ambiguity_enabled_gatekeeping
+- **Id:** A3
+  
+  **Priority:** high
+  
+  **Posture:** methodology challenge
+  
+  **Issue:** Bound the use of tattoo and marking observations.
+  
+  **Why It Matters:** Subjective observations can become proxies for dangerousness without reliable individualized evidence.
+  
+  **Ask Agency To:** Specify training, corroboration, documentation, anti-bias review, and a rule that markings alone cannot determine placement.
+  
+  **Supporting Evidence:** The proposed rule would authorize examinations as part of dangerousness or trafficking assessments.
+  
+  **Score Drivers**
+  - pass4.enforcement_clarity_risk
+  - pass5.threat_ambiguity
+- **Id:** A4
+  
+  **Priority:** moderate
+  
+  **Posture:** record development
+  
+  **Issue:** Analyze transition burden and monitoring outcomes.
+  
+  **Why It Matters:** Additional screening may improve safety but also increase delay and operational load.
+  
+  **Ask Agency To:** Set service standards and publish measures for completion, delay, denials, corrections, and placement safety outcomes.
+  
+  **Supporting Evidence:** The notice proposes multiple additional checks and relies on past screening gaps.
+  
+  **Score Drivers**
+  - pass4.cost_benefit_transparency
+  - pass4.monitoring_and_feedback_design_quality
+
+## Step 18 — Decision Brief
+
+- **Id:** D1
+  
+  **Priority:** high
+  
+  **Title:** Evidence-to-requirement fit
+  
+  **Summary:** The agency has a credible safety objective, but commenters can ask it to show which requirement addresses which documented failure and what less burdensome options were considered.
+  
+  **Recommendation:** Support the objective while requesting source materials, sensitivity analysis, and a narrower evidence-based design.
+  
+  **Comment Posture:** evidence request
+  
+  **Score Drivers**
+  - pass4.data_quality_uncertainty_handling
+  - pass5.evidence_to_intrusion_mismatch
+- **Id:** D2
+  
+  **Priority:** high
+  
+  **Title:** Safeguards for subjective observations
+  
+  **Summary:** Marking examinations need criteria and review so an observation does not become a categorical proxy for dangerousness or trafficking risk.
+  
+  **Recommendation:** Request corroboration, training, documentation, supervisory review, and outcome monitoring.
+  
+  **Comment Posture:** implementation safeguard
+  
+  **Score Drivers**
+  - pass4.enforcement_clarity_risk
+  - pass5.threat_ambiguity
+- **Id:** D3
+  
+  **Priority:** moderate
+  
+  **Title:** Alternative documentation and delay
+  
+  **Summary:** The rule should preserve a workable route for suitable sponsors whose income or identity records do not match standard categories.
+  
+  **Recommendation:** Request equivalent-document standards, exception procedures, and estimates of processing delays and disparate effects.
+  
+  **Comment Posture:** alternatives push
+  
+  **Score Drivers**
+  - pass4.implementation_feasibility_risk
+  - pass4.distributional_omission_risk
