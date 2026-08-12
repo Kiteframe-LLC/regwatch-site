@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-11T09:11:54.453168+00:00",
+  "comment_action_checked_at": "2026-08-12T06:28:22.446083+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,423 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.49347428175223673,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5982268857830655,
+  "combined_score": 0.8111115314660235,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
-  "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_4_raw": 6,
+  "pass_4_scaled": 0.5645833333333333,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 2,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 2,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 2,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 2
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 1.6,
+    "H": 1.3333333333333333,
+    "E": 1.3333333333333333
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The proposed temporary behavior adjustment and related payment changes need stronger causal, subgroup, and access analysis.",
+  "combined_score_pre_pass5": 0.6488892251728189,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "\ud83d\udea9 Nuts \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "\ud83d\udea9 Nuts \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "\ud83d\udea9 Nuts",
+  "pass_5_scaled": 1.0,
+  "pass_5_worst_flaw_severity": 3,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 8,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 3,
+  "pass_5_material_family_count": 4,
+  "pass_5_base_defect_score": 0.98689,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The rule affects Medicare payment, access to home health services, beneficiary care, and provider enrollment status.",
+  "pass_5_red_flag": true,
+  "pass_5_red_flag_gates": [
+    "Harm Before Review Plus Structural Lever",
+    "Rights or Sovereignty Burden Without Substantiated Need"
+  ],
+  "pass_5_concise_why": "The regulatory architecture is coherent, but payment recovery and enrollment controls create material risk if evidence and review safeguards are incomplete.",
+  "pass_5_most_important_consequence": "A payment or enrollment decision could reduce service availability for beneficiaries before CMS has resolved causal attribution and individualized-risk questions.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.25,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.156
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 3,
+      "mean_severity": 2.5,
+      "material_flaw_count": 4,
+      "material_share": 1.0,
+      "family_score": 0.75
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.333,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.163
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 3,
+      "mean_severity": 2.0,
+      "material_flaw_count": 2,
+      "material_share": 0.667,
+      "family_score": 0.662
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 3,
+      "mean_severity": 2.0,
+      "material_flaw_count": 1,
+      "material_share": 0.5,
+      "family_score": 0.637
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 1.2,
+      "material_flaw_count": 1,
+      "material_share": 0.2,
+      "family_score": 0.395
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The notice generally identifies statutory authorities.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to map each new authority to its statutory provision."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No clear inversion is established.",
+      "evidence": [],
+      "comment_leverage": "Request clarification if a payment-protection rationale conflicts with access duties."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Aggregate payment correction may shift uncertainty onto agencies and beneficiaries.",
+      "evidence": [],
+      "comment_leverage": "Request accountability for access effects."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No material self-policing substitution is shown.",
+      "evidence": [],
+      "comment_leverage": "Request monitoring metrics."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Payment and reporting changes may precede evidence about resulting access effects.",
+      "evidence": [],
+      "comment_leverage": "Request a phase-in or reassessment."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "Broad payment and enrollment consequences may rely on aggregate or incomplete evidence.",
+      "evidence": [
+        {
+          "section": "II.C",
+          "quote_or_absence": "The rule proposes a temporary adjustment based on differences between assumed and actual behavior change, but the available record does not fully separate behavior from acuity and access effects."
+        }
+      ],
+      "comment_leverage": "Require subgroup sensitivity and provider-specific evidence before intrusive action."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "A uniform adjustment may not match heterogeneous causes of observed spending or utilization.",
+      "evidence": [
+        {
+          "section": "II.B-II.C",
+          "quote_or_absence": "The rule reports multi-year utilization and cost comparisons, but the available record does not show why a uniform temporary adjustment is the least harmful remedy."
+        }
+      ],
+      "comment_leverage": "Ask CMS to compare alternatives and access safeguards."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal assumes agencies can implement several concurrent payment and reporting changes.",
+      "evidence": [],
+      "comment_leverage": "Request transition guidance and burden estimates."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No critical undefined technical interface is established.",
+      "evidence": [],
+      "comment_leverage": "Request reproducible data definitions."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The breadth of enrollment-risk categories may leave regulated parties uncertain about triggers.",
+      "evidence": [
+        {
+          "section": "V.B",
+          "quote_or_absence": "The rule proposes adding grounds for denying or revoking enrollment and expanding retroactive effective dates; the available excerpt does not specify all trigger boundaries."
+        }
+      ],
+      "comment_leverage": "Request precise triggers and examples."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The stated protection and access benefits are not matched by full distributional analysis.",
+      "evidence": [
+        {
+          "section": "I.A and Regulatory Impact Analysis",
+          "quote_or_absence": "The rule states that changes would protect Trust Funds and beneficiaries, but the available record does not fully quantify rural, small-agency, palliative, or high-acuity access effects."
+        }
+      ],
+      "comment_leverage": "Submit local access and patient-mix evidence."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Expanded sanctions could affect legitimate providers if targeting standards are broad.",
+      "evidence": [],
+      "comment_leverage": "Request individualized findings."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 3,
+      "explanation": "The available record does not fully state safeguards for retroactive revocation, reapplication bars, and payment disruption.",
+      "evidence": [
+        {
+          "section": "V.B",
+          "quote_or_absence": "The available record does not explain the complete notice, evidence-access, appeal, and timing safeguards for expanded enrollment sanctions."
+        }
+      ],
+      "comment_leverage": "Ask CMS to establish meaningful pre- and post-deprivation review."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Potential access and administrative costs may fall on beneficiaries and small agencies.",
+      "evidence": [
+        {
+          "section": "II.C and III.E",
+          "quote_or_absence": "The available record does not fully allocate the access, reporting, and implementation costs of the proposed changes across agencies and beneficiaries."
+        }
+      ],
+      "comment_leverage": "Request distributional estimates and mitigation."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Program-integrity objectives could encourage overbroad suspicion if criteria are not individualized.",
+      "evidence": [],
+      "comment_leverage": "Request objective evidence standards."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Frequent formula and reporting changes could make accountability harder for smaller agencies.",
+      "evidence": [],
+      "comment_leverage": "Request stable reporting and audit trails."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 3,
+      "explanation": "Retroactive dates and enrollment actions can disrupt payment or service before review is complete.",
+      "evidence": [
+        {
+          "section": "V.B",
+          "quote_or_absence": "The rule proposes expanding reasons CMS can apply a retroactive effective date for provider and supplier revocations; the available record does not fully explain interim protections."
+        }
+      ],
+      "comment_leverage": "Request stays, notice, and prompt review for disputed actions."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Reporting and enrollment procedures can operate as gateways to payment and participation.",
+      "evidence": [
+        {
+          "section": "III.E and V.B",
+          "quote_or_absence": "The rule proposes revised reporting deadlines and expanded enrollment consequences, but the available record does not fully explain proportionality when compliance failures are minor or technical."
+        }
+      ],
+      "comment_leverage": "Request cure periods and proportionality."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The combined rule spans payment, quality, DMEPOS, and enrollment consequences with different affected populations.",
+      "evidence": [],
+      "comment_leverage": "Ask CMS to separate implementation and impact analyses."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Unresolved RFI and sanction details could create uncertainty for future gatekeeping.",
+      "evidence": [],
+      "comment_leverage": "Request decision criteria and published guidance."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The overall regulatory chain is coherent from authority to proposed changes.",
+      "evidence": [],
+      "comment_leverage": "Preserve the coherent portions while correcting record gaps."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "high_scope_exclusion_language"
@@ -188,7 +561,7 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 39,
   "comments_cached_records": 30,
-  "comments_unique_clusters": 25,
+  "comments_unique_clusters": 28,
   "comments_clustered_duplicates": 2,
   "comments_truncated": true,
   "comments_source": "api",
@@ -218,19 +591,19 @@
     "2026-08-10": 10
   },
   "comments_novel_comment_rate": 0.9333333333333333,
-  "comments_sentiment_positive_pct": 0.11463540685862338,
-  "comments_sentiment_negative_pct": 0.2134114828534415,
-  "comments_sentiment_neutral_pct": 0.671953110287935,
-  "comments_sentiment_net": -0.09877607599481812,
-  "comments_sentiment_sample_size": 27,
+  "comments_sentiment_positive_pct": 0.13712753803111316,
+  "comments_sentiment_negative_pct": 0.19146303942999535,
+  "comments_sentiment_neutral_pct": 0.6714094225388915,
+  "comments_sentiment_net": -0.054335501398882186,
+  "comments_sentiment_sample_size": 30,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 27,
+  "comments_analysis_sample_size": 30,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 27,
-  "comments_representative_prior_selected": 25,
-  "comments_representative_newly_selected": 2,
+  "comments_representative_selected": 30,
+  "comments_representative_prior_selected": 30,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 17,
   "comments_representative_run_budget": 2,
   "comments_representative_overflow": false,
@@ -239,9 +612,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 17,
     "salience_rank": 1,
-    "weighted_fill": 9
+    "weighted_fill": 12
   },
-  "comments_representative_selected_by_counts_total": 27,
+  "comments_representative_selected_by_counts_total": 30,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -251,7 +624,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 13,
+      "cluster_id": 16,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0021",
@@ -302,7 +675,7 @@
       "presentation_score": 0.7675598066567094
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 14,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0023",
@@ -353,7 +726,7 @@
       "presentation_score": 0.7675598066567094
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0009",
@@ -389,7 +762,7 @@
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0004",
@@ -425,7 +798,7 @@
       "presentation_score": 0.7314213562373094
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0005",
@@ -461,7 +834,7 @@
       "presentation_score": 0.7814213562373095
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0007",
@@ -497,7 +870,7 @@
       "presentation_score": 0.7814213562373095
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0016",
@@ -533,7 +906,7 @@
       "presentation_score": 0.7814213562373095
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0017",
@@ -569,7 +942,7 @@
       "presentation_score": 0.7814213562373095
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0040",
@@ -605,7 +978,7 @@
       "presentation_score": 0.7814213562373095
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0032",
@@ -641,7 +1014,7 @@
       "presentation_score": 0.7314213562373094
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0012",
@@ -677,7 +1050,7 @@
       "presentation_score": 0.7014213562373096
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0030",
@@ -713,7 +1086,7 @@
       "presentation_score": 0.7014213562373096
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0039",
@@ -749,7 +1122,7 @@
       "presentation_score": 0.7014213562373096
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0003",
@@ -785,7 +1158,7 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0015",
@@ -821,7 +1194,7 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0022",
@@ -857,7 +1230,7 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0027",
@@ -893,32 +1266,32 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0035",
+      "representative_comment_id": "CMS-2026-2311-0029",
       "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 2408,
-      "representative_excerpt": "Federal findings demonstrate substantial progress in EHR adoption; however, interoperability remains an ongoing challenge within post-acute care settings. Before quality measures are used to drive increasingly significant payment adjustments, CMS should provide evidence that variation in quality scores reflects true differences in patient outcomes rather...",
+      "representative_length": 2599,
+      "representative_excerpt": "I support CMS's proposed Calendar Year 2027 Home Health Prospective Payment System updates and appreciate the agency's continued investment in expanding access to high-quality home-based care. As our nation's population ages, home health services have become an essential component of a healthcare system that promotes independence, reduces unnecessary...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0035": {
+        "CMS-2026-2311-0029": {
           "organization": "",
           "postedDate": "2026-08-10T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "",
+          "stateProvinceRegion": "NC",
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-2311-0002",
           "withdrawn": false,
-          "submissionRole": "individual",
+          "submissionRole": "unknown",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
@@ -929,7 +1302,7 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0006",
@@ -965,7 +1338,7 @@
       "presentation_score": 0.6214213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0034",
@@ -1001,7 +1374,7 @@
       "presentation_score": 0.6214213562373095
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0010",
@@ -1037,7 +1410,7 @@
       "presentation_score": 0.5414213562373096
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0026",
@@ -1073,7 +1446,7 @@
       "presentation_score": 0.5414213562373096
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0028",
@@ -1109,7 +1482,79 @@
       "presentation_score": 0.5414213562373096
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0035",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 2408,
+      "representative_excerpt": "Federal findings demonstrate substantial progress in EHR adoption; however, interoperability remains an ongoing challenge within post-acute care settings. Before quality measures are used to drive increasingly significant payment adjustments, CMS should provide evidence that variation in quality scores reflects true differences in patient outcomes rather...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0035": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0042",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 1470,
+      "representative_excerpt": "Nearly every state has recognized the importance of addressing healthcare disparities, and yet this bill fails to do so at a federal level. To truly address the high costs of healthcare in the United States, many sources including, the Minneapolis Heart Institute Foundation (2019), say that we must look towards population health and the reduction of...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0042": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "OR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0037",
@@ -1145,7 +1590,43 @@
       "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0038",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 1285,
+      "representative_excerpt": "I encourage CMS to consider excluding palliative care patients from outcome measures that are based on functional improvement, or alternatively, implementing additional risk...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0038": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0014",
@@ -1186,22 +1667,22 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 1.0,
+  "comments_first_page_coverage_share": 0.9,
   "comments_first_page_coverage_count": 27,
-  "comments_clusters_total_available": 25,
-  "comments_clusters_displayed": 25,
+  "comments_clusters_total_available": 28,
+  "comments_clusters_displayed": 28,
   "comments_first_page_high_signal_clusters": 10,
   "comments_first_page_novelty_clusters": 13,
   "comments_first_page_stance_counts": {
     "negative": 5,
-    "neutral": 17,
-    "positive": 3
+    "neutral": 16,
+    "positive": 4
   },
   "comments_first_page_unique_days": 1,
   "summary_available": false,
   "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/CMS-2026-2311-0002_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "CMS-2026-2311"
