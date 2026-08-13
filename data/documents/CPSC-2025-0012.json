@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-12T06:28:27.238827+00:00",
+  "comment_action_checked_at": "2026-08-13T09:13:11.457543+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-25T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 0.1836734693877551,
+  "pass_3_score": 3.196078431372549,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.0301484349325144,
+  "pass_3_scaled": 0.41297022625746127,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3094530238258029,
+  "combined_score": 0.5008639194882764,
   "score_total": 9,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -100,54 +100,57 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 9,
-  "comments_velocity_total": 9,
-  "comments_public_total_estimate": 9,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 9,
-  "comments_unique_clusters": 9,
+  "comments_total": 10,
+  "comments_velocity_total": 10,
+  "comments_public_total_estimate": 10,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 1,
+  "comments_cached_records": 10,
+  "comments_unique_clusters": 10,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 7,
+  "comments_citizen_count": 8,
   "comments_commenter_type_counts": {
-    "organization_other": 2,
-    "citizen": 7
+    "citizen": 8,
+    "organization_other": 2
   },
   "comments_submission_role_counts": {
-    "organization": 2,
-    "individual": 7
+    "individual": 8,
+    "organization": 2
   },
   "comments_submission_channel_counts": {
-    "public_portal": 9
+    "public_portal": 10
   },
-  "comments_public_count": 9,
+  "comments_public_count": 10,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-11": 1,
     "2026-08-06": 1,
     "2026-08-04": 2,
     "2026-07-27": 3,
     "2026-07-23": 1,
     "2026-07-16": 2
   },
-  "comments_high_signal_cluster_count_by_day": {},
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-08-11": 1
+  },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.1111111111111111,
-  "comments_sentiment_negative_pct": 0.1111111111111111,
-  "comments_sentiment_neutral_pct": 0.7777777777777778,
-  "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 9,
+  "comments_sentiment_positive_pct": 0.2,
+  "comments_sentiment_negative_pct": 0.1,
+  "comments_sentiment_neutral_pct": 0.7000000000000001,
+  "comments_sentiment_net": 0.1,
+  "comments_sentiment_sample_size": 10,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 9,
+  "comments_analysis_sample_size": 10,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 9,
-  "comments_representative_prior_selected": 9,
+  "comments_representative_selected": 10,
+  "comments_representative_prior_selected": 10,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 2,
   "comments_representative_run_budget": 0,
@@ -157,19 +160,55 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 2,
     "salience_rank": 1,
-    "weighted_fill": 6
+    "weighted_fill": 7
   },
-  "comments_representative_selected_by_counts_total": 9,
+  "comments_representative_selected_by_counts_total": 10,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-11T05:08:58.514662+00:00",
-  "comments_checked_at": "2026-08-11T05:08:58.599121+00:00",
+  "comments_api_last_seen_at": "2026-08-13T05:12:45.166968+00:00",
+  "comments_checked_at": "2026-08-13T05:12:45.240009+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 8,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0011",
+      "representative_posted_date": "2026-08-11T04:00:00Z",
+      "representative_length": 1321,
+      "representative_excerpt": "I would suggest that CPSC pair its hardware requirements with a much clearer and compatability specific labeling on batteries and chargers so consumers can tell just by looking that a charger is safe to use with their device. In all, i support this regulation as a step forward in reducing battery fires. But because a portion of the remaining risk comes...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0011": {
+          "organization": "",
+          "postedDate": "2026-08-11T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0003",
@@ -202,10 +241,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9000000000000001
+      "presentation_score": 0.7666666666666666
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0009",
@@ -238,10 +277,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9404761904761906
+      "presentation_score": 0.7897435897435896
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0010",
@@ -274,10 +313,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 1.0
+      "presentation_score": 0.8474358974358974
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0002",
@@ -313,7 +352,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0004",
@@ -346,10 +385,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48333333333333334
+      "presentation_score": 0.47692307692307695
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0005",
@@ -382,10 +421,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5023809523809524
+      "presentation_score": 0.49230769230769234
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0006",
@@ -418,46 +457,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5023809523809524
+      "presentation_score": 0.49230769230769234
     },
     {
       "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CPSC-2025-0012-0007",
-      "representative_posted_date": "2026-07-27T04:00:00Z",
-      "representative_length": 153,
-      "representative_excerpt": "As an avid e-bike rider with many bikes I support this proposal. I think that safety should be pre eminent and saving money is not a reason to risk lives",
-      "representative_signal_score": 0,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CPSC-2025-0012-0007": {
-          "organization": "",
-          "postedDate": "2026-07-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Esther Stearns",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5023809523809524
-    },
-    {
-      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0008",
@@ -490,26 +493,62 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5404761904761906
+      "presentation_score": 0.5230769230769231
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0007",
+      "representative_posted_date": "2026-07-27T04:00:00Z",
+      "representative_length": 153,
+      "representative_excerpt": "As an avid e-bike rider with many bikes I support this proposal. I think that safety should be pre eminent and saving money is not a reason to risk lives",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0007": {
+          "organization": "",
+          "postedDate": "2026-07-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Esther Stearns",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49230769230769234
     }
   ],
   "comments_clusters_path": "data/comments/CPSC-2025-0012.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 9,
+  "comments_first_page_count": 10,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 9,
-  "comments_clusters_total_available": 9,
-  "comments_clusters_displayed": 9,
-  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_coverage_count": 10,
+  "comments_clusters_total_available": 10,
+  "comments_clusters_displayed": 10,
+  "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 2,
   "comments_first_page_stance_counts": {
+    "positive": 2,
     "negative": 1,
-    "neutral": 7,
-    "positive": 1
+    "neutral": 7
   },
-  "comments_first_page_unique_days": 5,
+  "comments_first_page_unique_days": 6,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": false,
