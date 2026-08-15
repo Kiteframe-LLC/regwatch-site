@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-14T06:18:01.945210+00:00",
+  "comment_action_checked_at": "2026-08-15T10:30:25.853170+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-22T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 1,
-  "pass_3_score": 3.169811320754717,
+  "pass_3_score": 3.2222222222222223,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.32929841307547836,
-  "pass_3_scaled": 0.410394663320785,
+  "pass_3_scaled": 0.41552252559216574,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5785122217355096,
+  "combined_score": 0.5817692543457972,
   "score_total": 8,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -85,7 +85,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The proposal leaves important consistency and customer-impact consequences to issuer-specific risk procedures while relying on average cost and population assumptions.",
-  "combined_score_pre_pass5": 0.48030884758369147,
+  "combined_score_pre_pass5": 0.48301299370336487,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -481,37 +481,39 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 10,
-  "comments_velocity_total": 9,
-  "comments_public_total_estimate": 9,
+  "comments_total": 14,
+  "comments_velocity_total": 12,
+  "comments_public_total_estimate": 12,
   "comments_fetched": 4,
-  "comments_text_hydrated": 7,
-  "comments_cached_records": 10,
-  "comments_unique_clusters": 10,
-  "comments_clustered_duplicates": 0,
+  "comments_text_hydrated": 6,
+  "comments_cached_records": 14,
+  "comments_unique_clusters": 13,
+  "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 5,
   "comments_commenter_type_counts": {
+    "organization_other": 8,
     "citizen": 5,
-    "organization_other": 4,
     "government": 1
   },
   "comments_submission_role_counts": {
-    "individual": 6,
-    "organization": 3,
+    "individual": 8,
+    "organization": 5,
     "government_tribal": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 9,
+    "public_portal": 12,
+    "other_channel_recorded": 1,
     "agency_material": 1
   },
-  "comments_public_count": 9,
-  "comments_recorded_count": 0,
+  "comments_public_count": 12,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-14": 3,
     "2026-08-12": 4,
     "2026-07-27": 1,
     "2026-07-20": 1,
@@ -519,45 +521,97 @@
     "2026-07-01": 3
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-08-14": 1,
     "2026-08-12": 4,
     "2026-07-08": 1,
     "2026-07-01": 1
   },
-  "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.5555555555555557,
-  "comments_sentiment_negative_pct": 0.11111111111111112,
-  "comments_sentiment_neutral_pct": 0.33333333333333337,
-  "comments_sentiment_net": 0.4444444444444446,
-  "comments_sentiment_sample_size": 9,
+  "comments_novel_comment_rate": 0.9285714285714286,
+  "comments_sentiment_positive_pct": 0.5684060263735206,
+  "comments_sentiment_negative_pct": 0.08631879472529588,
+  "comments_sentiment_neutral_pct": 0.34527517890118353,
+  "comments_sentiment_net": 0.48208723164822465,
+  "comments_sentiment_sample_size": 12,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 10,
+  "comments_analysis_sample_size": 14,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 10,
-  "comments_representative_prior_selected": 10,
+  "comments_representative_selected": 14,
+  "comments_representative_prior_selected": 14,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 6,
+  "comments_representative_must_keep": 10,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 6,
+    "must_keep": 10,
     "salience_rank": 2,
     "weighted_fill": 2
   },
-  "comments_representative_selected_by_counts_total": 10,
+  "comments_representative_selected_by_counts_total": 14,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-13T05:07:38.069212+00:00",
-  "comments_checked_at": "2026-08-13T05:07:38.228380+00:00",
+  "comments_api_last_seen_at": "2026-08-15T05:03:19.261597+00:00",
+  "comments_checked_at": "2026-08-15T05:03:19.464505+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 9,
+      "cluster_id": 1,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FINCEN-2026-0101-0015",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Summary of Recommendations 1. Primary-market CIP scope (Q1) . Maintain the primary-market CIP boundary in \u00a71033.100, requiring identity veri\ufb01cation only where issuers maintain direct customer relationships. Transaction monitoring under the AML/CFT rule provides appropriate risk mitigation for secondary-market activity. 2. Non-documentary veri\ufb01cation (Q5)....",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FINCEN-2026-0101-0015": {
+          "organization": "Chainalysis",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Chainalysis",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FINCEN-2026-0101-0014": {
+          "organization": "Transparency International U.S.",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Transparency International U.S.",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8175598066567095
+    },
+    {
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0003",
@@ -590,10 +644,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9000000000000001
+      "presentation_score": 0.8414213562373096
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0010",
@@ -626,10 +680,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.87
+      "presentation_score": 0.806875901691855
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0005",
@@ -662,10 +716,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7066666666666666
+      "presentation_score": 0.6473304471464003
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0008",
@@ -698,10 +752,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.84
+      "presentation_score": 0.7768759016918549
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0009",
@@ -734,10 +788,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.84
+      "presentation_score": 0.7768759016918549
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0011",
@@ -770,10 +824,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7899999999999999
+      "presentation_score": 0.7268759016918549
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0007",
@@ -806,10 +860,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.671904761904762
+      "presentation_score": 0.6105122653282187
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FINCEN-2026-0101-0012",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 358,
+      "representative_excerpt": "This comment letter is submitted on behalf of community banks across the State of Texas in response to the joint Notice of Proposed Rulemaking (NPRM) implementing Customer Identification Program (CIP) requirements for Permitted Payment Stablecoin Issuers (PPSIs) pursuant to the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FINCEN-2026-0101-0012": {
+          "organization": "Independent Bankers Association of Texas",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Independent Bankers Association of Texas",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5414213562373096
+    },
+    {
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0002",
@@ -842,10 +932,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5800000000000001
+      "presentation_score": 0.5214213562373096
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FINCEN-2026-0101-0013",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 66,
+      "representative_excerpt": "Submitted by the Global Legal Entity Identifier Foundation (GLEIF)",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FINCEN-2026-0101-0013": {
+          "organization": "Global Legal Entity Identifier Foundation (GLEIF)",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Global Legal Entity Identifier Foundation (GLEIF)",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.46142135623730945
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0006",
@@ -878,10 +1004,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49523809523809526
+      "presentation_score": 0.43460317441912766
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FINCEN-2026-0101-0004",
@@ -914,7 +1040,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37
+      "presentation_score": 0.3114213562373095
     }
   ],
   "comments_clusters_path": "data/comments/FINCEN-2026-0101.csv",
@@ -933,24 +1059,24 @@
       "withdrawn": false,
       "representative_excerpt": "The proposed rule making legislation has given an extraordinary innovative opportunity for developing growth businesses to attempt in good faith dealings level the playing field by creating new jobs and competing on merit based initiatives and policies in the Genius Act. These initiatives as presented shouldn\u2019t mandatorily require enjoining any specific...",
       "source_cluster_ids": [
-        6
+        9
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 10,
+  "comments_first_page_count": 13,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 10,
-  "comments_clusters_total_available": 10,
-  "comments_clusters_displayed": 10,
-  "comments_first_page_high_signal_clusters": 6,
-  "comments_first_page_novelty_clusters": 4,
+  "comments_first_page_coverage_count": 14,
+  "comments_clusters_total_available": 13,
+  "comments_clusters_displayed": 13,
+  "comments_first_page_high_signal_clusters": 7,
+  "comments_first_page_novelty_clusters": 7,
   "comments_first_page_stance_counts": {
-    "positive": 5,
+    "positive": 6,
     "negative": 1,
-    "neutral": 4
+    "neutral": 6
   },
-  "comments_first_page_unique_days": 5,
+  "comments_first_page_unique_days": 6,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,

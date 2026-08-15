@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-14T06:17:59.493971+00:00",
+  "comment_action_checked_at": "2026-08-15T10:30:22.776866+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-09-01T03:59:59Z",
   "pass_1_score": 12,
   "pass_2_score": 2,
-  "pass_3_score": 4.0256410256410255,
+  "pass_3_score": 7.05,
   "pass_1_scaled": 0.8048595621585383,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.4887722896639063,
+  "pass_3_scaled": 0.6911810203119801,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8079239114389543,
+  "combined_score": 0.9451427989544746,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -85,7 +85,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The proposed temporary behavior adjustment and related payment changes need stronger causal, subgroup, and access analysis.",
-  "combined_score_pre_pass5": 0.6463391291511634,
+  "combined_score_pre_pass5": 0.7561142391635797,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -530,8 +530,8 @@
       "comments_sentiment_net": 0.0,
       "comments_sentiment_sample_size": 0,
       "comments_bulk_last_posted_date": null,
-      "comments_api_last_seen_at": "2026-08-13T05:17:00.492620+00:00",
-      "comments_checked_at": "2026-08-13T05:17:00.492661+00:00",
+      "comments_api_last_seen_at": "2026-08-15T05:25:50.087074+00:00",
+      "comments_checked_at": "2026-08-15T05:25:50.087113+00:00",
       "comments_clusters": [],
       "comments_error": null,
       "matched_green": [],
@@ -555,76 +555,256 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 40,
-  "comments_velocity_total": 40,
-  "comments_public_total_estimate": 40,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 30,
-  "comments_unique_clusters": 28,
-  "comments_clustered_duplicates": 2,
+  "comments_total": 165,
+  "comments_velocity_total": 162,
+  "comments_public_total_estimate": 162,
+  "comments_fetched": 30,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 60,
+  "comments_unique_clusters": 33,
+  "comments_clustered_duplicates": 27,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 5,
+  "comments_citizen_count": 35,
   "comments_commenter_type_counts": {
+    "citizen": 35,
     "other": 12,
-    "organization_other": 13,
-    "citizen": 5
+    "organization_other": 13
   },
   "comments_submission_role_counts": {
+    "individual": 35,
     "unknown": 12,
-    "organization": 13,
-    "individual": 5
+    "organization": 13
   },
   "comments_submission_channel_counts": {
-    "public_portal": 30
+    "public_portal": 59,
+    "other_channel_recorded": 1
   },
-  "comments_public_count": 30,
-  "comments_recorded_count": 0,
+  "comments_public_count": 59,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-14": 5,
     "2026-08-10": 28
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-08-14": 1,
     "2026-08-10": 10
   },
-  "comments_novel_comment_rate": 0.9333333333333333,
-  "comments_sentiment_positive_pct": 0.13712753803111316,
-  "comments_sentiment_negative_pct": 0.19146303942999535,
-  "comments_sentiment_neutral_pct": 0.6714094225388915,
-  "comments_sentiment_net": -0.054335501398882186,
-  "comments_sentiment_sample_size": 30,
+  "comments_novel_comment_rate": 0.55,
+  "comments_sentiment_positive_pct": 0.10236248626927226,
+  "comments_sentiment_negative_pct": 0.3964461499646573,
+  "comments_sentiment_neutral_pct": 0.5011913637660704,
+  "comments_sentiment_net": -0.2940836636953851,
+  "comments_sentiment_sample_size": 60,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 30,
+  "comments_analysis_sample_size": 60,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 30,
-  "comments_representative_prior_selected": 30,
+  "comments_representative_selected": 60,
+  "comments_representative_prior_selected": 60,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 17,
-  "comments_representative_run_budget": 2,
+  "comments_representative_run_budget": 6,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 17,
     "salience_rank": 1,
-    "weighted_fill": 12
+    "weighted_fill": 42
   },
-  "comments_representative_selected_by_counts_total": 30,
+  "comments_representative_selected_by_counts_total": 60,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-13T05:16:56.836131+00:00",
-  "comments_checked_at": "2026-08-13T05:16:57.316238+00:00",
+  "comments_api_last_seen_at": "2026-08-15T05:25:39.035674+00:00",
+  "comments_checked_at": "2026-08-15T05:25:39.585100+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 16,
+      "cluster_id": 1,
+      "count": 23,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0165",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 1426,
+      "representative_excerpt": "Additionally, expanding the reasons for revocations and denials based on these new definitions imputes wrongdoing to good actors based strictly on tenuous affiliations. This puts even the best Medicare providers at risk of revocation and denial due to actions of other parties they cannot control. I support CMS\u2019s efforts to target bad actors and eliminate...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0044": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0045": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0051": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0057": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0058": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5386644951110312
+    },
+    {
+      "cluster_id": 4,
+      "count": 4,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0138",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 1808,
+      "representative_excerpt": "Additionally, expanding the reasons for revocations and denials based on these new definitions imputes wrongdoing to good actors based strictly on tenuous affiliations. This puts even the best Medicare providers at risk of revocation and denial due to actions of other parties they cannot control. I support CMS\u2019s efforts to target bad actors and eliminate...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0138": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0136": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0135": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0052": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.498739499262733
+    },
+    {
+      "cluster_id": 21,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0021",
@@ -672,10 +852,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7675598066567094
+      "presentation_score": 0.5265365891186682
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 19,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0023",
@@ -723,10 +903,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7675598066567094
+      "presentation_score": 0.5265365891186682
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0009",
@@ -759,10 +939,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.691702882811415
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0004",
@@ -795,10 +975,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.531702882811415
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0005",
@@ -831,10 +1011,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7814213562373095
+      "presentation_score": 0.581702882811415
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0007",
@@ -867,10 +1047,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7814213562373095
+      "presentation_score": 0.581702882811415
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0161",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 4736,
+      "representative_excerpt": "Many rural areas rely on highly centralized healthcare hubs built around critical access hospitals, regional medical centers, or other limited sources of care. Providers frequently locate near these facilities because they offer access to patients, referral networks, and essential infrastructure. As a result, multiple providers may appear geographically...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0161": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.631702882811415
+    },
+    {
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0016",
@@ -903,10 +1119,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7814213562373095
+      "presentation_score": 0.581702882811415
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0017",
@@ -939,10 +1155,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7814213562373095
+      "presentation_score": 0.581702882811415
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0040",
@@ -975,10 +1191,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7814213562373095
+      "presentation_score": 0.581702882811415
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0048",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 1631,
+      "representative_excerpt": "The expanded authorities the Centers for Medicare and Medicaid Services (CMS) seeks in the CY2027 Home Health Proposed Rule will put good actors providers\u2019 Medicare enrollment at risk and will add enormous burden and risk to nonprofit and mission-driven aging services providers and disrupt necessary partnerships. I've worked in non profit senior living for...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0048": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.551702882811415
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0155",
+      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_length": 1489,
+      "representative_excerpt": "Additionally, expanding the reasons for revocations and denials based on these new definitions imputes wrongdoing to good actors based strictly on tenuous affiliations. This puts even the best Medicare providers at risk of revocation and denial due to actions of other parties they cannot control. I support CMS\u2019s efforts to target bad actors and eliminate...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0155": {
+          "organization": "",
+          "postedDate": "2026-08-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.551702882811415
+    },
+    {
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0032",
@@ -1011,10 +1299,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.531702882811415
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0012",
@@ -1047,10 +1335,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7014213562373096
+      "presentation_score": 0.5017028828114151
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0030",
@@ -1083,10 +1371,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7014213562373096
+      "presentation_score": 0.5017028828114151
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0039",
@@ -1119,190 +1407,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7014213562373096
+      "presentation_score": 0.5017028828114151
     },
     {
-      "cluster_id": 28,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0003",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 4228,
-      "representative_excerpt": "Furthermore, these smaller facilities and localized health support networks serve as foundational economic lifelines for working-class families and reformed felons seeking stable community reentry. Entry-level care coordination, technical assistance, and healthcare logistics provide critical second chances for justice-involved individuals trying to...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0003": {
-          "organization": "",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
-    },
-    {
-      "cluster_id": 19,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0015",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 3064,
-      "representative_excerpt": "Currently, Home Health agencies may provide skilled nursing, therapy, social work, and aide services under PDGM, while Nurse Practitioner services are generally billed separately under Medicare Part B. This creates fragmented care delivery and can limit access to comprehensive home-based palliative care, particularly in rural and underserved communities....",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0015": {
-          "organization": "",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
-    },
-    {
-      "cluster_id": 15,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0022",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 2575,
-      "representative_excerpt": "Even CMS acknowledges only a modest overall payment increase while simultaneously proposing additional PDGM adjustments and a temporary 3% reduction to recoup prior payments....",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0022": {
-          "organization": "",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
-    },
-    {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0027",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 2280,
-      "representative_excerpt": "Revoking or denying enrollment based solely on location rather than documented misconduct creates substantial due process concerns. Legitimate businesses that have invested significant financial resources into leasing office space, obtaining state licensure, hiring staff, achieving accreditation, and maintaining Medicare compliance could lose their ability...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0027": {
-          "organization": "",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
-    },
-    {
-      "cluster_id": 10,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0029",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 2599,
-      "representative_excerpt": "I support CMS's proposed Calendar Year 2027 Home Health Prospective Payment System updates and appreciate the agency's continued investment in expanding access to high-quality home-based care. As our nation's population ages, home health services have become an essential component of a healthcare system that promotes independence, reduces unnecessary...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0029": {
-          "organization": "",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "NC",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
-    },
-    {
-      "cluster_id": 25,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0006",
@@ -1335,10 +1443,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6214213562373095
+      "presentation_score": 0.42170288281141494
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0034",
@@ -1371,10 +1479,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6214213562373095
+      "presentation_score": 0.42170288281141494
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0010",
@@ -1407,10 +1515,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5414213562373096
+      "presentation_score": 0.341702882811415
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0026",
@@ -1443,10 +1551,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5414213562373096
+      "presentation_score": 0.341702882811415
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0028",
@@ -1479,10 +1587,190 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5414213562373096
+      "presentation_score": 0.341702882811415
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 33,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0003",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 4228,
+      "representative_excerpt": "Furthermore, these smaller facilities and localized health support networks serve as foundational economic lifelines for working-class families and reformed felons seeking stable community reentry. Entry-level care coordination, technical assistance, and healthcare logistics provide critical second chances for justice-involved individuals trying to...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0003": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.451702882811415
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0015",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 3064,
+      "representative_excerpt": "Currently, Home Health agencies may provide skilled nursing, therapy, social work, and aide services under PDGM, while Nurse Practitioner services are generally billed separately under Medicare Part B. This creates fragmented care delivery and can limit access to comprehensive home-based palliative care, particularly in rural and underserved communities....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0015": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.451702882811415
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0022",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 2575,
+      "representative_excerpt": "Even CMS acknowledges only a modest overall payment increase while simultaneously proposing additional PDGM adjustments and a temporary 3% reduction to recoup prior payments....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0022": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.451702882811415
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0027",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 2280,
+      "representative_excerpt": "Revoking or denying enrollment based solely on location rather than documented misconduct creates substantial due process concerns. Legitimate businesses that have invested significant financial resources into leasing office space, obtaining state licensure, hiring staff, achieving accreditation, and maintaining Medicare compliance could lose their ability...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0027": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.451702882811415
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0029",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 2599,
+      "representative_excerpt": "I support CMS's proposed Calendar Year 2027 Home Health Prospective Payment System updates and appreciate the agency's continued investment in expanding access to high-quality home-based care. As our nation's population ages, home health services have become an essential component of a healthcare system that promotes independence, reduces unnecessary...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0029": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.451702882811415
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0035",
@@ -1515,10 +1803,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
+      "presentation_score": 0.451702882811415
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0042",
@@ -1551,10 +1839,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
+      "presentation_score": 0.451702882811415
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0037",
@@ -1587,10 +1875,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5714213562373095
+      "presentation_score": 0.37170288281141495
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0038",
@@ -1623,10 +1911,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5714213562373095
+      "presentation_score": 0.37170288281141495
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0014",
@@ -1659,7 +1947,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.291702882811415
     }
   ],
   "comments_clusters_path": "data/comments/CMS-2026-2311.csv",
@@ -1667,18 +1955,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.9,
-  "comments_first_page_coverage_count": 27,
-  "comments_clusters_total_available": 28,
-  "comments_clusters_displayed": 28,
-  "comments_first_page_high_signal_clusters": 10,
+  "comments_first_page_coverage_share": 0.8666666666666667,
+  "comments_first_page_coverage_count": 52,
+  "comments_clusters_total_available": 33,
+  "comments_clusters_displayed": 33,
+  "comments_first_page_high_signal_clusters": 11,
   "comments_first_page_novelty_clusters": 13,
   "comments_first_page_stance_counts": {
-    "negative": 5,
-    "neutral": 16,
-    "positive": 4
+    "negative": 9,
+    "neutral": 13,
+    "positive": 3
   },
-  "comments_first_page_unique_days": 1,
+  "comments_first_page_unique_days": 2,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
