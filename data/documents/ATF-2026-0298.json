@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-18T05:39:40.996890+00:00",
+  "comment_action_checked_at": "2026-08-19T09:57:58.163884+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-09-05T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 3,
-  "pass_3_score": 3.7209302325581395,
+  "pass_3_score": 0.8,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.4621389581787566,
+  "pass_3_scaled": 0.12482668095705252,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6505344718345318,
+  "combined_score": 0.4528734313271377,
   "score_total": 10,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -83,7 +83,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The late-registration window and burden story are reasonably explained, but the record does not quantify why 15 days is the right compromise or how the impacts spread across affected manufacturer categories.",
-  "combined_score_pre_pass5": 0.5793591615788902,
+  "combined_score_pre_pass5": 0.4033243169038135,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -443,35 +443,37 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 33,
-  "comments_velocity_total": 31,
-  "comments_public_total_estimate": 31,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 33,
-  "comments_unique_clusters": 33,
-  "comments_clustered_duplicates": 0,
+  "comments_total": 38,
+  "comments_velocity_total": 36,
+  "comments_public_total_estimate": 36,
+  "comments_fetched": 5,
+  "comments_text_hydrated": 5,
+  "comments_cached_records": 38,
+  "comments_unique_clusters": 37,
+  "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 31,
+  "comments_citizen_count": 36,
   "comments_commenter_type_counts": {
-    "citizen": 31,
+    "citizen": 36,
     "organization_other": 2
   },
   "comments_submission_role_counts": {
-    "individual": 31,
+    "individual": 36,
     "organization": 2
   },
   "comments_submission_channel_counts": {
-    "public_portal": 31,
+    "public_portal": 36,
     "other_channel_recorded": 2
   },
-  "comments_public_count": 31,
+  "comments_public_count": 36,
   "comments_recorded_count": 2,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-18": 1,
+    "2026-08-17": 3,
     "2026-08-13": 1,
     "2026-08-11": 1,
     "2026-08-06": 1,
@@ -488,19 +490,19 @@
     "2026-07-27": 1,
     "2026-07-09": 2
   },
-  "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.19354838709677416,
-  "comments_sentiment_negative_pct": 0.2258064516129032,
-  "comments_sentiment_neutral_pct": 0.5806451612903225,
-  "comments_sentiment_net": -0.03225806451612903,
-  "comments_sentiment_sample_size": 31,
+  "comments_novel_comment_rate": 0.9736842105263158,
+  "comments_sentiment_positive_pct": 0.22481406295813502,
+  "comments_sentiment_negative_pct": 0.19671230508836812,
+  "comments_sentiment_neutral_pct": 0.5784736319534969,
+  "comments_sentiment_net": 0.028101757869766902,
+  "comments_sentiment_sample_size": 36,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 33,
+  "comments_analysis_sample_size": 38,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 33,
-  "comments_representative_prior_selected": 33,
+  "comments_representative_selected": 38,
+  "comments_representative_prior_selected": 38,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 3,
   "comments_representative_run_budget": 0,
@@ -510,19 +512,70 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 3,
     "salience_rank": 1,
-    "weighted_fill": 29
+    "weighted_fill": 34
   },
-  "comments_representative_selected_by_counts_total": 33,
+  "comments_representative_selected_by_counts_total": 38,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-17T05:21:23.275860+00:00",
-  "comments_checked_at": "2026-08-17T05:21:23.457985+00:00",
+  "comments_api_last_seen_at": "2026-08-19T05:33:12.169560+00:00",
+  "comments_checked_at": "2026-08-19T05:33:12.366369+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 33,
+      "cluster_id": 2,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0298-0038",
+      "representative_posted_date": "2026-08-17T04:00:00Z",
+      "representative_length": 133,
+      "representative_excerpt": "The Government should be responsible for any regulatory compliance for problems they create. Please vote no on this rule and redraft.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0298-0038": {
+          "organization": "",
+          "postedDate": "2026-08-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13586",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "ATF-2026-0298-0036": {
+          "organization": "",
+          "postedDate": "2026-08-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13586",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5250598066567094
+    },
+    {
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0002",
@@ -555,10 +608,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8500000000000001
+      "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0006",
@@ -591,10 +644,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.75
+      "presentation_score": 0.6914213562373095
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0022",
@@ -627,10 +680,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8514285714285714
+      "presentation_score": 0.7864213562373096
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0010",
@@ -663,10 +716,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6614285714285715
+      "presentation_score": 0.6014213562373095
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0011",
@@ -699,10 +752,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7114285714285715
+      "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0016",
@@ -735,10 +788,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6842857142857143
+      "presentation_score": 0.6214213562373095
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0031",
@@ -771,27 +824,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7271428571428572
+      "presentation_score": 0.6589213562373095
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 1,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "ATF-2026-0298-0003",
-      "representative_posted_date": "2026-07-09T04:00:00Z",
-      "representative_length": 264,
-      "representative_excerpt": "Since this pertains to a right, any interpretations of the law should be in the favor of the citizens rights. In other words, unless the law as passed specifically states some type of restriction, it should be interpreted to allow as little regulation as possible.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
+      "representative_comment_id": "ATF-2026-0298-0039",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 445,
+      "representative_excerpt": "I approve this rule change as it will help streamline moving items over into Government Stores and also make them generally availble to the public if the contract is completed or voided. This will protect us businesses from lost prodution and product and allow us to further proivde the best service we can. This should have been done a long time ago and I...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "ATF-2026-0298-0003": {
+        "ATF-2026-0298-0039": {
           "organization": "",
-          "postedDate": "2026-07-09T04:00:00Z",
+          "postedDate": "2026-08-18T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -807,10 +860,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.5914213562373095
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0298-0037",
+      "representative_posted_date": "2026-08-17T04:00:00Z",
+      "representative_length": 943,
+      "representative_excerpt": "While I consider the National Firearms Act wholly unconstitutional, and the courts are ruling more in favor of the People and the constitution every day since the Bruen decision, I support this rule as a step in the right direction. Pertaining specifically to machine guns this proposed rule impacts, the specific language in 922(o) permits the Director to...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0298-0037": {
+          "organization": "",
+          "postedDate": "2026-08-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13586",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5889213562373095
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0298-0035",
+      "representative_posted_date": "2026-08-17T04:00:00Z",
+      "representative_length": 133,
+      "representative_excerpt": "please do away with the nfa and any other restrictions on the second amendment. shall not be infringed should mean just what it says.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0298-0035": {
+          "organization": "",
+          "postedDate": "2026-08-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13586",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4889213562373095
+    },
+    {
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0034",
@@ -843,10 +968,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.4789213562373095
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0032",
@@ -879,10 +1004,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4614213562373095
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0025",
@@ -915,10 +1040,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5271428571428571
+      "presentation_score": 0.4589213562373095
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0026",
@@ -951,10 +1076,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5271428571428571
+      "presentation_score": 0.4589213562373095
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0029",
@@ -987,10 +1112,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5271428571428571
+      "presentation_score": 0.4589213562373095
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0024",
@@ -1023,10 +1148,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5214285714285715
+      "presentation_score": 0.4539213562373095
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0023",
@@ -1059,10 +1184,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5042857142857143
+      "presentation_score": 0.4389213562373095
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0015",
@@ -1095,10 +1220,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4842857142857143
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0018",
@@ -1131,10 +1256,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4842857142857143
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0019",
@@ -1167,10 +1292,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4842857142857143
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0020",
@@ -1203,10 +1328,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4842857142857143
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0009",
@@ -1239,10 +1364,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46142857142857147
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0012",
@@ -1275,10 +1400,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46142857142857147
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0013",
@@ -1311,10 +1436,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46142857142857147
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0007",
@@ -1347,10 +1472,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45285714285714285
+      "presentation_score": 0.3939213562373095
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 36,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ATF-2026-0298-0003",
+      "representative_posted_date": "2026-07-09T04:00:00Z",
+      "representative_length": 264,
+      "representative_excerpt": "Since this pertains to a right, any interpretations of the law should be in the favor of the citizens rights. In other words, unless the law as passed specifically states some type of restriction, it should be interpreted to allow as little regulation as possible.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ATF-2026-0298-0003": {
+          "organization": "",
+          "postedDate": "2026-07-09T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-13586",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3914213562373095
+    },
+    {
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0004",
@@ -1383,10 +1544,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0033",
@@ -1419,10 +1580,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4442857142857143
+      "presentation_score": 0.3739213562373095
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0027",
@@ -1455,10 +1616,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42714285714285716
+      "presentation_score": 0.3589213562373095
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0028",
@@ -1491,10 +1652,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42714285714285716
+      "presentation_score": 0.3589213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0030",
@@ -1527,10 +1688,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42714285714285716
+      "presentation_score": 0.3589213562373095
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0021",
@@ -1563,10 +1724,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4014285714285714
+      "presentation_score": 0.33642135623730945
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0017",
@@ -1599,10 +1760,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3842857142857143
+      "presentation_score": 0.3214213562373095
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0014",
@@ -1635,10 +1796,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36142857142857143
+      "presentation_score": 0.3014213562373095
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0008",
@@ -1671,10 +1832,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3528571428571428
+      "presentation_score": 0.2939213562373095
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ATF-2026-0298-0005",
@@ -1707,7 +1868,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35
+      "presentation_score": 0.29142135623730947
     }
   ],
   "comments_clusters_path": "data/comments/ATF-2026-0298.csv",
@@ -1715,16 +1876,16 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.7575757575757576,
-  "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 33,
-  "comments_clusters_displayed": 33,
+  "comments_first_page_coverage_share": 0.6842105263157895,
+  "comments_first_page_coverage_count": 26,
+  "comments_clusters_total_available": 37,
+  "comments_clusters_displayed": 37,
   "comments_first_page_high_signal_clusters": 3,
   "comments_first_page_novelty_clusters": 2,
   "comments_first_page_stance_counts": {
+    "neutral": 12,
     "positive": 7,
-    "negative": 7,
-    "neutral": 11
+    "negative": 6
   },
   "comments_first_page_unique_days": 11,
   "summary_available": true,

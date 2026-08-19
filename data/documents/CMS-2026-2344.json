@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-18T05:39:40.074515+00:00",
+  "comment_action_checked_at": "2026-08-19T09:57:53.758230+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-09-01T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 2,
-  "pass_3_score": 6.619047619047619,
+  "pass_3_score": 15.5,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.6681839743196137,
+  "pass_3_scaled": 0.9244781554912263,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8525918537937007,
+  "combined_score": 1.0,
   "score_total": 13,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -82,7 +82,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The top concern is whether the 340B payment bridge, prior authorization expansion, and quality-reporting refinements are tied closely enough to measurable access, comparability, and burden effects.",
-  "combined_score_pre_pass5": 0.70666240389832,
+  "combined_score_pre_pass5": 0.8404159296972553,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -471,38 +471,39 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 165,
-  "comments_velocity_total": 152,
-  "comments_public_total_estimate": 152,
-  "comments_fetched": 7,
-  "comments_text_hydrated": 7,
-  "comments_cached_records": 90,
-  "comments_unique_clusters": 76,
-  "comments_clustered_duplicates": 14,
+  "comments_total": 584,
+  "comments_velocity_total": 550,
+  "comments_public_total_estimate": 550,
+  "comments_fetched": 30,
+  "comments_text_hydrated": 33,
+  "comments_cached_records": 120,
+  "comments_unique_clusters": 81,
+  "comments_clustered_duplicates": 39,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 24,
+  "comments_citizen_count": 49,
   "comments_commenter_type_counts": {
-    "other": 34,
-    "citizen": 24,
-    "organization_other": 32
+    "citizen": 49,
+    "organization_other": 34,
+    "other": 37
   },
   "comments_submission_role_counts": {
-    "unknown": 34,
-    "individual": 24,
-    "organization": 32
+    "individual": 49,
+    "organization": 34,
+    "unknown": 37
   },
   "comments_submission_channel_counts": {
-    "public_portal": 83,
+    "public_portal": 113,
     "other_channel_recorded": 7
   },
-  "comments_public_count": 83,
+  "comments_public_count": 113,
   "comments_recorded_count": 7,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-08-14": 4,
+    "2026-08-18": 6,
+    "2026-08-14": 3,
     "2026-08-13": 25,
     "2026-07-31": 2,
     "2026-07-30": 25,
@@ -514,7 +515,8 @@
     "2026-07-09": 3
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-08-14": 2,
+    "2026-08-18": 4,
+    "2026-08-14": 1,
     "2026-08-13": 5,
     "2026-07-30": 12,
     "2026-07-22": 4,
@@ -522,45 +524,45 @@
     "2026-07-14": 2,
     "2026-07-10": 1
   },
-  "comments_novel_comment_rate": 0.8444444444444444,
-  "comments_sentiment_positive_pct": 0.12078952056260209,
-  "comments_sentiment_negative_pct": 0.15548245179975914,
-  "comments_sentiment_neutral_pct": 0.7237280276376387,
-  "comments_sentiment_net": -0.034692931237157054,
-  "comments_sentiment_sample_size": 83,
+  "comments_novel_comment_rate": 0.675,
+  "comments_sentiment_positive_pct": 0.12280891571531556,
+  "comments_sentiment_negative_pct": 0.17911634304621027,
+  "comments_sentiment_neutral_pct": 0.6980747412384742,
+  "comments_sentiment_net": -0.05630742733089471,
+  "comments_sentiment_sample_size": 113,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 90,
+  "comments_analysis_sample_size": 120,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 90,
-  "comments_representative_prior_selected": 90,
+  "comments_representative_selected": 120,
+  "comments_representative_prior_selected": 120,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 39,
-  "comments_representative_run_budget": 5,
+  "comments_representative_must_keep": 43,
+  "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 39,
+    "must_keep": 43,
     "salience_rank": 1,
-    "weighted_fill": 50
+    "weighted_fill": 76
   },
-  "comments_representative_selected_by_counts_total": 90,
+  "comments_representative_selected_by_counts_total": 120,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-17T05:26:15.476303+00:00",
-  "comments_checked_at": "2026-08-17T05:26:16.302510+00:00",
+  "comments_api_last_seen_at": "2026-08-19T05:50:13.745214+00:00",
+  "comments_checked_at": "2026-08-19T05:50:14.528140+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 2,
-      "count": 8,
+      "cluster_id": 1,
+      "count": 33,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0171",
-      "representative_posted_date": "2026-08-14T04:00:00Z",
+      "representative_comment_id": "CMS-2026-2344-0568",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
       "representative_length": 1988,
       "representative_excerpt": "Provider-based departments are integrated into hospital quality systems, emergency preparedness, infection prevention, cybersecurity, accreditation, compliance, and medical staff oversight. They maintain equipment standards, technologist competencies, access to prior images, radiologist consultation, escalation pathways, and connectivity to emergency and...",
       "representative_signal_score": 3,
@@ -649,10 +651,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6537799033283546
+      "presentation_score": 0.6108946230128333
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 27,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0094",
@@ -745,10 +747,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.684863761868453
+      "presentation_score": 0.5948775510539641
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 12,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0144",
@@ -796,10 +798,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6647820288789316
+      "presentation_score": 0.6042964030484425
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 36,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0063",
@@ -847,10 +849,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5486709177678205
+      "presentation_score": 0.4917964030484425
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 32,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0079",
@@ -898,10 +900,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5547820288789317
+      "presentation_score": 0.4942964030484425
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0019",
@@ -934,10 +936,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7512662336742103
+      "presentation_score": 0.7123155311911396
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0527",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 2930,
+      "representative_excerpt": "We are submitting these comments to request clarification regarding the APC classification and status indicators assigned to CPT codes 0602T and 0603T under the Medicare OPPS program. The long descriptor for these codes reads as follows: 0602T-Glomerular filtration rate (GFR) measurement(s), including sensor placement and administration of a single dose of...",
+      "representative_signal_score": 4,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0527": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MO",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7048155311911396
+    },
+    {
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0012",
@@ -970,27 +1008,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6134884558964325
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0013",
-      "representative_posted_date": "2026-07-14T04:00:00Z",
-      "representative_length": 3119,
-      "representative_excerpt": "Massive Bio is a U.S.-based health technology company whose artificial intelligence platform performs oncology clinical trial matching and longitudinal patient navigation at national scale. Our platform is listed in the CMS Medicare App Library, is DiMe-certified (having earned the Digital Medicine Society Seal), and operates under an organizational...",
+      "representative_comment_id": "CMS-2026-2344-0550",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Optellum is a commercial -stage medical technology company established in 2016. Our Lung Cancer Prediction (\u201cLCP\u201d) software is an FDA-cleared Software as a Medical Device that supports physicians in the assessment of pulmonary nodules identified on computed tomogra phy (\u201cCT\u201d) imaging. CPT codes 0721T (standalone) and 0722T (add-on) describe the service and...",
       "representative_signal_score": 3,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2344-0013": {
-          "organization": "Massive Bio, Inc",
-          "postedDate": "2026-07-14T04:00:00Z",
+        "CMS-2026-2344-0550": {
+          "organization": "Optellum",
+          "postedDate": "2026-08-18T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1006,10 +1044,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6245995670075436
+      "presentation_score": 0.6748155311911396
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0032",
@@ -1042,10 +1080,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6690440114519881
+      "presentation_score": 0.6273155311911396
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0060",
@@ -1078,10 +1116,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6690440114519881
+      "presentation_score": 0.6273155311911396
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0516",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 4893,
+      "representative_excerpt": "Department of Health and Human Services Attention: CMS\u20131850\u2013P P.O. Oz, As a Clinical Professor and Chief of Interventional Psychiatry at Stanford University School of Medicine...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0516": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6248155311911395
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0165",
@@ -1114,10 +1188,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6607106781186547
+      "presentation_score": 0.6148155311911395
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0108",
@@ -1150,10 +1224,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6579329003408769
+      "presentation_score": 0.6123155311911396
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0109",
@@ -1186,10 +1260,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6579329003408769
+      "presentation_score": 0.6123155311911396
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0115",
@@ -1222,10 +1296,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6579329003408769
+      "presentation_score": 0.6123155311911396
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0021",
@@ -1258,10 +1332,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6468217892297659
+      "presentation_score": 0.6073155311911396
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0022",
@@ -1294,10 +1368,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6468217892297659
+      "presentation_score": 0.6073155311911396
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0023",
@@ -1330,10 +1404,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6468217892297659
+      "presentation_score": 0.6073155311911396
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0024",
@@ -1366,27 +1440,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6468217892297659
+      "presentation_score": 0.6073155311911396
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0090",
-      "representative_posted_date": "2026-08-13T04:00:00Z",
-      "representative_length": 3795,
-      "representative_excerpt": "Challenges maintaining inventories of lower-volume injectable medications that remain clinically necessary. Alternative Implementation Approaches ARI encourages CMS to consider: Phasing in reimbursement changes over multiple years. Monitoring provider behavior, beneficiary access...",
+      "representative_comment_id": "CMS-2026-2344-0551",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 4592,
+      "representative_excerpt": "First, HPS encourages CMS to build on existing MRF standardization by creating more structured methods for representing complex contract provisions and reimbursement methodologies. Current hospital-payer contracts may include outlier payments, stop-loss provisions, rate tiers, carve-outs, bundled arrangements, percent-of-charge reimbursement, DRG- or APC...",
       "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2344-0090": {
-          "organization": "AMERICAN REGENT",
-          "postedDate": "2026-08-13T04:00:00Z",
+        "CMS-2026-2344-0551": {
+          "organization": "Hospital Pricing Specialists, LLC",
+          "postedDate": "2026-08-18T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1402,27 +1476,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.627932900340877
+      "presentation_score": 0.5948155311911396
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0092",
-      "representative_posted_date": "2026-08-13T04:00:00Z",
-      "representative_length": 3197,
-      "representative_excerpt": "To resolve this, CMS should define standardized, machine-readable formats specifically for algorithmic pricing. Creating distinct, uniformly structured data fields for formulas (e.g., base rates plus percentage modifiers) will allow organizations like ours to accurately parse and compare these complex rates alongside standard fee-for-service charges....",
-      "representative_signal_score": 2,
+      "representative_comment_id": "CMS-2026-2344-0013",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 3119,
+      "representative_excerpt": "Massive Bio is a U.S.-based health technology company whose artificial intelligence platform performs oncology clinical trial matching and longitudinal patient navigation at national scale. Our platform is listed in the CMS Medicare App Library, is DiMe-certified (having earned the Digital Medicine Society Seal), and operates under an organizational...",
+      "representative_signal_score": 3,
       "representative_stance": "neutral",
-      "representative_submission_channel": "other_channel_recorded",
+      "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2344-0092": {
-          "organization": "MRF Data Solutions",
-          "postedDate": "2026-08-13T04:00:00Z",
+        "CMS-2026-2344-0013": {
+          "organization": "Massive Bio, Inc",
+          "postedDate": "2026-07-14T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1432,52 +1506,16 @@
           "withdrawn": false,
           "submissionRole": "organization",
           "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.627932900340877
+      "presentation_score": 0.5873155311911396
     },
     {
-      "cluster_id": 11,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0127",
-      "representative_posted_date": "2026-08-13T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "www.reddressmedical.com \\\\4153-0320-9055 v1 Israel Office Shkedim, 11 St. 3701142 Pardes-Hanna, Israel (t) 04.6379579 USA Office 822 A1A North, Ste 310 Ponte Vedra Beach, FL 32082 (t) 800.674.9615 (f) 800.561.8127 Submitted electronically via Regulations.gov August 11, 2026 Mehmet Oz, MD, MBA Administrator Centers for Medicare & Medicaid Services...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2344-0127": {
-          "organization": "RedDress Medical",
-          "postedDate": "2026-08-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2344-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.627932900340877
-    },
-    {
-      "cluster_id": 70,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0014",
@@ -1510,52 +1548,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6245995670075436
+      "presentation_score": 0.5873155311911396
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0028",
-      "representative_posted_date": "2026-07-30T04:00:00Z",
-      "representative_length": 4692,
-      "representative_excerpt": "Hospitals participating in the 340B Program use program savings to support a broad range of patient care services that extend far beyond drug acquisition costs. These resources help offset the financial challenges associated with caring for medically complex and underserved patients while supporting essential outpatient programs that often operate with...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2344-0028": {
-          "organization": "South Central Regional Medical Center",
-          "postedDate": "2026-07-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2344-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5890440114519881
-    },
-    {
-      "cluster_id": 38,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0048",
-      "representative_posted_date": "2026-07-30T04:00:00Z",
-      "representative_length": 1140,
-      "representative_excerpt": "The current STEMI measure logic is designed based on a quality measure manual abstraction workflow which does not capture the data element well in eCQM. Quality managers with other hospitals have expressed similar concerns. The introduction of the two Denominator Exceptions in the 2026 reporting period was a very beneficial addition to the measure logic....",
+      "representative_comment_id": "CMS-2026-2344-0090",
+      "representative_posted_date": "2026-08-13T04:00:00Z",
+      "representative_length": 3795,
+      "representative_excerpt": "Challenges maintaining inventories of lower-volume injectable medications that remain clinically necessary. Alternative Implementation Approaches ARI encourages CMS to consider: Phasing in reimbursement changes over multiple years. Monitoring provider behavior, beneficiary access...",
       "representative_signal_score": 2,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -1564,9 +1566,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2344-0048": {
-          "organization": "CHI St.Luke's",
-          "postedDate": "2026-07-30T04:00:00Z",
+        "CMS-2026-2344-0090": {
+          "organization": "AMERICAN REGENT",
+          "postedDate": "2026-08-13T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1582,27 +1584,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5890440114519881
+      "presentation_score": 0.5823155311911397
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0025",
-      "representative_posted_date": "2026-07-22T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "In reality, each component requires distinct equipment, implants, supplies, technical expertise, procedural work, and associated costs. The proposed reduction does not reflect the cost structure of device-intensive procedures Neurostimulation procedures are highly device-intensive. ASCs must purchase the electrodes, implantable pulse generator, connectors...",
+      "representative_comment_id": "CMS-2026-2344-0092",
+      "representative_posted_date": "2026-08-13T04:00:00Z",
+      "representative_length": 3197,
+      "representative_excerpt": "To resolve this, CMS should define standardized, machine-readable formats specifically for algorithmic pricing. Creating distinct, uniformly structured data fields for formulas (e.g., base rates plus percentage modifiers) will allow organizations like ours to accurately parse and compare these complex rates alongside standard fee-for-service charges....",
       "representative_signal_score": 2,
-      "representative_stance": "negative",
+      "representative_stance": "neutral",
       "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2344-0025": {
-          "organization": "Ohio Society of Interventional Pain Physicians",
-          "postedDate": "2026-07-22T04:00:00Z",
+        "CMS-2026-2344-0092": {
+          "organization": "MRF Data Solutions",
+          "postedDate": "2026-08-13T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1618,10 +1620,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5668217892297659
+      "presentation_score": 0.5823155311911397
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0127",
+      "representative_posted_date": "2026-08-13T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "www.reddressmedical.com \\\\4153-0320-9055 v1 Israel Office Shkedim, 11 St. 3701142 Pardes-Hanna, Israel (t) 04.6379579 USA Office 822 A1A North, Ste 310 Ponte Vedra Beach, FL 32082 (t) 800.674.9615 (f) 800.561.8127 Submitted electronically via Regulations.gov August 11, 2026 Mehmet Oz, MD, MBA Administrator Centers for Medicare & Medicaid Services...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0127": {
+          "organization": "RedDress Medical",
+          "postedDate": "2026-08-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5823155311911397
+    },
+    {
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0030",
@@ -1654,10 +1692,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0031",
@@ -1690,10 +1728,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0034",
@@ -1726,10 +1764,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0039",
@@ -1762,10 +1800,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0042",
@@ -1798,10 +1836,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0044",
@@ -1834,10 +1872,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0045",
@@ -1870,10 +1908,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0050",
@@ -1906,10 +1944,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0052",
@@ -1942,10 +1980,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0061",
@@ -1978,10 +2016,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6190440114519881
+      "presentation_score": 0.5773155311911395
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0016",
@@ -2014,10 +2052,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5912662336742103
+      "presentation_score": 0.5523155311911395
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 61,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0028",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 4692,
+      "representative_excerpt": "Hospitals participating in the 340B Program use program savings to support a broad range of patient care services that extend far beyond drug acquisition costs. These resources help offset the financial challenges associated with caring for medically complex and underserved patients while supporting essential outpatient programs that often operate with...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0028": {
+          "organization": "South Central Regional Medical Center",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5473155311911396
+    },
+    {
+      "cluster_id": 43,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0048",
+      "representative_posted_date": "2026-07-30T04:00:00Z",
+      "representative_length": 1140,
+      "representative_excerpt": "The current STEMI measure logic is designed based on a quality measure manual abstraction workflow which does not capture the data element well in eCQM. Quality managers with other hospitals have expressed similar concerns. The introduction of the two Denominator Exceptions in the 2026 reporting period was a very beneficial addition to the measure logic....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0048": {
+          "organization": "CHI St.Luke's",
+          "postedDate": "2026-07-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5473155311911396
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0518",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 2377,
+      "representative_excerpt": "These roles give me both a clinical and broader academic perspective on the continued evolution of technologies used in the diagnosis and treatment of cardiac arrhythmias. A vMap procedure, reported under CPT code 0897T, is one example of this evolution. The technology uses surface ECG data to noninvasively identify likely areas of arrhythmia origin...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0518": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "IL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5448155311911396
+    },
+    {
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0172",
@@ -2050,10 +2196,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5807106781186547
+      "presentation_score": 0.5348155311911396
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0134",
@@ -2086,10 +2232,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.577932900340877
+      "presentation_score": 0.5323155311911396
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0147",
@@ -2122,10 +2268,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.577932900340877
+      "presentation_score": 0.5323155311911396
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 64,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0025",
+      "representative_posted_date": "2026-07-22T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "In reality, each component requires distinct equipment, implants, supplies, technical expertise, procedural work, and associated costs. The proposed reduction does not reflect the cost structure of device-intensive procedures Neurostimulation procedures are highly device-intensive. ASCs must purchase the electrodes, implantable pulse generator, connectors...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0025": {
+          "organization": "Ohio Society of Interventional Pain Physicians",
+          "postedDate": "2026-07-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5273155311911396
+    },
+    {
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0018",
@@ -2158,10 +2340,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5612662336742104
+      "presentation_score": 0.5223155311911396
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0168",
@@ -2194,10 +2376,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5507106781186548
+      "presentation_score": 0.5048155311911396
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0038",
@@ -2230,10 +2412,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5390440114519881
+      "presentation_score": 0.4973155311911396
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0041",
@@ -2266,10 +2448,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5390440114519881
+      "presentation_score": 0.4973155311911396
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0046",
@@ -2302,10 +2484,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5390440114519881
+      "presentation_score": 0.4973155311911396
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0020",
@@ -2338,10 +2520,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5112662336742103
+      "presentation_score": 0.4723155311911396
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0029",
@@ -2374,10 +2556,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5090440114519882
+      "presentation_score": 0.46731553119113955
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0036",
@@ -2410,10 +2592,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5090440114519882
+      "presentation_score": 0.46731553119113955
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0043",
@@ -2446,10 +2628,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5090440114519882
+      "presentation_score": 0.46731553119113955
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0049",
@@ -2482,118 +2664,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5090440114519882
+      "presentation_score": 0.46731553119113955
     },
     {
-      "cluster_id": 18,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0106",
-      "representative_posted_date": "2026-08-13T04:00:00Z",
-      "representative_length": 437,
-      "representative_excerpt": "Many of these questions focus on making machine-readable files easier to sort, categorize, compare, and analyze. That may help organizations that work with healthcare data, but it does not solve a problem that consumers are asking to have solved. Consumers generally want access to care, affordable costs, and insurance coverage. They are not asking for...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2344-0106": {
-          "organization": "",
-          "postedDate": "2026-08-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2344-0002",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.497932900340877
-    },
-    {
-      "cluster_id": 15,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0110",
-      "representative_posted_date": "2026-08-13T04:00:00Z",
-      "representative_length": 308,
-      "representative_excerpt": "Regarding the removal of the PCI with drug-eluting stent codes--C9601, C9603, C9605 and C9608. Since we can no longer capture an additional DES in coronary branches, I feel there should be a comparable C code similar to the new code 92930 when (2) DES's are placed in a branch or additional coronary segment.",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2344-0110": {
-          "organization": "",
-          "postedDate": "2026-08-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "OK",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2344-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.497932900340877
-    },
-    {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0153",
-      "representative_posted_date": "2026-08-13T04:00:00Z",
-      "representative_length": 1632,
-      "representative_excerpt": "By analyzing surface ECG recordings noninvasively, vMap can identify likely sites of arrhythmia origin from a limited number of arrhythmia cycles. In appropriate patients, this information can help focus the subsequent invasive evaluation, inform procedural strategy, and reduce the amount of time a patient must remain in an unstable rhythm. New software...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2344-0153": {
-          "organization": "",
-          "postedDate": "2026-08-13T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "PA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2344-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.497932900340877
-    },
-    {
-      "cluster_id": 69,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0015",
@@ -2626,10 +2700,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4973773447853214
+      "presentation_score": 0.4598155311911396
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0106",
+      "representative_posted_date": "2026-08-13T04:00:00Z",
+      "representative_length": 437,
+      "representative_excerpt": "Many of these questions focus on making machine-readable files easier to sort, categorize, compare, and analyze. That may help organizations that work with healthcare data, but it does not solve a problem that consumers are asking to have solved. Consumers generally want access to care, affordable costs, and insurance coverage. They are not asking for...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0106": {
+          "organization": "",
+          "postedDate": "2026-08-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4523155311911396
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0110",
+      "representative_posted_date": "2026-08-13T04:00:00Z",
+      "representative_length": 308,
+      "representative_excerpt": "Regarding the removal of the PCI with drug-eluting stent codes--C9601, C9603, C9605 and C9608. Since we can no longer capture an additional DES in coronary branches, I feel there should be a comparable C code similar to the new code 92930 when (2) DES's are placed in a branch or additional coronary segment.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0110": {
+          "organization": "",
+          "postedDate": "2026-08-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "OK",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4523155311911396
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0153",
+      "representative_posted_date": "2026-08-13T04:00:00Z",
+      "representative_length": 1632,
+      "representative_excerpt": "By analyzing surface ECG recordings noninvasively, vMap can identify likely sites of arrhythmia origin from a limited number of arrhythmia cycles. In appropriate patients, this information can help focus the subsequent invasive evaluation, inform procedural strategy, and reduce the amount of time a patient must remain in an unstable rhythm. New software...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0153": {
+          "organization": "",
+          "postedDate": "2026-08-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "PA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4523155311911396
+    },
+    {
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0027",
@@ -2662,10 +2844,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4868217892297659
+      "presentation_score": 0.44731553119113954
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0072",
@@ -2698,10 +2880,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4679329003408769
+      "presentation_score": 0.42231553119113957
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0064",
@@ -2734,10 +2916,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4618217892297659
+      "presentation_score": 0.41981553119113957
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0017",
@@ -2770,10 +2952,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43126623367421035
+      "presentation_score": 0.3923155311911396
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0047",
@@ -2806,10 +2988,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.42904401145198806
+      "presentation_score": 0.38731553119113954
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0077",
@@ -2842,10 +3024,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0082",
@@ -2878,10 +3060,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0089",
@@ -2914,10 +3096,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0102",
@@ -2950,10 +3132,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0105",
@@ -2986,10 +3168,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0116",
@@ -3022,10 +3204,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0119",
@@ -3058,10 +3240,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0140",
@@ -3094,46 +3276,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41793290034087693
+      "presentation_score": 0.3723155311911396
     },
     {
-      "cluster_id": 58,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2344-0026",
-      "representative_posted_date": "2026-07-22T04:00:00Z",
-      "representative_length": 400,
-      "representative_excerpt": "This document is submitted as a supplement to an original comment, submitted by Simple Healthcare under comment ID mrt-lc5t-tjao. Due to an administrative oversight, the technical document referenced throughout our original comment was not included in the initial submission package. We are therefore submitting this document separately as the accompanying...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2344-0026": {
-          "organization": "Simple Healthcare",
-          "postedDate": "2026-07-22T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2344-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4068217892297658
-    },
-    {
-      "cluster_id": 73,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0011",
@@ -3166,10 +3312,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40348845589643256
+      "presentation_score": 0.3673155311911396
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 63,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2344-0026",
+      "representative_posted_date": "2026-07-22T04:00:00Z",
+      "representative_length": 400,
+      "representative_excerpt": "This document is submitted as a supplement to an original comment, submitted by Simple Healthcare under comment ID mrt-lc5t-tjao. Due to an administrative oversight, the technical document referenced throughout our original comment was not included in the initial submission package. We are therefore submitting this document separately as the accompanying...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2344-0026": {
+          "organization": "Simple Healthcare",
+          "postedDate": "2026-07-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2344-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.3673155311911395
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0139",
@@ -3202,10 +3384,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.38793290034087696
+      "presentation_score": 0.34231553119113955
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0033",
@@ -3238,10 +3420,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37904401145198807
+      "presentation_score": 0.33731553119113955
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0035",
@@ -3274,10 +3456,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37904401145198807
+      "presentation_score": 0.33731553119113955
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0056",
@@ -3310,10 +3492,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37904401145198807
+      "presentation_score": 0.33731553119113955
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0101",
@@ -3346,10 +3528,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.337932900340877
+      "presentation_score": 0.29231553119113957
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0008",
@@ -3382,10 +3564,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3207106781186547
+      "presentation_score": 0.28481553119113956
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0009",
@@ -3418,10 +3600,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3207106781186547
+      "presentation_score": 0.28481553119113956
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2344-0010",
@@ -3454,7 +3636,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3207106781186547
+      "presentation_score": 0.28481553119113956
     }
   ],
   "comments_clusters_path": "data/comments/CMS-2026-2344.csv",
@@ -3462,18 +3644,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.43333333333333335,
-  "comments_first_page_coverage_count": 39,
-  "comments_clusters_total_available": 76,
-  "comments_clusters_displayed": 76,
-  "comments_first_page_high_signal_clusters": 17,
-  "comments_first_page_novelty_clusters": 17,
+  "comments_first_page_coverage_share": 0.5333333333333333,
+  "comments_first_page_coverage_count": 64,
+  "comments_clusters_total_available": 81,
+  "comments_clusters_displayed": 81,
+  "comments_first_page_high_signal_clusters": 20,
+  "comments_first_page_novelty_clusters": 15,
   "comments_first_page_stance_counts": {
-    "neutral": 15,
-    "negative": 6,
+    "neutral": 14,
+    "negative": 7,
     "positive": 4
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
