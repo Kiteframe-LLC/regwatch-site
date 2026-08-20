@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-19T09:57:54.992107+00:00",
+  "comment_action_checked_at": "2026-08-20T05:31:34.270690+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,442 @@
   "pass_2_scaled": 0.6982911831727412,
   "pass_3_scaled": 0.5096538350207439,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5788320842450803,
+  "combined_score": 0.779162250901776,
   "score_total": 10,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
   "pass_2_routine_admin_score": 1,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
-  "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_4_raw": 5,
+  "pass_4_scaled": 0.5125000000000001,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 1,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.6,
+    "H": 0.3333333333333333,
+    "E": 1.6666666666666667
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "reasoned_explanation_completeness",
+    "retroactivity_fair_notice_risk",
+    "statutory_authority_fit"
+  ],
+  "pass_4_primary_concern": "The principal concern is that the proposal relies on decentralized agency certification without enough detail about consistent evidence, review, costs, or disputed cases.",
+  "combined_score_pre_pass5": 0.6233298007214209,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "\ud83d\udea9 Nuts \u00b7 Safeguards and Accountability",
+  "pass_5_assessment": "\ud83d\udea9 Nuts \u00b7 Safeguards and Accountability",
+  "pass_5_assessment_tier": "\ud83d\udea9 Nuts",
+  "pass_5_scaled": 1.0,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "self_policing_substitution",
+  "pass_5_worst_flaw_name": "Self-Policing Substitution",
+  "pass_5_material_flaw_count": 4,
+  "pass_5_worst_family_key": "safeguards_and_accountability",
+  "pass_5_worst_family_name": "Safeguards and Accountability",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 4,
+  "pass_5_base_defect_score": 0.906145,
+  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_risk_pressure": 0.1,
+  "pass_5_context_pressure": 0.1,
+  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_risk_multiplier": 1.1,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "",
+  "pass_5_red_flag": true,
+  "pass_5_red_flag_gates": [
+    "Accountability Capture"
+  ],
+  "pass_5_concise_why": "The proposal is legally coherent but depends on agency certification without a sufficiently detailed common process for evidence, review, and disputed cases.",
+  "pass_5_most_important_consequence": "Similarly situated injured first responders could receive different retirement treatment depending on agency certification and recordkeeping practices.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 0.75,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.369
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 0.75,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.369
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.4
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.4
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 1,
+      "mean_severity": 0.4,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.168
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal places the central eligibility certification with the employing agency, while the available text gives limited detail about independent review.",
+      "evidence": [
+        {
+          "section": "Agency Certification Requirement",
+          "quote_or_absence": "The employing agency must certify the qualifying injury or illness and continued ability to serve."
+        }
+      ],
+      "comment_leverage": "Ask OPM to explain review, audit, and appeal safeguards for agency certifications."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The same agency that made the employment and medical determinations controls the certification predicate, but the proposal does not establish a common independent check.",
+      "evidence": [
+        {
+          "section": "Agency Certification Requirement",
+          "quote_or_absence": "The available record does not explain what independent review applies when an agency denies or disputes certification."
+        }
+      ],
+      "comment_leverage": "Request a standardized certification record and an OPM review or appeal process."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal creates consequential retirement treatment based on medical and causation findings without quantifying cases or specifying a uniform evidentiary standard.",
+      "evidence": [
+        {
+          "section": "Agency Certification Requirement",
+          "quote_or_absence": "This review may require assessment of medical information and position-specific requirements."
+        }
+      ],
+      "comment_leverage": "Ask for the evidence standard, privacy safeguards, and examples of difficult cases."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The definitions address timing and eligibility, but the notice gives little detail on workload, forms, records, or interagency implementation.",
+      "evidence": [
+        {
+          "section": "Break in Service",
+          "quote_or_absence": "The available record does not estimate the administrative burden of tracking leave, OWCP status, transfers, and breaks in service."
+        }
+      ],
+      "comment_leverage": "Request implementation guidance, model forms, examples, and workload estimates."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal assumes agencies, OPM, and retirement systems can coordinate covered placements and records without describing the interface.",
+      "evidence": [
+        {
+          "section": "Reappointment With the Same Agency",
+          "quote_or_absence": "If it is not possible to reemploy the employee in the same employing agency, that agency should seek OPM assistance."
+        }
+      ],
+      "comment_leverage": "Ask how cross-agency assistance and records transfer will work."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice recognizes retirement and pay consequences but does not quantify impacts across agencies or employees.",
+      "evidence": [
+        {
+          "section": "Qualifying Reappointment",
+          "quote_or_absence": "The available record does not quantify affected employees or expected retirement-system impacts."
+        }
+      ],
+      "comment_leverage": "Request an impact estimate and distributional analysis."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal does not provide a detailed common checklist, safe harbor, audit protocol, or appeal mechanism for certification decisions.",
+      "evidence": [
+        {
+          "section": "Agency Certification Requirement",
+          "quote_or_absence": "The available record does not specify a uniform evidentiary checklist or appeal pathway."
+        }
+      ],
+      "comment_leverage": "Ask OPM to add standardized documentation and review safeguards."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Decentralized certification may make comparable outcomes harder to audit across agencies.",
+      "evidence": [
+        {
+          "section": "Agency Certification Requirement",
+          "quote_or_absence": "The agency head may assign the certification function to a Chief Medical Officer or another agency-specific official."
+        }
+      ],
+      "comment_leverage": "Ask OPM how it will collect and compare certification outcomes."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "A delayed or denied certification can affect retirement treatment before any clearly described review occurs.",
+      "evidence": [
+        {
+          "section": "Agency Certification Requirement",
+          "quote_or_absence": "The available record does not describe the timing or effect of review after a certification denial."
+        }
+      ],
+      "comment_leverage": "Request interim protections and a prompt review process."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The certification is a gateway to the benefit, but the proposal does not fully describe procedural protections around that gateway.",
+      "evidence": [
+        {
+          "section": "Qualifying Injury or Illness",
+          "quote_or_absence": "To qualify for the benefits ... an affected individual must be certified by his or her employing agency."
+        }
+      ],
+      "comment_leverage": "Ask for notice, reasons, records access, and reconsideration procedures."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Terms such as permanently unable, related position, and qualifying reappointment may produce consequential disputes if not illustrated.",
+      "evidence": [
+        {
+          "section": "Qualifying Injury or Illness",
+          "quote_or_absence": "The injury or illness must render the covered employee permanently unable to provide useful and efficient service in a covered position."
+        }
+      ],
+      "comment_leverage": "Request worked examples and definitions for borderline cases."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Agency discretion over medical, causation, and placement questions could become inconsistent gatekeeping without shared standards.",
+      "evidence": [
+        {
+          "section": "Reappointment With the Same Agency",
+          "quote_or_absence": "The first desired objective is to place affected employees in a covered position."
+        }
+      ],
+      "comment_leverage": "Ask OPM to publish placement and certification criteria that can be audited."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "",
+      "evidence": [],
+      "comment_leverage": ""
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": true,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "assertion_heavy_vs_evidence_language",
     "deregulatory_carveout_signal",
@@ -26088,7 +26480,7 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
   "comments_cached_records": 30,
-  "comments_unique_clusters": 2,
+  "comments_unique_clusters": 8,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
@@ -26119,14 +26511,14 @@
   "comments_sentiment_negative_pct": 0.0,
   "comments_sentiment_neutral_pct": 0.5,
   "comments_sentiment_net": 0.5,
-  "comments_sentiment_sample_size": 2,
+  "comments_sentiment_sample_size": 8,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 2,
+  "comments_analysis_sample_size": 8,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 2,
-  "comments_representative_prior_selected": 0,
+  "comments_representative_selected": 8,
+  "comments_representative_prior_selected": 6,
   "comments_representative_newly_selected": 2,
   "comments_representative_must_keep": 0,
   "comments_representative_run_budget": 2,
@@ -26135,9 +26527,9 @@
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 1,
-    "weighted_fill": 1
+    "weighted_fill": 7
   },
-  "comments_representative_selected_by_counts_total": 2,
+  "comments_representative_selected_by_counts_total": 8,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -26147,7 +26539,223 @@
   "comments_error": null,
   "comments_clusters": [
     {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0008",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 2236,
+      "representative_excerpt": "Many accepted reassignment outside their primary law enforcement roles so they could continue serving the nation after those injuries affected their ability to perform covered law enforcement duties. As a result, they lost access to the enhanced retirement track they had spent years earning. Congress passed the First Responder Fair RETIRE Act, which was...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0008": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Kendall Kabban",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0027",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 2312,
+      "representative_excerpt": "Doing so could result in the loss of important benefits and a substantial reduction in my retirement income. In practical terms, the system creates an incentive for an injured first responder to remain in a physically demanding law enforcement position and continue risking further injury rather than make a medically appropriate career decision....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0027": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
       "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0038",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 3100,
+      "representative_excerpt": "Clarification of these issues would help ensure consistent treatment across agencies and prevent similarly situated first responders from receiving different retirement determinations simply because their occupational injury or illness developed progressively rather than occurring as a single acute event. The purpose of the First Responder Fair RETIRE Act...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0038": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Michael  Snyder",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0039",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 2261,
+      "representative_excerpt": "Does the removal from the covered position date apply as the recognized OPM date and if not what if new injury codes are added in the same file after initiation date of December 9, 2024. DOL and OPM utilize different dates in their systems which could have a poor outcome for individuals caught in this administrative grey area. It should also be noted that...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0039": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Joshua Ashworth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0012",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 964,
+      "representative_excerpt": "OWCP has advised the agency/CBP to place me in a position to accommodate my medical work restriction. I have recently heard of house bill H.R. 521 First Responder Fair Return for Employees on Their Initial Retirement Earned Act, signed 12/2022. I am hopeful that if placed in a non-law enforcement position that I can continue in my same retirement benefit...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0012": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Alvaro Anaya",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.75
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0016",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 938,
+      "representative_excerpt": "I strongly support the proposed First Responder Fair RETIRE Act regulations under Docket OPM-2024-0014. Federal law enforcement officers and other first responders accept careers that routinely require them to place their health and safety at risk in service to others. When an employee suffers a serious injury in the performance of those duties and can no...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0016": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Jeff Zadareky",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.75
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0003",
@@ -26183,7 +26791,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0011",
@@ -26223,22 +26831,22 @@
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 2,
+  "comments_first_page_count": 8,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 2,
-  "comments_clusters_total_available": 2,
-  "comments_clusters_displayed": 2,
+  "comments_first_page_coverage_count": 8,
+  "comments_clusters_total_available": 8,
+  "comments_clusters_displayed": 8,
   "comments_first_page_high_signal_clusters": 0,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 1,
-    "positive": 1
+    "positive": 4,
+    "neutral": 4
   },
   "comments_first_page_unique_days": 1,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/OPM_FRDOC_0001-4600_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "OPM_FRDOC_0001"
