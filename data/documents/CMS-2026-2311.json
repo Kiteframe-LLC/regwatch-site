@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-24T10:03:18.538308+00:00",
+  "comment_action_checked_at": "2026-08-25T10:36:41.202007+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-09-01T03:59:59Z",
   "pass_1_score": 12,
   "pass_2_score": 2,
-  "pass_3_score": 6.76595744680851,
+  "pass_3_score": 6.490196078431373,
   "pass_1_scaled": 0.8048595621585383,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.6762098228840087,
+  "pass_3_scaled": 0.6609810747301521,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.9349933797606291,
+  "combined_score": 0.9246693592836688,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
@@ -85,7 +85,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The proposed temporary behavior adjustment and related payment changes need stronger causal, subgroup, and access analysis.",
-  "combined_score_pre_pass5": 0.7479947038085033,
+  "combined_score_pre_pass5": 0.7397354874269351,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -530,8 +530,8 @@
       "comments_sentiment_net": 0.0,
       "comments_sentiment_sample_size": 0,
       "comments_bulk_last_posted_date": null,
-      "comments_api_last_seen_at": "2026-08-23T05:07:13.047187+00:00",
-      "comments_checked_at": "2026-08-23T05:07:13.047225+00:00",
+      "comments_api_last_seen_at": "2026-08-25T05:17:30.619216+00:00",
+      "comments_checked_at": "2026-08-25T05:17:30.619256+00:00",
       "comments_clusters": [],
       "comments_error": null,
       "matched_green": [],
@@ -555,83 +555,85 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 182,
-  "comments_velocity_total": 177,
-  "comments_public_total_estimate": 177,
-  "comments_fetched": 2,
-  "comments_text_hydrated": 2,
-  "comments_cached_records": 79,
-  "comments_unique_clusters": 40,
-  "comments_clustered_duplicates": 39,
+  "comments_total": 191,
+  "comments_velocity_total": 178,
+  "comments_public_total_estimate": 178,
+  "comments_fetched": 9,
+  "comments_text_hydrated": 13,
+  "comments_cached_records": 88,
+  "comments_unique_clusters": 47,
+  "comments_clustered_duplicates": 41,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 47,
   "comments_commenter_type_counts": {
-    "organization_other": 18,
-    "citizen": 47,
-    "other": 14
+    "organization_other": 26,
+    "other": 15,
+    "citizen": 47
   },
   "comments_submission_role_counts": {
-    "organization": 18,
-    "individual": 47,
-    "unknown": 14
+    "organization": 26,
+    "unknown": 15,
+    "individual": 47
   },
   "comments_submission_channel_counts": {
-    "public_portal": 77,
-    "other_channel_recorded": 2
+    "public_portal": 82,
+    "other_channel_recorded": 6
   },
-  "comments_public_count": 77,
-  "comments_recorded_count": 2,
+  "comments_public_count": 82,
+  "comments_recorded_count": 6,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-24": 9,
     "2026-08-20": 8,
     "2026-08-17": 1,
     "2026-08-14": 3,
-    "2026-08-10": 28
+    "2026-08-10": 26
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-08-24": 7,
     "2026-08-20": 2,
     "2026-08-17": 1,
-    "2026-08-10": 10
+    "2026-08-10": 9
   },
-  "comments_novel_comment_rate": 0.5063291139240507,
-  "comments_sentiment_positive_pct": 0.10670496592878517,
-  "comments_sentiment_negative_pct": 0.4113095032427465,
-  "comments_sentiment_neutral_pct": 0.4819855308284683,
-  "comments_sentiment_net": -0.3046045373139613,
-  "comments_sentiment_sample_size": 78,
+  "comments_novel_comment_rate": 0.5340909090909091,
+  "comments_sentiment_positive_pct": 0.0802990639205936,
+  "comments_sentiment_negative_pct": 0.4462383332268537,
+  "comments_sentiment_neutral_pct": 0.47346260285255287,
+  "comments_sentiment_net": -0.3659392693062601,
+  "comments_sentiment_sample_size": 80,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 79,
+  "comments_analysis_sample_size": 88,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 79,
-  "comments_representative_prior_selected": 79,
+  "comments_representative_selected": 88,
+  "comments_representative_prior_selected": 88,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 22,
-  "comments_representative_run_budget": 10,
+  "comments_representative_must_keep": 30,
+  "comments_representative_run_budget": 15,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 22,
+    "must_keep": 30,
     "salience_rank": 1,
-    "weighted_fill": 56
+    "weighted_fill": 57
   },
-  "comments_representative_selected_by_counts_total": 79,
+  "comments_representative_selected_by_counts_total": 88,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-23T05:07:09.205240+00:00",
-  "comments_checked_at": "2026-08-23T05:07:09.891646+00:00",
+  "comments_api_last_seen_at": "2026-08-25T05:16:20.460752+00:00",
+  "comments_checked_at": "2026-08-25T05:16:21.185975+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 3,
-      "count": 32,
+      "cluster_id": 12,
+      "count": 31,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0182",
       "representative_posted_date": "2026-08-20T04:00:00Z",
@@ -723,10 +725,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5314999168756687
+      "presentation_score": 0.5035633234730196
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 14,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0180",
@@ -804,10 +806,91 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5660444117585577
+      "presentation_score": 0.5386044258791843
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 5,
+      "count": 4,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0189",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Northern Light Health Government Relations 43 Whiting Hill Road Brewer, Maine 04412 Office 207.861.3282 Fax 207.861.3044 Northern Light Health Acadia Hospital A.R. Gould Hospital Blue Hill Hospital C.A. Dean Hospital Eastern Maine Medical Center Home Care & Hospice Inland Hospital Maine Coast Hospital Mayo Hospital Mercy Hospital Northern Light Health...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0189": {
+          "organization": "Northern Light Home Care & Hospice",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        },
+        "CMS-2026-2311-0017": {
+          "organization": "United Medical Accountable Care Organization",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0012": {
+          "organization": "Tobii Dynavox",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2311-0008": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "WA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.617175854450613
+    },
+    {
+      "cluster_id": 20,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0138",
@@ -885,10 +968,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4260444117585578
+      "presentation_score": 0.41574728302204156
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 37,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0021",
@@ -936,17 +1019,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5175598066567094
+      "presentation_score": 0.5183598574567856
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 4,
       "count": 2,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0023",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "CMS also solicits comments on a home health-specific wage index. CMS would also: recalibrate the Patient-Driven Groupings Model (PDGM) case-mix weights and update the low-utilization payment adjustment thresholds, functional impairment levels and comorbidity adjustment subgroups for CY 2027 establish a temporary negative 3 percent adjustment to recoup...",
-      "representative_signal_score": 3,
+      "representative_comment_id": "CMS-2026-2311-0190",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 1423,
+      "representative_excerpt": "Specifically, CMS should strengthen access to home-based palliative care under Section II.F; ensure that payment policies, LUPA thresholds, functional impairment levels, case-mix weights, and payment rate updates under Sections II.D and II.E support access to home health aide services and personal care; consider workforce capacity and payment adequacy...",
+      "representative_signal_score": 1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -954,43 +1037,43 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0023": {
-          "organization": "",
-          "postedDate": "2026-08-10T04:00:00Z",
+        "CMS-2026-2311-0190": {
+          "organization": "The ALS Association",
+          "postedDate": "2026-08-24T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "FL",
-          "country": "United States",
+          "stateProvinceRegion": "",
+          "country": "",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-2311-0002",
           "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "CMS-2026-2311-0008": {
+        "CMS-2026-2311-0080": {
           "organization": "",
-          "postedDate": "2026-08-10T04:00:00Z",
+          "postedDate": "2026-08-14T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "WA",
+          "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-2311-0002",
           "withdrawn": false,
-          "submissionRole": "unknown",
+          "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5175598066567094
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5083598574567857
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0009",
@@ -1023,10 +1106,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6853553390593274
+      "presentation_score": 0.685921060405355
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0004",
@@ -1059,16 +1142,88 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5253553390593274
+      "presentation_score": 0.525921060405355
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0005",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_comment_id": "CMS-2026-2311-0185",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 4007,
+      "representative_excerpt": "The proposed rule seeks comment on promoting community-based palliative care through the existing home health benefit, and simultaneously proposes far-reaching program-integrity measures \u2014 expanded enrollment revocation and denial authority, retroactive revocations \u2014 alongside a temporary behavioral adjustment to recoup prior overpayments. These goals...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0185": {
+          "organization": "co-op.care",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.675921060405355
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0186",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 1416,
+      "representative_excerpt": "We also support CMS' efforts to better align the Home Health Quality Reporting Program and the Expanded Home Health Value-Based Purchasing Model to provide more timely, actionable performance information for providers. Additionally, HMH strongly supports CMS's recognition of home health as an important setting for community-based palliative care. To ensure...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0186": {
+          "organization": "Hackensack Meridian Health",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.675921060405355
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0187",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
       "representative_length": 5000,
-      "representative_excerpt": "Dyad Health, Inc. San Francisco, CA 94114 dyad-health.com hello@dyad-health.com July 10, 2026 Submitted electronically via www.regulations.gov The Administrator Centers for Medicare & Medicaid Services Department of Health and Human Services Attention: CMS-1844-P P.O. Box 8013 Baltimore, MD 21244-8013 RE: CMS-1844-P; RIN 0938-AV80 \u2014 Calendar Year 2027 Home...",
+      "representative_excerpt": "122 C Street NW, Suite 400 Washington, DC 20001 T: 202-842-4444 F: 202-842-3860 www.ahcancal.org The American Health Care Association and National Center for Assisted Living (AHCA/NCAL) represent more than 15,800 non- profit and proprietary skilled nursing centers, assisted living communities, sub-acute centers and homes for individuals with intellectual...",
       "representative_signal_score": 3,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -1077,9 +1232,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0005": {
-          "organization": "Dyad Health",
-          "postedDate": "2026-08-10T04:00:00Z",
+        "CMS-2026-2311-0187": {
+          "organization": "American Health Care Association/National Center for Assisted Living",
+          "postedDate": "2026-08-24T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1095,10 +1250,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5753553390593275
+      "presentation_score": 0.675921060405355
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0188",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 4774,
+      "representative_excerpt": "ABC urges CMS to consider revising all AO reporting timelines to business days. This new deadline should be 5 business days versus calendar days. 2. Detecting and Addressing DMEPOS supplier fraud, waste and abuse. ABC strongly supports all efforts to limit fraud, waste and abuse in the Medicare DMEPOS benefit. Again, CMS proposes a 3-calendar day timeline...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0188": {
+          "organization": "American Board for Certification in Orthotics, Prosthetics and Pedorthics",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.675921060405355
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0191",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Many specialty physicians intentionally locate near hospitals, ambulatory surgery centers (ASCs), and other medical facilities to improve patient access and care coordination. Similarly, physicians often lease space in medical office buildings with numerous unrelated practices. Providers have no ability to control who occupies neighboring office space or...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0191": {
+          "organization": "Alliance of Specialty Medicine",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.675921060405355
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0193",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 3744,
+      "representative_excerpt": "I understand CMS must reconcile past payments. But taking the full temporary adjustment against the calendar year 2027 rate in a single year, on top of four consecutive years of permanent cuts, asks small agencies to absorb the swing without reserves, credit lines or scale. The practical result in a market like ours is fewer small agencies able to say yes...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0193": {
+          "organization": "Arev Home Health Services, Inc.",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.675921060405355
+    },
+    {
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0170",
@@ -1131,10 +1394,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6453553390593274
+      "presentation_score": 0.6259210604053551
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0172",
@@ -1167,53 +1430,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6253553390593274
+      "presentation_score": 0.5973496318339264
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0181",
-      "representative_posted_date": "2026-08-20T04:00:00Z",
-      "representative_length": 3316,
-      "representative_excerpt": "And it is concerning that CMS is already presuming entire states guilty of countenancing Medicaid fraud and holding up matching fund payments, while in a July 21 press conference making the stunning assertion that \u201cif we cut all the fraud out of the healthcare system, it extends the Medicare and Medicaid trust funds out years into the future.\u201d Given that...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0181": {
-          "organization": "New Hampshire Health Care Association",
-          "postedDate": "2026-08-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5953553390593275
-    },
-    {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0183",
-      "representative_posted_date": "2026-08-20T04:00:00Z",
+      "representative_comment_id": "CMS-2026-2311-0005",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
       "representative_length": 5000,
-      "representative_excerpt": "This impairs their ability to store and eliminate bodily waste. They have a surgically-created opening (stoma) on their abdomen for the PO Box 2293, Biddeford, ME 04005 800.826.0826 www.ostomy.org elimination of waste and a \u2018pouching prosthetic system\u2019 is continuously worn over the stoma to contain the waste. Despite great opposition, CMS remains poised to...",
-      "representative_signal_score": 2,
+      "representative_excerpt": "Dyad Health, Inc. San Francisco, CA 94114 dyad-health.com hello@dyad-health.com July 10, 2026 Submitted electronically via www.regulations.gov The Administrator Centers for Medicare & Medicaid Services Department of Health and Human Services Attention: CMS-1844-P P.O. Box 8013 Baltimore, MD 21244-8013 RE: CMS-1844-P; RIN 0938-AV80 \u2014 Calendar Year 2027 Home...",
+      "representative_signal_score": 3,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1221,9 +1448,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0183": {
-          "organization": "United Ostomy Associations of America, Inc. (UOAA)",
-          "postedDate": "2026-08-20T04:00:00Z",
+        "CMS-2026-2311-0005": {
+          "organization": "Dyad Health",
+          "postedDate": "2026-08-10T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1239,46 +1466,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5953553390593275
+      "presentation_score": 0.5759210604053551
     },
     {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0184",
-      "representative_posted_date": "2026-08-20T04:00:00Z",
-      "representative_length": 3922,
-      "representative_excerpt": "CMS should allow reasonable flexibility when a patient temporarily cannot receive an infusion according to the expected schedule, as long as the treatment remains medically necessary and the patient continues to follow their health care provider's plan of care. A temporary delay should not put a patient's ongoing access to an important therapy at risk. 4....",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0184": {
-          "organization": "Fabry Support & Information Group",
-          "postedDate": "2026-08-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5953553390593275
-    },
-    {
-      "cluster_id": 36,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0007",
@@ -1311,82 +1502,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5753553390593275
+      "presentation_score": 0.5759210604053551
     },
     {
-      "cluster_id": 30,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0016",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "AAEC develops Age-Friendly Community (AFC) standards aligned with WHO's 8 Domains of Livability, including AFC-Living (home renovation for aging-in-place), AFC-Travel (senior travel health standards), and AFC-Supply Chain (age-friendly product certification). We serve as a U.S. TAG member for ISO TC 314 (Ageing Societies) and ISO TC 304 (Healthcare...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0016": {
-          "organization": "American Association for Elder Care",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5753553390593275
-    },
-    {
-      "cluster_id": 29,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0017",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "Individualized evidence Require documented evidence tied to the affected provider's own conduct, billing history, ownership, operations, compliance record, or beneficiary risk. Guardrails and appeals Adopt objective decisional factors, provider-specific written findings, access to the supporting evidence, and meaningful pre- and post-deprivation review....",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0017": {
-          "organization": "United Medical Accountable Care Organization",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5753553390593275
-    },
-    {
-      "cluster_id": 14,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0040",
@@ -1419,16 +1538,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5753553390593275
+      "presentation_score": 0.5759210604053551
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0032",
+      "representative_comment_id": "CMS-2026-2311-0016",
       "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 4476,
-      "representative_excerpt": "R. (2024). Providing clarity: Communicating the benefits of palliative care beyond end-of-life support. https://pmc.ncbi.nlm.nih.gov/articles/PMC11265247/ Rodriguez, K. L., Barnato, A. E., Arnold, R. M., et al. (2014). Perceptions and utilization of palliative care services in acute care hospitals. https://pmc.ncbi.nlm.nih.gov/articles/PMC4070316/...",
+      "representative_length": 5000,
+      "representative_excerpt": "AAEC develops Age-Friendly Community (AFC) standards aligned with WHO's 8 Domains of Livability, including AFC-Living (home renovation for aging-in-place), AFC-Travel (senior travel health standards), and AFC-Supply Chain (age-friendly product certification). We serve as a U.S. TAG member for ISO TC 314 (Ageing Societies) and ISO TC 304 (Healthcare...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -1437,44 +1556,80 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0032": {
-          "organization": "",
+        "CMS-2026-2311-0016": {
+          "organization": "American Association for Elder Care",
           "postedDate": "2026-08-10T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "GA",
-          "country": "United States",
+          "stateProvinceRegion": "",
+          "country": "",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-2311-0002",
           "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5253553390593274
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5759210604053551
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0173",
+      "representative_comment_id": "CMS-2026-2311-0181",
       "representative_posted_date": "2026-08-20T04:00:00Z",
-      "representative_length": 982,
-      "representative_excerpt": "Premier specifically recommends CMS do the following: \u2022 Advance a final rule that results in home health payment increases for CY 2027; \u2022 Revise its existing definition of infusion drug administration calendar day to allow for reimbursement of home infusion professional services each day that an infusion drug physically enters the patient\u2019s body...",
-      "representative_signal_score": 1,
+      "representative_length": 3316,
+      "representative_excerpt": "And it is concerning that CMS is already presuming entire states guilty of countenancing Medicaid fraud and holding up matching fund payments, while in a July 21 press conference making the stunning assertion that \u201cif we cut all the fraud out of the healthcare system, it extends the Medicare and Medicaid trust funds out years into the future.\u201d Given that...",
+      "representative_signal_score": 2,
       "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0181": {
+          "organization": "New Hampshire Health Care Association",
+          "postedDate": "2026-08-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5673496318339265
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0183",
+      "representative_posted_date": "2026-08-20T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "This impairs their ability to store and eliminate bodily waste. They have a surgically-created opening (stoma) on their abdomen for the PO Box 2293, Biddeford, ME 04005 800.826.0826 www.ostomy.org elimination of waste and a \u2018pouching prosthetic system\u2019 is continuously worn over the stoma to contain the waste. Despite great opposition, CMS remains poised to...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0173": {
-          "organization": "Premier Inc",
+        "CMS-2026-2311-0183": {
+          "organization": "United Ostomy Associations of America, Inc. (UOAA)",
           "postedDate": "2026-08-20T04:00:00Z",
           "zip": "",
           "city": "",
@@ -1491,16 +1646,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5153553390593274
+      "presentation_score": 0.5673496318339265
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0012",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "Speech-generating devices are medically necessary communication devices used by individuals with conditions such as: \u2022Amyotrophic lateral sclerosis (ALS) \u2022Cerebral palsy \u2022Autism spectrum disorder Tobii Dynavox | 2100 Wharton Street, Suite 400 | Pittsburgh, PA. 15203. USA | Phone: +1 800 344 1778 | us.tobiidynavox.com \u2022Traumatic brain injury \u2022Stroke \u2022Other...",
+      "representative_comment_id": "CMS-2026-2311-0184",
+      "representative_posted_date": "2026-08-20T04:00:00Z",
+      "representative_length": 3922,
+      "representative_excerpt": "CMS should allow reasonable flexibility when a patient temporarily cannot receive an infusion according to the expected schedule, as long as the treatment remains medically necessary and the patient continues to follow their health care provider's plan of care. A temporary delay should not put a patient's ongoing access to an important therapy at risk. 4....",
       "representative_signal_score": 2,
       "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
@@ -1509,9 +1664,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0012": {
-          "organization": "Tobii Dynavox",
-          "postedDate": "2026-08-10T04:00:00Z",
+        "CMS-2026-2311-0184": {
+          "organization": "Fabry Support & Information Group",
+          "postedDate": "2026-08-20T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1527,10 +1682,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4953553390593274
+      "presentation_score": 0.5673496318339265
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0030",
@@ -1563,10 +1718,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4953553390593274
+      "presentation_score": 0.495921060405355
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0039",
@@ -1599,16 +1754,124 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4953553390593274
+      "presentation_score": 0.495921060405355
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0006",
+      "representative_comment_id": "CMS-2026-2311-0192",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 4616,
+      "representative_excerpt": "For a low-income hourly worker, taking another day off means choosing between medical care and lost wages. Fragmenting care in this manner introduces profound clinical risks and runs entirely counter to CMS\u2019s stated goals of expanding mental health integration and improving health equity. Misplaced Cost-Containment Strategies While rising healthcare...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0192": {
+          "organization": "",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.545921060405355
+    },
+    {
+      "cluster_id": 35,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0023",
       "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 422,
-      "representative_excerpt": "See attached file(s) - Regarding the proposed LUPA thresholds found in the file \"CY 2027 Proposed HH PDGM Case Mix Weights and LUPA Thresholds\" (https://www.cms.gov/files/zip/cy-2027-proposed-hh-pdgm-case-mix-weights-lupa-thresholds.zip), Homecare Homebase found a proposed LUPA threshold of 3.5 visits for HIPPS Code \u201c4LC11\u201d and is not sure how to interpret...",
+      "representative_length": 5000,
+      "representative_excerpt": "CMS also solicits comments on a home health-specific wage index. CMS would also: recalibrate the Patient-Driven Groupings Model (PDGM) case-mix weights and update the low-utilization payment adjustment thresholds, functional impairment levels and comorbidity adjustment subgroups for CY 2027 establish a temporary negative 3 percent adjustment to recoup...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0023": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.525921060405355
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0032",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 4476,
+      "representative_excerpt": "R. (2024). Providing clarity: Communicating the benefits of palliative care beyond end-of-life support. https://pmc.ncbi.nlm.nih.gov/articles/PMC11265247/ Rodriguez, K. L., Barnato, A. E., Arnold, R. M., et al. (2014). Perceptions and utilization of palliative care services in acute care hospitals. https://pmc.ncbi.nlm.nih.gov/articles/PMC4070316/...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0032": {
+          "organization": "",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "GA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.525921060405355
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0173",
+      "representative_posted_date": "2026-08-20T04:00:00Z",
+      "representative_length": 982,
+      "representative_excerpt": "Premier specifically recommends CMS do the following: \u2022 Advance a final rule that results in home health payment increases for CY 2027; \u2022 Revise its existing definition of infusion drug administration calendar day to allow for reimbursement of home infusion professional services each day that an infusion drug physically enters the patient\u2019s body...",
       "representative_signal_score": 1,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -1617,9 +1880,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2311-0006": {
-          "organization": "Homecare Homebase",
-          "postedDate": "2026-08-10T04:00:00Z",
+        "CMS-2026-2311-0173": {
+          "organization": "Premier Inc",
+          "postedDate": "2026-08-20T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1635,46 +1898,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.41535533905932737
+      "presentation_score": 0.48734963183392643
     },
     {
-      "cluster_id": 19,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0034",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 1415,
-      "representative_excerpt": "I believe Medicare could save millions keeping these patients at home managed with proper care by skilled licensed people. My hope would be that it would remain under the home health umbrella with new billing codes and guidelines. Making agencies get a new license and entity would be very taxing making us create new entities within our businesses, our...",
-      "representative_signal_score": 1,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0034": {
-          "organization": "BrightenLife Home Health and Hospice",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.41535533905932737
-    },
-    {
-      "cluster_id": 12,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0048",
@@ -1707,10 +1934,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4853553390593274
+      "presentation_score": 0.4744924889767836
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0155",
@@ -1743,46 +1970,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4853553390593274
+      "presentation_score": 0.4744924889767836
     },
     {
-      "cluster_id": 6,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2311-0175",
-      "representative_posted_date": "2026-08-20T04:00:00Z",
-      "representative_length": 1133,
-      "representative_excerpt": "Disenrolling compliant agencies based solely on location could adversely affect Medicare beneficiaries by limiting access to skilled nursing, therapy, medication management, wound care, and post-hospital support. The impact may be particularly significant for elderly, disabled, medically fragile, rural, and underserved beneficiaries who may have limited...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2311-0175": {
-          "organization": "",
-          "postedDate": "2026-08-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-2311-0002",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.46535533905932736
-    },
-    {
-      "cluster_id": 40,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0003",
@@ -1815,10 +2006,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4453553390593274
+      "presentation_score": 0.445921060405355
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0015",
@@ -1851,10 +2042,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4453553390593274
+      "presentation_score": 0.445921060405355
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0022",
@@ -1887,10 +2078,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4453553390593274
+      "presentation_score": 0.445921060405355
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0027",
@@ -1923,10 +2114,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4453553390593274
+      "presentation_score": 0.445921060405355
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0029",
@@ -1959,10 +2150,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4453553390593274
+      "presentation_score": 0.445921060405355
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0035",
@@ -1995,10 +2186,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4453553390593274
+      "presentation_score": 0.445921060405355
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0042",
@@ -2031,10 +2222,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4453553390593274
+      "presentation_score": 0.445921060405355
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0175",
+      "representative_posted_date": "2026-08-20T04:00:00Z",
+      "representative_length": 1133,
+      "representative_excerpt": "Disenrolling compliant agencies based solely on location could adversely affect Medicare beneficiaries by limiting access to skilled nursing, therapy, medication management, wound care, and post-hospital support. The impact may be particularly significant for elderly, disabled, medically fragile, rural, and underserved beneficiaries who may have limited...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0175": {
+          "organization": "",
+          "postedDate": "2026-08-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43734963183392644
+    },
+    {
+      "cluster_id": 44,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0006",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 422,
+      "representative_excerpt": "See attached file(s) - Regarding the proposed LUPA thresholds found in the file \"CY 2027 Proposed HH PDGM Case Mix Weights and LUPA Thresholds\" (https://www.cms.gov/files/zip/cy-2027-proposed-hh-pdgm-case-mix-weights-lupa-thresholds.zip), Homecare Homebase found a proposed LUPA threshold of 3.5 visits for HIPPS Code \u201c4LC11\u201d and is not sure how to interpret...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0006": {
+          "organization": "Homecare Homebase",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.415921060405355
+    },
+    {
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2311-0034",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 1415,
+      "representative_excerpt": "I believe Medicare could save millions keeping these patients at home managed with proper care by skilled licensed people. My hope would be that it would remain under the home health umbrella with new billing codes and guidelines. Making agencies get a new license and entity would be very taxing making us create new entities within our businesses, our...",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2311-0034": {
+          "organization": "BrightenLife Home Health and Hospice",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-2311-0002",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.415921060405355
+    },
+    {
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0037",
@@ -2067,10 +2366,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3653553390593274
+      "presentation_score": 0.365921060405355
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0038",
@@ -2103,10 +2402,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3653553390593274
+      "presentation_score": 0.365921060405355
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0010",
@@ -2139,10 +2438,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.33535533905932735
+      "presentation_score": 0.33592106040535497
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0026",
@@ -2175,10 +2474,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.33535533905932735
+      "presentation_score": 0.33592106040535497
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0028",
@@ -2211,10 +2510,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.33535533905932735
+      "presentation_score": 0.33592106040535497
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2311-0014",
@@ -2247,7 +2546,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.28535533905932736
+      "presentation_score": 0.285921060405355
     }
   ],
   "comments_clusters_path": "data/comments/CMS-2026-2311.csv",
@@ -2255,18 +2554,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.810126582278481,
-  "comments_first_page_coverage_count": 64,
-  "comments_clusters_total_available": 40,
-  "comments_clusters_displayed": 40,
-  "comments_first_page_high_signal_clusters": 13,
-  "comments_first_page_novelty_clusters": 15,
+  "comments_first_page_coverage_share": 0.75,
+  "comments_first_page_coverage_count": 66,
+  "comments_clusters_total_available": 47,
+  "comments_clusters_displayed": 47,
+  "comments_first_page_high_signal_clusters": 17,
+  "comments_first_page_novelty_clusters": 18,
   "comments_first_page_stance_counts": {
-    "negative": 8,
+    "negative": 10,
     "neutral": 13,
-    "positive": 4
+    "positive": 2
   },
-  "comments_first_page_unique_days": 4,
+  "comments_first_page_unique_days": 5,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,

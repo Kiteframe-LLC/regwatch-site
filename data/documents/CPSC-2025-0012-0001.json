@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/CPSC-2025-0012-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-24T10:03:20.946615+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": null,
+  "comment_action_checked_at": null,
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-25T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 3.2711864406779663,
+  "pass_3_score": 3.317460317460317,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.4202728633044164,
+  "pass_3_scaled": 0.4247267035389437,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6347684290634138,
+  "combined_score": 0.6375702841472285,
   "score_total": 9,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -85,7 +85,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The record needs more reproducible product-category evidence connecting modified standards to risk reduction, costs, and least-burdensome alternatives.",
-  "combined_score_pre_pass5": 0.5403042877082127,
+  "combined_score_pre_pass5": 0.5426891799712948,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -435,39 +435,43 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 17,
-  "comments_velocity_total": 16,
-  "comments_public_total_estimate": 16,
-  "comments_fetched": 2,
-  "comments_text_hydrated": 3,
-  "comments_cached_records": 17,
-  "comments_unique_clusters": 17,
-  "comments_clustered_duplicates": 0,
+  "comments_total": 24,
+  "comments_velocity_total": 20,
+  "comments_public_total_estimate": 20,
+  "comments_fetched": 7,
+  "comments_text_hydrated": 11,
+  "comments_cached_records": 24,
+  "comments_unique_clusters": 21,
+  "comments_clustered_duplicates": 3,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 11,
+  "comments_citizen_count": 13,
   "comments_commenter_type_counts": {
-    "citizen": 11,
-    "organization_other": 5,
-    "government": 1
+    "organization_other": 8,
+    "government": 3,
+    "citizen": 13
   },
   "comments_submission_role_counts": {
-    "individual": 12,
-    "organization": 4,
+    "organization": 6,
+    "individual": 15,
+    "government_affiliated_or_unclear": 1,
+    "government_local": 1,
     "government_tribal": 1
   },
   "comments_submission_channel_counts": {
-    "public_portal": 16,
-    "agency_material": 1
+    "other_channel_recorded": 2,
+    "public_portal": 20,
+    "agency_material": 2
   },
-  "comments_public_count": 16,
-  "comments_recorded_count": 0,
-  "comments_agency_material_count": 1,
+  "comments_public_count": 20,
+  "comments_recorded_count": 2,
+  "comments_agency_material_count": 2,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-24": 6,
     "2026-08-21": 2,
-    "2026-08-20": 4,
+    "2026-08-20": 2,
     "2026-08-18": 1,
     "2026-08-11": 1,
     "2026-08-06": 1,
@@ -477,45 +481,162 @@
     "2026-07-16": 2
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-08-24": 1,
     "2026-08-21": 1,
-    "2026-08-20": 2,
     "2026-08-11": 1
   },
-  "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.25,
-  "comments_sentiment_negative_pct": 0.125,
-  "comments_sentiment_neutral_pct": 0.625,
-  "comments_sentiment_net": 0.125,
-  "comments_sentiment_sample_size": 16,
+  "comments_novel_comment_rate": 0.875,
+  "comments_sentiment_positive_pct": 0.11764705882352941,
+  "comments_sentiment_negative_pct": 0.1764705882352941,
+  "comments_sentiment_neutral_pct": 0.7058823529411764,
+  "comments_sentiment_net": -0.05882352941176469,
+  "comments_sentiment_sample_size": 17,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 17,
+  "comments_analysis_sample_size": 24,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 17,
-  "comments_representative_prior_selected": 17,
+  "comments_representative_selected": 24,
+  "comments_representative_prior_selected": 24,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 7,
+  "comments_representative_must_keep": 11,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 7,
+    "must_keep": 11,
     "salience_rank": 1,
-    "weighted_fill": 9
+    "weighted_fill": 12
   },
-  "comments_representative_selected_by_counts_total": 17,
+  "comments_representative_selected_by_counts_total": 24,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-23T05:07:49.712693+00:00",
-  "comments_checked_at": "2026-08-23T05:07:49.909847+00:00",
+  "comments_api_last_seen_at": "2026-08-25T06:25:39.641303+00:00",
+  "comments_checked_at": "2026-08-25T06:25:39.915255+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 8,
+      "cluster_id": 4,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0021",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "CPSC\u20132025\u20130012. https://www.govinfo.gov/content/pkg/FR-2026-06-24/pdf/2026-12749.pdf 2 91 Fed. Reg. at 38162, 38173\u201338174 (incident data for January 1, 2019 through December 31, 2023, as documented in CPSC databases as of November 1, 2024). 3 UL Standards & Engagement. (2020). ANSI/CAN/UL 2849: Standard...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0021": {
+          "organization": "",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Bike Fort Collins",
+          "withdrawn": false,
+          "submissionRole": "government_local",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        },
+        "CPSC-2025-0012-0016": {
+          "organization": "The League of American Bicyclists",
+          "postedDate": "2026-08-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from The League of American Bicyclists",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CPSC-2025-0012-0014": {
+          "organization": "Reconnect Rochester",
+          "postedDate": "2026-08-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Reconnect Rochester",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.9303368801111204
+    },
+    {
+      "cluster_id": 3,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0023",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Unfortunately, in 2021, NYC saw an increase in \ufb01res...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0023": {
+          "organization": "",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from New York City Fire Department (FDNY)",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        },
+        "CPSC-2025-0012-0022": {
+          "organization": "TIC Council",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from TIC Council",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8075257895089213
+    },
+    {
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0011",
@@ -548,82 +669,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9222222222222223
+      "presentation_score": 0.8321367205045919
     },
     {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CPSC-2025-0012-0014",
-      "representative_posted_date": "2026-08-20T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "ANSI/CAN/UL/ULC 2271: Standard for safety for batteries for use in light electric vehicle (LEV) applications. Read-only copies available at https://www.ulstandards.com/IBR/logon.aspx 2 91 Fed. Reg. at 38162, 38173\u201338174 (incident data for January 1, 2019 through December 31, 2023, as documented in CPSC databases as of November 1, 2024). 1 U.S. Consumer...",
-      "representative_signal_score": 3,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CPSC-2025-0012-0014": {
-          "organization": "Reconnect Rochester",
-          "postedDate": "2026-08-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Reconnect Rochester",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.9972222222222223
-    },
-    {
-      "cluster_id": 3,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CPSC-2025-0012-0016",
-      "representative_posted_date": "2026-08-20T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "CPSC\u20132024\u20130008. https://downloads.regulations.gov/CPSC-2024-0008-0194/attachment_1.pdf 2 91 Fed. Reg. at 38162, 38173\u201338174 (incident data for January 1, 2019 through December 31, 2023, as documented in CPSC databases as of November 1, 2024). 1 U.S. Consumer Product Safety Commission. (2026). Safety standard for lithium-ion batteries used in micromobility...",
-      "representative_signal_score": 3,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CPSC-2025-0012-0016": {
-          "organization": "The League of American Bicyclists",
-          "postedDate": "2026-08-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from The League of American Bicyclists",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.9972222222222223
-    },
-    {
-      "cluster_id": 1,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0018",
@@ -656,10 +705,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.8577777461456175
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0003",
@@ -692,10 +741,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7666666666666666
+      "presentation_score": 0.6821367205045918
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0009",
@@ -728,10 +777,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7694444444444444
+      "presentation_score": 0.6808546692225406
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0010",
@@ -764,10 +813,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.825
+      "presentation_score": 0.7359828743507457
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0012",
@@ -800,10 +849,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8083333333333332
+      "presentation_score": 0.7167521051199764
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0025",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "As an American National Standards Institute (ANSI)-accredited standards developer, NFPA has extensive experience producing nationally recognized codes and standards through an open, balanced, and consensus-based process. NFPA strongly agrees with the need to protect public safety and supports the CPSC\u2019s ef- forts to encourage the adoption of widely...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0025": {
+          "organization": "National Fire Protection Association",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from National Fire Protection Association",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7821367205045918
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0017",
@@ -836,10 +921,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8166666666666665
+      "presentation_score": 0.7244444128122841
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0024",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 354,
+      "representative_excerpt": "DoorDash, Inc. submits the attached comment in support of the Consumer Product Safety Commission\u2019s proposed safety standard for lithium-ion batteries used in micromobility products and their electrical systems, Docket No. CPSC-2025-0012. The attached letter explains DoorDash\u2019s support for a clear, enforceable federal safety baseline for these products.",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0024": {
+          "organization": "DoorDash",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from DoorDash",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6488033871712585
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0020",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 92,
+      "representative_excerpt": "Comment on CPSC-2025-0012 E-Bike Compliance Baseline, Online Commerce, and Equal Enforcement",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0020": {
+          "organization": "",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Michael DeRouville",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5988033871712585
+    },
+    {
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0013",
@@ -872,10 +1029,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6805555555555555
+      "presentation_score": 0.5885469769148483
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0015",
@@ -908,10 +1065,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5972222222222223
+      "presentation_score": 0.505213643581515
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CPSC-2025-0012-0019",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 399,
+      "representative_excerpt": "Kadiwala: 6. I recommend several changes that would strengthen the proposed requirements and better address the risk of fires and other hazards associated with incompatible, improperly designed, or inadequately certified aftermarket chargers. Please note that the views expressed are mine alone and not those of any agency, organization, or other individual(...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CPSC-2025-0012-0019": {
+          "organization": "",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Mitchell Berger",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0008",
@@ -944,10 +1137,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5027777777777778
+      "presentation_score": 0.4141880025558739
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0005",
@@ -980,10 +1173,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48055555555555557
+      "presentation_score": 0.3936751820430534
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0006",
@@ -1016,10 +1209,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48055555555555557
+      "presentation_score": 0.3936751820430534
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0007",
@@ -1052,10 +1245,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48055555555555557
+      "presentation_score": 0.3936751820430534
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0004",
@@ -1088,10 +1281,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46944444444444444
+      "presentation_score": 0.38341877178664313
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CPSC-2025-0012-0002",
@@ -1124,12 +1317,28 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3654700538379252
     }
   ],
   "comments_clusters_path": "data/comments/CPSC-2025-0012.csv",
-  "government_submissions_count": 1,
+  "government_submissions_count": 2,
   "government_submissions": [
+    {
+      "comment_id": "CPSC-2025-0012-0021",
+      "organization": "",
+      "posted_date": "2026-08-24T04:00:00Z",
+      "title": "Comment from Bike Fort Collins",
+      "attachment_count": 0,
+      "submission_role": "government_local",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "CPSC\u20132025\u20130012. https://www.govinfo.gov/content/pkg/FR-2026-06-24/pdf/2026-12749.pdf 2 91 Fed. Reg. at 38162, 38173\u201338174 (incident data for January 1, 2019 through December 31, 2023, as documented in CPSC databases as of November 1, 2024). 3 UL Standards & Engagement. (2020). ANSI/CAN/UL 2849: Standard...",
+      "source_cluster_ids": [
+        4
+      ]
+    },
     {
       "comment_id": "CPSC-2025-0012-0012",
       "organization": "",
@@ -1143,24 +1352,24 @@
       "withdrawn": false,
       "representative_excerpt": "Thank you very much in advance for USA taking into account comments from P.R. China. Your formal reply will be appreciated. Best regards, Jiao Yang Deputy Director General China WTO/TBT National Notification & Enquiry Center No.20\uff0cHepingli East Street, Dongcheng District, Beijing Post Code: 100013 Tel: 86-10-57954605 Fax: 86-10-57954683 E-mail: tbt@customs....",
       "source_cluster_ids": [
-        7
+        11
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 17,
+  "comments_first_page_count": 21,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 17,
-  "comments_clusters_total_available": 17,
-  "comments_clusters_displayed": 17,
-  "comments_first_page_high_signal_clusters": 4,
-  "comments_first_page_novelty_clusters": 5,
+  "comments_first_page_coverage_count": 24,
+  "comments_clusters_total_available": 21,
+  "comments_clusters_displayed": 21,
+  "comments_first_page_high_signal_clusters": 3,
+  "comments_first_page_novelty_clusters": 7,
   "comments_first_page_stance_counts": {
-    "positive": 4,
-    "neutral": 11,
-    "negative": 2
+    "positive": 3,
+    "neutral": 14,
+    "negative": 4
   },
-  "comments_first_page_unique_days": 9,
+  "comments_first_page_unique_days": 10,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
