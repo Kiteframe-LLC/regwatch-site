@@ -9,9 +9,9 @@
   "comment_action_url": "https://www.regulations.gov/commenton/CFTC-2026-1388-0001",
   "comment_action_label": "Comment",
   "comment_action_supported": true,
-  "comment_action_status_code": 403,
-  "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-26T05:32:37.145844+00:00",
+  "comment_action_status_code": null,
+  "comment_action_error": null,
+  "comment_action_checked_at": null,
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-08-27T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 2,
-  "pass_3_score": 4.419354838709678,
+  "pass_3_score": 4.625,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.5212415745471188,
+  "pass_3_scaled": 0.5373726151885867,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5549995936331051,
+  "combined_score": 0.5630651139538391,
   "score_total": 9,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -107,7 +107,7 @@
       "comment_end_date": "2026-08-27T03:59:59Z",
       "pass_1_score": 19,
       "pass_2_score": 2,
-      "pass_3_score": 0.13793103448275862,
+      "pass_3_score": 0.4838709677419355,
       "meta_document_type_score": 5,
       "meta_agency_score": 0,
       "meta_title_signal_score": 2,
@@ -212,52 +212,104 @@
       "pass_2_error": null,
       "pass_1_scaled": 0.9247713643401202,
       "pass_2_scaled": 0.5501593812969283,
-      "pass_3_scaled": 0.022726283260053437,
+      "pass_3_scaled": 0.07747902047204058,
       "ranking_multiplier": 1.0,
-      "combined_score": 0.3988264271914484,
+      "combined_score": 0.42620279579744197,
       "supporting_related_material_count": 0,
       "supporting_related_material": [],
       "supporting_docs_error": null,
-      "comments_total": 4,
-      "comments_fetched": 0,
-      "comments_text_hydrated": 0,
-      "comments_cached_records": 4,
-      "comments_unique_clusters": 4,
-      "comments_clustered_duplicates": 0,
+      "comments_total": 15,
+      "comments_fetched": 11,
+      "comments_text_hydrated": 16,
+      "comments_cached_records": 15,
+      "comments_unique_clusters": 14,
+      "comments_clustered_duplicates": 1,
       "comments_truncated": true,
       "comments_source": "api",
       "comments_zip_prefix_span": 0,
       "comments_citizen_count": 2,
       "comments_commenter_type_counts": {
-        "organization_other": 2,
+        "organization_other": 13,
         "citizen": 2
       },
       "comments_submission_role_counts": {
-        "organization": 2,
+        "organization": 13,
         "individual": 2
       },
       "comments_new_cluster_count_by_day": {
+        "2026-08-26": 10,
         "2026-08-17": 1,
         "2026-08-03": 2,
         "2026-07-29": 1
       },
       "comments_high_signal_cluster_count_by_day": {
+        "2026-08-26": 2,
         "2026-08-17": 1,
         "2026-08-03": 1,
         "2026-07-29": 1
       },
-      "comments_novel_comment_rate": 1.0,
-      "comments_sentiment_positive_pct": 0.25,
-      "comments_sentiment_negative_pct": 0.25,
-      "comments_sentiment_neutral_pct": 0.5,
+      "comments_novel_comment_rate": 0.9333333333333333,
+      "comments_sentiment_positive_pct": 0.13712753803111316,
+      "comments_sentiment_negative_pct": 0.13712753803111316,
+      "comments_sentiment_neutral_pct": 0.7257449239377736,
       "comments_sentiment_net": 0.0,
-      "comments_sentiment_sample_size": 4,
+      "comments_sentiment_sample_size": 15,
       "comments_bulk_last_posted_date": null,
-      "comments_api_last_seen_at": "2026-08-25T05:10:14.128555+00:00",
-      "comments_checked_at": "2026-08-25T05:10:14.210355+00:00",
+      "comments_api_last_seen_at": "2026-08-27T06:59:34.466276+00:00",
+      "comments_checked_at": "2026-08-27T06:59:34.713802+00:00",
       "comments_clusters": [
         {
-          "cluster_id": 4,
+          "cluster_id": 1,
+          "count": 2,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0125",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 4999,
+          "representative_excerpt": "That is because market activity may be low during extended-hours trading, which \u201ccan lead to wider spreads and fewer available quotes\u201d and \u201ccreate additional execution risk for traders.\u201d9 In general, a market works well if people are actually trading. Simply opening a market does not create liquidity. Instead, liquidity comes from people actively trading....",
+          "representative_signal_score": 2,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [
+            8
+          ],
+          "submissions": {
+            "CFTC-2026-1388-0125": {
+              "organization": "Better Markets",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, Better Markets",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            },
+            "CFTC-2026-1388-0111": {
+              "organization": "National Grain and Feed Association",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, National Grain and Feed Association",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.8442264733233761
+        },
+        {
+          "cluster_id": 14,
           "count": 1,
           "page_count": 0,
           "representative_comment_id": "CFTC-2026-1388-0080",
@@ -287,10 +339,10 @@
               "submissionChannelConfidence": "medium"
             }
           },
-          "presentation_score": 0.9000000000000001
+          "presentation_score": 0.8414213562373096
         },
         {
-          "cluster_id": 2,
+          "cluster_id": 12,
           "count": 1,
           "page_count": 0,
           "representative_comment_id": "CFTC-2026-1388-0082",
@@ -320,10 +372,10 @@
               "submissionChannelConfidence": "medium"
             }
           },
-          "presentation_score": 0.8763157894736843
+          "presentation_score": 0.8092784990944525
         },
         {
-          "cluster_id": 1,
+          "cluster_id": 11,
           "count": 1,
           "page_count": 0,
           "representative_comment_id": "CFTC-2026-1388-0088",
@@ -353,10 +405,43 @@
               "submissionChannelConfidence": "medium"
             }
           },
-          "presentation_score": 1.0
+          "presentation_score": 0.9092784990944525
         },
         {
-          "cluster_id": 3,
+          "cluster_id": 9,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0110",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 4547,
+          "representative_excerpt": "Kalshi lists KXWTI, a daily event contract on WTI crude. It resolves against the daily settlement price of a named ICE WTI contract month. It quotes straight through weekends: near strikes open Friday night and close Tuesday afternoon, and longer-dated strikes have been open since May. Its book is overwhelmingly retail. That is Question 20's structure...",
+          "representative_signal_score": 3,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0110": {
+              "organization": "Prediction Markets Picks",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, Prediction Markets Picks",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.9414213562373096
+        },
+        {
+          "cluster_id": 13,
           "count": 1,
           "page_count": 0,
           "representative_comment_id": "CFTC-2026-1388-0081",
@@ -386,7 +471,273 @@
               "submissionChannelConfidence": "medium"
             }
           },
-          "presentation_score": 0.7429824561403507
+          "presentation_score": 0.675945165761119
+        },
+        {
+          "cluster_id": 7,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0113",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 5000,
+          "representative_excerpt": "While hedging needs rarely expire, standard futures contracts invariably do. A refiner that must buy crude every day it operates, an airline that burns jet fuel on every flight it sells, and a producer whose wells will produce oil for years to come all hold exposures of indefinite duration. Hedging them with maturity -based contracts requires periodically...",
+          "representative_signal_score": 2,
+          "representative_stance": "positive",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0113": {
+              "organization": "Paradigm Operations LP",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, Paradigm Operations LP",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.8080880229039761
+        },
+        {
+          "cluster_id": 4,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0122",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 5000,
+          "representative_excerpt": "Securities and Exchange Commission, Press Release 2026-69, SEC Announces Roundtable on Preparations for 24-Hour Trading (Jul. 23, 2026), https://www.sec.gov/newsroom/press-releases/2026-69-sec-announces-roundtable-preparations-24-hour-trading?utm _medium=email&utm_source=govdelivery. 2 London Stock Exchange to launch LSE 24, London St...",
+          "representative_signal_score": 2,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0122": {
+              "organization": "Rothera Exchange and Clearing",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, Rothera Exchange and Clearing",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.8080880229039761
+        },
+        {
+          "cluster_id": 10,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0109",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 728,
+          "representative_excerpt": "VeloxVFX LLC supports responsible modernization alongside existing exchanges, derivatives clearing organizations, futures commission merchants, banks, custodians...",
+          "representative_signal_score": 1,
+          "representative_stance": "negative",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0109": {
+              "organization": "VeloxVFX LLC",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, VeloxVFX LLC",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.6747546895706428
+        },
+        {
+          "cluster_id": 3,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0123",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 1089,
+          "representative_excerpt": "Member companies span the power, natural-gas, petroleum, brokerage, consulting, and related sectors. The CCRO provides an independent platform for practitioners to share knowledge, develop and document risk practices, publish technical work, and undertake constructive industry initiatives. Participants include chief risk officers and senior professionals...",
+          "representative_signal_score": 1,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0123": {
+              "organization": "Committee of Chief Risk Officers",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, Committee of Chief Risk Officers",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.6747546895706428
+        },
+        {
+          "cluster_id": 2,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0124",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 261,
+          "representative_excerpt": "Crypto Council for Innovation respectfully submits this letter in response to the CFTC request for comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities.",
+          "representative_signal_score": 1,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0124": {
+              "organization": "Crypto Council for Innovation",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, Crypto Council for Innovation",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.6747546895706428
+        },
+        {
+          "cluster_id": 6,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0114",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 136,
+          "representative_excerpt": "Comments of the American Fuel & Petrochemical Manufacturers on Continuous Trading of Standard Futures Contracts and Perpetual Contracts.",
+          "representative_signal_score": 0,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0114": {
+              "organization": "American Fuel and Petrochemical Manufacturers",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, American Fuel and Petrochemical Manufacturers",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.5414213562373096
+        },
+        {
+          "cluster_id": 5,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0121",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 53,
+          "representative_excerpt": "Joint Comments re 24/7 Trading on Perpetual Contracts",
+          "representative_signal_score": 0,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "CFTC-2026-1388-0121": {
+              "organization": "AGA, APGA, and EPSA",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, AGA, APGA, and EPSA",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.5414213562373096
+        },
+        {
+          "cluster_id": 8,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "CFTC-2026-1388-0112",
+          "representative_posted_date": "2026-08-26T04:00:00Z",
+          "representative_length": 5000,
+          "representative_excerpt": "Washington 1099 New York Avenue, NW, 6th Floor | Washington, DC 20001 New York 140 Broadway, 35th Floor | New York, NY 10005 Submitted Electronically August 26, 2026 Mr. Kirkpatrick: The Securities Industry and Financial Markets Association and its Asset Management Group1 (collectively, \u201cSIFMA\u201d) appreciates the opportunity to submit this letter in response...",
+          "representative_signal_score": 3,
+          "representative_stance": "neutral",
+          "representative_submission_channel": "public_portal",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": true,
+          "neighbor_cluster_ids": [
+            1
+          ],
+          "submissions": {
+            "CFTC-2026-1388-0112": {
+              "organization": "SIFMA and SIFMA AMG",
+              "postedDate": "2026-08-26T04:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0061, SIFMA and SIFMA AMG",
+              "withdrawn": false,
+              "submissionRole": "organization",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "public_portal",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.9414213562373096
         }
       ],
       "comments_error": null,
@@ -401,14 +752,14 @@
         "\\bextension of (the )?(comment|public comment) period\\b"
       ],
       "comments_submission_channel_counts": {
-        "public_portal": 4
+        "public_portal": 15
       },
-      "comments_public_count": 4,
+      "comments_public_count": 15,
       "comments_recorded_count": 0,
       "comments_agency_material_count": 0,
       "comments_unknown_channel_count": 0,
-      "comments_public_total_estimate": 4,
-      "comments_velocity_total": 4
+      "comments_public_total_estimate": 15,
+      "comments_velocity_total": 15
     }
   ],
   "referenced_documents": [],
@@ -417,41 +768,43 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 91,
-  "comments_velocity_total": 88,
-  "comments_public_total_estimate": 88,
-  "comments_fetched": 7,
-  "comments_text_hydrated": 10,
-  "comments_cached_records": 91,
-  "comments_unique_clusters": 41,
-  "comments_clustered_duplicates": 48,
+  "comments_total": 108,
+  "comments_velocity_total": 104,
+  "comments_public_total_estimate": 104,
+  "comments_fetched": 17,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 108,
+  "comments_unique_clusters": 55,
+  "comments_clustered_duplicates": 51,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 66,
   "comments_commenter_type_counts": {
+    "organization_other": 41,
     "citizen": 66,
-    "organization_other": 24,
     "government": 1
   },
   "comments_submission_role_counts": {
-    "individual": 66,
-    "organization": 25
+    "organization": 42,
+    "individual": 66
   },
   "comments_submission_channel_counts": {
-    "public_portal": 88,
-    "other_channel_recorded": 2,
+    "public_portal": 104,
+    "other_channel_recorded": 3,
     "agency_material": 1
   },
-  "comments_public_count": 88,
-  "comments_recorded_count": 2,
+  "comments_public_count": 104,
+  "comments_recorded_count": 3,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-08-26": 14,
+    "2026-08-25": 1,
     "2026-08-24": 7,
     "2026-08-17": 4,
     "2026-08-10": 1,
-    "2026-08-06": 2,
+    "2026-08-06": 1,
     "2026-07-28": 4,
     "2026-07-27": 8,
     "2026-07-24": 5,
@@ -461,49 +814,50 @@
     "2026-07-07": 5
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-08-26": 4,
+    "2026-08-25": 1,
     "2026-08-24": 2,
     "2026-08-17": 1,
-    "2026-08-06": 1,
     "2026-07-28": 1,
     "2026-07-27": 2,
     "2026-07-24": 1,
     "2026-07-22": 2
   },
-  "comments_novel_comment_rate": 0.4725274725274725,
-  "comments_sentiment_positive_pct": 0.2080917269116728,
-  "comments_sentiment_negative_pct": 0.2502689512856319,
-  "comments_sentiment_neutral_pct": 0.5416393218026955,
-  "comments_sentiment_net": -0.04217722437395913,
-  "comments_sentiment_sample_size": 86,
+  "comments_novel_comment_rate": 0.5277777777777778,
+  "comments_sentiment_positive_pct": 0.18624278646838754,
+  "comments_sentiment_negative_pct": 0.2547891876232252,
+  "comments_sentiment_neutral_pct": 0.5589680259083873,
+  "comments_sentiment_net": -0.06854640115483768,
+  "comments_sentiment_sample_size": 102,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 89,
+  "comments_analysis_sample_size": 106,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 89,
-  "comments_representative_prior_selected": 89,
+  "comments_representative_selected": 106,
+  "comments_representative_prior_selected": 106,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 32,
+  "comments_representative_must_keep": 49,
   "comments_representative_run_budget": 2,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 32,
+    "must_keep": 49,
     "salience_rank": 1,
     "weighted_fill": 56
   },
-  "comments_representative_selected_by_counts_total": 89,
+  "comments_representative_selected_by_counts_total": 106,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-25T05:10:10.172347+00:00",
-  "comments_checked_at": "2026-08-25T05:10:11.148897+00:00",
+  "comments_api_last_seen_at": "2026-08-27T06:48:24.988185+00:00",
+  "comments_checked_at": "2026-08-27T06:48:26.430399+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 1,
+      "cluster_id": 16,
       "count": 19,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0097",
@@ -596,10 +950,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5434520501738336
+      "presentation_score": 0.5394520501738336
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 26,
       "count": 9,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0084",
@@ -692,10 +1046,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.43872306079815
+      "presentation_score": 0.43622306079815
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 19,
       "count": 8,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0094",
@@ -788,10 +1142,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5035570402329647
+      "presentation_score": 0.49955704023296466
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 50,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0020",
@@ -884,10 +1238,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.3929588251796605
+      "presentation_score": 0.3921254918463272
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 17,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0096",
@@ -965,10 +1319,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5071000271881277
+      "presentation_score": 0.5031000271881277
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 33,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0058",
@@ -1031,10 +1385,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46147548820168977
+      "presentation_score": 0.4598088215350231
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 18,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0095",
@@ -1082,61 +1436,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6324483751090144
+      "presentation_score": 0.6284483751090144
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 3,
       "count": 2,
       "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0032",
-      "representative_posted_date": "2026-07-24T04:00:00Z",
-      "representative_length": 2723,
-      "representative_excerpt": "Standard futures require a trader to monitor expiration dates and periodically roll a position into another contract. That adds cost and creates another opportunity to make a mistake. A perpetual contract would make it easier to maintain a longer-term view or hedge without repeatedly managing monthly rolls. Any funding rate and its effect on the position...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_comment_id": "CFTC-2026-1388-0118",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "We do not address questions primarily directed at designated contract markets (\u201cDCMs\u201d) regarding contract self-certification burdens, deliverable supply analysis, or physical market structure, as those matters fall outside our operational scope as a broker and FCM. We encourage the Commission to consider the FCM and retail-customer perspective alongside...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CFTC-2026-1388-0032": {
-          "organization": "",
-          "postedDate": "2026-07-24T04:00:00Z",
+        "CFTC-2026-1388-0118": {
+          "organization": "Robinhood Derivatives, LLC",
+          "postedDate": "2026-08-26T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Matthew, Morataya",
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Robinhood Derivatives, LLC",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "CFTC-2026-1388-0031": {
-          "organization": "",
-          "postedDate": "2026-07-24T04:00:00Z",
+        "CFTC-2026-1388-0117": {
+          "organization": "Nodal Exchange, LLC",
+          "postedDate": "2026-08-26T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Derek, McLain",
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Nodal Exchange, LLC",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4878650417756811
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6824483751090145
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0059",
@@ -1169,10 +1523,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.737549813440779
+      "presentation_score": 0.7358831467741124
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0100",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "Farmers, grain elevators, biofuels processors, feed mills, flour mills, livestock operators, cotton gins, dairy processors, and even consumer packaged goods companies all utilize nearby and deferred agriculture futures and options to manage price risk. Changes to current market dynamics would likely result in increased execution costs for every link in the...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0100": {
+          "organization": "National Council of Farmer Cooperatives",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, National Council of Farmer Cooperatives",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6858831467741123
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0105",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Institutions\u2014including global exchanges, market makers, and proprietary trading firms \u2014publish proprietary price and liquidity data directly to Pyth, derived from 1 Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities, 91 Fed. Reg....",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0105": {
+          "organization": "Douro Labs LLC",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Douro Labs LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6858831467741123
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0116",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Economy in 2023 (prepared by PwC US Tax LLP , Oct. 2025), available at API Economic Study. 2 markets that are used every day to support physical supply chains, benchmark pricing, commercial hedging, clearing, settlement, and end-user risk management. Collectively, the members of API and NGSA operate across the oil and natural gas value chain, including...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0116": {
+          "organization": "American Petroleum Institute",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, American Petroleum Institute",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6858831467741123
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0098",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 4493,
+      "representative_excerpt": "Question 40 asks whether a reference-price methodology can provide manipulation-resistant observability at every funding interval, including overnight and weekend periods of reduced liquidity. We measured the funding rates actually paid on Hyperliquid, the venue we use, across the 180 days ending July 25, 2026. That is 4,320 consecutive hourly funding...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0098": {
+          "organization": "Kerne",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Kerne",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6838831467741123
+    },
+    {
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0093",
@@ -1205,46 +1703,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6858831467741123
+      "presentation_score": 0.6818831467741123
     },
     {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0083",
-      "representative_posted_date": "2026-08-06T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "New trading hours and new contract designs should not impose prefunding burdens, weekend liquidation risk, or degraded liquidity on participants hedging physical exposure. Commercial hedgers have real-world and futures exposure to the price of a commodity and would have no way to simply opt out of managing those positions if off-hour trading is shifting...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CFTC-2026-1388-0083": {
-          "organization": "Commodity Markets Council",
-          "postedDate": "2026-08-06T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Commodity Markets Council",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6483831467741124
-    },
-    {
-      "cluster_id": 9,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0086",
@@ -1277,10 +1739,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.621299813440779
+      "presentation_score": 0.6178831467741124
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0022",
@@ -1313,10 +1775,292 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6171331467741124
+      "presentation_score": 0.6158831467741124
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0099",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Email: support@argusmedia.com www.argusmedia.com Amsterdam \u00ab Astana \u00a2 Beijing * Brussels * Calgary * Cape Town \u00ab Dubai * Granada * Hamburg + Houston \u00ab Jakarta * Kyiv * Lagos \u00ab London \u00ab Mexico City * Mumbai * New York \u00a2 Paris \u00ab Pittsburgh * Riga * San Francisco \u00ab Sao Paulo * Seoul * Shanghai * Singapore * Sydney \u00a2 Tbilisi * Tokyo * Washington argusmedia.com...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0099": {
+          "organization": "Argus Media",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Argus Media",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6058831467741125
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0103",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "TDC represents more than 250 companies innovating in the digital asset and blockchain industry and advocates for policies that foster responsible innovation, protect market participants, and support the long-term growth of the digital asset ecosystem. TDC\u2019s members include global financial institutions, emerging technology companies, software developers...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0103": {
+          "organization": "The Digital Chamber",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, The Digital Chamber",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6058831467741125
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0106",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Properly regulated U.S. markets can offer deeper liquidity, cleaner hedges, and stronger protections for customers and market integrity than the offshore alternative. PTG therefore urges the Commission to support a conditions-based path for bringing this activity onshore. Christopher J. Kirkpatrick, Commodity Futures Trading Commission August 26, 2026 Page...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0106": {
+          "organization": "PTG Markets",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, PTG Markets",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6058831467741125
     },
     {
       "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0107",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Market participants require clear, durable, and legally binding regulatory standards 1 CFTC Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and Trading and Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities , 91 Fed Reg 38334 (June 25, 2026). 2 CFTC Agency Financial Report Fiscal Year 2025...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0107": {
+          "organization": "Intercontinental Exchange Inc. (\"ICE\")",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Intercontinental Exchange Inc. (\"ICE\")",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6058831467741125
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0119",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Eversheds Sutherland (US) LLP 700 Sixth Street, NW, Suite 700 Washington, DC 20001-3980 T: +1 202.383.0100 F: +1 202.637.3593 Eversheds Sutherland (US) LLP is part of a global legal practice, operating through various separate and distinct legal entit ies, under Eversheds Sutherland. For a full description of the structure and a list of offices, please...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0119": {
+          "organization": "Eversheds Sutherland US LLP, on behalf of the Commercial Energy Working Group",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Eversheds Sutherland US LLP, on behalf of the Commercial Energy Working Group",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6058831467741125
+    },
+    {
+      "cluster_id": 5,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0115",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Securities and Exchange Commission, Press Release 2026-69, SEC Announces Roundtable on Preparations for 24-Hour Trading (Jul. 23, 2026), https://www.sec.gov/newsroom/press-releases/2026-69-sec-announces-roundtable-preparations-24-hour-trading?utm _medium=email&utm_source=govdelivery. 2 London Stock Exchange to launch LSE 24, London St...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0115": {
+          "organization": "Rothera Exchange and Clearing",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Rothera Exchange and Clearing",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CFTC-2026-1388-0083": {
+          "organization": "Commodity Markets Council",
+          "postedDate": "2026-08-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Commodity Markets Council",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6024483751090145
+    },
+    {
+      "cluster_id": 1,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0120",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "That is because market activity may be low during extended-hours trading, which \u201ccan lead to wider spreads and fewer available quotes\u201d and \u201ccreate additional execution risk for traders.\u201d9 In general, a market works well if people are actually trading. Simply opening a market does not create liquidity. Instead, liquidity comes from people actively trading....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0120": {
+          "organization": "Better Markets",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Better Markets",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CFTC-2026-1388-0102": {
+          "organization": "Hyperliquid Policy Center and trade[XYZ]",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Hyperliquid Policy Center and trade[XYZ]",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6024483751090145
+    },
+    {
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0091",
@@ -1349,10 +2093,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6058831467741125
+      "presentation_score": 0.6018831467741125
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0092",
@@ -1385,10 +2129,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6058831467741125
+      "presentation_score": 0.6018831467741125
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0090",
@@ -1421,10 +2165,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5912998134407791
+      "presentation_score": 0.5878831467741125
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0063",
@@ -1457,10 +2201,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5796331467741123
+      "presentation_score": 0.5778831467741123
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0055",
@@ -1493,10 +2237,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5775498134407789
+      "presentation_score": 0.5758831467741123
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 40,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0039",
+      "representative_posted_date": "2026-07-24T04:00:00Z",
+      "representative_length": 3004,
+      "representative_excerpt": "I support extending standard energy futures to 24/7 trading and allowing perpetual energy contracts to be listed on properly regulated U.S. My experience has shown me how much market access matters when important news breaks. Energy prices respond to wars, OPEC announcements, hurricanes, political events, and overseas...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0039": {
+          "organization": "",
+          "postedDate": "2026-07-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Paul, Aston",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5698831467741123
+    },
+    {
+      "cluster_id": 47,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0024",
+      "representative_posted_date": "2026-07-22T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "1 Bluford H. Putnam Economist and Data Scientist Bayesian Edge July 21, 2026 Mr. Christopher J. Kirkpatrick Secretary U.S. Commodity Futures Trading Commission Three Lafayette Centre 1155 21st Street NW Washington, DC 20581 Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0024": {
+          "organization": "",
+          "postedDate": "2026-07-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Bluford, Putnam",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5658831467741123
+    },
+    {
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0040",
@@ -1529,10 +2345,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.541299813440779
+      "presentation_score": 0.5398831467741124
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0025",
@@ -1565,10 +2381,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5371331467741124
+      "presentation_score": 0.5358831467741124
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0002",
@@ -1604,238 +2420,7 @@
       "presentation_score": 0.5058831467741124
     },
     {
-      "cluster_id": 10,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0085",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 1147,
-      "representative_excerpt": "This 24/7 trading will introduce an unrelenting exhaustion and unnecessary staffing increases to producers to participate in the trading market around the clock 7 days a week. In addition it will not allow for cooling off periods and the ability to access the market before trading thoughtfully and not in a pressured reaction due to modern trading dynamics....",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CFTC-2026-1388-0085": {
-          "organization": "JMA Energy Company LLC",
-          "postedDate": "2026-08-10T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, JMA Energy Company LLC",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4967164801074457
-    },
-    {
-      "cluster_id": 34,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0023",
-      "representative_posted_date": "2026-07-22T04:00:00Z",
-      "representative_length": 307,
-      "representative_excerpt": "See the attached comment letter from the Energy Infrastructure Council and the Liquid Energy Pipeline Association re: Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities (RIN 3038-AF75)",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CFTC-2026-1388-0023": {
-          "organization": "Energy Infrastructure Council & Liquid Energy Pipeline Association",
-          "postedDate": "2026-07-22T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Energy Infrastructure Council & Liquid Energy Pipeline Association",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4571331467741124
-    },
-    {
-      "cluster_id": 31,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0026",
-      "representative_posted_date": "2026-07-22T04:00:00Z",
-      "representative_length": 528,
-      "representative_excerpt": "UNITED STATES COMMODITY FUTURES TRADING COMMISSION Three Lafayette Centre 1155 21st Street, NW Washington, DC 20581 Meeting Title: Meeting with Marathon Petroleum Corporation Date: 7/22/2026 CFTC Attendees: Emma Johnston External Attendees: Dan Kimmel, Dan Short, Paul Martin, Dakin Christenson, Patrick Matheny, Jake Hinch, Michael Birsic Name of...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CFTC-2026-1388-0026": {
-          "organization": "Marathon Petroleum Corporation",
-          "postedDate": "2026-07-22T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Meeting with Marathon Petroleum Corporation",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "CFTC-2026-1388-0019": {
-          "organization": "",
-          "postedDate": "2026-07-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Meeting with American Fuel & Petrochemical Manufacturers (AFPM)",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4536983751090144
-    },
-    {
-      "cluster_id": 38,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0005",
-      "representative_posted_date": "2026-07-07T04:00:00Z",
-      "representative_length": 587,
-      "representative_excerpt": "UNITED STATES COMMODITY FUTURES TRADING COMMISSION Three Lafayette Centre 1155 21st Street, NW Washington, DC 20581 Meeting Title: Meeting with FIA Board Clearing Members Date: 6/24/2026 CFTC Attendees: Chairman Selig, Amir Zaidi, Alex Titus, Cal Mitchell External Attendees: Walt Lukken, Jackie Mesa, Allison Lurton, Darin Guries, Alicia Crighton, Emma...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CFTC-2026-1388-0005": {
-          "organization": "FIA Board members",
-          "postedDate": "2026-07-07T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Meeting with FIA Board Clearing Members",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.4258831467741124
-    },
-    {
-      "cluster_id": 26,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0039",
-      "representative_posted_date": "2026-07-24T04:00:00Z",
-      "representative_length": 3004,
-      "representative_excerpt": "I support extending standard energy futures to 24/7 trading and allowing perpetual energy contracts to be listed on properly regulated U.S. My experience has shown me how much market access matters when important news breaks. Energy prices respond to wars, OPEC announcements, hurricanes, political events, and overseas...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CFTC-2026-1388-0039": {
-          "organization": "",
-          "postedDate": "2026-07-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Paul, Aston",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.571299813440779
-    },
-    {
-      "cluster_id": 33,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CFTC-2026-1388-0024",
-      "representative_posted_date": "2026-07-22T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "1 Bluford H. Putnam Economist and Data Scientist Bayesian Edge July 21, 2026 Mr. Christopher J. Kirkpatrick Secretary U.S. Commodity Futures Trading Commission Three Lafayette Centre 1155 21st Street NW Washington, DC 20581 Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CFTC-2026-1388-0024": {
-          "organization": "",
-          "postedDate": "2026-07-22T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Bluford, Putnam",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5671331467741123
-    },
-    {
-      "cluster_id": 15,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0068",
@@ -1868,10 +2453,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4996331467741124
+      "presentation_score": 0.4978831467741124
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0074",
@@ -1904,10 +2489,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4996331467741124
+      "presentation_score": 0.4978831467741124
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0042",
@@ -1940,10 +2525,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4975498134407791
+      "presentation_score": 0.4958831467741124
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0050",
@@ -1976,10 +2561,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4975498134407791
+      "presentation_score": 0.4958831467741124
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0051",
@@ -2012,10 +2597,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4975498134407791
+      "presentation_score": 0.4958831467741124
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0056",
@@ -2048,10 +2633,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4975498134407791
+      "presentation_score": 0.4958831467741124
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 28,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0073",
@@ -2099,10 +2684,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49619837510901443
+      "presentation_score": 0.4944483751090144
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0085",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 1147,
+      "representative_excerpt": "This 24/7 trading will introduce an unrelenting exhaustion and unnecessary staffing increases to producers to participate in the trading market around the clock 7 days a week. In addition it will not allow for cooling off periods and the ability to access the market before trading thoughtfully and not in a pressured reaction due to modern trading dynamics....",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0085": {
+          "organization": "JMA Energy Company LLC",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, JMA Energy Company LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4938831467741124
+    },
+    {
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0029",
@@ -2135,10 +2756,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49129981344077905
+      "presentation_score": 0.4898831467741124
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0028",
@@ -2171,10 +2792,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48921648010744573
+      "presentation_score": 0.4878831467741124
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 42,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0032",
+      "representative_posted_date": "2026-07-24T04:00:00Z",
+      "representative_length": 2723,
+      "representative_excerpt": "Standard futures require a trader to monitor expiration dates and periodically roll a position into another contract. That adds cost and creates another opportunity to make a mistake. A perpetual contract would make it easier to maintain a longer-term view or hedge without repeatedly managing monthly rolls. Any funding rate and its effect on the position...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0032": {
+          "organization": "",
+          "postedDate": "2026-07-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Matthew, Morataya",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CFTC-2026-1388-0031": {
+          "organization": "",
+          "postedDate": "2026-07-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Derek, McLain",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4864483751090144
+    },
+    {
+      "cluster_id": 41,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0036",
@@ -2222,10 +2894,205 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4878650417756811
+      "presentation_score": 0.4864483751090144
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 48,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0023",
+      "representative_posted_date": "2026-07-22T04:00:00Z",
+      "representative_length": 307,
+      "representative_excerpt": "See the attached comment letter from the Energy Infrastructure Council and the Liquid Energy Pipeline Association re: Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities (RIN 3038-AF75)",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0023": {
+          "organization": "Energy Infrastructure Council & Liquid Energy Pipeline Association",
+          "postedDate": "2026-07-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Energy Infrastructure Council & Liquid Energy Pipeline Association",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4558831467741124
+    },
+    {
+      "cluster_id": 45,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0026",
+      "representative_posted_date": "2026-07-22T04:00:00Z",
+      "representative_length": 528,
+      "representative_excerpt": "UNITED STATES COMMODITY FUTURES TRADING COMMISSION Three Lafayette Centre 1155 21st Street, NW Washington, DC 20581 Meeting Title: Meeting with Marathon Petroleum Corporation Date: 7/22/2026 CFTC Attendees: Emma Johnston External Attendees: Dan Kimmel, Dan Short, Paul Martin, Dakin Christenson, Patrick Matheny, Jake Hinch, Michael Birsic Name of...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0026": {
+          "organization": "Marathon Petroleum Corporation",
+          "postedDate": "2026-07-22T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Meeting with Marathon Petroleum Corporation",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CFTC-2026-1388-0019": {
+          "organization": "",
+          "postedDate": "2026-07-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Meeting with American Fuel & Petrochemical Manufacturers (AFPM)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4524483751090144
+    },
+    {
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0101",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 272,
+      "representative_excerpt": "The letter addresses the RFC\u2019s two central questions through a shared design lens: maintaining continuous market operation and price discipline without weakening the fixed-calendar mechanics that make energy futures effective hedges. See attached article for full comment.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0101": {
+          "organization": "Monolith Institutional LLC",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, Monolith Institutional LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4458831467741124
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0108",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 106,
+      "representative_excerpt": "AFPM Comments on Extending Standard Futures Contracts to Continuous Trading and on Perpetual Contarcts.pdf",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0108": {
+          "organization": "American Fuel and Petrochemical Manufacturers",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, American Fuel and Petrochemical Manufacturers",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4458831467741124
+    },
+    {
+      "cluster_id": 52,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0005",
+      "representative_posted_date": "2026-07-07T04:00:00Z",
+      "representative_length": 587,
+      "representative_excerpt": "UNITED STATES COMMODITY FUTURES TRADING COMMISSION Three Lafayette Centre 1155 21st Street, NW Washington, DC 20581 Meeting Title: Meeting with FIA Board Clearing Members Date: 6/24/2026 CFTC Attendees: Chairman Selig, Amir Zaidi, Alex Titus, Cal Mitchell External Attendees: Walt Lukken, Jackie Mesa, Allison Lurton, Darin Guries, Alicia Crighton, Emma...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0005": {
+          "organization": "FIA Board members",
+          "postedDate": "2026-07-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Meeting with FIA Board Clearing Members",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.4258831467741124
+    },
+    {
+      "cluster_id": 51,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0012",
@@ -2276,7 +3143,7 @@
       "presentation_score": 0.4224483751090144
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0060",
@@ -2309,10 +3176,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41754981344077907
+      "presentation_score": 0.4158831467741124
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0003",
@@ -2348,7 +3215,43 @@
       "presentation_score": 0.3758831467741124
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CFTC-2026-1388-0104",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 50,
+      "representative_excerpt": "Comments of BP Products North America Inc. (BPPNA)",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CFTC-2026-1388-0104": {
+          "organization": "BP Products North America Inc.",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CFTC-2026-1388, CFTC-2026-1388-0001, BP Products North America Inc.",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.3658831467741123
+    },
+    {
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CFTC-2026-1388-0004",
@@ -2400,24 +3303,24 @@
       "withdrawn": false,
       "representative_excerpt": "The Australian Cotton Shippers Association (AU ACSA) appreciates the opportunity to respond to the Commodity Futures Trading Commission\u2019s request for comment. ACSA Australia\u2019s full comments on 24/7 trading of standard futures contracts and perpetual contracts referencing physical commodities are provided in the attached submission.",
       "source_cluster_ids": [
-        17
+        31
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.7865168539325843,
-  "comments_first_page_coverage_count": 70,
-  "comments_clusters_total_available": 41,
-  "comments_clusters_displayed": 41,
-  "comments_first_page_high_signal_clusters": 8,
-  "comments_first_page_novelty_clusters": 15,
+  "comments_first_page_coverage_share": 0.6698113207547169,
+  "comments_first_page_coverage_count": 71,
+  "comments_clusters_total_available": 55,
+  "comments_clusters_displayed": 55,
+  "comments_first_page_high_signal_clusters": 10,
+  "comments_first_page_novelty_clusters": 18,
   "comments_first_page_stance_counts": {
-    "negative": 7,
-    "neutral": 16,
-    "positive": 2
+    "negative": 9,
+    "neutral": 13,
+    "positive": 3
   },
-  "comments_first_page_unique_days": 10,
+  "comments_first_page_unique_days": 8,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
