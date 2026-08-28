@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-27T10:23:01.744463+00:00",
+  "comment_action_checked_at": "2026-08-28T06:30:21.176687+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -157,7 +157,7 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 33,
   "comments_cached_records": 30,
-  "comments_unique_clusters": 25,
+  "comments_unique_clusters": 30,
   "comments_clustered_duplicates": 0,
   "comments_truncated": false,
   "comments_source": "api",
@@ -187,30 +187,30 @@
     "2026-08-26": 7
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.12000000000000001,
-  "comments_sentiment_negative_pct": 0.24000000000000002,
-  "comments_sentiment_neutral_pct": 0.6400000000000001,
-  "comments_sentiment_net": -0.12000000000000001,
-  "comments_sentiment_sample_size": 25,
+  "comments_sentiment_positive_pct": 0.09999999999999999,
+  "comments_sentiment_negative_pct": 0.19999999999999998,
+  "comments_sentiment_neutral_pct": 0.7000000000000001,
+  "comments_sentiment_net": -0.09999999999999999,
+  "comments_sentiment_sample_size": 30,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 25,
+  "comments_analysis_sample_size": 30,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 25,
-  "comments_representative_prior_selected": 21,
-  "comments_representative_newly_selected": 4,
+  "comments_representative_selected": 30,
+  "comments_representative_prior_selected": 30,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 5,
-  "comments_representative_run_budget": 4,
+  "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "must_keep": 5,
     "salience_rank": 2,
-    "weighted_fill": 18
+    "weighted_fill": 23
   },
-  "comments_representative_selected_by_counts_total": 25,
+  "comments_representative_selected_by_counts_total": 30,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -219,6 +219,42 @@
   "comments_checked_at": "2026-08-27T06:09:34.185221+00:00",
   "comments_error": null,
   "comments_clusters": [
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0030",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 2194,
+      "representative_excerpt": "Can a blanket link to the institution\u2019s policies be provided? Additional thoughts: At a time when resources are very scarce, it will be hard for institutions to have to manually provide written explanations for all students transfer courses that were denied. To avoid providing written explanations for many courses, I fear institutions will start accepting...",
+      "representative_signal_score": 4,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0030": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9500000000000001
+    },
     {
       "cluster_id": 2,
       "count": 1,
@@ -256,7 +292,7 @@
       "presentation_score": 1.0
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0013",
@@ -292,7 +328,7 @@
       "presentation_score": 0.9
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0025",
@@ -328,7 +364,7 @@
       "presentation_score": 0.85
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0026",
@@ -364,7 +400,7 @@
       "presentation_score": 0.85
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0029",
@@ -436,7 +472,7 @@
       "presentation_score": 0.85
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0011",
@@ -472,7 +508,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0012",
@@ -508,7 +544,43 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0015",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 1311,
+      "representative_excerpt": "When a large percentage of students are Pell recipients, those outcomes become especially important because students can use limited Pell eligibility and incur Federal student-loan debt while attending a high-cost private program. If enrollment is strong but completion, licensure, or placement is weak\u2014particularly among Pell recipients or identifiable...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0015": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "Semmes",
+          "stateProvinceRegion": "AL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.75
+    },
+    {
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0016",
@@ -544,7 +616,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0017",
@@ -580,7 +652,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0022",
@@ -616,7 +688,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0024",
@@ -652,7 +724,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0020",
@@ -688,7 +760,7 @@
       "presentation_score": 0.7000000000000001
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0003",
@@ -724,7 +796,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0008",
@@ -760,7 +832,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0021",
@@ -796,7 +868,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0028",
@@ -832,7 +904,43 @@
       "presentation_score": 0.6000000000000001
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0004",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 286,
+      "representative_excerpt": "See attached letter articulating my concerns about proposed changes to Accreditation, Innovation, and Modernization: The Secretary's Recognition of Accrediting Agencies: Institutional Eligibility Under the Higher Education Act of 1965, as Amended, Student Assistance General Provisions.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0004": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "Halfmoon",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0005",
@@ -868,7 +976,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0006",
@@ -904,7 +1012,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0007",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 261,
+      "representative_excerpt": "I agree entirely with the order. We need to break up accreditation monopolies that have prioritized ideology over quality and DEI over merit. I speak as someone who has earned a Bachelor\u2019s degree and two Master\u2019s degrees from regionally-accredited institutions.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0007": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "North Royalton",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0009",
@@ -940,7 +1084,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0010",
@@ -976,7 +1120,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0014",
@@ -1012,7 +1156,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0018",
@@ -1048,7 +1192,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0019",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 220,
+      "representative_excerpt": "Some of those goals could benefit students substantially, but the effectiveness of the reforms will depend on whether increased flexibility can be achieved without weakening educational quality or professional standards.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0019": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0023",
@@ -1084,7 +1264,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0027",
@@ -1125,16 +1305,16 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 1.0,
+  "comments_first_page_coverage_share": 0.8333333333333334,
   "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 25,
-  "comments_clusters_displayed": 25,
-  "comments_first_page_high_signal_clusters": 6,
+  "comments_clusters_total_available": 30,
+  "comments_clusters_displayed": 30,
+  "comments_first_page_high_signal_clusters": 7,
   "comments_first_page_novelty_clusters": 4,
   "comments_first_page_stance_counts": {
+    "neutral": 16,
     "negative": 6,
-    "positive": 3,
-    "neutral": 16
+    "positive": 3
   },
   "comments_first_page_unique_days": 1,
   "summary_available": false,
