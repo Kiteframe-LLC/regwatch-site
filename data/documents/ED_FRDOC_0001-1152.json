@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-08-29T10:12:08.488460+00:00",
+  "comment_action_checked_at": "2026-08-30T06:34:07.973159+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,417 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.9739606949073537,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7813591538132225,
+  "combined_score": 1.0,
   "score_total": 9,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
   "pass_2_routine_admin_score": 4,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 6,
+  "pass_4_scaled": 0.6375000000000001,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 1,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 2,
+    "environmental_justice_analysis_risk": 1,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.6,
+    "H": 1.3333333333333333,
+    "E": 1.6666666666666667
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "environmental_justice_analysis_risk",
+    "federalism_preemption_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
+  ],
+  "pass_4_primary_concern": "The proposal's broad package-level benefits and implementation safeguards are not fully supported by the available RIA and baseline evidence.",
+  "combined_score_pre_pass5": 0.856076622896612,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Extreme \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Extreme \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Extreme",
+  "pass_5_scaled": 0.9165373046874999,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 7,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 4,
+  "pass_5_base_defect_score": 0.890898,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.1,
+  "pass_5_context_pressure": 0.235,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.1,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "Accreditation recognition affects access to Federal student aid and student transfer and completion pathways.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal changes the gatekeeping architecture for institutions and accreditors while relying on several underdeveloped causal and implementation links.",
+  "pass_5_most_important_consequence": "If safeguards and evidence are insufficient, students may face uneven quality, transfer, or institutional-disruption risks before effective review mechanisms operate.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.5,
+      "material_flaw_count": 3,
+      "material_share": 0.75,
+      "family_score": 0.5
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 2,
+      "material_share": 0.667,
+      "family_score": 0.475
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 0.667,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.375
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 0.4,
+      "material_flaw_count": 1,
+      "material_share": 0.2,
+      "family_score": 0.335
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal identifies the relevant mechanism, but the available record does not fully connect the stated remedy to evidence, safeguards, or implementation details.",
+      "evidence": [
+        {
+          "section": "I-II",
+          "quote_or_absence": "The available export does not provide sufficient provision-specific evidence, operational safeguards, or quantitative analysis to resolve this concern."
+        }
+      ],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal identifies the relevant mechanism, but the available record does not fully connect the stated remedy to evidence, safeguards, or implementation details.",
+      "evidence": [
+        {
+          "section": "I-II",
+          "quote_or_absence": "The available export does not provide sufficient provision-specific evidence, operational safeguards, or quantitative analysis to resolve this concern."
+        }
+      ],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal identifies the relevant mechanism, but the available record does not fully connect the stated remedy to evidence, safeguards, or implementation details.",
+      "evidence": [
+        {
+          "section": "I-II",
+          "quote_or_absence": "The available export does not provide sufficient provision-specific evidence, operational safeguards, or quantitative analysis to resolve this concern."
+        }
+      ],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal identifies the relevant mechanism, but the available record does not fully connect the stated remedy to evidence, safeguards, or implementation details.",
+      "evidence": [
+        {
+          "section": "I-II",
+          "quote_or_absence": "The available export does not provide sufficient provision-specific evidence, operational safeguards, or quantitative analysis to resolve this concern."
+        }
+      ],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal identifies the relevant mechanism, but the available record does not fully connect the stated remedy to evidence, safeguards, or implementation details.",
+      "evidence": [
+        {
+          "section": "I-II",
+          "quote_or_absence": "The available export does not provide sufficient provision-specific evidence, operational safeguards, or quantitative analysis to resolve this concern."
+        }
+      ],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available NPRM text does not establish this defect.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The proposal identifies the relevant mechanism, but the available record does not fully connect the stated remedy to evidence, safeguards, or implementation details.",
+      "evidence": [
+        {
+          "section": "I-II",
+          "quote_or_absence": "The available export does not provide sufficient provision-specific evidence, operational safeguards, or quantitative analysis to resolve this concern."
+        }
+      ],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal identifies the relevant mechanism, but the available record does not fully connect the stated remedy to evidence, safeguards, or implementation details.",
+      "evidence": [
+        {
+          "section": "I-II",
+          "quote_or_absence": "The available export does not provide sufficient provision-specific evidence, operational safeguards, or quantitative analysis to resolve this concern."
+        }
+      ],
+      "comment_leverage": "Ask the Department to provide provision-specific evidence, definitions, safeguards, and implementation analysis."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": true,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "high_scope_exclusion_language"
@@ -13070,7 +13437,7 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
   "comments_cached_records": 60,
-  "comments_unique_clusters": 45,
+  "comments_unique_clusters": 60,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
@@ -13102,19 +13469,19 @@
     "2026-08-26": 7
   },
   "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.08888888888888889,
-  "comments_sentiment_negative_pct": 0.37777777777777777,
-  "comments_sentiment_neutral_pct": 0.5333333333333333,
-  "comments_sentiment_net": -0.28888888888888886,
-  "comments_sentiment_sample_size": 45,
+  "comments_sentiment_positive_pct": 0.08333333333333337,
+  "comments_sentiment_negative_pct": 0.35000000000000014,
+  "comments_sentiment_neutral_pct": 0.5666666666666664,
+  "comments_sentiment_net": -0.2666666666666668,
+  "comments_sentiment_sample_size": 60,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 45,
+  "comments_analysis_sample_size": 60,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 45,
-  "comments_representative_prior_selected": 25,
-  "comments_representative_newly_selected": 20,
+  "comments_representative_selected": 60,
+  "comments_representative_prior_selected": 60,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 6,
   "comments_representative_run_budget": 19,
   "comments_representative_overflow": false,
@@ -13123,9 +13490,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 6,
     "salience_rank": 4,
-    "weighted_fill": 35
+    "weighted_fill": 50
   },
-  "comments_representative_selected_by_counts_total": 45,
+  "comments_representative_selected_by_counts_total": 60,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -13135,7 +13502,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 21,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0030",
@@ -13171,7 +13538,7 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0031",
@@ -13207,7 +13574,7 @@
       "presentation_score": 0.9000000000000001
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0013",
@@ -13243,7 +13610,7 @@
       "presentation_score": 0.8
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0025",
@@ -13279,7 +13646,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0026",
@@ -13315,7 +13682,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0029",
@@ -13351,7 +13718,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0032",
@@ -13423,7 +13790,7 @@
       "presentation_score": 0.9
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0085",
@@ -13459,7 +13826,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0133",
@@ -13531,7 +13898,7 @@
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0011",
@@ -13567,7 +13934,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0012",
@@ -13603,7 +13970,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0015",
@@ -13639,7 +14006,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0016",
@@ -13675,7 +14042,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0017",
@@ -13711,7 +14078,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0022",
@@ -13747,7 +14114,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0024",
@@ -13783,7 +14150,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0020",
@@ -13819,7 +14186,7 @@
       "presentation_score": 0.6000000000000001
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0084",
@@ -13855,7 +14222,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0098",
@@ -13891,7 +14258,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0139",
@@ -13927,7 +14294,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0151",
@@ -13999,7 +14366,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0028",
@@ -14035,7 +14402,7 @@
       "presentation_score": 0.5
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0003",
@@ -14071,7 +14438,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0008",
@@ -14107,7 +14474,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0021",
@@ -14143,7 +14510,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0087",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 604,
+      "representative_excerpt": "The obvious political bias and cynical elasticity of the standards that government would be allowed to impose on colleges and universities present a clear danger, though it would be wrong for government to try to run higher education no matter what ideology or motives were involved. Just as with the weakening of the wall of separation between church and...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0087": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Philadelphia",
+          "stateProvinceRegion": "PA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0090",
@@ -14179,7 +14582,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0092",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 165,
+      "representative_excerpt": "Please keep the Administration's divisive ideology and politics out of federal accreditation of colleges and universities. Both would chill genuine academic freedom.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0092": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0102",
@@ -14215,7 +14654,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0105",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 124,
+      "representative_excerpt": "D. U. of California, Berkeley, 1965) concerned about the proposed revision of the accreditation process in higher education.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0105": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Bloomington",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0110",
@@ -14251,7 +14726,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0113",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 394,
+      "representative_excerpt": "I ask that the proposed rules for the Accreditation, Innovation and Modernization of higher education institutions be rejected. The accreditation process may need minor tweaking around the edges but little more than that. For many years, the system has served its purpose well. Institutions regularly are subjected to oversight with rigorous standards. DO...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0113": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0114",
@@ -14287,7 +14798,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0122",
@@ -14323,7 +14834,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0124",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 307,
+      "representative_excerpt": "Given the centrality of accreditation to the financial viability of education institutions, the threat of re-evaluation of their accreditation for vague requirements involving \u201cviewpoint\u201d and \u201cideology\u201d open the door to pressure campaigns by government that would threaten freedom of thought and expression.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0124": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Berkeley",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0130",
@@ -14359,7 +14906,115 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0132",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 102,
+      "representative_excerpt": "I am calling on you to withdraw the proposal on academic accreditation in support of academic freedom.",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0132": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "San Rafael",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0134",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 128,
+      "representative_excerpt": "Once again, another political agenda that increases biases; once again, another trail diminishing democracy for political gains.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0134": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Santa Monica",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0136",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 300,
+      "representative_excerpt": "Diversity of thought makes America great. If colleges are policed by the federal government as to what constitutes diversity of thought, then that by itself will narrow the variety of thought and discussion happening in our universities. I do not support the plans to reform the accredit ion process.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0136": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    },
+    {
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0137",
@@ -14395,7 +15050,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0142",
@@ -14431,7 +15086,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0149",
@@ -14467,7 +15122,43 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 59,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0004",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 286,
+      "representative_excerpt": "See attached letter articulating my concerns about proposed changes to Accreditation, Innovation, and Modernization: The Secretary's Recognition of Accrediting Agencies: Institutional Eligibility Under the Higher Education Act of 1965, as Amended, Student Assistance General Provisions.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0004": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "Halfmoon",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45
+    },
+    {
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0005",
@@ -14503,7 +15194,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0006",
@@ -14539,7 +15230,43 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 56,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0007",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 261,
+      "representative_excerpt": "I agree entirely with the order. We need to break up accreditation monopolies that have prioritized ideology over quality and DEI over merit. I speak as someone who has earned a Bachelor\u2019s degree and two Master\u2019s degrees from regionally-accredited institutions.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0007": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "North Royalton",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45
+    },
+    {
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0009",
@@ -14575,7 +15302,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0010",
@@ -14611,7 +15338,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0014",
@@ -14647,7 +15374,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0018",
@@ -14683,7 +15410,43 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 44,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0019",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 220,
+      "representative_excerpt": "Some of those goals could benefit students substantially, but the effectiveness of the reforms will depend on whether increased flexibility can be achieved without weakening educational quality or professional standards.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0019": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45
+    },
+    {
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0023",
@@ -14719,7 +15482,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ED-2025-OPE-1042-0027",
@@ -14753,6 +15516,150 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.45
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0091",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 31,
+      "representative_excerpt": "I want to save higher education",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0091": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Bronx",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0131",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 43,
+      "representative_excerpt": "OBJECTION TO PROPOSED EDUCATION REGULATIONS",
+      "representative_signal_score": -1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0131": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Plainville",
+          "stateProvinceRegion": "CT",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0148",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 78,
+      "representative_excerpt": "Nature needs us now,every second counts! The time to act is now! Eco-Mobilize!",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0148": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Moraine",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ED-2025-OPE-1042-0161",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 59,
+      "representative_excerpt": "Withdraw your proposal to remake the accreditation process.",
+      "representative_signal_score": -1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ED-2025-OPE-1042-0161": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "Defiance",
+          "stateProvinceRegion": "OH",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44999999999999996
     }
   ],
   "comments_clusters_path": "data/comments/ED_FRDOC_0001.csv",
@@ -14760,10 +15667,10 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.5555555555555556,
+  "comments_first_page_coverage_share": 0.4166666666666667,
   "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 45,
-  "comments_clusters_displayed": 45,
+  "comments_clusters_total_available": 60,
+  "comments_clusters_displayed": 60,
   "comments_first_page_high_signal_clusters": 8,
   "comments_first_page_novelty_clusters": 5,
   "comments_first_page_stance_counts": {
@@ -14772,10 +15679,10 @@
     "positive": 3
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/ED_FRDOC_0001-1152_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "ED_FRDOC_0001"
