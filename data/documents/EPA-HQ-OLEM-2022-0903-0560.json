@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-01T06:38:08.508707+00:00",
+  "comment_action_checked_at": "2026-09-02T09:28:07.369789+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-09-15T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 2,
-  "pass_3_score": 3.693877551020408,
+  "pass_3_score": 4.215686274509804,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.45970838559153104,
+  "pass_3_scaled": 0.5047112628438779,
   "ranking_multiplier": 0.65,
-  "combined_score": 0.3586733641723978,
+  "combined_score": 0.3732992992794106,
   "score_total": 11,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ROUTINE_ADMINISTRATIVE_RULE",
@@ -3753,76 +3753,130 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 34,
-  "comments_velocity_total": 34,
-  "comments_public_total_estimate": 34,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 34,
-  "comments_unique_clusters": 34,
-  "comments_clustered_duplicates": 0,
+  "comments_total": 63,
+  "comments_velocity_total": 62,
+  "comments_public_total_estimate": 62,
+  "comments_fetched": 29,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 63,
+  "comments_unique_clusters": 41,
+  "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 34,
+  "comments_citizen_count": 63,
   "comments_commenter_type_counts": {
-    "citizen": 34
+    "citizen": 63
   },
   "comments_submission_role_counts": {
-    "individual": 33,
-    "organization": 1
+    "individual": 60,
+    "government_affiliated_or_unclear": 1,
+    "organization": 2
   },
   "comments_submission_channel_counts": {
-    "public_portal": 34
+    "public_portal": 62,
+    "other_channel_recorded": 1
   },
-  "comments_public_count": 34,
-  "comments_recorded_count": 0,
+  "comments_public_count": 62,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-09-01": 28,
     "2026-08-28": 3,
-    "2026-08-26": 29,
+    "2026-08-26": 28,
     "2026-07-27": 1,
     "2026-07-14": 1
   },
   "comments_high_signal_cluster_count_by_day": {
     "2026-08-26": 1
   },
-  "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.029411764705882363,
-  "comments_sentiment_negative_pct": 0.17647058823529416,
-  "comments_sentiment_neutral_pct": 0.7941176470588235,
-  "comments_sentiment_net": -0.1470588235294118,
-  "comments_sentiment_sample_size": 34,
+  "comments_novel_comment_rate": 0.9682539682539683,
+  "comments_sentiment_positive_pct": 0.024639667955396814,
+  "comments_sentiment_negative_pct": 0.23617029338269918,
+  "comments_sentiment_neutral_pct": 0.739190038661904,
+  "comments_sentiment_net": -0.21153062542730236,
+  "comments_sentiment_sample_size": 41,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 34,
+  "comments_analysis_sample_size": 42,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 34,
-  "comments_representative_prior_selected": 34,
-  "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 2,
-  "comments_representative_run_budget": 0,
+  "comments_representative_selected": 42,
+  "comments_representative_prior_selected": 40,
+  "comments_representative_newly_selected": 2,
+  "comments_representative_must_keep": 5,
+  "comments_representative_run_budget": 2,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 2,
+    "must_keep": 5,
     "salience_rank": 2,
-    "weighted_fill": 30
+    "weighted_fill": 35
   },
-  "comments_representative_selected_by_counts_total": 34,
+  "comments_representative_selected_by_counts_total": 42,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-08-31T06:55:41.207098+00:00",
-  "comments_checked_at": "2026-08-31T06:55:41.360227+00:00",
+  "comments_api_last_seen_at": "2026-09-02T06:51:00.198202+00:00",
+  "comments_checked_at": "2026-09-02T06:51:00.476003+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 6,
+      "cluster_id": 4,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0623",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 821,
+      "representative_excerpt": "EPA identified specific failures in ADEM\u2019s permits in 2024 and gave the state a chance to correct them. ADEM didn\u2019t. Those permits are unchanged. EPA should not approve a program by agreeing to ignore the record that got it denied. We bought in Alabama to retire and built a life for our whole family on a 40 acre family compound. We left California due to...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0623": {
+          "organization": "",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Jacqueline Grzywacz",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OLEM-2022-0903-0591": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by William McGough",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6608931399900427
+    },
+    {
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0596",
@@ -3855,10 +3909,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9455555555555557
+      "presentation_score": 0.8791764582781258
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0569",
@@ -3891,10 +3945,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7455555555555554
+      "presentation_score": 0.684618635148874
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0580",
@@ -3927,17 +3981,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8122222222222222
+      "presentation_score": 0.7458431249447923
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0591",
-      "representative_posted_date": "2026-08-26T04:00:00Z",
-      "representative_length": 823,
-      "representative_excerpt": "Federal rules do not allow a utility to cap a coal ash pit and walk away if the ash stays saturated with groundwater after closure. That is the standard ADEM\u2019s permits failed to meet in 2024. At Alabama Power\u2019s Gadsden plant on the Coosa, the ash was capped and closed. Testing afterward found arsenic in the groundwater at 100 times the federal limit....",
-      "representative_signal_score": 1,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0616",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 2963,
+      "representative_excerpt": "At Alabama Power\u2019s Gadsden plant, the ash was capped and closed, and testing afterward found arsenic in groundwater at 100 times the federal limit. If EPA does approve ADEM\u2019s permit program, they must mandate new, compliant permits. EPA should require ADEM to reopen every existing coal ash permit...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -3945,15 +3999,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "EPA-HQ-OLEM-2022-0903-0591": {
+        "EPA-HQ-OLEM-2022-0903-0616": {
           "organization": "",
-          "postedDate": "2026-08-26T04:00:00Z",
+          "postedDate": "2026-09-01T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment submitted by William McGough",
+          "title": "Comment submitted by Laura Smith",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -3963,10 +4017,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6788888888888889
+      "presentation_score": 0.758088022903976
     },
     {
       "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0630",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 2552,
+      "representative_excerpt": "My opposition is based on the facts listed below: In 2024, EPA denied this program. The denial wasn\u2019t about ADEM\u2019s rulebook. EPA said the state\u2019s...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0630": {
+          "organization": "",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Robin Bienvenu",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.758088022903976
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0601",
@@ -3999,16 +4089,88 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6833333333333332
+      "presentation_score": 0.6165914242645203
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0568",
-      "representative_posted_date": "2026-07-14T04:00:00Z",
-      "representative_length": 276,
-      "representative_excerpt": "I recommend to not approve AL coal program. It was denied by a responsible and competent government already in 2023. AL has demonstrated ignorance by electing people who are stupid and incompetent (tuberville), so they are likely to pollute themselves again with this proposal",
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0602",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 545,
+      "representative_excerpt": "Feel free to call me anytime at (850) 461-5164. -Andy Miscisin, Lake Jordan Resident and Home Owner/Boat Owner Association President....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0602": {
+          "organization": "",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Lake Jordan Homeowners and Boatowners Association",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6247546895706427
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0604",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 1515,
+      "representative_excerpt": "EPA works to ensure that: Americans have clean air, land and water; National efforts to reduce environmental risks are based on the best available scientific information; Federal laws protecting human health and the environment are administered and enforced fairly, effectively and as Congress intended; Environmental stewardship is integral to U.S. policies...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0604": {
+          "organization": "",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Matt Carrier",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6247546895706427
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0606",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 793,
+      "representative_excerpt": "ASH SITTING IN GROUNDWATER HAS TO COME OUT. No approval should clear a path for capping ash that stays saturated after closure, at Plant Barry or anywhere else in Alabama. Please protect our resources and address this issue. I own land that is directly affected by this when issues will one day arise from this massive catastrophic event waiting to happen....",
       "representative_signal_score": 0,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
@@ -4017,15 +4179,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "EPA-HQ-OLEM-2022-0903-0568": {
+        "EPA-HQ-OLEM-2022-0903-0606": {
           "organization": "",
-          "postedDate": "2026-07-14T04:00:00Z",
+          "postedDate": "2026-09-01T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Anonymous public comment",
+          "title": "Comment submitted by Robert Roden",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -4035,16 +4197,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0570",
-      "representative_posted_date": "2026-08-26T04:00:00Z",
-      "representative_length": 1179,
-      "representative_excerpt": "The substances found in coal ash ponds are destroyers of life - human, plant, animal. We know that they cause birth defects, spontaneous abortions, and cancer. We see what the Alabama legislators did with SB71, we remember Drummond coal and how they poisoned the residents of Tarrant and then colluded to avoid cleaning up their harmful waste as hundreds of...",
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0624",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 418,
+      "representative_excerpt": "Alabama Power has been raising rates and making hundreds of millions of dollars in profit for years. Emptying the coal ash pits and moving the contents to lined landfills is the ONLY acceptable recourse. If left where they are, these coal ash pits will contaminate aquifer water for decades if not centuries to come. They will not voluntarily do the right...",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -4053,15 +4215,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "EPA-HQ-OLEM-2022-0903-0570": {
+        "EPA-HQ-OLEM-2022-0903-0624": {
           "organization": "",
-          "postedDate": "2026-08-26T04:00:00Z",
+          "postedDate": "2026-09-01T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment submitted by Elizabeth Finley",
+          "title": "Comment submitted by Alan Shaddix",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -4071,46 +4233,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
-    },
-    {
-      "cluster_id": 31,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0571",
-      "representative_posted_date": "2026-08-26T04:00:00Z",
-      "representative_length": 264,
-      "representative_excerpt": "Just because the EPA and others are bought off and even forced to hang their head in agreement because of family and friends employment theret too allow coal ash pits to leak into Alabama Rivers does not make it alright. Safely drain and relocate these dump sites!",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OLEM-2022-0903-0571": {
-          "organization": "",
-          "postedDate": "2026-08-26T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by April Collier",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.49142135623730954
     },
     {
       "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0626",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 481,
+      "representative_excerpt": "By now this issue is well beyond a civil one and now should be a criminal one. In my mind the potential health issues these ponds can cause being unlined is tantamount to attempted murder in the most and negligent homicide. This, after knowing the harm coal ash causes and utilities willfully being greedy enough to continue to not do a thing about it....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0626": {
+          "organization": "",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by John C. Brown",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0600",
@@ -4143,10 +4305,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.48325809093118705
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 39,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0570",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 1179,
+      "representative_excerpt": "The substances found in coal ash ponds are destroyers of life - human, plant, animal. We know that they cause birth defects, spontaneous abortions, and cancer. We see what the Alabama legislators did with SB71, we remember Drummond coal and how they poisoned the residents of Tarrant and then colluded to avoid cleaning up their harmful waste as hundreds of...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0570": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Elizabeth Finley",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4791764582781258
+    },
+    {
+      "cluster_id": 38,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0571",
+      "representative_posted_date": "2026-08-26T04:00:00Z",
+      "representative_length": 264,
+      "representative_excerpt": "Just because the EPA and others are bought off and even forced to hang their head in agreement because of family and friends employment theret too allow coal ash pits to leak into Alabama Rivers does not make it alright. Safely drain and relocate these dump sites!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0571": {
+          "organization": "",
+          "postedDate": "2026-08-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by April Collier",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4791764582781258
+    },
+    {
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0572",
@@ -4179,10 +4413,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0573",
@@ -4215,10 +4449,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0574",
@@ -4251,10 +4485,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 41,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0568",
+      "representative_posted_date": "2026-07-14T04:00:00Z",
+      "representative_length": 276,
+      "representative_excerpt": "I recommend to not approve AL coal program. It was denied by a responsible and competent government already in 2023. AL has demonstrated ignorance by electing people who are stupid and incompetent (tuberville), so they are likely to pollute themselves again with this proposal",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2022-0903-0568": {
+          "organization": "",
+          "postedDate": "2026-07-14T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3914213562373095
+    },
+    {
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0575",
@@ -4287,10 +4557,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0576",
@@ -4323,10 +4593,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0577",
@@ -4359,10 +4629,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0578",
@@ -4395,10 +4665,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0581",
@@ -4431,10 +4701,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0582",
@@ -4467,10 +4737,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0583",
@@ -4503,10 +4773,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0584",
@@ -4539,10 +4809,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0586",
@@ -4575,10 +4845,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0588",
@@ -4611,10 +4881,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0589",
@@ -4647,10 +4917,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0590",
@@ -4683,10 +4953,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0593",
@@ -4719,10 +4989,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0594",
@@ -4755,10 +5025,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0595",
@@ -4791,10 +5061,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0597",
@@ -4827,10 +5097,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0598",
@@ -4863,10 +5133,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5455555555555556
+      "presentation_score": 0.4791764582781258
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0599",
@@ -4899,10 +5169,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41666666666666663
+      "presentation_score": 0.3499247575978537
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0579",
@@ -4935,10 +5205,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4122222222222222
+      "presentation_score": 0.34584312494479247
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0587",
@@ -4971,10 +5241,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4122222222222222
+      "presentation_score": 0.34584312494479247
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0592",
@@ -5007,10 +5277,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4122222222222222
+      "presentation_score": 0.34584312494479247
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2022-0903-0585",
@@ -5043,7 +5313,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4122222222222222
+      "presentation_score": 0.34584312494479247
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2022-0903.csv",
@@ -5051,18 +5321,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.7352941176470589,
-  "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 34,
-  "comments_clusters_displayed": 34,
+  "comments_first_page_coverage_share": 0.6190476190476191,
+  "comments_first_page_coverage_count": 26,
+  "comments_clusters_total_available": 41,
+  "comments_clusters_displayed": 41,
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "negative": 6,
+    "negative": 9,
     "positive": 1,
-    "neutral": 18
+    "neutral": 15
   },
-  "comments_first_page_unique_days": 4,
+  "comments_first_page_unique_days": 5,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": false,
