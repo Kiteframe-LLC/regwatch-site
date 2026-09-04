@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-03T06:06:45.843872+00:00",
+  "comment_action_checked_at": "2026-09-04T09:37:05.582804+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,10 +34,10 @@
   "comment_end_date": "2026-09-22T03:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 3,
-  "pass_3_score": 34.42857142857143,
+  "pass_3_score": 34.3125,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.6982911831727412,
-  "pass_3_scaled": 0.996779102521066,
+  "pass_3_scaled": 0.9967161868956864,
   "ranking_multiplier": 1.0,
   "combined_score": 1.0,
   "score_total": 12,
@@ -84,7 +84,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The proposal relies on an incorporated methodology and aggregate impact estimates that are not fully reproducible from the available record.",
-  "combined_score_pre_pass5": 0.9081365038314166,
+  "combined_score_pre_pass5": 0.9081028931246709,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -458,91 +458,93 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 465,
-  "comments_velocity_total": 440,
-  "comments_public_total_estimate": 440,
+  "comments_total": 528,
+  "comments_velocity_total": 501,
+  "comments_public_total_estimate": 501,
   "comments_fetched": 30,
-  "comments_text_hydrated": 33,
-  "comments_cached_records": 148,
-  "comments_unique_clusters": 124,
-  "comments_clustered_duplicates": 24,
+  "comments_text_hydrated": 34,
+  "comments_cached_records": 178,
+  "comments_unique_clusters": 135,
+  "comments_clustered_duplicates": 43,
   "comments_truncated": true,
   "comments_source": "api",
-  "comments_zip_prefix_span": 7,
-  "comments_citizen_count": 11,
+  "comments_zip_prefix_span": 9,
+  "comments_citizen_count": 13,
   "comments_commenter_type_counts": {
-    "organization_other": 86,
-    "other": 51,
-    "citizen": 11
+    "organization_other": 101,
+    "other": 64,
+    "citizen": 13
   },
   "comments_submission_role_counts": {
-    "organization": 86,
-    "unknown": 51,
-    "individual": 11
+    "organization": 101,
+    "unknown": 64,
+    "individual": 13
   },
   "comments_submission_channel_counts": {
-    "public_portal": 140,
-    "other_channel_recorded": 8
+    "public_portal": 169,
+    "other_channel_recorded": 9
   },
-  "comments_public_count": 140,
-  "comments_recorded_count": 8,
+  "comments_public_count": 169,
+  "comments_recorded_count": 9,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-09-01": 28,
+    "2026-09-02": 23,
+    "2026-09-01": 23,
     "2026-08-28": 24,
-    "2026-08-25": 24,
-    "2026-08-24": 25,
-    "2026-08-21": 23
+    "2026-08-25": 23,
+    "2026-08-24": 23,
+    "2026-08-21": 19
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-09-01": 13,
-    "2026-08-28": 8,
-    "2026-08-25": 6,
-    "2026-08-24": 7,
-    "2026-08-21": 10
+    "2026-09-02": 7,
+    "2026-09-01": 10,
+    "2026-08-28": 7,
+    "2026-08-25": 5,
+    "2026-08-24": 5,
+    "2026-08-21": 7
   },
-  "comments_novel_comment_rate": 0.8378378378378378,
-  "comments_sentiment_positive_pct": 0.09072029400153338,
-  "comments_sentiment_negative_pct": 0.445084888893662,
-  "comments_sentiment_neutral_pct": 0.46419481710480454,
-  "comments_sentiment_net": -0.3543645948921286,
-  "comments_sentiment_sample_size": 143,
+  "comments_novel_comment_rate": 0.7584269662921348,
+  "comments_sentiment_positive_pct": 0.10968672335870498,
+  "comments_sentiment_negative_pct": 0.45816671360410094,
+  "comments_sentiment_neutral_pct": 0.4321465630371942,
+  "comments_sentiment_net": -0.34847999024539594,
+  "comments_sentiment_sample_size": 169,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 148,
+  "comments_analysis_sample_size": 178,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 148,
-  "comments_representative_prior_selected": 148,
+  "comments_representative_selected": 178,
+  "comments_representative_prior_selected": 178,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 86,
+  "comments_representative_must_keep": 101,
   "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 86,
+    "must_keep": 101,
     "salience_rank": 7,
-    "weighted_fill": 55
+    "weighted_fill": 70
   },
-  "comments_representative_selected_by_counts_total": 148,
+  "comments_representative_selected_by_counts_total": 178,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-09-02T05:50:15.614550+00:00",
-  "comments_checked_at": "2026-09-02T05:50:17.342865+00:00",
+  "comments_api_last_seen_at": "2026-09-04T05:55:24.731896+00:00",
+  "comments_checked_at": "2026-09-04T05:55:27.000642+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 13,
-      "count": 5,
+      "cluster_id": 2,
+      "count": 8,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0399",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 3425,
-      "representative_excerpt": "A Federal contractor may spend years building the capabilities necessary to support increasingly complex Government requirements. That growth requires investment in personnel, recruiting, cybersecurity, accounting and contracting systems, quality processes, management infrastructure, facilities, and customer-specific technical capabilities. A company can...",
+      "representative_comment_id": "SBA-2026-0199-0525",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 2713,
+      "representative_excerpt": "The proposed rule change goes against core SBA focus areas including: \u00b7 Helping Americans launch, build, and expand small businesses \u00b7 Assist small businesses in competing for government procurement opportunities The SBA has delivered on its mission since 1953. The 36 million small US businesses today create two out of every three new jobs, contribute...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
@@ -551,11 +553,56 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0399": {
+        "SBA-2026-0199-0454": {
           "organization": "",
           "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "20650",
-          "city": "Leonardtown",
+          "zip": "75022",
+          "city": "Flower Mound",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0469": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "76092",
+          "city": "Southlake",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0471": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "16648",
+          "city": "Hollidaysburg",
+          "stateProvinceRegion": "PA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0481": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "20852",
+          "city": "Rockville",
           "stateProvinceRegion": "MD",
           "country": "United States",
           "attachmentCount": 0,
@@ -566,26 +613,11 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0397": {
+        "SBA-2026-0199-0484": {
           "organization": "",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "SBA-2026-0199-0254": {
-          "organization": "",
-          "postedDate": "2026-08-28T04:00:00Z",
-          "zip": "20175",
-          "city": "Leesburg",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "20109",
+          "city": "Manassas",
           "stateProvinceRegion": "VA",
           "country": "United States",
           "attachmentCount": 0,
@@ -595,10 +627,61 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5737799033283547
+    },
+    {
+      "cluster_id": 12,
+      "count": 7,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0490",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 4162,
+      "representative_excerpt": "Testudo supports reasonable adjustments that allow successful small businesses to grow without prematurely losing eligibility. However, increasing the Temporary Help Services threshold from $34 million to $150 million goes far beyond providing reasonable room for growth. It risks redefining established mid-sized companies as small and reducing federal...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0018": {
+          "organization": "",
+          "postedDate": "2026-08-21T04:00:00Z",
+          "zip": "33612",
+          "city": "Tampa",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0246": {
-          "organization": "Vectis Federal LLC",
-          "postedDate": "2026-08-28T04:00:00Z",
+        "SBA-2026-0199-0050": {
+          "organization": "NetQuarry, Inc. (makers of Bidspeed)",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        },
+        "SBA-2026-0199-0057": {
+          "organization": "Bracane Company",
+          "postedDate": "2026-08-24T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -611,9 +694,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0242": {
-          "organization": "Small Business IT Contractor",
-          "postedDate": "2026-08-28T04:00:00Z",
+        "SBA-2026-0199-0113": {
+          "organization": "SDVOSB",
+          "postedDate": "2026-08-25T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -623,16 +706,31 @@
           "withdrawn": false,
           "submissionRole": "organization",
           "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0114": {
+          "organization": "",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "32803",
+          "city": "Orlando",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6495276566378119
+      "presentation_score": 0.6973074560794441
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 37,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0389",
@@ -710,16 +808,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7242191718398862
+      "presentation_score": 0.6784217565438792
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 33,
       "count": 4,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0364",
+      "representative_comment_id": "SBA-2026-0199-0399",
       "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 4093,
-      "representative_excerpt": "We currently employ approximately 150 people. We have grown from 72 people in 2021 and expect that level of growth to continue. Based on our experience, TTGI supports SBA\u2019s effort to modernize and increase applicable size standards. The current standards create a significant competitive cliff for successful small businesses, making it extremely difficult...",
+      "representative_length": 3425,
+      "representative_excerpt": "A Federal contractor may spend years building the capabilities necessary to support increasingly complex Government requirements. That growth requires investment in personnel, recruiting, cybersecurity, accounting and contracting systems, quality processes, management infrastructure, facilities, and customer-specific technical capabilities. A company can...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
       "representative_submission_channel": "public_portal",
@@ -728,27 +826,12 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0364": {
-          "organization": "The Tolliver Group, Inc. (TTGI)",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "SBA-2026-0199-0114": {
+        "SBA-2026-0199-0399": {
           "organization": "",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "32803",
-          "city": "Orlando",
-          "stateProvinceRegion": "FL",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "20650",
+          "city": "Leonardtown",
+          "stateProvinceRegion": "MD",
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-17042",
@@ -758,9 +841,24 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0113": {
-          "organization": "SDVOSB",
-          "postedDate": "2026-08-25T04:00:00Z",
+        "SBA-2026-0199-0254": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "20175",
+          "city": "Leesburg",
+          "stateProvinceRegion": "VA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0246": {
+          "organization": "Vectis Federal LLC",
+          "postedDate": "2026-08-28T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -773,9 +871,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0021": {
-          "organization": "Curtis Federal Solutions",
-          "postedDate": "2026-08-21T04:00:00Z",
+        "SBA-2026-0199-0242": {
+          "organization": "Small Business IT Contractor",
+          "postedDate": "2026-08-28T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -791,10 +889,91 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6442191718398862
+      "presentation_score": 0.5984217565438792
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 17,
+      "count": 4,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0480",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 2801,
+      "representative_excerpt": "Dear SBA Office of Government Contracting and Business Development: I am one of the founders and shareholder of a professional services firm for over 28 years with a current staff of 28 muti-disciplined professionals. While I support periodically adjusting size standards to a small degree for inflation and reasonable small-business growth over time to be...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0480": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "66218-9176",
+          "city": "Shawnee",
+          "stateProvinceRegion": "KS",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0455": {
+          "organization": "Hunnicutt's Incorporated",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0257": {
+          "organization": "Platinum Business Services, LLC",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0051": {
+          "organization": "",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6067550898772126
+    },
+    {
+      "cluster_id": 25,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0429",
@@ -857,17 +1036,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7252562139594171
+      "presentation_score": 0.6844780339169461
     },
     {
-      "cluster_id": 71,
-      "count": 2,
+      "cluster_id": 73,
+      "count": 3,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0093",
+      "representative_comment_id": "SBA-2026-0199-0109",
       "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 2854,
-      "representative_excerpt": "The competition at mid-tier will ensure those that rise are mature, quietly compounded businesses that chose durability over speed. This type of organic growth produces real operational depth, disciplined processes, and a fortressed balance sheet rather than a stretched P&L. The result is a financially stable enterprise with strong fundamentals, reliable...",
-      "representative_signal_score": 3,
+      "representative_length": 2693,
+      "representative_excerpt": "A one-size-fits-all employee threshold of 900 employees fails to reflect these realities and creates an excessively broad category of businesses eligible for small business programs. The existing $45 million receipts-based standard has provided a clear and understandable benchmark that better distinguishes genuinely small businesses from larger market...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -875,9 +1054,24 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0093": {
-          "organization": "Gideon USA",
+        "SBA-2026-0199-0109": {
+          "organization": "General Constructors, Inc of the Quad Cities",
           "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0019": {
+          "organization": "Deaf Access Solutions",
+          "postedDate": "2026-08-21T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -890,9 +1084,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0055": {
-          "organization": "Strategy@Work, LLC",
-          "postedDate": "2026-08-24T04:00:00Z",
+        "SBA-2026-0199-0003": {
+          "organization": "Tangent Technologies",
+          "postedDate": "2026-08-21T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -908,17 +1102,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.680414549427081
+      "presentation_score": 0.5461447005836128
     },
     {
-      "cluster_id": 51,
-      "count": 2,
+      "cluster_id": 20,
+      "count": 3,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0235",
-      "representative_posted_date": "2026-08-28T04:00:00Z",
-      "representative_length": 2273,
-      "representative_excerpt": "At a minimum, the SBA should establish meaningful and defensible size limits, reject thresholds that classify half-billion-dollar enterprises as small businesses, conduct a thorough industry-by-industry impact analysis, and consider creating a separate category for mid-sized contractors. Small-business programs exist to protect and develop actual small...",
-      "representative_signal_score": 3,
+      "representative_comment_id": "SBA-2026-0199-0476",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 2330,
+      "representative_excerpt": "Negative Impact on Government Buyers and Taxpayers and Reduced Vendor Diversity: Contracting officers will face a heavily consolidated pool of vendors, restricting choices and limiting access to specialized, high-performing small businesses. Increased Costs to Government: Lean small businesses consistently deliver specialized technical support more cost...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -926,7 +1120,22 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0235": {
+        "SBA-2026-0199-0476": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "46122",
+          "city": "Danville",
+          "stateProvinceRegion": "IN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0271": {
           "organization": "",
           "postedDate": "2026-08-28T04:00:00Z",
           "zip": "",
@@ -941,9 +1150,60 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0084": {
-          "organization": "Rapid Cycle Solutions, LLC",
-          "postedDate": "2026-08-24T04:00:00Z",
+        "SBA-2026-0199-0095": {
+          "organization": "",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5628113672502794
+    },
+    {
+      "cluster_id": 6,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0512",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "The broker's own economic activity is the margin. On a typical brokered load the pass- through is the large majority of the invoice. Two provisions currently prevent that pass-through from counting: 1. 13 CFR 121.104(a) excludes from receipts \"amounts collected for another by a travel agent, real estate agent, advertising agent, conference man...",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0512": {
+          "organization": "PURECJ HOLDING LLC DBA Bastion Supply & Logistics",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0006": {
+          "organization": "VivSoft",
+          "postedDate": "2026-08-21T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -959,17 +1219,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7076872766998082
+      "presentation_score": 0.8775598066567094
     },
     {
-      "cluster_id": 41,
-      "count": 2,
+      "cluster_id": 51,
+      "count": 1,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0257",
+      "representative_comment_id": "SBA-2026-0199-0268",
       "representative_posted_date": "2026-08-28T04:00:00Z",
-      "representative_length": 2669,
-      "representative_excerpt": "SBA\u2019s economic analysis quantifies how many larger firms will enter the small\u2011business pool, but it does not evaluate how many existing small businesses will be displaced as a result. The Small Business Act requires SBA to ensure that small\u2011business programs provide fair and equitable competition for truly small firms. The proposed rule does the opposite....",
-      "representative_signal_score": 3,
+      "representative_length": 5000,
+      "representative_excerpt": "Reg. 53,742-43. \u2022 SBA proposes no maximum size standard, whereas the baseline methodology includes a $47 million maximum for receipts -based standards and 1,500 employees for employee -based standards. 91 Fed. Reg. 53,769. \u2022 SBA estimates 114,541 additional firms will be classified as small, including 37,002 firms already holding approximately 10...",
+      "representative_signal_score": 5,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -977,8 +1237,8 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0257": {
-          "organization": "Platinum Business Services, LLC",
+        "SBA-2026-0199-0268": {
+          "organization": "Ultrasystems Environmental Incorporated",
           "postedDate": "2026-08-28T04:00:00Z",
           "zip": "",
           "city": "",
@@ -991,10 +1251,133 @@
           "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8290440114519881
+    },
+    {
+      "cluster_id": 8,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0499",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "It measures true operational capacity, protects industrial base resilience, and grants mid-tier small businesses the necessary runway to scale and compete without fear of sudden disqualification. Strenuous Opposition to Changing NAICS 562910 from 1,000 Employees to a $113 Million Receipts Basis Conversely, we strongly oppose the SBA's proposal to eliminate...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0499": {
+          "organization": "Edgewater Technical Associates, LLC",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
         },
-        "SBA-2026-0199-0109": {
-          "organization": "General Constructors, Inc of the Quad Cities",
-          "postedDate": "2026-08-25T04:00:00Z",
+        "SBA-2026-0199-0473": {
+          "organization": "Bull-Williams Contracting",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7175598066567094
+    },
+    {
+      "cluster_id": 4,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0515",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 4164,
+      "representative_excerpt": "As a result, a dramatic increase in receipts-based size standards is particularly harmful to genuinely small businesses in these sectors. I respectfully urge SBA...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0515": {
+          "organization": "Lantern Consulting, LLC",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0398": {
+          "organization": "Lippon Co",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7175598066567094
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0467",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 4388,
+      "representative_excerpt": "An employee ceiling of 1,200 collapses meaningful differences in operating scale and competitive power. SBA should reconsider the measure used to determine size and explain why that measure accurately distinguishes small businesses from firms capable of dominating this particular field. SBA also should not roll NAICS 331529 into the four-digit group 33152...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0467": {
+          "organization": "Port Townsend Foundry LLC",
+          "postedDate": "2026-09-02T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1010,10 +1393,370 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7076872766998082
+      "presentation_score": 0.7107106781186547
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0479",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 4578,
+      "representative_excerpt": "Before finalizing any change, SBA should publish the industry-level data and analysis supporting its grouping, measure, threshold, and non-dominance finding, and explain its reasoning. Unless Engineering Services-specific competitive evidence justifies this dramatic expansion, the current standard should remain in place....",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0479": {
+          "organization": "American Geotechnical & Environmental Services, Inc.",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7107106781186547
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0493",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 4292,
+      "representative_excerpt": "I oppose SBA's proposed change to the size standard for NAICS 541611, Administrative Management and General Management Consulting Services. The proposed ceiling is far too high for this industry. A company near $295 million can maintain full-time capture and proposal teams, develop deeper past performance, surge a much larger workforce, and operate from...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0493": {
+          "organization": "Anonymous",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7107106781186547
+    },
+    {
+      "cluster_id": 38,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0384",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "III. Likely harm to VA small-business contracting \u2022Unequal competition within set-asides. A true small laboratory may be required to compete against firms with receipts approaching $156 million, larger sales forces, broader geographic coverage, deeper working capital, and more extensive past performance. \u2022Greater incentive to consolidate requirements....",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0384": {
+          "organization": "I-2-I Solutions, Inc.",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7023773447853214
+    },
+    {
+      "cluster_id": 35,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0394",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 4601,
+      "representative_excerpt": "A method that places companies with radically different competitive resources under one definition of small does not accurately measure the market it is supposed to describe. I oppose SBA's proposed change to the size standard for NAICS 336413, Other Aircraft Parts and Auxiliary Equipment Manufacturing. SBA proposes to combine six separate industries...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0394": {
+          "organization": "West Coast Industries, Inc.",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7023773447853214
+    },
+    {
+      "cluster_id": 34,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0395",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 4441,
+      "representative_excerpt": "Before finalizing any different result, SBA should publish the industry-level data and analysis supporting the grouping, explain its reasoning, and establish non-dominance using evidence specific to this field. The purpose of a small-business standard is not served when firms with vastly greater corporate resources are treated as comparable competitors for...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0395": {
+          "organization": "MAD Scientist Associates LLC",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7023773447853214
+    },
+    {
+      "cluster_id": 107,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0054",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 3160,
+      "representative_excerpt": "We also encourage SBA to consider safeguards, more granular size standards where appropriate, phased or alternative approaches, and outcome measures that track new entrants, independent small-business primes, award concentration, competition, graduation, and industrial-base participation. We agree that successful small businesses need room to grow and that...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0054": {
+          "organization": "Ridgeway Group Innovations, LLC",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6357106781186548
+    },
+    {
+      "cluster_id": 124,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0022",
+      "representative_posted_date": "2026-08-21T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "That premise asks the wrong question. The appropriate policy question is not simply: How many businesses can be classified as small? The appropriate questions are: 9007 SHAD LANE | POTOMAC, MD 20854 | 301-633-7782 | INFO@THEG2GROUP .COM 1. Will genuinely small businesses continue to have a meaningful opportunity to compete for and win Federal contracts? 2....",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0022": {
+          "organization": "G2 Consulting Group",
+          "postedDate": "2026-08-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6107106781186548
+    },
+    {
+      "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0403",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 4598,
+      "representative_excerpt": "Allowing substantially larger companies to compete for the same small-business opportunities would place the majority of firms in the industry against businesses with fundamentally different resources. A company near the proposed ceiling can present far deeper past performance, absorb lower margins to secure price-driven awards, obtain financing and...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0403": {
+          "organization": "Rapport International LLC",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7023773447853214
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0412",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "They possess audited financial portfolios and established institutional banking relationships. Opening taxpayer-backed SBA loan frameworks to mature, asset-heavy corporations diverts critical capital away from the micro-firms that actually require it. 2. Asymmetric Anti-Competitive Impact on True Micro-Firms Raising the size standard for NAICS 541370 from $...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0412": {
+          "organization": "Survey Systems",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7023773447853214
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0426",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 4554,
+      "representative_excerpt": "I oppose SBA's proposed change to the size standard for NAICS 238210, Electrical Contractors and Other Wiring Installation Contractors. Changing the standard from $19 million in average annual receipts to 550 employees would expand the competitive pool to firms operating at a fundamentally different scale. A firm near the proposed ceiling can maintain full...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0426": {
+          "organization": "Four Corners Electric Co.",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7023773447853214
+    },
+    {
+      "cluster_id": 58,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0260",
@@ -1061,501 +1804,24 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7076872766998082
+      "presentation_score": 0.6758931399900427
     },
     {
-      "cluster_id": 34,
-      "count": 1,
+      "cluster_id": 54,
+      "count": 2,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0268",
+      "representative_comment_id": "SBA-2026-0199-0264",
       "representative_posted_date": "2026-08-28T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "Reg. 53,742-43. \u2022 SBA proposes no maximum size standard, whereas the baseline methodology includes a $47 million maximum for receipts -based standards and 1,500 employees for employee -based standards. 91 Fed. Reg. 53,769. \u2022 SBA estimates 114,541 additional firms will be classified as small, including 37,002 firms already holding approximately 10...",
-      "representative_signal_score": 5,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0268": {
-          "organization": "Ultrasystems Environmental Incorporated",
-          "postedDate": "2026-08-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.8530790827363552
-    },
-    {
-      "cluster_id": 14,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0398",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 3804,
-      "representative_excerpt": "Its ability to absorb lower margins, finance greater capacity, maintain specialized staff, and spread bidding risk across more opportunities would allow it to set the competitive terms for much smaller businesses. SBA should not assert that a firm at the proposed level is not...",
+      "representative_length": 2339,
+      "representative_excerpt": "I am submitting these comments on behalf of Hyland Company LLC, an emerging Woman-Owned Small Business (WOSB) technology consulting company whose primary NAICS code is 541512, Computer Systems Design Services. Hyland supports SBA's goal of giving successful small businesses additional runway before they must graduate into unrestricted federal competition....",
       "representative_signal_score": 3,
       "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0398": {
-          "organization": "Lippon Co",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "SBA-2026-0199-0237": {
-          "organization": "Renaissance Infrastructure Consulting",
-          "postedDate": "2026-08-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7440509130634446
-    },
-    {
-      "cluster_id": 1,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0455",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 3021,
-      "representative_excerpt": "Employee count is a poor measure of economic size for painting contractors. A contractor can perform a very large volume of work without approaching 600 permanent employees. Large painting contractors may have substantially greater bonding capacity, working capital, equipment fleets, estimating and project-management staff, purchasing power, geographic...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0455": {
-          "organization": "Hunnicutt's Incorporated",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "SBA-2026-0199-0051": {
-          "organization": "",
-          "postedDate": "2026-08-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7440509130634446
-    },
-    {
-      "cluster_id": 20,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0384",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "III. Likely harm to VA small-business contracting \u2022Unequal competition within set-asides. A true small laboratory may be required to compete against firms with receipts approaching $156 million, larger sales forces, broader geographic coverage, deeper working capital, and more extensive past performance. \u2022Greater incentive to consolidate requirements....",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0384": {
-          "organization": "I-2-I Solutions, Inc.",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7294427190999916
-    },
-    {
-      "cluster_id": 19,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0386",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 4048,
-      "representative_excerpt": "We respectfully oppose the proposed changes to the Small Business Administration\u2019s proposed revisions to small business size standards as currently drafted. Specifically, increasing the General Management Consulting Services (541611) standard from $24.5 million in average annual receipts to $295 million. While we support periodic adjustments to size...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0386": {
-          "organization": "Healthcare Management Solutions, LLC",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7294427190999916
-    },
-    {
-      "cluster_id": 16,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0394",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 4601,
-      "representative_excerpt": "A method that places companies with radically different competitive resources under one definition of small does not accurately measure the market it is supposed to describe. I oppose SBA's proposed change to the size standard for NAICS 336413, Other Aircraft Parts and Auxiliary Equipment Manufacturing. SBA proposes to combine six separate industries...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0394": {
-          "organization": "West Coast Industries, Inc.",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7294427190999916
-    },
-    {
-      "cluster_id": 15,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0395",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 4441,
-      "representative_excerpt": "Before finalizing any different result, SBA should publish the industry-level data and analysis supporting the grouping, explain its reasoning, and establish non-dominance using evidence specific to this field. The purpose of a small-business standard is not served when firms with vastly greater corporate resources are treated as comparable competitors for...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0395": {
-          "organization": "MAD Scientist Associates LLC",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7294427190999916
-    },
-    {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0403",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 4598,
-      "representative_excerpt": "Allowing substantially larger companies to compete for the same small-business opportunities would place the majority of firms in the industry against businesses with fundamentally different resources. A company near the proposed ceiling can present far deeper past performance, absorb lower margins to secure price-driven awards, obtain financing and...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0403": {
-          "organization": "Rapport International LLC",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7294427190999916
-    },
-    {
-      "cluster_id": 9,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0412",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "They possess audited financial portfolios and established institutional banking relationships. Opening taxpayer-backed SBA loan frameworks to mature, asset-heavy corporations diverts critical capital away from the micro-firms that actually require it. 2. Asymmetric Anti-Competitive Impact on True Micro-Firms Raising the size standard for NAICS 541370 from $...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0412": {
-          "organization": "Survey Systems",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7294427190999916
-    },
-    {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0426",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 4554,
-      "representative_excerpt": "I oppose SBA's proposed change to the size standard for NAICS 238210, Electrical Contractors and Other Wiring Installation Contractors. Changing the standard from $19 million in average annual receipts to 550 employees would expand the competitive pool to firms operating at a fundamentally different scale. A firm near the proposed ceiling can maintain full...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0426": {
-          "organization": "Four Corners Electric Co.",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7294427190999916
-    },
-    {
-      "cluster_id": 93,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0050",
-      "representative_posted_date": "2026-08-24T04:00:00Z",
-      "representative_length": 4341,
-      "representative_excerpt": "Retain six-digit NAICS standards as the default unless industry-specific evidence supports consolidation; 2. Make targeted adjustments where economic evidence supports change; 3. Retain reasonable upper limits so \u201csmall business\u201d has a meaningful economic boundary; 4. Restore federal contracting competition and disparity measures as methodology factors; 5....",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
       "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0050": {
-          "organization": "NetQuarry, Inc. (makers of Bidspeed)",
-          "postedDate": "2026-08-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6567154463727188
-    },
-    {
-      "cluster_id": 123,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0003",
-      "representative_posted_date": "2026-08-21T04:00:00Z",
-      "representative_length": 2553,
-      "representative_excerpt": "Avoid size standards that allow well-established mid-size firms to compete as small businesses. 3. Conduct a deeper industry-by-industry analysis of how the proposed thresholds would affect existing small businesses, especially firms currently competing for set-aside contracts. 4. Consider creating a separate mid-size business category or transition...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0003": {
-          "organization": "Tangent Technologies",
-          "postedDate": "2026-08-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6294427190999916
-    },
-    {
-      "cluster_id": 31,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0271",
-      "representative_posted_date": "2026-08-28T04:00:00Z",
-      "representative_length": 2418,
-      "representative_excerpt": "Those resources can include larger proposal departments, greater ability to pursue multiple opportunities simultaneously, greater access to capital, more extensive contracting infrastructure, and greater ability to absorb the cost of unsuccessful bids. These differences matter in federal procurement. Small-business set-asides are intended to create...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0271": {
-          "organization": "",
-          "postedDate": "2026-08-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
         "SBA-2026-0199-0264": {
           "organization": "Hyland Company LLC",
           "postedDate": "2026-08-28T04:00:00Z",
@@ -1570,14 +1836,29 @@
           "submissionRoleConfidence": "high",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
+        },
+        "SBA-2026-0199-0084": {
+          "organization": "Rapid Cycle Solutions, LLC",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7076872766998082
+      "presentation_score": 0.6758931399900427
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0263",
@@ -1610,118 +1891,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6930790827363552
+      "presentation_score": 0.6690440114519881
     },
     {
-      "cluster_id": 76,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0088",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "3019 Duportail St., #235 Richland, WA 99352 509-539-3229 Cell 509-820-3028 Fax www.ismsinc.com August 24, 2026 Ryan Lambert Associate Administrator Office of Government Contracting and Business Development U.S. We provide services to the Department of Energy in Hanford and Oak Ridge. We write to express our strong opposition to the proposed rule under...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0088": {
-          "organization": "ISMSolutions, Inc.",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.665806355463628
-    },
-    {
-      "cluster_id": 75,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0089",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 2211,
-      "representative_excerpt": "While I support periodically updating size standards, the proposed changes could undermine the purpose of the small-business contracting program by allowing substantially larger, established federal contractors to compete directly with the small businesses the program is intended to support. My primary concern is that existing small businesses may remain...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0089": {
-          "organization": "Quixle LLC",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.665806355463628
-    },
-    {
-      "cluster_id": 65,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0099",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 4761,
-      "representative_excerpt": "Allowing agencies to receive small-business credit for awards to much larger established contractors risks improving reported small-business performance while reducing opportunities for the genuinely small firms these programs were created to support. **The graduation problem deserves a different solution.** We recognize that successful small businesses...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0099": {
-          "organization": "BeVera Solutions, LLC",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.665806355463628
-    },
-    {
-      "cluster_id": 10,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0411",
@@ -1754,10 +1927,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6794427190999915
+      "presentation_score": 0.6523773447853214
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0415",
@@ -1790,17 +1963,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6794427190999915
+      "presentation_score": 0.6523773447853214
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 88,
       "count": 2,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0425",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 1735,
-      "representative_excerpt": "I respectfully oppose the proposed Revised Size Standards Methodology. While I support SBA\u2019s goal of ensuring businesses are not penalized for growth, significantly expanding the definition of \u201csmall business\u201d risks disadvantaging the very businesses these programs were created to support. There is a meaningful difference between qualifying as a small...",
-      "representative_signal_score": 2,
+      "representative_comment_id": "SBA-2026-0199-0093",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 2854,
+      "representative_excerpt": "The competition at mid-tier will ensure those that rise are mature, quietly compounded businesses that chose durability over speed. This type of organic growth produces real operational depth, disciplined processes, and a fortressed balance sheet rather than a stretched P&L. The result is a financially stable enterprise with strong fundamentals, reliable...",
+      "representative_signal_score": 3,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1808,9 +1981,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0425": {
-          "organization": "Velasco Consulting LLC DBA Novle",
-          "postedDate": "2026-09-01T04:00:00Z",
+        "SBA-2026-0199-0093": {
+          "organization": "Gideon USA",
+          "postedDate": "2026-08-25T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1823,9 +1996,9 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "SBA-2026-0199-0012": {
-          "organization": "Avenir Technology",
-          "postedDate": "2026-08-21T04:00:00Z",
+        "SBA-2026-0199-0055": {
+          "organization": "Strategy@Work, LLC",
+          "postedDate": "2026-08-24T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1841,10 +2014,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6640509130634447
+      "presentation_score": 0.6508931399900427
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 93,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0088",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "3019 Duportail St., #235 Richland, WA 99352 509-539-3229 Cell 509-820-3028 Fax www.ismsinc.com August 24, 2026 Ryan Lambert Associate Administrator Office of Government Contracting and Business Development U.S. We provide services to the Department of Energy in Hanford and Oak Ridge. We write to express our strong opposition to the proposed rule under...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0088": {
+          "organization": "ISMSolutions, Inc.",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6440440114519881
+    },
+    {
+      "cluster_id": 92,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0089",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 2211,
+      "representative_excerpt": "While I support periodically updating size standards, the proposed changes could undermine the purpose of the small-business contracting program by allowing substantially larger, established federal contractors to compete directly with the small businesses the program is intended to support. My primary concern is that existing small businesses may remain...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0089": {
+          "organization": "Quixle LLC",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6440440114519881
+    },
+    {
+      "cluster_id": 83,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0099",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 4761,
+      "representative_excerpt": "Allowing agencies to receive small-business credit for awards to much larger established contractors risks improving reported small-business performance while reducing opportunities for the genuinely small firms these programs were created to support. **The graduation problem deserves a different solution.** We recognize that successful small businesses...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0099": {
+          "organization": "BeVera Solutions, LLC",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6440440114519881
+    },
+    {
+      "cluster_id": 121,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0028",
@@ -1877,17 +2158,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6594427190999916
+      "presentation_score": 0.6407106781186548
     },
     {
-      "cluster_id": 91,
-      "count": 1,
+      "cluster_id": 10,
+      "count": 2,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0054",
-      "representative_posted_date": "2026-08-24T04:00:00Z",
-      "representative_length": 3160,
-      "representative_excerpt": "We also encourage SBA to consider safeguards, more granular size standards where appropriate, phased or alternative approaches, and outcome measures that track new entrants, independent small-business primes, award concentration, competition, graduation, and industrial-base participation. We agree that successful small businesses need room to grow and that...",
-      "representative_signal_score": 3,
+      "representative_comment_id": "SBA-2026-0199-0494",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 3592,
+      "representative_excerpt": "The firms serve different customers, rely on different workforces and skill sets, pursue projects and contracts of different sizes, and face different equipment and capital requirements. A shared employee ceiling does not make those differences disappear. The proper question is whether a threshold reflects competitive scale within NAICS 334418 itself. Our...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1895,9 +2176,9 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0054": {
-          "organization": "Ridgeway Group Innovations, LLC",
-          "postedDate": "2026-08-24T04:00:00Z",
+        "SBA-2026-0199-0494": {
+          "organization": "Enerpro",
+          "postedDate": "2026-09-02T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -1909,14 +2190,29 @@
           "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0397": {
+          "organization": "",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6567154463727188
+      "presentation_score": 0.6375598066567094
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0056",
@@ -1949,46 +2245,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6567154463727188
+      "presentation_score": 0.6357106781186548
     },
     {
-      "cluster_id": 89,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0057",
-      "representative_posted_date": "2026-08-24T04:00:00Z",
-      "representative_length": 3863,
-      "representative_excerpt": "The shift away from receipts-based measurement addresses a real and long-standing problem. Under the current structure, winning a significant contract can push a firm\u2019s five-year average over its threshold and cost it the status that made the win possible. Firms in my position have declined work to stay small. That is a bad incentive and SBA is correct to...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0057": {
-          "organization": "Bracane Company",
-          "postedDate": "2026-08-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6567154463727188
-    },
-    {
-      "cluster_id": 85,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0065",
@@ -2021,10 +2281,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6567154463727188
+      "presentation_score": 0.6357106781186548
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0069",
@@ -2057,10 +2317,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6567154463727188
+      "presentation_score": 0.6357106781186548
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0081",
@@ -2093,10 +2353,169 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6567154463727188
+      "presentation_score": 0.6357106781186548
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0474",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 2031,
+      "representative_excerpt": "Moltron Builders, Inc. respectfully opposes SBA's proposed change to the size standard for NAICS 236220, Commercial and Institutional Building Construction, from $45 million in average annual receipts to 600 employees. We support SBA's goal of allowing successful small businesses room to grow. However, an employee-based standard is particularly problematic...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0474": {
+          "organization": "Moltron Builders Inc.",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6307106781186548
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0483",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 483,
+      "representative_excerpt": "The proposal reclassifies 37,002 established federal contractors holding $71 billion in FY 2025 obligations as small, eliminates maximum size standards, and removes federal contracting outcomes from the methodology, displacing the smallest and newest firms the Act exists to protect. Full analysis and recommended alternatives attached....",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0483": {
+          "organization": "Kindhouse Advisory LLC",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6307106781186548
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0502",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 2286,
+      "representative_excerpt": "That said, I am generally supportive of periodic adjustments to SBA size standards to reflect inflation and rising business costs. In my view, annual or regular updates tied to CPI would be a reasonable way to keep size standards current while preserving the intent of programs designed to support small businesses. I am concerned that the currently proposed...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0502": {
+          "organization": "Direct Steel LLC",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6307106781186548
+    },
+    {
+      "cluster_id": 43,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0364",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 4093,
+      "representative_excerpt": "We currently employ approximately 150 people. We have grown from 72 people in 2021 and expect that level of growth to continue. Based on our experience, TTGI supports SBA\u2019s effort to modernize and increase applicable size standards. The current standards create a significant competitive cliff for successful small businesses, making it extremely difficult...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0364": {
+          "organization": "The Tolliver Group, Inc. (TTGI)",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0021": {
+          "organization": "Curtis Federal Solutions",
+          "postedDate": "2026-08-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6292264733233761
+    },
+    {
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0360",
@@ -2129,10 +2548,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6494427190999916
+      "presentation_score": 0.6223773447853215
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0363",
@@ -2165,10 +2584,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6494427190999916
+      "presentation_score": 0.6223773447853215
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0367",
@@ -2201,10 +2620,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6494427190999916
+      "presentation_score": 0.6223773447853215
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0369",
@@ -2237,10 +2656,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6494427190999916
+      "presentation_score": 0.6223773447853215
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0392",
@@ -2273,10 +2692,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6494427190999916
+      "presentation_score": 0.6223773447853215
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 69,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0235",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 2273,
+      "representative_excerpt": "At a minimum, the SBA should establish meaningful and defensible size limits, reject thresholds that classify half-billion-dollar enterprises as small businesses, conduct a thorough industry-by-industry impact analysis, and consider creating a separate category for mid-sized contractors. Small-business programs exist to protect and develop actual small...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0235": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6190440114519881
+    },
+    {
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0240",
@@ -2309,10 +2764,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6430790827363552
+      "presentation_score": 0.6190440114519881
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0244",
@@ -2345,53 +2800,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6430790827363552
+      "presentation_score": 0.6190440114519881
     },
     {
-      "cluster_id": 122,
-      "count": 1,
+      "cluster_id": 9,
+      "count": 3,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0006",
-      "representative_posted_date": "2026-08-21T04:00:00Z",
-      "representative_length": 4845,
-      "representative_excerpt": "And in Southern Offshore Fishing Ass'n v. Daley, 995 F. Supp. 1411, 1436 (M.D. Fla. 1998), a court found an agency's certification of no significant impact inadequate where the record evidence contradicted the agency's own assumptions. SBA's aggregate \"114,541 gain, fewer than 200 lose\" framing performs the same function here: it obscures a redistribution...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0006": {
-          "organization": "VivSoft",
-          "postedDate": "2026-08-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6294427190999916
-    },
-    {
-      "cluster_id": 109,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0022",
-      "representative_posted_date": "2026-08-21T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "That premise asks the wrong question. The appropriate policy question is not simply: How many businesses can be classified as small? The appropriate questions are: 9007 SHAD LANE | POTOMAC, MD 20854 | 301-633-7782 | INFO@THEG2GROUP .COM 1. Will genuinely small businesses continue to have a meaningful opportunity to compete for and win Federal contracts? 2....",
-      "representative_signal_score": 3,
+      "representative_comment_id": "SBA-2026-0199-0497",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 1611,
+      "representative_excerpt": "The proposed rule change goes against core SBA focus areas including: \u2022 Helping Americans launch, build, and expand small businesses \u2022 Assist small businesses in competing for government procurement opportunities The SBA has delivered on its mission since 1953. The 36 million small US businesses today create two out of every three new jobs, contribute...",
+      "representative_signal_score": 2,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -2399,8 +2818,38 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0022": {
-          "organization": "G2 Consulting Group",
+        "SBA-2026-0199-0497": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "20191",
+          "city": "Reston",
+          "stateProvinceRegion": "VA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0112": {
+          "organization": "",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0012": {
+          "organization": "Avenir Technology",
           "postedDate": "2026-08-21T04:00:00Z",
           "zip": "",
           "city": "",
@@ -2417,10 +2866,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6294427190999916
+      "presentation_score": 0.6128113672502794
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 122,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0026",
@@ -2453,10 +2902,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6294427190999916
+      "presentation_score": 0.6107106781186548
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 120,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0029",
@@ -2489,10 +2938,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6294427190999916
+      "presentation_score": 0.6107106781186548
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 119,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0030",
@@ -2525,10 +2974,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6294427190999916
+      "presentation_score": 0.6107106781186548
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 117,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0033",
@@ -2561,10 +3010,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6294427190999916
+      "presentation_score": 0.6107106781186548
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 60,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0253",
@@ -2612,46 +3061,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6276872766998083
+      "presentation_score": 0.5958931399900428
     },
     {
-      "cluster_id": 69,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0095",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 2129,
-      "representative_excerpt": "In professional-services industries such as management consulting, computer systems design, custom programming, and professional training, this could introduce thousands of larger, established competitors into the small-business set-aside market. We are particularly concerned that: * Consolidating many six-digit NAICS standards into broader four- and five...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0095": {
-          "organization": "",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6158063554636279
-    },
-    {
-      "cluster_id": 68,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0096",
@@ -2684,10 +3097,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6158063554636279
+      "presentation_score": 0.594044011451988
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 67,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0237",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 3943,
+      "representative_excerpt": "8653 Penrose Lane Lenexa, KS 66219 P: 913.317.9500 ric-consult.com Riverside, MO \u2502 Kansas City, MO | Kansas City, KS \u2502 Lenexa, KS \u2502 Denver, CO \u2502 St. Simons Island, GA Renaissance Infrastructure Consulting 2653 Penrose Ln. Lenexa, KS 66219 August 27, 2026 Public Comments Processing Attn: Gary M. Jackson, Division Chief Office of Size Standards U.S. Small...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0237": {
+          "organization": "Renaissance Infrastructure Consulting",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5890440114519881
+    },
+    {
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0241",
@@ -2720,10 +3169,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6130790827363553
+      "presentation_score": 0.5890440114519881
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0267",
@@ -2756,10 +3205,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6130790827363553
+      "presentation_score": 0.5890440114519881
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0272",
@@ -2792,10 +3241,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6130790827363553
+      "presentation_score": 0.5890440114519881
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0486",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 3753,
+      "representative_excerpt": "The agency initially focused on helping returning veterans put their skills to work as small business owners across America\u2019s industrial base and later expanded to support all U.S. entrepreneurs. Today, America\u2019s 36 million small businesses create two out of every three new jobs, contribute nearly half of U.S. GDP, and represent 99 percent of all private...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0486": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5807106781186547
+    },
+    {
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0380",
@@ -2828,10 +3313,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5994427190999916
+      "presentation_score": 0.5723773447853214
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0432",
@@ -2864,46 +3349,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5994427190999916
+      "presentation_score": 0.5723773447853214
     },
     {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0454",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 2998,
-      "representative_excerpt": "The 36 million small US businesses today create two out of every three new jobs, contribute nearly half of U.S. GDP, and represent 99 percent of all private businesses in the country. During my time of employment, I have worked for large corporations on DoD contracts, and numerous small-business entities on FAA contracts. I am currently work for a woman...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0454": {
-          "organization": "",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "75022",
-          "city": "Flower Mound",
-          "stateProvinceRegion": "TX",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5994427190999916
-    },
-    {
-      "cluster_id": 72,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0092",
@@ -2936,10 +3385,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.585806355463628
+      "presentation_score": 0.5640440114519881
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0094",
@@ -2972,10 +3421,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.585806355463628
+      "presentation_score": 0.5640440114519881
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0097",
@@ -3008,10 +3457,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.585806355463628
+      "presentation_score": 0.5640440114519881
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0104",
@@ -3044,10 +3493,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.585806355463628
+      "presentation_score": 0.5640440114519881
     },
     {
-      "cluster_id": 114,
+      "cluster_id": 127,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0016",
@@ -3080,17 +3529,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5794427190999916
+      "presentation_score": 0.5607106781186547
     },
     {
-      "cluster_id": 112,
-      "count": 1,
+      "cluster_id": 1,
+      "count": 2,
       "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0018",
-      "representative_posted_date": "2026-08-21T04:00:00Z",
-      "representative_length": 4354,
-      "representative_excerpt": "Monte Carlo or comparable uncertainty analysis should also be considered. A deterministic point estimate without confidence or sensitivity bounds may overstate the precision supported by underlying economic data. NAICS Aggregation Reducing approximately 1,000 individual standards to 338 simplifies administration but increases the risk of aggregation bias....",
-      "representative_signal_score": 3,
+      "representative_comment_id": "SBA-2026-0199-0527",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 1883,
+      "representative_excerpt": "As an organization representing hundreds of locally owned, independent businesses, we strongly oppose drastic increases to the SBA\u2019s small business size standards. Small businesses are not simply larger companies that have not yet reached a particular revenue threshold. They operate with fundamentally different levels of access to capital, purchasing...",
+      "representative_signal_score": 1,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -3098,28 +3547,43 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "SBA-2026-0199-0018": {
-          "organization": "",
-          "postedDate": "2026-08-21T04:00:00Z",
-          "zip": "33612",
-          "city": "Tampa",
-          "stateProvinceRegion": "FL",
-          "country": "United States",
+        "SBA-2026-0199-0527": {
+          "organization": "Louisville Independent Business Alliance",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
           "attachmentCount": 0,
           "title": "Comment on FR Doc # 2026-17042",
           "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "SBA-2026-0199-0425": {
+          "organization": "Velasco Consulting LLC DBA Novle",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5794427190999916
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5575598066567095
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0052",
@@ -3152,10 +3616,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5767154463727189
+      "presentation_score": 0.5557106781186548
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0468",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 240,
+      "representative_excerpt": "1500 PARK AVE EMERYVILLE, CA 94608- 3575 TEL 510 740-2400 www.tectonics-ae.com A r c h i t e c t s P l a n n e r s E n g i n e e r s S A N F R A N C I S C O E M E R Y V I L L E H O N O L U L U S A N D I E G O S E A T T L E T E C T O N I C S",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0468": {
+          "organization": "TECTONICS",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5507106781186548
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0477",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 271,
+      "representative_excerpt": "we currently have to many small businesses as it is. the bidding process has seen 5-15 respondents per small job blow up to 30-100 respondents. if you reclassify this and include mid size businesses then the small ones will simply go out of business. thanks.........Steve",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0477": {
+          "organization": "full service electric",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5507106781186548
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0519",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 725,
+      "representative_excerpt": "Our revenues are in the $75M - $100M range and we have 60-70 employees. A general contractor with 600 employees would typically generate between $210 million and $300 million in annual revenue, which is not a small business. It takes over a decade to get to the size. This proposed change completely eliminates the purpose of the small business program....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0519": {
+          "organization": "GMA Construction Group",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5507106781186548
+    },
+    {
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0408",
@@ -3188,10 +3760,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5694427190999917
+      "presentation_score": 0.5423773447853215
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 70,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0233",
+      "representative_posted_date": "2026-08-28T04:00:00Z",
+      "representative_length": 1303,
+      "representative_excerpt": "Tiered Graduation Levels: Implement transitional mid-tier contracting mechanisms for growing businesses rather than drastically raising entry thresholds for true small businesses. 2. Inflation-Adjusted Caps Only: Limit standard revisions strictly to verified CPI inflation adjustments rather than multi-fold structural multipliers. 3. Sub-Category...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0233": {
+          "organization": "",
+          "postedDate": "2026-08-28T04:00:00Z",
+          "zip": "27455",
+          "city": "Greensboro",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5390440114519881
+    },
+    {
+      "cluster_id": 123,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0024",
@@ -3239,82 +3847,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5640509130634447
+      "presentation_score": 0.5375598066567094
     },
     {
-      "cluster_id": 52,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0233",
-      "representative_posted_date": "2026-08-28T04:00:00Z",
-      "representative_length": 1303,
-      "representative_excerpt": "Tiered Graduation Levels: Implement transitional mid-tier contracting mechanisms for growing businesses rather than drastically raising entry thresholds for true small businesses. 2. Inflation-Adjusted Caps Only: Limit standard revisions strictly to verified CPI inflation adjustments rather than multi-fold structural multipliers. 3. Sub-Category...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0233": {
-          "organization": "",
-          "postedDate": "2026-08-28T04:00:00Z",
-          "zip": "27455",
-          "city": "Greensboro",
-          "stateProvinceRegion": "NC",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5630790827363552
-    },
-    {
-      "cluster_id": 111,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0019",
-      "representative_posted_date": "2026-08-21T04:00:00Z",
-      "representative_length": 2747,
-      "representative_excerpt": "For these reasons, we support SBA\u2019s effort to modernize its size standards and specifically support the proposed $61 million size standard as it would apply to Translation and Interpretation Services under NAICS 541930. Page | 2 Deaf Access Solutions Inc \u2022 6900 Wisconsin Ave, #31111, Bethesda, MD 20824 202-391-0074 Office \u2022 202-355-6653 Fax \u2022 www....",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0019": {
-          "organization": "Deaf Access Solutions",
-          "postedDate": "2026-08-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5494427190999916
-    },
-    {
-      "cluster_id": 110,
+      "cluster_id": 125,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0020",
@@ -3347,10 +3883,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5494427190999916
+      "presentation_score": 0.5307106781186548
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0102",
@@ -3383,10 +3919,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.535806355463628
+      "presentation_score": 0.5140440114519881
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0105",
@@ -3419,46 +3955,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.535806355463628
+      "presentation_score": 0.5140440114519881
     },
     {
       "cluster_id": 53,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0112",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 1694,
-      "representative_excerpt": "Size standards exist to distinguish businesses that are \"not dominant in their field of operation.\" Doubling or tripling a standard in one cycle does not simply account for inflation and productivity growth; it fundamentally redefines who competes as \"small.\" A firm with $20 million in average annual revenue currently competes against peers capped near $24....",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0112": {
-          "organization": "",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.535806355463628
-    },
-    {
-      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0265",
@@ -3491,10 +3991,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5330790827363553
+      "presentation_score": 0.5090440114519882
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0269",
@@ -3527,10 +4027,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5330790827363553
+      "presentation_score": 0.5090440114519882
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0042",
@@ -3563,10 +4063,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5267154463727188
+      "presentation_score": 0.5057106781186548
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0043",
@@ -3599,10 +4099,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5267154463727188
+      "presentation_score": 0.5057106781186548
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0060",
@@ -3635,10 +4135,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5267154463727188
+      "presentation_score": 0.5057106781186548
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0087",
@@ -3671,10 +4171,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5267154463727188
+      "presentation_score": 0.5057106781186548
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0370",
@@ -3707,10 +4207,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5194427190999916
+      "presentation_score": 0.49237734478532147
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0413",
@@ -3743,10 +4243,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5194427190999916
+      "presentation_score": 0.49237734478532147
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0098",
@@ -3779,10 +4279,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.505806355463628
+      "presentation_score": 0.4840440114519881
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0106",
@@ -3815,10 +4315,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.505806355463628
+      "presentation_score": 0.4840440114519881
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0111",
@@ -3851,10 +4351,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.505806355463628
+      "presentation_score": 0.4840440114519881
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 126,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0017",
@@ -3887,10 +4387,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4994427190999916
+      "presentation_score": 0.48071067811865476
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 115,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0039",
@@ -3923,10 +4423,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.49671544637271886
+      "presentation_score": 0.4757106781186548
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0071",
@@ -3959,10 +4459,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.49671544637271886
+      "presentation_score": 0.4757106781186548
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0245",
@@ -3995,10 +4495,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48307908273635525
+      "presentation_score": 0.45904401145198814
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0256",
@@ -4031,10 +4531,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48307908273635525
+      "presentation_score": 0.45904401145198814
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0261",
@@ -4067,10 +4567,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48307908273635525
+      "presentation_score": 0.45904401145198814
     },
     {
-      "cluster_id": 115,
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0014",
@@ -4103,10 +4603,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4694427190999916
+      "presentation_score": 0.4507106781186548
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0091",
@@ -4139,10 +4639,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45580635546362797
+      "presentation_score": 0.4340440114519881
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0103",
@@ -4175,10 +4675,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45580635546362797
+      "presentation_score": 0.4340440114519881
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0249",
@@ -4211,10 +4711,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4530790827363552
+      "presentation_score": 0.42904401145198806
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0250",
@@ -4247,10 +4747,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4530790827363552
+      "presentation_score": 0.42904401145198806
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0049",
@@ -4283,10 +4783,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44671544637271887
+      "presentation_score": 0.4257106781186548
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0070",
@@ -4319,10 +4819,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44671544637271887
+      "presentation_score": 0.4257106781186548
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0482",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 424,
+      "representative_excerpt": "I am currently a Certified DBE in Five States as well as a Small Business Enterprise. It has been a struggle to stay in business. SBE companies cannot compete with larger corporations that have hundreds of employees, unlimited funds, equipment, access to financing, resources, and materials, and therefore would put SBE's out of business!! I BELIEVE THE...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0482": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "AZ",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4207106781186547
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0487",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 910,
+      "representative_excerpt": "SBA should not equate a firm's lack of dominance in a broad economic market with its continued need for small-business protections. \u2022 The governing framework requires a broader inquiry. SBA must consider free entry, business creation and growth, entry barriers, firm-size distribution, program objectives, and program impacts. \u2022 SBA should test effects...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0487": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "39305",
+          "city": "Meridian",
+          "stateProvinceRegion": "MS",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4207106781186547
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0514",
+      "representative_posted_date": "2026-09-02T04:00:00Z",
+      "representative_length": 437,
+      "representative_excerpt": "having worked to assist small businesses for the past 35 years, this change would be a substantial negative impact to those that currently qualify. Businesses that would qualify under the new measures; ARE NOT small. Our country must focus on the true small and do what can be done to foster growth, not shutter doors and this change will put many out of...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0514": {
+          "organization": "",
+          "postedDate": "2026-09-02T04:00:00Z",
+          "zip": "60137",
+          "city": "Glen Ellyn",
+          "stateProvinceRegion": "IL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4207106781186547
+    },
+    {
+      "cluster_id": 45,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0361",
+      "representative_posted_date": "2026-09-01T04:00:00Z",
+      "representative_length": 277,
+      "representative_excerpt": "This unnecessary rule will dilute the pool of resources available to true small businesses by re-classifying larger businesses as 'small'. Arguably, a predictable and transparent consequence of the revolving door between government and lobbying. This should not go into effect.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0361": {
+          "organization": "",
+          "postedDate": "2026-09-01T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4123773447853214
+    },
+    {
+      "cluster_id": 81,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0101",
@@ -4370,46 +5014,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.44041454942708097
+      "presentation_score": 0.4108931399900427
     },
     {
-      "cluster_id": 27,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0361",
-      "representative_posted_date": "2026-09-01T04:00:00Z",
-      "representative_length": 277,
-      "representative_excerpt": "This unnecessary rule will dilute the pool of resources available to true small businesses by re-classifying larger businesses as 'small'. Arguably, a predictable and transparent consequence of the revolving door between government and lobbying. This should not go into effect.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0361": {
-          "organization": "",
-          "postedDate": "2026-09-01T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.43944271909999155
-    },
-    {
-      "cluster_id": 57,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0107",
@@ -4442,10 +5050,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.42580635546362794
+      "presentation_score": 0.40404401145198804
     },
     {
-      "cluster_id": 124,
+      "cluster_id": 135,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0002",
@@ -4478,10 +5086,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4194427190999916
+      "presentation_score": 0.4007106781186548
     },
     {
-      "cluster_id": 121,
+      "cluster_id": 134,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0007",
@@ -4514,10 +5122,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4194427190999916
+      "presentation_score": 0.4007106781186548
     },
     {
-      "cluster_id": 120,
+      "cluster_id": 133,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0008",
@@ -4550,10 +5158,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4194427190999916
+      "presentation_score": 0.4007106781186548
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0048",
@@ -4586,10 +5194,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.41671544637271885
+      "presentation_score": 0.39571067811865474
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0079",
@@ -4622,10 +5230,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.41671544637271885
+      "presentation_score": 0.39571067811865474
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0086",
@@ -4658,10 +5266,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.41671544637271885
+      "presentation_score": 0.39571067811865474
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0236",
@@ -4694,10 +5302,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40307908273635523
+      "presentation_score": 0.37904401145198807
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0262",
@@ -4730,10 +5338,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40307908273635523
+      "presentation_score": 0.37904401145198807
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0270",
@@ -4766,10 +5374,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40307908273635523
+      "presentation_score": 0.37904401145198807
     },
     {
-      "cluster_id": 117,
+      "cluster_id": 130,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0011",
@@ -4802,10 +5410,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.38944271909999156
+      "presentation_score": 0.3707106781186547
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 91,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0090",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 1085,
+      "representative_excerpt": "SBA should preserve meaningful small business competition, analyze the impact on existing small businesses and socioeconomic small business programs, and consider tiered or transitional approaches that support smaller firms rather than overwhelming the set-aside market. SBA\u2019s mission is to aid, counsel, assist, and protect small business concerns. This...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0090": {
+          "organization": "",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "20884",
+          "city": "Gaithersburg",
+          "stateProvinceRegion": "MD",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35404401145198805
+    },
+    {
+      "cluster_id": 82,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0100",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 853,
+      "representative_excerpt": "Please do not change the size standards that exists today. It's difficult enough now for small businesses to obtain business in the federal government space especially those businesses that no longer are considered small diverse companies. Corporations are walking away due to the elimination of DEI. Corporations are afraid of doing business with diverse...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0100": {
+          "organization": "",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "75074",
+          "city": "2800 E. Plano Parkway",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35404401145198805
+    },
+    {
+      "cluster_id": 74,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0108",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 299,
+      "representative_excerpt": "The small business size standards should not be adjusted upwards as you have suggested. Please do not increase the threshold by such large amounts. This will have a negative effect on all the small businesses currently competing in this space. Jerry Partney Integrity First Technologies St. Pete, FL",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0108": {
+          "organization": "",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "33703",
+          "city": "St. Petersburg",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35404401145198805
+    },
+    {
+      "cluster_id": 72,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "SBA-2026-0199-0110",
+      "representative_posted_date": "2026-08-25T04:00:00Z",
+      "representative_length": 451,
+      "representative_excerpt": "This will raise barriers to entry, which are already very high, and stifle innovation in sectors that are critically needed. I work in the computer programming industry, which creates innovative solutions across hundreds of small businesses. Raising the cap will give larger, older businesses a monetary advantage that will prevent fair competition....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "SBA-2026-0199-0110": {
+          "organization": "",
+          "postedDate": "2026-08-25T04:00:00Z",
+          "zip": "22554",
+          "city": "Stafford",
+          "stateProvinceRegion": "VA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on FR Doc # 2026-17042",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35404401145198805
+    },
+    {
+      "cluster_id": 113,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0041",
@@ -4853,154 +5605,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3813236403361719
+      "presentation_score": 0.3525598066567094
     },
     {
-      "cluster_id": 74,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0090",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 1085,
-      "representative_excerpt": "SBA should preserve meaningful small business competition, analyze the impact on existing small businesses and socioeconomic small business programs, and consider tiered or transitional approaches that support smaller firms rather than overwhelming the set-aside market. SBA\u2019s mission is to aid, counsel, assist, and protect small business concerns. This...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0090": {
-          "organization": "",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "20884",
-          "city": "Gaithersburg",
-          "stateProvinceRegion": "MD",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37580635546362795
-    },
-    {
-      "cluster_id": 64,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0100",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 853,
-      "representative_excerpt": "Please do not change the size standards that exists today. It's difficult enough now for small businesses to obtain business in the federal government space especially those businesses that no longer are considered small diverse companies. Corporations are walking away due to the elimination of DEI. Corporations are afraid of doing business with diverse...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0100": {
-          "organization": "",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "75074",
-          "city": "2800 E. Plano Parkway",
-          "stateProvinceRegion": "TX",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37580635546362795
-    },
-    {
-      "cluster_id": 56,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0108",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 299,
-      "representative_excerpt": "The small business size standards should not be adjusted upwards as you have suggested. Please do not increase the threshold by such large amounts. This will have a negative effect on all the small businesses currently competing in this space. Jerry Partney Integrity First Technologies St. Pete, FL",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0108": {
-          "organization": "",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "33703",
-          "city": "St. Petersburg",
-          "stateProvinceRegion": "FL",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37580635546362795
-    },
-    {
-      "cluster_id": 55,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "SBA-2026-0199-0110",
-      "representative_posted_date": "2026-08-25T04:00:00Z",
-      "representative_length": 451,
-      "representative_excerpt": "This will raise barriers to entry, which are already very high, and stifle innovation in sectors that are critically needed. I work in the computer programming industry, which creates innovative solutions across hundreds of small businesses. Raising the cap will give larger, older businesses a monetary advantage that will prevent fair competition....",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "SBA-2026-0199-0110": {
-          "organization": "",
-          "postedDate": "2026-08-25T04:00:00Z",
-          "zip": "22554",
-          "city": "Stafford",
-          "stateProvinceRegion": "VA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on FR Doc # 2026-17042",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.37580635546362795
-    },
-    {
-      "cluster_id": 101,
+      "cluster_id": 116,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0038",
@@ -5033,10 +5641,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36671544637271886
+      "presentation_score": 0.34571067811865475
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0040",
@@ -5069,10 +5677,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36671544637271886
+      "presentation_score": 0.34571067811865475
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0058",
@@ -5105,10 +5713,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36671544637271886
+      "presentation_score": 0.34571067811865475
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0080",
@@ -5141,10 +5749,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36671544637271886
+      "presentation_score": 0.34571067811865475
     },
     {
-      "cluster_id": 119,
+      "cluster_id": 132,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0009",
@@ -5177,10 +5785,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3394427190999916
+      "presentation_score": 0.3207106781186547
     },
     {
-      "cluster_id": 116,
+      "cluster_id": 129,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0013",
@@ -5213,10 +5821,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3394427190999916
+      "presentation_score": 0.3207106781186547
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0032",
@@ -5249,10 +5857,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3394427190999916
+      "presentation_score": 0.3207106781186547
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0273",
@@ -5285,10 +5893,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3230790827363552
+      "presentation_score": 0.29904401145198806
     },
     {
-      "cluster_id": 118,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0010",
@@ -5321,10 +5929,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.30944271909999155
+      "presentation_score": 0.29071067811865475
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "SBA-2026-0199-0059",
@@ -5357,7 +5965,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.28671544637271884
+      "presentation_score": 0.26571067811865473
     }
   ],
   "comments_clusters_path": "data/comments/SBA-2026-0199.csv",
@@ -5365,18 +5973,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.2972972972972973,
-  "comments_first_page_coverage_count": 44,
-  "comments_clusters_total_available": 124,
-  "comments_clusters_displayed": 124,
-  "comments_first_page_high_signal_clusters": 23,
-  "comments_first_page_novelty_clusters": 25,
+  "comments_first_page_coverage_share": 0.3258426966292135,
+  "comments_first_page_coverage_count": 58,
+  "comments_clusters_total_available": 135,
+  "comments_clusters_displayed": 135,
+  "comments_first_page_high_signal_clusters": 20,
+  "comments_first_page_novelty_clusters": 23,
   "comments_first_page_stance_counts": {
     "positive": 2,
-    "negative": 18,
-    "neutral": 5
+    "neutral": 3,
+    "negative": 20
   },
-  "comments_first_page_unique_days": 5,
+  "comments_first_page_unique_days": 6,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
