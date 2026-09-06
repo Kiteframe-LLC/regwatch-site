@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-04T09:37:06.850475+00:00",
+  "comment_action_checked_at": "2026-09-06T00:02:57.681858+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,491 @@
   "pass_2_scaled": 0.5501593812969283,
   "pass_3_scaled": 0.43153459161728436,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5587171327430341,
+  "combined_score": 0.7501214004835188,
   "score_total": 13,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "likely_routine_rule",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
-  "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_4_raw": 5,
+  "pass_4_scaled": 0.49375,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 1,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.75,
+    "A": 1.2,
+    "H": 0.6666666666666666,
+    "E": 1.3333333333333333
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "federalism_preemption_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
+  ],
+  "pass_4_primary_concern": "The proposal leaves location-control and offer-participation boundaries consequential but insufficiently specified for consistent compliance and fair notice.",
+  "combined_score_pre_pass5": 0.6000971203868151,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "\ud83d\udea9 Nuts \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment": "\ud83d\udea9 Nuts \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment_tier": "\ud83d\udea9 Nuts",
+  "pass_5_scaled": 1.0,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "self_policing_substitution",
+  "pass_5_worst_flaw_name": "Self-Policing Substitution",
+  "pass_5_material_flaw_count": 9,
+  "pass_5_worst_family_key": "burden_and_consequence_handling",
+  "pass_5_worst_family_name": "Burden and Consequence Handling",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 6,
+  "pass_5_base_defect_score": 0.9749,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.4,
+  "pass_5_context_pressure": 0.49,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.4,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal regulates access to a payment and settlement instrument and can affect cross-border financial participation, user access, and criminal exposure for service providers.",
+  "pass_5_red_flag": true,
+  "pass_5_red_flag_gates": [
+    "Harm Before Review Plus Structural Lever",
+    "Accountability Capture",
+    "Instrumental Disruption in High-Stakes Domain"
+  ],
+  "pass_5_concise_why": "The proposal is coherent overall, but private location controls and broad conduct examples can become consequential access and enforcement gates before a correction pathway is specified.",
+  "pass_5_most_important_consequence": "A provider may over-block legitimate users or neutral services to reduce enforcement risk, while an offshore actor may evade controls; both outcomes can be difficult to detect and correct.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.25,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.406
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.5,
+      "material_flaw_count": 2,
+      "material_share": 0.5,
+      "family_score": 0.463
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.425
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.425
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 2,
+      "mean_severity": 2.0,
+      "material_flaw_count": 2,
+      "material_share": 1.0,
+      "family_score": 0.575
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 1.4,
+      "material_flaw_count": 2,
+      "material_share": 0.4,
+      "family_score": 0.44
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The notice grounds the framework in statute, but practical efficiency is also used to support the foreign-issuer interpretation.",
+      "evidence": [
+        {
+          "section": "II.C.1",
+          "quote_or_absence": "The notice relies on statutory text and practical market effects in combination."
+        }
+      ],
+      "comment_leverage": "Ask Treasury to separate statutory authority from policy consequences and identify the limiting principle."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal may read related provisions together to resolve section 3(a), but the competing textual reading deserves fuller treatment.",
+      "evidence": [
+        {
+          "section": "II.C.1",
+          "quote_or_absence": "The notice does not fully set out the strongest contrary reading of sections 3(a), 18(a), and 4(a)(12)(C)."
+        }
+      ],
+      "comment_leverage": "Request a side-by-side explanation of the competing statutory interpretations."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Providers carry the practical burden of deciding whether a person is located in the United States, while the rule does not fully describe agency review or correction.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.2(c)",
+          "quote_or_absence": "The safe harbor turns on a provider's reasonable belief and controls."
+        }
+      ],
+      "comment_leverage": "Ask who bears responsibility when agency guidance, provider evidence, and user facts conflict."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The offshore safe harbor depends heavily on private policies, procedures, controls, and reasonable beliefs without a detailed safe-reliance standard.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.2(c)",
+          "quote_or_absence": "The person reasonably believes that each person ... is not located in the United States and has adopted and implemented policies, procedures, and controls reasonably designed to avoid issuing ... to any person located in the United States."
+        }
+      ],
+      "comment_leverage": "Request minimum control elements, documentation expectations, safe reliance, and a correction process."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Access may be restricted at the provider-control stage before a user or service has a clear review pathway.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7\u00a7 1523.2-1523.3",
+          "quote_or_absence": "The available text specifies controls and prohibitions but not a pre-enforcement review sequence."
+        }
+      ],
+      "comment_leverage": "Ask Treasury to explain when evidence is collected, when access is denied, and when correction is available."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal creates incentives to collect location and identity evidence, but the notice does not quantify the privacy or error costs of that collection.",
+      "evidence": [
+        {
+          "section": "Questions 86-87 and proposed \u00a7 1523.2(c)",
+          "quote_or_absence": "The record asks about compliance efficiency and information burdens but does not quantify privacy, false-positive, or false-negative effects of location controls."
+        }
+      ],
+      "comment_leverage": "Request privacy-preserving control alternatives and error-rate estimates."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Broad advertising and participation examples may reach conduct beyond the core issuance problem unless their purpose and knowledge limits are clear.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.3(d)",
+          "quote_or_absence": "The examples include advertising and advice, but the available text does not fully distinguish neutral infrastructure from purposeful solicitation."
+        }
+      ],
+      "comment_leverage": "Ask Treasury to narrow examples or add role-specific safe harbors."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal assumes workable real-time location controls across individuals, entities, intermediaries, and cross-border transactions without showing operational performance.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.1(c) and \u00a7 1523.2(c)",
+          "quote_or_absence": "The record provides location definitions and control conditions but no testing, error rates, or implementation study."
+        }
+      ],
+      "comment_leverage": "Request scenario testing, error-rate evidence, and phased implementation."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The framework depends on providers translating fluid identity and location facts into a binary compliance outcome.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.2(b)-(c)",
+          "quote_or_absence": "The rule uses issuer and recipient location as decisive interfaces without specifying how ambiguous signals are reconciled."
+        }
+      ],
+      "comment_leverage": "Ask for a hierarchy of evidence and a non-punitive ambiguity protocol."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Anti-evasion concepts and targeting language may be difficult to distinguish from ordinary cross-border activity.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.3(d)",
+          "quote_or_absence": "The examples include advising purchasers on how to evade generally applicable location detection or restriction mechanisms, while targeting is also framed by reasonably expected effect."
+        }
+      ],
+      "comment_leverage": "Request concrete evasion and non-evasion examples, including neutral technical assistance."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice recognizes costs and benefits questions but leaves important access, competition, privacy, and distributional effects for future input.",
+      "evidence": [
+        {
+          "section": "Questions 83-87",
+          "quote_or_absence": "The notice asks commenters to supply information on costs, benefits, market participation, and unrecognized burdens."
+        }
+      ],
+      "comment_leverage": "Submit disaggregated evidence by user, provider, and transaction type."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Advertising and solicitation examples create a risk that ordinary public availability or algorithmic distribution will be treated as targeting.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.3(d)",
+          "quote_or_absence": "Advertising a payment stablecoin as available for purchase by persons located in the United States is listed as an offer or sale activity."
+        }
+      ],
+      "comment_leverage": "Ask for an objective targeting test and protection for neutral distribution channels."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The supplied text does not establish a detailed notice, correction, appeal, or safe-reliance mechanism for disputed location decisions.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7\u00a7 1523.1-1523.4",
+          "quote_or_absence": "The available provisions describe prohibitions, controls, exemptions, and examples but do not explain a user-facing correction or appeal pathway."
+        }
+      ],
+      "comment_leverage": "Request procedural safeguards and records sufficient to reconstruct a disputed decision."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal may shift compliance, privacy, and access costs onto users and smaller providers without fully quantifying them.",
+      "evidence": [
+        {
+          "section": "Question 87",
+          "quote_or_absence": "The notice asks whether it has missed information-collection burdens and who would bear them."
+        }
+      ],
+      "comment_leverage": "Provide burden estimates for small providers and affected users."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Anti-evasion controls can encourage broad suspicion of cross-border users or transactions even where lawful activity is ambiguous.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7\u00a7 1523.2(c) and 1523.3(d)",
+          "quote_or_absence": "The proposal links safe-harbor eligibility to controls designed to avoid U.S. persons and identifies evasion advice as participation."
+        }
+      ],
+      "comment_leverage": "Ask Treasury to require proportionality and avoid treating uncertainty as evidence of evasion."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "If providers rely on opaque vendor location tools, the record supporting a denial may be difficult to audit.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.2(c)",
+          "quote_or_absence": "The available text requires controls but does not specify auditability, retention, or vendor-transparency requirements."
+        }
+      ],
+      "comment_leverage": "Request recordkeeping and audit requirements that preserve reconstructability."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "A mistaken block can occur at the point of issuance, offer, or access before the proposal identifies a review or correction route.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7\u00a7 1523.2-1523.3",
+          "quote_or_absence": "The record defines prohibited conduct and safe-harbor conditions but does not describe a timely remedy for mistaken blocking."
+        }
+      ],
+      "comment_leverage": "Ask for a prompt correction process and protection against penalties when providers promptly remediate good-faith errors."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The provider's location determination can function as a gate to market access, but procedural criteria for that gate are not fully specified.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.2(c)",
+          "quote_or_absence": "The safe harbor is conditioned on private control systems rather than a prescribed reviewable procedure."
+        }
+      ],
+      "comment_leverage": "Request objective gate criteria and agency oversight of high-impact exclusions."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The proposal does not fully distinguish the consequences for issuers, service providers, advertisers, advisers, and neutral technology providers when conduct is close to an example.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 1523.2(d) and \u00a7 1523.3(d)",
+          "quote_or_absence": "The notice identifies participation examples but does not provide a complete consequence matrix by actor role."
+        }
+      ],
+      "comment_leverage": "Ask Treasury to publish role-specific examples and clarify civil versus criminal exposure."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "Uncertainty about location, targeting, and participation can itself encourage providers to deny access broadly.",
+      "evidence": [
+        {
+          "section": "Questions 1-5 and Proposed \u00a7\u00a7 1523.2-1523.3",
+          "quote_or_absence": "The proposal asks whether extraterritoriality and definitions are clear while making those concepts central to prohibitions and safe harbors."
+        }
+      ],
+      "comment_leverage": "Request bright-line presumptions, rebuttal procedures, and protection for good-faith reliance."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The objective-to-mechanism chain is coherent, but operational safeguards and empirical validation are incomplete.",
+      "evidence": [
+        {
+          "section": "Whole notice",
+          "quote_or_absence": "The notice connects statutory prohibitions, definitions, controls, examples, and safe harbors, but does not fully connect them to measured implementation outcomes."
+        }
+      ],
+      "comment_leverage": "Ask Treasury to add an implementation plan with measurable performance and review indicators."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": true,
+    "ambiguity_as_mechanism": true,
+    "conversion_surface": {
+      "present": true,
+      "source_surface": "Payment stablecoin issuance and offers involving a person located in the United States",
+      "converted_surface": "Private location-detection, advertising-targeting, and intermediary-control decisions",
+      "authority_used": "GENIUS Act section 3 and proposed \u00a7\u00a7 1523.1-1523.3",
+      "new_control_point": "Provider decision whether a person, transaction, service, or communication is sufficiently connected to the United States",
+      "affected_constraint": "Access to payment-stablecoin issuance, offers, sales, and related services",
+      "harm_before_review_pathway": "A legitimate user or neutral provider may be blocked or withdraw service before a clear correction, appeal, or safe-reliance process is available."
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_signal",
     "high_scope_exclusion_language"
@@ -8203,8 +8644,8 @@
   "comments_total": 7,
   "comments_velocity_total": 7,
   "comments_public_total_estimate": 7,
-  "comments_fetched": 1,
-  "comments_text_hydrated": 1,
+  "comments_fetched": 0,
+  "comments_text_hydrated": 0,
   "comments_cached_records": 7,
   "comments_unique_clusters": 7,
   "comments_clustered_duplicates": 0,
@@ -8258,8 +8699,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-09-04T07:44:59.784100+00:00",
-  "comments_checked_at": "2026-09-04T07:44:59.818068+00:00",
+  "comments_api_last_seen_at": "2026-09-05T20:55:07.109605+00:00",
+  "comments_checked_at": "2026-09-05T20:55:07.132318+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
@@ -8531,10 +8972,10 @@
     "positive": 1
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/TREAS_FRDOC_0001-0493_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "TREAS_FRDOC_0001"
