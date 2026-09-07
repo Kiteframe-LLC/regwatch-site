@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-07T10:03:32.316257+00:00",
+  "comment_action_checked_at": "2026-09-07T10:23:04.910414+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,451 @@
   "pass_2_scaled": 0.9389472349966212,
   "pass_3_scaled": 0.002663114269499056,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.37346793423423386,
+  "combined_score": 0.4976621133246383,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 0,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "high_comment_leverage_probability",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 6,
+  "pass_4_scaled": 0.5958333333333333,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 2,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 2,
+    "distributional_omission_risk": 2,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 2,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 2
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.6,
+    "H": 1.0,
+    "E": 1.6666666666666667
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
+  ],
+  "pass_4_primary_concern": "The notice treats diverse clinical, reporting, and tobacco terminology edits as costless editorial changes without showing semantic continuity or implementation effects.",
+  "combined_score_pre_pass5": 0.4068466308564185,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Extreme \u00b7 Implementation Reality",
+  "pass_5_assessment": "Extreme \u00b7 Implementation Reality",
+  "pass_5_assessment_tier": "Extreme",
+  "pass_5_scaled": 0.8928719136943749,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "remedy_rationale_mismatch",
+  "pass_5_worst_flaw_name": "Remedy-Rationale Mismatch",
+  "pass_5_material_flaw_count": 5,
+  "pass_5_worst_family_key": "implementation_reality",
+  "pass_5_worst_family_name": "Implementation Reality",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 3,
+  "pass_5_base_defect_score": 0.873967,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The amendments affect FDA rules governing clinical research, medical-device validation, safety reporting, and tobacco-product reporting, all of which can influence public-health information.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal has a clear terminology objective, but it relies on a broad editorial characterization across diverse data and reporting programs without a visible semantic-continuity or implementation showing.",
+  "pass_5_most_important_consequence": "If a replacement or deletion changes the meaning or comparability of required information, regulated entities and FDA could receive less consistent data while the rule assumes no practical impact.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.25,
+      "material_flaw_count": 2,
+      "material_share": 0.5,
+      "family_score": 0.444
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.333,
+      "material_flaw_count": 2,
+      "material_share": 0.667,
+      "family_score": 0.475
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 2,
+      "mean_severity": 0.4,
+      "material_flaw_count": 1,
+      "material_share": 0.2,
+      "family_score": 0.335
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The notice cites FDA-related statutory authorities and does not visibly transfer the regulatory task to an unrelated actor.",
+      "evidence": [],
+      "comment_leverage": "No major authority-substitution issue is visible; ask FDA to connect each edit to its cited authority if needed."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal does not visibly reverse a statutory duty or use the terminology edits to negate a statutory requirement.",
+      "evidence": [],
+      "comment_leverage": "Focus on explanation and implementation rather than a statutory-inversion claim."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The notice does not shift accountability from FDA or regulated entities to an unreviewable third party.",
+      "evidence": [],
+      "comment_leverage": "No material accountability inversion is shown by the available text."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal does not create a new self-policing regime; it changes regulatory terminology.",
+      "evidence": [],
+      "comment_leverage": "Ask how FDA will verify data continuity, but do not characterize the rule itself as self-policing substitution."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal does not create a new procedural sequence that makes substantive review impossible.",
+      "evidence": [],
+      "comment_leverage": "No material sequencing capture is visible."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The physical intrusion is low, but the notice's evidence for zero practical effect is thinner than the breadth of the amendments.",
+      "evidence": [
+        {
+          "section": "I.D and Part V",
+          "quote_or_absence": "The proposed text spans 26 provisions, while the economic discussion gives a categorical zero-impact conclusion."
+        }
+      ],
+      "comment_leverage": "Request evidence that the information and reporting effects remain unchanged."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The remedy is a uniform remove/replace/delete approach, while the stated rationale does not explain why that same remedy preserves the distinct functions of clinical, safety, device, and tobacco provisions.",
+      "evidence": [
+        {
+          "section": "I.A Purpose",
+          "quote_or_absence": "FDA will remove the term gender wherever it appears and either replace it with sex, or delete reference to gender, as applicable."
+        },
+        {
+          "section": "I.D Costs and Benefits",
+          "quote_or_absence": "The notice says the changes are editorial, do not impact industry practices, and produce no measurable costs or benefits."
+        }
+      ],
+      "comment_leverage": "Ask FDA to explain the program-specific fit of each edit and identify any provision where terminology is not merely editorial."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The notice assumes practical continuity across many programs without identifying transition work, controlled-document updates, data mapping, or implementation ownership.",
+      "evidence": [
+        {
+          "section": "Part V Proposed Rule",
+          "quote_or_absence": "The amendments cover clinical validation, safety reporting, medical-device, and tobacco-product provisions."
+        },
+        {
+          "section": "I.D Costs and Benefits",
+          "quote_or_absence": "The notice estimates zero annualized costs and says the rule does not impact industry practices, but does not provide an implementation plan."
+        }
+      ],
+      "comment_leverage": "Request a transition plan, implementation timeline, and list of affected systems, forms, guidance, and training."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No particular software interface is identified as the sole mechanism on the available record.",
+      "evidence": [],
+      "comment_leverage": "Ask about system updates if FDA identifies them in response to comments."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal states its policy objective clearly, even though its program-specific rationale is underdeveloped.",
+      "evidence": [],
+      "comment_leverage": "The stronger comment angle is semantic continuity, not threat ambiguity."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The categorical no-impact conclusion may understate burdens and data-quality effects in programs that use the amended terms for clinical or reporting purposes.",
+      "evidence": [
+        {
+          "section": "I.D Costs and Benefits",
+          "quote_or_absence": "This proposed rule ... does not impact industry practices."
+        },
+        {
+          "section": "I.D Costs and Benefits",
+          "quote_or_absence": "We do not expect any loss of public health benefits as a result of this rule."
+        }
+      ],
+      "comment_leverage": "Request a bounded analysis of operational, data, and public-health effects, including effects on small entities and research participants."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available text presents a generally applicable terminology amendment rather than a selective targeting mechanism.",
+      "evidence": [],
+      "comment_leverage": "No material targeting-abuse issue is shown."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice does not identify a monitoring or correction process if terminology changes create reporting ambiguity or data discontinuity.",
+      "evidence": [
+        {
+          "section": "Part V and I.D",
+          "quote_or_absence": "The available text does not identify post-implementation monitoring, correction procedures, or a data-continuity safeguard."
+        }
+      ],
+      "comment_leverage": "Ask FDA to provide a correction path and monitor for reporting errors after implementation."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Potential update and transition work may fall on sponsors, investigators, manufacturers, and reporting entities even though the notice treats the rule as costless.",
+      "evidence": [
+        {
+          "section": "I.D Costs and Benefits",
+          "quote_or_absence": "The notice estimates zero costs without separately discussing updates to forms, systems, or controlled records."
+        }
+      ],
+      "comment_leverage": "Ask FDA to identify who bears implementation work and why it is de minimis."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not create a suspicion-based enforcement architecture.",
+      "evidence": [],
+      "comment_leverage": "No suspicion-machine issue is visible."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Deletion of a term in reporting or clinical provisions could reduce the specificity of the administrative data record if the underlying concept is not preserved elsewhere.",
+      "evidence": [
+        {
+          "section": "Part V amendments",
+          "quote_or_absence": "Several provisions concern patient or product characteristics and clinical validation, but the notice does not show how historical and future data remain comparable."
+        }
+      ],
+      "comment_leverage": "Ask FDA to preserve reconstructability and comparability of affected data."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The rule is prospective and does not visibly authorize irreversible harm before an individual review pathway.",
+      "evidence": [],
+      "comment_leverage": "No strong harm-before-review defect is shown."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not make access to a separate benefit or adjudicative process depend on an opaque new gateway.",
+      "evidence": [],
+      "comment_leverage": "No material procedural-gateway issue is visible."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice describes the edits as editorial, but does not fully specify whether affected entities must revise documents or systems and by when.",
+      "evidence": [
+        {
+          "section": "I.A, I.D, and Part V",
+          "quote_or_absence": "The notice states that industry practices are unaffected but does not define implementation consequences or transition expectations."
+        }
+      ],
+      "comment_leverage": "Request clear effective-date, transition, and conformity instructions."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 2,
+      "explanation": "The phrase as applicable leaves the replacement-versus-deletion choice underexplained across multiple FDA programs, creating avoidable interpretive discretion.",
+      "evidence": [
+        {
+          "section": "I.A Purpose",
+          "quote_or_absence": "FDA would either replace the term with sex, or delete reference to gender, as applicable."
+        },
+        {
+          "section": "Part V amendments",
+          "quote_or_absence": "The available record does not explain a common decision rule for the different provisions."
+        }
+      ],
+      "comment_leverage": "Ask FDA to state objective criteria and publish the complete amendment crosswalk."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The policy objective is clear, but the record does not sufficiently connect a uniform editorial remedy to the distinct technical functions of all 26 provisions.",
+      "evidence": [
+        {
+          "section": "I.B Summary of Major Provisions",
+          "quote_or_absence": "The rule lists 26 provisions across diverse FDA regulatory parts."
+        },
+        {
+          "section": "I.D Costs and Benefits",
+          "quote_or_absence": "The notice concludes that there is no measurable impact without a visible provision-specific coherence analysis."
+        }
+      ],
+      "comment_leverage": "Request a provision-specific rationale, semantic crosswalk, and data-continuity analysis before finalization."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "missing_baseline_signal",
@@ -280,10 +681,10 @@
     "neutral": 2
   },
   "comments_first_page_unique_days": 2,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/FDA-2026-N-2886-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "FDA-2026-N-2886"
