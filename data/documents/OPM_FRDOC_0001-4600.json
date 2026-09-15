@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-14T10:04:52.508003+00:00",
+  "comment_action_checked_at": "2026-09-15T05:40:24.563716+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -26524,8 +26524,8 @@
   "comments_fetched": 0,
   "comments_text_hydrated": 0,
   "comments_cached_records": 53,
-  "comments_unique_clusters": 50,
-  "comments_clustered_duplicates": 0,
+  "comments_unique_clusters": 52,
+  "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -26558,19 +26558,19 @@
     "2026-08-20": 1
   },
   "comments_novel_comment_rate": 0.9811320754716981,
-  "comments_sentiment_positive_pct": 0.17021276595744694,
-  "comments_sentiment_negative_pct": 0.042553191489361736,
-  "comments_sentiment_neutral_pct": 0.7872340425531914,
-  "comments_sentiment_net": 0.1276595744680852,
-  "comments_sentiment_sample_size": 47,
+  "comments_sentiment_positive_pct": 0.16466000153609794,
+  "comments_sentiment_negative_pct": 0.041165000384024486,
+  "comments_sentiment_neutral_pct": 0.7941749980798777,
+  "comments_sentiment_net": 0.12349500115207346,
+  "comments_sentiment_sample_size": 49,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 50,
+  "comments_analysis_sample_size": 53,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 50,
-  "comments_representative_prior_selected": 48,
-  "comments_representative_newly_selected": 2,
+  "comments_representative_selected": 53,
+  "comments_representative_prior_selected": 52,
+  "comments_representative_newly_selected": 1,
   "comments_representative_must_keep": 2,
   "comments_representative_run_budget": 2,
   "comments_representative_overflow": false,
@@ -26579,9 +26579,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 2,
     "salience_rank": 2,
-    "weighted_fill": 46
+    "weighted_fill": 49
   },
-  "comments_representative_selected_by_counts_total": 50,
+  "comments_representative_selected_by_counts_total": 53,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -26591,7 +26591,58 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 13,
+      "cluster_id": 8,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0052",
+      "representative_posted_date": "2026-09-10T04:00:00Z",
+      "representative_length": 258,
+      "representative_excerpt": "The First Responder Fair RETIRE Act was created to protect first responders whose service-connected injuries forced them out of covered positions and into other federal positions. Excluding employees injured before December 9, 2024 undermines that purpose. I",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0052": {
+          "organization": "",
+          "postedDate": "2026-09-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "OPM-2024-0014-0030": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Ruth Chavez",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6075598066567094
+    },
+    {
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0044",
@@ -26624,10 +26675,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0046",
@@ -26660,10 +26711,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0043",
@@ -26696,10 +26747,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6986956521739129
+      "presentation_score": 0.6401170084112224
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0002",
@@ -26732,10 +26783,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0008",
@@ -26768,10 +26819,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0019",
@@ -26804,10 +26855,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0024",
@@ -26840,43 +26891,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
-    },
-    {
-      "cluster_id": 27,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2024-0014-0027",
-      "representative_posted_date": "2026-08-18T04:00:00Z",
-      "representative_length": 2312,
-      "representative_excerpt": "Doing so could result in the loss of important benefits and a substantial reduction in my retirement income. In practical terms, the system creates an incentive for an injured first responder to remain in a physically demanding law enforcement position and continue risking further injury rather than make a medically appropriate career decision....",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2024-0014-0027": {
-          "organization": "",
-          "postedDate": "2026-08-18T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
       "cluster_id": 1,
@@ -26912,10 +26927,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.68
+      "presentation_score": 0.6214213562373095
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0047",
@@ -26948,10 +26963,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0048",
@@ -26984,10 +26999,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0050",
@@ -27020,10 +27035,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0051",
@@ -27056,10 +27071,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0053",
@@ -27092,10 +27107,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0054",
@@ -27128,10 +27143,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0055",
@@ -27164,10 +27179,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0058",
+      "representative_posted_date": "2026-09-10T04:00:00Z",
+      "representative_length": 345,
+      "representative_excerpt": "Two federal first responders can suffer the same qualifying injury under the same circumstances and continue serving their agencies in the same way, yet receive different retirement treatment solely because one was injured before December 9, 2024. That distinction is fundamentally unfair and does not reflect the sacrifice each employee made. I",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0058": {
+          "organization": "",
+          "postedDate": "2026-09-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0027",
+      "representative_posted_date": "2026-08-18T04:00:00Z",
+      "representative_length": 2312,
+      "representative_excerpt": "Doing so could result in the loss of important benefits and a substantial reduction in my retirement income. In practical terms, the system creates an incentive for an injured first responder to remain in a physically demanding law enforcement position and continue risking further injury rather than make a medically appropriate career decision....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0027": {
+          "organization": "",
+          "postedDate": "2026-08-18T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5514213562373096
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0029",
@@ -27200,10 +27287,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0038",
@@ -27236,10 +27323,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0039",
@@ -27272,10 +27359,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2024-0014-0045",
+      "representative_posted_date": "2026-09-10T04:00:00Z",
+      "representative_length": 897,
+      "representative_excerpt": "I had 12 years of enhanced retirement when I was working and suffered a brain hemorrhage while on duty as a Customs and Border Protection Officer. I fought to keep my position for over a year due to vision loss resulting from the hemorrhage. I was still qualifying on the gun range as required and obtained a CDL license to drive their big X-Ray trucks. When...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2024-0014-0045": {
+          "organization": "",
+          "postedDate": "2026-09-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anthony Kennedy",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0049",
@@ -27308,10 +27431,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0056",
@@ -27344,10 +27467,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0057",
@@ -27380,10 +27503,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0040",
@@ -27416,10 +27539,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.538695652173913
+      "presentation_score": 0.48011700841122257
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0006",
@@ -27452,10 +27575,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0012",
@@ -27488,10 +27611,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0014",
@@ -27524,10 +27647,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0015",
@@ -27560,10 +27683,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0016",
@@ -27596,10 +27719,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0018",
@@ -27632,10 +27755,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0020",
@@ -27668,10 +27791,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0035",
@@ -27704,10 +27827,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.53
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0042",
@@ -27740,10 +27863,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45869565217391306
+      "presentation_score": 0.40011700841122255
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0003",
@@ -27776,10 +27899,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0004",
@@ -27812,10 +27935,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0007",
@@ -27848,10 +27971,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0011",
@@ -27884,10 +28007,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0013",
@@ -27920,10 +28043,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0017",
@@ -27956,10 +28079,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0021",
@@ -27992,10 +28115,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0022",
@@ -28028,10 +28151,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0023",
@@ -28064,10 +28187,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0025",
@@ -28100,10 +28223,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0026",
@@ -28136,46 +28259,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 24,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2024-0014-0030",
-      "representative_posted_date": "2026-08-18T04:00:00Z",
-      "representative_length": 272,
-      "representative_excerpt": "Please include all eligible First Responders to be covered in the First Responders Fair Retire Act to be retroactive further back than 2024. It\u2019s only fair and correct to do so. They\u2019ve given of theirselves to our Nation and now its the Nation\u2019s turn to take care of them.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2024-0014-0030": {
-          "organization": "",
-          "postedDate": "2026-08-18T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Ruth Chavez",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.45
-    },
-    {
-      "cluster_id": 23,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0031",
@@ -28208,10 +28295,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0032",
@@ -28244,10 +28331,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0034",
@@ -28280,10 +28367,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0041",
@@ -28316,10 +28403,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37869565217391304
+      "presentation_score": 0.32011700841122254
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0005",
@@ -28352,10 +28439,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37
+      "presentation_score": 0.3114213562373095
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2024-0014-0028",
@@ -28388,7 +28475,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.37
+      "presentation_score": 0.3114213562373095
     }
   ],
   "comments_clusters_path": "data/comments/OPM_FRDOC_0001.csv",
@@ -28396,15 +28483,15 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.5,
-  "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 50,
-  "comments_clusters_displayed": 50,
+  "comments_first_page_coverage_share": 0.49056603773584906,
+  "comments_first_page_coverage_count": 26,
+  "comments_clusters_total_available": 52,
+  "comments_clusters_displayed": 52,
   "comments_first_page_high_signal_clusters": 3,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "neutral": 17,
-    "positive": 6,
+    "neutral": 18,
+    "positive": 5,
     "negative": 2
   },
   "comments_first_page_unique_days": 3,
