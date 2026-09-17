@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-16T10:13:57.641723+00:00",
+  "comment_action_checked_at": "2026-09-17T06:04:42.013101+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,430 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.42989539196585935,
+  "combined_score": 0.5267233300070342,
   "score_total": 21,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 4,
+  "pass_4_scaled": 0.3645833333333333,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 1.0,
+    "H": 0.6666666666666666,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The proposal's deregulatory expansion of disclosure authority is supported by request-volume estimates but leaves important safeguards, uncertainty assumptions, and the twenty-five-year historical threshold open to commenter testing.",
+  "combined_score_pre_pass5": 0.4534052962139923,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment": "Material \u00b7 Burden and Consequence Handling",
+  "pass_5_assessment_tier": "Material",
+  "pass_5_scaled": 0.6468211501300001,
+  "pass_5_worst_flaw_severity": 1,
+  "pass_5_worst_flaw_key": "accountability_inversion",
+  "pass_5_worst_flaw_name": "Accountability Inversion",
+  "pass_5_material_flaw_count": 0,
+  "pass_5_worst_family_key": "burden_and_consequence_handling",
+  "pass_5_worst_family_name": "Burden and Consequence Handling",
+  "pass_5_worst_family_severity": 1,
+  "pass_5_material_family_count": 0,
+  "pass_5_base_defect_score": 0.646821,
+  "pass_5_scrutiny_pressure": 0.0,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.0,
+  "pass_5_scrutiny_multiplier": 1.0,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "The proposal concerns confidential supervisory information and public access procedures, but the available record does not place it in the rubric's designated high-stakes domains.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal has a coherent administrative structure, with low-level concerns about evidentiary reproducibility, threshold selection, and post-approval accountability.",
+  "pass_5_most_important_consequence": "If category-based disclosure authority is finalized without a clear recordkeeping and recipient-accountability backstop, later review of misuse or inconsistent classification may be harder.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No authority substitution is shown; the NPRM cites statutory authority and frames the changes as implementation of FDIC disclosure powers.",
+      "evidence": [],
+      "comment_leverage": "Ask the FDIC to explain the statutory basis for each new no-prior-approval category."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The record does not show that the proposal reverses a statutory protection or treats a statutory limit as a discretionary benefit.",
+      "evidence": [],
+      "comment_leverage": "Identify any specific statutory confidentiality limit that commenters believe the proposed text would exceed."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Removing prior approval shifts more classification and safeguard responsibility to institutions and recipients, but the notice does not settle a universal disclosure-record requirement.",
+      "evidence": [
+        {
+          "section": "Question 15",
+          "quote_or_absence": "The FDIC asks whether institutions should be required to maintain a written record of disclosures and the legal basis."
+        }
+      ],
+      "comment_leverage": "Request a proportionate disclosure-record requirement."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The proposal relies more heavily on institution-level business-purpose judgments and confidentiality agreements after routine FDIC approval is removed.",
+      "evidence": [
+        {
+          "section": "II.C.7.a",
+          "quote_or_absence": "insured depository institutions may only share confidential information without FDIC approval if sharing is necessary or appropriate for business purposes"
+        }
+      ],
+      "comment_leverage": "Ask for examples, internal-control expectations, and audit consequences."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No material sequencing capture is established; the proposal retains prior approval for some disclosures and sets conditions for others.",
+      "evidence": [],
+      "comment_leverage": "Test whether any category permits disclosure before a necessary safeguard can operate."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The record does not show a mismatch between weak evidence and an intrusive requirement; the principal proposal is burden reducing.",
+      "evidence": [],
+      "comment_leverage": "Focus on the evidence supporting the deregulatory risk conclusion instead."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposed broad historical authorization may be a wider remedy than the general aging rationale supports for every information class.",
+      "evidence": [
+        {
+          "section": "II.C.7.b",
+          "quote_or_absence": "The FDIC states generally that confidentiality justifications diminish after twenty-five years but does not compare information types."
+        }
+      ],
+      "comment_leverage": "Request tiered or information-specific historical safeguards."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Implementation is plausible but depends on institutions consistently applying necessary-or-appropriate, qualifying-agreement, and overlapping-agency restrictions.",
+      "evidence": [
+        {
+          "section": "II.C.2 and II.C.7",
+          "quote_or_absence": "The proposal recognizes that records may be confidential information of both the FDIC and another supervisory agency."
+        }
+      ],
+      "comment_leverage": "Ask for cross-agency examples and operational guidance."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No essential technology or interface is required by the proposed rule text.",
+      "evidence": [],
+      "comment_leverage": "None identified from the available record."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule identifies inappropriate disclosure and safety-and-soundness risks, but some risk boundaries remain dependent on open-ended factors and recipient categories.",
+      "evidence": [
+        {
+          "section": "II.C.4",
+          "quote_or_absence": "The good-cause factors include scope, intended use, lawfulness, privilege, and safety-and-soundness or financial-stability risks."
+        }
+      ],
+      "comment_leverage": "Request examples showing how the factors resolve close cases."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The FDIC acknowledges possible unauthorized-disclosure risk and does not deny that the proposal could affect multiple requester and recipient groups.",
+      "evidence": [],
+      "comment_leverage": "Provide concrete impact data for groups the notice cannot estimate."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available record does not show that the proposal creates a targeted enforcement or access surface against a protected group.",
+      "evidence": [],
+      "comment_leverage": "None identified from the available record."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Safeguards are present through agreements, retained approval, and recipient limitations, but the proposal leaves disclosure logging and some breach controls unresolved.",
+      "evidence": [
+        {
+          "section": "II.C.7.a, Questions 15-16",
+          "quote_or_absence": "The proposal includes confidentiality agreements and asks whether additional safeguards or disclosure records are needed."
+        }
+      ],
+      "comment_leverage": "Specify minimum safeguards by recipient and information type."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The notice discusses unauthorized-disclosure risk and small-entity effects rather than assigning all consequences to unrepresented parties.",
+      "evidence": [],
+      "comment_leverage": "Submit evidence of costs borne by customers, requesters, or third parties."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not create a generalized suspicion or screening regime.",
+      "evidence": [],
+      "comment_leverage": "None identified from the available record."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The shift away from individualized prior approval could reduce the central audit trail unless institutions document category-based disclosures and the FDIC monitors outcomes.",
+      "evidence": [
+        {
+          "section": "Question 15",
+          "quote_or_absence": "The agency asks whether written disclosure records and the legal basis should be required."
+        }
+      ],
+      "comment_leverage": "Request an auditable disclosure register and periodic aggregate reporting."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Some disclosures would occur without prior FDIC review, so any corrective review may occur after information has been shared.",
+      "evidence": [
+        {
+          "section": "II.C.7.a",
+          "quote_or_absence": "The proposal would enable ... disclosure without prior approval from the FDIC in certain circumstances."
+        }
+      ],
+      "comment_leverage": "Ask for incident notification, correction, return, and destruction procedures."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The rule is not shown to create a new gate that controls access to a public benefit or legal process in a targeted way.",
+      "evidence": [],
+      "comment_leverage": "None identified from the available record."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposal identifies confidentiality, privacy, commercial, and safety-and-soundness concerns, but it does not fully specify the consequence of misclassification or recipient breach.",
+      "evidence": [
+        {
+          "section": "II.C.3 and V.C",
+          "quote_or_absence": "The proposal discusses qualifying confidentiality agreements and risk of disclosure to unintended recipients without detailing a uniform consequence framework."
+        }
+      ],
+      "comment_leverage": "Ask the FDIC to clarify enforcement, remediation, and recipient accountability."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposed open-ended factors may create some interpretive variation, but the record does not show deliberate ambiguity being used to gatekeep access.",
+      "evidence": [],
+      "comment_leverage": "Request examples and written reasons for adverse discretionary decisions."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposed reorganization is coherent, but the relationship between broad definitions, category-based permissions, joint-agency information, and safeguards would benefit from a public crosswalk.",
+      "evidence": [
+        {
+          "section": "II.A-C",
+          "quote_or_absence": "The proposal reorganizes part 309 into multiple subparts and creates new part 306 while recognizing overlapping confidentiality restrictions."
+        }
+      ],
+      "comment_leverage": "Ask for a current-to-proposed crosswalk and operational examples."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "high_obligation_low_evidence_language",
     "missing_alternative_procedural_signal",
@@ -165,10 +545,10 @@
   "comments_first_page_novelty_clusters": null,
   "comments_first_page_stance_counts": {},
   "comments_first_page_unique_days": 0,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/FDIC-2026-1585-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "FDIC-2026-1585"
