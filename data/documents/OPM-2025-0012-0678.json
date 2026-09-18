@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-17T06:04:44.434952+00:00",
+  "comment_action_checked_at": "2026-09-18T12:12:29.108528+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-09-30T03:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 1,
-  "pass_3_score": 0.0,
+  "pass_3_score": 6.5,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.32929841307547836,
-  "pass_3_scaled": 0.0,
+  "pass_3_scaled": 0.6615345748932577,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.2502066127152557,
+  "combined_score": 0.5809739001618845,
   "score_total": 8,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -126,60 +126,75 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 0,
-  "comments_velocity_total": 0,
-  "comments_public_total_estimate": 0,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 256,
-  "comments_unique_clusters": 80,
+  "comments_total": 15,
+  "comments_velocity_total": 14,
+  "comments_public_total_estimate": 14,
+  "comments_fetched": 15,
+  "comments_text_hydrated": 17,
+  "comments_cached_records": 271,
+  "comments_unique_clusters": 84,
   "comments_clustered_duplicates": 14,
   "comments_truncated": false,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 0,
-  "comments_commenter_type_counts": {},
-  "comments_submission_role_counts": {},
-  "comments_submission_channel_counts": {},
-  "comments_public_count": 0,
+  "comments_citizen_count": 9,
+  "comments_commenter_type_counts": {
+    "citizen": 9,
+    "other": 5,
+    "organization_other": 1
+  },
+  "comments_submission_role_counts": {
+    "individual": 13,
+    "government_unknown": 1,
+    "organization": 1
+  },
+  "comments_submission_channel_counts": {
+    "public_portal": 14,
+    "agency_material": 1
+  },
+  "comments_public_count": 14,
   "comments_recorded_count": 0,
-  "comments_agency_material_count": 0,
+  "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
-  "comments_new_cluster_count_by_day": {},
-  "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.0,
-  "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.5,
-  "comments_sentiment_neutral_pct": 0.5,
-  "comments_sentiment_net": -0.5,
-  "comments_sentiment_sample_size": 4,
+  "comments_new_cluster_count_by_day": {
+    "2026-09-17": 15
+  },
+  "comments_high_signal_cluster_count_by_day": {
+    "2026-09-17": 7
+  },
+  "comments_novel_comment_rate": 1.0,
+  "comments_sentiment_positive_pct": 0.14285714285714285,
+  "comments_sentiment_negative_pct": 0.5714285714285714,
+  "comments_sentiment_neutral_pct": 0.2857142857142857,
+  "comments_sentiment_net": -0.42857142857142855,
+  "comments_sentiment_sample_size": 7,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 94,
+  "comments_analysis_sample_size": 98,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 94,
-  "comments_representative_prior_selected": 94,
+  "comments_representative_selected": 98,
+  "comments_representative_prior_selected": 98,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 94,
+  "comments_representative_must_keep": 98,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 94
+    "must_keep": 98
   },
-  "comments_representative_selected_by_counts_total": 94,
+  "comments_representative_selected_by_counts_total": 98,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-09-16T05:21:17.290769+00:00",
-  "comments_checked_at": "2026-09-16T05:21:17.290820+00:00",
+  "comments_api_last_seen_at": "2026-09-18T05:38:22.599000+00:00",
+  "comments_checked_at": "2026-09-18T05:38:22.862720+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 33,
+      "cluster_id": 37,
       "count": 7,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0415",
@@ -272,10 +287,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39330150981767004
+      "presentation_score": 0.34698515012102865
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 14,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0531",
@@ -353,10 +368,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6465195228435938
+      "presentation_score": 0.583139241153453
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 60,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0271",
@@ -434,10 +449,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.26113490745897844
+      "presentation_score": 0.23919557918162201
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 35,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0418",
@@ -500,10 +515,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3881906911757928
+      "presentation_score": 0.33943662833722293
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0018",
@@ -539,7 +554,7 @@
       "presentation_score": 0.7255928946018455
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0391",
@@ -572,10 +587,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8371313561403071
+      "presentation_score": 0.7981281058694512
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0410",
@@ -608,10 +623,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7986698176787685
+      "presentation_score": 0.7523534579821272
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0380",
@@ -644,10 +659,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6994390484479994
+      "presentation_score": 0.6653112044610004
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0680",
+      "representative_posted_date": "2026-09-17T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "These are descriptive changes in reported counts. [1, p. 58388] Fiscal year Excluding ZLM ZLM Including ZLM 2019 2,451 391 2,842 2020 2,189 391 2,580 2021 2,098 336 2,434 2022 2,517 326 2,843 2023 2,586 429 3,015 2024 2,732 393 3,125 2025 3,492 668 4,160 2026 (9 months) 3,105 467 3,572 Table 1. Published EHRI separation and termination totals. FY2026 is...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0680": {
+          "organization": "",
+          "postedDate": "2026-09-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Reggie Greenwood",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6655928946018455
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0688",
+      "representative_posted_date": "2026-09-17T04:00:00Z",
+      "representative_length": 4888,
+      "representative_excerpt": "It should publish complete normalized data; conduct a representative study including employees and neutral adjudicators; adopt a duty-specific 30-to-90-day framework; preserve assistance and independent review; reject default removal and numerical incentives; protect response rights; and preserve authority to correct inaccurate or unlawful records. Genuine...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0688": {
+          "organization": "",
+          "postedDate": "2026-09-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Ryan Collins",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6655928946018455
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0691",
+      "representative_posted_date": "2026-09-17T04:00:00Z",
+      "representative_length": 4864,
+      "representative_excerpt": "Federal employees deserve accountability systems that address genuine performance and conduct problems while preserving due process and legally protected rights. I urge OPM and MSPB to give appropriate weight to the report\u2019s acknowledged limitations and not use its 12 detailed cases as a basis for weakening protections for the broader federal workforce....",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0691": {
+          "organization": "",
+          "postedDate": "2026-09-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Mary W",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6655928946018455
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0685",
+      "representative_posted_date": "2026-09-17T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "In light of the recent Trump vs. Slaughter decision, we believe it will be critical for Congress to explore legal options to ensure the long-term credibility and functionality of the adjudicatory board by making this body truly independent at an operational level. This should include strong requirements for transparent procedures, clear recusal rules, and...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0685": {
+          "organization": "We the Doers",
+          "postedDate": "2026-09-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from We the Doers",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6355928946018455
+    },
+    {
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0534",
@@ -680,10 +839,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6655928946018455
+      "presentation_score": 0.6022126129117046
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0546",
@@ -716,10 +875,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6655928946018455
+      "presentation_score": 0.6022126129117046
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0580",
@@ -752,10 +911,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6655928946018455
+      "presentation_score": 0.6022126129117046
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0402",
@@ -788,10 +947,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6386698176787685
+      "presentation_score": 0.5923534579821271
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0427",
@@ -824,10 +983,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6163621253710763
+      "presentation_score": 0.5651703593905779
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0422",
@@ -860,190 +1019,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6125159715249224
+      "presentation_score": 0.5637619086863526
     },
     {
-      "cluster_id": 8,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0540",
-      "representative_posted_date": "2026-08-03T04:00:00Z",
-      "representative_length": 4326,
-      "representative_excerpt": "Employee discipline is no different. Eliminating an established framework increases variability in outcomes without necessarily improving accountability. The federal government increasingly asks agencies to use standardized, evidence-based frameworks in grant management, scientific review, public health practice, program evaluation, procurement, financial...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0540": {
-          "organization": "",
-          "postedDate": "2026-08-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5855928946018455
-    },
-    {
-      "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0581",
-      "representative_posted_date": "2026-08-03T04:00:00Z",
-      "representative_length": 2061,
-      "representative_excerpt": "However, based on my 35 years of experience as a civil rights investigator and supervisor in HUD's Office of Fair Housing and Equal Opportunity (I retired at the end of 2025), this belief is entirely without foundation: the vast majority of my colleagues over the years have been professional, hard-working, highly-skilled, efficient, and mission-driven. I...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0581": {
-          "organization": "",
-          "postedDate": "2026-08-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5855928946018455
-    },
-    {
-      "cluster_id": 15,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0478",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 2044,
-      "representative_excerpt": "The proposed rule would compress the time an employee has to answer a proposed adverse action to as little as one business day; treat unraised medical issues as waived at the answer stage; cap every performance-improvement opportunity at thirty days while placing extensions, assistance, and mercy in the agency's \"sole and exclusive discretion\" \u2014 a phrase...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0478": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5740544330633839
-    },
-    {
-      "cluster_id": 27,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0426",
-      "representative_posted_date": "2026-07-29T04:00:00Z",
-      "representative_length": 1310,
-      "representative_excerpt": "While that might be possible for a position where quantity of calls accurately taken and resolved, or number of applications or forms accurately processed is the performance measure, there are positions that include deliverables that span multiple months or require actions taken by parties outside the employee's control. In those cases 3-6 months might be...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0426": {
-          "organization": "",
-          "postedDate": "2026-07-29T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5663621253710762
-    },
-    {
-      "cluster_id": 32,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0417",
-      "representative_posted_date": "2026-07-27T04:00:00Z",
-      "representative_length": 4940,
-      "representative_excerpt": "In my experience, dealing with a poor performing employee took at least half of my day for months on end. I have successfully removed employees for poor performance and disciplinary actions. I did not lose a single legal action. I appreciate that OPM has decided to support supervisors and managers in their efforts to deal with poor performing employees. I...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0417": {
-          "organization": "",
-          "postedDate": "2026-07-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5586698176787686
-    },
-    {
-      "cluster_id": 25,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0443",
@@ -1076,10 +1055,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4640544330633839
+      "presentation_score": 0.40798726079902853
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0445",
@@ -1112,10 +1091,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4640544330633839
+      "presentation_score": 0.40798726079902853
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0540",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 4326,
+      "representative_excerpt": "Employee discipline is no different. Eliminating an established framework increases variability in outcomes without necessarily improving accountability. The federal government increasingly asks agencies to use standardized, evidence-based frameworks in grant management, scientific review, public health practice, program evaluation, procurement, financial...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0540": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5222126129117046
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0581",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 2061,
+      "representative_excerpt": "However, based on my 35 years of experience as a civil rights investigator and supervisor in HUD's Office of Fair Housing and Equal Opportunity (I retired at the end of 2025), this belief is entirely without foundation: the vast majority of my colleagues over the years have been professional, hard-working, highly-skilled, efficient, and mission-driven. I...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0581": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5222126129117046
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0478",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 2044,
+      "representative_excerpt": "The proposed rule would compress the time an employee has to answer a proposed adverse action to as little as one business day; treat unraised medical issues as waived at the answer stage; cap every performance-improvement opportunity at thirty days while placing extensions, assistance, and mercy in the agency's \"sole and exclusive discretion\" \u2014 a phrase...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0478": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5179872607990286
+    },
+    {
+      "cluster_id": 31,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0426",
+      "representative_posted_date": "2026-07-29T04:00:00Z",
+      "representative_length": 1310,
+      "representative_excerpt": "While that might be possible for a position where quantity of calls accurately taken and resolved, or number of applications or forms accurately processed is the performance measure, there are positions that include deliverables that span multiple months or require actions taken by parties outside the employee's control. In those cases 3-6 months might be...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0426": {
+          "organization": "",
+          "postedDate": "2026-07-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5151703593905779
+    },
+    {
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0409",
@@ -1148,10 +1271,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5586698176787686
+      "presentation_score": 0.5123534579821272
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 36,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0417",
+      "representative_posted_date": "2026-07-27T04:00:00Z",
+      "representative_length": 4940,
+      "representative_excerpt": "In my experience, dealing with a poor performing employee took at least half of my day for months on end. I have successfully removed employees for poor performance and disciplinary actions. I did not lose a single legal action. I appreciate that OPM has decided to support supervisors and managers in their efforts to deal with poor performing employees. I...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0417": {
+          "organization": "",
+          "postedDate": "2026-07-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5123534579821272
+    },
+    {
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0240",
@@ -1184,10 +1343,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5202082792172301
+      "presentation_score": 0.4982689509398736
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0117",
@@ -1220,10 +1379,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5125159715249223
+      "presentation_score": 0.4954520495314229
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0044",
@@ -1256,10 +1415,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5048236638326147
+      "presentation_score": 0.4926351481229722
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0048",
@@ -1292,118 +1451,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5048236638326147
+      "presentation_score": 0.4926351481229722
     },
     {
-      "cluster_id": 23,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0446",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 132,
-      "representative_excerpt": "I am vehemently against these rule changes. The current model for MSPB is sufficient and allows fairness in employee accountability.",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0446": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4940544330633839
-    },
-    {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0490",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 1405,
-      "representative_excerpt": "These guard rails were put in place to stop malicious actors in their tracks! If these guard rails are removed the government agencies will lose in the long run and the country is loss soon after. We must not remove a fail stop system like the Douglas factors from U.S. Government policy that has been working for decades just because a political pressure...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0490": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4940544330633839
-    },
-    {
-      "cluster_id": 28,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0425",
-      "representative_posted_date": "2026-07-29T04:00:00Z",
-      "representative_length": 446,
-      "representative_excerpt": "As a federal employee, I oppose OPM Docket 2025-OPM-0012. Unrealistic 30-day PIPs set staff up to fail. Eliminating Douglas factors replaces objective disciplinary standards with arbitrary decisions, risking bias and retaliation. Prohibiting settlements will backlog MSPB and increase litigation costs. This rule undermines merit principles and due process...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0425": {
-          "organization": "",
-          "postedDate": "2026-07-29T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4863621253710762
-    },
-    {
-      "cluster_id": 74,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0023",
@@ -1439,7 +1490,115 @@
       "presentation_score": 0.48559289460184546
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 27,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0446",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 132,
+      "representative_excerpt": "I am vehemently against these rule changes. The current model for MSPB is sufficient and allows fairness in employee accountability.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0446": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43798726079902855
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0490",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 1405,
+      "representative_excerpt": "These guard rails were put in place to stop malicious actors in their tracks! If these guard rails are removed the government agencies will lose in the long run and the country is loss soon after. We must not remove a fail stop system like the Douglas factors from U.S. Government policy that has been working for decades just because a political pressure...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0490": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43798726079902855
+    },
+    {
+      "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0425",
+      "representative_posted_date": "2026-07-29T04:00:00Z",
+      "representative_length": 446,
+      "representative_excerpt": "As a federal employee, I oppose OPM Docket 2025-OPM-0012. Unrealistic 30-day PIPs set staff up to fail. Eliminating Douglas factors replaces objective disciplinary standards with arbitrary decisions, risking bias and retaliation. Prohibiting settlements will backlog MSPB and increase litigation costs. This rule undermines merit principles and due process...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0425": {
+          "organization": "",
+          "postedDate": "2026-07-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.43517035939057785
+    },
+    {
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0394",
@@ -1472,10 +1631,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47866981767876854
+      "presentation_score": 0.43235345798212715
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0396",
@@ -1508,10 +1667,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47866981767876854
+      "presentation_score": 0.43235345798212715
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0379",
@@ -1544,10 +1703,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4594390484479993
+      "presentation_score": 0.42531120446100035
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0224",
@@ -1580,10 +1739,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44020827921723005
+      "presentation_score": 0.4182689509398736
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0225",
@@ -1616,478 +1775,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44020827921723005
+      "presentation_score": 0.4182689509398736
     },
     {
-      "cluster_id": 11,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0515",
-      "representative_posted_date": "2026-08-03T04:00:00Z",
-      "representative_length": 111,
-      "representative_excerpt": "The Douglas factor should stay in effect. A person should at least have 5 business days to answer any questions",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0515": {
-          "organization": "",
-          "postedDate": "2026-08-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.42559289460184546
-    },
-    {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0544",
-      "representative_posted_date": "2026-08-03T04:00:00Z",
-      "representative_length": 998,
-      "representative_excerpt": "In the Air Force we were taught to grow younger troops to be tomorrows leaders - Investing in our future work force. As a member of the local Union, I have seen first hand the Agency's abuse of Good Faith Bargaining and disciplinary actions. Reducing response times to address Agency and Bargaining Unit Employee concerns regarding proposed disciplinary...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0544": {
-          "organization": "",
-          "postedDate": "2026-08-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.42559289460184546
-    },
-    {
-      "cluster_id": 3,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0594",
-      "representative_posted_date": "2026-08-03T04:00:00Z",
-      "representative_length": 585,
-      "representative_excerpt": "I oppose the proposed rule. A one-business-day deadline to answer a proposed suspension is not a real opportunity to respond. In my experience, obtaining medical records alone takes weeks, and finding a representative takes days. I ask that employees receive no fewer than seven calendar days to answer any proposed action. Here to competent perform a job....",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0594": {
-          "organization": "",
-          "postedDate": "2026-08-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.42559289460184546
-    },
-    {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0600",
-      "representative_posted_date": "2026-08-03T04:00:00Z",
-      "representative_length": 147,
-      "representative_excerpt": "I oppose the proposed rule that would eliminate the Douglas factors in determining disciplinary actions for federal employees, among other changes.",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0600": {
-          "organization": "",
-          "postedDate": "2026-08-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.42559289460184546
-    },
-    {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0622",
-      "representative_posted_date": "2026-08-03T04:00:00Z",
-      "representative_length": 1024,
-      "representative_excerpt": "The rule change flies in the face of a recent SCOTUS decision overturning Chevron, a legal rule requiring courts to accept a government agency's reasonable interpretation of an unclear law, and would further undermine the rights of federal employees who remain under attack and are subjected to arbitrary, capricious and erroneous decisions by Agencies....",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0622": {
-          "organization": "",
-          "postedDate": "2026-08-03T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.42559289460184546
-    },
-    {
-      "cluster_id": 22,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0448",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 1152,
-      "representative_excerpt": "Replacing a clear, 12-point legal framework with an ambiguous standard does not improve efficiency; it simply invites broad, unchecked agency discretion and opens the door to favoritism and political retaliation.Furthermore, the proposals to drastically shorten employee response times to as little as one business day and restrict representation are a...",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0448": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 21,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0451",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 232,
-      "representative_excerpt": "The Douglas Factors need to be retained. The replacement terminology is too vague while the Douglas Factors has undergone legal tests and survived. We need to resist the White House\u2019 attempts to strip away civil service protections.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0451": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 19,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0459",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 1104,
-      "representative_excerpt": "I believe that eliminating these established standards would further erode civil service protections by replacing objective review with broad agency discretion. I oppose the proposal because it weakens merit system protections and increases the risk of arbitrary decision-making. Please remove the proposed rule from further consideration....",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0459": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 18,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0461",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 106,
-      "representative_excerpt": "Do not change the current system of using Douglas factors in disciplinary proceedings for federal workers.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0461": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 17,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0472",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 377,
-      "representative_excerpt": "This should not be changed, the Douglas factors are the result of long fought hard won battles. I have worked in the agencies for 20 years. We are underpaid compared to the public sector and the security these protections provide is all people have. It is clear that this administration is just out to destroy the American way of life and give control to the...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0472": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 16,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0477",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 286,
-      "representative_excerpt": "I feel this ruling is bad all the way around especially the part about losing your job and rights in less than a week with no representation. This ruling needs to be reversed it\u2019s very sad to hear that the government has no regard for its employees. Most have been on the job for years.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0477": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 14,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0482",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 243,
-      "representative_excerpt": "I oppose this rule because it weakens merit-based protections that employees have earned over their years of service. This aspect is currently taken into account with the Douglas factors, so eliminating them would be a disservice to employees.",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0482": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 13,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0488",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 268,
-      "representative_excerpt": "I disagree with this rule. Arming manager's with this type of power, when they lack the basics of how to manage personnel, will allow them to abuse this rule and unjustly fire employees who do not deserve this, and then it could open the door up for many legal issues.",
-      "representative_signal_score": 0,
-      "representative_stance": "negative",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0488": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4140544330633839
-    },
-    {
-      "cluster_id": 70,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0032",
@@ -2120,10 +1811,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4094390484479993
+      "presentation_score": 0.4070013453060708
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0025",
@@ -2159,7 +1850,475 @@
       "presentation_score": 0.40559289460184544
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0515",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 111,
+      "representative_excerpt": "The Douglas factor should stay in effect. A person should at least have 5 business days to answer any questions",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0515": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3622126129117046
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0544",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 998,
+      "representative_excerpt": "In the Air Force we were taught to grow younger troops to be tomorrows leaders - Investing in our future work force. As a member of the local Union, I have seen first hand the Agency's abuse of Good Faith Bargaining and disciplinary actions. Reducing response times to address Agency and Bargaining Unit Employee concerns regarding proposed disciplinary...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0544": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3622126129117046
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0594",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 585,
+      "representative_excerpt": "I oppose the proposed rule. A one-business-day deadline to answer a proposed suspension is not a real opportunity to respond. In my experience, obtaining medical records alone takes weeks, and finding a representative takes days. I ask that employees receive no fewer than seven calendar days to answer any proposed action. Here to competent perform a job....",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0594": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3622126129117046
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0600",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 147,
+      "representative_excerpt": "I oppose the proposed rule that would eliminate the Douglas factors in determining disciplinary actions for federal employees, among other changes.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0600": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3622126129117046
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0622",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 1024,
+      "representative_excerpt": "The rule change flies in the face of a recent SCOTUS decision overturning Chevron, a legal rule requiring courts to accept a government agency's reasonable interpretation of an unclear law, and would further undermine the rights of federal employees who remain under attack and are subjected to arbitrary, capricious and erroneous decisions by Agencies....",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0622": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3622126129117046
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0448",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 1152,
+      "representative_excerpt": "Replacing a clear, 12-point legal framework with an ambiguous standard does not improve efficiency; it simply invites broad, unchecked agency discretion and opens the door to favoritism and political retaliation.Furthermore, the proposals to drastically shorten employee response times to as little as one business day and restrict representation are a...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0448": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0451",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 232,
+      "representative_excerpt": "The Douglas Factors need to be retained. The replacement terminology is too vague while the Douglas Factors has undergone legal tests and survived. We need to resist the White House\u2019 attempts to strip away civil service protections.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0451": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0459",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 1104,
+      "representative_excerpt": "I believe that eliminating these established standards would further erode civil service protections by replacing objective review with broad agency discretion. I oppose the proposal because it weakens merit system protections and increases the risk of arbitrary decision-making. Please remove the proposed rule from further consideration....",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0459": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0461",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 106,
+      "representative_excerpt": "Do not change the current system of using Douglas factors in disciplinary proceedings for federal workers.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0461": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0472",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 377,
+      "representative_excerpt": "This should not be changed, the Douglas factors are the result of long fought hard won battles. I have worked in the agencies for 20 years. We are underpaid compared to the public sector and the security these protections provide is all people have. It is clear that this administration is just out to destroy the American way of life and give control to the...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0472": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0477",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 286,
+      "representative_excerpt": "I feel this ruling is bad all the way around especially the part about losing your job and rights in less than a week with no representation. This ruling needs to be reversed it\u2019s very sad to hear that the government has no regard for its employees. Most have been on the job for years.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0477": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0482",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 243,
+      "representative_excerpt": "I oppose this rule because it weakens merit-based protections that employees have earned over their years of service. This aspect is currently taken into account with the Douglas factors, so eliminating them would be a disservice to employees.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0482": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0488",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 268,
+      "representative_excerpt": "I disagree with this rule. Arming manager's with this type of power, when they lack the basics of how to manage personnel, will allow them to abuse this rule and unjustly fire employees who do not deserve this, and then it could open the door up for many legal issues.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0488": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35798726079902854
+    },
+    {
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0419",
@@ -2192,10 +2351,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40251597152492236
+      "presentation_score": 0.3537619086863525
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0401",
@@ -2228,10 +2387,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3986698176787685
+      "presentation_score": 0.35235345798212714
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0389",
@@ -2264,10 +2423,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38713135614030697
+      "presentation_score": 0.3481281058694511
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0390",
@@ -2300,10 +2459,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.38713135614030697
+      "presentation_score": 0.3481281058694511
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0348",
@@ -2336,10 +2495,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0351",
@@ -2372,10 +2531,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0354",
@@ -2408,10 +2567,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0357",
@@ -2444,10 +2603,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0365",
@@ -2480,10 +2639,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0366",
@@ -2516,10 +2675,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0367",
@@ -2552,10 +2711,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0371",
@@ -2588,10 +2747,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3755928946018454
+      "presentation_score": 0.343902753756775
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0335",
@@ -2624,10 +2783,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3717467407556916
+      "presentation_score": 0.34249430305254963
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0249",
@@ -2660,10 +2819,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36020827921723003
+      "presentation_score": 0.3382689509398736
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0256",
@@ -2696,10 +2855,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36020827921723003
+      "presentation_score": 0.3382689509398736
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0278",
@@ -2732,10 +2891,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36020827921723003
+      "presentation_score": 0.3382689509398736
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0113",
@@ -2768,10 +2927,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35251597152492237
+      "presentation_score": 0.3354520495314229
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0153",
@@ -2804,10 +2963,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35251597152492237
+      "presentation_score": 0.3354520495314229
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0169",
@@ -2840,10 +2999,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35251597152492237
+      "presentation_score": 0.3354520495314229
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0186",
@@ -2876,10 +3035,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35251597152492237
+      "presentation_score": 0.3354520495314229
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0190",
@@ -2912,46 +3071,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35251597152492237
+      "presentation_score": 0.3354520495314229
     },
     {
-      "cluster_id": 20,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "OPM-2025-0012-0458",
-      "representative_posted_date": "2026-07-31T04:00:00Z",
-      "representative_length": 33,
-      "representative_excerpt": "Leave the current rules in place.",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "unknown",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "OPM-2025-0012-0458": {
-          "organization": "",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "unknown",
-          "submissionChannelConfidence": "low"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3340544330633839
-    },
-    {
-      "cluster_id": 71,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0031",
@@ -2984,10 +3107,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.32943904844799926
+      "presentation_score": 0.3270013453060708
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0005",
@@ -3023,7 +3146,7 @@
       "presentation_score": 0.32559289460184543
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0006",
@@ -3059,7 +3182,7 @@
       "presentation_score": 0.32559289460184543
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0014",
@@ -3095,7 +3218,7 @@
       "presentation_score": 0.32559289460184543
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0020",
@@ -3131,7 +3254,7 @@
       "presentation_score": 0.32559289460184543
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0021",
@@ -3167,7 +3290,7 @@
       "presentation_score": 0.32559289460184543
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0027",
@@ -3203,7 +3326,43 @@
       "presentation_score": 0.32559289460184543
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "OPM-2025-0012-0458",
+      "representative_posted_date": "2026-07-31T04:00:00Z",
+      "representative_length": 33,
+      "representative_excerpt": "Leave the current rules in place.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "unknown",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "OPM-2025-0012-0458": {
+          "organization": "",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "unknown",
+          "submissionChannelConfidence": "low"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.2779872607990285
+    },
+    {
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "OPM-2025-0012-0383",
@@ -3236,12 +3395,28 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2994390484479993
+      "presentation_score": 0.2653112044610003
     }
   ],
   "comments_clusters_path": "data/comments/OPM-2025-0012.csv",
-  "government_submissions_count": 1,
+  "government_submissions_count": 2,
   "government_submissions": [
+    {
+      "comment_id": "OPM-2025-0012-0691",
+      "organization": "",
+      "posted_date": "2026-09-17T04:00:00Z",
+      "title": "Comment from Mary W",
+      "attachment_count": 0,
+      "submission_role": "government_unknown",
+      "submission_role_confidence": "medium",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "high",
+      "withdrawn": false,
+      "representative_excerpt": "Federal employees deserve accountability systems that address genuine performance and conduct problems while preserving due process and legally protected rights. I urge OPM and MSPB to give appropriate weight to the report\u2019s acknowledged limitations and not use its 12 detailed cases as a basis for weakening protections for the broader federal workforce....",
+      "source_cluster_ids": [
+        1
+      ]
+    },
     {
       "comment_id": "OPM-2025-0012-0018",
       "organization": "",
@@ -3255,24 +3430,24 @@
       "withdrawn": false,
       "representative_excerpt": "Removing the Douglas Factors while simultaneously adding \u201cflexibility\u201d and \u201creasonableness\u201d will allow unscrupulous management officials to bend the CFR to punish/remove the employees who may not pander to their wants. This may contribute in violations in the MSPB of \u201cTreat[ing] employees and applicants fairly and equitably.\u201d Strictly interpreting the...",
       "source_cluster_ids": [
-        77
+        81
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.4148936170212766,
+  "comments_first_page_coverage_share": 0.3979591836734694,
   "comments_first_page_coverage_count": 39,
-  "comments_clusters_total_available": 80,
-  "comments_clusters_displayed": 80,
-  "comments_first_page_high_signal_clusters": 9,
-  "comments_first_page_novelty_clusters": 5,
+  "comments_clusters_total_available": 84,
+  "comments_clusters_displayed": 84,
+  "comments_first_page_high_signal_clusters": 12,
+  "comments_first_page_novelty_clusters": 6,
   "comments_first_page_stance_counts": {
-    "negative": 20,
-    "neutral": 4,
+    "negative": 19,
+    "neutral": 5,
     "positive": 1
   },
-  "comments_first_page_unique_days": 11,
+  "comments_first_page_unique_days": 10,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": false,
