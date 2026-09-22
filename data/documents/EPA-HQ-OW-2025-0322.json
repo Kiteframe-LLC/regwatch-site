@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-21T10:04:30.759746+00:00",
+  "comment_action_checked_at": "2026-09-22T10:06:04.234934+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-10-10T03:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 2,
-  "pass_3_score": 5.8,
+  "pass_3_score": 5.357142857142858,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.5501593812969283,
-  "pass_3_scaled": 0.6196512434107414,
+  "pass_3_scaled": 0.5905158748476358,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6527754586397627,
+  "combined_score": 0.6382077743582099,
   "score_total": 13,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "POLICY_REINTERPRETATION",
@@ -2903,79 +2903,81 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 33,
-  "comments_velocity_total": 28,
-  "comments_public_total_estimate": 28,
-  "comments_fetched": 17,
-  "comments_text_hydrated": 26,
-  "comments_cached_records": 33,
-  "comments_unique_clusters": 31,
+  "comments_total": 40,
+  "comments_velocity_total": 33,
+  "comments_public_total_estimate": 33,
+  "comments_fetched": 7,
+  "comments_text_hydrated": 12,
+  "comments_cached_records": 40,
+  "comments_unique_clusters": 38,
   "comments_clustered_duplicates": 2,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 33,
+  "comments_citizen_count": 40,
   "comments_commenter_type_counts": {
-    "citizen": 33
+    "citizen": 40
   },
   "comments_submission_role_counts": {
-    "individual": 25,
-    "government_affiliated_or_unclear": 5,
-    "organization": 3
+    "organization": 6,
+    "individual": 27,
+    "government_affiliated_or_unclear": 7
   },
   "comments_submission_channel_counts": {
-    "public_portal": 28,
-    "other_channel_recorded": 5
+    "public_portal": 33,
+    "other_channel_recorded": 7
   },
-  "comments_public_count": 28,
-  "comments_recorded_count": 5,
+  "comments_public_count": 33,
+  "comments_recorded_count": 7,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-09-21": 7,
     "2026-09-18": 15,
     "2026-09-15": 5,
     "2026-09-11": 11
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-09-21": 3,
     "2026-09-18": 5,
     "2026-09-15": 2,
     "2026-09-11": 2
   },
-  "comments_novel_comment_rate": 0.9393939393939394,
-  "comments_sentiment_positive_pct": 0.14814814814814814,
-  "comments_sentiment_negative_pct": 0.44444444444444436,
-  "comments_sentiment_neutral_pct": 0.4074074074074074,
-  "comments_sentiment_net": -0.2962962962962962,
-  "comments_sentiment_sample_size": 28,
+  "comments_novel_comment_rate": 0.95,
+  "comments_sentiment_positive_pct": 0.15625,
+  "comments_sentiment_negative_pct": 0.4375,
+  "comments_sentiment_neutral_pct": 0.40625,
+  "comments_sentiment_net": -0.28125,
+  "comments_sentiment_sample_size": 33,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 33,
+  "comments_analysis_sample_size": 40,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 33,
-  "comments_representative_prior_selected": 33,
+  "comments_representative_selected": 40,
+  "comments_representative_prior_selected": 40,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 18,
+  "comments_representative_must_keep": 24,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 18,
+    "must_keep": 24,
     "salience_rank": 2,
-    "weighted_fill": 13
+    "weighted_fill": 14
   },
-  "comments_representative_selected_by_counts_total": 33,
+  "comments_representative_selected_by_counts_total": 40,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-09-20T06:53:52.816800+00:00",
-  "comments_checked_at": "2026-09-20T06:53:53.292149+00:00",
+  "comments_api_last_seen_at": "2026-09-22T06:42:33.792795+00:00",
+  "comments_checked_at": "2026-09-22T06:42:34.398389+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 1,
+      "cluster_id": 8,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15498",
@@ -3038,10 +3040,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8803368801111203
+      "presentation_score": 0.8503368801111203
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15449",
@@ -3077,7 +3079,7 @@
       "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15453",
@@ -3113,7 +3115,7 @@
       "presentation_score": 0.7654700538379252
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15460",
@@ -3146,10 +3148,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8226129109807824
+      "presentation_score": 0.8054700538379252
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15461",
@@ -3182,10 +3184,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8226129109807824
+      "presentation_score": 0.8054700538379252
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15493",
@@ -3218,10 +3220,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.8354700538379252
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15494",
@@ -3254,10 +3256,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.8354700538379252
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15495",
@@ -3290,10 +3292,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
+      "presentation_score": 0.8354700538379252
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-0322-15501",
+      "representative_posted_date": "2026-09-21T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "If the delineated wetland boundary abuts that water boundary, treat the entire contiguous wetland polygon as jurisdictional regardless of internal vegetation community, wetland class, seasonal surface-water extent, or tidal stage. Use bankfull/top-of-bank indicators, NWI, NOAA tidal datums, LiDAR, and other GIS data as supporting evidence where useful, not...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-0322-15501": {
+          "organization": "",
+          "postedDate": "2026-09-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Alluvion Resource Company, LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8654700538379252
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-0322-15503",
+      "representative_posted_date": "2026-09-21T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Apfelbaum Senior Ecologist and Founder, Applied Ecological Institute (AEI) President, Southern Wisconsin Land Conservancy Brodhead, Wisconsin \u00b7 steve@aeinstitute.org DATE...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-0322-15503": {
+          "organization": "",
+          "postedDate": "2026-09-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Applied Ecological Institute Inc.",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
       "presentation_score": 0.8654700538379252
     },
     {
       "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-0322-15504",
+      "representative_posted_date": "2026-09-21T04:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "Despite only covering about five percent of the United States land area, wetlands support roughly a third of the nation\u2019s plant species and provide habitat for up to half of all North American bird species (United States, Environmental Protection Agency 2). I am currently in a Forested Wetlands course that has examined Rapanos v. United States and Sackett...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-0322-15504": {
+          "organization": "",
+          "postedDate": "2026-09-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Max Hughes",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8654700538379252
+    },
+    {
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15497",
@@ -3326,10 +3436,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8654700538379252
+      "presentation_score": 0.8354700538379252
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-0322-15500",
+      "representative_posted_date": "2026-09-21T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "I. Regulatory Certainty Is Particularly Important for Linear Infrastructure The definition of WOTUS has unusual significance for pipeline construction. Unlike a development occupying a single parcel, an interstate or intrastate pipeline may extend for hundreds of miles and encounter numerous streams, wetlands, drainage features and other aquatic resources....",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-0322-15500": {
+          "organization": "",
+          "postedDate": "2026-09-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Energy Equipment and Infrastructure Alliance (EEIA)",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7321367205045918
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-0322-15502",
+      "representative_posted_date": "2026-09-21T04:00:00Z",
+      "representative_length": 3665,
+      "representative_excerpt": "SIDLEY AUSTIN LLP 350 SOUTH GRAND AVENUE LOS ANGELES, CALIFORNIA 90071 +1 213 896 6000 +1 213 896 6600 FAX +1 213 896 6628 CBOWERS@SIDLEY.COM Sidley Austin (CA) LLP is a Delaware limited liability partnership doing business as Sidley Austin LLP and practicing in affiliation with other Sidley Austin partnerships. September 17, 2026 Mr. Sean Donahue Ms....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-0322-15502": {
+          "organization": "",
+          "postedDate": "2026-09-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Sidley Austin LLP",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7321367205045918
+    },
+    {
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15467",
@@ -3362,10 +3544,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7321367205045918
+      "presentation_score": 0.7021367205045917
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15468",
@@ -3398,10 +3580,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7321367205045918
+      "presentation_score": 0.7021367205045917
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15470",
@@ -3434,10 +3616,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7321367205045918
+      "presentation_score": 0.7021367205045917
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15490",
@@ -3470,10 +3652,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7321367205045918
+      "presentation_score": 0.7021367205045917
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15491",
@@ -3506,10 +3688,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7321367205045918
+      "presentation_score": 0.7021367205045917
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15492",
@@ -3542,10 +3724,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7321367205045918
+      "presentation_score": 0.7021367205045917
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15463",
@@ -3578,10 +3760,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.689279577647449
+      "presentation_score": 0.6721367205045918
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15464",
@@ -3614,10 +3796,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.689279577647449
+      "presentation_score": 0.6721367205045918
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15457",
@@ -3653,7 +3835,7 @@
       "presentation_score": 0.6321367205045918
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15459",
@@ -3689,7 +3871,43 @@
       "presentation_score": 0.6321367205045918
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-0322-15505",
+      "representative_posted_date": "2026-09-21T04:00:00Z",
+      "representative_length": 225,
+      "representative_excerpt": "Please see the attached letter from the National Association of Wetland Managers requesting an extension to the public comment period for the supplemental notice of proposed rulemaking under Docket ID No. EPA\u2013HQ\u2013OW\u20132025\u20130322.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-0322-15505": {
+          "organization": "",
+          "postedDate": "2026-09-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by National Association of Wetland Managers (NAWM)",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5988033871712585
+    },
+    {
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15471",
@@ -3722,10 +3940,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5988033871712585
+      "presentation_score": 0.5688033871712584
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15472",
@@ -3758,10 +3976,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5988033871712585
+      "presentation_score": 0.5688033871712584
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15454",
@@ -3797,7 +4015,43 @@
       "presentation_score": 0.4988033871712585
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2025-0322-15499",
+      "representative_posted_date": "2026-09-21T04:00:00Z",
+      "representative_length": 980,
+      "representative_excerpt": "Limiting CWA jurisdiction strictly to perennial waters ignores the cross-media realities of atmospheric deposition, ignores the cumulative impacts of widely dispersed industrial sectors, and actively incentivizes the destruction of the riparian buffer zones that protect our permanent waterways. When viewed through the lens of climate change and non-linear...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2025-0322-15499": {
+          "organization": "",
+          "postedDate": "2026-09-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Ronald Myers",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15466",
@@ -3830,10 +4084,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.4354700538379252
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15469",
@@ -3866,10 +4120,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46547005383792517
+      "presentation_score": 0.4354700538379252
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15462",
@@ -3902,10 +4156,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42261291098078235
+      "presentation_score": 0.4054700538379252
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15450",
@@ -3941,7 +4195,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15451",
@@ -3977,7 +4231,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15452",
@@ -4013,7 +4267,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15455",
@@ -4049,7 +4303,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15456",
@@ -4085,7 +4339,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2025-0322-15458",
@@ -4126,18 +4380,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8181818181818182,
+  "comments_first_page_coverage_share": 0.675,
   "comments_first_page_coverage_count": 27,
-  "comments_clusters_total_available": 31,
-  "comments_clusters_displayed": 31,
-  "comments_first_page_high_signal_clusters": 9,
+  "comments_clusters_total_available": 38,
+  "comments_clusters_displayed": 38,
+  "comments_first_page_high_signal_clusters": 12,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "positive": 3,
-    "negative": 13,
-    "neutral": 9
+    "positive": 4,
+    "negative": 11,
+    "neutral": 10
   },
-  "comments_first_page_unique_days": 3,
+  "comments_first_page_unique_days": 4,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
