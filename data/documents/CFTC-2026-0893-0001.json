@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-22T10:06:08.256708+00:00",
+  "comment_action_checked_at": "2026-09-23T05:31:23.221332+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,7 +39,7 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.0,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.4405215948862014,
+  "combined_score": 0.4371568028792482,
   "score_total": 11,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -82,35 +82,35 @@
     "procedural_compliance_risk",
     "reasoned_explanation_completeness"
   ],
-  "pass_4_primary_concern": "The proposed system-wide exemptions are supported by a plausible investigative rationale, but the record does not adequately define scope or substitute safeguards for accuracy, segregability, post-investigation review, and oversight.",
+  "pass_4_primary_concern": "The proposal explains why some CFTC-59 records may require confidentiality but does not sufficiently show why the full set of categorical exemptions is necessary or how accuracy, audit, and delayed-review safeguards will operate.",
   "combined_score_pre_pass5": 0.3613917777235838,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
-  "pass_5_label": "Extreme \u00b7 Safeguards and Accountability",
-  "pass_5_assessment": "Extreme \u00b7 Safeguards and Accountability",
-  "pass_5_assessment_tier": "Extreme",
-  "pass_5_scaled": 0.8758341726650049,
+  "pass_5_label": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.8385915765202,
   "pass_5_worst_flaw_severity": 2,
-  "pass_5_worst_flaw_key": "threat_ambiguity",
-  "pass_5_worst_flaw_name": "Threat Ambiguity",
-  "pass_5_material_flaw_count": 2,
-  "pass_5_worst_family_key": "safeguards_and_accountability",
-  "pass_5_worst_family_name": "Safeguards and Accountability",
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 3,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
   "pass_5_worst_family_severity": 2,
   "pass_5_material_family_count": 2,
-  "pass_5_base_defect_score": 0.853923,
-  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_base_defect_score": 0.838592,
+  "pass_5_scrutiny_pressure": 0.0,
   "pass_5_risk_pressure": 0.0,
-  "pass_5_context_pressure": 0.15,
-  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_context_pressure": 0.0,
+  "pass_5_scrutiny_multiplier": 1.0,
   "pass_5_risk_multiplier": 1.0,
-  "pass_5_high_stakes_domain": true,
-  "pass_5_high_stakes_domain_reason": "The proposal restricts access, amendment, and disclosure-accounting rights in investigative records that may affect individuals' employment, reputation, and ability to challenge inaccurate information.",
+  "pass_5_high_stakes_domain": false,
+  "pass_5_high_stakes_domain_reason": "",
   "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": "The proposal has a coherent investigative objective and cited Privacy Act authority, but its system-wide scope and substitute accountability safeguards are underdeveloped.",
-  "pass_5_most_important_consequence": "Individuals may be unable to identify or correct inaccurate, stale, or overbroad records even when disclosure would not compromise a live investigation or confidential source.",
+  "pass_5_concise_why": "The proposal has a plausible investigative-confidentiality rationale, but its categorical scope and safeguards for accuracy, auditability, and later review are under-specified.",
+  "pass_5_most_important_consequence": "Inaccurate or overbroad investigative records could affect a person before the person can learn what is held or obtain a meaningful correction path.",
   "pass_5_defect_families": [
     {
       "family_key": "authority_and_constitutional_fit",
@@ -122,11 +122,11 @@
         "self_policing_substitution"
       ],
       "member_count": 4,
-      "worst_severity": 1,
-      "mean_severity": 0.5,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.175
+      "family_score": 0.0
     },
     {
       "family_key": "evidence_and_rationale_integrity",
@@ -139,10 +139,10 @@
       ],
       "member_count": 4,
       "worst_severity": 2,
-      "mean_severity": 1.25,
-      "material_flaw_count": 1,
-      "material_share": 0.25,
-      "family_score": 0.406
+      "mean_severity": 1.5,
+      "material_flaw_count": 2,
+      "material_share": 0.5,
+      "family_score": 0.463
     },
     {
       "family_key": "implementation_reality",
@@ -154,10 +154,10 @@
       ],
       "member_count": 3,
       "worst_severity": 1,
-      "mean_severity": 0.333,
+      "mean_severity": 0.667,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.163
+      "family_score": 0.188
     },
     {
       "family_key": "safeguards_and_accountability",
@@ -200,10 +200,10 @@
       ],
       "member_count": 5,
       "worst_severity": 1,
-      "mean_severity": 1.0,
+      "mean_severity": 0.6,
       "material_flaw_count": 0,
       "material_share": 0.0,
-      "family_score": 0.213
+      "family_score": 0.182
     }
   ],
   "pass_5_flaws": [
@@ -212,199 +212,209 @@
       "flaw_name": "Authority Substitution",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "The NPRM invokes a directly relevant Privacy Act exemption authority and does not appear to substitute an unrelated source of authority.",
+      "explanation": "The proposal invokes a Privacy Act exemption authority that is directly related to the records described.",
       "evidence": [],
-      "comment_leverage": "No principal concern; focus comments on scope and safeguards."
+      "comment_leverage": "None beyond asking for the provision-by-provision statutory explanation."
     },
     {
       "flaw_key": "statutory_inversion",
       "flaw_name": "Statutory Inversion",
       "defect_type": "Type I",
       "severity": 0,
-      "explanation": "The proposal does not invert the stated Privacy Act framework; it expressly acknowledges statutory requirements and limitations.",
+      "explanation": "The available record does not show that an exception is being treated as the primary source of authority.",
       "evidence": [],
-      "comment_leverage": "Ask for a clearer application of the statutory limitations to record categories if needed."
+      "comment_leverage": "None identified."
     },
     {
       "flaw_key": "accountability_inversion",
       "flaw_name": "Accountability Inversion",
       "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The proposal prioritizes investigative confidentiality over individual access and amendment, but it does not establish that accountability is being replaced by an equally reliable substitute.",
+      "severity": 0,
+      "explanation": "The proposal does not expressly transfer responsibility for investigative decisions to the subject or another unaccountable actor.",
       "evidence": [],
-      "comment_leverage": "Request a protected correction or review process."
+      "comment_leverage": "Ask who remains accountable for accuracy and exemption decisions if useful."
     },
     {
       "flaw_key": "self_policing_substitution",
       "flaw_name": "Self-Policing Substitution",
       "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The available text leaves administration largely within Commission processes without describing independent review or aggregate auditing.",
+      "severity": 0,
+      "explanation": "No self-certification mechanism is described in the reviewed materials.",
       "evidence": [],
-      "comment_leverage": "Ask for audit, reporting, or independent review safeguards."
+      "comment_leverage": "Request clarification of internal review roles if the Commission adds them."
     },
     {
       "flaw_key": "constraint_sequencing_capture",
       "flaw_name": "Constraint Sequencing Capture",
       "defect_type": "Type I",
-      "severity": 1,
-      "explanation": "The proposal places access constraints at the system level before explaining how case status or record sensitivity will be evaluated.",
+      "severity": 0,
+      "explanation": "The proposal limits records rights but does not create a new access or licensing gateway.",
       "evidence": [],
-      "comment_leverage": "Request case-status and record-sensitivity sequencing criteria."
+      "comment_leverage": "None identified."
     },
     {
       "flaw_key": "evidence_to_intrusion_mismatch",
       "flaw_name": "Evidence-to-Intrusion Mismatch",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The investigative risks are plausible, but the available record does not quantify when they apply across all CFTC-59 records.",
-      "evidence": [],
-      "comment_leverage": "Request operational examples and aggregate scope data."
+      "severity": 2,
+      "explanation": "The notice gives plausible qualitative scenarios but does not provide record-specific or empirical support showing why every listed provision must be exempted for all CFTC-59 records.",
+      "evidence": [
+        {
+          "section": "Subsection C, CFTC-59",
+          "quote_or_absence": "The notice identifies destruction of evidence, influence on witnesses, fabricated testimony, and source exposure, but the available record does not quantify or otherwise document the need for each categorical exemption."
+        }
+      ],
+      "comment_leverage": "Request a non-sensitive factual basis and a provision-by-provision necessity analysis."
     },
     {
       "flaw_key": "remedy_rationale_mismatch",
       "flaw_name": "Remedy-Rationale Mismatch",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "The reasons support protection of sensitive investigative material, while the proposed remedy may reach records for which narrower controls would suffice.",
+      "explanation": "The confidentiality rationale fits active investigations, but the record does not explain whether the same breadth remains necessary after an investigation or for non-sensitive portions of a record.",
       "evidence": [],
-      "comment_leverage": "Request a least-restrictive alternative analysis."
+      "comment_leverage": "Ask whether delayed or partial review would preserve the stated investigative objective."
     },
     {
       "flaw_key": "implementation_fantasy",
       "flaw_name": "Implementation Fantasy",
       "defect_type": "Type II",
-      "severity": 0,
-      "explanation": "The proposal is administratively implementable as a records exemption; the concern is missing detail rather than an impossible mechanism.",
+      "severity": 1,
+      "explanation": "Implementation is possible in principle, but record-level classification, retention, and review workflows are not described.",
       "evidence": [],
-      "comment_leverage": "Seek implementation detail without characterizing the mechanism as infeasible."
+      "comment_leverage": "Ask the Commission to describe the operational workflow and responsible review function."
     },
     {
       "flaw_key": "magic_interface_dependency",
       "flaw_name": "Magic Interface Dependency",
       "defect_type": "Type II",
       "severity": 0,
-      "explanation": "The proposal does not depend on an unexplained technical interface or automated system to produce its stated result.",
+      "explanation": "The proposal does not depend on an unexplained external system handoff in the reviewed text.",
       "evidence": [],
-      "comment_leverage": "No principal concern identified."
+      "comment_leverage": "None identified."
     },
     {
       "flaw_key": "threat_ambiguity",
       "flaw_name": "Threat Ambiguity",
       "defect_type": "Type II",
-      "severity": 2,
-      "explanation": "The terms actual or potential insider risks and records collected for the program provide a broad scope without an operational threshold or examples.",
-      "evidence": [
-        {
-          "section": "Substantive NPRM, CFTC-59 description",
-          "quote_or_absence": "The proposal refers to records compiled to investigate actual or potential insider risks but does not define the threshold separating qualifying investigative records from routine, closed, or weakly connected records."
-        }
-      ],
-      "comment_leverage": "Ask for definitions, examples, classification criteria, and closed-case treatment."
+      "severity": 1,
+      "explanation": "Insider risk is defined broadly, and the notice does not distinguish clearly among investigative stages or record categories when applying the exemption.",
+      "evidence": [],
+      "comment_leverage": "Request definitions or examples that distinguish active investigative material from ordinary personnel information."
     },
     {
       "flaw_key": "impact_denial",
       "flaw_name": "Impact Denial",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The NPRM addresses formal RFA and PRA categories, but the available record gives limited treatment to the practical effects of losing access and amendment rights.",
-      "evidence": [],
-      "comment_leverage": "Submit concrete examples of accuracy, employment, contractor, or oversight impacts."
+      "severity": 2,
+      "explanation": "The proposal explains investigative and source-protection benefits more fully than the consequences of inaccessible, uncorrected, or stale information for individuals.",
+      "evidence": [
+        {
+          "section": "Related Matters and proposed \u00a7 146.12(h)(3)",
+          "quote_or_absence": "The notice states that information may not be strictly relevant or necessary, but the available record does not explain downstream effects or safeguards for individuals affected by inaccurate records."
+        }
+      ],
+      "comment_leverage": "Ask the Commission to address correction supplements, provenance, retention limits, and downstream-error controls."
     },
     {
       "flaw_key": "targetability_abuse_surface",
       "flaw_name": "Targetability / Abuse Surface",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "A broad system-level exemption could create a surface for overclassification, although the record does not show intentional abuse.",
+      "explanation": "A broad insider-risk records category could create discretionary classification concerns, but the available record does not show viewpoint, geography, or association-based targeting.",
       "evidence": [],
-      "comment_leverage": "Request aggregate audits and documentation of exemption decisions."
+      "comment_leverage": "Request neutral record-classification criteria and review documentation."
     },
     {
       "flaw_key": "safeguard_absence",
       "flaw_name": "Safeguard Absence",
       "defect_type": "Type II",
       "severity": 2,
-      "explanation": "The proposal removes several accountability mechanisms but does not identify substitute correction, segregability, post-investigation access, retention review, or independent audit safeguards.",
+      "explanation": "The proposed exemptions are detailed, but the reviewed materials do not identify meaningful partial-access, delayed-review, independent-audit, or correction safeguards.",
       "evidence": [
         {
-          "section": "Available NPRM record",
-          "quote_or_absence": "The available record does not identify substitute correction, segregability, post-investigation review, or independent audit safeguards after access and amendment are exempted."
+          "section": "Proposed \u00a7 146.12(h)",
+          "quote_or_absence": "The proposal lists exemptions from accounting, access, amendment, relevancy, agency-requirement, and agency-rule provisions; the available record does not identify a substitute safeguard structure."
         }
       ],
-      "comment_leverage": "Request safeguards that protect sources and active methods while preserving limited accountability."
+      "comment_leverage": "Ask for tailored exemptions and explicit safeguards that protect sources without eliminating all meaningful review."
     },
     {
       "flaw_key": "externality_dumping",
       "flaw_name": "Externality Dumping",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "The proposal may shift accuracy and challenge costs to individuals whose records are maintained, but the record does not quantify those effects.",
+      "explanation": "The practical burden of uncertainty or inaccurate records may fall on individuals, but the notice does not describe enough implementation detail to quantify that burden.",
       "evidence": [],
-      "comment_leverage": "Ask the Commission to address who bears the cost of an uncorrected record."
+      "comment_leverage": "Request an explanation of who bears correction and error-resolution costs."
     },
     {
       "flaw_key": "suspicion_machine",
       "flaw_name": "Suspicion Machine",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "The broad potential-risk concept could encourage precautionary collection, but the available record does not establish that this will occur.",
+      "explanation": "The system concerns actual or potential insider risks, which could encompass broad suspicion, but the record does not establish that ordinary conduct will itself trigger adverse treatment.",
       "evidence": [],
-      "comment_leverage": "Request collection thresholds and relevance review triggers."
+      "comment_leverage": "Ask for objective criteria distinguishing investigative leads from substantiated findings."
     },
     {
       "flaw_key": "accountability_substrate_degradation",
       "flaw_name": "Accountability Substrate Degradation",
       "defect_type": "Type I",
       "severity": 1,
-      "explanation": "Exempting access, amendment, disclosure accounting, and related requirements may reduce the ability of individuals and later reviewers to reconstruct or challenge how records were used, but the available record does not establish a complete accountability failure.",
-      "evidence": [],
-      "comment_leverage": "Request audit trails, aggregate reporting, retention documentation, and a limited correction path."
+      "explanation": "Exempting disclosure accounting, access, and amendment provisions can reduce later reconstructability unless the agency supplies alternative audit and provenance controls.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 146.12(h)(1)-(4)",
+          "quote_or_absence": "The proposal exempts 5 U.S.C. 552a(c)(3), (d)(1)-(4), and (e)(1), while the available record does not describe an alternative audit, provenance, or periodic-review mechanism."
+        }
+      ],
+      "comment_leverage": "Request an auditable substitute for the rights and accounting provisions being limited."
     },
     {
       "flaw_key": "harm_before_review",
       "flaw_name": "Harm Before Review",
       "defect_type": "Type I",
       "severity": 1,
-      "explanation": "An inaccurate or stale record may affect an individual before ordinary access or amendment review is available, but the record does not quantify this pathway.",
+      "explanation": "The proposal may prevent a person from learning about or correcting a record before practical consequences occur, but the record does not describe any specific adverse action pathway.",
       "evidence": [],
-      "comment_leverage": "Ask for post-investigation or protected review before consequential reuse."
+      "comment_leverage": "Ask whether review or correction is available after investigative sensitivity ends."
     },
     {
       "flaw_key": "procedural_gateway_control",
       "flaw_name": "Procedural Gateway Control",
       "defect_type": "Type II",
-      "severity": 1,
-      "explanation": "The exemption may control whether an individual can reach the records needed to challenge them, but the rule does not describe a substitute gateway for sensitive cases.",
+      "severity": 0,
+      "explanation": "The rule does not establish a gateway for future action outside ordinary rulemaking.",
       "evidence": [],
-      "comment_leverage": "Request an independent or segregated review channel."
+      "comment_leverage": "None identified."
     },
     {
       "flaw_key": "consequence_class_ambiguity",
       "flaw_name": "Consequence-Class Ambiguity",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "The available text does not distinguish the consequences of withholding records during an active investigation from withholding them after closure.",
+      "explanation": "The proposal does not distinguish the treatment of low-risk administrative records from sensitive active-investigation material.",
       "evidence": [],
-      "comment_leverage": "Ask for different treatment by investigation status and consequence."
+      "comment_leverage": "Ask for record categories and consequence-sensitive handling rules."
     },
     {
       "flaw_key": "ambiguity_enabled_gatekeeping",
       "flaw_name": "Ambiguity-Enabled Gatekeeping",
       "defect_type": "Type I",
       "severity": 1,
-      "explanation": "The broad insider-risk boundary may permit inconsistent gatekeeping, but no evidence shows that ambiguity is being used intentionally to evade review.",
+      "explanation": "Broad terms such as actual or potential insider risks could make exemption decisions difficult to review without clear classification criteria.",
       "evidence": [],
-      "comment_leverage": "Request written classification standards and auditability."
+      "comment_leverage": "Request written standards and documentation for exemption determinations."
     },
     {
       "flaw_key": "structural_coherence",
       "flaw_name": "Structural Coherence",
       "defect_type": "Type II",
       "severity": 1,
-      "explanation": "The purpose, authority, and mechanism are coherent, but the safeguard and scope architecture is less complete than the rights restriction.",
+      "explanation": "The objective, authority, and operative exemption fit together, but the record-quality and safeguard components are incomplete.",
       "evidence": [],
-      "comment_leverage": "Support the objective while asking the Commission to complete the boundary and safeguard design."
+      "comment_leverage": "Ask the Commission to complete the implementation and accountability architecture before finalizing."
     }
   ],
   "pass_5_failure_modes": {
@@ -509,7 +519,7 @@
   "comments_representative_selected_by_counts": {},
   "comments_representative_selected_by_counts_total": 0,
   "comments_api_backfill_next_page": 1,
-  "comments_api_backfill_complete": false,
+  "comments_api_backfill_complete": true,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
   "comments_api_last_seen_at": "2026-09-22T05:03:31.512511+00:00",
