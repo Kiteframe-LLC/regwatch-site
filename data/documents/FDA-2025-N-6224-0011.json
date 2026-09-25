@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-09-24T09:04:00.264338+00:00",
+  "comment_action_checked_at": "2026-09-25T06:09:13.415547+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,413 @@
   "pass_2_scaled": 0.9389472349966212,
   "pass_3_scaled": 0.39863127205866467,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5714520131288167,
+  "combined_score": 0.6903364295972338,
   "score_total": 14,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 5,
   "pass_2_material_change_score": 0,
   "pass_2_risk_band": "high_comment_leverage_probability",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 3,
+  "pass_4_scaled": 0.30833333333333335,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 0,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.0,
+    "A": 0.8,
+    "H": 0.6666666666666666,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "reasoned_explanation_completeness",
+    "small_entity_impact_rfa_risk"
+  ],
+  "pass_4_primary_concern": "The notice states a plausible Class I eligibility framework, but the available record does not show the item-specific risk, compatibility, and alternative-analysis basis for the seven proposed categories.",
+  "combined_score_pre_pass5": 0.5978816687360243,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material \u00b7 Safeguards and Accountability",
+  "pass_5_assessment": "Material \u00b7 Safeguards and Accountability",
+  "pass_5_assessment_tier": "Material",
+  "pass_5_scaled": 0.6185488914999999,
+  "pass_5_worst_flaw_severity": 1,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 0,
+  "pass_5_worst_family_key": "safeguards_and_accountability",
+  "pass_5_worst_family_name": "Safeguards and Accountability",
+  "pass_5_worst_family_severity": 1,
+  "pass_5_material_family_count": 0,
+  "pass_5_base_defect_score": 0.551234,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal concerns medical-device safety and compatibility, so classification errors can affect physical health even though this is not a direct clinical decision.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is structurally coherent and has a clear statutory and administrative pathway, but the available record leaves the item-specific risk and compatibility showing largely implicit.",
+  "pass_5_most_important_consequence": "If a broad category is finalized without a clear boundary for compatibility and intended use, an accessory could receive reduced premarket scrutiny before a product-specific risk becomes visible.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The notice identifies a directly relevant FD&C Act and FDARA authority and does not shift the decision to an unrelated legal actor.",
+      "evidence": [],
+      "comment_leverage": "Request a concise statutory crosswalk for each final category."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The available record does not treat a statutory exception or implementation hook as the primary grant of power.",
+      "evidence": [],
+      "comment_leverage": "Ask FDA to explain how each final category satisfies the statutory reasonable-assurance standard."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal keeps FDA responsible for the final classification action and does not transfer the decision to regulated entities.",
+      "evidence": [],
+      "comment_leverage": "Request a public response-to-comments map."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The notice does not replace FDA classification review with self-certification by manufacturers.",
+      "evidence": [],
+      "comment_leverage": "Clarify what controls remain the manufacturer's responsibility after classification."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal is still subject to public comment and a later final action; no later-stage condition is made a prerequisite to ordinary review.",
+      "evidence": [],
+      "comment_leverage": "Ask for transition treatment before any final exemption takes effect."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposed reduction in premarket burden is supported by a general eligibility framework, but the supplied text does not expose equivalent item-specific evidence for every category.",
+      "evidence": [
+        {
+          "section": "III. Factors for Consideration / IV. Proposed List",
+          "quote_or_absence": "The notice states the risk and control test and then presents the list, but the available text does not show the item-specific evidence connecting each accessory to that conclusion."
+        }
+      ],
+      "comment_leverage": "Publish an accessory-by-accessory risk and control table."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposed classification and exemption mechanism generally match the stated goal of avoiding duplicative parent-device review where general controls suffice.",
+      "evidence": [],
+      "comment_leverage": "Explain why the proposed level of relief is appropriate for each category."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice assumes classification regulations and exemption limitations can be applied across varied accessory products, but gives few borderline or hybrid examples.",
+      "evidence": [
+        {
+          "section": "IV. Proposed List",
+          "quote_or_absence": "The proposed categories include broad descriptions and examples, while the available text does not provide a decision tree for overlapping or hybrid accessories."
+        }
+      ],
+      "comment_leverage": "Add product-level examples and a boundary decision tree."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No novel software, data-system, or interagency handoff is presented as an automatic implementation mechanism.",
+      "evidence": [],
+      "comment_leverage": "None identified from the available record."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal identifies safety, effectiveness, compatibility, and regulatory-control questions rather than relying on an undefined threat narrative.",
+      "evidence": [],
+      "comment_leverage": "Request failure-mode examples if FDA identifies additional risks in the final action."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice emphasizes reduced duplicative controls but gives limited detail on possible compatibility, clinical-use, and small-entity effects; it does not deny those effects outright.",
+      "evidence": [
+        {
+          "section": "IV. Proposed List / Available notice text",
+          "quote_or_absence": "The available text explains the proposed Class I and exemption treatment but does not quantify downstream compatibility or implementation effects."
+        }
+      ],
+      "comment_leverage": "Explain both burden reductions and foreseeable safety or transition effects."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not create a viewpoint, geography, association, or individualized enforcement lever.",
+      "evidence": [],
+      "comment_leverage": "None identified from the available record."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice identifies general controls and exemption limitations, but the available text does not describe an additional review trigger for an accessory that later proves more parent-device-specific than expected.",
+      "evidence": [
+        {
+          "section": "IV. Proposed List",
+          "quote_or_absence": "The notice identifies applicable limitations of exemption but does not describe a specific reassessment or review trigger for newly recognized compatibility risks."
+        }
+      ],
+      "comment_leverage": "Request a reassessment, correction, or reclassification pathway for boundary cases."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The record does not show that the proposal shifts cleanup, monitoring, or error-handling costs to unrelated outsiders.",
+      "evidence": [],
+      "comment_leverage": "Ask FDA to identify any costs shifted to facilities, clinicians, or patients."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not turn ordinary conduct into suspicion-based flags or adverse treatment.",
+      "evidence": [],
+      "comment_leverage": "None identified from the available record."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Moving an accessory out of a parent-device premarket submission could reduce the visibility of compatibility reasoning unless classification and postmarket records remain sufficiently traceable.",
+      "evidence": [
+        {
+          "section": "IV. Proposed List / Available notice text",
+          "quote_or_absence": "The available text does not explain how the final action will preserve a public, product-level record of the evidence supporting distinct classification."
+        }
+      ],
+      "comment_leverage": "Describe the recordkeeping and traceability expected after distinct classification."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal does not take final effect in the notice and preserves a public comment and final-action step.",
+      "evidence": [],
+      "comment_leverage": "Request a transition period if FDA anticipates immediate changes after finalization."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The notice does not create a mechanism for avoiding future notice-and-comment review or centralize access through an unrelated procedural chokepoint.",
+      "evidence": [],
+      "comment_leverage": "Clarify which future classification changes would require additional rulemaking."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice identifies Class I treatment and premarket-notification exemption limitations, but the operational consequences for mixed, overlapping, or borderline accessories are not fully mapped.",
+      "evidence": [
+        {
+          "section": "IV. Proposed List",
+          "quote_or_absence": "The notice says classifications would be placed in parts 870, 876, or 878, as appropriate, but the available text does not map consequences for overlapping or hybrid products."
+        }
+      ],
+      "comment_leverage": "Publish a consequence and transition map for boundary cases."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The terms in the proposed framework may require clarification, but the available record does not show that ambiguity is being used as a mechanism for selective exclusion or delay.",
+      "evidence": [],
+      "comment_leverage": "Define reviewable criteria for device-specific accessories."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The authority, objective, mechanism, and final-action pathway fit together; the remaining weakness is ordinary proposal-stage underdevelopment of item-specific evidence and boundary rules.",
+      "evidence": [
+        {
+          "section": "I. Background through IV. Proposed List",
+          "quote_or_absence": "The notice links statutory authority, eligibility factors, a proposed list, and a final action, while leaving the item-specific evidence bridge largely implicit."
+        }
+      ],
+      "comment_leverage": "Strengthen the final record with an item-by-item factor crosswalk and implementation examples."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "missing_alternatives_analysis",
@@ -284,10 +647,10 @@
     "negative": 2
   },
   "comments_first_page_unique_days": 1,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/FDA-2025-N-6224-0011_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "FDA-2025-N-6224"
