@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-10-05T17:09:14.739983+00:00",
+  "comment_action_checked_at": "2026-10-05T22:35:42.317464+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,55 +34,390 @@
   "comment_end_date": "2026-12-01T04:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 4,
-  "pass_3_score": 0.0,
+  "pass_3_score": 3.4,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.0,
+  "pass_3_scaled": 0.43258633120299617,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.3438756136531276,
+  "combined_score": 0.7164390969479068,
   "score_total": 11,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 1,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 5,
+  "pass_4_scaled": 0.4708333333333333,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 1,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 2,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 2,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.6,
+    "H": 0.3333333333333333,
+    "E": 1.3333333333333333
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness",
+    "retroactivity_fair_notice_risk"
+  ],
+  "pass_4_primary_concern": "The notice's category-specific line drawing and firm burden-reduction conclusion are under-supported by public quantitative and crosswalk evidence.",
+  "combined_score_pre_pass5": 0.5997306992894836,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.7784053595834968,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "impact_denial",
+  "pass_5_worst_flaw_name": "Impact Denial",
+  "pass_5_material_flaw_count": 1,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 1,
+  "pass_5_base_defect_score": 0.7393,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The proposal changes defense-export classification and licensing boundaries that affect national-security controls, international supply chains, and regulated-firm compliance.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The proposal is structurally coherent overall, but its firm aggregate burden and category-level sensitivity conclusions have limited public evidentiary support.",
+  "pass_5_most_important_consequence": "Uneven classification and transition outcomes, or removal of controls from items with material military utility, could occur before affected parties have a transparent way to test the underlying evidence and correct implementation mistakes.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.25,
+      "family_score": 0.388
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.667,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.188
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 1,
+      "mean_severity": 0.2,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.153
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The notice identifies ITAR and AECA authority that is facially connected to the proposed subject matter.",
+      "evidence": [],
+      "comment_leverage": "No authority-substitution issue identified from the available record."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal does not appear to treat a side condition as the primary grant of power.",
+      "evidence": [],
+      "comment_leverage": "No statutory-inversion issue identified from the available record."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Responsibility for the classification decisions remains with the Department and its stated interagency process.",
+      "evidence": [],
+      "comment_leverage": "No accountability-inversion issue identified from the available record."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal does not replace all agency review with regulated-party self-certification.",
+      "evidence": [],
+      "comment_leverage": "No self-policing substitution identified from the available record."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal narrows controls and adds an exemption; it does not make a later-stage condition a prerequisite to ordinary access to review.",
+      "evidence": [],
+      "comment_leverage": "No constraint-sequencing capture identified from the available record."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The principal changes reduce or clarify licensing controls rather than imposing a new intrusive burden unsupported by the evidence.",
+      "evidence": [],
+      "comment_leverage": "Ask for evidence supporting removals, but do not frame the proposal as an intrusion mismatch."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The proposed text generally tracks the stated burden-reduction and sensitivity-focused rationale, although the record is thin on why each category-level remedy is the best fit.",
+      "evidence": [],
+      "comment_leverage": "Request category-specific explanations where the proposed narrowing is broad."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The rule anticipates implementation through detailed definitions and future guidance, but the record does not fully demonstrate how complex mixed-system and lifecycle cases will be handled.",
+      "evidence": [],
+      "comment_leverage": "Request worked examples and transition materials."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice relies in part on DDTC website guidance for treatment of previously licensed items, but does not describe the mechanism or status of that guidance.",
+      "evidence": [],
+      "comment_leverage": "Request a dated transition crosswalk and explain whether guidance will be binding or advisory."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The critical military or intelligence advantage criterion is intelligible at a high level but remains broad for category-level application.",
+      "evidence": [],
+      "comment_leverage": "Ask for non-confidential criteria and representative boundary examples."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The notice acknowledges that quantitative estimates and useful predictive models are unavailable, yet makes a firm conclusion that benefits outweigh costs and that the rule will produce a net burden reduction. This is a material transparency concern, not an inference of bad faith.",
+      "evidence": [
+        {
+          "section": "Executive Orders 12866 and 13563",
+          "quote_or_absence": "The notice states that quantitative analyses cannot be usefully estimated and are not available, then states that the benefits outweigh costs and the rule will result in a net reduction of burden."
+        }
+      ],
+      "comment_leverage": "Request bounded ranges, representative affected transactions, transition-cost assumptions, and a response explaining how uncertainty affects the net-benefit conclusion."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not create a demonstrated viewpoint, geography, or association-based targeting mechanism.",
+      "evidence": [],
+      "comment_leverage": "No targetability issue identified from the available record."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The notice states conditions for the temporary-export exemption, but the available text does not fully describe documentation, recordkeeping, return, or mixed-purpose safeguards.",
+      "evidence": [],
+      "comment_leverage": "Ask the Department to add objective safeguards or explain why the listed conditions are sufficient."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The available record does not show that the proposal shifts operational or cleanup costs to unrelated outsiders.",
+      "evidence": [],
+      "comment_leverage": "No externality-dumping issue identified from the available record."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposed classifications regulate articles, services, and technical data; they do not turn ordinary conduct into suspicion or adverse treatment on the available record.",
+      "evidence": [],
+      "comment_leverage": "No suspicion-machine issue identified from the available record."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "The rule may improve textual traceability but places some transition treatment in future website guidance, leaving uncertainty about the public record for past licenses and decisions.",
+      "evidence": [],
+      "comment_leverage": "Request a public versioned crosswalk and record of transition interpretations."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Classification and licensing consequences may affect transactions during transition, but the proposal does not describe an immediate correction or safe-harbor pathway.",
+      "evidence": [],
+      "comment_leverage": "Request a transition period, prospective application, or good-faith correction path."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The notice does not create a new procedural chokepoint that bypasses future rulemaking or meaningful review.",
+      "evidence": [],
+      "comment_leverage": "No procedural-gateway issue identified from the available record."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The text does not clearly distinguish the practical consequence of a mistaken classification, particularly for upgrades, reconditioning, and mixed ITAR/EAR systems.",
+      "evidence": [],
+      "comment_leverage": "Ask for examples showing when a classification error requires a license, correction, or enforcement response."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Several technical boundaries are complex and may cause delay, but the record does not show that ambiguity is intentionally being used to gate access.",
+      "evidence": [],
+      "comment_leverage": "Request objective criteria and response procedures for ambiguous cases."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The authority, mechanism, and stated objectives fit together, with a limited mismatch between the breadth of the conclusions and the public evidence supporting them.",
+      "evidence": [],
+      "comment_leverage": "Use a focused evidence and implementation request rather than a generalized coherence objection."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "missing_rights_impact_signal",
@@ -92,9 +427,87 @@
   "rule_text_sources": [
     "https://www.federalregister.gov/documents/full_text/html/2026/10/01/2026-20079.html"
   ],
-  "supporting_related_material_count": 999,
+  "supporting_related_material_count": 1000,
   "supporting_docs_error": null,
   "supporting_related_material": [
+    {
+      "document_id": "DOS_FRDOC_0001-7286",
+      "tracking_number": null,
+      "title": "Delegation of Authority by the Secretary of State to the Official Performing the Duties of the Administrator of the U.S. Agency for International Development",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-10-02T04:00:00Z",
+      "received_date": "2026-10-02T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 1,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7286/content.pdf",
+          "format": "pdf",
+          "size": 207139
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7286/content.html",
+          "format": "html",
+          "size": 2881
+        }
+      ]
+    },
+    {
+      "document_id": "DOS_FRDOC_0001-7284",
+      "tracking_number": null,
+      "title": "Culturally Significant Objects Imported for Exhibition: Four Norwegian Bridal Crowns",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-10-02T04:00:00Z",
+      "received_date": "2026-10-02T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 2,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7284/content.pdf",
+          "format": "pdf",
+          "size": 213712
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7284/content.html",
+          "format": "html",
+          "size": 2664
+        }
+      ]
+    },
+    {
+      "document_id": "DOS_FRDOC_0001-7285",
+      "tracking_number": null,
+      "title": "Culturally Significant Objects Imported for Exhibition: Auschwitz. Not Long Ago. Not Far Away",
+      "document_type": "Notice",
+      "document_subtype": null,
+      "abstract": null,
+      "posted_date": "2026-10-02T04:00:00Z",
+      "received_date": "2026-10-02T04:00:00Z",
+      "author_date": null,
+      "authors": null,
+      "page_count": 1,
+      "media": null,
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7285/content.pdf",
+          "format": "pdf",
+          "size": 207139
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7285/content.html",
+          "format": "html",
+          "size": 2738
+        }
+      ]
+    },
     {
       "document_id": "DOS_FRDOC_0001-7282",
       "tracking_number": null,
@@ -1429,23 +1842,12 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-07-31T04:00:00Z",
-      "received_date": "2026-07-31T04:00:00Z",
+      "received_date": null,
       "author_date": null,
       "authors": null,
-      "page_count": 2,
+      "page_count": null,
       "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7213/content.pdf",
-          "format": "pdf",
-          "size": 227718
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-7213/content.html",
-          "format": "html",
-          "size": 3076
-        }
-      ]
+      "file_formats": null
     },
     {
       "document_id": "DOS_FRDOC_0001-7216",
@@ -26001,58 +26403,6 @@
           "size": 1725
         }
       ]
-    },
-    {
-      "document_id": "DOS_FRDOC_0001-6155",
-      "tracking_number": null,
-      "title": "Designation as a Specially Designated Global Terrorist: Sami Mahmud Mohammed al-Uraydi",
-      "document_type": "Notice",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2023-04-19T00:00:00Z",
-      "received_date": "2023-04-19T00:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 1,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6155/content.pdf",
-          "format": "pdf",
-          "size": 192196
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6155/content.html",
-          "format": "html",
-          "size": 1939
-        }
-      ]
-    },
-    {
-      "document_id": "DOS_FRDOC_0001-6156",
-      "tracking_number": null,
-      "title": "Designation as a Specially Designated Global Terrorist: Qari Amjad",
-      "document_type": "Notice",
-      "document_subtype": null,
-      "abstract": null,
-      "posted_date": "2023-04-19T00:00:00Z",
-      "received_date": "2023-04-19T00:00:00Z",
-      "author_date": null,
-      "authors": null,
-      "page_count": 1,
-      "media": null,
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6156/content.pdf",
-          "format": "pdf",
-          "size": 192196
-        },
-        {
-          "fileUrl": "https://downloads.regulations.gov/DOS_FRDOC_0001-6156/content.html",
-          "format": "html",
-          "size": 1415
-        }
-      ]
     }
   ],
   "referenced_documents": [
@@ -26072,12 +26422,12 @@
       "resolved_kind": "docket",
       "direct_url": "",
       "search_url": "https://www.regulations.gov/search?filter=DOS-2026-0991",
-      "resolved_url": "https://www.regulations.gov/search?filter=DOS-2026-0991",
+      "resolved_url": "/docket/DOS-2026-0991/",
       "link_supported": false,
       "link_status_code": 404,
       "link_error": null,
       "link_checked_at": "2026-10-02T10:13:51.907214+00:00",
-      "link_mode": "search_fallback_broken_direct"
+      "link_mode": "internal_docket"
     }
   ],
   "referenced_documents_count": 1,
@@ -26085,69 +26435,157 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 0,
-  "comments_velocity_total": 0,
-  "comments_public_total_estimate": 0,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 0,
-  "comments_unique_clusters": 0,
+  "comments_total": 2,
+  "comments_velocity_total": 2,
+  "comments_public_total_estimate": 2,
+  "comments_fetched": 2,
+  "comments_text_hydrated": 2,
+  "comments_cached_records": 2,
+  "comments_unique_clusters": 2,
   "comments_clustered_duplicates": 0,
   "comments_truncated": false,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 0,
-  "comments_commenter_type_counts": {},
-  "comments_submission_role_counts": {},
-  "comments_submission_channel_counts": {},
-  "comments_public_count": 0,
+  "comments_citizen_count": 2,
+  "comments_commenter_type_counts": {
+    "citizen": 2
+  },
+  "comments_submission_role_counts": {
+    "individual": 2
+  },
+  "comments_submission_channel_counts": {
+    "public_portal": 2
+  },
+  "comments_public_count": 2,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
-  "comments_new_cluster_count_by_day": {},
+  "comments_new_cluster_count_by_day": {
+    "2026-10-05": 1,
+    "2026-10-02": 1
+  },
   "comments_high_signal_cluster_count_by_day": {},
-  "comments_novel_comment_rate": 0.0,
+  "comments_novel_comment_rate": 1.0,
   "comments_sentiment_positive_pct": 0.0,
-  "comments_sentiment_negative_pct": 0.0,
-  "comments_sentiment_neutral_pct": 0.0,
-  "comments_sentiment_net": 0.0,
-  "comments_sentiment_sample_size": 0,
+  "comments_sentiment_negative_pct": 0.5,
+  "comments_sentiment_neutral_pct": 0.5,
+  "comments_sentiment_net": -0.5,
+  "comments_sentiment_sample_size": 2,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 0,
+  "comments_analysis_sample_size": 2,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 0,
-  "comments_representative_prior_selected": 0,
-  "comments_representative_newly_selected": 0,
+  "comments_representative_selected": 2,
+  "comments_representative_prior_selected": 1,
+  "comments_representative_newly_selected": 1,
   "comments_representative_must_keep": 0,
-  "comments_representative_run_budget": 0,
+  "comments_representative_run_budget": 1,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
-  "comments_representative_selected_by_counts": {},
-  "comments_representative_selected_by_counts_total": 0,
+  "comments_representative_selected_by_counts": {
+    "salience_rank": 1,
+    "weighted_fill": 1
+  },
+  "comments_representative_selected_by_counts_total": 2,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-10-02T09:52:54.813033+00:00",
-  "comments_checked_at": "2026-10-02T09:52:54.813089+00:00",
+  "comments_api_last_seen_at": "2026-10-05T21:55:16.512004+00:00",
+  "comments_checked_at": "2026-10-05T21:55:16.522716+00:00",
   "comments_error": null,
-  "comments_clusters": [],
+  "comments_clusters": [
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOS-2026-0991-0002",
+      "representative_posted_date": "2026-10-02T04:00:00Z",
+      "representative_length": 1206,
+      "representative_excerpt": "Munitions List to the most sensitive technologies and adding clearer exemptions can reduce needless ITAR friction without weakening genuine national-security controls. The danger is the opposite extreme: opaque category reshuffles, catch-all \"specially designed\" language, or discretionary licensing practices that recreate the old burden under new headings....",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOS-2026-0991-0002": {
+          "organization": "",
+          "postedDate": "2026-10-02T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on DOS_FRDOC_0001-7283",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8500000000000001
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "DOS-2026-0991-0003",
+      "representative_posted_date": "2026-10-05T04:00:00Z",
+      "representative_length": 240,
+      "representative_excerpt": "This is insane; we need more controls on weapons and munitions moving around the world and being sold abroad. Buried deep inside, provisions like this are a \"deal to be made.\" Nothing about this increases protections for the general public.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "DOS-2026-0991-0003": {
+          "organization": "",
+          "postedDate": "2026-10-05T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on DOS-2026-0991-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.55
+    }
+  ],
   "comments_clusters_path": "data/comments/DOS_FRDOC_0001.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 0,
-  "comments_first_page_coverage_share": 0.0,
-  "comments_first_page_coverage_count": null,
-  "comments_clusters_total_available": null,
-  "comments_clusters_displayed": null,
-  "comments_first_page_high_signal_clusters": null,
-  "comments_first_page_novelty_clusters": null,
-  "comments_first_page_stance_counts": {},
-  "comments_first_page_unique_days": 0,
+  "comments_first_page_count": 2,
+  "comments_first_page_coverage_share": 1.0,
+  "comments_first_page_coverage_count": 2,
+  "comments_clusters_total_available": 2,
+  "comments_clusters_displayed": 2,
+  "comments_first_page_high_signal_clusters": 0,
+  "comments_first_page_novelty_clusters": 0,
+  "comments_first_page_stance_counts": {
+    "negative": 1,
+    "neutral": 1
+  },
+  "comments_first_page_unique_days": 2,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": false,
