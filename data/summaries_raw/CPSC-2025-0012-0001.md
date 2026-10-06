@@ -22,13 +22,13 @@
 
 **Observed Fact:** CPSC proposed rule for 16 CFR parts 1112 and 1265; docket CPSC-2025-0012; RIN 3041-AE10; the substantive NPRM set written comments for August 24, 2026.
 
-**Document Identity:** The controller-selected item CPSC_FRDOC_0001-1554 is an October 5, 2026 announcement of an opportunity for oral presentation. Its text expressly identifies Federal Register document 2026-12749, which is the substantive NPRM exported and reviewed here as CPSC-2025-0012-0001.
+**Document Identity:** The controller-selected item CPSC-2025-0012-0055 is an October 5, 2026 announcement of an opportunity for oral presentation. Its text expressly identifies the June 24, 2026 NPRM and Federal Register document 2026-12749; substantive review therefore uses CPSC-2025-0012-0001.
 
-**Current Procedural Context:** The selected announcement sets October 15, 2026 deadlines for oral-presentation requests and preregistration and a virtual hearing on October 21, 2026. It does not replace the underlying NPRM as the substantive rule text.
+**Current Procedural Context:** The selected hearing notice sets October 15, 2026 deadlines for oral-presentation requests and preregistration and a virtual hearing on October 21, 2026. Oral-presentation procedures remain associated with 0055, while the underlying NPRM supplies the substantive rule text.
 
-**Supporting Materials:** No required attachments are missing, and no attachment manifest exists for the corrected substantive document. The fresh export contains the full substantive NPRM body and preliminary regulatory analysis. The only automatically ingested related item, CPSC_FRDOC_0001-1555, is an unrelated button-cell information-collection notice and was excluded from substantive findings.
+**Supporting Materials:** No required attachments are missing, and no attachment manifest exists for the corrected substantive document. The refreshed substantive export contains the full NPRM body and preliminary regulatory analysis. The only automatically ingested related item is the same NPRM PDF as a self-referential docket item; the cited January 2025 briefing memo and March 2025 correction package are not present in the available docket export.
 
-**Limits:** Referenced UL standards and the January 8, 2025 briefing memo are not included, so their exact text is not independently checked.
+**Limits:** Referenced UL standards, the January 8, 2025 briefing memo, and the March 26, 2025 correction package are not included, so their exact text is not independently checked.
 
 # Phase 2 — Claim-Centered Analysis
 

@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-10-05T22:35:42.566626+00:00",
+  "comment_action_checked_at": "2026-10-06T05:11:29.507880+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -128,7 +128,7 @@
   "comments_fetched": 13,
   "comments_text_hydrated": 13,
   "comments_cached_records": 13,
-  "comments_unique_clusters": 10,
+  "comments_unique_clusters": 11,
   "comments_clustered_duplicates": 2,
   "comments_truncated": false,
   "comments_source": "api",
@@ -155,29 +155,29 @@
     "2026-10-02": 4
   },
   "comments_novel_comment_rate": 0.8461538461538461,
-  "comments_sentiment_positive_pct": 0.35250628694043784,
-  "comments_sentiment_negative_pct": 0.2949874261191244,
-  "comments_sentiment_neutral_pct": 0.35250628694043784,
-  "comments_sentiment_net": 0.05751886082131347,
-  "comments_sentiment_sample_size": 11,
+  "comments_sentiment_positive_pct": 0.32094776824895865,
+  "comments_sentiment_negative_pct": 0.268578347626562,
+  "comments_sentiment_neutral_pct": 0.4104738841244794,
+  "comments_sentiment_net": 0.052369420622396634,
+  "comments_sentiment_sample_size": 12,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 12,
+  "comments_analysis_sample_size": 13,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 12,
-  "comments_representative_prior_selected": 9,
-  "comments_representative_newly_selected": 3,
+  "comments_representative_selected": 13,
+  "comments_representative_prior_selected": 13,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 0,
-  "comments_representative_run_budget": 3,
+  "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
     "salience_rank": 1,
-    "weighted_fill": 11
+    "weighted_fill": 12
   },
-  "comments_representative_selected_by_counts_total": 12,
+  "comments_representative_selected_by_counts_total": 13,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -289,7 +289,7 @@
       "presentation_score": 0.5275598066567094
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1321-0003",
@@ -325,7 +325,7 @@
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1321-0006",
@@ -433,7 +433,7 @@
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1321-0004",
@@ -469,7 +469,7 @@
       "presentation_score": 0.758088022903976
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1321-0005",
@@ -505,7 +505,7 @@
       "presentation_score": 0.6247546895706427
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1321-0007",
@@ -541,7 +541,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1321-0008",
@@ -575,22 +575,58 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1321-0011",
+      "representative_posted_date": "2026-10-02T04:00:00Z",
+      "representative_length": 240,
+      "representative_excerpt": "Please do not automatically put money in a Trump account based on social security numbers. It is extremely likely fraudulent social security numbers will be issued for non-existent children and the country could lose billions to this fraud.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1321-0011": {
+          "organization": "",
+          "postedDate": "2026-10-02T04:00:00Z",
+          "zip": "",
+          "city": "Kent",
+          "stateProvinceRegion": "WA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Burrage, Jeanette",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
     }
   ],
   "comments_clusters_path": "data/comments/IRS-2026-1321.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 10,
+  "comments_first_page_count": 11,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 12,
-  "comments_clusters_total_available": 10,
-  "comments_clusters_displayed": 10,
+  "comments_first_page_coverage_count": 13,
+  "comments_clusters_total_available": 11,
+  "comments_clusters_displayed": 11,
   "comments_first_page_high_signal_clusters": 4,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
     "positive": 3,
-    "neutral": 4,
+    "neutral": 5,
     "negative": 3
   },
   "comments_first_page_unique_days": 1,
