@@ -1,360 +1,524 @@
 # Administrative Rulemaking Structural Review
 
-**Document ID:** `DOE_FRDOC_0001-5418`
+**Document ID:** `DOE_FRDOC_0001-5457`
 
-**Document type:** `RFI`
+**Document type:** `NPRM`
 
 ## Computed Scoring Summary
-- Pass 4 raw/scaled: n/a / n/a
-- Pass 4 primary concern: n/a
-- Pass 5 assessment/scaled: n/a / n/a
-- Pass 5 base defect score: n/a
-- Pass 5 context pressure: n/a
-- Pass 5 scrutiny/risk multipliers: n/a / n/a
-- Pass 5 worst family: n/a (n/a)
-- Core structural concern: No red flag
-- Procedural concern score: 5.600/10
-- Analysis score multiplier: 1.000
+- Pass 4 raw/scaled: 4 / 0.354
+- Pass 4 primary concern: The notice does not fully support its selected procedural thresholds, ADR savings estimate, or safeguards for broad deadline discretion.
+- Pass 5 assessment/scaled: Serious · Enforcement and Control Architecture / 0.730
+- Pass 5 base defect score: 0.730
+- Pass 5 context pressure: 0.000
+- Pass 5 scrutiny/risk multipliers: 1.000 / 1.000
+- Pass 5 worst family: Enforcement and Control Architecture (enforcement_and_control_architecture)
+- Core structural concern: The proposed procedural package is coherent, but its key timing, savings, and discretion claims are under-supported.
+- Procedural concern score: 5.900/10
+- Analysis score multiplier: 1.245
 
 # Phase 1 — Docket Integrity Check
 
-**Classification:** Substantive Request for Information and request for comments; not an NPRM.
+**Classification:** Partial analytical spine
 
 **Observed Facts**
-- The notice text is titled Energy Conservation Program: Review of Analytic Methods for Setting Energy Conservation Standards.
-- The action line says Request for information and request for comments.
-- DOE asks for information on assumptions, models, and methodologies used in setting energy conservation standards and on the NASEM peer-review recommendations.
-- The metadata labels the item Proposed Rule, but the supplied body text expressly calls it an analytic framework RFI and does not propose operative amendments in the selected text.
-- The supplied attachment diagnostics list eight optional unrelated DOE documents, no required document IDs, and no missing required documents.
+- The selected record is a notice of proposed rulemaking and request for comments that proposes amendments to 10 CFR part 708.
+- The notice includes a background section, section-by-section explanation, regulatory-review discussions, public-participation instructions, and proposed regulatory text.
+- The notice identifies docket DOE-HQ-2026-0496, RIN 1910-AA55, a comment deadline of October 22, 2026, and the existing authority citations for part 708.
+- The metadata timestamp expresses the deadline as 2026-10-23T03:59:59Z, which is consistent with October 22 in the notice in the stated Eastern time zone.
+- The prepared export contains no notice-side availability table identifying an RIA, technical-support document, or other attachment specific to this NPRM. The 15 related records are separate neighboring DOE Federal Register documents.
 
-**Inferences**
-- The selected document is substantive and can be reviewed under the RFI rubric because it contains the agency's questions, scope, and comment instructions.
-- No docket override is needed: the notice is not an extension, reopening, correction, or other administrative follow-on document.
-- The unrelated optional documents should not be treated as supporting evidence for this RFI.
+**Inference:** The record is adequate for a procedural and legal-structure review but not a full empirical validation of the agency's savings, workload, or current-practice assertions.
 
-**Supporting Materials**
-**Listed In Metadata:** 16
+**Substantive Document Check:** Passed. The document expressly says it is a notice of proposed rulemaking and request for comments and contains proposed amendments to part 708.
 
-**Ingested:** 8
+**Supporting Material Decision**
+**Attachments Required For Initial Review:** False
 
-**Blocking:** False
+**Reason:** The principal claims concern deadlines, filing, investigation, hearing, appeal, and remedy procedures that are described in the notice and proposed text. No specific external analysis is necessary to identify the supported comment questions.
 
-**Notes:** The available ingest diagnostics identify no required supporting documents. The ingested items are unrelated DOE notices and are not used in the analysis.
+**Attachment Manifest:** Not required for this review.
+
+**Record Limits**
+- The available export does not provide case-level data showing how often current 60-day investigations exceed the deadline.
+- The available export does not provide the calculation supporting the estimated $250,000 annual savings.
+- The available export does not include implementation manuals, training materials, or a docketed empirical study of the proposed procedures.
 
 # Phase 2 — Claim-Centered Analysis
 
 ## Step 0 — Extract Agency Reasoning Claims
 
-- **Id:** claim_framework_update
+**Claims**
+- **Id:** C1
   
-  **Category:** PURPOSE
+  **Category:** CONCLUSION | SCOPE
   
-  **Quoted Sentence:** DOE is seeking information and public comment related to the agency's forthcoming update of the analytic framework used to carry out requirements in EPCA.
+  **Quoted Sentence:** The proposed revisions would clarify deadlines and tolling practices throughout the regulation.
   
-  **Observed Fact:** The RFI frames itself as a technical follow-up to the NASEM review and prior Process Rule comments.
+  **Location:** Summary and Section I
   
-  **Inference:** DOE intends to use responses to refine the analytical framework supporting future standards decisions.
-- **Id:** claim_uncertainty_value
+  **Procedural Relevance:** This is the central justification for changing filing, response, referral, investigation, hearing, and appeal procedures.
   
-  **Category:** METHODOLOGY
+  **Support Type:** preamble explanation
+- **Id:** C2
   
-  **Quoted Sentence:** DOE should present the distribution of costs and benefits estimated in its models when uncertain parameters are represented by probability distributions.
+  **Category:** CONCLUSION | METHOD
   
-  **Observed Fact:** The notice asks how DOE should prioritize variable inputs, propagate uncertainty, and present results.
+  **Quoted Sentence:** The proposed changes are intended to address areas of potential confusion and bring the regulations in line with current practice.
   
-  **Inference:** DOE is considering a more explicit probabilistic treatment of uncertainty rather than relying mainly on point estimates.
-- **Id:** claim_market_failure
+  **Location:** Section I, Background and Summary
   
-  **Category:** JUSTIFICATION
+  **Procedural Relevance:** The agency should identify the confusion and practice deviations that each amendment is designed to correct.
   
-  **Quoted Sentence:** DOE should attempt to find significant failures of private markets or irrational behavior in the no-standards case.
+  **Support Type:** preamble explanation
+- **Id:** C3
   
-  **Observed Fact:** The notice asks for evidence and methods concerning market failure and the energy-savings gap.
+  **Category:** CONCLUSION | ALTERNATIVES
   
-  **Inference:** Responses could influence how DOE explains the need for future standards before quantifying their benefits.
-- **Id:** claim_broader_effects
+  **Quoted Sentence:** The addition of this section will reduce costs associated with part 708 complaints, increase processing efficiency, and improve the effectiveness of alternative dispute resolution services.
   
-  **Category:** IMPACT_ANALYSIS
+  **Location:** Section II.E, proposed section 708.10
   
-  **Quoted Sentence:** The RIA should be grounded in an appreciation of consumer needs beyond reduced energy costs.
+  **Procedural Relevance:** This is the principal quantified-benefit rationale and should be tied to a baseline, assumptions, and measurable outcomes.
   
-  **Observed Fact:** The notice discusses consumer preferences, manufacturer effects, market effects, emissions, power systems, and non-monetized impacts.
+  **Support Type:** support not found
+- **Id:** C4
   
-  **Inference:** DOE is inviting a broader welfare analysis that could change how tradeoffs are presented in later rulemakings.
-- **Id:** claim_method_specificity
+  **Category:** METHOD | CONCLUSION
   
-  **Category:** IMPLEMENTATION
+  **Quoted Sentence:** Part 708 investigations very frequently require more than 60 days to complete.
   
-  **Quoted Sentence:** DOE is interested in receiving comments and information that may inform revisions or refinements to this approach.
+  **Location:** Section II.P, proposed section 708.23
   
-  **Observed Fact:** The RFI asks separately about repair and installation costs, retirement and replacement, analytic timelines, baselines, and support for EPCA analysis.
+  **Procedural Relevance:** The assertion supports extending the report deadline from 60 to 90 days and calls for frequency and case-duration evidence.
   
-  **Inference:** The eventual framework may be assembled from topic-specific methodological choices rather than one single proposed model.
+  **Support Type:** support not found
+- **Id:** C5
+  
+  **Category:** LEGAL | CONCLUSION
+  
+  **Quoted Sentence:** The proposed rule will not result in a significant economic impact on a substantial number of small entities.
+  
+  **Location:** Section III.B, Regulatory Flexibility Act
+  
+  **Procedural Relevance:** The conclusion supports treating the regulatory-flexibility analysis as inapplicable, but the basis is stated qualitatively.
+  
+  **Support Type:** preamble explanation
+- **Id:** C6
+  
+  **Category:** LEGAL | CONCLUSION
+  
+  **Quoted Sentence:** The Secretary (or the Secretary's designee) may approve the extension of any deadline established by this part.
+  
+  **Location:** Proposed section 708.42
+  
+  **Procedural Relevance:** The breadth of extension authority affects predictability, equal treatment, and the practical operation of deadlines.
+  
+  **Support Type:** proposed regulatory text
 
 ## Step 1 — Claim Stress Test
 
-- **Claim:** More uncertainty and variability analysis will improve decision quality.
+**Tests**
+- **Claim:** Clarifying deadlines and tolling will improve fairness and consistency.
   
-  **Observed Fact:** The notice requests probabilistic inputs, propagation, and distributional presentation.
+  **Underlying Assumption:** The new formulas, receipt rules, and extension authorities will be applied consistently across field elements and OHA cases.
   
-  **Inference:** That improvement depends on adequate data and transparent correlation assumptions.
+  **Failure Scenario:** If offices record receipt dates or grant good-reason extensions differently, a rule intended to clarify deadlines could produce unequal access to processing.
   
-  **Stress Test:** Ask DOE to show how added model complexity will be validated and communicated to non-specialist readers.
-- **Claim:** Market-failure analysis should inform economic justification.
+  **Procedural Implication:** Request a common receipt-date protocol, examples for tolling, and records of extensions and their reasons.
+- **Claim:** ADR will reduce costs and increase processing efficiency.
   
-  **Observed Fact:** The RFI asks for evidence of market failures and the energy paradox.
+  **Underlying Assumption:** Parties will use ADR early, the service can resolve appropriate cases, and tolling will prevent procedural prejudice while ADR is pending.
   
-  **Inference:** A market-failure screen could influence whether standards are considered justified.
+  **Failure Scenario:** ADR could delay formal processing or create uncertainty if participation, tolling, resolution notices, and failed mediations are not documented uniformly.
   
-  **Stress Test:** Ask DOE to distinguish observed market failures from assumptions about consumer rationality and to identify evidence thresholds.
-- **Claim:** Product-specific timelines and baselines could improve accuracy.
+  **Procedural Implication:** Ask for participation safeguards, tolling start and end examples, and outcome measures.
+- **Claim:** A 90-day investigation period reflects actual practice.
   
-  **Observed Fact:** DOE asks whether the 30-year horizon should be replaced or paired with product-life-specific horizons and seeks comment on baseline assumptions.
+  **Underlying Assumption:** The additional 30 days will improve accuracy without materially delaying relief for employees alleging retaliation.
   
-  **Inference:** Different horizons and baselines may materially change estimated savings and costs.
+  **Failure Scenario:** Cases could remain open longer without interim status information, especially where dismissal referrals stop and restart the clock.
   
-  **Stress Test:** Ask DOE to publish sensitivity results showing the effect of each choice before adopting a default.
+  **Procedural Implication:** Request case-duration data, status-notice practices, and a justification for removing the former 30-day good-cause extension structure.
+- **Claim:** The procedural changes impose little burden on contractors and small entities.
+  
+  **Underlying Assumption:** Most amendments merely codify existing practice and the affected entities rarely participate in part 708 proceedings.
+  
+  **Failure Scenario:** Small contractors may face discovery, confidentiality, response, hearing, or record-production burdens that are infrequent but consequential.
+  
+  **Procedural Implication:** Request participation counts, burden estimates, and examples of how the proposed procedures change contractor obligations.
 
 ## Step 2 — Essence of the Rule
 
-**Regulatory Action:** This RFI seeks public input that will inform DOE's future analytic framework for energy conservation standards under EPCA and related Process Rule work. It does not itself set an efficiency standard.
+**Regulatory Action:** DOE proposes to revise 10 CFR part 708, the Contractor Employee Protection Program, by clarifying definitions and filing dates; adding ADR and tolling provisions; revising complaint exclusions, deadlines, notice, dismissal, referral, investigation, hearing, appeal, remedy, posting, and deadline-extension procedures; and updating office titles and drafting conventions.
 
-**Affected Entities**
-- Households and consumers of covered products
-- Manufacturers and suppliers
-- Utilities and power-system participants
-- State agencies and energy-efficiency organizations
-- Researchers, technical experts, and public-interest commenters
+**Affected Entities:** DOE contractor employees who allege retaliation, DOE contractors and subcontractors, field elements, the Employee Concerns Program, the Office of Hearings and Appeals, investigators, Administrative Judges, and parties participating in complaints.
 
-**Main Requirements**
-- Submit comments, data, peer-reviewed studies, or other relevant information by the stated deadline.
-- Address the agency's methodological questions concerning market failure, technology, costs, uncertainty, consumer and manufacturer effects, emissions, power systems, and analytic assumptions.
+**Statutory Authority:** The proposed authority citation continues to rely on 42 U.S.C. 2201, 5814, 5815, 7251, 7254, 7255, 7256, and 5 U.S.C. Appendix 3. The notice frames the rule as administration of DOE's contractor-employee protection program.
+
+**Key Regulatory Changes**
+- Adds informal resolution and tolling rules for ADR.
+- Clarifies receipt dates, response and referral deadlines, and review pathways.
+- Extends the investigation report deadline from 60 to 90 days.
+- Gives Administrative Judges broader hearing-management and early-dismissal tools.
+- Allows broader deadline extensions and makes some hearing location and remote-hearing decisions discretionary.
+
+**Observed Facts**
+- The proposal is a procedural update to the contractor-employee protection program, including ADR, deadlines, investigation, hearing, appeal, and remedy rules.
+- The notice cites numerous proceedings, estimates $250,000 in annual ADR savings, and states that agency timing failures do not overturn a decision.
+
+**Inference:** The proposal is best understood as a formalization and consolidation of OHA practice, with its most consequential comment leverage concentrated in deadline administration, investigation duration, dismissal discretion, and the evidentiary basis for claimed efficiency savings.
 
 ## Step 3 — Agency Argument Tree
 
+**Summary:** Experience administering part 708 has revealed confusion and timing problems; DOE therefore proposes clearer deadlines, ADR, expanded adjudicative tools, and updated terminology to improve fairness and efficiency.
+
 **Nodes**
-- **Id:** need_framework
+- **Id:** n1
+  
+  **Label:** Contractor-employee protection objective
+  
+  **Node Type:** authority
+  
+  **Chain Role:** objective
+  
+  **Text:** Part 708 provides procedures for employees alleging retaliation for protected disclosures, participation, or refusal to participate in dangerous or unlawful activity.
+  
+  **Support Status:** supported
+  
+  **Evidence:** Proposed section 708.1 and the authority citation.
+- **Id:** n2
+  
+  **Label:** Confusion and current-practice mismatch
+  
+  **Node Type:** problem
   
   **Chain Role:** problem
   
-  **Node Type:** agency_need
+  **Text:** DOE says the rule has been applied in numerous proceedings and that areas of potential confusion and current-practice mismatch need correction.
   
-  **Label:** DOE needs an updated analytic framework
-- **Id:** nASEM_review
+  **Support Status:** partially supported
   
-  **Chain Role:** evidence
+  **Evidence:** Section I rationale; examples and case-level data are not supplied.
+- **Id:** n3
   
-  **Node Type:** prior_review
+  **Label:** Clearer deadlines and tolling
   
-  **Label:** NASEM recommendations and prior stakeholder comments
-- **Id:** methods_questions
+  **Node Type:** mechanism
   
-  **Chain Role:** mechanism
+  **Chain Role:** response
   
-  **Node Type:** rfi_questions
+  **Text:** Receipt-date rules, ADR tolling, response deadlines, referral deadlines, and extension authority are revised.
   
-  **Label:** Questions on models, uncertainty, baselines, timelines, and impacts
-- **Id:** future_standards
+  **Support Status:** supported
   
-  **Chain Role:** consequence
+  **Evidence:** Sections II.D, II.E, II.H, II.J, II.K, II.N, and II.Y; proposed sections 708.9, 708.10, 708.15, 708.17, 708.18, 708.21, and 708.42.
+- **Id:** n4
   
-  **Node Type:** future_rulemaking
+  **Label:** More flexible investigation and hearing administration
   
-  **Label:** Future standards analyses and economic-justification decisions
-- **Id:** record_quality
+  **Node Type:** mechanism
   
-  **Chain Role:** comment_leverage
+  **Chain Role:** response
   
-  **Node Type:** public_record
+  **Text:** The investigation deadline becomes 90 days, Administrative Judges receive specified discovery and dismissal powers, and hearing format and location are made more flexible.
   
-  **Label:** Public data and transparent methods improve the record
+  **Support Status:** supported
+  
+  **Evidence:** Proposed sections 708.22, 708.23, 708.26, and 708.28.
+- **Id:** n5
+  
+  **Label:** Efficiency and fairness outcome
+  
+  **Node Type:** conclusion
+  
+  **Chain Role:** outcome
+  
+  **Text:** DOE expects clearer administration, earlier resolution, lower costs, and fairer handling of contractor-employee complaints.
+  
+  **Support Status:** inferred
+  
+  **Evidence:** Agency rationale; savings, workload, and outcome measures are not included.
 
 **Edges**
-- **From:** nASEM_review
+- **From:** n1
   
-  **To:** need_framework
+  **To:** n2
+  
+  **Relationship:** motivates review
+  
+  **Basis:** The program has been used in numerous proceedings since the 2019 update.
+  
+  **Strength:** moderate
+- **From:** n2
+  
+  **To:** n3
   
   **Relationship:** supports
-- **From:** need_framework
   
-  **To:** methods_questions
+  **Basis:** The proposal identifies confusion around deadlines, tolling, notice, and office roles.
   
-  **Relationship:** motivates
-- **From:** methods_questions
+  **Strength:** moderate
+- **From:** n2
   
-  **To:** future_standards
+  **To:** n4
   
-  **Relationship:** informs
-- **From:** record_quality
+  **Relationship:** supports
   
-  **To:** methods_questions
+  **Basis:** The proposal says investigations frequently exceed 60 days and clarifies hearing and dismissal practice.
   
-  **Relationship:** improves
+  **Strength:** moderate
+- **From:** n3
+  
+  **To:** n5
+  
+  **Relationship:** intended to produce
+  
+  **Basis:** DOE's stated clarity, fairness, and ADR-efficiency rationale.
+  
+  **Strength:** uncertain
+- **From:** n4
+  
+  **To:** n5
+  
+  **Relationship:** intended to produce
+  
+  **Basis:** DOE's stated current-practice and processing-efficiency rationale.
+  
+  **Strength:** uncertain
+
+**Missing Links**
+- Case-level evidence connecting identified confusion to each specific amendment.
+- A baseline and calculation for the $250,000 annual savings estimate.
+- Evidence that longer investigations and broader dismissal tools will improve accuracy without delaying meaningful relief.
+- Operational standards for exercising good-reason and appropriate-circumstances discretion.
+
+**Logical Jumps**
+- From generalized experience with numerous proceedings to the necessity of the full package of amendments.
+- From the existence of frequent investigations exceeding 60 days to the conclusion that a 90-day deadline is the appropriate replacement.
+- From ADR encouragement to the stated annual savings estimate without visible assumptions or outcome data.
 
 ## Step 4 — Analysis Obligations Review
 
-- Define the problem or market failure that future standards are intended to address.
-- Disclose data sources, assumptions, uncertainty distributions, correlations, and validation methods.
-- Account for consumer, manufacturer, utility, environmental, distributional, and power-system effects.
-- Explain how analytic choices satisfy EPCA factors without treating the RFI itself as a final legal determination.
+**Obligations**
+- **Obligation:** adequate data
+  
+  **Classification:** Partially satisfied
+  
+  **Tag:** unacknowledged_gap
+  
+  **Notes:** The notice identifies use in numerous proceedings and frequent investigation overruns, but provides no counts, duration distribution, or examples.
+- **Obligation:** transparent methodology
+  
+  **Classification:** Partially satisfied
+  
+  **Tag:** unacknowledged_gap
+  
+  **Notes:** The proposed mechanics are described in detail, but the method for choosing 90 days and estimating ADR savings is not shown.
+- **Obligation:** reasonable alternatives
+  
+  **Classification:** Partially satisfied
+  
+  **Tag:** unacknowledged_gap
+  
+  **Notes:** The notice proposes ADR and updated procedures but does not compare a shorter case-specific extension, interim reporting, or a pilot approach.
+- **Obligation:** explanation of analytical thresholds
+  
+  **Classification:** Not demonstrated
+  
+  **Tag:** unacknowledged_gap
+  
+  **Notes:** The record does not explain why 90 days, 25 days, 20 days, or the various good-reason standards are the appropriate thresholds.
+- **Obligation:** consideration of foreseeable impacts
+  
+  **Classification:** Partially satisfied
+  
+  **Tag:** unacknowledged_gap
+  
+  **Notes:** DOE discusses low expected economic impact and savings but gives limited treatment to delay, representation, confidentiality, and small-contractor effects.
 
 ## Step 5 — Missing Alternatives Detector
 
-- **Area:** Alternatives to standards
-  
-  **Observed Fact:** The RFI references alternatives and voluntary demand-side measures through NASEM recommendations but does not present a structured menu for comment.
-  
-  **Inference:** Commenters may not know how DOE will compare standards with labeling, incentives, voluntary programs, or information measures.
-  
-  **Suggested Addition:** Ask DOE to publish a common comparison framework for regulatory and non-regulatory alternatives.
-- **Area:** Validation and retrospective review
-  
-  **Observed Fact:** The notice mentions prior rulemaking comments and NASEM review but does not lay out a routine validation plan for predictions against observed outcomes.
-  
-  **Inference:** Without retrospective validation, methodological changes may be difficult to evaluate.
-  
-  **Suggested Addition:** Ask DOE to specify what past standards and outcome data will be used to test the framework.
-- **Area:** Access to reproducible inputs
-  
-  **Observed Fact:** The notice requests data and peer-reviewed studies but does not specify a standardized public-data or replication package.
-  
-  **Inference:** A framework can remain difficult to audit even if its conceptual description is improved.
-  
-  **Suggested Addition:** Ask DOE to publish machine-readable input tables, code where feasible, and a protocol for confidential data.
+**Alternatives Evaluated**
+- Existing part 708 practice and the 2019 rule.
+- Formal ADR services and tolling.
+- A 90-day investigation report deadline and expanded Administrative Judge powers.
+- Remote hearings and flexible hearing location.
+
+**Plausible Alternatives Not Analyzed**
+- A documented case-specific extension process with interim status notices instead of a general 90-day period.
+- A pilot or phased ADR program with outcome monitoring before relying on the $250,000 savings estimate.
+- Published examples or a nonexclusive standard for good reason and appropriate hearing location.
+- A separate accountability mechanism when DOE misses a deadline, such as notice, escalation, or reporting, without automatically vacating a decision.
+
+**Evidence Suggesting Feasibility:** The notice says ADR is already available, the rule has been applied to numerous proceedings, and the proposed text already contains detailed timing mechanics; those facts make narrower implementation and reporting alternatives practicable.
+
+**Classification:** Material but constructive record-development issue. The NPRM solicits comments generally, but the available text does not compare these alternatives or explain why they were rejected.
 
 ## Step 6 — Technical Coherence
 
-**Classification:** Partial
+**Observed Fact:** The proposal's components are internally related: receipt and tolling rules affect deadlines; investigation and hearing rules affect case duration; and dismissal, appeal, and remedy rules define review pathways.
 
-**Observed Facts**
-- The RFI covers the full chain from technology assessment through consumer, manufacturer, utility, environmental, and regulatory-impact analyses.
-- It asks about uncertainty propagation, baseline technology, product lifetimes, and analytic time horizons.
+**Inference:** The procedural package is coherent at a high level, but the operational chain is incomplete because the record does not show how offices will record events, notify parties of tolling, measure ADR results, or prevent extension discretion from becoming inconsistent.
 
-**Inferences**
-- The topics are technically connected, but the notice does not state a single architecture for integrating them or resolving conflicts among model objectives.
-- The usefulness of responses will depend on DOE providing enough detail about current models and data to make competing proposals testable.
-
-**Unknowns**
-- The supplied text does not provide the current model code, complete input datasets, or a quantitative implementation plan.
+**Unknown:** The prepared materials do not include case-management forms, training materials, service standards, or performance data.
 
 ## Step 7 — Legal Grounding
 
-**Classification:** Partial
+**Observed Fact:** The notice continues the existing authority citation and proposes rules governing DOE contractor-employee retaliation complaints, investigation, adjudication, appeals, and remedies.
 
-**Observed Facts**
-- The notice cites EPCA provisions governing technological feasibility, economic justification, energy savings, and related statutory factors.
-- It also references Executive Orders, OMB Circular A-4, peer-review guidance, and the Process Rule.
+**Inference:** The basic authority for procedural administration appears plausible. The closer questions for comment are whether the agency adequately explains the relationship between broad deadline-extension authority and specific deadlines, and whether the no-substantive-right sentence preserves a meaningful remedy for avoidable agency delay.
 
-**Inferences**
-- These authorities frame the future analytic work, but this RFI does not itself resolve how competing methodological choices satisfy each statutory factor.
-- Comments can be most useful by connecting proposed methods to specific EPCA factors and explaining limits rather than asserting that one method is legally compelled.
+**Uncertain Interpretations**
+- Whether the proposed extension authority should be bounded by standards or notice requirements to avoid arbitrary administration.
+- Whether the treatment of agency timing failures should include a non-vacatur remedy or reporting duty even if it does not create a substantive right to overturn a decision.
 
-**Unknowns**
-- The available text does not establish which future rulemaking will adopt any particular method.
+**Evidence Quotes**
+- The Secretary of Energy (or the Secretary's designee) may approve the extension of any deadline established by this part.
+- Failure by DOE to comply with timing requirements does not create a substantive right for any party to overturn a DOE decision on a complaint.
 
 ## Step 8 — Procedural Normalcy
 
-**Classification:** Clear
+**Classification:** Normal with material record-development questions
 
-**Observed Facts**
-- The notice invites written comments and information, gives submission channels, explains public posting and CBI handling, and identifies a comment deadline.
+**Observed Fact:** The document is a standard NPRM with proposed text, public participation instructions, regulatory-review sections, and an agency signature.
 
-**Inferences**
-- The participation pathway is generally usable, although the technical breadth may favor organized commenters.
+**Inference:** The process indicators are ordinary. The main procedural concern is not an irregular publication process but whether the public record contains enough evidence for commenters to evaluate the selected deadlines, savings, and burden conclusions.
+
+**Comment Opportunity:** The notice invites comments, data, and information and provides Regulations.gov, email, postal, and hand-delivery methods.
 
 ## Step 9 — Failure Modes
 
-- **Failure Mode:** Point-estimate persistence
-  
-  **Likelihood:** Medium
-  
-  **Basis:** The RFI recognizes uncertainty, but it does not commit to a specific probability, correlation, or reporting protocol.
-- **Failure Mode:** Technical participation imbalance
-  
-  **Likelihood:** High
-  
-  **Basis:** Many questions require specialized models, proprietary cost data, or product-specific evidence.
-- **Failure Mode:** Methodological fragmentation
-  
-  **Likelihood:** Medium
-  
-  **Basis:** The notice asks about many components without a visible integration and validation plan.
+- Different field elements may calculate receipt, tolling, or good-reason extensions differently.
+- A 90-day investigation period may delay relief without interim status reporting or a case-age escalation path.
+- ADR may add delay or procedural uncertainty if participation and tolling events are not documented uniformly.
+- Flexible hearing-location and remote-hearing discretion may affect access for parties with limited resources.
+- The no-substantive-right treatment of agency timing failures may reduce incentives to correct avoidable delay.
 
 ## Step 10 — Regulatory Incentives
 
-- DOE has an incentive to make future standards analyses appear economically justified, which makes transparent treatment of uncertainty and negative results especially important.
-- Manufacturers may have incentives to emphasize compliance costs and competitive effects; efficiency advocates may emphasize savings and external benefits; utilities may emphasize system effects.
-- A well-specified public-data and replication process would help distinguish evidence from advocacy across these interests.
+**Positive**
+- Encourages early resolution where ADR is suitable.
+- Encourages parties and offices to maintain clearer records of submissions, deadlines, and confidentiality designations.
+- Places important procedural practices in a public regulation rather than leaving them solely in informal practice.
+
+**Adverse Or Unintended**
+- Broad extension authority could reduce the value of fixed deadlines if parties cannot predict when an extension will be granted.
+- A longer default investigation period could normalize delay rather than improve case resolution.
+- Parties may avoid ADR if they fear uncertain tolling or loss of a formal route, while offices may over-refer cases to ADR to manage workload.
 
 ## Step 11 — Evidentiary Strength
 
+**Assessment:** Moderate for identifying procedural changes; limited for quantifying outcomes and burdens.
+
 **Strengths**
-- The RFI is anchored in a named NASEM review, prior Process Rule comments, statutory factors, and concrete methodological topics.
-- It invites data and peer-reviewed studies rather than only general views.
+- The notice provides a detailed section-by-section explanation and proposed regulatory text.
+- The changes are tied to recognizable administration problems: deadlines, notice, investigation duration, hearing management, and office terminology.
+- The notice identifies the existing 2019 update and subsequent use in investigations, hearings, appeals, and petitions.
 
 **Limitations**
-- The supplied text does not include a full technical appendix, current model outputs, or a response template connecting each question to a required data format.
-- Several questions are open-ended and may yield non-comparable submissions.
+- The prepared record does not supply case counts, duration data, or examples of the cited confusion.
+- The $250,000 annual savings estimate has no visible baseline, formula, or sensitivity analysis.
+- The small-entity and burden conclusions are qualitative and do not show participation denominators or representative contractor impacts.
+
+**Observed Fact Vs Inference:** The proposed mechanics and agency assertions are observed facts in the notice; the prediction that the package will produce measurable savings, fairness, and efficiency is an inference requiring supporting evidence.
 
 ## Step 12 — Administrative Record Gaps
 
-- A baseline inventory showing current model inputs, known errors, and validation results.
-- A public plan for handling proprietary or confidential data while permitting meaningful replication.
-- A distributional analysis plan for low-income consumers, rural users, small manufacturers, and regions with different energy prices or grid conditions.
-- A clear prioritization of which NASEM recommendations DOE expects to implement and on what timetable.
-- A method for comparing voluntary measures, incentives, and standards on a common basis.
+- **Id:** G1
+  
+  **Gap Type:** Case-duration and deadline data
+  
+  **Why It Matters:** Commenters cannot test whether 90 days is proportionate or whether a narrower extension mechanism would work.
+  
+  **Agency Already Solicits Input:** partly
+- **Id:** G2
+  
+  **Gap Type:** ADR savings baseline
+  
+  **Why It Matters:** The annual savings estimate is a central deregulatory rationale but is not reproducible from the notice.
+  
+  **Agency Already Solicits Input:** no
+- **Id:** G3
+  
+  **Gap Type:** Extension and discretion standards
+  
+  **Why It Matters:** The public record does not show how good reason, appropriate location, or deadline extensions will be applied consistently.
+  
+  **Agency Already Solicits Input:** partly
+- **Id:** G4
+  
+  **Gap Type:** Small-contractor and party burden data
+  
+  **Why It Matters:** The RFA conclusion rests on few small entities and few changed obligations without showing participation counts or burden estimates.
+  
+  **Agency Already Solicits Input:** yes
 
 ## Step 13 — Litigation Vulnerabilities
 
-**Classification:** Not an NPRM; NPRM-only litigation conclusions are not applicable.
-
-**Observed Facts**
-- The notice is an information-gathering action and does not itself impose a new standard.
-
-**Inferences**
-- The main practical risk is an incomplete or non-reproducible future record, not an immediate challenge to operative requirements.
-
-**Unknowns**
-- The eventual legal posture of later standards cannot be determined from this RFI alone.
+- **Issue:** Inadequate explanation of the 90-day investigation deadline
+  
+  **Comment Use:** Ask DOE to provide duration data and explain why a general 90-day period is preferable to case-specific extensions or interim reporting.
+  
+  **Caution:** The available record shows a plausible administrative rationale, so the concern is underdevelopment rather than a definitive legal defect.
+- **Issue:** Unsupported savings estimate
+  
+  **Comment Use:** Request the baseline, assumptions, calculation, and sensitivity range underlying the $250,000 annual estimate.
+  
+  **Caution:** The estimate may be supplemental rather than dispositive; the record should be improved before drawing a stronger conclusion.
+- **Issue:** Unbounded discretion in extensions and hearing arrangements
+  
+  **Comment Use:** Request criteria, examples, notice requirements, and records sufficient to show consistent application.
+  
+  **Caution:** The proposed rules do not necessarily make discretion unlawful, but unexplained discretion can create avoidable procedural uncertainty.
 
 ## Step 13A — Structural Integrity / Nonsense Detector
 
-**Classification:** Coherent with implementation gaps
+**Assessment:** Structurally coherent with ordinary but material evidence and accountability weaknesses.
 
-**Observed Facts**
-- The notice has a recognizable sequence: background, authority, NASEM recommendations, prior comments, additional topics, and submission instructions.
+**Purpose Authority Mechanism Fit:** The purpose, authority, and procedural mechanisms generally fit. The weakest link is the evidence-to-threshold bridge for 90 days, savings, and broad extensions.
 
-**Inferences**
-- The structure supports broad participation, but the breadth and lack of standardized response format may make the resulting record difficult to synthesize.
+**Safeguards And Consequences:** The proposal includes appeals, representation, confidentiality, transcripts, and review, but it does not fully explain how those safeguards operate when deadlines are missed or discretion is exercised.
 
 **Unknowns**
-- The supplied record does not show how DOE will code, publish, or respond to the resulting comments.
+- Whether proposed practices reflect a representative case history.
+- Whether ADR changes reduce total time to resolution rather than only shifting workload.
+- Whether the proposed procedural flexibility has unequal effects on employees or smaller contractors.
 
 # Phase 3 — Comment Generation
 
 ## Step 14 — Commentable Sentences
 
-- **Sentence:** DOE should publish the current baseline inputs and validation results before selecting revised defaults.
+- **Id:** Q1
   
-  **Basis:** The RFI asks for methodological improvements but does not provide a full current-model inventory.
+  **Sentence:** Part 708 investigations very frequently require more than 60 days to complete.
   
-  **Comment Use:** Ask for a baseline and replication package.
-- **Sentence:** DOE should report how uncertainty and geographic or consumer variability are propagated into each major result.
+  **Targeted Question:** What case-duration data support replacing the 60-day period with a general 90-day period, and what alternatives were considered?
+- **Id:** Q2
   
-  **Basis:** The notice expressly asks about probability distributions, correlations, and presentation of uncertainty.
+  **Sentence:** DOE estimates that this proposed rule will save DOE approximately $250,000 annually.
   
-  **Comment Use:** Request distributions, sensitivity tables, and plain-language explanations.
-- **Sentence:** DOE should compare standards with voluntary and other alternatives using a common outcome framework.
+  **Targeted Question:** What baseline, ADR participation rate, cost assumptions, and sensitivity range support this estimate?
+- **Id:** Q3
   
-  **Basis:** The RFI references alternatives but does not provide a structured comparison method.
+  **Sentence:** The deadline set forth in this subsection may be extended ... for good reason.
   
-  **Comment Use:** Ask for an alternative-analysis template.
+  **Targeted Question:** What factors define good reason, who records the decision, and how are similarly situated parties treated consistently?
+- **Id:** Q4
+  
+  **Sentence:** The Administrative Judge will schedule the hearing at a time and place that is appropriate considering the circumstances of a particular case.
+  
+  **Targeted Question:** What access and fairness factors will guide hearing-location and remote-hearing decisions?
+- **Id:** Q5
+  
+  **Sentence:** Failure by DOE to comply with timing requirements does not create a substantive right for any party to overturn a DOE decision.
+  
+  **Targeted Question:** What notice, escalation, reporting, or other remedy applies when agency delay materially affects a party?
 
 ## Step 15 — Procedural Concern Score
 
-**Score:** 5.6
+**Score:** 5.9
 
-**Weighted Sum:** 22
+**Weighted Sum:** 23
 
 **Max Weighted Sum:** 39
 
@@ -364,136 +528,189 @@
 
 **Weight:** 2
 
-**Rationale:** The notice asks for better data and uncertainty treatment but does not supply a complete current-input and validation record in the available materials.
+**Rationale:** The notice relies on numerous proceedings, frequent overruns, savings, and limited small-entity impact without supplying the underlying counts or calculations.
 
 **Linked Nodes**
-- methods_questions
-- record_quality
+- n2
+- n4
+- n5
 
 **Methodology Gaps**
 **Severity:** 2
 
 **Weight:** 3
 
-**Rationale:** The RFI presents many methodological questions without specifying the integration, prioritization, or validation protocol for the eventual framework.
+**Rationale:** The record explains what procedures would change but not how the 90-day period, savings estimate, or discretionary standards were selected.
 
 **Linked Nodes**
-- methods_questions
-- need_framework
+- n3
+- n4
+- n5
 
 **Missing Alternatives**
 **Severity:** 2
 
 **Weight:** 4
 
-**Rationale:** Alternatives to national standards are referenced but not framed in a concrete, comparable question set.
+**Rationale:** The available text does not compare case-specific extensions, interim status reporting, pilot ADR, or published discretion standards.
 
 **Linked Nodes**
-- future_standards
-- methods_questions
+- n3
+- n4
+- n5
 
 **Scope Exclusions**
 **Severity:** 1
 
 **Weight:** 3
 
-**Rationale:** The breadth is substantial, but the available text does not show a specific distributional or small-entity evidence plan.
+**Rationale:** The notice addresses contractor and small-entity impacts briefly but does not develop effects on parties with limited resources or representation.
 
 **Linked Nodes**
-- record_quality
+- n1
+- n5
 
 **Unsupported Conclusions**
-**Severity:** 1
+**Severity:** 2
 
 **Weight:** 1
 
-**Rationale:** The RFI is exploratory and generally avoids final conclusions, but it presumes that an updated framework is needed without publishing a complete baseline assessment.
+**Rationale:** The stated efficiency and savings conclusions are plausible but not reproducible from the available record.
 
 **Linked Nodes**
-- need_framework
+- n2
+- n5
 
 ## Step 16 — Evidence Requests
 
-- **Priority:** high
+- **Id:** E1
   
-  **Request:** Publish a current-model inventory, input table, validation history, and known-error register.
+  **Priority:** high
   
-  **Who Can Supply:** DOE analysts, researchers, manufacturers, utilities, and independent reviewers
+  **Posture:** evidence request
   
-  **Why:** Allows commenters to test proposed changes against the existing framework.
-- **Priority:** high
+  **Issue:** Investigation duration and deadline performance
   
-  **Request:** Provide product-specific data on lifetimes, repair, installation, retirement, replacement, and baseline technology adoption.
+  **Why It Matters:** The data would test the proposed 90-day period and identify whether delays are concentrated in particular case types.
   
-  **Who Can Supply:** Manufacturers, service providers, consumers, researchers, and utilities
+  **Ask Agency To:** Publish counts, median and percentile durations, referral pauses, extensions, and outcomes for recent part 708 cases.
   
-  **Why:** These inputs directly affect life-cycle costs, shipments, and energy savings.
-- **Priority:** medium
+  **Supporting Evidence:** Section II.P states that investigations very frequently exceed 60 days.
   
-  **Request:** Submit evidence on distributional effects by income, geography, product use, and firm size.
+  **Score Drivers**
+  - pass4.data_quality_uncertainty_handling
+  - pass4.reasoned_explanation_completeness
+- **Id:** E2
   
-  **Who Can Supply:** Consumer groups, state agencies, utilities, small businesses, and academic researchers
+  **Priority:** high
   
-  **Why:** Prevents aggregate results from hiding material subgroup effects.
+  **Posture:** evidence request
+  
+  **Issue:** ADR savings estimate
+  
+  **Why It Matters:** The $250,000 estimate is used to characterize the proposal as deregulatory.
+  
+  **Ask Agency To:** Provide the baseline case volume, ADR participation and success assumptions, avoided-cost categories, and sensitivity analysis.
+  
+  **Supporting Evidence:** Section III.A states the estimated annual savings but provides no calculation.
+  
+  **Score Drivers**
+  - pass4.cost_benefit_transparency
+  - pass4.data_quality_uncertainty_handling
+- **Id:** E3
+  
+  **Priority:** moderate
+  
+  **Posture:** clarification
+  
+  **Issue:** Discretion and consistency safeguards
+  
+  **Why It Matters:** Good-reason extensions and appropriate hearing arrangements can affect access and timing.
+  
+  **Ask Agency To:** Add examples, decision-record requirements, notice rules, and review or reporting mechanisms.
+  
+  **Supporting Evidence:** Proposed sections 708.17, 708.26, and 708.42 use discretionary standards.
+  
+  **Score Drivers**
+  - pass4.enforcement_clarity_risk
+  - pass5.procedural_gateway_control
 
 ## Step 17 — High-Leverage Comment Angles
 
-- **Angle:** Make uncertainty decision-relevant and reproducible
+- **Id:** A1
   
-  **Why It Matters:** A distribution of outputs is useful only if inputs, correlations, and validation are visible.
+  **Priority:** high
   
-  **Specific Ask:** Publish a default uncertainty protocol with sensitivity and subgroup reporting before applying it to a future standard.
+  **Posture:** evidence request
   
-  **Evidence To Attach Or Request:** Model documentation, machine-readable inputs, replication code where feasible, and examples of probabilistic outputs.
+  **Issue:** Support the 90-day investigation period with case data.
   
-  **Expected Value:** high
+  **Why It Matters:** A longer period can improve completeness but can also delay relief.
   
-  **Score Drivers**
-  - data_issues
-  - methodology_gaps
-- **Angle:** Define and test market-failure claims
+  **Ask Agency To:** Provide duration data and consider interim status notices or a documented case-specific extension process.
   
-  **Why It Matters:** The RFI's treatment of market failure may influence the justification for future standards.
-  
-  **Specific Ask:** State the evidence threshold and empirical tests DOE will use to distinguish market failure from ordinary preference or information differences.
-  
-  **Evidence To Attach Or Request:** Product-market studies, consumer research, manufacturer and retailer data, and studies of rebound or energy-savings gaps.
-  
-  **Expected Value:** high
+  **Supporting Evidence:** The notice says investigations very frequently exceed 60 days.
   
   **Score Drivers**
-  - methodology_gaps
-  - unsupported_conclusions
-- **Angle:** Compare regulatory and non-regulatory alternatives
+  - pass4.data_quality_uncertainty_handling
+  - pass4.alternatives_analysis_adequacy
+- **Id:** A2
   
-  **Why It Matters:** The eventual record should show why a standards approach is preferable for a defined problem.
+  **Priority:** high
   
-  **Specific Ask:** Use a common template to compare standards, labeling, incentives, voluntary programs, and other alternatives, including implementation and distributional effects.
+  **Posture:** evidence request
   
-  **Evidence To Attach Or Request:** Retrospective evaluations, program data, and product-specific case studies.
+  **Issue:** Make the $250,000 ADR savings estimate reproducible.
   
-  **Expected Value:** high
+  **Why It Matters:** The estimate supports the agency's deregulatory characterization.
   
-  **Score Drivers**
-  - missing_alternatives
-- **Angle:** Protect access for less-resourced commenters
+  **Ask Agency To:** Publish the calculation and explain how failed or delayed ADR affects total time and cost.
   
-  **Why It Matters:** The technical breadth and proprietary-data requests can skew participation toward trade associations and large firms.
-  
-  **Specific Ask:** Offer public datasets, plain-language response tables, and a way to submit qualitative or small-sample evidence when national data are unavailable.
-  
-  **Evidence To Attach Or Request:** Examples of data-access barriers and subgroup evidence that standard datasets omit.
-  
-  **Expected Value:** medium
+  **Supporting Evidence:** Section III.A gives an annual estimate without assumptions or sensitivity analysis.
   
   **Score Drivers**
-  - scope_exclusions
-  - data_issues
+  - pass4.cost_benefit_transparency
+  - pass4.reasoned_explanation_completeness
+- **Id:** A3
+  
+  **Priority:** moderate
+  
+  **Posture:** alternatives push
+  
+  **Issue:** Bound discretionary extensions and hearing arrangements.
+  
+  **Why It Matters:** Predictable criteria can improve equal treatment while preserving necessary flexibility.
+  
+  **Ask Agency To:** Add nonexclusive criteria, examples, notice requirements, and a recordkeeping or review mechanism.
+  
+  **Supporting Evidence:** Proposed sections 708.17, 708.26, and 708.42 use good-reason or appropriate-circumstances standards.
+  
+  **Score Drivers**
+  - pass4.enforcement_clarity_risk
+  - pass5.procedural_gateway_control
 
 ## Step 18 — Decision Brief
 
-- **Worth Commenting:** yes
+- **Id:** D1
   
-  **Why:** The RFI is likely to shape the methods used in future appliance and equipment standards, and it asks questions where concrete public evidence can materially improve the record.
+  **Priority:** high
   
-  **Minimum Useful Comment Package:** Identify one or two affected product categories; explain a specific data or modeling problem; submit a cited dataset or study; request transparent sensitivity and subgroup reporting; and ask DOE to compare at least one non-regulatory alternative.
+  **Posture:** evidence request
+  
+  **Key Sentences**
+  - Part 708 investigations very frequently require more than 60 days to complete.
+  - DOE estimates that this proposed rule will save DOE approximately $250,000 annually.
+  
+  **Routine Description:** This is a procedural update to a whistleblower-protection adjudication program.
+  
+  **Regulatory Effectiveness:** Potentially positive, but uncertain without duration and outcome data.
+  
+  **Statutory Compliance:** Appears within the stated authority; explain extension discretion and timing-failure accountability.
+  
+  **Procedural Adequacy:** Normal notice-and-comment process; the record needs data on thresholds and savings.
+  
+  **Real World Consequence:** The final rule could pair a longer investigation period with status protections and a supported savings estimate.
+  
+  **Worth A Comment:** High
+  
+  **Comment Posture:** evidence request

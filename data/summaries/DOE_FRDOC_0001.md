@@ -1,104 +1,153 @@
-# Public Summary: DOE_FRDOC_0001-5418
+# Public Summary: DOE_FRDOC_0001-5457
 
 ## What This Document Does
 
-**Regulatory Action:** This RFI seeks public input that will inform DOE's future analytic framework for energy conservation standards under EPCA and related Process Rule work. It does not itself set an efficiency standard.
+**Regulatory Action:** DOE proposes to revise 10 CFR part 708, the Contractor Employee Protection Program, by clarifying definitions and filing dates; adding ADR and tolling provisions; revising complaint exclusions, deadlines, notice, dismissal, referral, investigation, hearing, appeal, remedy, posting, and deadline-extension procedures; and updating office titles and drafting conventions.
 
-**Affected Entities**
-- Households and consumers of covered products
-- Manufacturers and suppliers
-- Utilities and power-system participants
-- State agencies and energy-efficiency organizations
-- Researchers, technical experts, and public-interest commenters
+**Affected Entities:** DOE contractor employees who allege retaliation, DOE contractors and subcontractors, field elements, the Employee Concerns Program, the Office of Hearings and Appeals, investigators, Administrative Judges, and parties participating in complaints.
 
-**Main Requirements**
-- Submit comments, data, peer-reviewed studies, or other relevant information by the stated deadline.
-- Address the agency's methodological questions concerning market failure, technology, costs, uncertainty, consumer and manufacturer effects, emissions, power systems, and analytic assumptions.
+**Statutory Authority:** The proposed authority citation continues to rely on 42 U.S.C. 2201, 5814, 5815, 7251, 7254, 7255, 7256, and 5 U.S.C. Appendix 3. The notice frames the rule as administration of DOE's contractor-employee protection program.
+
+**Key Regulatory Changes**
+- Adds informal resolution and tolling rules for ADR.
+- Clarifies receipt dates, response and referral deadlines, and review pathways.
+- Extends the investigation report deadline from 60 to 90 days.
+- Gives Administrative Judges broader hearing-management and early-dismissal tools.
+- Allows broader deadline extensions and makes some hearing location and remote-hearing decisions discretionary.
+
+**Observed Facts**
+- The proposal is a procedural update to the contractor-employee protection program, including ADR, deadlines, investigation, hearing, appeal, and remedy rules.
+- The notice cites numerous proceedings, estimates $250,000 in annual ADR savings, and states that agency timing failures do not overturn a decision.
+
+**Inference:** The proposal is best understood as a formalization and consolidation of OHA practice, with its most consequential comment leverage concentrated in deadline administration, investigation duration, dismissal discretion, and the evidentiary basis for claimed efficiency savings.
 
 ## Why It Matters
 
-Core structural concern: No red flag
+Core structural concern: The proposed procedural package is coherent, but its key timing, savings, and discretion claims are under-supported.
 
 ### Computed Scoring Summary
-- Pass 4 raw/scaled: n/a / n/a
-- Pass 4 primary concern: n/a
-- Pass 5 assessment/scaled: n/a / n/a
-- Pass 5 base defect score: n/a
-- Pass 5 context pressure: n/a
-- Pass 5 scrutiny/risk multipliers: n/a / n/a
-- Pass 5 worst family: n/a (n/a)
-- Core structural concern: No red flag
-- Procedural concern score: 5.600/10
-- Analysis score multiplier: 1.000
+- Pass 4 raw/scaled: 4 / 0.354
+- Pass 4 primary concern: The notice does not fully support its selected procedural thresholds, ADR savings estimate, or safeguards for broad deadline discretion.
+- Pass 5 assessment/scaled: Serious · Enforcement and Control Architecture / 0.730
+- Pass 5 base defect score: 0.730
+- Pass 5 context pressure: 0.000
+- Pass 5 scrutiny/risk multipliers: 1.000 / 1.000
+- Pass 5 worst family: Enforcement and Control Architecture (enforcement_and_control_architecture)
+- Core structural concern: The proposed procedural package is coherent, but its key timing, savings, and discretion claims are under-supported.
+- Procedural concern score: 5.900/10
+- Analysis score multiplier: 1.245
 
-- **Worth Commenting:** yes
+- **Id:** D1
   
-  **Why:** The RFI is likely to shape the methods used in future appliance and equipment standards, and it asks questions where concrete public evidence can materially improve the record.
+  **Priority:** high
   
-  **Minimum Useful Comment Package:** Identify one or two affected product categories; explain a specific data or modeling problem; submit a cited dataset or study; request transparent sensitivity and subgroup reporting; and ask DOE to compare at least one non-regulatory alternative.
+  **Posture:** evidence request
+  
+  **Key Sentences**
+  - Part 708 investigations very frequently require more than 60 days to complete.
+  - DOE estimates that this proposed rule will save DOE approximately $250,000 annually.
+  
+  **Routine Description:** This is a procedural update to a whistleblower-protection adjudication program.
+  
+  **Regulatory Effectiveness:** Potentially positive, but uncertain without duration and outcome data.
+  
+  **Statutory Compliance:** Appears within the stated authority; explain extension discretion and timing-failure accountability.
+  
+  **Procedural Adequacy:** Normal notice-and-comment process; the record needs data on thresholds and savings.
+  
+  **Real World Consequence:** The final rule could pair a longer investigation period with status protections and a supported savings estimate.
+  
+  **Worth A Comment:** High
+  
+  **Comment Posture:** evidence request
 
 ## Who Is Affected
 
-- Households and consumers of covered products
-- Manufacturers and suppliers
-- Utilities and power-system participants
-- State agencies and energy-efficiency organizations
-- Researchers, technical experts, and public-interest commenters
+DOE contractor employees who allege retaliation, DOE contractors and subcontractors, field elements, the Employee Concerns Program, the Office of Hearings and Appeals, investigators, Administrative Judges, and parties participating in complaints.
 
 ## Issues Worth Commenting On (0-6)
 
-- **Angle:** Make uncertainty decision-relevant and reproducible
+- **Id:** A1
   
-  **Why It Matters:** A distribution of outputs is useful only if inputs, correlations, and validation are visible.
+  **Priority:** high
   
-  **Specific Ask:** Publish a default uncertainty protocol with sensitivity and subgroup reporting before applying it to a future standard.
+  **Posture:** evidence request
   
-  **Evidence To Attach Or Request:** Model documentation, machine-readable inputs, replication code where feasible, and examples of probabilistic outputs.
+  **Issue:** Support the 90-day investigation period with case data.
   
-  **Expected Value:** high
+  **Why It Matters:** A longer period can improve completeness but can also delay relief.
   
-  **Score Drivers**
-  - data_issues
-  - methodology_gaps
-- **Angle:** Define and test market-failure claims
+  **Ask Agency To:** Provide duration data and consider interim status notices or a documented case-specific extension process.
   
-  **Why It Matters:** The RFI's treatment of market failure may influence the justification for future standards.
-  
-  **Specific Ask:** State the evidence threshold and empirical tests DOE will use to distinguish market failure from ordinary preference or information differences.
-  
-  **Evidence To Attach Or Request:** Product-market studies, consumer research, manufacturer and retailer data, and studies of rebound or energy-savings gaps.
-  
-  **Expected Value:** high
+  **Supporting Evidence:** The notice says investigations very frequently exceed 60 days.
   
   **Score Drivers**
-  - methodology_gaps
-  - unsupported_conclusions
-- **Angle:** Compare regulatory and non-regulatory alternatives
+  - pass4.data_quality_uncertainty_handling
+  - pass4.alternatives_analysis_adequacy
+- **Id:** A2
   
-  **Why It Matters:** The eventual record should show why a standards approach is preferable for a defined problem.
+  **Priority:** high
   
-  **Specific Ask:** Use a common template to compare standards, labeling, incentives, voluntary programs, and other alternatives, including implementation and distributional effects.
+  **Posture:** evidence request
   
-  **Evidence To Attach Or Request:** Retrospective evaluations, program data, and product-specific case studies.
+  **Issue:** Make the $250,000 ADR savings estimate reproducible.
   
-  **Expected Value:** high
+  **Why It Matters:** The estimate supports the agency's deregulatory characterization.
   
-  **Score Drivers**
-  - missing_alternatives
-- **Angle:** Protect access for less-resourced commenters
+  **Ask Agency To:** Publish the calculation and explain how failed or delayed ADR affects total time and cost.
   
-  **Why It Matters:** The technical breadth and proprietary-data requests can skew participation toward trade associations and large firms.
-  
-  **Specific Ask:** Offer public datasets, plain-language response tables, and a way to submit qualitative or small-sample evidence when national data are unavailable.
-  
-  **Evidence To Attach Or Request:** Examples of data-access barriers and subgroup evidence that standard datasets omit.
-  
-  **Expected Value:** medium
+  **Supporting Evidence:** Section III.A gives an annual estimate without assumptions or sensitivity analysis.
   
   **Score Drivers**
-  - scope_exclusions
-  - data_issues
+  - pass4.cost_benefit_transparency
+  - pass4.reasoned_explanation_completeness
+- **Id:** A3
+  
+  **Priority:** moderate
+  
+  **Posture:** alternatives push
+  
+  **Issue:** Bound discretionary extensions and hearing arrangements.
+  
+  **Why It Matters:** Predictable criteria can improve equal treatment while preserving necessary flexibility.
+  
+  **Ask Agency To:** Add nonexclusive criteria, examples, notice requirements, and a recordkeeping or review mechanism.
+  
+  **Supporting Evidence:** Proposed sections 708.17, 708.26, and 708.42 use good-reason or appropriate-circumstances standards.
+  
+  **Score Drivers**
+  - pass4.enforcement_clarity_risk
+  - pass5.procedural_gateway_control
 
 ## Evidence Quotes
 
-Unknown from available text.
+- **Section:** Authority citation
+  
+  **Quote:** Authority citation continues.
+- **Section:** Section 708.42
+  
+  **Quote:** The Secretary may approve any deadline extension.
+- **Section:** Section II.P
+  
+  **Quote:** Investigations frequently exceed 60 days.
+- **Section:** Sections II.E and III.A
+  
+  **Quote:** DOE estimates $250,000 in annual savings.
+- **Section:** Section III.A
+  
+  **Quote:** ADR is expected to save $250,000 annually.
+- **Section:** Section II.P
+  
+  **Quote:** Investigations frequently exceed 60 days.
+- **Section:** Sections 708.17 and 708.42
+  
+  **Quote:** A deadline may be extended for good reason.
+- **Section:** Section III.B
+  
+  **Quote:** Few changes affect litigant obligations.
+- **Section:** Section III.B
+  
+  **Quote:** Few small entities participate.
+- **Section:** Sections 708.10, 708.21, 708.22, and 708.23
+  
+  **Quote:** The investigator determines scope based on circumstances.

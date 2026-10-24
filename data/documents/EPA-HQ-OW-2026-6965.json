@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-10-23T11:04:04.991064+00:00",
+  "comment_action_checked_at": "2026-10-24T05:44:51.682066+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -594,8 +594,8 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 38,
   "comments_cached_records": 101,
-  "comments_unique_clusters": 78,
-  "comments_clustered_duplicates": 11,
+  "comments_unique_clusters": 88,
+  "comments_clustered_duplicates": 12,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -643,19 +643,19 @@
     "2026-09-15": 3
   },
   "comments_novel_comment_rate": 0.8811881188118812,
-  "comments_sentiment_positive_pct": 0.08343336261230039,
-  "comments_sentiment_negative_pct": 0.33683909606382145,
-  "comments_sentiment_neutral_pct": 0.5797275413238782,
-  "comments_sentiment_net": -0.25340573345152106,
-  "comments_sentiment_sample_size": 84,
+  "comments_sentiment_positive_pct": 0.07356696517674007,
+  "comments_sentiment_negative_pct": 0.3035414288565568,
+  "comments_sentiment_neutral_pct": 0.6228916059667031,
+  "comments_sentiment_net": -0.22997446367981678,
+  "comments_sentiment_sample_size": 95,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 89,
+  "comments_analysis_sample_size": 100,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 89,
-  "comments_representative_prior_selected": 86,
-  "comments_representative_newly_selected": 3,
+  "comments_representative_selected": 100,
+  "comments_representative_prior_selected": 100,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 27,
   "comments_representative_run_budget": 3,
   "comments_representative_overflow": false,
@@ -664,9 +664,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 27,
     "salience_rank": 1,
-    "weighted_fill": 61
+    "weighted_fill": 72
   },
-  "comments_representative_selected_by_counts_total": 89,
+  "comments_representative_selected_by_counts_total": 100,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -676,7 +676,7 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 15,
+      "cluster_id": 16,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0093",
@@ -808,7 +808,7 @@
       "presentation_score": 0.7203368801111204
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 59,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0043",
@@ -874,7 +874,7 @@
       "presentation_score": 0.4112892610635014
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 20,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0087",
@@ -925,7 +925,7 @@
       "presentation_score": 0.8108591228422547
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 64,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0036",
@@ -974,6 +974,57 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.6522876942708261
+    },
+    {
+      "cluster_id": 29,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0078",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 2965,
+      "representative_excerpt": "Catcher-processors dump waste in federal waters, but ocean currents do not respect a three-mile boundary. -Plume Migration: Large-scale, untracked organic waste plumes can migrate into nearshore state waters, degrading local water quality, fouling gear, and directly harming the smaller, community-based fishing operations that fuel local shore-side...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0078": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Anthony Bossler",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OW-2026-6965-0056": {
+          "organization": "",
+          "postedDate": "2026-09-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Erin Mcnulty",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7308591228422546
     },
     {
       "cluster_id": 1,
@@ -1027,7 +1078,7 @@
       "presentation_score": 0.6508591228422547
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 60,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0041",
@@ -1078,58 +1129,7 @@
       "presentation_score": 0.4218115037946356
     },
     {
-      "cluster_id": 34,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OW-2026-6965-0059",
-      "representative_posted_date": "2026-09-29T04:00:00Z",
-      "representative_length": 201,
-      "representative_excerpt": "We must prevent the EPA from altering the definition of \"discharge of pollutants\". Allowing this change would undoubtedly harm the ocean ecosystem by accelerating the start of seabed mining operations.",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OW-2026-6965-0059": {
-          "organization": "",
-          "postedDate": "2026-09-29T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Nellie Kolditz",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "EPA-HQ-OW-2026-6965-0047": {
-          "organization": "",
-          "postedDate": "2026-09-23T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Anonymous public comment",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4384781704613023
-    },
-    {
-      "cluster_id": 16,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0089",
@@ -1201,7 +1201,7 @@
       "presentation_score": 0.8654700538379252
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0020",
@@ -1309,7 +1309,7 @@
       "presentation_score": 0.7054700538379252
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0071",
@@ -1345,7 +1345,7 @@
       "presentation_score": 0.7030891014569728
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0073",
@@ -1381,7 +1381,7 @@
       "presentation_score": 0.7030891014569728
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0017",
@@ -1417,7 +1417,7 @@
       "presentation_score": 0.6997557681236395
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0018",
@@ -1453,7 +1453,7 @@
       "presentation_score": 0.6997557681236395
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0061",
@@ -1489,7 +1489,7 @@
       "presentation_score": 0.6530891014569729
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0048",
@@ -1525,7 +1525,7 @@
       "presentation_score": 0.6388033871712585
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0082",
@@ -1633,7 +1633,7 @@
       "presentation_score": 0.6254700538379252
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0076",
@@ -1669,7 +1669,7 @@
       "presentation_score": 0.6230891014569728
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0077",
@@ -1705,7 +1705,7 @@
       "presentation_score": 0.6230891014569728
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0065",
@@ -1741,7 +1741,7 @@
       "presentation_score": 0.5968986252664966
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0063",
@@ -1777,7 +1777,7 @@
       "presentation_score": 0.5754700538379253
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0046",
@@ -1813,7 +1813,7 @@
       "presentation_score": 0.5588033871712585
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0039",
@@ -1849,7 +1849,7 @@
       "presentation_score": 0.5540414824093538
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0033",
@@ -1921,7 +1921,7 @@
       "presentation_score": 0.5454700538379252
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0031",
@@ -1957,7 +1957,7 @@
       "presentation_score": 0.5421367205045919
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0019",
@@ -1993,7 +1993,7 @@
       "presentation_score": 0.5397557681236396
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0069",
@@ -2029,7 +2029,7 @@
       "presentation_score": 0.5311843395522109
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0064",
@@ -2065,43 +2065,7 @@
       "presentation_score": 0.5168986252664967
     },
     {
-      "cluster_id": 37,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OW-2026-6965-0056",
-      "representative_posted_date": "2026-09-29T04:00:00Z",
-      "representative_length": 2818,
-      "representative_excerpt": "Moving an industrial activity farther offshore should not mean moving environmental responsibility out of sight. The EPA should focus on protecting clean water and preventing pollution rather than weakening oversight in a way that primarily reduces regulatory burdens for companies. Any claimed cost savings to industry should be weighed against the...",
-      "representative_signal_score": 1,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OW-2026-6965-0056": {
-          "organization": "",
-          "postedDate": "2026-09-29T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Erin Mcnulty",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4930891014569728
-    },
-    {
-      "cluster_id": 35,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0058",
@@ -2137,7 +2101,7 @@
       "presentation_score": 0.4930891014569728
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0051",
@@ -2173,7 +2137,7 @@
       "presentation_score": 0.49070814907602045
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0050",
@@ -2209,7 +2173,295 @@
       "presentation_score": 0.4811843395522109
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0079",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 250,
+      "representative_excerpt": "This proposed change weakens protection of the ocean ecosystem for the benefit mainly of seabed mining operations. The risks of this far outweigh any benefit that might result. There's a reason the definition is worded as it is, so leave it that way.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0079": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0081",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 155,
+      "representative_excerpt": "Changing the definition of \"discharge of pollutants\" is unacceptable. Such a move would harm the ocean ecosystem by fast-tracking seabed mining operations.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0081": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Brenna Hazen",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0083",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 322,
+      "representative_excerpt": "Now more than ever before it is absolutely imperative that we protect what little nature remains. Not only for the survival of nature, but for the survival of humanity. I urge you to cease this pursuit at once, lest we further accelerate our doom. Let's leave at least a tiny fraction of our beautiful Earth untouched, OK?",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0083": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by David Nordstrom",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0084",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 546,
+      "representative_excerpt": "Polluting the Pacific Ocean means polluting the waters where American fishing vessels catch and process the fish that ends up on your plate. Under this rule, the same vessels could discharge their waste in the ocean with no permit, no limits, and no record of it. This could have lasting health impacts on the next generation. The ocean doesn\u2019t wash the...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0084": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Jamie S. (no surname provided)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0085",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 259,
+      "representative_excerpt": "This is not an acceptable revision of standards. It will allow boats to dump discharges that will harm the environment. This is a gift to the companies and will pollute our waters. I am a resident of a state that has and is known for it connection to fishing.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0085": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Michelle Doiron",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0086",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 568,
+      "representative_excerpt": "We are supposed to be stewards of our environment, our planet. Life is not all about increasing profits. There are moral obligations to take care of life on earth for our children and grandchildren. The P in EPA is for Protection - of the Environment- not corporations. Please stick to your mission, as denotated in your name....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0086": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Patricia Stella",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0088",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 152,
+      "representative_excerpt": "Attached is letter in response to the proposed changes in NPDES permitting for floating offshore vessels from the Confederated Tribes of Siletz Indians.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0088": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Confederated Tribes of Siletz Indians",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0090",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 183,
+      "representative_excerpt": "Attached, please find comments from Northwest Environmental Defense Center, Columbia Riverkeeper, Willamette Riverkeeper, Oregon Coast Alliance, Native Fish Society, and Oregon Shores",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0090": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Northwest Environmental Defense Center (NEDC) et al.",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0094",
@@ -2236,6 +2488,42 @@
           "withdrawn": false,
           "submissionRole": "organization",
           "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0095",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 316,
+      "representative_excerpt": "It is imperative for the sanctity of the Clean Water Act (CWA) that the standards for energy and mining facilities, as well as seafood processing facilities, are unchanged. This attempt to deregulate wastewater discharges from the entities that pose some of the highest risk to our natural resources is unacceptable.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0095": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Ara Vickers",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
@@ -2389,7 +2677,7 @@
       "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0072",
@@ -2425,7 +2713,7 @@
       "presentation_score": 0.4630891014569728
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0075",
@@ -2461,7 +2749,7 @@
       "presentation_score": 0.4630891014569728
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0028",
@@ -2497,7 +2785,7 @@
       "presentation_score": 0.46213672050459187
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0008",
@@ -2533,7 +2821,58 @@
       "presentation_score": 0.4454700538379252
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 45,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0059",
+      "representative_posted_date": "2026-09-29T04:00:00Z",
+      "representative_length": 201,
+      "representative_excerpt": "We must prevent the EPA from altering the definition of \"discharge of pollutants\". Allowing this change would undoubtedly harm the ocean ecosystem by accelerating the start of seabed mining operations.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0059": {
+          "organization": "",
+          "postedDate": "2026-09-29T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Nellie Kolditz",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OW-2026-6965-0047": {
+          "organization": "",
+          "postedDate": "2026-09-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4384781704613023
+    },
+    {
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0068",
@@ -2569,7 +2908,7 @@
       "presentation_score": 0.43689862526649664
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0062",
@@ -2605,7 +2944,7 @@
       "presentation_score": 0.4154700538379252
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0055",
@@ -2641,7 +2980,7 @@
       "presentation_score": 0.4130891014569728
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0057",
@@ -2677,7 +3016,7 @@
       "presentation_score": 0.4130891014569728
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0060",
@@ -2713,7 +3052,7 @@
       "presentation_score": 0.4130891014569728
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0052",
@@ -2749,7 +3088,7 @@
       "presentation_score": 0.41070814907602043
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0053",
@@ -2785,7 +3124,7 @@
       "presentation_score": 0.41070814907602043
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0054",
@@ -2821,7 +3160,7 @@
       "presentation_score": 0.41070814907602043
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0049",
@@ -2857,7 +3196,7 @@
       "presentation_score": 0.3988033871712585
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0040",
@@ -2893,7 +3232,7 @@
       "presentation_score": 0.39642243479030614
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0037",
@@ -2929,7 +3268,43 @@
       "presentation_score": 0.39404148240935377
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 27,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OW-2026-6965-0080",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 14,
+      "representative_excerpt": "Absolutely not",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OW-2026-6965-0080": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Anonymous public comment",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3854700538379252
+    },
+    {
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0023",
@@ -2965,7 +3340,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0024",
@@ -3001,7 +3376,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0025",
@@ -3037,7 +3412,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0026",
@@ -3073,7 +3448,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0027",
@@ -3109,7 +3484,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0029",
@@ -3145,7 +3520,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0030",
@@ -3181,7 +3556,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0032",
@@ -3217,7 +3592,7 @@
       "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0007",
@@ -3253,7 +3628,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0009",
@@ -3289,7 +3664,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0010",
@@ -3325,7 +3700,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0011",
@@ -3361,7 +3736,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0012",
@@ -3397,7 +3772,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0014",
@@ -3433,7 +3808,7 @@
       "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0067",
@@ -3469,7 +3844,7 @@
       "presentation_score": 0.3568986252664966
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0044",
@@ -3505,7 +3880,7 @@
       "presentation_score": 0.31642243479030613
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0006",
@@ -3541,7 +3916,7 @@
       "presentation_score": 0.2854700538379252
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0013",
@@ -3613,7 +3988,7 @@
       "presentation_score": 0.3854700538379252
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OW-2026-6965-0045",
@@ -3654,15 +4029,15 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.4044943820224719,
+  "comments_first_page_coverage_share": 0.36,
   "comments_first_page_coverage_count": 36,
-  "comments_clusters_total_available": 78,
-  "comments_clusters_displayed": 78,
-  "comments_first_page_high_signal_clusters": 15,
+  "comments_clusters_total_available": 88,
+  "comments_clusters_displayed": 88,
+  "comments_first_page_high_signal_clusters": 16,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 11,
-    "negative": 10,
+    "neutral": 10,
+    "negative": 11,
     "positive": 4
   },
   "comments_first_page_unique_days": 8,
