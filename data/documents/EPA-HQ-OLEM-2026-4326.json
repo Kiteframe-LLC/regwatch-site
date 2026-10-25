@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-10-24T05:44:52.831142+00:00",
+  "comment_action_checked_at": "2026-10-25T09:35:37.821953+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -627,32 +627,35 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 7,
+  "comments_total": 8,
   "comments_velocity_total": 7,
   "comments_public_total_estimate": 7,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 7,
-  "comments_unique_clusters": 7,
+  "comments_fetched": 1,
+  "comments_text_hydrated": 2,
+  "comments_cached_records": 8,
+  "comments_unique_clusters": 8,
   "comments_clustered_duplicates": 0,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 7,
+  "comments_citizen_count": 8,
   "comments_commenter_type_counts": {
-    "citizen": 7
+    "citizen": 8
   },
   "comments_submission_role_counts": {
+    "government_unknown": 1,
     "individual": 7
   },
   "comments_submission_channel_counts": {
+    "other_channel_recorded": 1,
     "public_portal": 7
   },
   "comments_public_count": 7,
-  "comments_recorded_count": 0,
+  "comments_recorded_count": 1,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-10-23": 1,
     "2026-10-20": 1,
     "2026-10-09": 1,
     "2026-09-28": 1,
@@ -670,32 +673,32 @@
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 7,
+  "comments_analysis_sample_size": 8,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 7,
-  "comments_representative_prior_selected": 7,
+  "comments_representative_selected": 8,
+  "comments_representative_prior_selected": 8,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 1,
+  "comments_representative_must_keep": 2,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 1,
+    "must_keep": 2,
     "salience_rank": 1,
     "weighted_fill": 5
   },
-  "comments_representative_selected_by_counts_total": 7,
+  "comments_representative_selected_by_counts_total": 8,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-10-23T05:28:08.831921+00:00",
-  "comments_checked_at": "2026-10-23T05:28:08.907466+00:00",
+  "comments_api_last_seen_at": "2026-10-25T05:16:43.512394+00:00",
+  "comments_checked_at": "2026-10-25T05:16:43.612910+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 4,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0013",
@@ -731,7 +734,7 @@
       "presentation_score": 0.8500000000000001
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0012",
@@ -767,7 +770,7 @@
       "presentation_score": 0.65
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0016",
@@ -800,10 +803,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
+      "presentation_score": 0.7414285714285714
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0017",
+      "representative_posted_date": "2026-10-23T04:00:00Z",
+      "representative_length": 3729,
+      "representative_excerpt": "Respectfully Submitted, The Supervisors, Associates, and Staff of the Morgan County Indiana Soil and Water Conservation District Debra Carter, Board Chairman Stanley Diamond, Board Vice-Chairman Patricia Clark, Board Secretary Tim Bennett, Board Supervisor Roy McGuffey, Board Supervisor Thomas Carter, Associate Supervisor Doug Johnstone, Associate...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OLEM-2026-4326-0017": {
+          "organization": "",
+          "postedDate": "2026-10-23T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Morgan County Soil and Water Conservation District, IN (MCSWCD)",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
       "presentation_score": 0.75
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0010",
@@ -839,7 +878,7 @@
       "presentation_score": 0.55
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0014",
@@ -872,10 +911,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.58125
+      "presentation_score": 0.5785714285714286
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0011",
@@ -911,7 +950,7 @@
       "presentation_score": 0.45
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OLEM-2026-4326-0015",
@@ -944,26 +983,26 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.515625
+      "presentation_score": 0.51
     }
   ],
   "comments_clusters_path": "data/comments/EPA-HQ-OLEM-2026-4326.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 7,
+  "comments_first_page_count": 8,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 7,
-  "comments_clusters_total_available": 7,
-  "comments_clusters_displayed": 7,
+  "comments_first_page_coverage_count": 8,
+  "comments_clusters_total_available": 8,
+  "comments_clusters_displayed": 8,
   "comments_first_page_high_signal_clusters": 1,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 2,
+    "neutral": 3,
     "positive": 2,
     "negative": 3
   },
-  "comments_first_page_unique_days": 4,
+  "comments_first_page_unique_days": 5,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
