@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-10-29T09:38:42.115124+00:00",
+  "comment_action_checked_at": "2026-10-30T05:48:28.138119+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -474,8 +474,8 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 33,
   "comments_cached_records": 95,
-  "comments_unique_clusters": 79,
-  "comments_clustered_duplicates": 3,
+  "comments_unique_clusters": 89,
+  "comments_clustered_duplicates": 6,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -511,19 +511,19 @@
     "2026-10-14": 1
   },
   "comments_novel_comment_rate": 0.9368421052631579,
-  "comments_sentiment_positive_pct": 0.16722676419391155,
-  "comments_sentiment_negative_pct": 0.2486825024057479,
-  "comments_sentiment_neutral_pct": 0.5840907334003406,
-  "comments_sentiment_net": -0.08145573821183635,
-  "comments_sentiment_sample_size": 80,
+  "comments_sentiment_positive_pct": 0.15037619057688695,
+  "comments_sentiment_negative_pct": 0.21679206352562905,
+  "comments_sentiment_neutral_pct": 0.632831745897484,
+  "comments_sentiment_net": -0.0664158729487421,
+  "comments_sentiment_sample_size": 93,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 82,
+  "comments_analysis_sample_size": 95,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 82,
-  "comments_representative_prior_selected": 75,
-  "comments_representative_newly_selected": 7,
+  "comments_representative_selected": 95,
+  "comments_representative_prior_selected": 95,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 12,
   "comments_representative_run_budget": 7,
   "comments_representative_overflow": false,
@@ -532,9 +532,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 12,
     "salience_rank": 4,
-    "weighted_fill": 66
+    "weighted_fill": 79
   },
-  "comments_representative_selected_by_counts_total": 82,
+  "comments_representative_selected_by_counts_total": 95,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -544,7 +544,73 @@
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 18,
+      "cluster_id": 14,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0132",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 1262,
+      "representative_excerpt": "I propose the following change to File code CMS-3478-9: Under Technical Consultant Qualifications 493.1411, for Point of Care testing only, we propose reverting back to allowing a Bachelor of Science in Nursing (BSN) with two years of experience in moderately-complex testing to qualify as a Technical Consultant (TC). With the national shortage of Clinical...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0132": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-3235-0119": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-3235-0114": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6403368801111204
+    },
+    {
+      "cluster_id": 29,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0116",
@@ -592,10 +658,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6490982681951709
+      "presentation_score": 0.6123975843807162
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 21,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0125",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 2307,
+      "representative_excerpt": "I respectfully ask CMS and CDC to: \u2022 Provide evidence that the proposed CP qualification pathways support quality and patient-safety outcomes comparable to formal CP education. \u2022 Recognize discipline-specific CP education as equally worthy of regulatory recognition as discipline-specific AP education. \u2022 Evaluate the potential effect of these changes on MLS/...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0125": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "WA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-3235-0083": {
+          "organization": "",
+          "postedDate": "2026-10-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6508591228422547
+    },
+    {
+      "cluster_id": 5,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0142",
@@ -643,30 +760,30 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7375598066567094
+      "presentation_score": 0.7008591228422547
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 1,
       "count": 2,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-3235-0117",
+      "representative_comment_id": "CMS-2026-3235-0148",
       "representative_posted_date": "2026-10-27T04:00:00Z",
-      "representative_length": 2449,
-      "representative_excerpt": "The laboratory director is accountable for ensuring that testing is clinically appropriate, results are medically meaningful and reliable, and laboratory operations consistently support safe, effective, and high-quality patient care. Removing the board certification requirement risks creating a gap between analytic competence and appropriate patient care....",
+      "representative_length": 1563,
+      "representative_excerpt": "Gross/macroscopic examination should be recognized as a distinct anatomic pathology discipline under CLIA, with specialized qualifications and competency standards similar to cytology. Tiered grossing requirements should be established based on specimen complexity, reserving complex specimens requiring selective sampling for pathologists, residents or ASCP...",
       "representative_signal_score": 1,
-      "representative_stance": "positive",
+      "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-3235-0117": {
+        "CMS-2026-3235-0148": {
           "organization": "",
           "postedDate": "2026-10-27T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "NC",
+          "stateProvinceRegion": "AR",
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-3235-0001",
@@ -676,12 +793,12 @@
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         },
-        "CMS-2026-3235-0083": {
+        "CMS-2026-3235-0137": {
           "organization": "",
-          "postedDate": "2026-10-20T04:00:00Z",
+          "postedDate": "2026-10-27T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "CA",
+          "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-3235-0001",
@@ -694,10 +811,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6075598066567094
+      "presentation_score": 0.5708591228422546
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0090",
@@ -730,10 +847,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8375752023911558
+      "presentation_score": 0.8116238999917713
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0007",
@@ -766,10 +883,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7614213562373096
+      "presentation_score": 0.7354700538379253
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0101",
@@ -802,82 +919,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7575752023911557
+      "presentation_score": 0.7316238999917715
     },
     {
-      "cluster_id": 46,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3235-0085",
-      "representative_posted_date": "2026-10-20T04:00:00Z",
-      "representative_length": 2801,
-      "representative_excerpt": "I support responsible modernization of laboratory regulations to improve efficiency, expand access to qualified professionals, and maintain high standards of laboratory quality and patient safety. I support the appropriate use of virtual access to laboratory data, provided that patient confidentiality, data security, and professional accountability are...",
-      "representative_signal_score": 3,
-      "representative_stance": "positive",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3235-0085": {
-          "organization": "",
-          "postedDate": "2026-10-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "MD",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3235-0001",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6775752023911557
-    },
-    {
-      "cluster_id": 44,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3235-0087",
-      "representative_posted_date": "2026-10-20T04:00:00Z",
-      "representative_length": 3590,
-      "representative_excerpt": "Within the lab, the person technologists come to when problems arise and for deciding on new testing and best ways to validate specific laboratory setting. Which equipment fits best into a particular laboratory setting. Regulators often view test results as static data points output by instruments. They fail to appreciate that medicine is a continuous...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3235-0087": {
-          "organization": "",
-          "postedDate": "2026-10-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "KY",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3235-0001",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6775752023911557
-    },
-    {
-      "cluster_id": 11,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0130",
@@ -910,10 +955,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.7054700538379252
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0134",
@@ -946,10 +991,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.7054700538379252
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0135",
@@ -982,10 +1027,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.7054700538379252
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0115",
@@ -1018,10 +1063,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.692959817775771
+      "presentation_score": 0.6670085153763867
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 56,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0085",
+      "representative_posted_date": "2026-10-20T04:00:00Z",
+      "representative_length": 2801,
+      "representative_excerpt": "I support responsible modernization of laboratory regulations to improve efficiency, expand access to qualified professionals, and maintain high standards of laboratory quality and patient safety. I support the appropriate use of virtual access to laboratory data, provided that patient confidentiality, data security, and professional accountability are...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0085": {
+          "organization": "",
+          "postedDate": "2026-10-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MD",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6516238999917714
+    },
+    {
+      "cluster_id": 54,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0087",
+      "representative_posted_date": "2026-10-20T04:00:00Z",
+      "representative_length": 3590,
+      "representative_excerpt": "Within the lab, the person technologists come to when problems arise and for deciding on new testing and best ways to validate specific laboratory setting. Which equipment fits best into a particular laboratory setting. Regulators often view test results as static data points output by instruments. They fail to appreciate that medicine is a continuous...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0087": {
+          "organization": "",
+          "postedDate": "2026-10-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "KY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6516238999917714
+    },
+    {
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0098",
@@ -1054,10 +1171,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6775752023911557
+      "presentation_score": 0.6516238999917714
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0106",
@@ -1090,10 +1207,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6775752023911557
+      "presentation_score": 0.6516238999917714
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0110",
@@ -1126,10 +1243,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6775752023911557
+      "presentation_score": 0.6516238999917714
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0118",
@@ -1162,118 +1279,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
+      "presentation_score": 0.6254700538379252
     },
     {
-      "cluster_id": 10,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3235-0131",
-      "representative_posted_date": "2026-10-27T04:00:00Z",
-      "representative_length": 3665,
-      "representative_excerpt": "High-complexity testing involves sophisticated methodologies, critical result interpretation, extensive quality assurance requirements, regulatory compliance, instrument troubleshooting, and patient safety considerations. Laboratory professionals graduating from NAACLS-accredited MLT and MLS programs receive comprehensive education in clinical chemistry...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3235-0131": {
-          "organization": "",
-          "postedDate": "2026-10-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "KS",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3235-0001",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
-    },
-    {
-      "cluster_id": 5,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3235-0139",
-      "representative_posted_date": "2026-10-27T04:00:00Z",
-      "representative_length": 4551,
-      "representative_excerpt": "I respectfully recommend that CMS: 1. Establish gross examination as a specialized anatomic pathology discipline. Require defined education, documented training, and demonstrated competency. 2. Adopt tiered qualifications based on specimen complexity and clinical risk. Appropriately trained and competency-assessed personnel may handle routine specimens....",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3235-0139": {
-          "organization": "",
-          "postedDate": "2026-10-27T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3235-0001",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
-    },
-    {
-      "cluster_id": 20,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3235-0114",
-      "representative_posted_date": "2026-10-21T04:00:00Z",
-      "representative_length": 1262,
-      "representative_excerpt": "I propose the following change to File code CMS-3478-9: Under Technical Consultant Qualifications 493.1411, for Point of Care testing only, we propose reverting back to allowing a Bachelor of Science in Nursing (BSN) with two years of experience in moderately-complex testing to qualify as a Technical Consultant (TC). With the national shortage of Clinical...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3235-0114": {
-          "organization": "",
-          "postedDate": "2026-10-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "MI",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3235-0001",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6052675100834635
-    },
-    {
-      "cluster_id": 24,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0108",
@@ -1306,10 +1315,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6475752023911558
+      "presentation_score": 0.6216238999917714
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0052",
@@ -1342,10 +1351,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6014213562373096
+      "presentation_score": 0.5754700538379253
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0058",
@@ -1378,10 +1387,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6014213562373096
+      "presentation_score": 0.5754700538379253
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0051",
@@ -1414,10 +1423,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5214213562373096
+      "presentation_score": 0.4954700538379252
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0071",
@@ -1450,17 +1459,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5214213562373096
+      "presentation_score": 0.4954700538379252
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-3235-0086",
-      "representative_posted_date": "2026-10-20T04:00:00Z",
-      "representative_length": 596,
-      "representative_excerpt": "Covenant Health Corporate Wellness supports employer-based screening programs, including services delivered outside the traditional hospital setting. We appreciate CMS's efforts to modernize CLIA requirements while maintaining quality and patient safety. We encourage CMS to ensure that the final regulations provide clear, practical guidance for mobile and...",
-      "representative_signal_score": 0,
+      "representative_comment_id": "CMS-2026-3235-0131",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 3665,
+      "representative_excerpt": "High-complexity testing involves sophisticated methodologies, critical result interpretation, extensive quality assurance requirements, regulatory compliance, instrument troubleshooting, and patient safety considerations. Laboratory professionals graduating from NAACLS-accredited MLT and MLS programs receive comprehensive education in clinical chemistry...",
+      "representative_signal_score": 2,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1468,28 +1477,64 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-3235-0086": {
-          "organization": "Covenant Health",
-          "postedDate": "2026-10-20T04:00:00Z",
+        "CMS-2026-3235-0131": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
+          "stateProvinceRegion": "KS",
+          "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-3235-0001",
           "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.48757520239115565
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6254700538379252
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0139",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 4551,
+      "representative_excerpt": "I respectfully recommend that CMS: 1. Establish gross examination as a specialized anatomic pathology discipline. Require defined education, documented training, and demonstrated competency. 2. Adopt tiered qualifications based on specimen complexity and clinical risk. Appropriately trained and competency-assessed personnel may handle routine specimens....",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0139": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6254700538379252
+    },
+    {
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0082",
@@ -1522,10 +1567,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5975752023911558
+      "presentation_score": 0.5716238999917713
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0093",
@@ -1558,10 +1603,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5975752023911558
+      "presentation_score": 0.5716238999917713
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0094",
@@ -1594,10 +1639,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5975752023911558
+      "presentation_score": 0.5716238999917713
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0097",
@@ -1630,10 +1675,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5975752023911558
+      "presentation_score": 0.5716238999917713
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0103",
@@ -1666,10 +1711,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5975752023911558
+      "presentation_score": 0.5716238999917713
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0117",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 2449,
+      "representative_excerpt": "The laboratory director is accountable for ensuring that testing is clinically appropriate, results are medically meaningful and reliable, and laboratory operations consistently support safe, effective, and high-quality patient care. Removing the board certification requirement risks creating a gap between analytic competence and appropriate patient care....",
+      "representative_signal_score": 1,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0117": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5454700538379252
+    },
+    {
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0121",
@@ -1702,10 +1783,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5714213562373095
+      "presentation_score": 0.5454700538379252
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0124",
@@ -1738,10 +1819,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5714213562373095
+      "presentation_score": 0.5454700538379252
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0138",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 1801,
+      "representative_excerpt": "It began as a group of dedicated professionals who self-monitored and ensured the quality of the education of its members. When the training programs established could not keep pace with the need for pathologists' assistants they developed a carefully constructed means of verifying educational requirements and experience to admit members to its group....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0138": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5454700538379252
+    },
+    {
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0008",
@@ -1774,10 +1891,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5514213562373096
+      "presentation_score": 0.5254700538379252
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0021",
@@ -1810,10 +1927,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5514213562373096
+      "presentation_score": 0.5254700538379252
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0029",
@@ -1846,10 +1963,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5514213562373096
+      "presentation_score": 0.5254700538379252
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0035",
@@ -1882,10 +1999,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5514213562373096
+      "presentation_score": 0.5254700538379252
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0045",
@@ -1918,10 +2035,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5514213562373096
+      "presentation_score": 0.5254700538379252
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0081",
@@ -1954,10 +2071,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5175752023911557
+      "presentation_score": 0.49162389999177136
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0088",
@@ -1990,10 +2107,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5175752023911557
+      "presentation_score": 0.49162389999177136
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0095",
@@ -2026,10 +2143,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5175752023911557
+      "presentation_score": 0.49162389999177136
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0096",
@@ -2062,10 +2179,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5175752023911557
+      "presentation_score": 0.49162389999177136
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0105",
@@ -2098,10 +2215,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5175752023911557
+      "presentation_score": 0.49162389999177136
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0107",
@@ -2134,10 +2251,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5175752023911557
+      "presentation_score": 0.49162389999177136
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0122",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 219,
+      "representative_excerpt": "Crazy that at the tail end of 2026 we get the movie \"You Can See Everything\" as well as legislation that will help create the future sequels. Tough luck if you want to trust the results you get from your doctor, though.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0122": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0123",
@@ -2170,10 +2323,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0126",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 192,
+      "representative_excerpt": "Nurses and other adjacent staff without the education of lab medicine routinely fail to grasp the complexities of testing. Allowing these amendments will further degrade the field! END IT NOW!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0126": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0128",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 395,
+      "representative_excerpt": "I vehemently support changing the rule regarding the time that the technical supervisor has to review gross descriptions from 24 hours to before the case is finalized. This forces labs to implement practices that do not benefit the patient AT ALL. Rather, it is creating busy work, adding costs, wasting time and energy that would otherwise be used in...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0128": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "OR",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0129",
@@ -2206,10 +2431,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0133",
@@ -2242,10 +2467,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0136",
@@ -2278,10 +2503,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0140",
@@ -2314,10 +2539,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0141",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 312,
+      "representative_excerpt": "I am deeply concerned about the proposed CLIA changes. (CMS-3478-P) As a certified pathologists assistant I understand the high complexity of specimen grossing and am worried that the new changes would allow untrained personnel to directly influence patient\u2019s care including their cancer diagnosis and treatment.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0141": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0144",
@@ -2350,10 +2611,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0145",
@@ -2386,10 +2647,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0146",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 919,
+      "representative_excerpt": "Ensure supervision and competency supplement personnel qualifications: Ensure supervisory review and...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0146": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 55,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0086",
+      "representative_posted_date": "2026-10-20T04:00:00Z",
+      "representative_length": 596,
+      "representative_excerpt": "Covenant Health Corporate Wellness supports employer-based screening programs, including services delivered outside the traditional hospital setting. We appreciate CMS's efforts to modernize CLIA requirements while maintaining quality and patient safety. We encourage CMS to ensure that the final regulations provide clear, practical guidance for mobile and...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0086": {
+          "organization": "Covenant Health",
+          "postedDate": "2026-10-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.46162389999177134
+    },
+    {
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0089",
@@ -2422,10 +2755,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.48757520239115565
+      "presentation_score": 0.46162389999177134
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0002",
@@ -2458,10 +2791,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4714213562373095
+      "presentation_score": 0.4454700538379252
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0018",
@@ -2494,10 +2827,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4714213562373095
+      "presentation_score": 0.4454700538379252
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0030",
@@ -2530,10 +2863,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4714213562373095
+      "presentation_score": 0.4454700538379252
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0036",
@@ -2566,10 +2899,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4714213562373095
+      "presentation_score": 0.4454700538379252
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0080",
@@ -2602,10 +2935,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0084",
@@ -2638,10 +2971,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0091",
@@ -2674,10 +3007,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0092",
@@ -2710,10 +3043,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0099",
@@ -2746,10 +3079,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0102",
@@ -2782,10 +3115,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0109",
@@ -2818,10 +3151,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0112",
@@ -2854,10 +3187,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.43757520239115566
+      "presentation_score": 0.41162389999177135
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0120",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 79,
+      "representative_excerpt": "The licensing and certification process needs to be simplified and streamlined.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0120": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3854700538379252
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3235-0127",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 44,
+      "representative_excerpt": "I agreed with these changes. Paul Collins MD",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3235-0127": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "ID",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3235-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3854700538379252
+    },
+    {
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0016",
@@ -2890,10 +3295,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0031",
@@ -2926,10 +3331,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0037",
@@ -2962,10 +3367,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0043",
@@ -2998,10 +3403,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0060",
@@ -3034,10 +3439,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0063",
@@ -3070,10 +3475,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0064",
@@ -3106,10 +3511,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0065",
@@ -3142,10 +3547,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0066",
@@ -3178,10 +3583,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0067",
@@ -3214,10 +3619,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0068",
@@ -3250,10 +3655,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0074",
@@ -3286,10 +3691,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0076",
@@ -3322,10 +3727,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0026",
@@ -3358,10 +3763,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.3614213562373095
+      "presentation_score": 0.33547005383792516
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0104",
@@ -3394,10 +3799,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35757520239115564
+      "presentation_score": 0.33162389999177133
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3235-0032",
@@ -3430,7 +3835,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3114213562373095
+      "presentation_score": 0.2854700538379252
     }
   ],
   "comments_clusters_path": "data/comments/CMS-2026-3235.csv",
@@ -3438,18 +3843,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.34146341463414637,
-  "comments_first_page_coverage_count": 28,
-  "comments_clusters_total_available": 79,
-  "comments_clusters_displayed": 79,
+  "comments_first_page_coverage_share": 0.3263157894736842,
+  "comments_first_page_coverage_count": 31,
+  "comments_clusters_total_available": 89,
+  "comments_clusters_displayed": 89,
   "comments_first_page_high_signal_clusters": 12,
-  "comments_first_page_novelty_clusters": 8,
+  "comments_first_page_novelty_clusters": 7,
   "comments_first_page_stance_counts": {
-    "positive": 8,
-    "negative": 8,
-    "neutral": 9
+    "neutral": 10,
+    "positive": 7,
+    "negative": 8
   },
-  "comments_first_page_unique_days": 5,
+  "comments_first_page_unique_days": 4,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
