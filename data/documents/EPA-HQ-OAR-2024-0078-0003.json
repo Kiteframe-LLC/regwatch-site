@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-04T10:56:14.595229+00:00",
+  "comment_action_checked_at": "2026-11-05T06:23:37.045956+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -15860,8 +15860,8 @@
   "comments_fetched": 21,
   "comments_text_hydrated": 31,
   "comments_cached_records": 34,
-  "comments_unique_clusters": 31,
-  "comments_clustered_duplicates": 3,
+  "comments_unique_clusters": 29,
+  "comments_clustered_duplicates": 5,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -15914,10 +15914,10 @@
   "comments_analysis_sample_size": 34,
   "comments_analysis_cap_per_period": 5000,
   "comments_representative_selected": 34,
-  "comments_representative_prior_selected": 13,
-  "comments_representative_newly_selected": 21,
+  "comments_representative_prior_selected": 34,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 31,
-  "comments_representative_run_budget": 11,
+  "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
@@ -15936,9 +15936,60 @@
   "comments_error": null,
   "comments_clusters": [
     {
+      "cluster_id": 17,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0692",
+      "representative_posted_date": "2026-11-02T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Monitor Location AQS Code Design Value 2023-2025 Pittsfield 250030008 6.1 North Adams 250036001 6.6 Greenfield 250112005 6.91,2 Chicopee 250130008 5.7 Springfield 250130018 7.31 Ware 250154002 5.1 Worcester 250270023 6.1 Uxbridge 250270024 5.53 Lynn 250092006 6.7 Saugus 250092007 4.92 Haverhill 250095006 5.94 Chelmsford 250170010 5.8 Framingham 250170011 5....",
+      "representative_signal_score": 5,
+      "representative_stance": "positive",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2024-0078-0692": {
+          "organization": "",
+          "postedDate": "2026-11-02T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Massachusetts Department of Environmental Protection (MassDEP)",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        },
+        "EPA-HQ-OAR-2024-0078-0689": {
+          "organization": "",
+          "postedDate": "2026-10-30T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Virginia Department of Environmental Quality (DEQ)",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9275598066567093
+    },
+    {
       "cluster_id": 7,
       "count": 2,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0704",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 5000,
@@ -15989,7 +16040,7 @@
     {
       "cluster_id": 2,
       "count": 2,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0710",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 5000,
@@ -16038,9 +16089,60 @@
       "presentation_score": 0.7675598066567094
     },
     {
+      "cluster_id": 9,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0701",
+      "representative_posted_date": "2026-11-02T05:00:00Z",
+      "representative_length": 243,
+      "representative_excerpt": "Please find attached the State of Arizona's comments regarding the proposed rule, 'Initial Air Quality Designations for the 2024 Revised Primary Annual Fine Particle National Ambient Air Quality Standards' (Docket ID No. EPA-HQ-OAR-2024-0078).",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2024-0078-0701": {
+          "organization": "",
+          "postedDate": "2026-11-02T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Office of the Governor, State of Arizona",
+          "withdrawn": false,
+          "submissionRole": "government_state",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        },
+        "EPA-HQ-OAR-2024-0078-0686": {
+          "organization": "",
+          "postedDate": "2026-10-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Delaware Department of Natural Resources and Environmental Control (DNREC) - Division of Air Quality",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6075598066567094
+    },
+    {
       "cluster_id": 8,
       "count": 2,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0703",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 362,
@@ -16089,7 +16191,7 @@
       "presentation_score": 0.6075598066567094
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0680",
@@ -16127,7 +16229,7 @@
     {
       "cluster_id": 18,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0691",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 2915,
@@ -16161,43 +16263,7 @@
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 17,
-      "count": 1,
-      "page_count": 1,
-      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0692",
-      "representative_posted_date": "2026-11-02T05:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "Monitor Location AQS Code Design Value 2023-2025 Pittsfield 250030008 6.1 North Adams 250036001 6.6 Greenfield 250112005 6.91,2 Chicopee 250130008 5.7 Springfield 250130018 7.31 Ware 250154002 5.1 Worcester 250270023 6.1 Uxbridge 250270024 5.53 Lynn 250092006 6.7 Saugus 250092007 4.92 Haverhill 250095006 5.94 Chelmsford 250170010 5.8 Framingham 250170011 5....",
-      "representative_signal_score": 5,
-      "representative_stance": "positive",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2024-0078-0692": {
-          "organization": "",
-          "postedDate": "2026-11-02T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Massachusetts Department of Environmental Protection (MassDEP)",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
-    },
-    {
-      "cluster_id": 31,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0678",
@@ -16233,45 +16299,9 @@
       "presentation_score": 0.6314213562373094
     },
     {
-      "cluster_id": 27,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0682",
-      "representative_posted_date": "2026-10-21T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "The unequal distribution of pollution exposure deserves explicit consideration. For residents of Fifth Ward, Manchester, Galena Park, Pleasantville, neighborhoods surrounding the Houston Ship Channel, and other industrially impacted communities, air pollution is not an abstract regulatory issue. It shapes everyday decisions about whether children can play...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2024-0078-0682": {
-          "organization": "",
-          "postedDate": "2026-10-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Daniella Flanagan",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6834213562373095
-    },
-    {
       "cluster_id": 16,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0693",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 2905,
@@ -16307,7 +16337,7 @@
     {
       "cluster_id": 10,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0700",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 4999,
@@ -16343,7 +16373,7 @@
     {
       "cluster_id": 5,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0706",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 5000,
@@ -16377,7 +16407,7 @@
       "presentation_score": 0.7314213562373094
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0688",
@@ -16413,43 +16443,7 @@
       "presentation_score": 0.7194213562373094
     },
     {
-      "cluster_id": 20,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0689",
-      "representative_posted_date": "2026-10-30T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "Q) :, (0 > 10 C: 0) .iii Q) 0 (0 :, C: ~ 8 6 PM2.5 Annual Design Values SiteName - Albemarle High School - Rockingham Co. VDOT 2010 2015 2020 2025 Design Value Year Figure 5: Annual DVs for Albemarle County and Rockingham County PM2.s Monitoring Sites Figure 6 provides an updated trends chart for annual PM2.5 design values across Virginia, showing that air...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2024-0078-0689": {
-          "organization": "",
-          "postedDate": "2026-10-30T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Virginia Department of Environmental Quality (DEQ)",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7194213562373094
-    },
-    {
-      "cluster_id": 24,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0685",
@@ -16485,9 +16479,45 @@
       "presentation_score": 0.7114213562373095
     },
     {
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0682",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "The unequal distribution of pollution exposure deserves explicit consideration. For residents of Fifth Ward, Manchester, Galena Park, Pleasantville, neighborhoods surrounding the Houston Ship Channel, and other industrially impacted communities, air pollution is not an abstract regulatory issue. It shapes everyday decisions about whether children can play...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "EPA-HQ-OAR-2024-0078-0682": {
+          "organization": "",
+          "postedDate": "2026-10-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment submitted by Daniella Flanagan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6834213562373095
+    },
+    {
       "cluster_id": 14,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0695",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 601,
@@ -16523,7 +16553,7 @@
     {
       "cluster_id": 12,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0697",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 2074,
@@ -16593,7 +16623,7 @@
       "presentation_score": 0.6394213562373096
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0681",
@@ -16631,7 +16661,7 @@
     {
       "cluster_id": 15,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0694",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 189,
@@ -16667,7 +16697,7 @@
     {
       "cluster_id": 13,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0696",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 518,
@@ -16703,7 +16733,7 @@
     {
       "cluster_id": 11,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0698",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 210,
@@ -16737,45 +16767,9 @@
       "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 9,
-      "count": 1,
-      "page_count": 1,
-      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0701",
-      "representative_posted_date": "2026-11-02T05:00:00Z",
-      "representative_length": 243,
-      "representative_excerpt": "Please find attached the State of Arizona's comments regarding the proposed rule, 'Initial Air Quality Designations for the 2024 Revised Primary Annual Fine Particle National Ambient Air Quality Standards' (Docket ID No. EPA-HQ-OAR-2024-0078).",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "agency_material",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2024-0078-0701": {
-          "organization": "",
-          "postedDate": "2026-11-02T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Office of the Governor, State of Arizona",
-          "withdrawn": false,
-          "submissionRole": "government_state",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "agency_material",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5714213562373095
-    },
-    {
       "cluster_id": 1,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0711",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 101,
@@ -16809,43 +16803,7 @@
       "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 23,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "EPA-HQ-OAR-2024-0078-0686",
-      "representative_posted_date": "2026-10-28T04:00:00Z",
-      "representative_length": 227,
-      "representative_excerpt": "Please find attached the State of Delaware's comments regarding proposed rule for Initial Air Quality Designations for the 2024 Revised Primary Annual Fine Particle National Ambient Air Quality Standards [EPA-HQ-OAR-2024-0078].",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "agency_material",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "EPA-HQ-OAR-2024-0078-0686": {
-          "organization": "",
-          "postedDate": "2026-10-28T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment submitted by Delaware Department of Natural Resources and Environmental Control (DNREC) - Division of Air Quality",
-          "withdrawn": false,
-          "submissionRole": "government_unknown",
-          "submissionRoleConfidence": "medium",
-          "submissionChannel": "agency_material",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5514213562373096
-    },
-    {
-      "cluster_id": 22,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0687",
@@ -16883,7 +16841,7 @@
     {
       "cluster_id": 6,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0705",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 93,
@@ -16919,7 +16877,7 @@
     {
       "cluster_id": 4,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0707",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 67,
@@ -16955,7 +16913,7 @@
     {
       "cluster_id": 3,
       "count": 1,
-      "page_count": 1,
+      "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0708",
       "representative_posted_date": "2026-11-02T05:00:00Z",
       "representative_length": 274,
@@ -16989,7 +16947,7 @@
       "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0683",
@@ -17025,7 +16983,7 @@
       "presentation_score": 0.4434213562373095
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0679",
@@ -17061,7 +17019,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "EPA-HQ-OAR-2024-0078-0684",
@@ -17303,9 +17261,9 @@
       "submission_channel": "agency_material",
       "submission_channel_confidence": "medium",
       "withdrawn": false,
-      "representative_excerpt": "Please find attached the State of Delaware's comments regarding proposed rule for Initial Air Quality Designations for the 2024 Revised Primary Annual Fine Particle National Ambient Air Quality Standards [EPA-HQ-OAR-2024-0078].",
+      "representative_excerpt": "",
       "source_cluster_ids": [
-        23
+        9
       ]
     },
     {
@@ -17321,22 +17279,22 @@
       "withdrawn": false,
       "representative_excerpt": "South Carolina Response to the 2024 PM2.5 120 Day Letter",
       "source_cluster_ids": [
-        26
+        24
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8235294117647058,
-  "comments_first_page_coverage_count": 28,
-  "comments_clusters_total_available": 31,
-  "comments_clusters_displayed": 31,
-  "comments_first_page_high_signal_clusters": 13,
+  "comments_first_page_coverage_share": 0.8823529411764706,
+  "comments_first_page_coverage_count": 30,
+  "comments_clusters_total_available": 29,
+  "comments_clusters_displayed": 29,
+  "comments_first_page_high_signal_clusters": 12,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 16,
-    "negative": 7,
-    "positive": 2
+    "positive": 2,
+    "neutral": 17,
+    "negative": 6
   },
   "comments_first_page_unique_days": 7,
   "summary_available": true,
