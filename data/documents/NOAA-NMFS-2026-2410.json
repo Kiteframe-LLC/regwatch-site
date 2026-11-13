@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-12T10:05:39.020904+00:00",
+  "comment_action_checked_at": "2026-11-13T07:23:52.514135+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -39,50 +39,381 @@
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 0.8854411560073122,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7865961916567836,
+  "combined_score": 0.942128017004281,
   "score_total": 11,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 1,
   "pass_2_material_change_score": 1,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 2,
+  "pass_4_scaled": 0.23958333333333331,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 2,
+    "cost_benefit_transparency": 1,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 0,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 0,
+    "enforcement_clarity_risk": 1,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 1.0,
+    "H": 0.3333333333333333,
+    "E": 0.3333333333333333
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness"
+  ],
+  "pass_4_primary_concern": "The rejection of enhanced monitoring needs an interim comparison before the targeted 2028 electronic-monitoring transition.",
+  "combined_score_pre_pass5": 0.8148644922944492,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material \u00b7 Safeguards and Accountability",
+  "pass_5_assessment": "Material \u00b7 Safeguards and Accountability",
+  "pass_5_assessment_tier": "Material",
+  "pass_5_scaled": 0.624710125,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "safeguard_absence",
+  "pass_5_worst_flaw_name": "Safeguard Absence",
+  "pass_5_material_flaw_count": 1,
+  "pass_5_worst_family_key": "safeguards_and_accountability",
+  "pass_5_worst_family_name": "Safeguards and Accountability",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 1,
+  "pass_5_base_defect_score": 0.558482,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "Protected marine resources and listed species may face consequences that are difficult to reverse; context is not proof of a defect.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The rule has a coherent mechanism and substantial supporting analysis. Its main structural weakness is treating a planned 2028 monitoring transition as sufficient reason to reject enhanced coverage now, without a clear interim comparison.",
+  "pass_5_most_important_consequence": "Limited interim observations could delay detection of rare local interactions and management adjustments.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.25,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.156
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.333,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.163
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 0.667,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.375
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No demonstrated role or power substitution; uncertain proclamation authority is not scored as established illegality.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No identified reversal of a statutory exception into primary authority.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "NMFS and the Council retain management and review responsibilities.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Existing observers, reporting and agency review remain; no new self-certification replacement is established.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No new sequence forces regulated actors to surrender review before ordinary access.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal relaxes a spatial restriction; no unsupported new intrusion identified.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Repealing the outer prohibition matches the stated conformity objective; ecological sufficiency remains open for comment.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The transition has an actual program and installations; uncertainty is assessed under safeguard_absence rather than duplicated here.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No unsupported technical integration dependency is demonstrated.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The regulatory inconsistency and resource-management objective are identified.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The EA acknowledges localized abundance changes, mixed research and cultural encounters; local-effect reasoning needs clarification but does not deny all impacts.",
+      "evidence": [],
+      "comment_leverage": "Request clarification of localized effects or citations."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No new selective licensing or targeting power is identified.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "Existing safeguards remain, but rejection of additional coverage relies on a targeted 2028 transition without an explicit interim equivalence standard.",
+      "evidence": [
+        {
+          "section": "EA \u00a72.4, p. 21",
+          "quote_or_absence": "NMFS has begun installing EM systems onboard longline vessels for management purposes and is targeting 2028 for all longline vessels to be equipped with EM systems and anticipates phasing out onboard at-sea observers with the implementation of EM."
+        }
+      ],
+      "comment_leverage": "Request interim coverage, review and contingency standards."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Potential conservation effects are analyzed; no distinct transfer of error-handling or cleanup obligations is established.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No new suspicion or adverse-conduct classification is created.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Existing records and reporting remain; no demonstrated removal of traceability.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Notice and comment precedes this proposed regulatory amendment; the prior letter is historical context, not a new authorization pathway here.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The proposal does not establish a future gateway bypassing ordinary rulemaking.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No new unstable hierarchy of sanctions or consequences is identified.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No vague new approval standard or exclusion chokepoint is created.",
+      "evidence": [],
+      "comment_leverage": "No distinct comment issue established."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Purpose, text and fishery framework generally align; apparent citation omissions warrant verification.",
+      "evidence": [],
+      "comment_leverage": "Request clarification of localized effects or citations."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "assertion_heavy_vs_evidence_language",
     "high_obligation_low_evidence_language",
@@ -394,8 +725,8 @@
   "comments_analysis_sample_size": 30,
   "comments_analysis_cap_per_period": 5000,
   "comments_representative_selected": 30,
-  "comments_representative_prior_selected": 22,
-  "comments_representative_newly_selected": 8,
+  "comments_representative_prior_selected": 30,
+  "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 2,
   "comments_representative_run_budget": 10,
   "comments_representative_overflow": false,
@@ -1177,10 +1508,10 @@
     "positive": 3
   },
   "comments_first_page_unique_days": 1,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/NOAA-NMFS-2026-2410-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "NOAA-NMFS-2026-2410"
