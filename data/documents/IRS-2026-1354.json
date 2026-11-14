@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-13T07:23:51.391303+00:00",
+  "comment_action_checked_at": "2026-11-14T10:10:27.142753+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,7 +34,7 @@
   "comment_end_date": "2026-12-02T04:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 4,
-  "pass_3_score": 538.1666666666666,
+  "pass_3_score": 525.2325581395348,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.7976434177648377,
   "pass_3_scaled": 1.0,
@@ -480,43 +480,49 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 22477,
-  "comments_velocity_total": 22477,
-  "comments_public_total_estimate": 22477,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 464,
-  "comments_unique_clusters": 52,
-  "comments_clustered_duplicates": 412,
+  "comments_total": 22547,
+  "comments_velocity_total": 22456,
+  "comments_public_total_estimate": 22456,
+  "comments_fetched": 30,
+  "comments_text_hydrated": 32,
+  "comments_cached_records": 494,
+  "comments_unique_clusters": 63,
+  "comments_clustered_duplicates": 431,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 460,
+  "comments_citizen_count": 486,
   "comments_commenter_type_counts": {
-    "citizen": 460,
-    "organization_other": 4
+    "citizen": 486,
+    "organization_other": 6,
+    "government": 2
   },
   "comments_submission_role_counts": {
-    "individual": 460,
-    "organization": 4
+    "individual": 487,
+    "government_state": 1,
+    "government_affiliated_or_unclear": 1,
+    "organization": 5
   },
   "comments_submission_channel_counts": {
-    "public_portal": 464
+    "public_portal": 492,
+    "agency_material": 1,
+    "other_channel_recorded": 1
   },
-  "comments_public_count": 464,
-  "comments_recorded_count": 0,
-  "comments_agency_material_count": 0,
+  "comments_public_count": 492,
+  "comments_recorded_count": 1,
+  "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-11-09": 15,
+    "2026-11-13": 14,
+    "2026-11-09": 12,
     "2026-11-06": 3,
     "2026-11-04": 2,
     "2026-10-30": 2,
     "2026-10-27": 3,
-    "2026-10-26": 6,
+    "2026-10-26": 5,
     "2026-10-23": 3,
     "2026-10-22": 6,
-    "2026-10-21": 1,
+    "2026-10-21": 2,
     "2026-10-16": 2,
     "2026-10-15": 3,
     "2026-10-11": 1,
@@ -525,54 +531,55 @@
     "2026-10-02": 1
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-11-09": 3,
+    "2026-11-13": 3,
+    "2026-11-09": 2,
     "2026-11-06": 1,
     "2026-11-04": 1,
     "2026-10-30": 1,
     "2026-10-27": 1,
     "2026-10-26": 1,
-    "2026-10-21": 1,
+    "2026-10-21": 2,
     "2026-10-15": 1
   },
-  "comments_novel_comment_rate": 0.11206896551724138,
-  "comments_sentiment_positive_pct": 0.07176107221946229,
-  "comments_sentiment_negative_pct": 0.5610380594312407,
-  "comments_sentiment_neutral_pct": 0.367200868349297,
-  "comments_sentiment_net": -0.4892769872117785,
-  "comments_sentiment_sample_size": 464,
+  "comments_novel_comment_rate": 0.12753036437246965,
+  "comments_sentiment_positive_pct": 0.0761425167637589,
+  "comments_sentiment_negative_pct": 0.5484118993751849,
+  "comments_sentiment_neutral_pct": 0.3754455838610563,
+  "comments_sentiment_net": -0.472269382611426,
+  "comments_sentiment_sample_size": 491,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 464,
+  "comments_analysis_sample_size": 494,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 464,
-  "comments_representative_prior_selected": 464,
+  "comments_representative_selected": 494,
+  "comments_representative_prior_selected": 494,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 7,
+  "comments_representative_must_keep": 11,
   "comments_representative_run_budget": 30,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 7,
+    "must_keep": 11,
     "salience_rank": 20,
-    "weighted_fill": 437
+    "weighted_fill": 463
   },
-  "comments_representative_selected_by_counts_total": 464,
+  "comments_representative_selected_by_counts_total": 494,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-12T06:11:55.913156+00:00",
-  "comments_checked_at": "2026-11-12T06:11:56.856487+00:00",
+  "comments_api_last_seen_at": "2026-11-14T06:35:55.527673+00:00",
+  "comments_checked_at": "2026-11-14T06:35:56.611713+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 2,
-      "count": 210,
+      "cluster_id": 3,
+      "count": 221,
       "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-22481",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_comment_id": "IRS-2026-1354-22531",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
       "representative_length": 1345,
       "representative_excerpt": "This program reduces federal revenue for public school students while creating new subsidies for private tuition, including for families already using private schools.I oppose the proposed rule. I urge Treasury and the IRS to preserve states\u2019 authority to protect students and require rigorous oversight and accountability for any program receiving federal...",
       "representative_signal_score": 4,
@@ -661,14 +668,14 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7467127479400549
+      "presentation_score": 0.7462733534374698
     },
     {
-      "cluster_id": 9,
-      "count": 195,
+      "cluster_id": 2,
+      "count": 202,
       "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-22460",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_comment_id": "IRS-2026-1354-22532",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
       "representative_length": 3889,
       "representative_excerpt": "Similar to state-based vouchers, federal vouchers will worsen student academic outcomes, fund discrimination with public dollars, exacerbate racial segregation, primarily subsidize tuition for wealthier families whose children are already enrolled in private schools, create new fiscal pressures on state and federal funding streams that directly support...",
       "representative_signal_score": 2,
@@ -757,10 +764,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5400902200431302
+      "presentation_score": 0.5382621049152898
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 32,
       "count": 5,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22037",
@@ -853,10 +860,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.644072537156546
+      "presentation_score": 0.6362771651842878
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 52,
       "count": 3,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-18222",
@@ -919,61 +926,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6542414522978083
+      "presentation_score": 0.6488770444706341
     },
     {
-      "cluster_id": 27,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-21621",
-      "representative_posted_date": "2026-10-26T04:00:00Z",
-      "representative_length": 1293,
-      "representative_excerpt": "This program reduces federal revenue for public school students while creating new subsidies for private tuition, including for families already using private schools.I oppose the proposed rule. I urge Treasury and the IRS to preserve states\u2019 authority to protect students and require rigorous oversight and accountability for any program receiving federal...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "IRS-2026-1354-21621": {
-          "organization": "",
-          "postedDate": "2026-10-26T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Van Kollenburg, Rebecca",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "IRS-2026-1354-18245": {
-          "organization": "",
-          "postedDate": "2026-10-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Rodrigo, Herman",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5102357028525222
-    },
-    {
-      "cluster_id": 22,
+      "cluster_id": 33,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21866",
@@ -1021,10 +977,112 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5207620186419959
+      "presentation_score": 0.5132525330895559
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 11,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22494",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "Chris Dillon Plainview/Old Bethpage Chief Operating Officer David A. Little, Esq. Directors Ronald Ellerbe Nassau BOCES Michael Flynn Western Suffolk BOCES Dr. Terry Fulton Amityville Schools Aubrey Phillips Elmont Schools Ex Officio Members Deborah Coates Mary Louise Cohen Lorraine Deller Steve Gellar Susan Lipman Executive Secretary Kristel Lazarus REFIT...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22494": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from REFIT (Reform Education Funding Inequities Today)",
+          "withdrawn": false,
+          "submissionRole": "government_state",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        },
+        "IRS-2026-1354-22457": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "Berkeley",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Young, Michelle",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5465858664228892
+    },
+    {
+      "cluster_id": 6,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22512",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 1241,
+      "representative_excerpt": "A well educated public means highly skilled employees who keep our country innovative and competitive. Recommendation: For the good of our country it is imperative that public schools be well funded. The voucher program must be abandoned and measures taken to ensure all children get the educational support they need to succeed....",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22512": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from D, Ann",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "IRS-2026-1354-21621": {
+          "organization": "",
+          "postedDate": "2026-10-26T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Van Kollenburg, Rebecca",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5465858664228892
+    },
+    {
+      "cluster_id": 18,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22471",
@@ -1072,17 +1130,53 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44707780811568
+      "presentation_score": 0.4370620568990796
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-12847",
-      "representative_posted_date": "2026-10-15T04:00:00Z",
-      "representative_length": 3147,
-      "representative_excerpt": "Department of the Treasury I am a Kansas resident and parent of school-aged children I oppose Kansas\u2019s participation in the Federal Scholarship Tax Credit program and urge the Treasury Department and IRS to consider its potential effects on educational equity and access to private schools. Every child deserves access to a high-quality education, regardless...",
+      "representative_comment_id": "IRS-2026-1354-22488",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 2902,
+      "representative_excerpt": "Secretary of Education Linda McMahon. This new tax credit policy would best serve its purpose if students educated through homeschools and microschools could meaningfully access scholarships nationwide, regardless of how states classify these educational arrangements. We hope to see clarification in the forthcoming guidance that ensures this can happen....",
       "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22488": {
+          "organization": "Sutherland Institute",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Sutherland Institute",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7134534558799264
+    },
+    {
+      "cluster_id": 51,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-18245",
+      "representative_posted_date": "2026-10-21T04:00:00Z",
+      "representative_length": 1352,
+      "representative_excerpt": "This program reduces federal revenue for public school students while creating new subsidies for private tuition, including for families already using private schools.I oppose the proposed rule. I urge Treasury and the IRS to preserve states\u2019 authority to protect students and require rigorous oversight and accountability for any program receiving federal...",
+      "representative_signal_score": 4,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1090,15 +1184,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "IRS-2026-1354-12847": {
+        "IRS-2026-1354-18245": {
           "organization": "",
-          "postedDate": "2026-10-15T04:00:00Z",
+          "postedDate": "2026-10-21T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Anonymous",
+          "title": "Comment from Rodrigo, Herman",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1108,10 +1202,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5980118375026366
+      "presentation_score": 0.7086915511180215
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22475",
@@ -1144,10 +1238,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7138013111868472
+      "presentation_score": 0.7039296463561169
     },
     {
       "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22548",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 1528,
+      "representative_excerpt": "Data from existing school voucher programs already show that wealthier students reap the benefits, while low-income and rural communities pay the costs. The federal government should support strong, inclusive public schools, not incentives that drain resources and weaken students' civil rights. I strongly oppose the federal school voucher-style tax credit...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22548": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "New Orleans",
+          "stateProvinceRegion": "LA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Pellerin, Tyra",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6634534558799263
+    },
+    {
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22482",
@@ -1180,10 +1310,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6638013111868472
+      "presentation_score": 0.6539296463561168
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22437",
@@ -1216,10 +1346,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6559065743447419
+      "presentation_score": 0.6467867892132597
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22387",
@@ -1252,10 +1382,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6506434164500051
+      "presentation_score": 0.642024884451355
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21633",
@@ -1288,10 +1418,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6295907848710577
+      "presentation_score": 0.6229772654037359
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21614",
@@ -1324,10 +1454,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6269592059236893
+      "presentation_score": 0.6205963130227835
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22519",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "Homeschool eligibility: Clarify whether students participating in lawful home education programs qualify for scholarships when their state does not classify homeschooling as private school attendance. ii. Qualifying expenses : Provide specific examples of eligible homeschool expenses, including curriculum, textbooks, tutoring, online courses, educational...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22519": {
+          "organization": "Citizens Defending Freedom (CDF)",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Citizens Defending Freedom (CDF)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6134534558799263
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22439",
@@ -1360,10 +1526,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6059065743447418
+      "presentation_score": 0.5967867892132597
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21630",
@@ -1396,10 +1562,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5795907848710576
+      "presentation_score": 0.5729772654037358
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 55,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-12847",
+      "representative_posted_date": "2026-10-15T04:00:00Z",
+      "representative_length": 3147,
+      "representative_excerpt": "Department of the Treasury I am a Kansas resident and parent of school-aged children I oppose Kansas\u2019s participation in the Federal Scholarship Tax Credit program and urge the Treasury Department and IRS to consider its potential effects on educational equity and access to private schools. Every child deserves access to a high-quality education, regardless...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-12847": {
+          "organization": "",
+          "postedDate": "2026-10-15T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5944058368323073
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22508",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 1762,
+      "representative_excerpt": "Identify the information useful for judging simpler income-verification routes and proportionate audit arrangements, including relevant coverage and limits. 2. Identify the first assessment and public-account date or interval from implementation, and explain how material information would inform these arrangements sooner, building on existing corrective...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22508": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5634534558799262
+    },
+    {
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22445",
@@ -1432,10 +1670,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5638013111868471
+      "presentation_score": 0.5539296463561167
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22450",
@@ -1468,46 +1706,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5638013111868471
+      "presentation_score": 0.5539296463561167
     },
     {
-      "cluster_id": 10,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-22457",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 4856,
-      "representative_excerpt": "Establish robust transparency and accountability requirements for SGOs, including clear reporting of administrative expenditures, scholarship distributions, and the types of educational institutions and services supported. Minimize unnecessary administrative costs and barriers to participation. Ensure that implementation supports equitable access for...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "IRS-2026-1354-22457": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "Berkeley",
-          "stateProvinceRegion": "CA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Young, Michelle",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5638013111868471
-    },
-    {
-      "cluster_id": 23,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21635",
@@ -1540,46 +1742,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5295907848710576
+      "presentation_score": 0.5229772654037358
     },
     {
-      "cluster_id": 26,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-21623",
-      "representative_posted_date": "2026-10-26T04:00:00Z",
-      "representative_length": 88,
-      "representative_excerpt": "So let me get this straight you are going to PAC our future do you have any sense at all",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "IRS-2026-1354-21623": {
-          "organization": "Ascend Solutions LLC",
-          "postedDate": "2026-10-26T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Ascend Solutions LLC",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.3769592059236892
-    },
-    {
-      "cluster_id": 38,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21344",
@@ -1612,10 +1778,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5164328901342156
+      "presentation_score": 0.5110725034989738
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-18068",
@@ -1648,10 +1814,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.500643416450005
+      "presentation_score": 0.4967867892132596
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-18087",
@@ -1684,10 +1850,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.500643416450005
+      "presentation_score": 0.4967867892132596
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-12240",
@@ -1720,10 +1886,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49801183750263656
+      "presentation_score": 0.4944058368323072
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-12836",
@@ -1756,10 +1922,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49801183750263656
+      "presentation_score": 0.4944058368323072
     },
     {
       "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22489",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 192,
+      "representative_excerpt": "Adams submits the attached comments concerning REG-117199-25, addressing the proposed regulations and corresponding temporary regulations implementing section 25F of the Internal Revenue Code.",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22489": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Office of the Kentucky Secretary of State",
+          "withdrawn": false,
+          "submissionRole": "government_affiliated_or_unclear",
+          "submissionRoleConfidence": "medium",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46345345587992626
+    },
+    {
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22490",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 3578,
+      "representative_excerpt": "Department of Education to clarify applicable disability protections and require scholarship organizations to provide accessible, understandable information before families make enrollment decisions. Second, I support allowing scholarship organizations to pay qualifying educational providers directly. Families already managing medical appointments...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22490": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from R, Mindi",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.46345345587992626
+    },
+    {
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22444",
@@ -1792,10 +2030,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4638013111868471
+      "presentation_score": 0.4539296463561167
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22462",
@@ -1828,10 +2066,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4638013111868471
+      "presentation_score": 0.4539296463561167
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22473",
@@ -1864,10 +2102,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4638013111868471
+      "presentation_score": 0.4539296463561167
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22438",
@@ -1900,10 +2138,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4559065743447418
+      "presentation_score": 0.44678678921325954
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21608",
@@ -1936,10 +2174,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4269592059236892
+      "presentation_score": 0.4205963130227834
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21484",
@@ -1972,10 +2210,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4190644690815839
+      "presentation_score": 0.4134534558799262
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21334",
@@ -2008,10 +2246,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41643289013421547
+      "presentation_score": 0.41107250349897384
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21338",
@@ -2044,10 +2282,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41643289013421547
+      "presentation_score": 0.41107250349897384
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21389",
@@ -2080,10 +2318,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41643289013421547
+      "presentation_score": 0.41107250349897384
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-0009",
@@ -2116,52 +2354,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3743276269763207
+      "presentation_score": 0.37297726540373577
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-22442",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 885,
-      "representative_excerpt": "These resources can make a meaningful difference in areas such as tuition affordability, competitive teacher wages, and facility maintenance. Having firsthand experience with both parochial and public education, I believe supporting strong educational opportunities benefits not only individual students and schools, but the entire community. I support the...",
-      "representative_signal_score": 0,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "IRS-2026-1354-22442": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "Pinconning",
-          "stateProvinceRegion": "MI",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Grzegorczyk, Paul",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3638013111868471
-    },
-    {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-22464",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 97,
-      "representative_excerpt": "Please mandate inclusion of homeschoolers alongside private schools for every state that opts in!",
+      "representative_comment_id": "IRS-2026-1354-21623",
+      "representative_posted_date": "2026-10-26T04:00:00Z",
+      "representative_length": 88,
+      "representative_excerpt": "So let me get this straight you are going to PAC our future do you have any sense at all",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -2170,34 +2372,34 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "IRS-2026-1354-22464": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
+        "IRS-2026-1354-21623": {
+          "organization": "Ascend Solutions LLC",
+          "postedDate": "2026-10-26T04:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "VA",
-          "country": "United States",
+          "stateProvinceRegion": "",
+          "country": "",
           "attachmentCount": 0,
-          "title": "Comment from M, Laura",
+          "title": "Comment from Ascend Solutions LLC",
           "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.3638013111868471
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.3705963130227834
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "IRS-2026-1354-22468",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 417,
-      "representative_excerpt": "I encourage VT lawmakers to change the language to remove the restrictions that run counter to federal rules but include language that ensures SGOs can provide scholarships that benefit public schools, after school programs, and all the other things VTs proposed guidelines currently require....",
+      "representative_comment_id": "IRS-2026-1354-22495",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 264,
+      "representative_excerpt": "I fully support New York's participation in this credit program, and I am appreciative of the Governor for supporting it. It brings federal dollars into New York to support public, private, and religious schools, all of which should be valued in our diverse state.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -2206,15 +2408,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "IRS-2026-1354-22468": {
+        "IRS-2026-1354-22495": {
           "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
+          "postedDate": "2026-11-13T05:00:00Z",
           "zip": "",
-          "city": "Montpelier",
-          "stateProvinceRegion": "VT",
+          "city": "",
+          "stateProvinceRegion": "NY",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Schwarz, Erik",
+          "title": "Comment from Macko, Jonathan",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -2224,10 +2426,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3638013111868471
+      "presentation_score": 0.3634534558799263
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22501",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 757,
+      "representative_excerpt": "The regulations fail to address serious concerns around how the program would redirect billions of taxpayer dollars away from public schools, would lack academic and fiscal accountability and would deprive students of essential services, rights and protections, especially students with disabilities, low-income students and students who are English...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22501": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "Greenbelt",
+          "stateProvinceRegion": "MD",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from McKenzie, Eric",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3634534558799263
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22507",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 707,
+      "representative_excerpt": "I am commenting as a member of my local PTA, and thus as a member of National PTA. Public dollars must go to funding public schools. I urge Congress to reject in its entirety this move to a voucher program funded by federal dollars. As a parent of a child with disabilities, private schools are not required to serve our students, and most choose not to....",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22507": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3634534558799263
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22516",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 1124,
+      "representative_excerpt": "Furthermore, this program sets no cap, which could add billions of dollars to the national debt, again with no accountability. It's a scheme designed to funnel money to wealthy families who were already choosing and able to afford private schools. It is welfare for affluent families and leaves even fewer crumbs for the rest of us....",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22516": {
+          "organization": "",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "Phoenix",
+          "stateProvinceRegion": "AZ",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Ellicott, Rebecca",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3634534558799263
+    },
+    {
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-0003",
@@ -2260,10 +2570,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.36380131118684705
+      "presentation_score": 0.3634534558799262
+    },
+    {
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22442",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 885,
+      "representative_excerpt": "These resources can make a meaningful difference in areas such as tuition affordability, competitive teacher wages, and facility maintenance. Having firsthand experience with both parochial and public education, I believe supporting strong educational opportunities benefits not only individual students and schools, but the entire community. I support the...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22442": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "Pinconning",
+          "stateProvinceRegion": "MI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Grzegorczyk, Paul",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35392964635611673
     },
     {
       "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22464",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 97,
+      "representative_excerpt": "Please mandate inclusion of homeschoolers alongside private schools for every state that opts in!",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22464": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "VA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from M, Laura",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35392964635611673
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "IRS-2026-1354-22468",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 417,
+      "representative_excerpt": "I encourage VT lawmakers to change the language to remove the restrictions that run counter to federal rules but include language that ensures SGOs can provide scholarships that benefit public schools, after school programs, and all the other things VTs proposed guidelines currently require....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "IRS-2026-1354-22468": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "Montpelier",
+          "stateProvinceRegion": "VT",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Schwarz, Erik",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.35392964635611673
+    },
+    {
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22383",
@@ -2296,10 +2714,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.35064341645000496
+      "presentation_score": 0.3420248844513548
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21604",
@@ -2332,10 +2750,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3269592059236892
+      "presentation_score": 0.3205963130227834
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21607",
@@ -2368,10 +2786,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3269592059236892
+      "presentation_score": 0.3205963130227834
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21430",
@@ -2404,10 +2822,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3190644690815839
+      "presentation_score": 0.31345345587992623
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21435",
@@ -2440,10 +2858,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3190644690815839
+      "presentation_score": 0.31345345587992623
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21394",
@@ -2476,10 +2894,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3164328901342155
+      "presentation_score": 0.31107250349897386
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-21405",
@@ -2512,10 +2930,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3164328901342155
+      "presentation_score": 0.31107250349897386
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-10430",
@@ -2548,10 +2966,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2874855217131629
+      "presentation_score": 0.28488202730849765
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-2355",
@@ -2584,10 +3002,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2795907848710576
+      "presentation_score": 0.27773917016564054
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-2547",
@@ -2620,10 +3038,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2795907848710576
+      "presentation_score": 0.27773917016564054
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-0012",
@@ -2656,10 +3074,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.27432762697632074
+      "presentation_score": 0.2729772654037358
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "IRS-2026-1354-22443",
@@ -2692,26 +3110,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2638013111868471
+      "presentation_score": 0.2539296463561167
     }
   ],
   "comments_clusters_path": "data/comments/IRS-2026-1354.csv",
-  "government_submissions_count": 0,
-  "government_submissions": [],
+  "government_submissions_count": 1,
+  "government_submissions": [
+    {
+      "comment_id": "IRS-2026-1354-22494",
+      "organization": "",
+      "posted_date": "2026-11-13T05:00:00Z",
+      "title": "Comment from REFIT (Reform Education Funding Inequities Today)",
+      "attachment_count": 0,
+      "submission_role": "government_state",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Chris Dillon Plainview/Old Bethpage Chief Operating Officer David A. Little, Esq. Directors Ronald Ellerbe Nassau BOCES Michael Flynn Western Suffolk BOCES Dr. Terry Fulton Amityville Schools Aubrey Phillips Elmont Schools Ex Officio Members Deborah Coates Mary Louise Cohen Lorraine Deller Steve Gellar Susan Lipman Executive Secretary Kristel Lazarus REFIT...",
+      "source_cluster_ids": [
+        11
+      ]
+    }
+  ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.9418103448275862,
-  "comments_first_page_coverage_count": 437,
-  "comments_clusters_total_available": 52,
-  "comments_clusters_displayed": 52,
-  "comments_first_page_high_signal_clusters": 10,
-  "comments_first_page_novelty_clusters": 4,
+  "comments_first_page_coverage_share": 0.9230769230769231,
+  "comments_first_page_coverage_count": 456,
+  "comments_clusters_total_available": 63,
+  "comments_clusters_displayed": 63,
+  "comments_first_page_high_signal_clusters": 13,
+  "comments_first_page_novelty_clusters": 5,
   "comments_first_page_stance_counts": {
-    "negative": 15,
-    "neutral": 6,
+    "negative": 16,
+    "neutral": 5,
     "positive": 4
   },
-  "comments_first_page_unique_days": 10,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,

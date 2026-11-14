@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-13T07:23:52.566633+00:00",
+  "comment_action_checked_at": "2026-11-14T10:10:28.406511+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-11-24T04:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 5,
-  "pass_3_score": 6.333333333333334,
+  "pass_3_score": 6.818181818181818,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.6520009592077447,
+  "pass_3_scaled": 0.6790158828512474,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.9386851946589375,
+  "combined_score": 0.9565238174510751,
   "score_total": 14,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -84,7 +84,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The notice does not adequately connect its numerical safe harbors, land-value formula, and phased implementation plan to evidence, fallback methods, or monitoring controls.",
-  "combined_score_pre_pass5": 0.7676374428352241,
+  "combined_score_pre_pass5": 0.7822255016027154,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -446,87 +446,225 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 71,
-  "comments_velocity_total": 70,
-  "comments_public_total_estimate": 70,
-  "comments_fetched": 0,
-  "comments_text_hydrated": 0,
-  "comments_cached_records": 71,
-  "comments_unique_clusters": 67,
-  "comments_clustered_duplicates": 4,
+  "comments_total": 86,
+  "comments_velocity_total": 84,
+  "comments_public_total_estimate": 84,
+  "comments_fetched": 15,
+  "comments_text_hydrated": 18,
+  "comments_cached_records": 86,
+  "comments_unique_clusters": 78,
+  "comments_clustered_duplicates": 8,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 51,
+  "comments_citizen_count": 59,
   "comments_commenter_type_counts": {
-    "organization_other": 20,
-    "citizen": 51
+    "organization_other": 26,
+    "citizen": 59,
+    "government": 1
   },
   "comments_submission_role_counts": {
-    "organization": 10,
-    "individual": 61
+    "individual": 73,
+    "government_unknown": 1,
+    "organization": 12
   },
   "comments_submission_channel_counts": {
-    "public_portal": 70,
+    "public_portal": 84,
+    "agency_material": 1,
     "other_channel_recorded": 1
   },
-  "comments_public_count": 70,
+  "comments_public_count": 84,
   "comments_recorded_count": 1,
-  "comments_agency_material_count": 0,
+  "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-11-09": 16,
+    "2026-11-13": 2,
+    "2026-11-12": 12,
+    "2026-11-09": 14,
     "2026-11-06": 7,
     "2026-11-05": 5,
     "2026-11-04": 2,
     "2026-11-03": 3,
-    "2026-11-02": 3,
+    "2026-11-02": 2,
     "2026-10-30": 9,
     "2026-10-29": 8,
     "2026-10-27": 4,
     "2026-10-26": 10
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-11-12": 1,
     "2026-11-06": 3,
     "2026-11-05": 2,
     "2026-11-03": 1,
     "2026-10-26": 2
   },
-  "comments_novel_comment_rate": 0.9436619718309859,
-  "comments_sentiment_positive_pct": 0.2951414877350617,
-  "comments_sentiment_negative_pct": 0.029265501752134097,
-  "comments_sentiment_neutral_pct": 0.6755930105128042,
-  "comments_sentiment_net": 0.2658759859829276,
-  "comments_sentiment_sample_size": 70,
+  "comments_novel_comment_rate": 0.9069767441860465,
+  "comments_sentiment_positive_pct": 0.24377643846755948,
+  "comments_sentiment_negative_pct": 0.024894246129762376,
+  "comments_sentiment_neutral_pct": 0.7313293154026782,
+  "comments_sentiment_net": 0.2188821923377971,
+  "comments_sentiment_sample_size": 84,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 71,
+  "comments_analysis_sample_size": 86,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 71,
-  "comments_representative_prior_selected": 71,
+  "comments_representative_selected": 86,
+  "comments_representative_prior_selected": 86,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 16,
+  "comments_representative_must_keep": 22,
   "comments_representative_run_budget": 0,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 16,
+    "must_keep": 22,
     "salience_rank": 1,
-    "weighted_fill": 54
+    "weighted_fill": 63
   },
-  "comments_representative_selected_by_counts_total": 71,
+  "comments_representative_selected_by_counts_total": 86,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-12T06:07:36.726791+00:00",
-  "comments_checked_at": "2026-11-12T06:07:37.810231+00:00",
+  "comments_api_last_seen_at": "2026-11-14T06:25:48.075982+00:00",
+  "comments_checked_at": "2026-11-14T06:25:48.768075+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 26,
+      "cluster_id": 3,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0085",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 3444,
+      "representative_excerpt": "They support recruitment, retention, and timely placement of employees whose work is essential to business operations, facility expansions, and local economic activity. \u2022For communities, these programs support the active marketing and sale of homes to individual buyers while helping employers fill positions that sustain local jobs and services. These...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0085": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "Scottsdale",
+          "stateProvinceRegion": "AZ",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Rybarczyk, Allison",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "TREAS-DO-2026-0529-0065": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "Omaha",
+          "stateProvinceRegion": "NE",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Pearson, Connie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "TREAS-DO-2026-0529-0055": {
+          "organization": "Relocation Today",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Relocation Today",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7247813245555649
+    },
+    {
+      "cluster_id": 1,
+      "count": 3,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0087",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 3114,
+      "representative_excerpt": "They support recruitment, retention, and timely placement of employees whose work is essential to business operations, facility expansions, and local economic activity. \u2022 For communities, these programs support the active marketing and sale of homes to individual buyers while helping employers fill positions that sustain local jobs and services. These...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0087": {
+          "organization": "REALTY EXECUTIVES ASSOCIATES",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from REALTY EXECUTIVES ASSOCIATES",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "TREAS-DO-2026-0529-0083": {
+          "organization": "Arizona Best Real Estate",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Arizona Best Real Estate",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "TREAS-DO-2026-0529-0068": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "St Paul",
+          "stateProvinceRegion": "MN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Mische, Jenifer",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7303368801111204
+    },
+    {
+      "cluster_id": 38,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0045",
@@ -574,61 +712,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8489883780852809
+      "presentation_score": 0.7964146783978103
     },
     {
-      "cluster_id": 5,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0068",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 3121,
-      "representative_excerpt": "They support recruitment, retention, and timely placement of employees whose work is essential to business operations, facility expansions, and local economic activity. \u2022 For communities, these programs support the active marketing and sale of homes to individual buyers while helping employers fill positions that sustain local jobs and services. These...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0068": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "St Paul",
-          "stateProvinceRegion": "MN",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Mische, Jenifer",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "TREAS-DO-2026-0529-0055": {
-          "organization": "Relocation Today",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Relocation Today",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7775598066567094
-    },
-    {
-      "cluster_id": 3,
+      "cluster_id": 17,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0070",
@@ -676,10 +763,61 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7275598066567094
+      "presentation_score": 0.6686369006200323
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 9,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0078",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 1546,
+      "representative_excerpt": "Property managers like me act strictly as our clients agent under written management agreements. Our owners not our firm decide whether to buy, sell, hold, or refinance their properties, approve major expenditures, set overall strategy, and retain the right to terminate the agreement at any time. In response to Question 117, I respectfully encourage...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0078": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "Kailua",
+          "stateProvinceRegion": "HI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Cardoza, Karen",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "TREAS-DO-2026-0529-0035": {
+          "organization": "",
+          "postedDate": "2026-11-02T05:00:00Z",
+          "zip": "",
+          "city": "Austin",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from multiple submitters",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6853035672866991
+    },
+    {
+      "cluster_id": 51,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0031",
@@ -727,10 +865,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.456131235228138
+      "presentation_score": 0.41308134506447686
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0039",
@@ -763,10 +901,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8485642133801667
+      "presentation_score": 0.8099144982823696
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0002",
@@ -799,16 +937,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6654700538379252
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0003",
-      "representative_posted_date": "2026-10-26T04:00:00Z",
-      "representative_length": 4774,
-      "representative_excerpt": "Rent comparisons should accept a good-faith, market-based method so the Treasury does not become a rent regulator. Rent reporting should occur only when the renter opts in. Add a facts-and-circumstances path to Section 36.7, treat the support-ending rules alike in both sections, and allow a safe harbor scaled to time rented before five years. The right of...",
+      "representative_comment_id": "TREAS-DO-2026-0529-0080",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 1412,
+      "representative_excerpt": "We incorporate relevant statements by Chairman French Hill and Ranking Member Maxine Waters concerning congressional intent. Exhibit A contains a signed, redacted institutional joint venture term sheet documenting a proposed equity commitment of up to $100 million, demonstrating the scale of investment affected by regulatory uncertainty. We...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -817,51 +955,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "TREAS-DO-2026-0529-0003": {
-          "organization": "",
-          "postedDate": "2026-10-26T04:00:00Z",
+        "TREAS-DO-2026-0529-0080": {
+          "organization": "Foundation Assets LLC",
+          "postedDate": "2026-11-12T05:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Grisham, Michael",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
-    },
-    {
-      "cluster_id": 25,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0046",
-      "representative_posted_date": "2026-11-05T05:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "The HCAD deed table records the account, date of sale and clerk instrument number, but no price. Texas does not require sale prices to be disclosed in recorded deeds. \"Purchase price of the property\" drives both the renovate-to-rent thresholds and the maximum civil penalty, so in Texas and similar states only the parties' closing records can establish it....",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0046": {
-          "organization": "Tensorust LLC",
-          "postedDate": "2026-11-05T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Tensorust LLC",
+          "title": "Comment from Foundation Assets LLC",
           "withdrawn": false,
           "submissionRole": "organization",
           "submissionRoleConfidence": "high",
@@ -871,10 +973,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8128499276658809
+      "presentation_score": 0.8099144982823697
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0052",
@@ -907,10 +1009,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.819992784808738
+      "presentation_score": 0.7765811649490364
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0054",
@@ -943,10 +1045,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.819992784808738
+      "presentation_score": 0.7765811649490364
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 37,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0046",
+      "representative_posted_date": "2026-11-05T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "The HCAD deed table records the account, date of sale and clerk instrument number, but no price. Texas does not require sale prices to be disclosed in recorded deeds. \"Purchase price of the property\" drives both the renovate-to-rent thresholds and the maximum civil penalty, so in Texas and similar states only the parties' closing records can establish it....",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0046": {
+          "organization": "Tensorust LLC",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Tensorust LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7710256093934809
+    },
+    {
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0053",
@@ -979,10 +1117,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.769992784808738
+      "presentation_score": 0.7265811649490364
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0086",
+      "representative_posted_date": "2026-11-13T05:00:00Z",
+      "representative_length": 2685,
+      "representative_excerpt": "Having that support can make the difference between an employee accepting a new opportunity and feeling unable to make the move. Approximately 50,000 American workers in the private sector and federal government use employer- sponsored relocation home sale benefits...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0086": {
+          "organization": "Berkshire Hathaway HomeServices Kee Realty",
+          "postedDate": "2026-11-13T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Berkshire Hathaway HomeServices Kee Realty",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7154700538379252
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0076",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 2975,
+      "representative_excerpt": "We ask Treasury to work with HUD and FHFA so renovation mortgages for owner-occupants can include storm-strengthening upgrades. A young family could then buy an older home and fix the roof with one loan. The Act keeps the largest investors from outbidding families. The other half of the job is keeping existing homes strong and insurable, so a local family...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0076": {
+          "organization": "National Resilient Housing Initiative",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from National Resilient Housing Initiative",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7099144982823696
+    },
+    {
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0059",
@@ -1015,17 +1225,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7414213562373095
+      "presentation_score": 0.6932478316157029
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0062",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "Res. 1299/H.R. 6644) - De\ufb01nition of \u201cLarge Institutional Investor\u201d & Employer Sponsored Relocation Home Sale Programs Dear Chair Scott, Ranking Member Warren, Chair Britt, Ranking Member Smith, Chair Hill, Ranking Member Waters, Chair Flood and Ranking Member Cleaver: As Congress continues e\ufb00orts to improve housing a\ufb00ordability and seeks to limit the role...",
-      "representative_signal_score": 2,
+      "representative_comment_id": "TREAS-DO-2026-0529-0003",
+      "representative_posted_date": "2026-10-26T04:00:00Z",
+      "representative_length": 4774,
+      "representative_excerpt": "Rent comparisons should accept a good-faith, market-based method so the Treasury does not become a rent regulator. Rent reporting should occur only when the renter opts in. Add a facts-and-circumstances path to Section 36.7, treat the support-ending rules alike in both sections, and allow a safe harbor scaled to time rented before five years. The right of...",
+      "representative_signal_score": 3,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1033,51 +1243,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "TREAS-DO-2026-0529-0062": {
+        "TREAS-DO-2026-0529-0003": {
           "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "AZ-Tucson-USA",
-          "stateProvinceRegion": "AZ",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Lowenstein, Jana Lee",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
-    },
-    {
-      "cluster_id": 10,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0063",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 1492,
-      "representative_excerpt": "Department of the Treasury, 21st Century ROAD to Housing Act Prohibition on Large Institutional Investor Purchases of Single-Family Homes; Docket TREAS-DO-2026-0529; RIN 1505-AC96 I support the proposed U.S. Department of Treasury\u2019s proposed rule on the 21st Century ROAD to Housing Act\u2019s large institutional investor provisions and Treasury\u2019s recognition...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0063": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
+          "postedDate": "2026-10-26T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Anonymous",
+          "title": "Comment from Grisham, Michael",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1087,51 +1261,15 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6654700538379252
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0064",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 3820,
-      "representative_excerpt": "Employer-sponsored relocation home sale programs across corporate and government sectors serve an important and fundamentally different purpose from institutional investment in residential real estate. These programs facilitate employee mobility by helping employees sell their homes when they relocate at the request of, or in connection with employment by...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0064": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "CHICAGO",
-          "stateProvinceRegion": "IL",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Wackerlin, Elizabeth",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
-    },
-    {
-      "cluster_id": 8,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0065",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 3510,
+      "representative_comment_id": "TREAS-DO-2026-0529-0074",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 3944,
       "representative_excerpt": "They support recruitment, retention, and timely placement of employees whose work is essential to business operations, facility expansions, and local economic activity. \u2022 For communities, these programs support the active marketing and sale of homes to individual buyers while helping employers fill positions that sustain local jobs and services. These...",
       "representative_signal_score": 2,
       "representative_stance": "positive",
@@ -1141,15 +1279,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "TREAS-DO-2026-0529-0065": {
+        "TREAS-DO-2026-0529-0074": {
           "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
+          "postedDate": "2026-11-12T05:00:00Z",
           "zip": "",
-          "city": "Omaha",
-          "stateProvinceRegion": "NE",
+          "city": "anderson",
+          "stateProvinceRegion": "SC",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Pearson, Connie",
+          "title": "Comment from MANSFIELD, Bet",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1159,10 +1297,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6914213562373095
+      "presentation_score": 0.6599144982823696
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0013",
@@ -1195,10 +1333,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6485642133801667
+      "presentation_score": 0.6210256093934807
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0014",
@@ -1231,10 +1369,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6485642133801667
+      "presentation_score": 0.6210256093934807
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0015",
@@ -1267,10 +1405,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6485642133801667
+      "presentation_score": 0.6210256093934807
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0009",
@@ -1303,10 +1441,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6414213562373096
+      "presentation_score": 0.6154700538379252
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0057",
@@ -1339,10 +1477,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6414213562373096
+      "presentation_score": 0.593247831615703
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0072",
@@ -1375,10 +1513,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6414213562373096
+      "presentation_score": 0.593247831615703
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0043",
@@ -1411,53 +1549,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.612849927665881
+      "presentation_score": 0.5710256093934808
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0037",
-      "representative_posted_date": "2026-11-02T05:00:00Z",
-      "representative_length": 530,
-      "representative_excerpt": "The comment addresses selected questions concerning institutional-investor purchase exceptions, property control, renter protections, meaningful financial support, and continuity of obligations. It recommends clear fee disclosures, documented charges, and reviewable evidence so that intended homeownership benefits reach renters while preserving...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0037": {
-          "organization": "VeloxVFX LLC",
-          "postedDate": "2026-11-02T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from VeloxVFX LLC",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5914213562373095
-    },
-    {
-      "cluster_id": 16,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0056",
+      "representative_comment_id": "TREAS-DO-2026-0529-0062",
       "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 932,
-      "representative_excerpt": "As Vice President of Shared Services at Aires, a global relocation management company, I support Treasury's proposed treatment of relocation-related home sale programs under \u00a736.15(b). Our clients include organizations that depend on the ability to move employees to meet business, government, and economic needs. Employer-sponsored home sale programs...",
-      "representative_signal_score": 0,
+      "representative_length": 5000,
+      "representative_excerpt": "Res. 1299/H.R. 6644) - De\ufb01nition of \u201cLarge Institutional Investor\u201d & Employer Sponsored Relocation Home Sale Programs Dear Chair Scott, Ranking Member Warren, Chair Britt, Ranking Member Smith, Chair Hill, Ranking Member Waters, Chair Flood and Ranking Member Cleaver: As Congress continues e\ufb00orts to improve housing a\ufb00ordability and seeks to limit the role...",
+      "representative_signal_score": 2,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1465,15 +1567,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "TREAS-DO-2026-0529-0056": {
-          "organization": "Aires",
+        "TREAS-DO-2026-0529-0062": {
+          "organization": "",
           "postedDate": "2026-11-09T05:00:00Z",
           "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
+          "city": "AZ-Tucson-USA",
+          "stateProvinceRegion": "AZ",
+          "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Aires",
+          "title": "Comment from Lowenstein, Jana Lee",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1482,11 +1584,83 @@
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5414213562373096
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6432478316157029
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0063",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 1492,
+      "representative_excerpt": "Department of the Treasury, 21st Century ROAD to Housing Act Prohibition on Large Institutional Investor Purchases of Single-Family Homes; Docket TREAS-DO-2026-0529; RIN 1505-AC96 I support the proposed U.S. Department of Treasury\u2019s proposed rule on the 21st Century ROAD to Housing Act\u2019s large institutional investor provisions and Treasury\u2019s recognition...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0063": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6432478316157029
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0064",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 3820,
+      "representative_excerpt": "Employer-sponsored relocation home sale programs across corporate and government sectors serve an important and fundamentally different purpose from institutional investment in residential real estate. These programs facilitate employee mobility by helping employees sell their homes when they relocate at the request of, or in connection with employment by...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0064": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "CHICAGO",
+          "stateProvinceRegion": "IL",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Wackerlin, Elizabeth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6432478316157029
+    },
+    {
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0038",
@@ -1519,46 +1693,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6485642133801667
+      "presentation_score": 0.6099144982823695
     },
     {
-      "cluster_id": 36,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0035",
-      "representative_posted_date": "2026-11-02T05:00:00Z",
-      "representative_length": 1546,
-      "representative_excerpt": "Property managers like me act strictly as our clients agent under written management agreements. Our owners not our firm decide whether to buy, sell, hold, or refinance their properties, approve major expenditures, set overall strategy, and retain the right to terminate the agreement at any time. In response to Question 117, I respectfully encourage...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0035": {
-          "organization": "",
-          "postedDate": "2026-11-02T05:00:00Z",
-          "zip": "",
-          "city": "Austin",
-          "stateProvinceRegion": "TX",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from multiple submitters",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6414213562373096
-    },
-    {
-      "cluster_id": 47,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0024",
@@ -1591,10 +1729,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.612849927665881
+      "presentation_score": 0.5821367205045918
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0004",
@@ -1627,10 +1765,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5914213562373095
+      "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0005",
@@ -1663,10 +1801,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5914213562373095
+      "presentation_score": 0.5654700538379251
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0073",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 1181,
+      "representative_excerpt": "Clarify that routine home purchases made as part of individual employee relocations do not constitute a \u201cregular or continuing investment strategy.\u201d Provide clear examples or a safe harbor for home sale programs established before January 7, 2027. Protecting this exclusion is important to ensuring that employers can continue offering relocation assistance...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0073": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Pearson, Donna",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5599144982823696
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0077",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 1091,
+      "representative_excerpt": "I have spent my career working in employee mobility (40 years) and have seen firsthand how important employer-sponsored home sale programs can be when an employee is asked to relocate for work. I support Treasury\u2019s recognition that temporarily taking ownership of a home as part of a relocation program is fundamentally different from purchasing homes as an...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0077": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "Summerville",
+          "stateProvinceRegion": "SC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from RUSSELL, CHRISTINE",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5599144982823696
+    },
+    {
+      "cluster_id": 46,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0037",
+      "representative_posted_date": "2026-11-02T05:00:00Z",
+      "representative_length": 530,
+      "representative_excerpt": "The comment addresses selected questions concerning institutional-investor purchase exceptions, property control, renter protections, meaningful financial support, and continuity of obligations. It recommends clear fee disclosures, documented charges, and reviewable evidence so that intended homeownership benefits reach renters while preserving...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0037": {
+          "organization": "VeloxVFX LLC",
+          "postedDate": "2026-11-02T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from VeloxVFX LLC",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5543589427268141
+    },
+    {
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0060",
@@ -1699,10 +1945,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5914213562373095
+      "presentation_score": 0.543247831615703
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0041",
@@ -1735,10 +1981,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5557070705230238
+      "presentation_score": 0.5154700538379252
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0079",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 730,
+      "representative_excerpt": "Berkadia requests that Treasury clarify that owners of homes dedicated to licensed or regulated residential care for individuals with intellectual and developmental disabilities (IDD) are not treated as large institutional investors merely because they own multiple single-family homes used for that purpose. These homes support essential community-based...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0079": {
+          "organization": "Berkadia Commercial Mortgage LLC, Anthony Cinquini, Managing Director",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Berkadia Commercial Mortgage LLC, Anthony Cinquini, Managing Director",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5099144982823697
+    },
+    {
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0040",
@@ -1771,10 +2053,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5485642133801666
+      "presentation_score": 0.5099144982823696
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0056",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 932,
+      "representative_excerpt": "As Vice President of Shared Services at Aires, a global relocation management company, I support Treasury's proposed treatment of relocation-related home sale programs under \u00a736.15(b). Our clients include organizations that depend on the ability to move employees to meet business, government, and economic needs. Employer-sponsored home sale programs...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0056": {
+          "organization": "Aires",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Aires",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.49324783161570296
+    },
+    {
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0032",
@@ -1807,10 +2125,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.519992784808738
+      "presentation_score": 0.48769227606014737
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0047",
@@ -1843,226 +2161,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.512849927665881
+      "presentation_score": 0.47102560939348076
     },
     {
-      "cluster_id": 29,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0042",
-      "representative_posted_date": "2026-11-04T05:00:00Z",
-      "representative_length": 154,
-      "representative_excerpt": "Please see attached comment from Ben Vinson, Founder, The House Truth, on documentation standards for the renovate-to-rent exception (proposed Sec. 36.6).",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0042": {
-          "organization": "The House Truth",
-          "postedDate": "2026-11-04T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from The House Truth",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.5057070705230238
-    },
-    {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0061",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 590,
-      "representative_excerpt": "I support the proposed U.S. Department of Treasury\u2019s proposed rule on the 21st Century ROAD to Housing Act\u2019s large institutional investor provisions and Treasury\u2019s recognition within the rule that there are legitimate market circumstances\u2014such as those surrounding the relocation-related home sale programs that facilitate the ability of employees moving for...",
-      "representative_signal_score": 0,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0061": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "Minneapolis",
-          "stateProvinceRegion": "MN",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Lindstrom, Sara",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
-    },
-    {
-      "cluster_id": 7,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0066",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 390,
-      "representative_excerpt": "As a Broker that has helped numerous buyers/sellers relocate their lives when required to do so by their employers - I have seen the help given and transactions that might not have happened without employer managed/funded assistance. Most of these people have not been executives and needed the assistance to make the job change/promotion/relocation. Please...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0066": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "Taylorsville",
-          "stateProvinceRegion": "UT",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from O'Boyle, Ken",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
-    },
-    {
-      "cluster_id": 6,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0067",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 461,
-      "representative_excerpt": "Yes, please stop large institutions investors from purchasing subdivisions/individual homes to then turn them into rental properties. We have too many already. In my state there are so many SFR/TH/Twin Home projects already in existance. I would even go so far as to take away their tax benefits and encourage/force them to sell all the homes. Maybe even...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0067": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "Taylorsville",
-          "stateProvinceRegion": "UT",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from O'Boyle, Kendell",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
-    },
-    {
-      "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0069",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 605,
-      "representative_excerpt": "I support the principles and consumer protections reflected in the Act. However, particular care should be taken to protect employer-sponsored relocation home sale programs, which serve a distinct purpose from a traditional residential real estate transaction. These programs provide important financial certainty and mobility support to employees who are...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0069": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
-    },
-    {
-      "cluster_id": 2,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0071",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 695,
-      "representative_excerpt": "I support proposed \u00a7 36.15 of the Treasury\u2019s ROAD Act rule because relocation home sale programs acquire homes only temporarily and incidentally to help employees relocate for work, with the goal of reselling those homes to owner-occupants. As a Realtor serving a community near Fort Knox, I understand how important relocation is for military families...",
-      "representative_signal_score": 0,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0071": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.49142135623730954
-    },
-    {
-      "cluster_id": 62,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0007",
@@ -2095,10 +2197,298 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4914213562373095
+      "presentation_score": 0.46547005383792517
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 41,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0042",
+      "representative_posted_date": "2026-11-04T05:00:00Z",
+      "representative_length": 154,
+      "representative_excerpt": "Please see attached comment from Ben Vinson, Founder, The House Truth, on documentation standards for the renovate-to-rent exception (proposed Sec. 36.6).",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0042": {
+          "organization": "The House Truth",
+          "postedDate": "2026-11-04T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from The House Truth",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.46547005383792517
+    },
+    {
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0081",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 164,
+      "representative_excerpt": "Northeast Ohio Relocation Roundtable (NEORR) supports the Treasury\u2019s proposed \u00a7 36.15 definition of institutional investors in the 21st Century ROAD to Housing Act.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "agency_material",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0081": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Northeast Ohio Relocation Roundtable- NEORR",
+          "withdrawn": false,
+          "submissionRole": "government_unknown",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "agency_material",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45991449828236963
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0082",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 515,
+      "representative_excerpt": "I support Treasury's proposed clarification regarding employer-sponsored relocation home sale programs. These programs are workforce mobility tools that help employees relocate for business reasons and should not be classified as institutional investors. Maintaining this clarification will help employers continue to relocate talent efficiently while...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0082": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.45991449828236963
+    },
+    {
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0061",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 590,
+      "representative_excerpt": "I support the proposed U.S. Department of Treasury\u2019s proposed rule on the 21st Century ROAD to Housing Act\u2019s large institutional investor provisions and Treasury\u2019s recognition within the rule that there are legitimate market circumstances\u2014such as those surrounding the relocation-related home sale programs that facilitate the ability of employees moving for...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0061": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "Minneapolis",
+          "stateProvinceRegion": "MN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Lindstrom, Sara",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44324783161570297
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0066",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 390,
+      "representative_excerpt": "As a Broker that has helped numerous buyers/sellers relocate their lives when required to do so by their employers - I have seen the help given and transactions that might not have happened without employer managed/funded assistance. Most of these people have not been executives and needed the assistance to make the job change/promotion/relocation. Please...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0066": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "Taylorsville",
+          "stateProvinceRegion": "UT",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from O'Boyle, Ken",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44324783161570297
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0067",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 461,
+      "representative_excerpt": "Yes, please stop large institutions investors from purchasing subdivisions/individual homes to then turn them into rental properties. We have too many already. In my state there are so many SFR/TH/Twin Home projects already in existance. I would even go so far as to take away their tax benefits and encourage/force them to sell all the homes. Maybe even...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0067": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "Taylorsville",
+          "stateProvinceRegion": "UT",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from O'Boyle, Kendell",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44324783161570297
+    },
+    {
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0069",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 605,
+      "representative_excerpt": "I support the principles and consumer protections reflected in the Act. However, particular care should be taken to protect employer-sponsored relocation home sale programs, which serve a distinct purpose from a traditional residential real estate transaction. These programs provide important financial certainty and mobility support to employees who are...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0069": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44324783161570297
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0071",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 695,
+      "representative_excerpt": "I support proposed \u00a7 36.15 of the Treasury\u2019s ROAD Act rule because relocation home sale programs acquire homes only temporarily and incidentally to help employees relocate for work, with the goal of reselling those homes to owner-occupants. As a Realtor serving a community near Fort Knox, I understand how important relocation is for military families...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0071": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.44324783161570297
+    },
+    {
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0049",
@@ -2131,10 +2521,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4699927848087381
+      "presentation_score": 0.4265811649490363
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0051",
@@ -2167,10 +2557,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4699927848087381
+      "presentation_score": 0.4265811649490363
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0044",
@@ -2203,10 +2593,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.46284992766588096
+      "presentation_score": 0.42102560939348077
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0036",
@@ -2239,10 +2629,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414213562373095
+      "presentation_score": 0.40435894272681405
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0029",
@@ -2275,10 +2665,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4199927848087381
+      "presentation_score": 0.3876922760601474
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0030",
@@ -2311,10 +2701,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4199927848087381
+      "presentation_score": 0.3876922760601474
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0033",
@@ -2347,10 +2737,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4199927848087381
+      "presentation_score": 0.3876922760601474
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0017",
@@ -2383,10 +2773,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4128499276658809
+      "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0018",
@@ -2419,10 +2809,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4128499276658809
+      "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0023",
@@ -2455,10 +2845,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4128499276658809
+      "presentation_score": 0.38213672050459185
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0012",
@@ -2491,10 +2881,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3985642133801666
+      "presentation_score": 0.3710256093934807
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0008",
@@ -2527,10 +2917,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0010",
@@ -2563,10 +2953,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3914213562373095
+      "presentation_score": 0.3654700538379252
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0075",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 53,
+      "representative_excerpt": "I support excluding relocation services from this act",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0075": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "Spartanburg",
+          "stateProvinceRegion": "SC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Parks, Jeff",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3599144982823696
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0084",
+      "representative_posted_date": "2026-11-12T05:00:00Z",
+      "representative_length": 22,
+      "representative_excerpt": "Support 36.15 as drawn",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0084": {
+          "organization": "",
+          "postedDate": "2026-11-12T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3599144982823696
+    },
+    {
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0026",
@@ -2599,82 +3061,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.36999278480873804
+      "presentation_score": 0.33769227606014734
     },
     {
-      "cluster_id": 23,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0048",
-      "representative_posted_date": "2026-11-06T05:00:00Z",
-      "representative_length": 66,
-      "representative_excerpt": "I support the language the treasury has proposed to protect RMC\u2019s.",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0048": {
-          "organization": "",
-          "postedDate": "2026-11-06T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.36999278480873804
-    },
-    {
-      "cluster_id": 21,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "TREAS-DO-2026-0529-0050",
-      "representative_posted_date": "2026-11-06T05:00:00Z",
-      "representative_length": 66,
-      "representative_excerpt": "I support the language the treasury has proposed to protect RMC\u2019s.",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "TREAS-DO-2026-0529-0050": {
-          "organization": "",
-          "postedDate": "2026-11-06T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.36999278480873804
-    },
-    {
-      "cluster_id": 49,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0021",
@@ -2707,10 +3097,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.36284992766588087
+      "presentation_score": 0.3321367205045918
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 35,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0048",
+      "representative_posted_date": "2026-11-06T05:00:00Z",
+      "representative_length": 66,
+      "representative_excerpt": "I support the language the treasury has proposed to protect RMC\u2019s.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0048": {
+          "organization": "",
+          "postedDate": "2026-11-06T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3265811649490363
+    },
+    {
+      "cluster_id": 33,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "TREAS-DO-2026-0529-0050",
+      "representative_posted_date": "2026-11-06T05:00:00Z",
+      "representative_length": 66,
+      "representative_excerpt": "I support the language the treasury has proposed to protect RMC\u2019s.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "TREAS-DO-2026-0529-0050": {
+          "organization": "",
+          "postedDate": "2026-11-06T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3265811649490363
+    },
+    {
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0027",
@@ -2743,10 +3205,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31999278480873805
+      "presentation_score": 0.28769227606014736
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0028",
@@ -2779,10 +3241,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31999278480873805
+      "presentation_score": 0.28769227606014736
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0034",
@@ -2815,10 +3277,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.31999278480873805
+      "presentation_score": 0.28769227606014736
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0019",
@@ -2851,10 +3313,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3128499276658809
+      "presentation_score": 0.2821367205045918
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0020",
@@ -2887,10 +3349,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3128499276658809
+      "presentation_score": 0.2821367205045918
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0025",
@@ -2923,10 +3385,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3128499276658809
+      "presentation_score": 0.2821367205045918
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0006",
@@ -2959,10 +3421,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
+      "presentation_score": 0.26547005383792516
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "TREAS-DO-2026-0529-0011",
@@ -2995,26 +3457,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.29142135623730947
+      "presentation_score": 0.26547005383792516
     }
   ],
   "comments_clusters_path": "data/comments/TREAS-DO-2026-0529.csv",
-  "government_submissions_count": 0,
-  "government_submissions": [],
+  "government_submissions_count": 1,
+  "government_submissions": [
+    {
+      "comment_id": "TREAS-DO-2026-0529-0081",
+      "organization": "",
+      "posted_date": "2026-11-12T05:00:00Z",
+      "title": "Comment from Northeast Ohio Relocation Roundtable- NEORR",
+      "attachment_count": 0,
+      "submission_role": "government_unknown",
+      "submission_role_confidence": "high",
+      "submission_channel": "agency_material",
+      "submission_channel_confidence": "medium",
+      "withdrawn": false,
+      "representative_excerpt": "Northeast Ohio Relocation Roundtable (NEORR) supports the Treasury\u2019s proposed \u00a7 36.15 definition of institutional investors in the 21st Century ROAD to Housing Act.",
+      "source_cluster_ids": [
+        6
+      ]
+    }
+  ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.4084507042253521,
-  "comments_first_page_coverage_count": 29,
-  "comments_clusters_total_available": 67,
-  "comments_clusters_displayed": 67,
-  "comments_first_page_high_signal_clusters": 8,
-  "comments_first_page_novelty_clusters": 15,
+  "comments_first_page_coverage_share": 0.38372093023255816,
+  "comments_first_page_coverage_count": 33,
+  "comments_clusters_total_available": 78,
+  "comments_clusters_displayed": 78,
+  "comments_first_page_high_signal_clusters": 9,
+  "comments_first_page_novelty_clusters": 17,
   "comments_first_page_stance_counts": {
-    "neutral": 14,
-    "positive": 9,
+    "neutral": 16,
+    "positive": 7,
     "negative": 2
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 9,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,
