@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-15T07:24:11.445612+00:00",
+  "comment_action_checked_at": "2026-11-16T09:50:29.148605+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-11-24T04:59:59Z",
   "pass_1_score": 11,
   "pass_2_score": 5,
-  "pass_3_score": 6.529411764705882,
+  "pass_3_score": 6.333333333333334,
   "pass_1_scaled": 0.7763932022500211,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.6631896592404971,
+  "pass_3_scaled": 0.6520009592077447,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.7373686141293057,
+  "combined_score": 0.7317742641129295,
   "score_total": 16,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -1700,10 +1700,10 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-03-30T04:00:00Z",
-      "received_date": null,
+      "received_date": "2023-03-30T04:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 2,
       "media": null,
       "file_formats": null
     },
@@ -1715,12 +1715,23 @@
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2023-03-28T04:00:00Z",
-      "received_date": null,
+      "received_date": "2023-03-28T04:00:00Z",
       "author_date": null,
       "authors": null,
-      "page_count": null,
+      "page_count": 2,
       "media": null,
-      "file_formats": null
+      "file_formats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/CMS_FRDOC_0001-3523/content.pdf",
+          "format": "pdf",
+          "size": 198431
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/CMS_FRDOC_0001-3523/content.htm",
+          "format": "htm",
+          "size": 6226
+        }
+      ]
     },
     {
       "document_id": "CMS_FRDOC_0001-3499",
@@ -2332,7 +2343,7 @@
   "comments_text_hydrated": 0,
   "comments_cached_records": 177,
   "comments_unique_clusters": 90,
-  "comments_clustered_duplicates": 73,
+  "comments_clustered_duplicates": 81,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -2364,18 +2375,18 @@
     "2026-11-05": 10
   },
   "comments_novel_comment_rate": 0.35294117647058826,
-  "comments_sentiment_positive_pct": 0.09779915095978498,
-  "comments_sentiment_negative_pct": 0.31605077087824796,
-  "comments_sentiment_neutral_pct": 0.5861500781619671,
-  "comments_sentiment_net": -0.21825161991846298,
-  "comments_sentiment_sample_size": 152,
+  "comments_sentiment_positive_pct": 0.09738515210705095,
+  "comments_sentiment_negative_pct": 0.31894603319296033,
+  "comments_sentiment_neutral_pct": 0.5836688146999888,
+  "comments_sentiment_net": -0.22156088108590938,
+  "comments_sentiment_sample_size": 160,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 163,
+  "comments_analysis_sample_size": 171,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 163,
-  "comments_representative_prior_selected": 159,
+  "comments_representative_selected": 171,
+  "comments_representative_prior_selected": 167,
   "comments_representative_newly_selected": 4,
   "comments_representative_must_keep": 57,
   "comments_representative_run_budget": 4,
@@ -2385,23 +2396,23 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 57,
     "salience_rank": 3,
-    "weighted_fill": 103
+    "weighted_fill": 111
   },
-  "comments_representative_selected_by_counts_total": 163,
+  "comments_representative_selected_by_counts_total": 171,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-14T07:31:11.919018+00:00",
-  "comments_checked_at": "2026-11-14T07:31:12.567420+00:00",
+  "comments_api_last_seen_at": "2026-11-16T07:16:08.168785+00:00",
+  "comments_checked_at": "2026-11-16T07:16:08.754370+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 83,
-      "count": 22,
+      "cluster_id": 80,
+      "count": 30,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0053",
-      "representative_posted_date": "2026-07-24T04:00:00Z",
+      "representative_comment_id": "CMS-2026-2245-0068",
+      "representative_posted_date": "2026-07-28T04:00:00Z",
       "representative_length": 1899,
       "representative_excerpt": "Dear Medicare Program: Calendar Year 2027 Changes to the End-Stage Renal Disease Prospective Payment System, Acute Kidney Injury Dialysis Payment, and ESRD Quality Incentive Program, Imagine spending half your week in a dialysis chair, exhausted and nauseated, watching a machine clean your blood because your kidneys gave out. Now imagine that the...",
       "representative_signal_score": 3,
@@ -2412,6 +2423,36 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
+        "CMS-2026-2245-0011": {
+          "organization": "",
+          "postedDate": "2026-07-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2245-0013": {
+          "organization": "",
+          "postedDate": "2026-07-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
         "CMS-2026-2245-0015": {
           "organization": "",
           "postedDate": "2026-07-24T04:00:00Z",
@@ -2456,41 +2497,11 @@
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
-        },
-        "CMS-2026-2245-0020": {
-          "organization": "",
-          "postedDate": "2026-07-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "CMS-2026-2245-0021": {
-          "organization": "",
-          "postedDate": "2026-07-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.533905475572407
+      "presentation_score": 0.5301245037006599
     },
     {
       "cluster_id": 1,
@@ -2586,7 +2597,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6128072025373812
+      "presentation_score": 0.585414000873808
     },
     {
       "cluster_id": 4,
@@ -2682,7 +2693,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.578091749458755
+      "presentation_score": 0.5577764073853451
     },
     {
       "cluster_id": 20,
@@ -2763,7 +2774,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5691966973475016
+      "presentation_score": 0.5569460851392795
     },
     {
       "cluster_id": 8,
@@ -2844,7 +2855,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6266770123081314
+      "presentation_score": 0.6144264000999095
     },
     {
       "cluster_id": 7,
@@ -2925,7 +2936,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6266770123081314
+      "presentation_score": 0.6144264000999095
     },
     {
       "cluster_id": 21,
@@ -3006,7 +3017,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.48919669734750154
+      "presentation_score": 0.4769460851392795
     },
     {
       "cluster_id": 25,
@@ -3072,7 +3083,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5827744518640744
+      "presentation_score": 0.5721651104798424
     },
     {
       "cluster_id": 13,
@@ -3108,7 +3119,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8387031353971064
+      "presentation_score": 0.8325778292929954
     },
     {
       "cluster_id": 88,
@@ -3144,7 +3155,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7036637653183662
+      "presentation_score": 0.6975384592142552
     },
     {
       "cluster_id": 34,
@@ -3180,7 +3191,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7012228204364765
+      "presentation_score": 0.6950975143323656
     },
     {
       "cluster_id": 17,
@@ -3231,7 +3242,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6739250676982463
+      "presentation_score": 0.6652625767321259
     },
     {
       "cluster_id": 18,
@@ -3267,7 +3278,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6287031353971063
+      "presentation_score": 0.6225778292929953
     },
     {
       "cluster_id": 15,
@@ -3303,7 +3314,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6287031353971063
+      "presentation_score": 0.6225778292929953
     },
     {
       "cluster_id": 12,
@@ -3339,7 +3350,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6287031353971063
+      "presentation_score": 0.6225778292929953
     },
     {
       "cluster_id": 11,
@@ -3375,7 +3386,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6287031353971063
+      "presentation_score": 0.6225778292929953
     },
     {
       "cluster_id": 3,
@@ -3426,7 +3437,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6239250676982463
+      "presentation_score": 0.6152625767321258
     },
     {
       "cluster_id": 39,
@@ -3462,7 +3473,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6212228204364765
+      "presentation_score": 0.6150975143323655
     },
     {
       "cluster_id": 48,
@@ -3498,7 +3509,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.618860615712067
+      "presentation_score": 0.612735309607956
     },
     {
       "cluster_id": 55,
@@ -3534,7 +3545,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6125614031136418
+      "presentation_score": 0.6064360970095308
     },
     {
       "cluster_id": 36,
@@ -3570,7 +3581,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6212228204364765
+      "presentation_score": 0.6150975143323655
     },
     {
       "cluster_id": 30,
@@ -3606,7 +3617,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6212228204364765
+      "presentation_score": 0.6150975143323655
     },
     {
       "cluster_id": 28,
@@ -3642,7 +3653,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6212228204364765
+      "presentation_score": 0.6150975143323655
     },
     {
       "cluster_id": 26,
@@ -3678,7 +3689,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6212228204364765
+      "presentation_score": 0.6150975143323655
     },
     {
       "cluster_id": 19,
@@ -3729,7 +3740,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6164447527376165
+      "presentation_score": 0.607782261771496
     },
     {
       "cluster_id": 57,
@@ -3765,7 +3776,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6101991983892323
+      "presentation_score": 0.6040738922851213
+    },
+    {
+      "cluster_id": 74,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0077",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 4866,
+      "representative_excerpt": "We respectfully urge CMS not to link serum phosphorus target achievement to ESRD QIP payment, reimbursement quali\ufb01cation, or ratings, because the current evidence does not support using a speci\ufb01c biochemical target as a facility-level accountability standard. Phosphorus management is clinically important, but current guidance and evidence do not justify...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0077": {
+          "organization": "Intermountain Health",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5993494828363025
     },
     {
       "cluster_id": 51,
@@ -3816,43 +3863,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6077833354147818
-    },
-    {
-      "cluster_id": 74,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0077",
-      "representative_posted_date": "2026-08-04T04:00:00Z",
-      "representative_length": 4866,
-      "representative_excerpt": "We respectfully urge CMS not to link serum phosphorus target achievement to ESRD QIP payment, reimbursement quali\ufb01cation, or ratings, because the current evidence does not support using a speci\ufb01c biochemical target as a facility-level accountability standard. Phosphorus management is clinically important, but current guidance and evidence do not justify...",
-      "representative_signal_score": 3,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0077": {
-          "organization": "Intermountain Health",
-          "postedDate": "2026-08-04T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6054747889404135
+      "presentation_score": 0.5991208444486613
     },
     {
       "cluster_id": 45,
@@ -3888,7 +3899,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5688606157120669
+      "presentation_score": 0.5627353096079559
     },
     {
       "cluster_id": 41,
@@ -3924,7 +3935,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5688606157120669
+      "presentation_score": 0.5627353096079559
     },
     {
       "cluster_id": 56,
@@ -3960,7 +3971,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5609865999640354
+      "presentation_score": 0.5548612938599244
     },
     {
       "cluster_id": 58,
@@ -4011,10 +4022,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5530589259659628
+      "presentation_score": 0.5443964349998424
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0059",
@@ -4047,7 +4058,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5499629779167914
+      "presentation_score": 0.5438376718126804
     },
     {
       "cluster_id": 16,
@@ -4083,7 +4094,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5487031353971064
+      "presentation_score": 0.5425778292929954
     },
     {
       "cluster_id": 9,
@@ -4119,7 +4130,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5487031353971064
+      "presentation_score": 0.5425778292929954
     },
     {
       "cluster_id": 6,
@@ -4155,7 +4166,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5487031353971064
+      "presentation_score": 0.5425778292929954
     },
     {
       "cluster_id": 5,
@@ -4191,7 +4202,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5487031353971064
+      "presentation_score": 0.5425778292929954
     },
     {
       "cluster_id": 84,
@@ -4227,7 +4238,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5468133716175788
+      "presentation_score": 0.5406880655134678
     },
     {
       "cluster_id": 29,
@@ -4263,7 +4274,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5412228204364765
+      "presentation_score": 0.5350975143323655
     },
     {
       "cluster_id": 27,
@@ -4299,7 +4310,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5412228204364765
+      "presentation_score": 0.5350975143323655
     },
     {
       "cluster_id": 40,
@@ -4350,7 +4361,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5340825480132071
+      "presentation_score": 0.5254200570470866
     },
     {
       "cluster_id": 75,
@@ -4386,7 +4397,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5254747889404134
+      "presentation_score": 0.5193494828363024
     },
     {
       "cluster_id": 78,
@@ -4422,7 +4433,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5223251826412009
+      "presentation_score": 0.5161998765370899
     },
     {
       "cluster_id": 77,
@@ -4458,7 +4469,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5223251826412009
+      "presentation_score": 0.5161998765370899
     },
     {
       "cluster_id": 68,
@@ -4509,7 +4520,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5206967212415535
+      "presentation_score": 0.512034230275433
     },
     {
       "cluster_id": 87,
@@ -4545,7 +4556,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5152385684679726
+      "presentation_score": 0.5091132623638616
     },
     {
       "cluster_id": 10,
@@ -4596,7 +4607,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5139250676982464
+      "presentation_score": 0.5052625767321259
     },
     {
       "cluster_id": 33,
@@ -4632,7 +4643,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49122282043647647
+      "presentation_score": 0.4850975143323655
     },
     {
       "cluster_id": 32,
@@ -4668,7 +4679,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49122282043647647
+      "presentation_score": 0.4850975143323655
     },
     {
       "cluster_id": 47,
@@ -4704,7 +4715,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.488860615712067
+      "presentation_score": 0.482735309607956
     },
     {
       "cluster_id": 46,
@@ -4740,7 +4751,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.488860615712067
+      "presentation_score": 0.482735309607956
     },
     {
       "cluster_id": 44,
@@ -4776,7 +4787,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.488860615712067
+      "presentation_score": 0.482735309607956
     },
     {
       "cluster_id": 53,
@@ -4812,7 +4823,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4825614031136418
+      "presentation_score": 0.4764360970095308
     },
     {
       "cluster_id": 63,
@@ -4848,7 +4859,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4762621905152166
+      "presentation_score": 0.4701368844111056
     },
     {
       "cluster_id": 70,
@@ -4884,7 +4895,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47547478894041345
+      "presentation_score": 0.46934948283630246
     },
     {
       "cluster_id": 69,
@@ -4920,7 +4931,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47547478894041345
+      "presentation_score": 0.46934948283630246
     },
     {
       "cluster_id": 86,
@@ -4956,7 +4967,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4660259700427757
+      "presentation_score": 0.4599006639386647
     },
     {
       "cluster_id": 35,
@@ -4992,7 +5003,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.46122282043647644
+      "presentation_score": 0.45509751433236545
     },
     {
       "cluster_id": 31,
@@ -5028,7 +5039,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.46122282043647644
+      "presentation_score": 0.45509751433236545
     },
     {
       "cluster_id": 22,
@@ -5064,7 +5075,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.46122282043647644
+      "presentation_score": 0.45509751433236545
     },
     {
       "cluster_id": 42,
@@ -5100,7 +5111,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.458860615712067
+      "presentation_score": 0.452735309607956
     },
     {
       "cluster_id": 89,
@@ -5136,7 +5147,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4550023479955316
+      "presentation_score": 0.4488770418914206
     },
     {
       "cluster_id": 90,
@@ -5172,7 +5183,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4526401432711221
+      "presentation_score": 0.4465148371670111
     },
     {
       "cluster_id": 79,
@@ -5208,7 +5219,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.44232518264120085
+      "presentation_score": 0.43619987653708986
+    },
+    {
+      "cluster_id": 49,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0106",
+      "representative_posted_date": "2026-08-17T04:00:00Z",
+      "representative_length": 882,
+      "representative_excerpt": "If Medicare won\u2019t pay for home hemodialysis patients to have an aid assist with treatments it would be nice to have some type of assistance to help with basic home tasks like cleaning or laundry even if only on a once a month basis. I\u2019m aware of organizations that provide services like this for Cancer patients, so why not dialysis patients since our...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0106": {
+          "organization": "",
+          "postedDate": "2026-08-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.3995857033087434
     },
     {
       "cluster_id": 24,
@@ -5259,43 +5306,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4064447527376165
-    },
-    {
-      "cluster_id": 49,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0106",
-      "representative_posted_date": "2026-08-17T04:00:00Z",
-      "representative_length": 882,
-      "representative_excerpt": "If Medicare won\u2019t pay for home hemodialysis patients to have an aid assist with treatments it would be nice to have some type of assistance to help with basic home tasks like cleaning or laundry even if only on a once a month basis. I\u2019m aware of organizations that provide services like this for Cancer patients, so why not dialysis patients since our...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0106": {
-          "organization": "",
-          "postedDate": "2026-08-17T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.4057110094128544
+      "presentation_score": 0.397782261771496
     },
     {
       "cluster_id": 52,
@@ -5331,7 +5342,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4025614031136418
+      "presentation_score": 0.3964360970095308
     },
     {
       "cluster_id": 50,
@@ -5367,7 +5378,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4025614031136418
+      "presentation_score": 0.3964360970095308
     },
     {
       "cluster_id": 60,
@@ -5403,7 +5414,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3978369936648229
+      "presentation_score": 0.3917116875607119
     },
     {
       "cluster_id": 66,
@@ -5439,7 +5450,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3962621905152166
+      "presentation_score": 0.3901368844111056
     },
     {
       "cluster_id": 64,
@@ -5475,7 +5486,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3962621905152166
+      "presentation_score": 0.3901368844111056
     },
     {
       "cluster_id": 62,
@@ -5511,7 +5522,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3962621905152166
+      "presentation_score": 0.3901368844111056
     },
     {
       "cluster_id": 2,
@@ -5547,10 +5558,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39264014327112207
+      "presentation_score": 0.38651483716701107
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0060",
@@ -5583,10 +5594,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3899629779167914
+      "presentation_score": 0.3838376718126804
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0062",
@@ -5619,7 +5630,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3899629779167914
+      "presentation_score": 0.3838376718126804
     },
     {
       "cluster_id": 14,
@@ -5655,7 +5666,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3887031353971063
+      "presentation_score": 0.38257782929299533
     },
     {
       "cluster_id": 38,
@@ -5691,7 +5702,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.38122282043647643
+      "presentation_score": 0.37509751433236543
     },
     {
       "cluster_id": 59,
@@ -5727,7 +5738,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3178369936648229
+      "presentation_score": 0.3117116875607119
     },
     {
       "cluster_id": 65,
@@ -5763,7 +5774,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3162621905152166
+      "presentation_score": 0.3101368844111056
     },
     {
       "cluster_id": 61,
@@ -5799,7 +5810,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3162621905152166
+      "presentation_score": 0.3101368844111056
     },
     {
       "cluster_id": 73,
@@ -5835,7 +5846,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3154747889404134
+      "presentation_score": 0.3093494828363024
     },
     {
       "cluster_id": 72,
@@ -5871,7 +5882,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3154747889404134
+      "presentation_score": 0.3093494828363024
     },
     {
       "cluster_id": 71,
@@ -5907,7 +5918,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3154747889404134
+      "presentation_score": 0.3093494828363024
     },
     {
       "cluster_id": 67,
@@ -5943,7 +5954,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3154747889404134
+      "presentation_score": 0.3093494828363024
     },
     {
       "cluster_id": 76,
@@ -5979,7 +5990,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3146873873656103
+      "presentation_score": 0.3085620812614993
     },
     {
       "cluster_id": 85,
@@ -6015,7 +6026,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.30602597004277565
+      "presentation_score": 0.29990066393866466
     },
     {
       "cluster_id": 23,
@@ -6051,7 +6062,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.3012228204364764
+      "presentation_score": 0.29509751433236536
     },
     {
       "cluster_id": 37,
@@ -6087,7 +6098,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.3012228204364764
+      "presentation_score": 0.29509751433236536
     },
     {
       "cluster_id": 43,
@@ -6123,7 +6134,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.24886061571206697
+      "presentation_score": 0.24273530960795595
     },
     {
       "cluster_id": 54,
@@ -6159,7 +6170,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.24256140311364177
+      "presentation_score": 0.23643609700953075
     }
   ],
   "comments_clusters_path": "data/comments/CMS_FRDOC_0001.csv",
@@ -6167,8 +6178,8 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.5644171779141104,
-  "comments_first_page_coverage_count": 92,
+  "comments_first_page_coverage_share": 0.5847953216374269,
+  "comments_first_page_coverage_count": 100,
   "comments_clusters_total_available": 90,
   "comments_clusters_displayed": 90,
   "comments_first_page_high_signal_clusters": 24,
