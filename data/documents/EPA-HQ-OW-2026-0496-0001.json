@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-17T20:12:52.833921+00:00",
+  "comment_action_checked_at": "2026-11-18T22:58:21.769969+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,55 +34,379 @@
   "comment_end_date": "2026-12-08T04:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 6,
-  "pass_3_score": 3.037037037037037,
+  "pass_3_score": 3.0357142857142856,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.9089717898486955,
-  "pass_3_scaled": 0.39720182483943745,
+  "pass_3_scaled": 0.397068918175846,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.5923143769841495,
+  "combined_score": 0.697859565420022,
   "score_total": 15,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
   "pass_2_routine_admin_score": 1,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "high_comment_leverage_probability",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 2,
+  "pass_4_scaled": 0.16458333333333333,
+  "pass_4_axes": {
+    "statutory_authority_fit": 0,
+    "procedural_compliance_risk": 1,
+    "retroactivity_fair_notice_risk": 0,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 0,
+    "cost_benefit_transparency": 0,
+    "data_quality_uncertainty_handling": 0,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 0,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 0,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 0,
+    "monitoring_and_feedback_design_quality": 1
+  },
+  "pass_4_domain_means": {
+    "L": 0.25,
+    "A": 0.4,
+    "H": 0.0,
+    "E": 0.6666666666666666
+  },
+  "pass_4_signals": [
+    "arbitrary_line_drawing_risk",
+    "implementation_feasibility_risk",
+    "monitoring_and_feedback_design_quality",
+    "procedural_compliance_risk",
+    "reasoned_explanation_completeness"
+  ],
+  "pass_4_primary_concern": "EPA should identify the controlling program documents and reconcile their closure, reporting and implementation commitments.",
+  "combined_score_pre_pass5": 0.6068690442675212,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Material \u00b7 Implementation Reality",
+  "pass_5_assessment": "Material \u00b7 Implementation Reality",
+  "pass_5_assessment_tier": "Material",
+  "pass_5_scaled": 0.5997374360218,
+  "pass_5_worst_flaw_severity": 1,
+  "pass_5_worst_flaw_key": "accountability_inversion",
+  "pass_5_worst_flaw_name": "Accountability Inversion",
+  "pass_5_material_flaw_count": 0,
+  "pass_5_worst_family_key": "implementation_reality",
+  "pass_5_worst_family_name": "Implementation Reality",
+  "pass_5_worst_family_severity": 1,
+  "pass_5_material_family_count": 0,
+  "pass_5_base_defect_score": 0.529103,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.0,
+  "pass_5_context_pressure": 0.15,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.0,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "Injection permitting protects underground drinking-water sources and governs long-lived storage responsibilities.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The technical safeguards and EPA oversight fit the purpose of primacy. The main weaknesses concern controlling document versions, implementation commitments and explanation of long-term responsibility; the record does not show a central structural failure.",
+  "pass_5_most_important_consequence": "Unclear controlling commitments could complicate program handoff, queue timing or later responsibility for a closed site; existing closure and oversight requirements constrain those risks.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 1,
+      "mean_severity": 0.25,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.156
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 1.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.213
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 1,
+      "mean_severity": 0.333,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.163
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 1,
+      "mean_severity": 0.2,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.153
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Section 1422 primacy is the stated authority; no replacement of another actor\u2019s legal function is established.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The proposal uses the ordinary primacy-approval mechanism rather than converting an exception into authority.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "State assumption of post-closure liability warrants a clear explanation, but closure and continuing EPA oversight are affirmative safeguards.",
+      "evidence": [],
+      "comment_leverage": "Request a specific explanation or documentary reconciliation before final approval."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Independent state review, Board hearings and EPA oversight remain; operator certifications do not replace them.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Construction approval, injection authorization and closure are sequenced; no improper prerequisite to review is identified.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The action transfers administration of existing protective requirements; no unsupported new intrusive burden is established.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "State primacy with federal minimum safeguards fits the stated drinking-water protection framework.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Staff, cost estimates, fees and contractor roles are identified; committed risk-analysis availability and startup revenue contingencies remain clarification points.",
+      "evidence": [],
+      "comment_leverage": "Request a specific explanation or documentary reconciliation before final approval."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "The MOA gives a real permit/data transfer mechanism, but quarterly, annual and semiannual reporting references should be mapped to responsible actors and deadlines.",
+      "evidence": [],
+      "comment_leverage": "Request a specific explanation or documentary reconciliation before final approval."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "USDW endangerment from injection is a defined protection target.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No demonstrated material incremental impact is contradicted by the transfer rationale; site-specific risk is not denied by primacy approval.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Utah-origin queue priority is an explicit geographic lever; published reasons and neutral technical standards would improve transparency. Viewpoint or association targeting is not established.",
+      "evidence": [],
+      "comment_leverage": "Request a specific explanation or documentary reconciliation before final approval."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Monitoring, closure criteria, financial responsibility, hearings, review paths and federal enforcement are present.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "State post-closure responsibility and a tonnage-funded reserve require an adequacy explanation, but operator assurance through approved closure prevents treating this as unguarded cost transfer.",
+      "evidence": [],
+      "comment_leverage": "Request a specific explanation or documentary reconciliation before final approval."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The program does not turn ordinary lawful conduct into an unsupported suspicion classification.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Recordkeeping, EPA information access and reporting remain; inconsistent document dates are scored as coherence clarification rather than loss of auditability.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Permits, public participation and technical authorization precede injection; no bypass allowing injection before review is shown.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Ordinary permitting is retained; no website-based adoption or alternative mechanism bypassing meaningful rulemaking is identified.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Construction, operation and closure consequences are separated; the closure explanation is assessed under responsibility rather than counted again.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "The queue preference is express; the record does not show vague standards being used to deny substantive review.",
+      "evidence": [],
+      "comment_leverage": "No distinct issue supported by the reviewed record."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Section 1425 language in the updated description, section 1422 approval language and differing dates/cross-references need reconciliation; the operative protection framework otherwise fits together.",
+      "evidence": [],
+      "comment_leverage": "Request a specific explanation or documentary reconciliation before final approval."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": false,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "deregulatory_carveout_with_thin_support",
     "epa_missing_cost_per_unit_signal",
@@ -210,93 +534,63 @@
     },
     {
       "document_id": "EPA-HQ-OW-2026-0496-0009",
-      "tracking_number": "msj-cykf-f6ax",
+      "tracking_number": null,
       "title": "EPA-Approved Utah SDWA 1422 UIC Program Statutes and Regulations for Well Class VI to be Incorporated by Reference",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-10-22T04:00:00Z",
-      "received_date": "2026-08-07T04:00:00Z",
-      "author_date": "2026-01-20T05:00:00Z",
+      "received_date": null,
+      "author_date": null,
       "authors": null,
-      "page_count": 61,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2026-0496-0009/content.pdf",
-          "format": "pdf",
-          "size": 653223
-        }
-      ]
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OW-2026-0496-0008",
-      "tracking_number": "mmx-v82u-je21",
+      "tracking_number": null,
       "title": "UDOGM Class VI Consultation Letter Navajo",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-10-22T04:00:00Z",
-      "received_date": "2026-03-19T04:00:00Z",
+      "received_date": null,
       "author_date": null,
-      "authors": [
-        "Sarah Bahrman"
-      ],
-      "page_count": 0,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2026-0496-0008/content.pdf",
-          "format": "pdf",
-          "size": 136258
-        }
-      ]
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OW-2026-0496-0011",
-      "tracking_number": "mu1-mrae-z611",
+      "tracking_number": null,
       "title": "UT EPA MOA",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-10-22T04:00:00Z",
-      "received_date": "2026-09-14T04:00:00Z",
+      "received_date": null,
       "author_date": null,
-      "authors": [
-        "Mick Thomas et al."
-      ],
-      "page_count": 7,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2026-0496-0011/content.pdf",
-          "format": "pdf",
-          "size": 616058
-        }
-      ]
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OW-2026-0496-0004",
-      "tracking_number": "mmx-um1a-jgyk",
+      "tracking_number": null,
       "title": "UDOGM UDEQ MOU",
       "document_type": "Supporting & Related Material",
       "document_subtype": null,
       "abstract": null,
       "posted_date": "2026-10-22T04:00:00Z",
-      "received_date": "2026-03-19T04:00:00Z",
-      "author_date": "2025-11-20T05:00:00Z",
-      "authors": [
-        "Mick Thomas and John K. Mackey"
-      ],
-      "page_count": 4,
-      "media": "Electronic",
-      "file_formats": [
-        {
-          "fileUrl": "https://downloads.regulations.gov/EPA-HQ-OW-2026-0496-0004/content.pdf",
-          "format": "pdf",
-          "size": 154889
-        }
-      ]
+      "received_date": null,
+      "author_date": null,
+      "authors": null,
+      "page_count": null,
+      "media": null,
+      "file_formats": null
     },
     {
       "document_id": "EPA-HQ-OW-2026-0496-0006",
@@ -413,8 +707,8 @@
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-17T15:19:11.964261+00:00",
-  "comments_checked_at": "2026-11-17T15:19:12.002733+00:00",
+  "comments_api_last_seen_at": "2026-11-18T18:12:12.136896+00:00",
+  "comments_checked_at": "2026-11-18T18:12:12.162628+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
@@ -522,10 +816,10 @@
     "positive": 2
   },
   "comments_first_page_unique_days": 1,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/EPA-HQ-OW-2026-0496-0001_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "EPA-HQ-OW-2026-0496"
