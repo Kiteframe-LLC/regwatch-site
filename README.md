@@ -33,6 +33,23 @@ This export also generates:
 - per-docket route stubs at `/docket/<docket-id>/`
 - per-docket metadata payloads at `/data/documents/<docket-id>.json`
 
+Docket pages contain their summary, analysis, comments, and supporting material
+in the initial HTML. JavaScript enhances this content with tabs and pagination.
+Each docket has one canonical URL; `#summary` or `#analysis` opens a tab, and
+`#document-<document-id>--analysis` opens a particular document's analysis.
+Legacy tab and document paths redirect to docket fragments. Only canonical
+docket pages are included in the sitemap. The homepage includes a static docket
+directory so discovery does not depend on JavaScript.
+
+The parent export requires Node.js 22+ and runs `scripts/render_docket_pages.js`
+after writing the content payloads. To rerender an existing bundle from the
+parent repository without fetching or rescoring data:
+
+```bash
+node scripts/render_docket_pages.js regwatch-site
+poetry run python generate_sitemap.py
+```
+
 From the parent repo root, `make site-refresh` runs the export and then validates the site bundle with `make -C regwatch-site check`.
 
 ## GitHub Pages

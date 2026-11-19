@@ -227,15 +227,15 @@
         }`;
   }
 
-  function initCommentPager(comments, helpers) {
+  function initCommentPager(comments, helpers, scope = document) {
     const h = helpers || {};
     const esc = typeof h.esc === "function" ? h.esc : fallbackEsc;
     const formatDateOnly = typeof h.formatDateOnly === "function" ? h.formatDateOnly : fallbackDateOnly;
-    const pager = document.getElementById("commentPager");
-    const body = document.getElementById("commentRowsBody");
-    const prev = document.getElementById("commentPrevBtn");
-    const next = document.getElementById("commentNextBtn");
-    const label = document.getElementById("commentPageLabel");
+    const pager = scope.querySelector('[data-comment-id="commentPager"], #commentPager');
+    const body = scope.querySelector('[data-comment-id="commentRowsBody"], #commentRowsBody');
+    const prev = scope.querySelector('[data-comment-id="commentPrevBtn"], #commentPrevBtn');
+    const next = scope.querySelector('[data-comment-id="commentNextBtn"], #commentNextBtn');
+    const label = scope.querySelector('[data-comment-id="commentPageLabel"], #commentPageLabel');
     if (!pager || !body || !prev || !next || !label) return;
     const totalPages = Number(pager.dataset.totalPages || 1);
     const perPage = Number(pager.dataset.pageSize || 25);

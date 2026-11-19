@@ -32,6 +32,24 @@ header p {
   margin: 0.2rem 0 0.5rem 0;
 }
 
+.docket-header {
+  margin-bottom: 0.75rem;
+}
+
+.docket-header h1 {
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  line-height: 1.2;
+}
+
+.docket-header .top-nav,
+.docket-header .docket-meta {
+  font-size: 0.9rem;
+}
+
+.docket-header p {
+  margin: 0.4rem 0;
+}
+
 .controls {
   display: flex;
   gap: 1rem;
@@ -326,11 +344,15 @@ td.actions {
 }
 
 .tab-panel {
-  display: none;
+  display: block;
   padding: 0.9rem 1rem;
 }
 
-.tab-panel.is-active {
+.tabs.is-enhanced .tab-panel {
+  display: none;
+}
+
+.tabs.is-enhanced .tab-panel.is-active {
   display: block;
 }
 

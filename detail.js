@@ -3,13 +3,16 @@ function esc(value) {
   return String(value)
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;");
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
 
 const TAB_NAMES = new Set(["overview", "summary", "analysis", "reasoning", "comments", "attachments"]);
 
 function tabFromHash() {
   const raw = (window.location.hash || "").replace(/^#/, "").trim().toLowerCase();
+  if (raw === "documents") return "attachments";
   return TAB_NAMES.has(raw) ? raw : "";
 }
 
@@ -471,7 +474,7 @@ function renderArgumentGraph(d, graphSvg) {
   <p class="graph-caption">Generated from the canonical report handoff's structured argument tree.</p>`;
 }
 
-function detailHtml(d, summaryMd, analysisMd, graphSvg) {
+function detailHtml(d, summaryMd, analysisMd, graphSvg, options = {}) {
   const docId = d.document_id || "";
   const redirectTo = String(d.cross_post_redirect_to_docket_id || "").trim();
   if (redirectTo && redirectTo !== String(d.docket_id || "").trim()) {
@@ -572,11 +575,15 @@ function detailHtml(d, summaryMd, analysisMd, graphSvg) {
   const summaryBody = `${renderMarkdown(summaryMd)}${aiDisclaimerHtml()}`;
   const analysisBody = `${renderMarkdown(analysisMd)}${aiDisclaimerHtml()}`;
   const reasoningBody = renderArgumentGraph(d, graphSvg);
+  const headerTag = options.primary ? "header" : "section";
+  const headingTag = options.primary ? "h1" : "h2";
+  const agency = d.agency_name || d.agency_id || "";
 
   return `
-    <section class="card">
-      <h2>${esc(d.title || "(untitled)")}</h2>
-        <p><strong>Docket ID:</strong> ${esc(d.docket_id || "")}</p>
+    <${headerTag} class="${options.primary ? "docket-header" : "card"}">
+      ${options.primary ? '<nav class="top-nav" aria-label="Site"><a href="/">All dockets</a> · <a href="/blog/">Blog</a> · <a href="/methodology/">Methodology</a></nav>' : ""}
+      <${headingTag}>${esc(d.title || "(untitled)")}</${headingTag}>
+        <p class="docket-meta">Docket ${esc(d.docket_id || "")}${options.primary && agency ? ` · ${esc(agency)}` : ""}</p>
         ${crossPostAliasHtml}
         <p class="inline-actions">
         ${
@@ -584,11 +591,11 @@ function detailHtml(d, summaryMd, analysisMd, graphSvg) {
             ? `<a class="comment-btn" href="${commentUrl}" target="_blank" rel="noopener noreferrer">${esc(commentLabel)}</a>`
             : `<span class="comment-btn disabled" title="${esc(commentIssue || "comment link unavailable")}">${esc(commentLabel)}</span>`
         }
+        <a href="${docUrl}" target="_blank" rel="noopener noreferrer">View document on Regulations.gov</a>
+        ${commentReadUrl ? `<a href="${esc(commentReadUrl)}" target="_blank" rel="noopener noreferrer">Read submitted comments</a>` : ""}
       </p>
       ${!commentSupported ? `<p><em>Comment link check failed (${esc(commentIssue || "unavailable")}). Button disabled pending override.</em></p>` : ""}
-      <p><a href="${docUrl}" target="_blank" rel="noopener noreferrer">Open Substantive Document on Regulations.gov</a></p>
-      ${commentReadUrl ? `<p><a href="${commentReadUrl}" target="_blank" rel="noopener noreferrer">Read submitted comments</a></p>` : ""}
-    </section>
+    </${headerTag}>
     <section class="tabs">
       <div class="tab-list" role="tablist" aria-label="Document sections">
         <button type="button" class="tab-btn is-active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
@@ -693,6 +700,8 @@ function detailHtml(d, summaryMd, analysisMd, graphSvg) {
       </div>
 
       <div class="tab-panel" data-panel="attachments" role="tabpanel">
+        ${options.primary ? '<span id="documents"></span>' : ""}
+        ${options.documentLinks ? `<nav aria-label="Other docket documents"><h3>Other documents in this docket</h3><ul>${options.documentLinks}</ul></nav>` : ""}
         ${
           governmentSubmissions.length
             ? `<h3>Government Submissions (From Docket Comments)</h3>
@@ -739,52 +748,69 @@ function detailHtml(d, summaryMd, analysisMd, graphSvg) {
   `;
 }
 
-function initTabs(defaultTab = "overview") {
-  const buttons = Array.from(document.querySelectorAll(".tab-list .tab-btn[data-tab]"));
-  const panels = Array.from(document.querySelectorAll(".tab-panel"));
+function initTabs(defaultTab = "overview", scope = document, documentId = "") {
+  const buttons = Array.from(scope.querySelectorAll(".tab-list .tab-btn[data-tab]"));
+  const panels = Array.from(scope.querySelectorAll(".tab-panel"));
   if (!buttons.length || !panels.length) return;
+  scope.querySelector(".tabs")?.classList.add("is-enhanced");
   const applyTab = (tab) => {
     for (const b of buttons) {
       const active = b.dataset.tab === tab;
       b.classList.toggle("is-active", active);
       b.setAttribute("aria-selected", active ? "true" : "false");
+      b.tabIndex = active ? 0 : -1;
     }
     for (const p of panels) {
       p.classList.toggle("is-active", p.dataset.panel === tab);
     }
   };
   const activateFromHash = () => {
-    const tab = tabFromHash();
+    const hash = window.location.hash.slice(1);
+    const prefix = `document-${documentId}--`;
+    const tab = hash.startsWith(prefix) ? hash.slice(prefix.length) : (tabFromHash() || (!hash ? defaultTab : ""));
     if (!tab) return;
     const btn = buttons.find((b) => b.dataset.tab === tab);
     if (!btn || btn.disabled) return;
     applyTab(tab);
   };
   for (const btn of buttons) {
+    btn.addEventListener("keydown", (event) => {
+      const enabled = buttons.filter((button) => !button.disabled);
+      const index = enabled.indexOf(btn);
+      const offsets = { ArrowRight: 1, ArrowLeft: -1, Home: -index, End: enabled.length - 1 - index };
+      if (!(event.key in offsets)) return;
+      event.preventDefault();
+      const next = enabled[(index + offsets[event.key] + enabled.length) % enabled.length];
+      next.focus();
+      next.click();
+    });
     btn.addEventListener("click", () => {
       if (btn.disabled) return;
       const tab = btn.dataset.tab;
       if (!tab) return;
       applyTab(tab);
-      if (tabFromHash() !== tab) {
-        window.location.hash = tab;
+      const fragment = `#${documentId ? `document-${documentId}--${tab}` : tab}`;
+      if (window.location.hash !== fragment) {
+        window.history.pushState(null, "", fragment);
       }
     });
   }
   window.addEventListener("hashchange", activateFromHash);
-  if (tabFromHash()) {
-    activateFromHash();
-    return;
-  }
+  window.addEventListener("popstate", activateFromHash);
   const btn = buttons.find((b) => b.dataset.tab === defaultTab);
   if (btn && !btn.disabled) {
     applyTab(defaultTab);
   } else {
     applyTab("overview");
   }
+  activateFromHash();
 }
 
 async function main() {
+  if (document.body.dataset.prerendered === "true") {
+    initStaticDocket();
+    return;
+  }
   const parts = window.location.pathname.split("/").filter(Boolean);
   const bodyDetailId = String(document.body?.dataset?.detailId || "").trim();
   let routeId = bodyDetailId;
@@ -843,7 +869,17 @@ async function main() {
   }
 }
 
-main().catch((err) => {
+function initStaticDocket() {
+  for (const section of document.querySelectorAll("[data-document-id]")) {
+    initTabs("overview", section, section.dataset.documentId);
+    const payload = section.querySelector(".comment-data");
+    if (payload && window.RegwatchComments) {
+      window.RegwatchComments.initCommentPager(JSON.parse(payload.textContent), { esc, formatDateOnly }, section);
+    }
+  }
+}
+
+if (typeof document !== "undefined") main().catch((err) => {
   const root = document.getElementById("detailRoot");
   root.innerHTML = `<p>Error: ${esc(err.message)}</p>`;
 });
