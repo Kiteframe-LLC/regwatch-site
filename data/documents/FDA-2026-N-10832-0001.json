@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-21T12:15:36.889985+00:00",
+  "comment_action_checked_at": "2026-11-22T10:47:42.095776+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -2269,12 +2269,12 @@
   "comments_total": 24,
   "comments_velocity_total": 24,
   "comments_public_total_estimate": 24,
-  "comments_fetched": 24,
-  "comments_text_hydrated": 27,
+  "comments_fetched": 0,
+  "comments_text_hydrated": 0,
   "comments_cached_records": 24,
-  "comments_unique_clusters": 15,
+  "comments_unique_clusters": 17,
   "comments_clustered_duplicates": 1,
-  "comments_truncated": false,
+  "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
   "comments_citizen_count": 13,
@@ -2300,18 +2300,18 @@
     "2026-11-19": 6
   },
   "comments_novel_comment_rate": 0.9583333333333334,
-  "comments_sentiment_positive_pct": 0.12832882978752466,
-  "comments_sentiment_negative_pct": 0.2566576595750493,
-  "comments_sentiment_neutral_pct": 0.615013510637426,
-  "comments_sentiment_net": -0.12832882978752466,
-  "comments_sentiment_sample_size": 16,
+  "comments_sentiment_positive_pct": 0.11373353795425953,
+  "comments_sentiment_negative_pct": 0.22746707590851906,
+  "comments_sentiment_neutral_pct": 0.6587993861372216,
+  "comments_sentiment_net": -0.11373353795425953,
+  "comments_sentiment_sample_size": 18,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 16,
+  "comments_analysis_sample_size": 18,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 16,
-  "comments_representative_prior_selected": 14,
+  "comments_representative_selected": 18,
+  "comments_representative_prior_selected": 16,
   "comments_representative_newly_selected": 2,
   "comments_representative_must_keep": 4,
   "comments_representative_run_budget": 2,
@@ -2321,15 +2321,15 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 4,
     "salience_rank": 1,
-    "weighted_fill": 11
+    "weighted_fill": 13
   },
-  "comments_representative_selected_by_counts_total": 16,
+  "comments_representative_selected_by_counts_total": 18,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-20T07:18:25.915112+00:00",
-  "comments_checked_at": "2026-11-20T07:18:26.226032+00:00",
+  "comments_api_last_seen_at": "2026-11-22T07:06:19.179009+00:00",
+  "comments_checked_at": "2026-11-22T07:06:19.497390+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
@@ -2384,7 +2384,7 @@
       "presentation_score": 0.9275598066567093
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0124",
@@ -2456,7 +2456,7 @@
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0120",
@@ -2564,7 +2564,43 @@
       "presentation_score": 0.7314213562373094
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FDA-2026-N-10832-0119",
+      "representative_posted_date": "2026-11-19T05:00:00Z",
+      "representative_length": 1961,
+      "representative_excerpt": "Greater transparency regarding ingredient sourcing, manufacturing processes, and heavy-metal concentrations would allow parents and healthcare providers to make more informed decisions. As healthcare...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FDA-2026-N-10832-0119": {
+          "organization": "",
+          "postedDate": "2026-11-19T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0123",
@@ -2600,7 +2636,7 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0126",
@@ -2636,7 +2672,7 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0129",
@@ -2744,7 +2780,7 @@
       "presentation_score": 0.6514213562373096
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0117",
@@ -2780,7 +2816,7 @@
       "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0121",
@@ -2816,7 +2852,7 @@
       "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0130",
@@ -2852,7 +2888,7 @@
       "presentation_score": 0.5714213562373095
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FDA-2026-N-10832-0116",
@@ -2886,21 +2922,57 @@
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
       "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FDA-2026-N-10832-0131",
+      "representative_posted_date": "2026-11-19T05:00:00Z",
+      "representative_length": 1162,
+      "representative_excerpt": "Lastly, we should continue to review new updates to scientific information to make sure formula stays safe and provides adequate nutrition. Overall, I think that the FDA's efforts to support the improvement of infant formula are a step in the right direction. I support the ongoing research to better consider the needs of parents, babies, and families to...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FDA-2026-N-10832-0131": {
+          "organization": "",
+          "postedDate": "2026-11-19T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Hannah Scorgie",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
     }
   ],
   "comments_clusters_path": "data/comments/FDA-2026-N-10832.csv",
   "government_submissions_count": 0,
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
-  "comments_first_page_count": 15,
+  "comments_first_page_count": 17,
   "comments_first_page_coverage_share": 1.0,
-  "comments_first_page_coverage_count": 16,
-  "comments_clusters_total_available": 15,
-  "comments_clusters_displayed": 15,
+  "comments_first_page_coverage_count": 18,
+  "comments_clusters_total_available": 17,
+  "comments_clusters_displayed": 17,
   "comments_first_page_high_signal_clusters": 6,
   "comments_first_page_novelty_clusters": 0,
   "comments_first_page_stance_counts": {
-    "neutral": 9,
+    "neutral": 11,
     "negative": 4,
     "positive": 2
   },
