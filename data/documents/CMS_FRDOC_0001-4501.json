@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-22T10:47:39.376784+00:00",
+  "comment_action_checked_at": "2026-11-23T11:02:19.239632+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -2527,8 +2527,8 @@
   "comments_fetched": 30,
   "comments_text_hydrated": 30,
   "comments_cached_records": 207,
-  "comments_unique_clusters": 68,
-  "comments_clustered_duplicates": 23,
+  "comments_unique_clusters": 87,
+  "comments_clustered_duplicates": 31,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
@@ -2561,18 +2561,18 @@
     "2026-11-05": 10
   },
   "comments_novel_comment_rate": 0.2222222222222222,
-  "comments_sentiment_positive_pct": 0.10140797687259115,
-  "comments_sentiment_negative_pct": 0.3198236007837415,
-  "comments_sentiment_neutral_pct": 0.5787684223436673,
-  "comments_sentiment_net": -0.21841562391115035,
-  "comments_sentiment_sample_size": 82,
+  "comments_sentiment_positive_pct": 0.10910974390429844,
+  "comments_sentiment_negative_pct": 0.29176857047075117,
+  "comments_sentiment_neutral_pct": 0.5991216856249504,
+  "comments_sentiment_net": -0.18265882656645271,
+  "comments_sentiment_sample_size": 108,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 91,
+  "comments_analysis_sample_size": 118,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 91,
-  "comments_representative_prior_selected": 82,
+  "comments_representative_selected": 118,
+  "comments_representative_prior_selected": 109,
   "comments_representative_newly_selected": 9,
   "comments_representative_must_keep": 57,
   "comments_representative_run_budget": 9,
@@ -2582,9 +2582,9 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 57,
     "salience_rank": 4,
-    "weighted_fill": 30
+    "weighted_fill": 57
   },
-  "comments_representative_selected_by_counts_total": 91,
+  "comments_representative_selected_by_counts_total": 118,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
@@ -2595,11 +2595,11 @@
   "comments_clusters": [
     {
       "cluster_id": 3,
-      "count": 10,
+      "count": 11,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-3037-0078",
+      "representative_comment_id": "CMS-2026-3037-0081",
       "representative_posted_date": "2026-11-05T05:00:00Z",
-      "representative_length": 4848,
+      "representative_length": 4778,
       "representative_excerpt": "In addition, CMS must set minimum contract review periods, require clear disclosure, and affirmative acceptance of standard contract terms, amendments, and material reimbursement changes, and restrict any unilateral mid-year changes. CMS must also make clear that provider manuals, bulletins, and portal notices cannot change payment or other material terms...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
@@ -2609,17 +2609,17 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-3037-0024": {
+        "CMS-2026-3037-0046": {
           "organization": "",
           "postedDate": "2026-11-05T05:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "MI",
+          "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
           "title": "Comment on CMS-2026-3037-0001",
           "withdrawn": false,
-          "submissionRole": "unknown",
+          "submissionRole": "individual",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
@@ -2687,10 +2687,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6403210899820458
+      "presentation_score": 0.6366703932214454
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 19,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0146",
@@ -2768,10 +2768,172 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6104075172119926
+      "presentation_score": 0.6045209486363629
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 7,
+      "count": 4,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3037-0042",
+      "representative_posted_date": "2026-11-05T05:00:00Z",
+      "representative_length": 4802,
+      "representative_excerpt": "Establish accessible complaints, response deadlines, independent review, and protection against retaliation. Hold Part D sponsors accountable for their PBMs. Standards must protect actual patient access, not merely promise network participation on paper. Jacob Standefer, PharmD Independent Retail and Long-Term Care Pharmacy Owner Tennessee...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3037-0042": {
+          "organization": "",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "TN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-3037-0024": {
+          "organization": "",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MI",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2245-0114": {
+          "organization": "Texas Nursing Home Coalition",
+          "postedDate": "2026-08-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2245-0071": {
+          "organization": "Elevate Care",
+          "postedDate": "2026-07-31T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6620012635969927
+    },
+    {
+      "cluster_id": 6,
+      "count": 4,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3037-0062",
+      "representative_posted_date": "2026-11-05T05:00:00Z",
+      "representative_length": 4814,
+      "representative_excerpt": "In addition, CMS must set minimum contract review periods, require clear disclosure, and affirmative acceptance of standard contract terms, amendments, and material reimbursement changes, and restrict any unilateral mid-year changes. CMS must also make clear that provider manuals, bulletins, and portal notices cannot change payment or other material terms...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3037-0062": {
+          "organization": "",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-3037-0059": {
+          "organization": "",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-3037-0050": {
+          "organization": "",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-3037-0023": {
+          "organization": "Vorac Pharmacy",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6620012635969927
+    },
+    {
+      "cluster_id": 20,
       "count": 4,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0145",
@@ -2849,77 +3011,11 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5304075172119926
+      "presentation_score": 0.5245209486363629
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 23,
       "count": 3,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3037-0042",
-      "representative_posted_date": "2026-11-05T05:00:00Z",
-      "representative_length": 4802,
-      "representative_excerpt": "Establish accessible complaints, response deadlines, independent review, and protection against retaliation. Hold Part D sponsors accountable for their PBMs. Standards must protect actual patient access, not merely promise network participation on paper. Jacob Standefer, PharmD Independent Retail and Long-Term Care Pharmacy Owner Tennessee...",
-      "representative_signal_score": 3,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3037-0042": {
-          "organization": "",
-          "postedDate": "2026-11-05T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "TN",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3037-0001",
-          "withdrawn": false,
-          "submissionRole": "unknown",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "CMS-2026-2245-0114": {
-          "organization": "Texas Nursing Home Coalition",
-          "postedDate": "2026-08-21T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "CMS-2026-2245-0071": {
-          "organization": "Elevate Care",
-          "postedDate": "2026-07-31T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6759443837381379
-    },
-    {
-      "cluster_id": 20,
-      "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0139",
       "representative_posted_date": "2026-08-24T04:00:00Z",
@@ -2962,14 +3058,80 @@
           "submissionRoleConfidence": "high",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2245-0108": {
+          "organization": "",
+          "postedDate": "2026-08-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6455852029220553
+      "presentation_score": 0.6133661508498935
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 57,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0095",
+      "representative_posted_date": "2026-08-07T04:00:00Z",
+      "representative_length": 4924,
+      "representative_excerpt": "The nephrology community is in strong agreement that hyperphosphatemia increases the risk of adverse health outcomes, including bone disorders (e.g., osteoporosis or fractures), secondary hyperparathyroidism, vascular calcification, cardiovascular events (CVD) and premature mortality1. The Centers for Medicare and Medicaid (CMS) is to be commended on this...",
+      "representative_signal_score": 3,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0095": {
+          "organization": "",
+          "postedDate": "2026-08-07T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "CMS-2026-2245-0006": {
+          "organization": "",
+          "postedDate": "2026-07-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5780369435926543
+    },
+    {
+      "cluster_id": 18,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0147",
@@ -3017,10 +3179,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6455852029220553
+      "presentation_score": 0.641422770364308
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3037-0026",
+      "representative_posted_date": "2026-11-05T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "L. 119-75 (H.R. 7148), \u00a76223, enacted February 3, 2026. https://www.govinfo.gov/content/pkg/PLAW-119publ75/html/PLAW-119publ75.htm 3Onero analysis of de-identified, aggregate claims from 70 PioneerRx stores, fills from September 1, 2025 to August 31, 2026. Completed claims with a positive payment only. Part D is identified from each claim's plan...",
+      "representative_signal_score": 5,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3037-0026": {
+          "organization": "Onero",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.856365261041537
+    },
+    {
+      "cluster_id": 85,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0005",
+      "representative_posted_date": "2026-07-20T04:00:00Z",
+      "representative_length": 3246,
+      "representative_excerpt": "Without a detailed, evidence-based justification, this adjustment appears arbitrary. III. Statutory Authority and Judicial Limits Following the Supreme Court\u2019s decision in Loper Bright Enterprises v. Raimondo, CMS cannot rely on the expectation of judicial deference to justify interpretations of the Social Security Act that lack clear statutory grounding....",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0005": {
+          "organization": "",
+          "postedDate": "2026-07-20T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7213258909627968
+    },
+    {
+      "cluster_id": 33,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0126",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 4999,
+      "representative_excerpt": "ATLANTIC DIALYSIS MANAGEMENT SERVICES, LLC 23-14 College Point Boulevard College Point, New York 11356 (718) 483-7440 August 24, 2026 The Honorable Mehmet Oz, M.D., M.B.A. Oz: Atlantic Dialysis Management Services (ADMS) is a nephrologist-owned and operated small dialysis organization based in the metropolitan New York City area. ADMS has provided in...",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0126": {
+          "organization": "Atlantic Dialysis Management Services, LLC",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7188849460809071
+    },
+    {
+      "cluster_id": 16,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3037-0007",
@@ -3068,7 +3338,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7030655178826852
+      "presentation_score": 0.6989030853249378
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3037-0175",
+      "representative_posted_date": "2026-11-10T05:00:00Z",
+      "representative_length": 4274,
+      "representative_excerpt": "CMS should hold plans accountable when they fail to maintain adequate LTC pharmacy networks, including by giving affected residents a special enrollment period to change plans. This is particularly important in rural long-term care settings, where facilities have limited options for LTC pharmacies that can support their needs. Congress has given CMS the...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3037-0175": {
+          "organization": "",
+          "postedDate": "2026-11-10T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6503022689155527
     },
     {
       "cluster_id": 2,
@@ -3119,124 +3425,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6530655178826852
+      "presentation_score": 0.6489030853249378
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-3037-0026",
+      "representative_comment_id": "CMS-2026-3037-0002",
       "representative_posted_date": "2026-11-05T05:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "L. 119-75 (H.R. 7148), \u00a76223, enacted February 3, 2026. https://www.govinfo.gov/content/pkg/PLAW-119publ75/html/PLAW-119publ75.htm 3Onero analysis of de-identified, aggregate claims from 70 PioneerRx stores, fills from September 1, 2025 to August 31, 2026. Completed claims with a positive payment only. Part D is identified from each claim's plan...",
-      "representative_signal_score": 5,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3037-0026": {
-          "organization": "Onero",
-          "postedDate": "2026-11-05T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3037-0001",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.8593085453293519
-    },
-    {
-      "cluster_id": 66,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0005",
-      "representative_posted_date": "2026-07-20T04:00:00Z",
-      "representative_length": 3246,
-      "representative_excerpt": "Without a detailed, evidence-based justification, this adjustment appears arbitrary. III. Statutory Authority and Judicial Limits Following the Supreme Court\u2019s decision in Loper Bright Enterprises v. Raimondo, CMS cannot rely on the expectation of judicial deference to justify interpretations of the Social Security Act that lack clear statutory grounding....",
-      "representative_signal_score": 5,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0005": {
-          "organization": "",
-          "postedDate": "2026-07-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7242691752506116
-    },
-    {
-      "cluster_id": 29,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0126",
-      "representative_posted_date": "2026-08-24T04:00:00Z",
-      "representative_length": 4999,
-      "representative_excerpt": "ATLANTIC DIALYSIS MANAGEMENT SERVICES, LLC 23-14 College Point Boulevard College Point, New York 11356 (718) 483-7440 August 24, 2026 The Honorable Mehmet Oz, M.D., M.B.A. Oz: Atlantic Dialysis Management Services (ADMS) is a nephrologist-owned and operated small dialysis organization based in the metropolitan New York City area. ADMS has provided in...",
-      "representative_signal_score": 4,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0126": {
-          "organization": "Atlantic Dialysis Management Services, LLC",
-          "postedDate": "2026-08-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.721828230368722
-    },
-    {
-      "cluster_id": 1,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3037-0175",
-      "representative_posted_date": "2026-11-10T05:00:00Z",
-      "representative_length": 4274,
-      "representative_excerpt": "CMS should hold plans accountable when they fail to maintain adequate LTC pharmacy networks, including by giving affected residents a special enrollment period to change plans. This is particularly important in rural long-term care settings, where facilities have limited options for LTC pharmacies that can support their needs. Congress has given CMS the...",
+      "representative_length": 2213,
+      "representative_excerpt": "Chain and Mail-Order get paid 800-2000 percent or more on the same generic medications filled at independent pharmacies. For example, MS Board of Pharmacy audit of OptumRx claims in 2022 revealed the following: 1. Independent Pharmacies were only paid at the highest reimbursement allowed on 2% of the claims submitted. Chain and Mail-order Pharmacies were...",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3245,17 +3443,17 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-3037-0175": {
+        "CMS-2026-3037-0002": {
           "organization": "",
-          "postedDate": "2026-11-10T05:00:00Z",
+          "postedDate": "2026-11-05T05:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "NC",
+          "stateProvinceRegion": "MS",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3037-0001",
+          "title": "Comment on CMS_FRDOC_0001-4452",
           "withdrawn": false,
-          "submissionRole": "individual",
+          "submissionRole": "unknown",
           "submissionRoleConfidence": "low",
           "submissionChannel": "public_portal",
           "submissionChannelConfidence": "medium"
@@ -3263,10 +3461,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6532455532033675
+      "presentation_score": 0.6463652610415369
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3037-0016",
@@ -3299,10 +3497,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6493085453293518
+      "presentation_score": 0.6463652610415369
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3037-0027",
@@ -3335,10 +3533,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6493085453293518
+      "presentation_score": 0.6463652610415369
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3037-0030",
@@ -3371,118 +3569,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6493085453293518
+      "presentation_score": 0.6463652610415369
     },
     {
-      "cluster_id": 34,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0121",
-      "representative_posted_date": "2026-08-24T04:00:00Z",
-      "representative_length": 4299,
-      "representative_excerpt": "CMS proposes to add $15.96 per dialysis treatment to the ESRD PPS base rate for phosphate binders beginning January 1, 2027, make these therapies eligible for outlier payment, and adopt a facility-level Hyperphosphatemia measure beginning with Payment Year 2029. We support greater accountability for phosphorus management but urge CMS to ensure these...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "other_channel_recorded",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0121": {
-          "organization": "National Minority Quality Forum and Nephrologists for Equitable Kidney Care",
-          "postedDate": "2026-08-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "other_channel_recorded",
-          "submissionChannelConfidence": "high"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6418282303687219
-    },
-    {
-      "cluster_id": 31,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0124",
-      "representative_posted_date": "2026-08-24T04:00:00Z",
-      "representative_length": 2096,
-      "representative_excerpt": "Kidney disease affects people very differently, and a standard set at the wrong level can cause real harm. CMS should set a target grounded in current science and patient need. Medicare has the tools to fix this, and patients need it to act. We urge CMS to remove phosphate-lowering therapies from the fixed payment bundle and restore them to standard...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0124": {
-          "organization": "National Association of Nutrition and Aging Services Programs",
-          "postedDate": "2026-08-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6418282303687219
-    },
-    {
-      "cluster_id": 25,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0131",
-      "representative_posted_date": "2026-08-24T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "1 | 389 Interpace Pkwy, Suite 450 Parsippany, NJ 07054 +1 908-517-9500 VIA ELECTRONIC DELIVERY August 24, 2026 The Honorable Mehmet Oz, MD Administrator Centers for Medicare & Medicaid Services Department of Health and Human Services Attention: CMS\u20131846\u2013P P.O. Box 8010 Baltimore, MD 21244\u20138010. RE: Medicare Program; CY 2027 Changes to the End-Stage Renal...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0131": {
-          "organization": "CorMedix Therapeutics",
-          "postedDate": "2026-08-24T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6418282303687219
-    },
-    {
-      "cluster_id": 41,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0109",
@@ -3515,10 +3605,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6394660256443124
+      "presentation_score": 0.6365227413564976
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0098",
@@ -3551,27 +3641,27 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6331668130458873
+      "presentation_score": 0.6302235287580724
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0096",
-      "representative_posted_date": "2026-08-10T04:00:00Z",
-      "representative_length": 4213,
-      "representative_excerpt": "Department of Health and Human Services 7500 Security Boulevard Baltimore, MD 21244 RE: CMS-1846-P \u2013 Medicare Program; CY 2027 Changes to the End-Stage Renal Disease (ESRD) Prospective Payment System, Acute Kidney Injury Dialysis (AKI) Payment, and ESRD Quality Incentive Program Dear Administrator Oz, On behalf of the United States Hispanic Business...",
+      "representative_comment_id": "CMS-2026-2245-0121",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 4299,
+      "representative_excerpt": "CMS proposes to add $15.96 per dialysis treatment to the ESRD PPS base rate for phosphate binders beginning January 1, 2027, make these therapies eligible for outlier payment, and adopt a facility-level Hyperphosphatemia measure beginning with Payment Year 2029. We support greater accountability for phosphorus management but urge CMS to ensure these...",
       "representative_signal_score": 3,
-      "representative_stance": "negative",
+      "representative_stance": "neutral",
       "representative_submission_channel": "other_channel_recorded",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "CMS-2026-2245-0096": {
-          "organization": "United States Hispanic Business Council",
-          "postedDate": "2026-08-10T04:00:00Z",
+        "CMS-2026-2245-0121": {
+          "organization": "National Minority Quality Forum and Nephrologists for Equitable Kidney Care",
+          "postedDate": "2026-08-24T04:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
@@ -3587,10 +3677,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6308046083214778
+      "presentation_score": 0.6388849460809071
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 35,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0124",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 2096,
+      "representative_excerpt": "Kidney disease affects people very differently, and a standard set at the wrong level can cause real harm. CMS should set a target grounded in current science and patient need. Medicare has the tools to fix this, and patients need it to act. We urge CMS to remove phosphate-lowering therapies from the fixed payment bundle and restore them to standard...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0124": {
+          "organization": "National Association of Nutrition and Aging Services Programs",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6388849460809071
+    },
+    {
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0131",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "1 | 389 Interpace Pkwy, Suite 450 Parsippany, NJ 07054 +1 908-517-9500 VIA ELECTRONIC DELIVERY August 24, 2026 The Honorable Mehmet Oz, MD Administrator Centers for Medicare & Medicaid Services Department of Health and Human Services Attention: CMS\u20131846\u2013P P.O. Box 8010 Baltimore, MD 21244\u20138010. RE: Medicare Program; CY 2027 Changes to the End-Stage Renal...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0131": {
+          "organization": "CorMedix Therapeutics",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6388849460809071
+    },
+    {
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0133",
@@ -3623,10 +3785,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6418282303687219
+      "presentation_score": 0.6388849460809071
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0137",
@@ -3659,10 +3821,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6418282303687219
+      "presentation_score": 0.6388849460809071
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0104",
@@ -3695,10 +3857,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6331668130458873
+      "presentation_score": 0.6302235287580724
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 56,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0096",
+      "representative_posted_date": "2026-08-10T04:00:00Z",
+      "representative_length": 4213,
+      "representative_excerpt": "Department of Health and Human Services 7500 Security Boulevard Baltimore, MD 21244 RE: CMS-1846-P \u2013 Medicare Program; CY 2027 Changes to the End-Stage Renal Disease (ESRD) Prospective Payment System, Acute Kidney Injury Dialysis (AKI) Payment, and ESRD Quality Incentive Program Dear Administrator Oz, On behalf of the United States Hispanic Business...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "other_channel_recorded",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0096": {
+          "organization": "United States Hispanic Business Council",
+          "postedDate": "2026-08-10T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "other_channel_recorded",
+          "submissionChannelConfidence": "high"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6278613240336629
+    },
+    {
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0077",
@@ -3731,46 +3929,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.626080198872659
+      "presentation_score": 0.6231369145848441
     },
     {
-      "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-3037-0023",
-      "representative_posted_date": "2026-11-05T05:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "CMS should require complete disclosure of reimbursement methodologies, prohibit undisclosed retroactive reductions, and ensure that claim-level remittance information allows pharmacies to reconcile final payments accurately. 3. Meaningful Contracting Protections (Section II.B) The existing Any Willing Pharmacy framework offers limited practical protection...",
-      "representative_signal_score": 2,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-3037-0023": {
-          "organization": "Vorac Pharmacy",
-          "postedDate": "2026-11-05T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment on CMS-2026-3037-0001",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.619308545329352
-    },
-    {
-      "cluster_id": 39,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0113",
@@ -3803,10 +3965,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5894660256443124
+      "presentation_score": 0.5865227413564975
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0118",
@@ -3839,10 +4001,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5894660256443124
+      "presentation_score": 0.5865227413564975
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0097",
@@ -3875,10 +4037,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5815920098962809
+      "presentation_score": 0.578648725608466
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 80,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0059",
+      "representative_posted_date": "2026-07-28T04:00:00Z",
+      "representative_length": 1812,
+      "representative_excerpt": "Without access, vulnerable ESRD patients face increased risks of sepsis, hospitalization, and death due to bloodstream infections. Failing to provide a robust, fully funded pathway for this drug disregards the critical need for infection prevention, putting patient lives at risk.Urgent Request for RevisionI strongly urge CMS to revise the final rule before...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0059": {
+          "organization": "",
+          "postedDate": "2026-07-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.567625103561222
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3037-0009",
+      "representative_posted_date": "2026-11-05T05:00:00Z",
+      "representative_length": 1802,
+      "representative_excerpt": "FDA also identifies \u201cNDA authorized generic\u201d as a distinct marketing category. This distinction may affect reimbursement methodologies discussed in the RFI, including maximum allowable cost (MAC) pricing, generic effective rates (GERs), pharmacy margins, and drug-selection incentives. Depending on how Part D sponsors, PBMs, and pharmacy contracts classify...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3037-0009": {
+          "organization": "",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5663652610415371
+    },
+    {
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3037-0037",
@@ -3911,7 +4145,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5693085453293519
+      "presentation_score": 0.5663652610415371
     },
     {
       "cluster_id": 5,
@@ -3947,7 +4181,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5693085453293519
+      "presentation_score": 0.5663652610415371
     },
     {
       "cluster_id": 4,
@@ -3983,10 +4217,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5693085453293519
+      "presentation_score": 0.5663652610415371
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 81,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0010",
+      "representative_posted_date": "2026-07-24T04:00:00Z",
+      "representative_length": 4836,
+      "representative_excerpt": "We strongly urge CMS to: \u2022 Create payment incentives for SNF based dialysis \u2022 Establish PD specific support payments \u2022 Strengthen care transition and interoperability requirements \u2022 Provide clear, SNF appropriate health and safety standards We appreciate CMS\u2019s leadership and welcome continued dialogue as the agency considers future rulemaking....",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0010": {
+          "organization": "",
+          "postedDate": "2026-07-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5644754972620094
+    },
+    {
+      "cluster_id": 39,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0120",
@@ -4034,10 +4304,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5632229981976459
+      "presentation_score": 0.5590605656398985
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0132",
@@ -4070,10 +4340,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.561828230368722
+      "presentation_score": 0.5588849460809071
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0135",
@@ -4106,10 +4376,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.561828230368722
+      "presentation_score": 0.5588849460809071
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 67,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0083",
@@ -4157,10 +4427,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5498371714259923
+      "presentation_score": 0.5456747388682449
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0076",
@@ -4193,10 +4463,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.546080198872659
+      "presentation_score": 0.5431369145848441
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0070",
@@ -4229,10 +4499,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5429305925734464
+      "presentation_score": 0.5399873082856316
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0073",
@@ -4265,11 +4535,11 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5429305925734464
+      "presentation_score": 0.5399873082856316
     },
     {
-      "cluster_id": 8,
-      "count": 1,
+      "cluster_id": 9,
+      "count": 2,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-3037-0033",
       "representative_posted_date": "2026-11-05T05:00:00Z",
@@ -4297,14 +4567,29 @@
           "submissionRoleConfidence": "high",
           "submissionChannel": "other_channel_recorded",
           "submissionChannelConfidence": "high"
+        },
+        "CMS-2026-2245-0061": {
+          "organization": "",
+          "postedDate": "2026-07-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
         }
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5393085453293519
+      "presentation_score": 0.5389030853249378
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0007",
@@ -4337,10 +4622,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.535843978400218
+      "presentation_score": 0.5329006941124032
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0127",
@@ -4373,10 +4658,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5118282303687219
+      "presentation_score": 0.5088849460809071
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0128",
@@ -4409,10 +4694,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5118282303687219
+      "presentation_score": 0.5088849460809071
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0110",
@@ -4445,10 +4730,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5094660256443125
+      "presentation_score": 0.5065227413564977
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 45,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0111",
+      "representative_posted_date": "2026-08-21T04:00:00Z",
+      "representative_length": 4799,
+      "representative_excerpt": "# Comment on Advancing Alternative Dialysis Care and Increasing Home Dialysis Uptake I strongly support CMS's efforts to increase home dialysis among Medicare beneficiaries. Patients need education, training, assistance, and long-term support when circumstances change. My husband spent approximately 10 years successfully performing home hemodialysis. After...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0111": {
+          "organization": "",
+          "postedDate": "2026-08-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5065227413564977
+    },
+    {
+      "cluster_id": 43,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0115",
+      "representative_posted_date": "2026-08-21T04:00:00Z",
+      "representative_length": 4164,
+      "representative_excerpt": "The cold hard reality is that each end stage renal disease patient is someone\u2019s daughter, son, mother, brother, father, wife, husband, cousin, nephew, niece, grandmother, grandfather, aunt, uncle, family friend, coworker or neighbor. The bible says \u201cThe second is this: Love your neighbour as yourself. There is no commandment greater than these\u201d-Mark 12:31....",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0115": {
+          "organization": "",
+          "postedDate": "2026-08-21T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5065227413564977
+    },
+    {
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0101",
@@ -4481,10 +4838,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5031668130458873
+      "presentation_score": 0.5002235287580724
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0090",
@@ -4517,10 +4874,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.49686760044746214
+      "presentation_score": 0.49392431615964727
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 68,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0081",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 1662,
+      "representative_excerpt": "My name is Luz Lewis and I work for the National Kidney Foundation of Utah & Idaho. Managing kidney disease is demanding. It means multiple dialysis sessions every week, strict dietary restrictions, and a carefully managed medication regimen. Phosphate-lowering therapies are a central part of that regimen. When phosphorus levels rise unchecked, the...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0081": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4931369145848441
+    },
+    {
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0008",
@@ -4553,46 +4946,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4866313799750212
+      "presentation_score": 0.48368809568720633
     },
     {
-      "cluster_id": 65,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "CMS-2026-2245-0006",
-      "representative_posted_date": "2026-07-20T04:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "I appreciate the opportunity to comment on CMS's request for information regarding the potential inclusion of the Dialysis Facility Discussion of Patient Life Goals Patient-Reported Outcome Performance Measure (D-PaLS PRO-PM) in the ESRD Quality Incentive Program. I support CMS's continued efforts to advance quality measures that assess whether patients...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "CMS-2026-2245-0006": {
-          "organization": "",
-          "postedDate": "2026-07-20T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.48426917525061175
-    },
-    {
-      "cluster_id": 30,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0125",
@@ -4625,10 +4982,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.48182823036872197
+      "presentation_score": 0.4788849460809071
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0130",
@@ -4661,10 +5018,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.48182823036872197
+      "presentation_score": 0.4788849460809071
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0144",
@@ -4697,10 +5054,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.48182823036872197
+      "presentation_score": 0.4788849460809071
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0117",
@@ -4733,10 +5090,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4794660256443125
+      "presentation_score": 0.47652274135649764
     },
     {
-      "cluster_id": 67,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0004",
@@ -4769,10 +5126,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4756077579277771
+      "presentation_score": 0.4726644736399622
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0003",
@@ -4805,10 +5162,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47324555320336764
+      "presentation_score": 0.47030226891555277
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 77,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0069",
@@ -4841,10 +5198,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4629305925734464
+      "presentation_score": 0.4599873082856315
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0138",
+      "representative_posted_date": "2026-08-24T04:00:00Z",
+      "representative_length": 1866,
+      "representative_excerpt": "Jennifer Tiemann - Concerto Renal Services The nursing-home dialysis population is not simply a random sample of the broader ESRD population receiving dialysis in a different setting. It is disproportionately characterized by advanced age, frailty, multimorbidity, functional limitations, and complex or limited goals of care. A quality measure designed...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0138": {
+          "organization": "",
+          "postedDate": "2026-08-24T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4288849460809071
+    },
+    {
+      "cluster_id": 48,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0106",
+      "representative_posted_date": "2026-08-17T04:00:00Z",
+      "representative_length": 882,
+      "representative_excerpt": "If Medicare won\u2019t pay for home hemodialysis patients to have an aid assist with treatments it would be nice to have some type of assistance to help with basic home tasks like cleaning or laundry even if only on a once a month basis. I\u2019m aware of organizations that provide services like this for Cancer patients, so why not dialysis patients since our...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0106": {
+          "organization": "",
+          "postedDate": "2026-08-17T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.423373135057285
+    },
+    {
+      "cluster_id": 51,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0102",
+      "representative_posted_date": "2026-08-13T04:00:00Z",
+      "representative_length": 2523,
+      "representative_excerpt": "Epogen prices are high , so many dialysis units will wait till are in dangerous prospect and you nearly need a blood transfusion before giving you epogen. Anemia needs to be taken more serious. Blood transfusions with current medical knowledge currently limit and hurt chances for kidney transplants which actually is best thing to encourge for both the...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0102": {
+          "organization": "",
+          "postedDate": "2026-08-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.42022352875807245
+    },
+    {
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0105",
@@ -4877,10 +5342,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4231668130458873
+      "presentation_score": 0.42022352875807245
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0093",
@@ -4913,10 +5378,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4184424035970684
+      "presentation_score": 0.41549911930925354
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0087",
@@ -4949,10 +5414,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4168676004474621
+      "presentation_score": 0.41392431615964725
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0089",
@@ -4985,10 +5450,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4168676004474621
+      "presentation_score": 0.41392431615964725
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0091",
@@ -5021,10 +5486,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4168676004474621
+      "presentation_score": 0.41392431615964725
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 79,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0060",
+      "representative_posted_date": "2026-07-28T04:00:00Z",
+      "representative_length": 2490,
+      "representative_excerpt": "The current reimbursement undervalues patient safety and incentivizes sub-optimal preventative care.I urgently request that CMS re-evaluate the current reimbursement metrics for DefenCath and implement a sustainable payment methodology\u2014such as a thoroughly structured add-on payment adjustment or a revised base rate\u2014that ensures uninhibited provider access....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0060": {
+          "organization": "",
+          "postedDate": "2026-07-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.40762510356122206
+    },
+    {
+      "cluster_id": 78,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0062",
+      "representative_posted_date": "2026-07-28T04:00:00Z",
+      "representative_length": 2043,
+      "representative_excerpt": "This will directly cause a resurgence of preventable, deadly infections among vulnerable End-Stage Renal Disease (ESRD) patients.In the clinical setting, a central venous catheter (CVC) is a known liability for infection, yet it remains a necessity for thousands of hemodialysis patients. Catheter-Related Bloodstream Infections (CRBSIs) are exceptionally...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0062": {
+          "organization": "",
+          "postedDate": "2026-07-28T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.40762510356122206
+    },
+    {
+      "cluster_id": 13,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-3037-0022",
+      "representative_posted_date": "2026-11-05T05:00:00Z",
+      "representative_length": 739,
+      "representative_excerpt": "And keep the money for their profit. It became so ugly Must require reimbursements that adequately cover ingredient acquisition costs as well as the actual cost to dispense Must have opt-in requirements for accepting contract terms Cannot link a pharmacy\u2019s participation in a Part D plan to its ability to participate in other PBM networks...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-3037-0022": {
+          "organization": "",
+          "postedDate": "2026-11-05T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NJ",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment on CMS-2026-3037-0001",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.406365261041537
+    },
+    {
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0122",
@@ -5057,10 +5630,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.40182823036872195
+      "presentation_score": 0.3988849460809071
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0094",
@@ -5093,10 +5666,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3384424035970684
+      "presentation_score": 0.3354991193092535
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 64,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0088",
+      "representative_posted_date": "2026-08-05T04:00:00Z",
+      "representative_length": 762,
+      "representative_excerpt": "Each month I encourage compliance with low phos intake and compliance with binders. Again most patients struggle with this aspect of care due to limited acess to medications and food options. So including phos in QIP would be a detriment to most HD clinics as it will decrease reimbursement rates. I am sure we will start to see HD clinics close down as a...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0088": {
+          "organization": "",
+          "postedDate": "2026-08-05T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.33392431615964724
+    },
+    {
+      "cluster_id": 60,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0092",
+      "representative_posted_date": "2026-08-05T04:00:00Z",
+      "representative_length": 720,
+      "representative_excerpt": "When this is completed a repeat phosphorus is drawn later (at least 2weeks) in the month to identify if this problem has been alleviated. I would like to offer my experienced thoughts on this matter in that utilizing the last of the month phosphorus would be a better indicator of actual phosphorus control in our dialysis patients....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0092": {
+          "organization": "",
+          "postedDate": "2026-08-05T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.33392431615964724
+    },
+    {
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0078",
@@ -5129,10 +5774,154 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.33608019887265894
+      "presentation_score": 0.33313691458484407
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 70,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0079",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 821,
+      "representative_excerpt": "Conversely, managing hyperphosphatemia relies heavily on factors outside the clinic's control, such as meal preparation and the administration of phosphorus binders multiple times a day at home. While we provide comprehensive and continuous education on diet and binder adherence, dialysis centers should not be penalized for patient noncompliance. In my 10...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0079": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.33313691458484407
+    },
+    {
+      "cluster_id": 69,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0080",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 827,
+      "representative_excerpt": "Barriers include insurance denials, limited to \"tier one\" options, lack of patient assistance programs since the bundle went into effect, retail pharmacies not carrying or able to obtain specific binder options. With limited resources many patients cannot afford the high copays or the out of pocket expense of binders. The reality is that prudent adherence...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0080": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.33313691458484407
+    },
+    {
+      "cluster_id": 66,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0085",
+      "representative_posted_date": "2026-08-04T04:00:00Z",
+      "representative_length": 715,
+      "representative_excerpt": "As a registered dietitian working in dialysis for the past 10+ years, the PO4 issue is just going to get worse. Phosphorus added to foods continues to increase. Getting patients to take their phosphorus binders is a whole issue itself. I think you need to tie physician reimbursement to these new guidelines. As a RD I don\u2019t know what else we could possibly...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0085": {
+          "organization": "",
+          "postedDate": "2026-08-04T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "unknown",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.33313691458484407
+    },
+    {
+      "cluster_id": 74,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "CMS-2026-2245-0074",
+      "representative_posted_date": "2026-08-03T04:00:00Z",
+      "representative_length": 1022,
+      "representative_excerpt": "Lower-volume facilities are most likely located in rural areas, and supporting the operations of these facilities gives patients in rural communities access to life-saving dialysis care. Dialysis is a frequent and vital procedure, and travel considerations can limit patient access, demonstrating how location can be a strong social determinant of health....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "CMS-2026-2245-0074": {
+          "organization": "",
+          "postedDate": "2026-08-03T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.33234951301004095
+    },
+    {
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0009",
@@ -5165,10 +5954,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3266313799750212
+      "presentation_score": 0.3236880956872063
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0141",
@@ -5201,10 +5990,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.32182823036872193
+      "presentation_score": 0.31888494608090706
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0123",
@@ -5237,10 +6026,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.32182823036872193
+      "presentation_score": 0.31888494608090706
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0116",
@@ -5273,10 +6062,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2694660256443125
+      "presentation_score": 0.2665227413564976
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "CMS-2026-2245-0100",
@@ -5309,7 +6098,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.2631668130458873
+      "presentation_score": 0.2602235287580724
     }
   ],
   "comments_clusters_path": "data/comments/CMS_FRDOC_0001.csv",
@@ -5317,18 +6106,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.5054945054945055,
-  "comments_first_page_coverage_count": 46,
-  "comments_clusters_total_available": 68,
-  "comments_clusters_displayed": 68,
+  "comments_first_page_coverage_share": 0.4491525423728814,
+  "comments_first_page_coverage_count": 53,
+  "comments_clusters_total_available": 87,
+  "comments_clusters_displayed": 87,
   "comments_first_page_high_signal_clusters": 24,
-  "comments_first_page_novelty_clusters": 18,
+  "comments_first_page_novelty_clusters": 16,
   "comments_first_page_stance_counts": {
-    "neutral": 13,
-    "negative": 10,
-    "positive": 2
+    "neutral": 15,
+    "negative": 7,
+    "positive": 3
   },
-  "comments_first_page_unique_days": 8,
+  "comments_first_page_unique_days": 7,
   "summary_available": false,
   "raw_summary_available": false,
   "argument_graph_available": true,
