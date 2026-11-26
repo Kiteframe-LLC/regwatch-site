@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-24T11:12:22.578615+00:00",
+  "comment_action_checked_at": "2026-11-26T06:07:09.499201+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-12-01T04:59:59Z",
   "pass_1_score": 9,
   "pass_2_score": 4,
-  "pass_3_score": 6.272727272727273,
+  "pass_3_score": 6.392857142857142,
   "pass_1_scaled": 0.7063970219823053,
   "pass_2_scaled": 0.7976434177648377,
-  "pass_3_scaled": 0.6484680042135369,
+  "pass_3_scaled": 0.6554362622755099,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.6956817922544276,
+  "combined_score": 0.6991659212854141,
   "score_total": 13,
   "pass_2_rule_type": "ECONOMIC",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -217,35 +217,37 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 187,
-  "comments_velocity_total": 180,
-  "comments_public_total_estimate": 180,
-  "comments_fetched": 14,
-  "comments_text_hydrated": 16,
-  "comments_cached_records": 128,
-  "comments_unique_clusters": 122,
+  "comments_total": 197,
+  "comments_velocity_total": 190,
+  "comments_public_total_estimate": 190,
+  "comments_fetched": 10,
+  "comments_text_hydrated": 14,
+  "comments_cached_records": 138,
+  "comments_unique_clusters": 132,
   "comments_clustered_duplicates": 4,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 112,
+  "comments_citizen_count": 117,
   "comments_commenter_type_counts": {
-    "citizen": 112,
-    "organization_other": 16
+    "organization_other": 21,
+    "citizen": 117
   },
   "comments_submission_role_counts": {
-    "individual": 118,
-    "organization": 10
+    "organization": 11,
+    "individual": 127
   },
   "comments_submission_channel_counts": {
-    "public_portal": 123,
+    "public_portal": 133,
     "other_channel_recorded": 5
   },
-  "comments_public_count": 123,
+  "comments_public_count": 133,
   "comments_recorded_count": 5,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-11-25": 6,
+    "2026-11-24": 4,
     "2026-11-23": 14,
     "2026-11-20": 2,
     "2026-11-19": 2,
@@ -274,12 +276,14 @@
     "2026-10-09": 3,
     "2026-10-08": 3,
     "2026-10-07": 1,
-    "2026-10-06": 2,
-    "2026-10-05": 2,
+    "2026-10-06": 1,
+    "2026-10-05": 3,
     "2026-10-02": 3,
     "2026-10-01": 2
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-11-25": 3,
+    "2026-11-24": 3,
     "2026-11-23": 7,
     "2026-11-20": 2,
     "2026-11-19": 2,
@@ -301,44 +305,95 @@
     "2026-10-09": 1,
     "2026-10-08": 2,
     "2026-10-07": 1,
-    "2026-10-05": 1,
+    "2026-10-05": 2,
     "2026-10-01": 1
   },
-  "comments_novel_comment_rate": 0.96875,
-  "comments_sentiment_positive_pct": 0.13407089081822418,
-  "comments_sentiment_negative_pct": 0.21438741962640911,
-  "comments_sentiment_neutral_pct": 0.6515416895553667,
-  "comments_sentiment_net": -0.08031652880818493,
-  "comments_sentiment_sample_size": 121,
+  "comments_novel_comment_rate": 0.9710144927536232,
+  "comments_sentiment_positive_pct": 0.13143667631917658,
+  "comments_sentiment_negative_pct": 0.22100661551782855,
+  "comments_sentiment_neutral_pct": 0.6475567081629949,
+  "comments_sentiment_net": -0.08956993919865197,
+  "comments_sentiment_sample_size": 131,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 126,
+  "comments_analysis_sample_size": 136,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 126,
-  "comments_representative_prior_selected": 126,
+  "comments_representative_selected": 136,
+  "comments_representative_prior_selected": 136,
   "comments_representative_newly_selected": 0,
-  "comments_representative_must_keep": 22,
-  "comments_representative_run_budget": 9,
+  "comments_representative_must_keep": 26,
+  "comments_representative_run_budget": 11,
   "comments_representative_overflow": false,
   "comments_representative_missing_from_archive": 0,
   "comments_representative_prior_missing": 0,
   "comments_representative_selected_by_counts": {
-    "must_keep": 22,
+    "must_keep": 26,
     "salience_rank": 1,
-    "weighted_fill": 103
+    "weighted_fill": 109
   },
-  "comments_representative_selected_by_counts_total": 126,
+  "comments_representative_selected_by_counts_total": 136,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-24T06:24:36.616390+00:00",
-  "comments_checked_at": "2026-11-24T06:24:39.703776+00:00",
+  "comments_api_last_seen_at": "2026-11-25T22:38:38.250478+00:00",
+  "comments_checked_at": "2026-11-25T22:38:39.880278+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 67,
+      "cluster_id": 7,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0192",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 3110,
+      "representative_excerpt": "That gap is where the consumer harm lives. Two specific recommendations from someone building tools in this space: 1. Treat ad-copy-vs-terms mismatch as a signal. A large class of consumer deception \u2014 my app's entire subject \u2014 is ads promising earnings or payouts that the terms quietly contradict. When ad-optimization tools learn which claims earn clicks...",
+      "representative_signal_score": 5,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0192": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from McGaha, Matthew",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "FTC-2026-1552-0011": {
+          "organization": "",
+          "postedDate": "2026-10-06T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.9257416248385275
+    },
+    {
+      "cluster_id": 77,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0120",
@@ -386,10 +441,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7798239576001057
+      "presentation_score": 0.7775598066567095
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 55,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0142",
@@ -437,10 +492,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7354843349585962
+      "presentation_score": 0.7330143521112549
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 40,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0157",
@@ -488,61 +543,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7486918821284075
+      "presentation_score": 0.7457416248385276
     },
     {
-      "cluster_id": 115,
-      "count": 2,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0011",
-      "representative_posted_date": "2026-10-06T04:00:00Z",
-      "representative_length": 3169,
-      "representative_excerpt": "I urge the Commission to consider duties for platforms that include: (1) careful investigation procedures that do not penalize a trademark owner for good-faith reporting errors; (2) prompt, transparent review of retractions and appeals, with case tracking a small business can actually follow; (3) accountability when a platform's own enforcement actions...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-1552-0011": {
-          "organization": "",
-          "postedDate": "2026-10-06T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Anonymous",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        },
-        "FTC-2026-1552-0008": {
-          "organization": "Doctor Ads Ltd",
-          "postedDate": "2026-10-05T04:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Doctor Ads Ltd",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6469937689208604
-    },
-    {
-      "cluster_id": 121,
+      "cluster_id": 131,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0003",
@@ -578,7 +582,43 @@
       "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 108,
+      "cluster_id": 127,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0008",
+      "representative_posted_date": "2026-10-05T04:00:00Z",
+      "representative_length": 3324,
+      "representative_excerpt": "Verification stops the careless, not the organized. Google verifies identity and business operations. In our appeal cases, honest small businesses fail most often because two documents do not match exactly. Organized operators pass with real company papers. After a ban they come back with new accounts, using antidetect browsers that hide the link to the...",
+      "representative_signal_score": 5,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0008": {
+          "organization": "Doctor Ads Ltd",
+          "postedDate": "2026-10-05T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Doctor Ads Ltd",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.848694083510037
+    },
+    {
+      "cluster_id": 118,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0018",
@@ -611,10 +651,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8065156958599511
+      "presentation_score": 0.8059668107827641
     },
     {
-      "cluster_id": 105,
+      "cluster_id": 115,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0021",
@@ -647,46 +687,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8140628656712718
+      "presentation_score": 0.8132395380554914
     },
     {
-      "cluster_id": 42,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0145",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 4645,
-      "representative_excerpt": "My evidence demonstrates exactly how bad actors currently exploit regulatory gaps\u2014using \"quasi-official\" titles and manipulated digital media\u2014to weaponize emergency municipal services, deceive state agencies, and execute unlawful property conversion. **II. The \"Quasi-Official\" Impersonation Loophole: Weaponizing 911 Dispatch** The Commission rightly seeks...",
-      "representative_signal_score": 5,
-      "representative_stance": "negative",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-1552-0145": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "NC",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from ONeill, Kelly",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.8650062618976869
-    },
-    {
-      "cluster_id": 3,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0186",
@@ -719,10 +723,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9414213562373096
+      "presentation_score": 0.937784992600946
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0164",
@@ -755,10 +759,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9319873939731587
+      "presentation_score": 0.9286940835100369
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0160",
@@ -791,10 +795,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9282138090674983
+      "presentation_score": 0.9250577198736732
     },
     {
-      "cluster_id": 32,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0155",
@@ -827,10 +831,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.9206666392561775
+      "presentation_score": 0.917784992600946
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0194",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 2552,
+      "representative_excerpt": "Neely, Publisher & Owner, XS10 Magazine I write in support of updating the Impersonation Rule to address the role of online platforms in furthering impersonation scams, and to urge the Commission to ensure that any updated rule reaches the fastest-growing form of impersonation: AI-cloned voices of private individuals, including children. I am Michael T....",
+      "representative_signal_score": 5,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0194": {
+          "organization": "",
+          "postedDate": "2026-11-25T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Neely, Michael",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0181",
@@ -863,10 +903,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.887784992600946
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0183",
@@ -899,10 +939,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8914213562373096
+      "presentation_score": 0.887784992600946
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0162",
@@ -935,10 +975,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8801006015203284
+      "presentation_score": 0.876875901691855
     },
     {
-      "cluster_id": 90,
+      "cluster_id": 52,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0145",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 4645,
+      "representative_excerpt": "My evidence demonstrates exactly how bad actors currently exploit regulatory gaps\u2014using \"quasi-official\" titles and manipulated digital media\u2014to weaponize emergency municipal services, deceive state agencies, and execute unlawful property conversion. **II. The \"Quasi-Official\" Impersonation Loophole: Weaponizing 911 Dispatch** The Commission rightly seeks...",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0145": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "NC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from ONeill, Kelly",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8623304471464005
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0195",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Part III addresses the unintentional harms to legitimate advertisers, including small and medium-sized businesses, by expanding liability to platforms in their provision of ad optimization tools. Finally, Part IV describes Google\u2019s support for collaborative opportunities to strengthen impersonation mitigation measures, including heightened advertiser...",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0195": {
+          "organization": "Google",
+          "postedDate": "2026-11-25T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Google",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8614213562373095
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0191",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Gilman is a senior scholar of competition policy with the International Center for Law & Economics (ICLE). Ben Sperry is a senior scholar of innovation policy and lead counsel at ICLE. ICLE is a nonprofit, nonpartisan research center based in Portland, Oregon, dedicated to building the intellectual foundations for sensible, economically grounded policy....",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0191": {
+          "organization": "International Center for Law & Economics",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from International Center for Law & Economics",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.8596031744191277
+    },
+    {
+      "cluster_id": 100,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0038",
@@ -971,53 +1119,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.8123647524637246
+      "presentation_score": 0.8105122653282186
     },
     {
       "cluster_id": 1,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0188",
-      "representative_posted_date": "2026-11-23T05:00:00Z",
-      "representative_length": 731,
-      "representative_excerpt": "It proposes a risk-based distinction between advertiser identity and authorization to represent another entity, continuing checks on AI-generated or modified advertisements and destinations, auditable complaint-to-remediation controls, and performance measures that account for false positives and burdens on legitimate small businesses. It does not claim...",
-      "representative_signal_score": 4,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-1552-0188": {
-          "organization": "",
-          "postedDate": "2026-11-23T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "FL",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Oktenli, Burak",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.8114213562373095
-    },
-    {
-      "cluster_id": 18,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0170",
-      "representative_posted_date": "2026-11-18T05:00:00Z",
-      "representative_length": 4225,
-      "representative_excerpt": "R207000, 91 FR 62347 (Oct. 1, 2026). I write as a small-business owner and intellectual-property owner. I support the Commission commencing a rulemaking to reach platforms' advertising-optimization tools and services that further government and business impersonation scams. The current Impersonation Rule reaches the imposter. It does not reach the platform...",
-      "representative_signal_score": 4,
+      "representative_comment_id": "FTC-2026-1552-0198",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "PASS Coalition Comments on FTC Impersonation ANPRM November 24, 2026 Coalition to Protect America's Small Sellers (PASS Coalition) 100 M Street, SE Suite 750...",
+      "representative_signal_score": 3,
       "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1025,15 +1137,51 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FTC-2026-1552-0170": {
-          "organization": "",
-          "postedDate": "2026-11-18T05:00:00Z",
+        "FTC-2026-1552-0198": {
+          "organization": "Protect America's Small Sellers Coalition (PASS Coalition)",
+          "postedDate": "2026-11-25T05:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "MI",
-          "country": "United States",
+          "stateProvinceRegion": "",
+          "country": "",
           "attachmentCount": 0,
-          "title": "Comment from Manning, Lamar Dion",
+          "title": "Comment from Protect America's Small Sellers Coalition (PASS Coalition)",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7814213562373095
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0190",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Meta\u2019s Advantage+ creative tools can generate new images, write variations of headlines and text, expand images and video with AI-generated content, and add music and animation; Meta acknowledges uploaded material \u201cmay be changed,\u201d 2 Meta Platforms, Inc., Form 10-K for the Fiscal Year Ended December 31, 2025 (filed January 29, 2026), https://www.sec.gov/...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0190": {
+          "organization": "AARP",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from AARP",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1042,11 +1190,11 @@
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.8019873939731585
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7796031744191276
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0173",
@@ -1079,10 +1227,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7757609788788189
+      "presentation_score": 0.7723304471464004
     },
     {
-      "cluster_id": 65,
+      "cluster_id": 75,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0122",
@@ -1115,10 +1263,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7436855071807057
+      "presentation_score": 0.7414213562373095
     },
     {
-      "cluster_id": 89,
+      "cluster_id": 99,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0039",
@@ -1151,17 +1299,17 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.7342515449165548
+      "presentation_score": 0.7323304471464004
     },
     {
-      "cluster_id": 106,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0020",
-      "representative_posted_date": "2026-10-13T04:00:00Z",
-      "representative_length": 4061,
-      "representative_excerpt": "Encourage platforms to identify recycled videos, stolen professional images, linked advertiser accounts, and repeated use of different business names. Removing one advertisement should not allow the same apparent scheme to resume immediately. 3. Accessible reporting and meaningful review. Give consumers, impersonated professionals, and nonprofits clear...",
-      "representative_signal_score": 3,
+      "representative_comment_id": "FTC-2026-1552-0188",
+      "representative_posted_date": "2026-11-23T05:00:00Z",
+      "representative_length": 731,
+      "representative_excerpt": "It proposes a risk-based distinction between advertiser identity and authorization to represent another entity, continuing checks on AI-generated or modified advertisements and destinations, auditable complaint-to-remediation controls, and performance measures that account for false positives and burdens on legitimate small businesses. It does not claim...",
+      "representative_signal_score": 4,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
@@ -1169,15 +1317,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FTC-2026-1552-0020": {
-          "organization": "Advocating Against Romance Scammers",
-          "postedDate": "2026-10-13T04:00:00Z",
+        "FTC-2026-1552-0188": {
+          "organization": "",
+          "postedDate": "2026-11-23T05:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
+          "stateProvinceRegion": "FL",
+          "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Advocating Against Romance Scammers",
+          "title": "Comment from Oktenli, Burak",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1186,34 +1334,34 @@
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.7040628656712717
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8077849926009459
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0169",
+      "representative_comment_id": "FTC-2026-1552-0170",
       "representative_posted_date": "2026-11-18T05:00:00Z",
-      "representative_length": 5000,
-      "representative_excerpt": "Finally, the Commission must also avoid impeding online content that impersonates a government entity as satire or expression, rather than as content created and posted to deceive and exploit consumers. I. Scam Advertising Causes Real Harm Americans are all too often victims of online scams, deceived and misled by legitimate- looking, highly sophisticated...",
-      "representative_signal_score": 2,
-      "representative_stance": "neutral",
+      "representative_length": 4225,
+      "representative_excerpt": "R207000, 91 FR 62347 (Oct. 1, 2026). I write as a small-business owner and intellectual-property owner. I support the Commission commencing a rulemaking to reach platforms' advertising-optimization tools and services that further government and business impersonation scams. The current Impersonation Rule reaches the imposter. It does not reach the platform...",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FTC-2026-1552-0169": {
-          "organization": "Public Knowledge",
+        "FTC-2026-1552-0170": {
+          "organization": "",
           "postedDate": "2026-11-18T05:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
+          "stateProvinceRegion": "MI",
+          "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Public Knowledge",
+          "title": "Comment from Manning, Lamar Dion",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -1222,11 +1370,11 @@
         }
       },
       "representative_has_attachment": false,
-      "representative_has_non_self_org": true,
-      "presentation_score": 0.6919873939731587
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7986940835100368
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0147",
@@ -1259,10 +1407,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7850062618976869
+      "presentation_score": 0.7823304471464004
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 66,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0131",
@@ -1295,10 +1443,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7755722996335359
+      "presentation_score": 0.7732395380554913
     },
     {
-      "cluster_id": 60,
+      "cluster_id": 70,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0127",
@@ -1331,10 +1479,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7736855071807057
+      "presentation_score": 0.7714213562373096
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0175",
@@ -1367,10 +1515,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.7277849926009459
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0179",
@@ -1403,10 +1551,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.7277849926009459
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0180",
@@ -1439,10 +1587,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7314213562373094
+      "presentation_score": 0.7277849926009459
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0174",
@@ -1475,10 +1623,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7257609788788189
+      "presentation_score": 0.7223304471464004
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0171",
@@ -1511,10 +1659,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7238741864259887
+      "presentation_score": 0.7205122653282185
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0172",
@@ -1547,46 +1695,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7238741864259887
+      "presentation_score": 0.7205122653282185
     },
     {
-      "cluster_id": 22,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0165",
-      "representative_posted_date": "2026-11-18T05:00:00Z",
-      "representative_length": 2399,
-      "representative_excerpt": "My firsthand evidence is the first-party account directory cited above, not independent platform fraud data. These suggestions concern how paid social advertising and account verification work in 2026; the need to link reports across changing domains and automated ad variants may grow as advertising tools evolve. Josh Liljenquist Minnesota...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-1552-0165": {
-          "organization": "",
-          "postedDate": "2026-11-18T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "MN",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Liljenquist, Josh",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7219873939731585
-    },
-    {
-      "cluster_id": 116,
+      "cluster_id": 125,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0010",
@@ -1619,10 +1731,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7189685260486303
+      "presentation_score": 0.7186940835100368
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 32,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0165",
+      "representative_posted_date": "2026-11-18T05:00:00Z",
+      "representative_length": 2399,
+      "representative_excerpt": "My firsthand evidence is the first-party account directory cited above, not independent platform fraud data. These suggestions concern how paid social advertising and account verification work in 2026; the need to link reports across changing domains and automated ad variants may grow as advertising tools evolve. Josh Liljenquist Minnesota...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0165": {
+          "organization": "",
+          "postedDate": "2026-11-18T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "MN",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Liljenquist, Josh",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7186940835100367
+    },
+    {
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0159",
@@ -1655,10 +1803,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7182138090674981
+      "presentation_score": 0.7150577198736731
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0161",
@@ -1691,10 +1839,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7182138090674981
+      "presentation_score": 0.7150577198736731
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 116,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0020",
+      "representative_posted_date": "2026-10-13T04:00:00Z",
+      "representative_length": 4061,
+      "representative_excerpt": "Encourage platforms to identify recycled videos, stolen professional images, linked advertiser accounts, and repeated use of different business names. Removing one advertisement should not allow the same apparent scheme to resume immediately. 3. Accessible reporting and meaningful review. Give consumers, impersonated professionals, and nonprofits clear...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0020": {
+          "organization": "Advocating Against Romance Scammers",
+          "postedDate": "2026-10-13T04:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Advocating Against Romance Scammers",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.7032395380554913
+    },
+    {
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0146",
@@ -1727,10 +1911,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7050062618976868
+      "presentation_score": 0.7023304471464004
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0140",
@@ -1763,10 +1947,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6993458845391962
+      "presentation_score": 0.6968759016918549
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0141",
@@ -1799,10 +1983,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6993458845391962
+      "presentation_score": 0.6968759016918549
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 64,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0133",
@@ -1835,10 +2019,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6955722996335358
+      "presentation_score": 0.6932395380554912
     },
     {
-      "cluster_id": 61,
+      "cluster_id": 71,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0126",
@@ -1871,10 +2055,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6936855071807057
+      "presentation_score": 0.6914213562373095
     },
     {
-      "cluster_id": 94,
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0169",
+      "representative_posted_date": "2026-11-18T05:00:00Z",
+      "representative_length": 5000,
+      "representative_excerpt": "Finally, the Commission must also avoid impeding online content that impersonates a government entity as satire or expression, rather than as content created and posted to deceive and exploit consumers. I. Scam Advertising Causes Real Harm Americans are all too often victims of online scams, deceived and misled by legitimate- looking, highly sophisticated...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0169": {
+          "organization": "Public Knowledge",
+          "postedDate": "2026-11-18T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Public Knowledge",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.6886940835100369
+    },
+    {
+      "cluster_id": 104,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0033",
@@ -1907,10 +2127,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.676704375105234
+      "presentation_score": 0.6750577198736731
     },
     {
-      "cluster_id": 95,
+      "cluster_id": 105,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0032",
@@ -1943,10 +2163,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6729307901995736
+      "presentation_score": 0.6714213562373095
     },
     {
-      "cluster_id": 99,
+      "cluster_id": 109,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0028",
@@ -1979,10 +2199,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6653836203882528
+      "presentation_score": 0.6641486289645822
     },
     {
-      "cluster_id": 97,
+      "cluster_id": 107,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0030",
@@ -2015,10 +2235,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6653836203882528
+      "presentation_score": 0.6641486289645822
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0176",
@@ -2051,10 +2271,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
+      "presentation_score": 0.647784992600946
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0178",
@@ -2087,10 +2307,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
+      "presentation_score": 0.647784992600946
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0182",
@@ -2123,10 +2343,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
+      "presentation_score": 0.647784992600946
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 12,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0187",
@@ -2159,10 +2379,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6514213562373096
+      "presentation_score": 0.647784992600946
     },
     {
-      "cluster_id": 112,
+      "cluster_id": 122,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0014",
@@ -2195,10 +2415,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6446289034071208
+      "presentation_score": 0.6441486289645821
     },
     {
-      "cluster_id": 111,
+      "cluster_id": 121,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0015",
@@ -2231,10 +2451,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6446289034071208
+      "presentation_score": 0.6441486289645821
     },
     {
-      "cluster_id": 113,
+      "cluster_id": 123,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0013",
@@ -2267,10 +2487,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6427421109542906
+      "presentation_score": 0.6423304471464003
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0168",
@@ -2303,10 +2523,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6419873939731586
+      "presentation_score": 0.6386940835100369
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0149",
@@ -2339,10 +2559,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6268930543505171
+      "presentation_score": 0.6241486289645823
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 62,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0135",
@@ -2375,10 +2595,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6174590920863662
+      "presentation_score": 0.6150577198736732
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 69,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0128",
@@ -2411,10 +2631,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6136855071807058
+      "presentation_score": 0.6114213562373096
     },
     {
-      "cluster_id": 88,
+      "cluster_id": 98,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0040",
@@ -2447,10 +2667,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6099119222750454
+      "presentation_score": 0.607784992600946
     },
     {
-      "cluster_id": 87,
+      "cluster_id": 97,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0041",
@@ -2483,10 +2703,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6099119222750454
+      "presentation_score": 0.607784992600946
     },
     {
-      "cluster_id": 96,
+      "cluster_id": 106,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0031",
@@ -2519,10 +2739,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5910439977467435
+      "presentation_score": 0.5896031744191278
     },
     {
-      "cluster_id": 100,
+      "cluster_id": 110,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0026",
@@ -2555,10 +2775,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.575949658124102
+      "presentation_score": 0.5750577198736733
     },
     {
-      "cluster_id": 103,
+      "cluster_id": 113,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0023",
@@ -2591,10 +2811,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5740628656712718
+      "presentation_score": 0.5732395380554914
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 6,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0193",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 180,
+      "representative_excerpt": "I was contacted by a man who also posted on FB. The post stated he was a Federal agent working with the grant division. $200,000 later I found out it was a big scam. Public beware!",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0193": {
+          "organization": "",
+          "postedDate": "2026-11-25T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "GA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Harrison, Melody",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0177",
@@ -2627,10 +2883,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5714213562373095
+      "presentation_score": 0.567784992600946
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0184",
@@ -2663,10 +2919,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5714213562373095
+      "presentation_score": 0.567784992600946
     },
     {
-      "cluster_id": 109,
+      "cluster_id": 119,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0017",
@@ -2699,10 +2955,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5665156958599511
+      "presentation_score": 0.5659668107827641
     },
     {
-      "cluster_id": 110,
+      "cluster_id": 120,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0016",
@@ -2735,10 +2991,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5646289034071209
+      "presentation_score": 0.5641486289645823
     },
     {
-      "cluster_id": 119,
+      "cluster_id": 129,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0006",
@@ -2771,10 +3027,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5533081486901398
+      "presentation_score": 0.5532395380554914
     },
     {
-      "cluster_id": 122,
+      "cluster_id": 132,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0002",
@@ -2810,7 +3066,43 @@
       "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 48,
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0189",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 402,
+      "representative_excerpt": "The Independent Community Bankers of America (ICBA) appreciates the opportunity to submit the attached comment on the Federal Trade Commission\u2019s advance notice of proposed rulemaking considering whether to update the Rule on Impersonation of Government and Businesses to address the role that search engines, social media, and other digital marketplace...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0189": {
+          "organization": "Independent Community Bankers of America (ICBA)",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Independent Community Bankers of America (ICBA)",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": true,
+      "presentation_score": 0.5396031744191278
+    },
+    {
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0139",
@@ -2843,10 +3135,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5393458845391963
+      "presentation_score": 0.536875901691855
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0138",
@@ -2879,10 +3171,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5374590920863661
+      "presentation_score": 0.5350577198736731
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 65,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0132",
@@ -2915,10 +3207,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5355722996335359
+      "presentation_score": 0.5332395380554913
     },
     {
-      "cluster_id": 74,
+      "cluster_id": 84,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0113",
@@ -2951,10 +3243,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5336855071807057
+      "presentation_score": 0.5314213562373096
     },
     {
-      "cluster_id": 73,
+      "cluster_id": 83,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0114",
@@ -2987,10 +3279,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5336855071807057
+      "presentation_score": 0.5314213562373096
     },
     {
-      "cluster_id": 79,
+      "cluster_id": 89,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0060",
@@ -3023,10 +3315,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5317987147278755
+      "presentation_score": 0.5296031744191277
     },
     {
-      "cluster_id": 78,
+      "cluster_id": 88,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0062",
@@ -3059,10 +3351,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5317987147278755
+      "presentation_score": 0.5296031744191277
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0156",
@@ -3095,10 +3387,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5225534317090077
+      "presentation_score": 0.5196031744191277
     },
     {
-      "cluster_id": 93,
+      "cluster_id": 103,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0034",
@@ -3131,10 +3423,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5204779600108944
+      "presentation_score": 0.5186940835100368
     },
     {
-      "cluster_id": 92,
+      "cluster_id": 102,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0035",
@@ -3167,10 +3459,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5204779600108944
+      "presentation_score": 0.5186940835100368
     },
     {
-      "cluster_id": 98,
+      "cluster_id": 108,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0029",
@@ -3203,16 +3495,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5053836203882529
+      "presentation_score": 0.5041486289645822
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0166",
-      "representative_posted_date": "2026-11-18T05:00:00Z",
-      "representative_length": 371,
-      "representative_excerpt": "In attempting to renew my US Coast Guard boat documentation, I searched the internet for a portal and found one that appeared at the top of the search and used coast guard in the text (photo attached). This organization is using a misleading technique to confuse consumers in order to get between the consumer and the government portal in order to extract...",
+      "representative_comment_id": "FTC-2026-1552-0196",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 319,
+      "representative_excerpt": "See attached file(s) I receive scam and phishing emails for SBA, Social Security and others frequently. The attached file is one I edited to share with my social media. Notes in red are mine. We need better safe guards, the more sophisticated the phishing, spam, etc the harder it is for many to discern real from fake.",
       "representative_signal_score": 0,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -3221,15 +3513,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "FTC-2026-1552-0166": {
+        "FTC-2026-1552-0196": {
           "organization": "",
-          "postedDate": "2026-11-18T05:00:00Z",
+          "postedDate": "2026-11-25T05:00:00Z",
           "zip": "",
           "city": "",
-          "stateProvinceRegion": "",
+          "stateProvinceRegion": "CA",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Jacoby, E",
+          "title": "Comment from Kirkpatrick, Connie",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -3239,10 +3531,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4819873939731586
+      "presentation_score": 0.49142135623730954
     },
     {
-      "cluster_id": 114,
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0197",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 1069,
+      "representative_excerpt": "Consumers should not carry the cost of scams that these platforms help distribute. I urge the Commission to consider requiring platforms to verify advertisers' identities, review ads before they run, monitor for impersonation, provide prominent reporting tools for consumers, investigate complaints promptly, and remove confirmed scam ads....",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0197": {
+          "organization": "",
+          "postedDate": "2026-11-25T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "GA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Carter, Daria",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 124,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0012",
@@ -3275,10 +3603,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.48085531850146046
+      "presentation_score": 0.4805122653282186
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 31,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0166",
+      "representative_posted_date": "2026-11-18T05:00:00Z",
+      "representative_length": 371,
+      "representative_excerpt": "In attempting to renew my US Coast Guard boat documentation, I searched the internet for a portal and found one that appeared at the top of the search and used coast guard in the text (photo attached). This organization is using a misleading technique to confuse consumers in order to get between the consumer and the government portal in order to extract...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0166": {
+          "organization": "",
+          "postedDate": "2026-11-18T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Jacoby, E",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.4786940835100368
+    },
+    {
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0158",
@@ -3311,10 +3675,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4782138090674982
+      "presentation_score": 0.4750577198736732
     },
     {
-      "cluster_id": 120,
+      "cluster_id": 130,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0005",
@@ -3347,10 +3711,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4733081486901397
+      "presentation_score": 0.47323953805549135
     },
     {
-      "cluster_id": 118,
+      "cluster_id": 128,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0007",
@@ -3383,10 +3747,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4733081486901397
+      "presentation_score": 0.47323953805549135
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0154",
@@ -3419,10 +3783,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47066663925617747
+      "presentation_score": 0.46778499260094586
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0150",
@@ -3455,10 +3819,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4668930543505171
+      "presentation_score": 0.46414862896458225
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0151",
@@ -3491,10 +3855,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4668930543505171
+      "presentation_score": 0.46414862896458225
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0152",
@@ -3527,10 +3891,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4668930543505171
+      "presentation_score": 0.46414862896458225
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0153",
@@ -3563,10 +3927,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4668930543505171
+      "presentation_score": 0.46414862896458225
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0144",
@@ -3599,10 +3963,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4650062618976869
+      "presentation_score": 0.4623304471464004
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0148",
@@ -3635,10 +3999,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4650062618976869
+      "presentation_score": 0.4623304471464004
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0136",
@@ -3671,10 +4035,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45745909208636615
+      "presentation_score": 0.45505771987367316
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0137",
@@ -3707,10 +4071,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45745909208636615
+      "presentation_score": 0.45505771987367316
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 63,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0134",
@@ -3743,10 +4107,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45557229963353596
+      "presentation_score": 0.45323953805549133
     },
     {
-      "cluster_id": 75,
+      "cluster_id": 85,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0112",
@@ -3779,10 +4143,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 72,
+      "cluster_id": 82,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0115",
@@ -3815,10 +4179,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 71,
+      "cluster_id": 81,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0116",
@@ -3851,10 +4215,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 70,
+      "cluster_id": 80,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0117",
@@ -3887,10 +4251,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 69,
+      "cluster_id": 79,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0118",
@@ -3923,10 +4287,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 68,
+      "cluster_id": 78,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0119",
@@ -3959,10 +4323,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 66,
+      "cluster_id": 76,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0121",
@@ -3995,10 +4359,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 64,
+      "cluster_id": 74,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0123",
@@ -4031,10 +4395,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 63,
+      "cluster_id": 73,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0124",
@@ -4067,10 +4431,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 62,
+      "cluster_id": 72,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0125",
@@ -4103,10 +4467,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 68,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0129",
@@ -4139,10 +4503,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 67,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0130",
@@ -4175,10 +4539,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4536855071807057
+      "presentation_score": 0.4514213562373095
     },
     {
-      "cluster_id": 86,
+      "cluster_id": 96,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0044",
@@ -4211,10 +4575,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 85,
+      "cluster_id": 95,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0046",
@@ -4247,10 +4611,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 84,
+      "cluster_id": 94,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0049",
@@ -4283,10 +4647,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 83,
+      "cluster_id": 93,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0051",
@@ -4319,10 +4683,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 82,
+      "cluster_id": 92,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0053",
@@ -4355,10 +4719,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 81,
+      "cluster_id": 91,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0055",
@@ -4391,10 +4755,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 80,
+      "cluster_id": 90,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0057",
@@ -4427,10 +4791,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 77,
+      "cluster_id": 87,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0092",
@@ -4463,10 +4827,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 76,
+      "cluster_id": 86,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0094",
@@ -4499,10 +4863,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.45179871472787553
+      "presentation_score": 0.44960317441912767
     },
     {
-      "cluster_id": 91,
+      "cluster_id": 101,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0036",
@@ -4535,10 +4899,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4423647524637246
+      "presentation_score": 0.44051226532821863
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0143",
@@ -4571,10 +4935,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4350062618976868
+      "presentation_score": 0.4323304471464004
     },
     {
-      "cluster_id": 104,
+      "cluster_id": 114,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0022",
@@ -4607,10 +4971,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41406286567127176
+      "presentation_score": 0.4132395380554913
     },
     {
-      "cluster_id": 102,
+      "cluster_id": 112,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0024",
@@ -4643,10 +5007,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41406286567127176
+      "presentation_score": 0.4132395380554913
     },
     {
-      "cluster_id": 101,
+      "cluster_id": 111,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0025",
@@ -4679,10 +5043,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.41406286567127176
+      "presentation_score": 0.4132395380554913
     },
     {
-      "cluster_id": 107,
+      "cluster_id": 117,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0019",
@@ -4715,46 +5079,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.406515695859951
+      "presentation_score": 0.40596681078276403
     },
     {
-      "cluster_id": 24,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "FTC-2026-1552-0163",
-      "representative_posted_date": "2026-11-17T05:00:00Z",
-      "representative_length": 42,
-      "representative_excerpt": "Comment from Taxpayers Protection Alliance",
-      "representative_signal_score": -1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "FTC-2026-1552-0163": {
-          "organization": "",
-          "postedDate": "2026-11-17T05:00:00Z",
-          "zip": "",
-          "city": "",
-          "stateProvinceRegion": "",
-          "country": "",
-          "attachmentCount": 0,
-          "title": "Comment from Taxpayers Protection Alliance",
-          "withdrawn": false,
-          "submissionRole": "organization",
-          "submissionRoleConfidence": "high",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.40010060152032834
-    },
-    {
-      "cluster_id": 117,
+      "cluster_id": 126,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "FTC-2026-1552-0009",
@@ -4787,7 +5115,43 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39896852604863026
+      "presentation_score": 0.39869408351003677
+    },
+    {
+      "cluster_id": 34,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "FTC-2026-1552-0163",
+      "representative_posted_date": "2026-11-17T05:00:00Z",
+      "representative_length": 42,
+      "representative_excerpt": "Comment from Taxpayers Protection Alliance",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "FTC-2026-1552-0163": {
+          "organization": "",
+          "postedDate": "2026-11-17T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Taxpayers Protection Alliance",
+          "withdrawn": false,
+          "submissionRole": "organization",
+          "submissionRoleConfidence": "high",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.39687590169185494
     }
   ],
   "comments_clusters_path": "data/comments/FTC-2026-1552.csv",
@@ -4795,18 +5159,18 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.23015873015873015,
+  "comments_first_page_coverage_share": 0.21323529411764705,
   "comments_first_page_coverage_count": 29,
-  "comments_clusters_total_available": 122,
-  "comments_clusters_displayed": 122,
-  "comments_first_page_high_signal_clusters": 23,
-  "comments_first_page_novelty_clusters": 12,
+  "comments_clusters_total_available": 132,
+  "comments_clusters_displayed": 132,
+  "comments_first_page_high_signal_clusters": 25,
+  "comments_first_page_novelty_clusters": 14,
   "comments_first_page_stance_counts": {
-    "neutral": 15,
+    "neutral": 14,
     "negative": 8,
-    "positive": 2
+    "positive": 3
   },
-  "comments_first_page_unique_days": 17,
+  "comments_first_page_unique_days": 18,
   "summary_available": true,
   "raw_summary_available": true,
   "argument_graph_available": true,

@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-24T11:12:22.289224+00:00",
+  "comment_action_checked_at": "2026-11-26T06:07:09.209895+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,55 +34,416 @@
   "comment_end_date": "2027-01-20T04:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 5,
-  "pass_3_score": 67.75,
+  "pass_3_score": 81.66666666666667,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.9999875235372248,
+  "pass_3_scaled": 0.9999987732119078,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8571965157028232,
+  "combined_score": 1.0,
   "score_total": 12,
   "pass_2_rule_type": "LEGAL_PROCEDURAL",
   "pass_2_rule_class": "STRUCTURAL_INSTITUTIONAL_RULE",
   "pass_2_routine_admin_score": 3,
   "pass_2_material_change_score": 4,
   "pass_2_risk_band": "moderate_analytical_concern",
-  "pass_4_raw": 0,
-  "pass_4_scaled": 0.0,
-  "pass_4_axes": {},
-  "pass_4_domain_means": {},
-  "pass_4_signals": [],
-  "pass_4_primary_concern": null,
-  "combined_score_pre_pass5": null,
-  "pass_5_alpha": null,
-  "pass_5_applicable": null,
-  "pass_5_rubric_version": null,
-  "pass_5_label": null,
-  "pass_5_assessment": null,
-  "pass_5_assessment_tier": null,
-  "pass_5_scaled": null,
-  "pass_5_worst_flaw_severity": null,
-  "pass_5_worst_flaw_key": null,
-  "pass_5_worst_flaw_name": null,
-  "pass_5_material_flaw_count": null,
-  "pass_5_worst_family_key": null,
-  "pass_5_worst_family_name": null,
-  "pass_5_worst_family_severity": null,
-  "pass_5_material_family_count": null,
-  "pass_5_base_defect_score": null,
-  "pass_5_scrutiny_pressure": null,
-  "pass_5_risk_pressure": null,
-  "pass_5_context_pressure": null,
-  "pass_5_scrutiny_multiplier": null,
-  "pass_5_risk_multiplier": null,
-  "pass_5_high_stakes_domain": null,
-  "pass_5_high_stakes_domain_reason": null,
-  "pass_5_red_flag": null,
+  "pass_4_raw": 4,
+  "pass_4_scaled": 0.42083333333333334,
+  "pass_4_axes": {
+    "statutory_authority_fit": 1,
+    "procedural_compliance_risk": 0,
+    "retroactivity_fair_notice_risk": 1,
+    "federalism_preemption_risk": 0,
+    "reasoned_explanation_completeness": 1,
+    "alternatives_analysis_adequacy": 1,
+    "cost_benefit_transparency": 2,
+    "data_quality_uncertainty_handling": 1,
+    "arbitrary_line_drawing_risk": 1,
+    "distributional_omission_risk": 1,
+    "environmental_justice_analysis_risk": 0,
+    "small_entity_impact_rfa_risk": 1,
+    "implementation_feasibility_risk": 1,
+    "enforcement_clarity_risk": 2,
+    "monitoring_and_feedback_design_quality": 0
+  },
+  "pass_4_domain_means": {
+    "L": 0.5,
+    "A": 1.2,
+    "H": 0.6666666666666666,
+    "E": 1.0
+  },
+  "pass_4_signals": [
+    "alternatives_analysis_adequacy",
+    "arbitrary_line_drawing_risk",
+    "cost_benefit_transparency",
+    "data_quality_uncertainty_handling",
+    "distributional_omission_risk",
+    "enforcement_clarity_risk",
+    "implementation_feasibility_risk",
+    "reasoned_explanation_completeness",
+    "retroactivity_fair_notice_risk",
+    "small_entity_impact_rfa_risk",
+    "statutory_authority_fit"
+  ],
+  "pass_4_primary_concern": "Inconsistent recruitment and filing deadlines can prevent otherwise compliant employers from submitting valid applications.",
+  "combined_score_pre_pass5": 0.9113130256617628,
+  "pass_5_alpha": 0.25,
+  "pass_5_applicable": true,
+  "pass_5_rubric_version": "pass5_structural_integrity_v1",
+  "pass_5_label": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment": "Serious \u00b7 Evidence and Rationale Integrity",
+  "pass_5_assessment_tier": "Serious",
+  "pass_5_scaled": 0.8053300196875001,
+  "pass_5_worst_flaw_severity": 2,
+  "pass_5_worst_flaw_key": "evidence_to_intrusion_mismatch",
+  "pass_5_worst_flaw_name": "Evidence-to-Intrusion Mismatch",
+  "pass_5_material_flaw_count": 3,
+  "pass_5_worst_family_key": "evidence_and_rationale_integrity",
+  "pass_5_worst_family_name": "Evidence and Rationale Integrity",
+  "pass_5_worst_family_severity": 2,
+  "pass_5_material_family_count": 2,
+  "pass_5_base_defect_score": 0.758923,
+  "pass_5_scrutiny_pressure": 0.15,
+  "pass_5_risk_pressure": 0.05,
+  "pass_5_context_pressure": 0.1925,
+  "pass_5_scrutiny_multiplier": 1.15,
+  "pass_5_risk_multiplier": 1.05,
+  "pass_5_high_stakes_domain": true,
+  "pass_5_high_stakes_domain_reason": "The program affects access to permanent employment-based immigration, livelihoods and worker displacement; former Schedule A healthcare staffing can also affect service continuity. This does not establish any particular shortage or patient outcome.",
+  "pass_5_red_flag": false,
   "pass_5_red_flag_gates": [],
-  "pass_5_concise_why": null,
-  "pass_5_most_important_consequence": null,
-  "pass_5_defect_families": [],
-  "pass_5_flaws": [],
-  "pass_5_failure_modes": {},
+  "pass_5_concise_why": "The worker-protection purpose fits the general recruitment reforms. Material concerns are incompatible filing clocks, a broadly restrictive layoff screen with limited comparative evidence, and an unreliable low-cost recruitment baseline. These are specific, potentially repairable defects; the record does not establish bad faith or a wholesale failure of the program.",
+  "pass_5_most_important_consequence": "Employers may lose a filing opportunity or repeat recruitment because the calendar is unclear, while laid-off U.S. workers may receive protections that are poorly targeted and sponsored workers face additional delay. Staffing effects depend on local conditions and are not quantified here.",
+  "pass_5_defect_families": [
+    {
+      "family_key": "authority_and_constitutional_fit",
+      "family_name": "Authority and Constitutional Fit",
+      "flaw_keys": [
+        "authority_substitution",
+        "statutory_inversion",
+        "accountability_inversion",
+        "self_policing_substitution"
+      ],
+      "member_count": 4,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "evidence_and_rationale_integrity",
+      "family_name": "Evidence and Rationale Integrity",
+      "flaw_keys": [
+        "evidence_to_intrusion_mismatch",
+        "remedy_rationale_mismatch",
+        "threat_ambiguity",
+        "impact_denial"
+      ],
+      "member_count": 4,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 2,
+      "material_share": 0.5,
+      "family_score": 0.425
+    },
+    {
+      "family_key": "implementation_reality",
+      "family_name": "Implementation Reality",
+      "flaw_keys": [
+        "implementation_fantasy",
+        "magic_interface_dependency",
+        "structural_coherence"
+      ],
+      "member_count": 3,
+      "worst_severity": 2,
+      "mean_severity": 1.0,
+      "material_flaw_count": 1,
+      "material_share": 0.333,
+      "family_score": 0.4
+    },
+    {
+      "family_key": "safeguards_and_accountability",
+      "family_name": "Safeguards and Accountability",
+      "flaw_keys": [
+        "safeguard_absence",
+        "externality_dumping",
+        "accountability_substrate_degradation"
+      ],
+      "member_count": 3,
+      "worst_severity": 0,
+      "mean_severity": 0.0,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.0
+    },
+    {
+      "family_key": "burden_and_consequence_handling",
+      "family_name": "Burden and Consequence Handling",
+      "flaw_keys": [
+        "harm_before_review",
+        "consequence_class_ambiguity"
+      ],
+      "member_count": 2,
+      "worst_severity": 1,
+      "mean_severity": 0.5,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.175
+    },
+    {
+      "family_key": "enforcement_and_control_architecture",
+      "family_name": "Enforcement and Control Architecture",
+      "flaw_keys": [
+        "constraint_sequencing_capture",
+        "procedural_gateway_control",
+        "ambiguity_enabled_gatekeeping",
+        "targetability_abuse_surface",
+        "suspicion_machine"
+      ],
+      "member_count": 5,
+      "worst_severity": 1,
+      "mean_severity": 0.2,
+      "material_flaw_count": 0,
+      "material_share": 0.0,
+      "family_score": 0.153
+    }
+  ],
+  "pass_5_flaws": [
+    {
+      "flaw_key": "authority_substitution",
+      "flaw_name": "Authority Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "DOL performs the labor-certification function assigned to it; disputed Schedule A interpretation alone is not a substitution of another actor\u2019s authority.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "statutory_inversion",
+      "flaw_name": "Statutory Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "No exception or implementation hook is shown being converted into a new principal grant of power.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "accountability_inversion",
+      "flaw_name": "Accountability Inversion",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Employer signatures and independent attorney/agent liability clarify rather than displace accountability.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "self_policing_substitution",
+      "flaw_name": "Self-Policing Substitution",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Employer attestations remain subject to OFLC document review, audits, supervised recruitment and sanctions; independent review is expanded.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "constraint_sequencing_capture",
+      "flaw_name": "Constraint Sequencing Capture",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Pre-filing recruitment is integral to labor certification. The calendar drafting conflict is assessed under structural coherence, without duplicate scoring here.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "evidence_to_intrusion_mismatch",
+      "flaw_name": "Evidence-to-Intrusion Mismatch",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "A categorical two-year pre-filing layoff bar materially restricts access without a demonstrated relationship between each historical layoff and current worker availability. DOL explains circumvention and invites input, but no comparative effectiveness evidence establishes the breadth of the screen.",
+      "evidence": [
+        {
+          "section": "III.D, proposed \u00a7 656.13(e); pp. 73945\u201373946",
+          "quote_or_absence": "The proposal prohibits filing after a relevant layoff within two years. The reviewed record explains circumvention qualitatively but does not quantify how that lookback predicts current availability or compare it with a documented recall exception."
+        }
+      ],
+      "comment_leverage": "Request layoff/recall outcomes and a documented-availability alternative to the absolute bar."
+    },
+    {
+      "flaw_key": "remedy_rationale_mismatch",
+      "flaw_name": "Remedy-Rationale Mismatch",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Recruitment, worker parity, layoff safeguards and document review address the stated objectives. The evidentiary breadth of one screen is scored separately.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "implementation_fantasy",
+      "flaw_name": "Implementation Fantasy",
+      "defect_type": "Type II",
+      "severity": 1,
+      "explanation": "Universal document review and former Schedule A volume add workload. A detailed capacity model is not visible, but existing FLAG processing makes implementation plausible.",
+      "evidence": [],
+      "comment_leverage": "Request staffing, queue and readiness scenarios rather than assuming technical impossibility."
+    },
+    {
+      "flaw_key": "magic_interface_dependency",
+      "flaw_name": "Magic Interface Dependency",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Existing FLAG accounts and interagency data-sharing arrangements provide an actual interface; coordination details need confirmation but are not magical assumptions.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "threat_ambiguity",
+      "flaw_name": "Threat Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "The target harms\u2014unfair recruitment, displacement, fraud and adverse wage/working-condition effects\u2014are identifiable.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "impact_denial",
+      "flaw_name": "Impact Denial",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The zero incremental placement-cost assumption, together with an unreconciled savings calculation, understates the uncertainty of the economic case. DOL acknowledges other unquantified burdens; the finding is limited to the claimed low-cost recruitment baseline, not general denial of harm.",
+      "evidence": [
+        {
+          "section": "IV.A.3.iii.a; pp. 73985\u201373986",
+          "quote_or_absence": "The Department assumes that there are no additional costs to employers to place a job advertisement on job search engines and at a job fair (or -campus recruitment)."
+        },
+        {
+          "section": "IV.A.3.iii.a; p. 73985",
+          "quote_or_absence": "This yields an estimated annual cost-savings of approximately $174,465,390 (108,786 \u00d7 $1,362)."
+        }
+      ],
+      "comment_leverage": "Cost customary paid channels, staff time and fair/campus participation; reconcile gross and net savings."
+    },
+    {
+      "flaw_key": "targetability_abuse_surface",
+      "flaw_name": "Targetability / Abuse Surface",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "No specific viewpoint-, association- or geography-based suppression lever is established. Ordinary geographic labor-market definitions and reviewable compliance discretion do not establish such misuse.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "safeguard_absence",
+      "flaw_name": "Safeguard Absence",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Reconsideration, BALCA appeals, revocation notice/rebuttal and electronic-access accommodations are meaningful safeguards.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "externality_dumping",
+      "flaw_name": "Externality Dumping",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Ordinary recruitment and compliance costs are placed on sponsoring employers; no separate material transfer of cleanup responsibility to uninvolved outsiders is demonstrated.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "suspicion_machine",
+      "flaw_name": "Suspicion Machine",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Layoffs trigger defined worker-protection obligations; the proportionality concern is already scored as evidence-to-intrusion mismatch, not presumed wrongdoing from ordinary conduct.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "accountability_substrate_degradation",
+      "flaw_name": "Accountability Substrate Degradation",
+      "defect_type": "Type I",
+      "severity": 0,
+      "explanation": "Longer retention, accessible application records and upfront documentation strengthen traceability.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "harm_before_review",
+      "flaw_name": "Harm Before Review",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Filing exclusions and recruitment costs may affect employers and sponsored workers before a challenge is resolved; notice and appeal mechanisms exist. No distinct irreversible-harm mechanism is established.",
+      "evidence": [],
+      "comment_leverage": "Clarify preservation of filing opportunities during correction and transition."
+    },
+    {
+      "flaw_key": "procedural_gateway_control",
+      "flaw_name": "Procedural Gateway Control",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Electronic filing and website implementation notices do not establish a new route for substantive requirements to bypass notice and comment.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "consequence_class_ambiguity",
+      "flaw_name": "Consequence-Class Ambiguity",
+      "defect_type": "Type II",
+      "severity": 0,
+      "explanation": "Denial, revocation, referral and debarment have distinct provisions and review procedures; no separate material confusion between sanction classes is established.",
+      "evidence": [],
+      "comment_leverage": "No distinct material defect identified from the reviewed record."
+    },
+    {
+      "flaw_key": "ambiguity_enabled_gatekeeping",
+      "flaw_name": "Ambiguity-Enabled Gatekeeping",
+      "defect_type": "Type I",
+      "severity": 1,
+      "explanation": "Same-or-similar occupations, customary recruiting and third-party diligence need examples. The concrete filing-clock defect is scored under structural coherence rather than again here.",
+      "evidence": [],
+      "comment_leverage": "Publish neutral worked examples and documentary diligence standards."
+    },
+    {
+      "flaw_key": "structural_coherence",
+      "flaw_name": "Structural Coherence",
+      "defect_type": "Type II",
+      "severity": 2,
+      "explanation": "The filing and advertising clocks fit together, at best, only on day 30 under a common reading of completion, while the preamble directs filing in days 1\u201329. Fixed transition dates also conflict with the described publication-relative schedule. These correctable mechanics can determine whether a filing is accepted.",
+      "evidence": [
+        {
+          "section": "Proposed \u00a7 656.10(b); p. 74007",
+          "quote_or_absence": "must be filed within 30 calendar days after the completion of the recruitment procedures"
+        },
+        {
+          "section": "Proposed \u00a7 656.17(d); p. 74012",
+          "quote_or_absence": "must be completed no more than 60 calendar days and no less than 30 calendar days before the expected filing"
+        },
+        {
+          "section": "III.D, \u00a7 656.10(b); p. 73938",
+          "quote_or_absence": "file the application between 1 and 29 calendar days after the last recruitment activity ends"
+        },
+        {
+          "section": "Proposed \u00a7 656.7; pp. 74006\u201374007",
+          "quote_or_absence": "Operative text fixes January 19 and February 16, 2027, while the preamble describes 60 days after final publication plus 30 transition days."
+        }
+      ],
+      "comment_leverage": "Align \u00a7\u00a7 656.7, 656.10(b) and 656.17(c)\u2013(d); define completion and publish valid filing-calendar examples."
+    }
+  ],
+  "pass_5_failure_modes": {
+    "incompetence_administrative_incoherence": true,
+    "instrumental_disruption": false,
+    "ambiguity_as_mechanism": false,
+    "conversion_surface": {
+      "present": false,
+      "source_surface": "",
+      "converted_surface": "",
+      "authority_used": "",
+      "new_control_point": "",
+      "affected_constraint": "",
+      "harm_before_review_pathway": ""
+    }
+  },
   "pass_2_flags": [
     "assertion_heavy_vs_evidence_language",
     "deregulatory_carveout_with_thin_support",
@@ -163,51 +524,53 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 518,
-  "comments_velocity_total": 518,
-  "comments_public_total_estimate": 518,
+  "comments_total": 708,
+  "comments_velocity_total": 708,
+  "comments_public_total_estimate": 708,
   "comments_fetched": 30,
-  "comments_text_hydrated": 31,
-  "comments_cached_records": 30,
-  "comments_unique_clusters": 30,
-  "comments_clustered_duplicates": 0,
+  "comments_text_hydrated": 30,
+  "comments_cached_records": 60,
+  "comments_unique_clusters": 58,
+  "comments_clustered_duplicates": 2,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 0,
-  "comments_citizen_count": 29,
+  "comments_citizen_count": 59,
   "comments_commenter_type_counts": {
-    "citizen": 29,
+    "citizen": 59,
     "organization_other": 1
   },
   "comments_submission_role_counts": {
-    "individual": 30
+    "individual": 60
   },
   "comments_submission_channel_counts": {
-    "public_portal": 30
+    "public_portal": 60
   },
-  "comments_public_count": 30,
+  "comments_public_count": 60,
   "comments_recorded_count": 0,
   "comments_agency_material_count": 0,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
-    "2026-11-23": 30
+    "2026-11-24": 29,
+    "2026-11-23": 29
   },
   "comments_high_signal_cluster_count_by_day": {
-    "2026-11-23": 9
+    "2026-11-24": 8,
+    "2026-11-23": 8
   },
-  "comments_novel_comment_rate": 1.0,
-  "comments_sentiment_positive_pct": 0.09999999999999999,
-  "comments_sentiment_negative_pct": 0.39999999999999997,
-  "comments_sentiment_neutral_pct": 0.5,
-  "comments_sentiment_net": -0.3,
-  "comments_sentiment_sample_size": 30,
+  "comments_novel_comment_rate": 0.9666666666666667,
+  "comments_sentiment_positive_pct": 0.11830334413689678,
+  "comments_sentiment_negative_pct": 0.41549761133078816,
+  "comments_sentiment_neutral_pct": 0.4661990445323152,
+  "comments_sentiment_net": -0.2971942671938914,
+  "comments_sentiment_sample_size": 60,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 30,
+  "comments_analysis_sample_size": 60,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 30,
-  "comments_representative_prior_selected": 30,
+  "comments_representative_selected": 60,
+  "comments_representative_prior_selected": 60,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 1,
   "comments_representative_run_budget": 30,
@@ -217,19 +580,121 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 1,
     "salience_rank": 12,
-    "weighted_fill": 17
+    "weighted_fill": 47
   },
-  "comments_representative_selected_by_counts_total": 30,
+  "comments_representative_selected_by_counts_total": 60,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-24T06:54:19.917928+00:00",
-  "comments_checked_at": "2026-11-24T06:54:20.271892+00:00",
+  "comments_api_last_seen_at": "2026-11-25T23:28:28.213311+00:00",
+  "comments_checked_at": "2026-11-25T23:28:28.914851+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 18,
+      "cluster_id": 6,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0598",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 2169,
+      "representative_excerpt": "The required newspaper ads are rarely read by working engineers. \\- Require employers to document lawful, job-related reasons for rejecting each U.S. applicant, and make those records auditable. \\- Prohibit job requirements that are tailored...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0598": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Muns, K",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "ETA-2026-0133-0543": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7675598066567094
+    },
+    {
+      "cluster_id": 13,
+      "count": 2,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0582",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 3078,
+      "representative_excerpt": "While I strongly support modernizing recruitment requirements\u2014such as replacing outdated print newspaper advertisements with digital job portals and online recruitment methods that reflect actual industry hiring practices\u2014I urge the Department to reconsider the proposed two-year layoff bar and related post-filing layoff restrictions. 1. A Two-Year Layoff...",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0582": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        },
+        "ETA-2026-0133-0057": {
+          "organization": "",
+          "postedDate": "2026-11-23T05:00:00Z",
+          "zip": "",
+          "city": "Carnation",
+          "stateProvinceRegion": "WA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Jones, Nathaniel",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6875598066567093
+    },
+    {
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0041",
@@ -262,10 +727,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0043",
@@ -298,10 +763,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.9500000000000001
+      "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 18,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0562",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 4507,
+      "representative_excerpt": "Proposed 656.7 makes the rule effective January 19, 2027, the day comments close. 10. The economic analysis fails arithmetic. Savings of $174,465,390 are stated as 108,786 x $1,362, which is $148,166,532. The $1,362 comes from a marketing website; replacement recruitment is assumed free; ending Schedule A is costed at one hour per case; no benefit to any U....",
+      "representative_signal_score": 5,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0562": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8914213562373096
+    },
+    {
+      "cluster_id": 25,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0535",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 2558,
+      "representative_excerpt": "Economic impact.** The Regulatory Flexibility Act (5 U.S.C. \u00a7\u00a7601\u2013612) requires the Department to analyze the rule's effects on small businesses and consider less burdensome alternatives. Small employers, rural hospitals, research universities and startups depend on PERM to keep specialized talent. Higher compliance costs and longer timelines would push...",
+      "representative_signal_score": 4,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0535": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from c, jenny",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.8114213562373095
+    },
+    {
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0012",
@@ -334,10 +871,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7899999999999999
+      "presentation_score": 0.6314213562373094
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0020",
@@ -370,33 +907,105 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7899999999999999
+      "presentation_score": 0.6314213562373094
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "ETA-2026-0133-0038",
-      "representative_posted_date": "2026-11-23T05:00:00Z",
-      "representative_length": 2298,
-      "representative_excerpt": "It does not measure how long a vacancy must stay posted to reach the people who are searching. Job seekers search continuously, and job boards push new listings to them through alerts and aggregators, so a posting reaches the active pool quickly. The Department\u2019s logic holds only if each seeker looks at listings once. Market evidence points the other way....",
+      "representative_comment_id": "ETA-2026-0133-0531",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 2608,
+      "representative_excerpt": "Say whether fully remote jobs should stay eligible (DOL asks for comment). 6. Enforcement and debarment (\u00a7 656.31) Cover common ownership and officers, not just successors in interest, to stop shell companies. Add penalties for sham rejections: denial, revocation, and debarment, applied consistently. Use more random audits and cross-check against state...",
       "representative_signal_score": 3,
-      "representative_stance": "neutral",
+      "representative_stance": "negative",
       "representative_submission_channel": "public_portal",
       "representative_lexical_stance": "",
       "representative_library_stance": "",
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "ETA-2026-0133-0038": {
+        "ETA-2026-0133-0531": {
           "organization": "",
-          "postedDate": "2026-11-23T05:00:00Z",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Tyler, Jake",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7314213562373094
+    },
+    {
+      "cluster_id": 17,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0568",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 4832,
+      "representative_excerpt": "DOL has not shown this produces more qualified applicants, better hires, or higher wages. A uniform mandate ignores differences in occupation, region, employer size, and specialized vacancies. Adopt a shorter, evidence-based default and allow equivalent methods tailored to the job and area. The two-year pre-filing bar after a layoff is overbroad. Layoffs...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0568": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7314213562373094
+    },
+    {
+      "cluster_id": 15,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0577",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 4560,
+      "representative_excerpt": "Mexico opened few temporary shelter with daily capacity of 6k right after GOP cheats won majority in Nov 2025 but closed all by march 2026 saying they are not seeing any demand. Lol lol Asylum backlog was 2.3 million when Trump and his ladies took oath and as of today its 3.8 millions so additional open EAD folks poured in to benefit political donors with...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0577": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Yan, Ting",
+          "title": "Comment from DonorSuckerParty, DCSwampDraining",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -406,16 +1015,16 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7899999999999999
+      "presentation_score": 0.7314213562373094
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 14,
       "count": 1,
       "page_count": 0,
-      "representative_comment_id": "ETA-2026-0133-0057",
-      "representative_posted_date": "2026-11-23T05:00:00Z",
-      "representative_length": 3191,
-      "representative_excerpt": "Consider disclosure of coordinated attrition programs. Employers filing PERM applications could be required to disclose whether relevant separations occurred under a workforce-wide performance ranking, mandatory attrition target, or similar program. Australia\u2019s labor market testing framework provides a useful precedent for requiring disclosure of recent...",
+      "representative_comment_id": "ETA-2026-0133-0579",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 2891,
+      "representative_excerpt": "Neither employers nor workers can plan around that. Request: end the obligation on the filing date of the labor certification, or set a fixed, published window. 4. Ending Schedule A for nurses and physical therapists HRSA's December 2025 projections show a national RN shortage of 8% in 2028 and about 109,000 FTE RNs in 2038, plus about 246,000 FTE LPNs....",
       "representative_signal_score": 3,
       "representative_stance": "neutral",
       "representative_submission_channel": "public_portal",
@@ -424,51 +1033,15 @@
       "representative_sentiment_conflict": false,
       "representative_sentiment_method": "",
       "submissions": {
-        "ETA-2026-0133-0057": {
+        "ETA-2026-0133-0579": {
           "organization": "",
-          "postedDate": "2026-11-23T05:00:00Z",
-          "zip": "",
-          "city": "Carnation",
-          "stateProvinceRegion": "WA",
-          "country": "United States",
-          "attachmentCount": 0,
-          "title": "Comment from Jones, Nathaniel",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.7899999999999999
-    },
-    {
-      "cluster_id": 4,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "ETA-2026-0133-0075",
-      "representative_posted_date": "2026-11-23T05:00:00Z",
-      "representative_length": 1982,
-      "representative_excerpt": "A subsequent Form I-140 petition does not necessarily represent a new job opportunity, a new employer, an attempt to avoid recruitment, or an attempt to undermine the labor-market test. In many cases, the employer and beneficiary remain in the same employment relationship, and the underlying position continues to satisfy the requirements of the original...",
-      "representative_signal_score": 3,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "ETA-2026-0133-0075": {
-          "organization": "",
-          "postedDate": "2026-11-23T05:00:00Z",
+          "postedDate": "2026-11-24T05:00:00Z",
           "zip": "",
           "city": "",
           "stateProvinceRegion": "",
           "country": "United States",
           "attachmentCount": 0,
-          "title": "Comment from Addams, Cassy",
+          "title": "Comment from Reddy, Vikram",
           "withdrawn": false,
           "submissionRole": "individual",
           "submissionRoleConfidence": "low",
@@ -478,10 +1051,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7899999999999999
+      "presentation_score": 0.7314213562373094
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 12,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0583",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 4173,
+      "representative_excerpt": "Many foreign workers enter the United States on temporary nonimmigrant visas and continue extending their status for years, particularly after receiving I-140 approval. The government needs to examine this practice more closely. 3. The current PERM labor certification process is outdated. Employers are required to advertise positions, interview U.S....",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0583": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.7314213562373094
+    },
+    {
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0076",
@@ -514,10 +1123,298 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.84
+      "presentation_score": 0.6814213562373095
+    },
+    {
+      "cluster_id": 28,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0530",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 4680,
+      "representative_excerpt": "the proposed changes, combined with current PERM processing times, could harm US citizens, approved-I-140 workers, reduce employee mobility, and weaken wage competition. 1. A continuing labor-market test is impractical given processing times PERM adjudication currently takes approximately one year. The overall process, including recruitment, prevailing...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0530": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 23,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0541",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 2285,
+      "representative_excerpt": "Game here is, once they got green card, within few years they file sponsorship for their parents who gets green card in a year without long backlog mainly for India/China/Mexico/Philippines as parents has no waiting. Basically reward cheaters with green card/citizenship who did all the damage at first place. This is legal and easiest form of Amnesty....",
+      "representative_signal_score": 2,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0541": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from DonorSuckerParty, DirtyDCSwamp",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 20,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0547",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 3703,
+      "representative_excerpt": "A rigid two-year look-back window coupled with post-filing recruitment updates subjects employers to perpetual compliance uncertainty and discourages lawful...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0547": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from John, Smith",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 11,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0585",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 1566,
+      "representative_excerpt": "A regulation that effectively restricts lawful immigrant petition strategies, imposes new barriers on previously approved employment arrangements, or interferes with adjustment-of-status procedures administered by DHS requires a particularly careful explanation of the Department's legal authority. The Department cannot use general policy objectives as a...",
+      "representative_signal_score": 2,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0585": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 3,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0614",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 1279,
+      "representative_excerpt": "The Department must explain the factual basis for assuming that the number of affected petitions accurately represents the frequency of reportable layoffs. It should identify the expected number of qualifying layoff events, the number of employers affected, the number of workers involved in each event, and the expected number of internal investigations...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0614": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
     },
     {
       "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0618",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 3480,
+      "representative_excerpt": "Specifically, I strongly support the following core provisions of the proposed rule: \u2022 Modernized Digital Recruitment and the 90-Day Advertising Window: Replacing obsolete print ads with modern recruitment channels\u2014including employer career websites, online job boards, social media, job fairs, and campus outreach\u2014closes the visibility loopholes companies...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0618": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6514213562373096
+    },
+    {
+      "cluster_id": 48,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0038",
+      "representative_posted_date": "2026-11-23T05:00:00Z",
+      "representative_length": 2298,
+      "representative_excerpt": "It does not measure how long a vacancy must stay posted to reach the people who are searching. Job seekers search continuously, and job boards push new listings to them through alerts and aggregators, so a posting reaches the active pool quickly. The Department\u2019s logic holds only if each seeker looks at listings once. Market evidence points the other way....",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0038": {
+          "organization": "",
+          "postedDate": "2026-11-23T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Yan, Ting",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6314213562373094
+    },
+    {
+      "cluster_id": 33,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0075",
+      "representative_posted_date": "2026-11-23T05:00:00Z",
+      "representative_length": 1982,
+      "representative_excerpt": "A subsequent Form I-140 petition does not necessarily represent a new job opportunity, a new employer, an attempt to avoid recruitment, or an attempt to undermine the labor-market test. In many cases, the employer and beneficiary remain in the same employment relationship, and the underlying position continues to satisfy the requirements of the original...",
+      "representative_signal_score": 3,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0075": {
+          "organization": "",
+          "postedDate": "2026-11-23T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Addams, Cassy",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6314213562373094
+    },
+    {
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0082",
@@ -550,10 +1447,118 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7899999999999999
+      "presentation_score": 0.6314213562373094
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 24,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0536",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 2827,
+      "representative_excerpt": "The consequence of this is that talented American students all gravitate to finance or other professional fields. If you are young and ambitious, we make it abundantly clear that you should avoid engineering and make a career moving money around or putting cavities in molars. Don\u2019t build, don\u2019t create, don\u2019t innovate. We don\u2019t want that here. This is sad....",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0536": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "Houston",
+          "stateProvinceRegion": "TX",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Gardner, Jason",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 10,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0586",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 1323,
+      "representative_excerpt": "The Department must distinguish between preventing actual fraud and imposing broad restrictions on legitimate employment-based immigration cases. Employers and beneficiaries should not be required to repeat expensive recruitment procedures, obtain new prevailing wage determinations, or restart lengthy certification processes merely because the Department...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0586": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 7,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0597",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 2347,
+      "representative_excerpt": "Third, additional barriers to permanent employment sponsorship could reduce labor market mobility. Skilled foreign workers may become increasingly reluctant to change employers, even when better opportunities exist. This reduces competition for talent, makes it harder for growing American companies to attract experienced workers, and ultimately weakens the...",
+      "representative_signal_score": 1,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0597": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373095
+    },
+    {
+      "cluster_id": 50,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0029",
@@ -586,10 +1591,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0030",
@@ -622,10 +1627,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0039",
@@ -658,10 +1663,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0049",
@@ -694,10 +1699,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0060",
@@ -730,10 +1735,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0065",
@@ -766,10 +1771,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 34,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0074",
@@ -802,10 +1807,334 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7100000000000001
+      "presentation_score": 0.5514213562373096
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 29,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0522",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 950,
+      "representative_excerpt": "They are facing lower wages and worse benefits because of employers using underhanded tactics to bring in cheap labor. This practice has not only led to a harsher quality of life for many Americans, including well educated Americans, but has resulted in poorer quality products and services for end consumers. I ask the Department of Labor to enact all...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0522": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 22,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0542",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 894,
+      "representative_excerpt": "Companies are getting EB1C so called executive managers and placing them with clients for roles like Scrum master, Project Lead, Project Coordinator and these so called highly skilled foreign workers are eating up jobs for less pay that are a good fit to many U.S. workers. Covering Eb2 and Eb3 is a very welcoming move but please close the loop hole in...",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0542": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 19,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0561",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 186,
+      "representative_excerpt": "This update is unnecessary and not fair. Please reconsider and not make this into effect. It is important to have a standard PERM process and the original PERM process is already strict.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0561": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 16,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0573",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 137,
+      "representative_excerpt": "This proposal basically denies many companies critical to American economy the ability to leverage foreign talents in the long term. Sad.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0573": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 9,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0591",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 238,
+      "representative_excerpt": "I oppose this rule. Isolationism and misoxeny do not make for a strong labor market; they only lead talented, qualified workers to seek employment elsewhere, while overwhelming our already-understaffed businesses to the point of shutdown.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0591": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 8,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0592",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 286,
+      "representative_excerpt": "US corporations should not be allowed to benefit from US institutions built by Americans while not using American labor. This is corrosive to the American body. If they want foreign labor, they should outsource, not strain our local welfare and civic organizations with yet more people.",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0592": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "Venice",
+          "stateProvinceRegion": "CA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Carboni, Ryan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 5,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0601",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 720,
+      "representative_excerpt": "Whats more, the irony is that much of this population growth is from outsourced labor and political refugees who do not prescribe to the \"birth control\" the government and academia have long endorsed. Furthermore, Our society has made it more lucrative and stable (VISA has to remain at job 3 years) to sponsor VISAs toward greencard status in the medical...",
+      "representative_signal_score": 0,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0601": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "Minden",
+          "stateProvinceRegion": "LA",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Jones, Ivan",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 4,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0606",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 134,
+      "representative_excerpt": "Please advance this law\u2014protecting American workers and the jobs they must have to support thrir families must be your first priority.",
+      "representative_signal_score": 0,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0606": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0620",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 1004,
+      "representative_excerpt": "I enjoy the quality of life given to my family and I, as I continue to work very hard in short-staffed environments all over the States. Please be informed, that health care professionals who migrated don't take anything away from the American people. I add extraordinary care each and every time I clock in to work and sometimes when I am not even at work....",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0620": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "Cayce",
+          "stateProvinceRegion": "SC",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Mohammed, Laticia",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0023",
@@ -838,10 +2167,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0024",
@@ -874,10 +2203,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0026",
@@ -910,10 +2239,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0045",
@@ -946,10 +2275,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0046",
@@ -982,10 +2311,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0059",
@@ -1018,10 +2347,82 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.63
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 26,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0534",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 68,
+      "representative_excerpt": "These are reasonable and beneficial proposals that are long overdue.",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0534": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "Oldsmar",
+          "stateProvinceRegion": "FL",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Fleming, John",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 21,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "ETA-2026-0133-0546",
+      "representative_posted_date": "2026-11-24T05:00:00Z",
+      "representative_length": 77,
+      "representative_excerpt": "No more impoverishing Americans for foreigners and corporations. End H-1B now",
+      "representative_signal_score": -1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "ETA-2026-0133-0546": {
+          "organization": "",
+          "postedDate": "2026-11-24T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Gunderson, Connor",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.41142135623730947
+    },
+    {
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0005",
@@ -1054,10 +2455,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0008",
@@ -1090,10 +2491,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0021",
@@ -1126,10 +2527,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 12,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0053",
@@ -1162,10 +2563,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0063",
@@ -1198,10 +2599,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 6,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0066",
@@ -1234,10 +2635,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0135",
@@ -1270,10 +2671,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.55
+      "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "ETA-2026-0133-0042",
@@ -1306,7 +2707,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.47
+      "presentation_score": 0.3114213562373095
     }
   ],
   "comments_clusters_path": "data/comments/ETA-2026-0133.csv",
@@ -1314,22 +2715,22 @@
   "government_submissions": [],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.8333333333333334,
-  "comments_first_page_coverage_count": 25,
-  "comments_clusters_total_available": 30,
-  "comments_clusters_displayed": 30,
-  "comments_first_page_high_signal_clusters": 9,
+  "comments_first_page_coverage_share": 0.45,
+  "comments_first_page_coverage_count": 27,
+  "comments_clusters_total_available": 58,
+  "comments_clusters_displayed": 58,
+  "comments_first_page_high_signal_clusters": 16,
   "comments_first_page_novelty_clusters": 1,
   "comments_first_page_stance_counts": {
-    "negative": 12,
-    "neutral": 12,
-    "positive": 1
+    "negative": 13,
+    "neutral": 9,
+    "positive": 3
   },
-  "comments_first_page_unique_days": 1,
-  "summary_available": false,
-  "raw_summary_available": false,
-  "argument_graph_available": false,
-  "argument_graph_path": "",
+  "comments_first_page_unique_days": 2,
+  "summary_available": true,
+  "raw_summary_available": true,
+  "argument_graph_available": true,
+  "argument_graph_path": "/data/argument_graphs/ETA-2026-0133-0002_argument_graph.svg",
   "archived_summary_only": false,
   "archive_source": null,
   "route_id": "ETA-2026-0133"

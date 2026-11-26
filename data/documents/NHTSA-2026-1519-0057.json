@@ -11,7 +11,7 @@
   "comment_action_supported": true,
   "comment_action_status_code": 403,
   "comment_action_error": "http_403_nonbrowser_check",
-  "comment_action_checked_at": "2026-11-24T11:12:22.668951+00:00",
+  "comment_action_checked_at": "2026-11-26T06:07:09.559408+00:00",
   "comment_read_url": null,
   "comment_count_supported": true,
   "comment_count_note": null,
@@ -34,12 +34,12 @@
   "comment_end_date": "2026-12-11T04:59:59Z",
   "pass_1_score": 7,
   "pass_2_score": 5,
-  "pass_3_score": 4.9,
+  "pass_3_score": 4.903225806451613,
   "pass_1_scaled": 0.6144897670005335,
   "pass_2_scaled": 0.8642791191702541,
-  "pass_3_scaled": 0.5580977904154747,
+  "pass_3_scaled": 0.5583353083939444,
   "ranking_multiplier": 1.0,
-  "combined_score": 0.8090315955740498,
+  "combined_score": 0.8091826046514784,
   "score_total": 12,
   "pass_2_rule_type": "TECHNICAL",
   "pass_2_rule_class": "ANALYTICAL_RULEMAKING",
@@ -85,7 +85,7 @@
     "small_entity_impact_rfa_risk"
   ],
   "pass_4_primary_concern": "The notice makes several safety and impact conclusions without showing comparative engineering, human-factors, or quantified cost-benefit evidence.",
-  "combined_score_pre_pass5": 0.6758185485729632,
+  "combined_score_pre_pass5": 0.675944692886841,
   "pass_5_alpha": 0.25,
   "pass_5_applicable": true,
   "pass_5_rubric_version": "pass5_structural_integrity_v1",
@@ -449,7 +449,7 @@
       "comment_end_date": "2026-12-11T04:59:59Z",
       "pass_1_score": 7,
       "pass_2_score": 6,
-      "pass_3_score": 3.111111111111111,
+      "pass_3_score": 3.1,
       "meta_document_type_score": 5,
       "meta_agency_score": 0,
       "meta_title_signal_score": 2,
@@ -558,34 +558,36 @@
       "pass_2_error": null,
       "pass_1_scaled": 0.6144897670005335,
       "pass_2_scaled": 0.9089717898486955,
-      "pass_3_scaled": 0.404598028102226,
+      "pass_3_scaled": 0.40349441030503164,
       "ranking_multiplier": 1.0,
-      "combined_score": 0.5684403021210122,
+      "combined_score": 0.567888493222415,
       "supporting_related_material_count": 0,
       "supporting_related_material": [],
       "supporting_docs_error": null,
-      "comments_total": 2,
-      "comments_fetched": 2,
-      "comments_text_hydrated": 3,
-      "comments_cached_records": 2,
-      "comments_unique_clusters": 2,
+      "comments_total": 3,
+      "comments_fetched": 1,
+      "comments_text_hydrated": 2,
+      "comments_cached_records": 3,
+      "comments_unique_clusters": 3,
       "comments_clustered_duplicates": 0,
-      "comments_truncated": false,
+      "comments_truncated": true,
       "comments_source": "api",
       "comments_zip_prefix_span": 1,
       "comments_citizen_count": 1,
       "comments_commenter_type_counts": {
-        "citizen": 1,
-        "government": 1
+        "government": 2,
+        "citizen": 1
       },
       "comments_submission_role_counts": {
-        "individual": 1,
-        "government_tribal": 1
+        "government_tribal": 2,
+        "individual": 1
       },
       "comments_new_cluster_count_by_day": {
+        "2026-11-24": 1,
         "2026-11-23": 2
       },
       "comments_high_signal_cluster_count_by_day": {
+        "2026-11-24": 1,
         "2026-11-23": 1
       },
       "comments_novel_comment_rate": 1.0,
@@ -595,11 +597,11 @@
       "comments_sentiment_net": -1.0,
       "comments_sentiment_sample_size": 1,
       "comments_bulk_last_posted_date": null,
-      "comments_api_last_seen_at": "2026-11-24T06:12:19.984129+00:00",
-      "comments_checked_at": "2026-11-24T06:12:20.024610+00:00",
+      "comments_api_last_seen_at": "2026-11-25T22:31:02.889788+00:00",
+      "comments_checked_at": "2026-11-25T22:31:02.972342+00:00",
       "comments_clusters": [
         {
-          "cluster_id": 2,
+          "cluster_id": 3,
           "count": 1,
           "page_count": 0,
           "representative_comment_id": "NHTSA-2026-1519-0062",
@@ -629,10 +631,43 @@
               "submissionChannelConfidence": "medium"
             }
           },
-          "presentation_score": 0.9500000000000001
+          "presentation_score": 0.8500000000000001
         },
         {
           "cluster_id": 1,
+          "count": 1,
+          "page_count": 0,
+          "representative_comment_id": "NHTSA-2026-1519-0067",
+          "representative_posted_date": "2026-11-24T05:00:00Z",
+          "representative_length": 5000,
+          "representative_excerpt": "Thank you very much in advance for USA taking into account comments from P.R. China. Your formal reply will be appreciated. Best regards, Jiao Yang Deputy Director General China WTO/TBT National Notification & Enquiry Center No.20\uff0cHepingli East Street, Dongcheng District, Beijing Post Code: 100013 Tel: 86-10-57954605 Fax: 86-10-57954683 E-mail: tbt@customs....",
+          "representative_signal_score": 3,
+          "representative_stance": "negative",
+          "representative_submission_channel": "agency_material",
+          "representative_has_attachment": false,
+          "representative_has_non_self_org": false,
+          "neighbor_cluster_ids": [],
+          "submissions": {
+            "NHTSA-2026-1519-0067": {
+              "organization": "",
+              "postedDate": "2026-11-24T05:00:00Z",
+              "zip": "",
+              "city": "",
+              "stateProvinceRegion": "",
+              "country": "",
+              "attachmentCount": 0,
+              "title": "Comment from China WTO/TBT National Notification & Enquiry Center",
+              "withdrawn": false,
+              "submissionRole": "government_tribal",
+              "submissionRoleConfidence": "high",
+              "submissionChannel": "agency_material",
+              "submissionChannelConfidence": "medium"
+            }
+          },
+          "presentation_score": 0.9500000000000001
+        },
+        {
+          "cluster_id": 2,
           "count": 1,
           "page_count": 0,
           "representative_comment_id": "NHTSA-2026-1519-0063",
@@ -662,7 +697,7 @@
               "submissionChannelConfidence": "medium"
             }
           },
-          "presentation_score": 0.6833333333333332
+          "presentation_score": 0.5833333333333333
         }
       ],
       "comments_error": null,
@@ -675,12 +710,12 @@
       "matched_institutional_governance": [],
       "matched_extension_notice": [],
       "comments_submission_channel_counts": {
-        "public_portal": 1,
-        "agency_material": 1
+        "agency_material": 2,
+        "public_portal": 1
       },
       "comments_public_count": 1,
       "comments_recorded_count": 0,
-      "comments_agency_material_count": 1,
+      "comments_agency_material_count": 2,
       "comments_unknown_channel_count": 0,
       "comments_public_total_estimate": 1,
       "comments_velocity_total": 1
@@ -692,38 +727,39 @@
   "referenced_comments": [],
   "referenced_comments_count": 0,
   "referenced_comments_mentions": 0,
-  "comments_total": 60,
-  "comments_velocity_total": 57,
-  "comments_public_total_estimate": 57,
-  "comments_fetched": 3,
-  "comments_text_hydrated": 4,
-  "comments_cached_records": 60,
-  "comments_unique_clusters": 59,
+  "comments_total": 62,
+  "comments_velocity_total": 59,
+  "comments_public_total_estimate": 59,
+  "comments_fetched": 2,
+  "comments_text_hydrated": 2,
+  "comments_cached_records": 62,
+  "comments_unique_clusters": 61,
   "comments_clustered_duplicates": 1,
   "comments_truncated": true,
   "comments_source": "api",
   "comments_zip_prefix_span": 8,
-  "comments_citizen_count": 49,
+  "comments_citizen_count": 51,
   "comments_commenter_type_counts": {
-    "citizen": 49,
+    "citizen": 51,
     "government": 1,
     "organization_other": 10
   },
   "comments_submission_role_counts": {
-    "individual": 50,
+    "individual": 52,
     "government_tribal": 1,
     "organization": 9
   },
   "comments_submission_channel_counts": {
-    "public_portal": 57,
+    "public_portal": 59,
     "agency_material": 1,
     "other_channel_recorded": 2
   },
-  "comments_public_count": 57,
+  "comments_public_count": 59,
   "comments_recorded_count": 2,
   "comments_agency_material_count": 1,
   "comments_unknown_channel_count": 0,
   "comments_new_cluster_count_by_day": {
+    "2026-11-25": 2,
     "2026-11-23": 3,
     "2026-11-17": 2,
     "2026-11-16": 3,
@@ -741,24 +777,25 @@
     "2026-10-26": 6
   },
   "comments_high_signal_cluster_count_by_day": {
+    "2026-11-25": 1,
     "2026-11-23": 1,
     "2026-10-29": 1,
     "2026-10-27": 2,
     "2026-10-26": 1
   },
-  "comments_novel_comment_rate": 0.9833333333333333,
-  "comments_sentiment_positive_pct": 0.07069015906742052,
-  "comments_sentiment_negative_pct": 0.1237077783679859,
-  "comments_sentiment_neutral_pct": 0.8056020625645935,
-  "comments_sentiment_net": -0.05301761930056538,
-  "comments_sentiment_sample_size": 57,
+  "comments_novel_comment_rate": 0.9838709677419355,
+  "comments_sentiment_positive_pct": 0.06827690638106605,
+  "comments_sentiment_negative_pct": 0.15362303935739863,
+  "comments_sentiment_neutral_pct": 0.7781000542615354,
+  "comments_sentiment_net": -0.08534613297633258,
+  "comments_sentiment_sample_size": 59,
   "comments_sentiment_method": "lexical",
   "comments_sentiment_analysis_conflict_rate": 0.0,
   "comments_metrics_basis": "representative_sample",
-  "comments_analysis_sample_size": 60,
+  "comments_analysis_sample_size": 62,
   "comments_analysis_cap_per_period": 5000,
-  "comments_representative_selected": 60,
-  "comments_representative_prior_selected": 60,
+  "comments_representative_selected": 62,
+  "comments_representative_prior_selected": 62,
   "comments_representative_newly_selected": 0,
   "comments_representative_must_keep": 12,
   "comments_representative_run_budget": 0,
@@ -768,19 +805,19 @@
   "comments_representative_selected_by_counts": {
     "must_keep": 12,
     "salience_rank": 1,
-    "weighted_fill": 47
+    "weighted_fill": 49
   },
-  "comments_representative_selected_by_counts_total": 60,
+  "comments_representative_selected_by_counts_total": 62,
   "comments_api_backfill_next_page": 1,
   "comments_api_backfill_complete": false,
   "comments_api_backfill_sort": "-postedDate",
   "comments_bulk_last_posted_date": null,
-  "comments_api_last_seen_at": "2026-11-24T06:05:58.954328+00:00",
-  "comments_checked_at": "2026-11-24T06:05:59.363977+00:00",
+  "comments_api_last_seen_at": "2026-11-25T22:27:43.261391+00:00",
+  "comments_checked_at": "2026-11-25T22:27:43.711849+00:00",
   "comments_error": null,
   "comments_clusters": [
     {
-      "cluster_id": 32,
+      "cluster_id": 34,
       "count": 2,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0030",
@@ -828,10 +865,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4418455209424237
+      "presentation_score": 0.4408931399900427
     },
     {
-      "cluster_id": 58,
+      "cluster_id": 60,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0003",
@@ -867,7 +904,7 @@
       "presentation_score": 0.7914213562373096
     },
     {
-      "cluster_id": 53,
+      "cluster_id": 55,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0008",
@@ -900,10 +937,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7949927848087381
+      "presentation_score": 0.7947546895706429
     },
     {
-      "cluster_id": 50,
+      "cluster_id": 52,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0011",
@@ -936,10 +973,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7949927848087381
+      "presentation_score": 0.7947546895706429
     },
     {
-      "cluster_id": 40,
+      "cluster_id": 42,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0021",
@@ -972,10 +1009,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.8021356419515953
+      "presentation_score": 0.8014213562373096
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 4,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0065",
@@ -1008,10 +1045,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
+      "presentation_score": 0.884754689570643
+    },
+    {
+      "cluster_id": 2,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NHTSA-2026-1519-0068",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 4916,
+      "representative_excerpt": "Zoox's exemption has hazards activate for pick-ups or drop-offs outside a parking spot or parking lane. Require hazards when stopped in a travel lane or at a minimal risk condition, never in place of stop lamps or turn signals. (NHTSA Zoox exemption 2026, https://www.federalregister.gov/d/2026-15485) 3. Proposed S9.4 and S9.4.1: The preamble says misused...",
+      "representative_signal_score": 3,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NHTSA-2026-1519-0068": {
+          "organization": "",
+          "postedDate": "2026-11-25T05:00:00Z",
+          "zip": "",
+          "city": "",
+          "stateProvinceRegion": "",
+          "country": "",
+          "attachmentCount": 0,
+          "title": "Comment from Anonymous",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
       "presentation_score": 0.8914213562373096
     },
     {
-      "cluster_id": 54,
+      "cluster_id": 56,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0007",
@@ -1047,43 +1120,7 @@
       "presentation_score": 0.658088022903976
     },
     {
-      "cluster_id": 48,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NHTSA-2026-1519-0013",
-      "representative_posted_date": "2026-10-27T04:00:00Z",
-      "representative_length": 4285,
-      "representative_excerpt": "NHTSA\u2019s proposal to establish standardized performance requirements for optional cyan-colored ADS marker lamps addresses an important function: communicating that an ADS is actively performing the dynamic driving task. This function is distinct from that of red stop lamps, which provide braking-related information to following road users. 1. Distinction...",
-      "representative_signal_score": 2,
-      "representative_stance": "positive",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NHTSA-2026-1519-0013": {
-          "organization": "",
-          "postedDate": "2026-10-27T04:00:00Z",
-          "zip": "28008",
-          "city": "Madrid",
-          "stateProvinceRegion": "Madrid",
-          "country": "Spain",
-          "attachmentCount": 0,
-          "title": "Comment from Manuel De la Morena",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.6616594514754046
-    },
-    {
-      "cluster_id": 6,
+      "cluster_id": 8,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0056",
@@ -1116,10 +1153,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.783088022903976
+      "presentation_score": 0.778088022903976
     },
     {
-      "cluster_id": 5,
+      "cluster_id": 7,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0058",
@@ -1152,10 +1189,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7366594514754046
+      "presentation_score": 0.7314213562373094
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 17,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0047",
@@ -1188,10 +1225,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7080880229039761
+      "presentation_score": 0.7047546895706427
     },
     {
-      "cluster_id": 14,
+      "cluster_id": 16,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0048",
@@ -1224,10 +1261,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7080880229039761
+      "presentation_score": 0.7047546895706427
     },
     {
-      "cluster_id": 13,
+      "cluster_id": 15,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0049",
@@ -1260,10 +1297,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.7080880229039761
+      "presentation_score": 0.7047546895706427
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 5,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0064",
@@ -1296,10 +1333,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.6747546895706428
+      "presentation_score": 0.6680880229039762
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 50,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NHTSA-2026-1519-0013",
+      "representative_posted_date": "2026-10-27T04:00:00Z",
+      "representative_length": 4285,
+      "representative_excerpt": "NHTSA\u2019s proposal to establish standardized performance requirements for optional cyan-colored ADS marker lamps addresses an important function: communicating that an ADS is actively performing the dynamic driving task. This function is distinct from that of red stop lamps, which provide braking-related information to following road users. 1. Distinction...",
+      "representative_signal_score": 2,
+      "representative_stance": "positive",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NHTSA-2026-1519-0013": {
+          "organization": "",
+          "postedDate": "2026-10-27T04:00:00Z",
+          "zip": "28008",
+          "city": "Madrid",
+          "stateProvinceRegion": "Madrid",
+          "country": "Spain",
+          "attachmentCount": 0,
+          "title": "Comment from Manuel De la Morena",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.6614213562373094
+    },
+    {
+      "cluster_id": 3,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0066",
@@ -1332,10 +1405,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.6247546895706427
+      "presentation_score": 0.6180880229039761
     },
     {
-      "cluster_id": 18,
+      "cluster_id": 20,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0044",
@@ -1368,10 +1441,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.614040403856357
+      "presentation_score": 0.6114213562373094
     },
     {
-      "cluster_id": 52,
+      "cluster_id": 54,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0009",
@@ -1404,46 +1477,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.5783261181420714
+      "presentation_score": 0.5780880229039761
     },
     {
       "cluster_id": 12,
-      "count": 1,
-      "page_count": 0,
-      "representative_comment_id": "NHTSA-2026-1519-0050",
-      "representative_posted_date": "2026-11-09T05:00:00Z",
-      "representative_length": 745,
-      "representative_excerpt": "Patent No. 11,338,727 B2; https://dynamicstoplamp.com). This submission builds upon my previous comment (Comment ID: NHTSA-2026-1519-0013; Tracking Number: mvq-qcal-h7qv) and addresses the functional distinction between Automated Driving System (ADS) operational-status indication, intended vehicle movement signaling, and dynamic vehicle deceleration...",
-      "representative_signal_score": 1,
-      "representative_stance": "neutral",
-      "representative_submission_channel": "public_portal",
-      "representative_lexical_stance": "",
-      "representative_library_stance": "",
-      "representative_sentiment_conflict": false,
-      "representative_sentiment_method": "",
-      "submissions": {
-        "NHTSA-2026-1519-0050": {
-          "organization": "",
-          "postedDate": "2026-11-09T05:00:00Z",
-          "zip": "28008",
-          "city": "Madrid",
-          "stateProvinceRegion": "Madrid",
-          "country": "Spain",
-          "attachmentCount": 0,
-          "title": "Comment from Manuel De la Morena",
-          "withdrawn": false,
-          "submissionRole": "individual",
-          "submissionRoleConfidence": "low",
-          "submissionChannel": "public_portal",
-          "submissionChannelConfidence": "medium"
-        }
-      },
-      "representative_has_attachment": false,
-      "representative_has_non_self_org": false,
-      "presentation_score": 0.5747546895706428
-    },
-    {
-      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0052",
@@ -1476,10 +1513,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.49499278480873804
+      "presentation_score": 0.4914213562373095
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 19,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0045",
@@ -1512,10 +1549,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4807070705230238
+      "presentation_score": 0.4780880229039762
     },
     {
-      "cluster_id": 26,
+      "cluster_id": 28,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0036",
@@ -1548,10 +1585,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.47356421338016663
+      "presentation_score": 0.4714213562373095
     },
     {
-      "cluster_id": 42,
+      "cluster_id": 44,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0019",
@@ -1584,10 +1621,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.4485642133801666
+      "presentation_score": 0.44808802290397615
     },
     {
-      "cluster_id": 49,
+      "cluster_id": 51,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0012",
@@ -1620,10 +1657,46 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.44499278480873805
+      "presentation_score": 0.44475468957064285
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 14,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NHTSA-2026-1519-0050",
+      "representative_posted_date": "2026-11-09T05:00:00Z",
+      "representative_length": 745,
+      "representative_excerpt": "Patent No. 11,338,727 B2; https://dynamicstoplamp.com). This submission builds upon my previous comment (Comment ID: NHTSA-2026-1519-0013; Tracking Number: mvq-qcal-h7qv) and addresses the functional distinction between Automated Driving System (ADS) operational-status indication, intended vehicle movement signaling, and dynamic vehicle deceleration...",
+      "representative_signal_score": 1,
+      "representative_stance": "neutral",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NHTSA-2026-1519-0050": {
+          "organization": "",
+          "postedDate": "2026-11-09T05:00:00Z",
+          "zip": "28008",
+          "city": "Madrid",
+          "stateProvinceRegion": "Madrid",
+          "country": "Spain",
+          "attachmentCount": 0,
+          "title": "Comment from Manuel De la Morena",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.5714213562373094
+    },
+    {
+      "cluster_id": 23,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0041",
@@ -1656,10 +1729,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5604689752849285
+      "presentation_score": 0.5580880229039761
     },
     {
-      "cluster_id": 30,
+      "cluster_id": 32,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0032",
@@ -1692,10 +1765,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5497546895706428
+      "presentation_score": 0.5480880229039761
     },
     {
-      "cluster_id": 28,
+      "cluster_id": 30,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0034",
@@ -1728,10 +1801,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5497546895706428
+      "presentation_score": 0.5480880229039761
     },
     {
-      "cluster_id": 44,
+      "cluster_id": 46,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0017",
@@ -1764,10 +1837,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5318975467134999
+      "presentation_score": 0.5314213562373095
     },
     {
-      "cluster_id": 51,
+      "cluster_id": 53,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0010",
@@ -1800,10 +1873,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5283261181420713
+      "presentation_score": 0.528088022903976
     },
     {
-      "cluster_id": 45,
+      "cluster_id": 47,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0016",
@@ -1836,10 +1909,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.5283261181420713
+      "presentation_score": 0.528088022903976
     },
     {
-      "cluster_id": 57,
+      "cluster_id": 59,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0004",
@@ -1875,7 +1948,43 @@
       "presentation_score": 0.5247546895706428
     },
     {
-      "cluster_id": 4,
+      "cluster_id": 1,
+      "count": 1,
+      "page_count": 0,
+      "representative_comment_id": "NHTSA-2026-1519-0069",
+      "representative_posted_date": "2026-11-25T05:00:00Z",
+      "representative_length": 1017,
+      "representative_excerpt": "I believe that people who work hard, follow the law, pay their taxes on time, and have clean driving records should be treated fairly. They should have the opportunity to continue working and supporting their families. This is simply my personal opinion. Our country needs people who are willing to work, pay taxes, and contribute to the economy. We should...",
+      "representative_signal_score": 0,
+      "representative_stance": "negative",
+      "representative_submission_channel": "public_portal",
+      "representative_lexical_stance": "",
+      "representative_library_stance": "",
+      "representative_sentiment_conflict": false,
+      "representative_sentiment_method": "",
+      "submissions": {
+        "NHTSA-2026-1519-0069": {
+          "organization": "",
+          "postedDate": "2026-11-25T05:00:00Z",
+          "zip": "11223",
+          "city": "Brooklyn",
+          "stateProvinceRegion": "NY",
+          "country": "United States",
+          "attachmentCount": 0,
+          "title": "Comment from Maks David",
+          "withdrawn": false,
+          "submissionRole": "individual",
+          "submissionRoleConfidence": "low",
+          "submissionChannel": "public_portal",
+          "submissionChannelConfidence": "medium"
+        }
+      },
+      "representative_has_attachment": false,
+      "representative_has_non_self_org": false,
+      "presentation_score": 0.49142135623730954
+    },
+    {
+      "cluster_id": 6,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0059",
@@ -1908,10 +2017,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4699927848087381
+      "presentation_score": 0.46475468957064286
     },
     {
-      "cluster_id": 8,
+      "cluster_id": 10,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0054",
@@ -1944,10 +2053,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4664213562373095
+      "presentation_score": 0.4614213562373095
     },
     {
-      "cluster_id": 7,
+      "cluster_id": 9,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0055",
@@ -1980,10 +2089,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4664213562373095
+      "presentation_score": 0.4614213562373095
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 11,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0053",
@@ -2016,10 +2125,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4521356419515952
+      "presentation_score": 0.4480880229039762
     },
     {
-      "cluster_id": 11,
+      "cluster_id": 13,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0051",
@@ -2052,10 +2161,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.44499278480873805
+      "presentation_score": 0.4414213562373095
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 18,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0046",
@@ -2088,10 +2197,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4414213562373095
+      "presentation_score": 0.4380880229039762
     },
     {
-      "cluster_id": 20,
+      "cluster_id": 22,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0042",
@@ -2124,10 +2233,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4271356419515952
+      "presentation_score": 0.42475468957064283
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 21,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0043",
@@ -2160,10 +2269,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4271356419515952
+      "presentation_score": 0.42475468957064283
     },
     {
-      "cluster_id": 27,
+      "cluster_id": 29,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0035",
@@ -2196,10 +2305,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42356421338016664
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 25,
+      "cluster_id": 27,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0037",
@@ -2232,10 +2341,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42356421338016664
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 26,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0038",
@@ -2268,10 +2377,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42356421338016664
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 23,
+      "cluster_id": 25,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0039",
@@ -2304,10 +2413,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.42356421338016664
+      "presentation_score": 0.42142135623730953
     },
     {
-      "cluster_id": 31,
+      "cluster_id": 33,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0031",
@@ -2340,10 +2449,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4164213562373095
+      "presentation_score": 0.4147546895706428
     },
     {
-      "cluster_id": 29,
+      "cluster_id": 31,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0033",
@@ -2376,10 +2485,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.4164213562373095
+      "presentation_score": 0.4147546895706428
     },
     {
-      "cluster_id": 41,
+      "cluster_id": 43,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0020",
@@ -2412,10 +2521,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 39,
+      "cluster_id": 41,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0022",
@@ -2448,10 +2557,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 38,
+      "cluster_id": 40,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0023",
@@ -2484,10 +2593,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 37,
+      "cluster_id": 39,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0024",
@@ -2520,10 +2629,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 36,
+      "cluster_id": 38,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0025",
@@ -2556,10 +2665,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 35,
+      "cluster_id": 37,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0026",
@@ -2592,10 +2701,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 34,
+      "cluster_id": 36,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0027",
@@ -2628,10 +2737,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 33,
+      "cluster_id": 35,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0028",
@@ -2664,10 +2773,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.40213564195159524
+      "presentation_score": 0.4014213562373095
     },
     {
-      "cluster_id": 43,
+      "cluster_id": 45,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0018",
@@ -2700,10 +2809,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.3985642133801666
+      "presentation_score": 0.39808802290397616
     },
     {
-      "cluster_id": 47,
+      "cluster_id": 49,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0014",
@@ -2736,10 +2845,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39499278480873806
+      "presentation_score": 0.39475468957064286
     },
     {
-      "cluster_id": 46,
+      "cluster_id": 48,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0015",
@@ -2772,10 +2881,10 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": false,
-      "presentation_score": 0.39499278480873806
+      "presentation_score": 0.39475468957064286
     },
     {
-      "cluster_id": 59,
+      "cluster_id": 61,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0002",
@@ -2811,7 +2920,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 56,
+      "cluster_id": 58,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0005",
@@ -2847,7 +2956,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 55,
+      "cluster_id": 57,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0006",
@@ -2883,7 +2992,7 @@
       "presentation_score": 0.3914213562373095
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 24,
       "count": 1,
       "page_count": 0,
       "representative_comment_id": "NHTSA-2026-1519-0040",
@@ -2916,7 +3025,7 @@
       },
       "representative_has_attachment": false,
       "representative_has_non_self_org": true,
-      "presentation_score": 0.3402308800468333
+      "presentation_score": 0.33808802290397616
     }
   ],
   "comments_clusters_path": "data/comments/NHTSA-2026-1519.csv",
@@ -2935,21 +3044,21 @@
       "withdrawn": false,
       "representative_excerpt": "The Permitted Chromaticity Region Overlaps the Neutral Points of Red\u2013 Green Color-Vision Deficiency C. The Cyan Region Adjoins the Existing Blue Boundary D. Intensity Limits Do Not Bound Luminance, and the Measurement Distance Assumes a Small Source E. The Evidence Base Cannot Detect a Safety Effect F. Requested Validation Program Docket No. NHTSA-2026...",
       "source_cluster_ids": [
-        2
+        4
       ]
     }
   ],
   "comments_display_strategy": "balanced_v1",
   "comments_first_page_count": 25,
-  "comments_first_page_coverage_share": 0.43333333333333335,
+  "comments_first_page_coverage_share": 0.41935483870967744,
   "comments_first_page_coverage_count": 26,
-  "comments_clusters_total_available": 59,
-  "comments_clusters_displayed": 59,
-  "comments_first_page_high_signal_clusters": 5,
+  "comments_clusters_total_available": 61,
+  "comments_clusters_displayed": 61,
+  "comments_first_page_high_signal_clusters": 6,
   "comments_first_page_novelty_clusters": 9,
   "comments_first_page_stance_counts": {
-    "neutral": 16,
-    "negative": 6,
+    "neutral": 15,
+    "negative": 7,
     "positive": 3
   },
   "comments_first_page_unique_days": 14,
